@@ -1,7 +1,6 @@
 - 👋 Hi, I’m @AkshayKhoyani
 - 👀 I’m interested in unity 3D and C#
 - 🌱 I’m currently learning Game development and Blockchain
-- 💞️ I’m looking to collaborate on ...
 - 📫 Message me on Facebook just find akshay khoyani only one profile get.
 
 <!---
