@@ -9,7 +9,8 @@
 <canvas id="c" width="1080" height="1920"></canvas>
 <script>
 // ---------- Config ----------
-const W = 1080, H = 1920, DUR = 36;
+const W = 1080, H = 1920;
+let DUR = 36;
 const C = {
   green: '#22c55e', green2: '#4ade80', amber: '#f59e0b', text: '#f8fafc',
   muted: '#94a3b8', card: 'rgba(255,255,255,0.06)', stroke: 'rgba(255,255,255,0.12)'
@@ -308,10 +309,27 @@ function progressBar(t) {
   ctx.fillStyle = C.green; ctx.fillRect(0, 0, W * clamp(t / DUR), 10);
 }
 
+// Scene timing: animations are authored on DESIGN times; setTimeline() stretches
+// each scene to the real (voiceover-driven) length.
+const DESIGN = [[0, 4.5], [4.5, 9], [9, 22], [22, 28], [28, 32.5], [32.5, 36]];
+let ACTUAL = DESIGN.map(x => x.slice());
+window.setTimeline = durs => {
+  let s = 0;
+  ACTUAL = durs.map(d => { const r = [s, s + d]; s += d; return r; });
+  DUR = s; window.DUR = DUR;
+};
+function designTime(t) {
+  let i = ACTUAL.findIndex(([, b]) => t < b);
+  if (i < 0) i = ACTUAL.length - 1;
+  const [A, B] = ACTUAL[i], [a, b] = DESIGN[i];
+  return a + (t - A) * (b - a) / (B - A);
+}
+
 window.renderFrame = function (t) {
   ctx.globalAlpha = 1;
+  const d = designTime(t);
   background(t);
-  scene1(t); scene2(t); scene3(t); scene4(t); scene5(t); scene6(t);
+  scene1(d); scene2(d); scene3(d); scene4(d); scene5(d); scene6(d);
   progressBar(t);
 };
 window.DUR = DUR;
