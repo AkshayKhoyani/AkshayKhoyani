@@ -206,7 +206,7 @@ Simplified illustration. Data: NPCI (October 2026).
 
 **YouTube Shorts title:**
 ```
-₹20 ka UPI 2 Second Mein Kaise Pahunchta Hai? 🤯 3D Explained #shorts
+₹20 ka UPI Seconds Mein Kaise Pahunchta Hai? 🤯 3D Explained #shorts
 ```
 
 **Keywords / tags:**
