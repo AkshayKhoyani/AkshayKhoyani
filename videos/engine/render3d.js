@@ -29,7 +29,7 @@ const server = http.createServer((req, res) => {
   const port = server.address().port;
   const browser = await chromium.launch({ args: ['--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] });
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 } });
-  page.on('console', m => { if (m.type() === 'error') console.log('page:', m.text()); });
+  page.on('console', m => { if (!m.text().includes('GL Driver')) console.log('page:', m.text()); });
   page.on('pageerror', e => console.log('pageerror:', e.message));
   await page.goto(`http://127.0.0.1:${port}/${rel}/index.html`);
   await page.waitForFunction(() => window.READY === true, null, { timeout: 120000 });

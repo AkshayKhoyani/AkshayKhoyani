@@ -127,6 +127,7 @@ export function buildCity(fj, opts = {}) {
     bm.setMatrixAt(i, o.matrix); bm.setColorAt(i, new THREE.Color(c));
   });
   scene.add(bm);
+  fj.city = { blds, bm };
   const tm = new THREE.InstancedMesh(new THREE.IcosahedronGeometry(1, 0), mat(PAL.tree), trees.length);
   const trm = new THREE.InstancedMesh(new THREE.CylinderGeometry(0.25, 0.3, 1, 5), mat(PAL.trunk), trees.length);
   trees.forEach(([x, z, s], i) => {
@@ -245,7 +246,7 @@ export function cameraPath(fj, keys) {
   const P = new THREE.CatmullRomCurve3(keys.map(k => new THREE.Vector3(...k.pos)), false, 'centripetal');
   const T = new THREE.CatmullRomCurve3(keys.map(k => new THREE.Vector3(...k.at)), false, 'centripetal');
   const n = keys.length - 1;
-  fj.updaters.unshift(t => {
+  fj.camUpdate = t => {
     let i = keys.findIndex((k, j) => j < n && t < keys[j + 1].t);
     if (i < 0) i = t < keys[0].t ? 0 : n - 1;
     const k = easeInOut(prog(t, keys[i].t, keys[i + 1].t));
@@ -254,7 +255,8 @@ export function cameraPath(fj, keys) {
     fj.camera.lookAt(T.getPoint(u));
     const f0 = keys[i].fov || 46, f1 = keys[i + 1].fov || 46;
     fj.camera.fov = lerp(f0, f1, k); fj.camera.updateProjectionMatrix();
-  });
+  };
+  fj.updaters.unshift(fj.camUpdate);
 }
 
 // ---------- 2D overlays ----------
@@ -457,7 +459,25 @@ export function progressBar(fj) {
   });
 }
 
+// hide buildings the camera would fly through (samples the whole camera path)
+export function clearCameraPath(fj, margin = 7) {
+  if (!fj.city || !fj.camUpdate) return 0;
+  const { blds, bm } = fj.city, hidden = new Set(), m = new THREE.Matrix4().makeScale(0, 0, 0);
+  for (let t = 0; t <= fj.tl.total; t += 0.04) {
+    fj.camUpdate(t);
+    const c = fj.camera.position;
+    blds.forEach(([w, h, d, x, z], i) => {
+      if (Math.abs(c.x - x) < w / 2 + margin && Math.abs(c.z - z) < d / 2 + margin && c.y < h + 0.5 + margin) hidden.add(i);
+    });
+  }
+  hidden.forEach(i => bm.setMatrixAt(i, m));
+  bm.instanceMatrix.needsUpdate = true;
+  return hidden.size;
+}
+
 export function ready(fj) {
+  const n = clearCameraPath(fj);
+  if (n) console.log('cleared buildings on camera path:', n);
   window.renderFrame = t => fj.render(t);
   fj.render(0);
   window.READY = true;
