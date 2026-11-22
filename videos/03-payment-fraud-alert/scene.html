@@ -7,6 +7,7 @@
 </head>
 <body>
 <canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/brand.js"></script>
 <script>
 // Facts used:
 //  Digital arrest: 21,900+ complaints, Rs 647 crore, 1 Jan - 31 Aug 2026 (I4C/MHA status report to Supreme Court).
@@ -374,20 +375,20 @@ function s5(t) { // 1930 30 – 39
   }
 }
 
-function s6(t) { // CTA 39 – 43
-  // burst
-  const bp = prog(t, 39.6, 40.6);
+function s6(t) { // CTA 39 – 43 (Finance Junction end card)
+  const bp = prog(t, 39.8, 40.8);
   if (bp > 0 && bp < 1) {
     for (let i = 0; i < 24; i++) {
-      const ang = (i / 24) * Math.PI * 2, r = 120 + easeOut(bp) * 420;
-      txt(['❤️', '📤', '👍', '🔔'][i % 4], 540 + Math.cos(ang) * r, 860 + Math.sin(ang) * r, { size: 44, alpha: 1 - bp });
+      const ang = (i / 24) * Math.PI * 2, r = 160 + easeOut(bp) * 420;
+      txt(['❤️', '📤', '👍', '🔔'][i % 4], 540 + Math.cos(ang) * r, 790 + Math.sin(ang) * r, { size: 44, alpha: 1 - bp });
     }
   }
-  words(t, 39.2, 'Family group mein', 640, { size: 76, weight: 900 });
-  words(t, 39.5, 'SHARE karo 📲', 760, { size: 96, weight: 900, colors: [C.green2, C.text] });
-  pop(t, 40.1, 'Ek share kisi ka paisa bacha sakta hai', 540, 850, { size: 40, weight: 600, color: C.muted });
-  const s = easeBack(prog(t, 40.6, 41.2)) * (1 + 0.04 * Math.sin(t * 6));
-  txt('Follow karo 🔔', 540, 1060, { size: 104, weight: 900, color: C.green2, scale: s, alpha: clamp(s) });
+  words(t, 39.1, 'Family group mein', 290, { size: 70, weight: 900 });
+  words(t, 39.4, 'SHARE karo 📲', 395, { size: 90, weight: 900, colors: [C.green2, C.text] });
+  pop(t, 39.8, 'Ek share kisi ka paisa bacha sakta hai', 540, 465, { size: 38, weight: 600, color: C.muted });
+  BRAND.endLogo(ctx, 540, 790, 460, prog(t, 39.8, 40.5), t);
+  const s = easeBack(prog(t, 40.5, 41.1)) * (1 + 0.04 * Math.sin(t * 6));
+  txt('Follow karo 🔔', 540, 1150, { size: 104, weight: 900, color: '#e0b23a', scale: s, alpha: clamp(s) });
   pop(t, 41.2, 'Educational purpose only. Kisi bhi shak mein apne bank se', 540, 1420, { size: 28, weight: 500, color: C.muted });
   pop(t, 41.2, 'official number par hi sampark karein.', 540, 1460, { size: 28, weight: 500, color: C.muted });
   pop(t, 41.4, 'Sources: I4C/MHA, PIB', 540, 1520, { size: 26, weight: 500, color: 'rgba(148,163,184,0.85)' });
@@ -453,10 +454,12 @@ window.renderFrame = function (t) {
   const v = ctx.createRadialGradient(540, 960, 600, 540, 960, 1250);
   v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,0.55)');
   ctx.fillStyle = v; ctx.fillRect(0, 0, W, H);
+  BRAND.watermark(ctx, 0.9 * prog(d, 0.3, 0.8) * (1 - prog(d, 39, 39 + 0.3)));
   progressBar(t);
 };
 window.DUR = DUR;
 window.ready = (async () => {
+  await window.BRAND.ready;
   await Promise.all([
     document.fonts.load('900 100px Inter'), document.fonts.load('800 100px Inter'),
     document.fonts.load('700 100px Inter'), document.fonts.load('600 100px Inter'),

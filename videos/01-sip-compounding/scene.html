@@ -7,6 +7,7 @@
 </head>
 <body>
 <canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/brand.js"></script>
 <script>
 // ---------- Config ----------
 const W = 1080, H = 1920;
@@ -290,15 +291,15 @@ function scene5(t) { // The real magic 28 – 32.5
   ctx.restore();
 }
 
-function scene6(t) { // CTA 32.5 – 36
+function scene6(t) { // CTA 32.5 – 36 (Finance Junction end card)
   const a = sceneA(t, 32.5, 36.5, 0.35);
   if (!a) return;
   ctx.save(); ctx.globalAlpha = a;
-  pop(t, 32.6, 'Ye info useful lagi?', 540, 720, { size: 64, weight: 700 });
-  const s = easeBack(prog(t, 32.9, 33.5)) * (1 + 0.04 * Math.sin(t * 6));
-  txt('Follow karo 🔔', 540, 900, { size: 116, weight: 900, color: C.green2, scale: s, alpha: clamp(s) });
-  pop(t, 33.4, 'aise aur money tips ke liye', 540, 1000, { size: 52, weight: 600, color: C.muted });
-  pop(t, 33.9, 'Save karo 💾  Share karo 📤', 540, 1160, { size: 52, weight: 700 });
+  BRAND.endLogo(ctx, 540, 680, 520, prog(t, 32.6, 33.3), t);
+  const s = easeBack(prog(t, 33.3, 33.9)) * (1 + 0.04 * Math.sin(t * 6));
+  txt('Follow karo 🔔', 540, 1080, { size: 104, weight: 900, color: '#e0b23a', scale: s, alpha: clamp(s) });
+  pop(t, 33.7, 'aise aur money tips ke liye', 540, 1165, { size: 50, weight: 600, color: C.muted });
+  pop(t, 34.0, 'Save karo 💾  Share karo 📤', 540, 1260, { size: 48, weight: 700 });
   pop(t, 34.2, 'Educational purpose only. Investment advice nahi hai.', 540, 1420, { size: 30, weight: 500, color: C.muted });
   pop(t, 34.2, 'Mutual fund investments market risks ke adheen hain.', 540, 1462, { size: 30, weight: 500, color: C.muted });
   ctx.restore();
@@ -330,10 +331,12 @@ window.renderFrame = function (t) {
   const d = designTime(t);
   background(t);
   scene1(d); scene2(d); scene3(d); scene4(d); scene5(d); scene6(d);
+  BRAND.watermark(ctx, 0.9 * prog(d, 0.3, 0.8) * (1 - prog(d, 32.5, 32.5 + 0.3)));
   progressBar(t);
 };
 window.DUR = DUR;
 window.ready = (async () => {
+  await window.BRAND.ready;
   await Promise.all([
     document.fonts.load('900 100px Inter'), document.fonts.load('800 100px Inter'),
     document.fonts.load('700 100px Inter'), document.fonts.load('600 100px Inter'),

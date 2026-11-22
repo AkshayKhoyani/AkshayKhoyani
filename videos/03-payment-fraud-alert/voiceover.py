@@ -32,7 +32,7 @@ LINES = [
     "और OTP किसी को मत बताओ, चाहे वो खुद को bank वाला ही क्यों न बोले।",
     "और अगर fraud हो जाए, तो तुरंत उन्नीस सौ तीस पर call करो, या cybercrime dot gov dot in पर complaint करो। "
     "इस system से अब तक, ग्यारह हज़ार करोड़ रुपये से ज़्यादा बचाए जा चुके हैं।",
-    "ये video अपने family group में ज़रूर share करो, और follow करो!",
+    "ये video अपने family group में ज़रूर share करो, और Finance Junction को follow करो!",
 ]
 
 

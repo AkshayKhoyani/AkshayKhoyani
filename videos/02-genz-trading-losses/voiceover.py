@@ -33,7 +33,7 @@ LINES = [
     "और तीसरा, social media के quick money वाले tips।",
     "तो क्या करें? पहले सीखो, फिर कमाओ। Long term wealth के लिए SIP और index funds। "
     "और trading में सिर्फ़ उतना पैसा लगाओ, जितना खोने के लिए तैयार हो।",
-    "ये video अपने उस दोस्त को भेजो, जो रोज़ trading करता है! और follow करो।",
+    "ये video अपने उस दोस्त को भेजो, जो रोज़ trading करता है! और Finance Junction को follow करो।",
 ]
 
 
