@@ -462,7 +462,7 @@ export function hookTitle(fj, lines, t1, o = {}) {
       const [text, color = PAL.ink, bg = 'rgba(251,250,247,0.95)'] = Array.isArray(ln) ? ln : [ln];
       ctx.font = F(900, size);
       const w = ctx.measureText(text).width + 60, h = size * 1.35, yy = y + i * (h + 16);
-      const pulse = 1 + 0.02 * Math.sin(t * 5 + i);
+      const pulse = (1 + 0.02 * Math.sin(t * 5 + i)) * Math.min(1, 1010 / w);
       ctx.save(); ctx.translate(540, yy); ctx.scale(pulse, pulse);
       ctx.shadowColor = 'rgba(0,0,0,0.18)'; ctx.shadowBlur = 24; ctx.shadowOffsetY = 8;
       rr(ctx, -w / 2, -h / 2, w, h, 22); ctx.fillStyle = bg; ctx.fill();
