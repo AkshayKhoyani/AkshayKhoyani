@@ -73,7 +73,7 @@ function cardTex(name, big, sub) {
 const ITEMS = [
   { line: 1, rank: 5, name: 'WELSPUN LIVING', big: '₹3,200 CR CAPEX', sub: '₹800 cr equity + ₹2,400 cr tak loan · board: 21 Nov', chips: [['🟡 Mixed: growth + naya karz', '#f4cf6a']] },
   { line: 2, rank: 4, name: 'LIC · COFORGE · ADANI GREEN · MEESHO', big: 'MSCI ENTRY', sub: '~$2 bn passive inflow (andaaza) · PI Industries bahar', chips: [['🟢 Inflow lean', '#4ade80'], ['🔴 PI Industries: outflow', '#f87171']] },
-  { line: 3, rank: 3, name: 'ZEE ENTERTAINMENT', big: '₹600 CR BUYBACK', sub: '@ ₹91 / share · record date 25 Nov', chips: [['⏰ Kal shayad aakhri din', '#f4cf6a'], ['🟢 Positive lean', '#4ade80']] },
+  { line: 3, rank: 3, name: 'ZEE ENTERTAINMENT', big: '₹600 CR BUYBACK', sub: '@ ₹91 / share · record date 25 Nov', chips: [['⏰ 23 Nov shayad aakhri din', '#f4cf6a'], ['🟢 Positive lean', '#4ade80']] },
   { line: 4, rank: 2, name: 'INDUSIND BANK', big: 'EX-CEO TERMINATED', sub: 'Clawback 24 Mar 2020 se · governance issue', chips: [['🟡 Governance, earnings nahi', '#f4cf6a']] },
   { line: 5, rank: 1, name: 'TATA STEEL × APL APOLLO', big: 'TUBES + COLORS', sub: 'Board approval 22 Nov · regulatory nod baaki', chips: [['🟢 Tata Steel', '#4ade80'], ['🟡 APL Apollo', '#f4cf6a']] },
 ];
@@ -167,8 +167,9 @@ fj.overlays.push(t => {
   if (t > E(0) + 0.3) return;
   const a = 1 - prog(t, E(0) - 0.2, E(0) + 0.3);
   const p = 1 + 0.025 * Math.sin(t * 5);
-  T2('KAL IN 5 SHARES', 540, 520, { size: 122, w: 900, alpha: a, scale: p });
-  T2('PAR BADI KHABAR', 540, 660, { size: 114, w: 900, c: '#f4cf6a', alpha: a, scale: p });
+  T2('23 NOV 2026', 540, 470, { size: 104, w: 900, c: '#ffffff', alpha: a, scale: p });
+  T2('IN 5 SHARES PAR', 540, 600, { size: 112, w: 900, alpha: a, scale: p });
+  T2('BADI KHABAR', 540, 730, { size: 120, w: 900, c: '#f4cf6a', alpha: a, scale: p });
   chip('#1 ??? sabse bada 👀', 540, 1300, '#ffffff', a * (1 + 0.04 * Math.sin(t * 6)), 44);
 });
 // rank number + chips + #1 stamp + confetti
