@@ -174,3 +174,42 @@ digital arrest scam, upi fraud, cyber fraud india, 1930 helpline, cybercrime.gov
 ```
 #financejunction #financemadesimple #moneytips #personalfinance #paisa #financeinhindi
 ```
+
+---
+
+## Reel 4: UPI payment kaise pahunchta hai? (3D explainer)
+
+**Cover text:** ₹20 UPI ka SECRET ROUTE 🤯
+
+**Instagram caption:**
+```
+Aapka ₹20 ka UPI kuch hi seconds mein kaise pahunchta hai? 🤯
+
+📱 Aapka app request NPCI ko bhejta hai (UPI ka central switch)
+🏦 NPCI aapke bank se poochta hai: PIN sahi? Balance hai? → ₹20 debit
+🏪 Phir chai wale ke bank mein ₹20 credit
+✅ Dono ko confirmation: ding!
+
+Sirf October 2026 mein UPI se 25.47 billion transactions hue,
+yaani roz lagbhag 82 crore! 🇮🇳
+
+💾 Save karo, share karo
+🔔 Finance simple samajhne ke liye follow karo @FinanceJunction
+
+Simplified illustration. Data: NPCI (October 2026).
+```
+
+**Hashtags (Instagram):**
+```
+#upi #npci #digitalpayments #howitworks #fintech #personalfinance #financejunction #moneytips #digitalindia #explained
+```
+
+**YouTube Shorts title:**
+```
+₹20 ka UPI 2 Second Mein Kaise Pahunchta Hai? 🤯 3D Explained #shorts
+```
+
+**Keywords / tags:**
+```
+upi kaise kaam karta hai, how upi works, npci, upi payment process, upi explained hindi, digital payments india, upi transactions october 2026, upi pin, bank to bank transfer, finance junction, upi 3d animation
+```
