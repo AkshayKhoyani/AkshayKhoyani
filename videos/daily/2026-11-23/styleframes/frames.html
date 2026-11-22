@@ -1,0 +1,211 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Theme style frames</title>
+<style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script>
+const W = 1080, H = 1920, cv = document.getElementById('c'), ctx = cv.getContext('2d');
+const F = (w, s, fam = 'Inter') => `${w} ${s}px ${fam}, "Noto Color Emoji", sans-serif`;
+const mark = new Image(); mark.src = '../../../brand/mark-dark.png';
+function rr(x, y, w, h, r) { ctx.beginPath(); ctx.moveTo(x + r, y); ctx.arcTo(x + w, y, x + w, y + h, r); ctx.arcTo(x + w, y + h, x, y + h, r); ctx.arcTo(x, y + h, x, y, r); ctx.arcTo(x, y, x + w, y, r); ctx.closePath(); }
+function T(s, x, y, o = {}) {
+  const { size = 60, w = 800, c = '#fff', a = 'center', fam = 'Inter', maxW = 1000, b = 'alphabetic' } = o;
+  ctx.save(); ctx.font = F(w, size, fam); let k = 1; const mw = ctx.measureText(s).width; if (mw > maxW) k = maxW / mw;
+  ctx.translate(x, y); ctx.scale(k, k); ctx.fillStyle = c; ctx.textAlign = a; ctx.textBaseline = b; ctx.fillText(s, 0, 0); ctx.restore();
+}
+function brand(light = false) {
+  if (mark.complete) ctx.drawImage(mark, 34, 34, 84 * mark.width / mark.height, 84);
+  const x = 48 + 84 * mark.width / mark.height;
+  T('FINANCE', x, 34 + 32, { size: 30, w: 800, a: 'left', c: light ? '#0b2545' : '#f8fafc' });
+  T('JUNCTION', x, 34 + 64, { size: 30, w: 800, a: 'left', c: '#d4a62c' });
+  ctx.font = '500 26px "JetBrains Mono", monospace'; const tw = ctx.measureText('not advice').width + 28;
+  rr(1020 - tw, 86, tw, 42, 8); ctx.fillStyle = light ? 'rgba(0,0,0,0.06)' : 'rgba(255,255,255,0.08)'; ctx.fill();
+  ctx.strokeStyle = light ? 'rgba(0,0,0,0.3)' : 'rgba(255,255,255,0.3)'; ctx.lineWidth = 2; ctx.stroke();
+  ctx.fillStyle = light ? '#555' : '#aab'; ctx.textAlign = 'right'; ctx.textBaseline = 'middle'; ctx.fillText('not advice', 1006, 108);
+}
+function caption(words, spoken, y = 1560, light = false) {
+  ctx.font = F(700, 50); const sp = ctx.measureText(' ').width; const ws = words.map(w => ctx.measureText(w).width);
+  const tw = ws.reduce((a, b) => a + b, 0) + sp * (words.length - 1); const pw = tw + 64, x = 540 - pw / 2;
+  rr(x, y - 45, pw, 90, 18); ctx.fillStyle = light ? 'rgba(20,20,20,0.88)' : 'rgba(15,18,28,0.92)'; ctx.fill();
+  ctx.strokeStyle = 'rgba(224,178,58,0.4)'; ctx.lineWidth = 2; ctx.stroke();
+  let cx = x + 32; ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+  words.forEach((w, i) => { ctx.fillStyle = i < spoken ? (i === spoken - 1 ? '#f4cf6a' : '#fff') : '#7d828c'; ctx.fillText(w, cx, y + 3); cx += ws[i] + sp; });
+}
+function chip(s, x, y, bg, c = '#0b0b14', size = 38) {
+  ctx.font = F(800, size); const w = ctx.measureText(s).width + 56;
+  rr(x - w / 2, y - size * 0.85, w, size * 1.7, size * 0.85); ctx.fillStyle = bg; ctx.fill();
+  T(s, x, y + 2, { size, w: 800, c, b: 'middle' });
+}
+function stamp(s, x, y, c, rot, size) {
+  ctx.save(); ctx.translate(x, y); ctx.rotate(rot); ctx.font = F(900, size);
+  const w = ctx.measureText(s).width + 70, h = size * 1.35;
+  rr(-w / 2, -h / 2, w, h, 24); ctx.fillStyle = 'rgba(10,5,15,0.55)'; ctx.fill(); ctx.lineWidth = 12; ctx.strokeStyle = c; ctx.stroke();
+  ctx.fillStyle = c; ctx.textAlign = 'center'; ctx.textBaseline = 'middle'; ctx.fillText(s, 0, size * 0.06); ctx.restore();
+}
+
+// ================= THEME A: BREAKING NEWS + COUNTDOWN =================
+function studio() {
+  const g = ctx.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#071330'); g.addColorStop(0.55, '#0b1d48'); g.addColorStop(1, '#050a18');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  // perspective floor
+  ctx.strokeStyle = 'rgba(96,165,250,0.18)'; ctx.lineWidth = 2;
+  for (let i = -12; i <= 12; i++) { ctx.beginPath(); ctx.moveTo(540 + i * 40, 1180); ctx.lineTo(540 + i * 260, H); ctx.stroke(); }
+  for (let k = 0; k < 14; k++) { const y = 1180 + Math.pow(k / 13, 1.8) * 740; ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+  // back screens
+  [[-330, 0.85], [330, 0.85]].forEach(([dx, s]) => {
+    ctx.save(); ctx.translate(540 + dx, 560); ctx.transform(1, dx > 0 ? -0.12 : 0.12, 0, 1, 0, 0);
+    rr(-150 * s, -230 * s, 300 * s, 460 * s, 16); ctx.fillStyle = 'rgba(30,58,138,0.55)'; ctx.fill(); ctx.strokeStyle = 'rgba(147,197,253,0.4)'; ctx.lineWidth = 3; ctx.stroke();
+    for (let r = 0; r < 6; r++) { ctx.fillStyle = `rgba(147,197,253,${0.15 + 0.05 * r})`; ctx.fillRect(-120 * s, (-190 + r * 64) * s, (180 + (r * 37) % 70) * s, 18 * s); }
+    ctx.restore();
+  });
+  // studio light glows
+  const lg = ctx.createRadialGradient(540, 300, 0, 540, 300, 700); lg.addColorStop(0, 'rgba(239,68,68,0.22)'); lg.addColorStop(1, 'rgba(0,0,0,0)');
+  ctx.fillStyle = lg; ctx.fillRect(0, 0, W, H);
+}
+function breakingBar(y = 250) {
+  ctx.save(); ctx.translate(0, y);
+  ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(620, 0); ctx.lineTo(580, 110); ctx.lineTo(0, 110); ctx.closePath(); ctx.fillStyle = '#dc2626'; ctx.fill();
+  ctx.beginPath(); ctx.moveTo(620, 0); ctx.lineTo(1080, 0); ctx.lineTo(1080, 110); ctx.lineTo(580, 110); ctx.closePath(); ctx.fillStyle = '#ffffff'; ctx.fill();
+  T('🚨 BREAKING', 300, 72, { size: 70, w: 900 });
+  ctx.fillStyle = '#dc2626'; ctx.beginPath(); ctx.arc(700, 55, 14, 0, Math.PI * 2); ctx.fill();
+  T('LIVE · 23 NOV', 890, 70, { size: 44, w: 900, c: '#0b1020' });
+  ctx.restore();
+}
+function ticker() {
+  ctx.fillStyle = '#d4a62c'; ctx.fillRect(0, 1700, W, 76);
+  ctx.fillStyle = '#0b2545'; ctx.fillRect(0, 1700, 230, 76); T('MARKET', 115, 1750, { size: 40, w: 900, c: '#f4cf6a' });
+  T('TATA STEEL ₹28,000 CR DEAL  •  ZEE BUYBACK ₹600 CR  •  INDUSIND: EX-CEO TERMINATED  •  MSCI', 245, 1752, { size: 38, w: 800, c: '#0b1020', a: 'left', maxW: 2000 });
+}
+function newsCard(rank, name, line1, line2, chipTxt, chipBg, tilt = -0.06) {
+  T(`#${rank}`, 540, 560, { size: 230, w: 900, c: '#f4cf6a' });
+  ctx.save(); ctx.translate(540, 930); ctx.transform(1, tilt * 0.4, 0, 1, 0, 0); ctx.rotate(tilt * 0.3);
+  ctx.shadowColor = 'rgba(0,0,0,0.6)'; ctx.shadowBlur = 50; ctx.shadowOffsetY = 24;
+  rr(-430, -230, 860, 460, 34); const g = ctx.createLinearGradient(0, -230, 0, 230); g.addColorStop(0, '#ffffff'); g.addColorStop(1, '#e8edf6'); ctx.fillStyle = g; ctx.fill();
+  ctx.shadowColor = 'transparent';
+  rr(-430, -230, 860, 96, 34); ctx.fillStyle = '#0b2545'; ctx.fill(); ctx.fillRect(-430, -170, 860, 36);
+  T(name, 0, -165, { size: 52, w: 900, c: '#fff', maxW: 780 });
+  T(line1, 0, -10, { size: 78, w: 900, c: '#0b2545', maxW: 790 });
+  T(line2, 0, 80, { size: 44, w: 700, c: '#475569', maxW: 790 });
+  ctx.restore();
+  chip(chipTxt, 540, 1235, chipBg);
+}
+const A = {
+  1() { studio(); breakingBar(); brand();
+    T('KAL IN 5 SHARES', 540, 620, { size: 120, w: 900 });
+    T('PAR BADI KHABAR', 540, 760, { size: 112, w: 900, c: '#f4cf6a' });
+    T('🚨', 540, 990, { size: 200 });
+    chip('Number 1 sabse bada 👀', 540, 1210, '#ffffff');
+    ticker(); caption(['Kal', 'market', 'khulte', 'hi...'], 3); },
+  2() { studio(); breakingBar(); brand();
+    newsCard(3, 'ZEE ENTERTAINMENT', '₹600 CR BUYBACK', '@ ₹91 / share · record date 25 Nov', '⏰ Kal shayad aakhri din', '#f4cf6a');
+    chip('🟢 Positive lean', 540, 1360, '#22c55e');
+    ticker(); caption(['Zee', 'ka', 'buyback,', 'record'], 2); },
+  3() { studio(); breakingBar(); brand();
+    newsCard(1, 'TATA STEEL × APL APOLLO', 'TUBES + COLORS', 'Board approval: 22 Nov · regulatory nod baaki', '🟢 Tata Steel · 🟡 APL Apollo', '#ffffff', 0.05);
+    stamp('₹28,000 CR 💥', 540, 1000, '#ef4444', -0.12, 110);
+    ticker(); caption(['₹28,000', 'crore', 'ki', 'deal!'], 4); },
+};
+
+// ================= THEME B: TRADING TERMINAL / WAR-ROOM =================
+const MONO = '"JetBrains Mono"';
+function terminal() {
+  ctx.fillStyle = '#05070a'; ctx.fillRect(0, 0, W, H);
+  ctx.strokeStyle = 'rgba(34,197,94,0.07)'; ctx.lineWidth = 1;
+  for (let x = 0; x < W; x += 40) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke(); }
+  for (let y = 0; y < H; y += 40) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+  for (let y = 0; y < H; y += 4) { ctx.fillStyle = 'rgba(0,0,0,0.18)'; ctx.fillRect(0, y, W, 1); }
+}
+function panel(x, y, w, h, title, col = '#22c55e') {
+  ctx.strokeStyle = col; ctx.lineWidth = 2; ctx.strokeRect(x, y, w, h);
+  ctx.fillStyle = 'rgba(34,197,94,0.05)'; ctx.fillRect(x, y, w, h);
+  ctx.fillStyle = col; ctx.fillRect(x, y, w, 40);
+  T(title, x + 14, y + 29, { size: 24, w: 700, fam: MONO, c: '#05070a', a: 'left', maxW: w - 20 });
+}
+function deco(x, y, w, h, seed, col) { // illustrative candles (not real prices)
+  let v = 0.5; const n = 18;
+  for (let i = 0; i < n; i++) {
+    const r = Math.sin(seed * 9 + i * 1.7) * 0.5 + 0.5, o = v, c = Math.min(0.95, Math.max(0.05, v + (r - 0.48) * 0.25)); v = c;
+    const cx = x + 10 + i * (w - 20) / n, up = c >= o, top = y + h * (1 - Math.max(o, c)), bh = Math.max(4, h * Math.abs(c - o));
+    ctx.fillStyle = up ? '#22c55e' : '#ef4444'; ctx.fillRect(cx, top, (w - 20) / n * 0.6, bh);
+  }
+  T('illustrative', x + w - 8, y + h - 8, { size: 18, w: 500, fam: MONO, c: 'rgba(255,255,255,0.35)', a: 'right' });
+}
+function tbrand() { brand(); }
+const B = {
+  1() { terminal(); tbrand();
+    panel(60, 200, 960, 420, 'FJ://ALERTS  23-NOV-2026  09:15 IST');
+    T('> 5 STOCK ALERTS', 100, 330, { size: 70, w: 800, fam: MONO, c: '#22c55e', a: 'left' });
+    T('> KAL MARKET KHULTE HI', 100, 430, { size: 54, w: 700, fam: MONO, c: '#f4cf6a', a: 'left' });
+    T('> SCROLL MAT KARO_', 100, 530, { size: 54, w: 700, fam: MONO, c: '#e5e7eb', a: 'left' });
+    panel(60, 680, 460, 360, 'WATCH-1', '#f59e0b'); deco(70, 730, 440, 300, 1);
+    panel(560, 680, 460, 360, 'WATCH-2', '#f59e0b'); deco(570, 730, 440, 300, 2);
+    panel(60, 1080, 960, 420, 'QUEUE');
+    ['#5 WELSPUN LIVING', '#4 MSCI ADDS', '#3 ZEE', '#2 INDUSIND', '#1 ██████ ???'].forEach((s, i) => T(s, 100, 1170 + i * 66, { size: 44, w: 700, fam: MONO, c: i === 4 ? '#ef4444' : '#a7f3d0', a: 'left' }));
+    caption(['5', 'stock', 'alerts,', 'kal...'], 3); },
+  2() { terminal(); tbrand();
+    panel(60, 200, 960, 160, 'ALERT #2  //  SEVERITY: HIGH', '#ef4444');
+    T('INDUSIND BANK', 540, 315, { size: 80, w: 800, fam: MONO, c: '#fca5a5' });
+    panel(60, 400, 960, 640, 'FILING  20-NOV  (after hours)', '#f59e0b');
+    [['EVENT', 'Ex-CEO employment TERMINATED'], ['CLAWBACK', 'From 24-Mar-2020'], ['BASIS', 'External enquiry report 18-Nov'], ['FRI MOVE', '~ +8% (before filing)']].forEach(([k, v], i) => {
+      T(k, 100, 520 + i * 130, { size: 34, w: 700, fam: MONO, c: '#f59e0b', a: 'left' });
+      T(v, 100, 575 + i * 130, { size: 44, w: 700, fam: MONO, c: '#e5e7eb', a: 'left', maxW: 880 });
+    });
+    panel(60, 1080, 960, 360, 'IMPACT TAG'); T('🟡 GOVERNANCE — not earnings', 540, 1280, { size: 54, w: 800, fam: MONO, c: '#fde68a' });
+    caption(['clawback', '2020', 'se', 'lagu!'], 2); },
+  3() { terminal(); tbrand();
+    panel(60, 200, 960, 160, 'ALERT #1  //  SEVERITY: MAX', '#ef4444');
+    T('TATA STEEL → APL APOLLO', 540, 315, { size: 62, w: 800, fam: MONO, c: '#fca5a5' });
+    T('₹28,000', 540, 700, { size: 230, w: 800, fam: MONO, c: '#22c55e' });
+    T('CRORE DEAL', 540, 820, { size: 90, w: 800, fam: MONO, c: '#a7f3d0' });
+    panel(60, 940, 460, 300, 'TUBES BIZ', '#f59e0b'); T('~₹11,700 cr', 290, 1120, { size: 54, w: 800, fam: MONO, c: '#fde68a' });
+    panel(560, 940, 460, 300, 'TATA STEEL COLORS', '#f59e0b'); T('₹16,300 cr', 790, 1120, { size: 54, w: 800, fam: MONO, c: '#fde68a' });
+    T('[ regulatory approvals pending ]', 540, 1320, { size: 34, w: 500, fam: MONO, c: 'rgba(229,231,235,0.7)' });
+    caption(['₹28,000', 'crore', 'ki', 'deal'], 1); },
+};
+
+// ================= THEME C: DETECTIVE CASE FILE (IndusInd story) =================
+function desk() {
+  const g = ctx.createRadialGradient(540, 900, 100, 540, 900, 1300); g.addColorStop(0, '#5b4632'); g.addColorStop(1, '#1d140c');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  for (let i = 0; i < 40; i++) { ctx.strokeStyle = 'rgba(0,0,0,0.12)'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(0, i * 50 + 10); ctx.bezierCurveTo(300, i * 50 + 30, 700, i * 50 - 10, W, i * 50 + 15); ctx.stroke(); }
+  const l = ctx.createRadialGradient(540, 700, 0, 540, 700, 800); l.addColorStop(0, 'rgba(255,230,170,0.25)'); l.addColorStop(1, 'rgba(0,0,0,0)'); ctx.fillStyle = l; ctx.fillRect(0, 0, W, H);
+}
+function folder(rot = -0.03) {
+  ctx.save(); ctx.translate(540, 940); ctx.rotate(rot);
+  ctx.shadowColor = 'rgba(0,0,0,0.6)'; ctx.shadowBlur = 40; ctx.shadowOffsetY = 20;
+  rr(-440, -620, 340, 90, 18); ctx.fillStyle = '#c9a46a'; ctx.fill();
+  rr(-460, -560, 920, 1180, 20); ctx.fillStyle = '#d6b27a'; ctx.fill(); ctx.shadowColor = 'transparent';
+  ctx.restore();
+}
+function paper(x, y, w, h, rot) { ctx.save(); ctx.translate(x, y); ctx.rotate(rot); ctx.shadowColor = 'rgba(0,0,0,0.35)'; ctx.shadowBlur = 16; ctx.fillStyle = '#f7f3e8'; ctx.fillRect(-w / 2, -h / 2, w, h); ctx.restore(); }
+function pin(x, y) { ctx.fillStyle = '#dc2626'; ctx.beginPath(); ctx.arc(x, y, 14, 0, Math.PI * 2); ctx.fill(); ctx.fillStyle = 'rgba(255,255,255,0.6)'; ctx.beginPath(); ctx.arc(x - 4, y - 4, 4, 0, Math.PI * 2); ctx.fill(); }
+const TYPE = '"Courier New", "DejaVu Sans Mono", monospace';
+const C = {
+  1() { desk(); folder(); brand();
+    T('CASE FILE', 540, 560, { size: 110, w: 900, fam: TYPE, c: '#3b2a14' });
+    T('#IND-2026-11', 540, 650, { size: 52, w: 700, fam: TYPE, c: '#5b4026' });
+    paper(540, 980, 640, 420, 0.02);
+    T('INDUSIND BANK', 540, 900, { size: 74, w: 900, fam: TYPE, c: '#111' });
+    T('Ex-CEO ka kya hua? 🕵️', 540, 1010, { size: 54, w: 700, c: '#111' });
+    T('Monday se pehle jaano', 540, 1090, { size: 40, w: 600, fam: TYPE, c: '#444' });
+    stamp('CONFIDENTIAL', 540, 1330, '#b91c1c', -0.12, 74);
+    caption(['IndusInd', 'ka', 'case', 'file...'], 2); },
+  2() { desk(); brand();
+    T('EVIDENCE BOARD', 540, 300, { size: 80, w: 900, fam: TYPE, c: '#f7f3e8' });
+    const pts = [[260, 560, 'Apr 2025', 'CEO ne resign kiya'], [800, 760, '18 Nov 2026', 'External enquiry report'], [300, 1010, '20 Nov', 'Employment TERMINATE'], [790, 1240, 'Clawback', '24 Mar 2020 se']];
+    ctx.strokeStyle = '#dc2626'; ctx.lineWidth = 5; ctx.beginPath(); pts.forEach(([x, y], i) => i ? ctx.lineTo(x, y - 90) : ctx.moveTo(x, y - 90)); ctx.stroke();
+    pts.forEach(([x, y, a, b], i) => { paper(x, y, 420, 200, (i % 2 ? 1 : -1) * 0.05); T(a, x, y - 20, { size: 46, w: 900, fam: TYPE, c: '#111', maxW: 380 }); T(b, x, y + 45, { size: 32, w: 700, c: '#333', maxW: 380 }); pin(x, y - 90); });
+    caption(['clawback', '2020', 'se!'], 1); },
+  3() { desk(); folder(0.02); brand();
+    paper(540, 900, 700, 700, -0.02);
+    T('VERDICT', 540, 680, { size: 90, w: 900, fam: TYPE, c: '#111' });
+    T('Governance issue,', 540, 820, { size: 54, w: 800, c: '#111' });
+    T('earnings nahi', 540, 890, { size: 54, w: 800, c: '#111' });
+    T('Fri: ~+8% (filing se pehle)', 540, 1000, { size: 40, w: 600, fam: TYPE, c: '#444' });
+    T('Monday: dono khabar saath', 540, 1060, { size: 40, w: 600, fam: TYPE, c: '#444' });
+    stamp('CLAWBACK', 540, 1290, '#b91c1c', 0.1, 96);
+    caption(['Monday', 'ko', 'nazar', 'rakho'], 4); },
+};
+window.SHOTS = { A, B, C };
+window.draw = (t, n) => { ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, W, H); window.SHOTS[t][n](); };
+window.ready = Promise.all([document.fonts.load('900 40px Inter'), document.fonts.load('700 40px "JetBrains Mono"'), document.fonts.load('40px "Noto Color Emoji"', '🚨💥🕵️'), new Promise(r => mark.complete ? r() : (mark.onload = r))]);
+</script></body></html>
