@@ -31,12 +31,16 @@ isliye sab kuch news coverage se hai. Reel banane se pehle har item NSE/BSE fili
 | Adani Energy Solutions | 2,400 MW power evacuation transmission project (Bihar) jeeta | 19 Nov |
 | Waaree Energies | Kiwa PVEL 2026 scorecard mein 8/8 categories mein Top Performer. 5.15 GWh battery pack line shuru (14 Nov) | 14–18 Nov |
 
-## D. ⚠️ Verify NAHI ho paaya (reel mein mat daalna jab tak filing na dekhein)
-| Company | Claim | Dikkat |
-|---|---|---|
-| IndusInd Bank | "Ex-CEO Sumant Kathpalia ko hataya / clawback" + Friday ko +8.6% (₹1,003) | Clawback ki khabar 2025 ki hai. 20 Nov 2026 filing mein kya hai, confirm nahi hua |
-| Welspun Living | "₹3,200 cr capex, Welspun Home Solutions ke through" | Kisi doosre source mein nahi mila |
-| Excelsoft Technologies | IPO listing 26 Nov | Sirf ek source |
-| Carver Roboweld | 23 Nov board meeting (half-yearly results) | Sirf ek source (SME) |
+## D. Pehle unverified the, ab VERIFY ho gaye ✅ (22 Nov, dusri search)
+| # | Company | Event | Date | Asar (sambhavit) | Status / Sources |
+|---|---|---|---|---|---|
+| 10 | **IndusInd Bank** | Board ne ex-CEO **Sumant Kathpalia ka employment turant terminate** kiya (external enquiry report, 18 Nov 2026, ek retired Bombay HC judge ki). **Malus + clawback 24 Mar 2020 se lagu** (unki CEO appointment ki date se). Filing Friday market band hone ke baad aayi. Usi din share **~8% chadha** (₹999.5–1,005, sources alag; 5+ saal ka sabse bada 1-din uchhaal, Q2 mein profit mein wapsi) | Board: 20 Nov; filing: 20 Nov after hours | 🟡 Governance issue, earnings nahi. Pichli rally aur ye khabar Monday ko saath dekhe jayenge. Clawback ki rakam nahi batayi | ✅ ANI (21 Nov 2026, filing quote), Daily Financial, Goodreturns. Rally: Business Standard, CNBC-TV18, Econotimes, MarketsMojo |
+| 11 | **Welspun Living** | Board ne wholly-owned subsidiary **Welspun Home Solutions (WHSL)** mein **₹3,200 cr tak capex** manzoor kiya: ~29,000 MT terry towel capacity (abhi ~96,000 MT, 83% utilisation) + spinning/weaving + R&D centre. Funding: ₹800 cr parent se + ₹2,400 cr tak bank loan (corporate guarantee). Deadline 31 Dec 2028. Shareholder approval ~27 Nov tak | Board: 21 Nov | 🟡 Growth capacity (+), par naya karz (₹2,400 cr). Market dono dekhega | ✅ MarketsMojo filing summary, Business Upturn, Goodreturns |
+| 12 | **Carver Roboweld** (BSE SME) | Board meeting: H1 (30 Sep 2026) ke unaudited results | 23 Nov | ⚪ Chhoti SME company. IPO Oct 2026 (₹76–80) | 🟡 2 sources (Equitymaster, Multibagg), outcome abhi nahi |
+
+## E. ❌ GALAT nikla, list se hatao
+| Claim | Sach |
+|---|---|
+| Excelsoft Technologies IPO listing 26 Nov | Ye **Nov 2025** ka IPO tha (listing 26 Nov **2025** @ ₹135). 2026 mein koi listing nahi. Purani article galti se aayi thi |
 
 **Nahi mila:** 23 Nov ki F&O ban list, block/bulk deals, aur koi bada Nifty-50 board meeting 23 Nov ko.
