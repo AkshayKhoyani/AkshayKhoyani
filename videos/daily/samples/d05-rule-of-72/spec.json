@@ -1,0 +1,21 @@
+{
+ "slug": "rule-of-72",
+ "sources": "Rule of 72 (approximation). Returns sirf andaaza, guaranteed nahi.",
+ "scenes": [
+  {"type": "hook", "tag": "RULE OF 72", "lines": [["Paisa kab", "text"], ["DOUBLE hoga? 🤔", "gold"]], "sub": "Sirf 1 number yaad rakho",
+   "voice": "आपका|Aapka पैसा|paisa कब|kab डबल|DOUBLE होगा?|hoga? बस|Bas एक|ek number याद|yaad रखो:|rakho: बहत्तर!|72!"},
+  {"type": "formula", "title": "Formula 🧮", "lines": ["72 ÷ return %", ["= Double hone ke saal", "gold"]],
+   "voice": "बहत्तर|72 को|ko अपने|apne return से|se divide करो,|karo, और|aur मिल_गए|mil_gaye double होने|hone के|ke साल।|saal."},
+  {"type": "compare", "title": "₹1 lakh → ₹2 lakh kab?", "subtitle": "*12% equity sirf andaaza, guaranteed nahi",
+   "items": [{"label": "Savings", "sub": "3%", "value": 24, "display": "24 saal", "color": "red"},
+             {"label": "FD", "sub": "7%", "value": 10.3, "display": "~10 saal", "color": "amber"},
+             {"label": "Equity*", "sub": "12%", "value": 6, "display": "6 saal", "color": "green"}],
+   "winner": 2, "winnerText": "FASTEST 🚀",
+   "voice": "Savings account तीन|3 परसेंट:|percent: चौबीस|24 साल।|saal. FD सात|7 परसेंट:|percent: करीब|kareeb दस|10 साल।|saal. और|Aur equity बारह|12 परसेंट|percent मानो,|maano, तो|toh सिर्फ़|sirf छह|6 साल!|saal!"},
+  {"type": "stat", "tag": "ULTA BHI 😬", "label": "6% inflation par sirf", "value": 12, "suffix": " saal", "color": "red",
+   "note": "mein paise ki value AADHI!", "noteColor": "red2",
+   "voice": "और|Aur ये|ye उल्टा|ulta भी|bhi चलता_है:|chalta_hai: छह|6 परसेंट|percent inflation पर,|par, बारह|12 साल|saal में|mein आपके|aapke पैसे|paise की|ki value आधी!|aadhi!"},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aapka paisa kitne % par hai?",
+   "voice": "Finance_Junction follow_करो,|follow_karo, और|aur सोचो:|socho: आपका|aapka पैसा|paisa कब|kab double होगा?|hoga?"}
+ ]
+}

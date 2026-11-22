@@ -1,0 +1,27 @@
+# Daily run: roz ki 3–4 reels (scheduled task yahi follow karta hai)
+
+Repo: `AkshayKhoyani/AkshayKhoyani`, branch `claude/finance-videos-pz24zv`.
+
+## Steps
+1. Repo + branch checkout karo, `git pull`. `cd videos/engine && npm install`.
+2. `videos/daily/QUEUE.md` se **status `todo` wale pehle 3 topics** lo (agar ElevenLabs + OpenAI dono chal rahe hain aur sab smooth hai to 4).
+3. Har topic ke liye:
+   - **Research:** jo number reel mein jayega uska taaza, bharosemand source dhoondo (RBI, SEBI, NPCI, PIB, I4C, Income Tax dept, ya 2+ badi news sites jo match karein).
+     Number pakka na ho to reel mein mat daalo, ya "andaaza" likho. Calculation wale topics (Rule of 72, compounding) mein assumption saaf likho.
+   - `videos/daily/<YYYY-MM-DD>/<NN-slug>/spec.json` likho (format: `videos/engine/REELKIT.md`, examples: `videos/daily/samples/`).
+     Rules: 16–30 sec, pehla scene `hook`, aakhri `cta` with "Finance Junction follow karo" + loop line, ek reel = ek idea, Hinglish.
+   - `python3 videos/engine/make_reel.py <dir> --preview 0,<mid>,<end-1>` → PNG dekho (text kat to nahi raha, overlap to nahi, pehla frame hook dikhata hai). Theek karo.
+   - `python3 videos/engine/make_reel.py <dir>` → `flat_frames_at` khaali hona chahiye.
+   - Preview PNGs delete karo (`rm <dir>/p_*.png`).
+4. `videos/daily/<YYYY-MM-DD>/CAPTIONS.md` likho: har reel ka IG caption (pehli line hook), 5–10 hashtags, YouTube title (#shorts), sources.
+5. `QUEUE.md` mein un topics ka status `done (<date>)` karo. Agar `todo` 15 se kam bache hon, 15 naye topics jodo
+   (trending Indian personal-finance news + evergreen; scams, tax, SIP, loans, insurance, UPI, budgeting).
+6. `videos/daily/LOG.md` mein ek line: date, reels, voice (el/oa), koi dikkat.
+7. Commit + push to `claude/finance-videos-pz24zv` (koi aur branch nahi). Draft PR pehle se open hai.
+8. Final message (user ke phone par notification): Hinglish mein kaunsi reels bani, kahan mili (GitHub path), aaj ka posting time
+   suggestion (subah 9, dopahar 1, shaam 7, raat 9), koi source/voice issue.
+
+## Kabhi mat karo
+- Guaranteed return / "pakka paisa" jaisi baatein, kisi stock/fund ka naam leke buy/sell advice.
+- Bina source ka number.
+- Kisi asli bank/brand ka logo ya asli vyakti ki nakal.

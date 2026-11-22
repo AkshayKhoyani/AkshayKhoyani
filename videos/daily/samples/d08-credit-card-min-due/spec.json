@@ -1,0 +1,20 @@
+{
+ "slug": "credit-card-minimum-due-trap",
+ "sources": "Typical card finance charges; apne card ki MITC / terms zaroor check karein.",
+ "scenes": [
+  {"type": "hook", "tag": "CREDIT CARD", "tagColor": "red", "lines": [["Minimum due bhara?", "text"], ["GALTI ho gayi 😬", "red2"]],
+   "voice": "Credit card का|ka minimum due भरके|bharke खुश_हो?|khush_ho? बहुत|Bahut बड़ी|badi गलती!|galti!"},
+  {"type": "phone", "tag": "BILL AAYA 📩", "header": "Card Statement",
+   "bubbles": [["Total due: ₹50,000"], ["Minimum due: ₹2,500 ✅"], ["Bacha ₹47,500…", "interest ON 🔥"]],
+   "stamp": "TRAP ⚠️", "stampColor": "amber", "bottom": "Interest-free period bhi KHATAM!", "bottomColor": "red2",
+   "voice": "बिल|Bill पचास_हज़ार,|₹50,000, minimum due सिर्फ़|sirf ढाई_हज़ार।|₹2,500. आपने|Aapne वही|wahi भरा,|bhara, तो|toh बचे|bache सैंतालीस_हज़ार_पाँच_सौ|₹47,500 पर|par byaaj शुरू,|shuru, और|aur interest-free period भी|bhi खत्म।|khatam."},
+  {"type": "stat", "label": "Kai cards par byaaj", "value": 3.5, "decimals": 1, "suffix": "%/mahina", "color": "red",
+   "note": "yaani ~40%+ saalana 😱", "noteColor": "red2", "chips": ["₹47,500 par ~₹1,660 / mahina", "+ GST alag se"],
+   "voice": "कई|Kai cards पर|par साढ़े_तीन|3.5 परसेंट|percent महीना,|mahina, यानी|yaani चालीस|40 परसेंट|percent से_ज़्यादा|se_zyada सालाना!|saalana!"},
+  {"type": "list", "title": "Kya karein? ✅", "colors": ["green", "blue", "red"], "icons": ["✅", "⚙️", "🚫"],
+   "items": [["Poora bill bharo", "Due date se pehle"], ["Auto-pay lagao", "Total due par"], ["Card = loan NAHI", "Kharch income se kam"]],
+   "voice": "तो|Toh पूरा|poora bill भरो,|bharo, auto-pay लगाओ,|lagao, और|aur card को|ko loan मत|mat समझो।|samjho."},
+  {"type": "cta", "top": "Share karo 📤", "topSub": "Har card wale dost ko",
+   "voice": "Finance_Junction follow_करो,|follow_karo, और|aur याद|yaad रखो:|rakho: minimum due भरके|bharke खुश_हो?|khush_ho?"}
+ ]
+}
