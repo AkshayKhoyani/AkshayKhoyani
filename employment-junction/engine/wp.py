@@ -55,6 +55,13 @@ def render(s):
         out.append(f"<h2>{e(sec['h'])}</h2>")
         for p in sec.get("p", []):
             out.append(f"<p>{p}</p>")
+        if sec.get("table"):
+            th = sec.get("th", ["Particular", "Details"])
+            rows = [f'<tr style="background: #0b5ed7; color: #fff;">' + "".join(f"<th {TH}>{e(x)}</th>" for x in th) + "</tr>"]
+            for i, r in enumerate(sec["table"]):
+                bg = ' style="background: #f6f6f6;"' if i % 2 else ""
+                rows.append(f"<tr{bg}>" + "".join(f"<td {TD}>{'<b>' + e(c) + '</b>' if j == 0 else e(c)}</td>" for j, c in enumerate(r)) + "</tr>")
+            out.append('<table style="width: 100%; border-collapse: collapse; font-size: 16px;"><tbody>' + "".join(rows) + "</tbody></table>")
         if sec.get("ul"):
             out.append("<ul>" + "".join(f"<li>{x}</li>" for x in sec["ul"]) + "</ul>")
         if sec.get("ol"):
