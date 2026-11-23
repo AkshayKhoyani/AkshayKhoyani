@@ -141,6 +141,23 @@
     pill(t, at + 0.9, '📲 Follow @employmentjunction.in', 1430, C.gold, '#071a3d', 40);
   }
 
+  // "Comment KEYWORD" call-to-action: Instagram-style comment bubble + keyword chip
+  function commentCTA(t, at, keyword, y = 330) {
+    const p = easeBack(prog(t, at, at + 0.45)); if (p <= 0) return;
+    ctx.save(); ctx.translate(540, y); ctx.scale(p, p);
+    const label = 'Comment karo 👇', kw = '"' + keyword + '"';
+    const w = Math.max(width(label, 44), width(kw, 76, 900)) + 120, h = 210;
+    rrect(-w / 2, -h / 2, w, h, 40); ctx.fillStyle = '#ffffff'; ctx.fill();
+    // bubble tail
+    ctx.beginPath(); ctx.moveTo(-w / 2 + 70, h / 2 - 2); ctx.lineTo(-w / 2 + 40, h / 2 + 46); ctx.lineTo(-w / 2 + 120, h / 2 - 2); ctx.fill();
+    ctx.font = FONT(700, 44); ctx.fillStyle = '#334155'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    ctx.fillText(label, 0, -48);
+    const pulse = 1 + 0.05 * Math.sin(t * 7);
+    ctx.save(); ctx.scale(pulse, pulse); ctx.font = FONT(900, 76); ctx.fillStyle = '#e11d48'; ctx.fillText(kw, 0, 40); ctx.restore();
+    ctx.restore();
+    pop(t, at + 0.4, 'Website ka link DM mein milega 📩', 540, y + 215, { size: 42, weight: 700, color: C.gold });
+  }
+
   // ---------- Background ----------
   function background(t) {
     const g = ctx.createLinearGradient(0, 0, 0, H);
@@ -212,7 +229,7 @@
   };
   window.EJ = {
     W, H, C, ctx, clamp, prog, easeOut, easeInOut, easeBack, hash, FONT, rrect, txt, width, pop, words, pill,
-    card, counter, stamp, check, source, logo, watermark, endCard,
+    card, counter, stamp, check, source, logo, watermark, endCard, commentCTA,
     start() { layout(); window.ready = document.fonts.ready.then(() => window.renderFrame(0)); }
   };
 })();

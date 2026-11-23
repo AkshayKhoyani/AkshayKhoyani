@@ -13,7 +13,7 @@
 //  4,651 Act Apprentice posts; Lucknow cluster 1,525, Delhi cluster 1,312
 //  10th (min 50%) + ITI in relevant trade; age 15–24 as on 11.12.2026 (relaxation as per rules)
 //  Merit-based, no written exam / interview; apply 11.11.2026 – 11.12.2026 (23:59)
-const { C, ctx, txt, pop, words, pill, card, counter, stamp, check, source, endCard, rrect, prog, easeOut, easeBack, clamp } = EJ;
+const { C, ctx, txt, pop, words, pill, card, counter, stamp, check, source, endCard, commentCTA, rrect, prog, easeOut, easeBack, clamp } = EJ;
 
 window.SCENES = [
   // 0 — Hook
@@ -102,9 +102,9 @@ window.SCENES = [
     }});
   }},
   // 6 — Outro
-  { dur: 5.5, noWatermark: true, draw(t) {
-    pill(t, 0.05, '📤 ITI wale dosto ko SHARE karo', 330, C.green, '#05230f', 40);
-    endCard(t, 0.4);
+  { dur: 7.5, noWatermark: true, draw(t) {
+    commentCTA(t, 0.05, 'RAILWAY', 300);
+    endCard(t, 0.9);
   }}
 ];
 

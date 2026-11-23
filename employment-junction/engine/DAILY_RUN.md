@@ -13,7 +13,7 @@ Daily targets (across all runs): **5–10 new/updated pages in each section** �
    - Jobs: full spec like `jobs/dsssb-je-mts-2026.json` → `python3 wp.py jobs/<f>.json --status publish`.
    - Admit card / result / answer key / syllabus: write `updates/<slug>.in.json` like the existing ones, `python3 updates/make.py updates/<slug>.in.json`, then `python3 wp.py updates/<slug>.json --status publish`.
    - When an admit card/result/answer key belongs to a job we already have, also add a "Latest Update: … (link)" line at the top of that job's spec intro and re-publish it with `--update <id>`.
-6. Reel: at most one every ~4 hours (check the newest folder date in `employment-junction/reels/`), for the biggest item of the day.
+6. Reel: at most one every ~4 hours (check the newest folder date in `employment-junction/reels/`), for the biggest item of the day. Every reel ends with the comment-keyword CTA (see reels/README.md): pick a short UPPERCASE keyword, put `keyword` + the website `link` in script.json, add a row to `reels/AUTO_REPLY.md`, and put "Comment karo \"<KEYWORD>\" – link DM mein milega" in the caption README.
 7. Add follow-ups to `PENDING.md`. Commit and push.
 8. Report (Hinglish, short): published/updated links, reel, anything blocked. If nothing new was found, say so in one line.
 

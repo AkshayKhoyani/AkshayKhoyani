@@ -1,5 +1,7 @@
 # Reel #1: RRC Northern Railway Apprentice – 4,651 Posts 🚂
 
+**Comment keyword:** `RAILWAY` → DM link: https://employmentjunction.in/jobs/rrc-nr-apprentice-recruitment-2026-4651-posts/
+
 Vertical 1080×1920, ~63 sec, Hinglish, ElevenLabs voice "Jessica" (1.1x).
 
 ## Upload ke liye
@@ -16,7 +18,8 @@ RRC Northern Railway Act Apprentice 2026
 🌐 Official website: rrcnr.org
 
 Fee aur trade-wise vacancy ke liye official notification (RRC/NR/03/2026) zaroor padhein.
-ITI wale dosto ko share karo aur follow karo @employmentjunction.in 🔔
+👇 Form ka link chahiye? Comment karo "RAILWAY" – link DM mein milega!
+Follow @employmentjunction.in 🔔
 
 **Hashtags:** #railwayjobs #rrcnr #apprentice #itijobs #10thpassjobs #sarkarinaukri #governmentjobs #railwaybharti #employmentjunction #reels
 

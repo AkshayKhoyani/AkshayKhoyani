@@ -1,0 +1,60 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>DSSSB MTS JE Reel</title>
+<style>html,body{margin:0;background:#071a3d}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/ej.js"></script>
+<script>
+// Facts: DSSSB Advt 06/2026 – 1,260 posts (1,075 MTS + 185 JE Electrical); MTS 10th pass; JE diploma/degree;
+// age 18–27 (relaxation OBC 3, SC/ST 5, PwBD 10); fee ₹100 Gen/OBC/EWS, nil for women/SC/ST/PwBD/ESM; apply 12 Nov – 11 Dec 2026.
+const { C, ctx, txt, pop, words, pill, card, counter, stamp, check, source, endCard, commentCTA, rrect, prog, easeOut, easeBack } = EJ;
+window.SCENES = [
+  { dur: 4.5, draw(t) {
+    pill(t, 0.05, '🏛️ DELHI GOVT JOB 2026', 330, C.gold);
+    words(t, 0.3, 'Sirf 10th PASS?', 640, { size: 116, colors: [C.text, C.gold, C.gold] });
+    words(t, 1.2, 'Delhi Sarkar ki', 820, { size: 90 });
+    words(t, 1.5, 'Naukri!', 950, { size: 130, colors: [C.sky] });
+    stamp(t, 2.2, '1260 POSTS', 540, 1250, C.green, -0.1, 110);
+  }},
+  { dur: 8, draw(t) {
+    pop(t, 0.1, 'DSSSB', 540, 330, { size: 80, color: C.gold });
+    pop(t, 0.35, 'Advertisement No. 06/2026', 540, 410, { size: 46, weight: 600, color: C.muted });
+    counter(t, 0.7, 1.5, 1260, 540, 700, { size: 250 });
+    pop(t, 1.5, 'TOTAL POSTS', 540, 830, { size: 54 });
+    card(t, 2.6, 90, 930, 430, 330, { from: 'left', accent: C.gold, draw: (x, y) => {
+      txt('MTS', x + 215, y + 90, { size: 50, color: C.muted }); txt('1,075', x + 215, y + 210, { size: 110, weight: 900 });
+      txt('10th Pass', x + 215, y + 285, { size: 40, weight: 700, color: C.green2 }); }});
+    card(t, 3.0, 560, 930, 430, 330, { from: 'right', accent: C.sky, draw: (x, y) => {
+      txt('JE (Electrical)', x + 215, y + 90, { size: 46, color: C.muted }); txt('185', x + 215, y + 210, { size: 110, weight: 900 });
+      txt('Diploma / Degree', x + 215, y + 285, { size: 40, weight: 700, color: C.sky }); }});
+  }},
+  { dur: 9, draw(t) {
+    pill(t, 0.05, 'ELIGIBILITY & AGE', 330, C.sky);
+    card(t, 0.3, 70, 450, 940, 860, {});
+    check(t, 0.6, 150, 570, 'MTS: 10th pass');
+    check(t, 1.6, 150, 700, 'JE: Diploma/Degree (Elect.)', { size: 46 });
+    check(t, 3.0, 150, 850, 'Age: 18 – 27 saal');
+    pop(t, 4.2, 'Age Relaxation', 540, 1000, { size: 48, color: C.gold });
+    [['OBC', '+3 saal'], ['SC / ST', '+5 saal'], ['PwBD', '+10 saal']].forEach(([k, v], i) => card(t, 4.6 + i * 0.4, 110 + i * 295, 1050, 265, 200, { draw: (x, y) => {
+      txt(k, x + 132, y + 80, { size: 42, color: C.muted }); txt(v, x + 132, y + 160, { size: 54, weight: 900, color: C.gold }); }}));
+  }},
+  { dur: 7, draw(t) {
+    pill(t, 0.05, '💰 APPLICATION FEE', 330, C.gold);
+    card(t, 0.4, 90, 470, 900, 300, { accent: C.gold, draw: (x, y) => {
+      txt('General / OBC / EWS', x + 450, y + 100, { size: 48, color: C.muted }); txt('₹100', x + 450, y + 230, { size: 140, weight: 900 }); }});
+    card(t, 1.6, 90, 820, 900, 420, { accent: C.green, bg: 'rgba(34,197,94,0.10)', draw: (x, y) => {
+      txt('FREE (₹0)', x + 450, y + 110, { size: 90, weight: 900, color: C.green2 });
+      ['Women (sabhi)', 'SC / ST', 'PwBD', 'Ex-Servicemen'].forEach((s, i) => txt('✔ ' + s, x + 450, y + 200 + i * 55, { size: 42, weight: 700 })); }});
+  }},
+  { dur: 6.5, draw(t) {
+    pill(t, 0.05, '📅 LAST DATE', 330, C.red, '#fff');
+    card(t, 0.3, 240, 460, 600, 600, { draw: (x, y) => {
+      rrect(x, y, 600, 140, 34); ctx.fillStyle = C.red; ctx.fill(); ctx.fillRect(x, y + 100, 600, 40);
+      txt('LAST DATE', x + 300, y + 95, { size: 56, weight: 900 });
+      txt('11', x + 300, y + 420, { size: 260, weight: 900, scale: 1 + 0.05 * Math.sin(t * 6) });
+      txt('DEC 2026', x + 300, y + 530, { size: 60, weight: 800, color: C.muted }); }});
+    words(t, 2.2, 'Aaj hi apply karo!', 1250, { size: 76, colors: [C.text, C.gold, C.gold] });
+  }},
+  { dur: 7.5, noWatermark: true, draw(t) { commentCTA(t, 0.05, 'DSSSB', 300); endCard(t, 0.9); }}
+];
+EJ.start();
+</script></body></html>
