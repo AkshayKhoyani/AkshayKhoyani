@@ -57,3 +57,28 @@ Agar repo +25 bps aur bank poora badhaav loan par de (repo-linked / EBLR loans p
 - ⚠️ Rupee/crude ke current numbers, HSBC ka view: mat daalo, ya "ek report ke mutabik" bolo.
 - ❌ "Pakka hike hoga" ya "ye share kharido": nahi.
 - 30 Nov GDP aur ~28 Nov poll ke baad numbers update karne honge.
+
+## G. STOCK MARKET angle (23 Nov research, reel ka focus yahi)
+### Pichli baar (7 Oct 2026, +25 bps hike) market ne kya kiya
+| Cheez | Kya hua | Status |
+|---|---|---|
+| Sensex / Nifty | Din mein gire, phir neeche se recover; close ~0.6–0.8% neeche | ✅ direction (TradingView/Moody's, BW Businessworld, Kotak Neo) · ⚠️ exact closing levels (72,638 / 22,603) sirf ek source mein, aaj ke levels se mel nahi khate, reel mein mat daalo |
+| **Auto** | Sabse kamzor: Nifty Auto ~-1% se -1.44% | ✅ 2+ sources |
+| **Realty** | Kamzor: ~-0.2% se -1% | ✅ |
+| **Banks / NBFC** | Shuru mein ~-1%, phir **recover** karke hare mein | ✅ (Outlook Money, Zee Biz, IndiaIPO) |
+| Experts | "25 bps pehle se price-in tha"; asli message = RBI ka rukh badalna | ✅ |
+
+### Abhi market kahan hai
+| Cheez | Detail | Status |
+|---|---|---|
+| **Bank Nifty** | 17 Nov ko **record high**, pehli baar **62,000 paar** (~62,300–62,400). Nov mein ~13% upar | ✅ Angel One, Free Press Journal, BusinessToday, Univest |
+| Nifty | 20 Nov close 25,801 (9 mahine ka high), 26,000 par nazar | ✅ BusinessToday (22 Nov) |
+| FII | Nov mein record kharidari (~₹1.12 lakh cr / ~$9.5 bn) | ✅ BusinessToday + ⚠️ $ figure ek source |
+| 10-saal bond yield | ~7.18% (11 Nov); Oct end mein 7.45% (Mar 2023 ke baad sabse uncha) | ✅ Trading Economics notes |
+| Experts | "Terminal repo kam se kam 6%" ka andaaza | ⚠️ Trading Economics note |
+
+### Reel ke liye angle
+- **Rate-sensitive sectors:** Banks, NBFC/HFC, Auto, Realty. Pichli baar Auto/Realty sabse zyada gire, Banks ne recover kiya.
+- **Bada sawaal:** Record high par khade Bank Nifty ke liye 4 Dec ka faisla.
+- **Double trigger:** 30 Nov GDP → **4 Dec RBI** → **9 Dec US Fed**.
+- ❌ Koi prediction / buy-sell nahi. Sirf "pichli baar kya hua" aur "kin sectors par nazar".
