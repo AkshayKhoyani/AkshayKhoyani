@@ -9,3 +9,5 @@
 7. For the 1 biggest new item, make a reel in `employment-junction/reels/` with the existing engine (voice.py → music.py → render.js) and write its caption README.
 8. Add new follow-ups to `PENDING.md`.
 9. Commit and push to the branch. End with a short Hinglish report: what was published (links), what was updated, which reel was made, anything blocked.
+
+Retention: never delete anything published less than 1 year ago. Pages older than 1 year may be moved to Trash (not permanently deleted), one batch per month at most, and listed in the report.

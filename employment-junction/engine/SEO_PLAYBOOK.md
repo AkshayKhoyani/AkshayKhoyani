@@ -48,3 +48,14 @@ eligibility (one of: high school, associate degree, bachelor degree, professiona
 ## Freshness
 - Publish within hours of a notification; update the same URL for corrigenda / date extensions and say so at the top ("Updated on …").
 - Featured image 1536×1024 (Discover needs ≥ 1200 px wide; robots meta already allows large previews).
+
+## Old posts – retention rule (owner's decision, 23 Nov 2026)
+- Posts/jobs **less than 1 year old: keep**, even if the last date has passed (they still bring search traffic). Do not delete or rewrite them.
+- Posts/jobs **more than 1 year old** (by publish date) **may be moved to Trash**. Prefer keeping any that still get traffic or have a newer cycle we can link to.
+- Expired jobs drop out of Google for Jobs automatically via `valid_through`; the page itself stays.
+
+## Schema setup (cleaned 23 Nov 2026)
+- Single source of structured data: **EmploymentJunction SEO Suite** (Organization, WebSite, BreadcrumbList, JobPosting, Article, FAQ).
+- Schema Pro plugin: **deactivated** (it emitted an invalid "News Media Organization" type and empty blocks).
+- Rank Math: schema ("rich-snippet") module **off**; Rank Math still handles titles, meta descriptions and sitemaps.
+- Do not re-enable either without checking for duplicate schema.
