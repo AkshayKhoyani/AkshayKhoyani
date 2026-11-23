@@ -23,6 +23,8 @@ d = os.path.abspath(sys.argv[1])
 S = json.load(open(os.path.join(d, "script.json")))
 VOICE = S.get("voice", "cgSgspJ2msm6clMCkdW9")
 SPEED = S.get("speed", 1.12)
+MODEL = S.get("model", "eleven_multilingual_v2")
+VSET = S.get("voice_settings", {"stability": 0.45, "similarity_boost": 0.8, "style": 0.3, "use_speaker_boost": True})
 LEAD, GAP, TAIL = S.get("lead", 0.25), S.get("gap", 0.35), S.get("tail", 2.5)
 os.makedirs(os.path.join(d, "vo"), exist_ok=True)
 
@@ -36,9 +38,7 @@ def tokens(text):
 
 
 def tts(text, mp3, align):
-    body = json.dumps({"text": text, "model_id": "eleven_multilingual_v2",
-                       "voice_settings": {"stability": 0.45, "similarity_boost": 0.8,
-                                          "style": 0.3, "use_speaker_boost": True}})
+    body = json.dumps({"text": text, "model_id": MODEL, "voice_settings": VSET})
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}/with-timestamps?output_format=mp3_44100_128"
     r = subprocess.run(["curl", "-s", "-w", "\n%{http_code}", url, "-H", "xi-api-key: proxy-injected",
                         "-H", "Content-Type: application/json", "--data-binary", body],
@@ -62,10 +62,10 @@ for i, L in enumerate(S["lines"]):
     text = " ".join(t for t, _ in toks)
     mp3, al = os.path.join(d, "vo", f"line_{i}.mp3"), os.path.join(d, "vo", f"line_{i}.json")
     cached = os.path.join(d, "vo", f"line_{i}.txt")
-    if not (os.path.exists(mp3) and os.path.exists(al) and os.path.exists(cached) and open(cached).read() == text):
+    if not (os.path.exists(mp3) and os.path.exists(al) and os.path.exists(cached) and open(cached).read() == MODEL + VOICE + text):
         print("generating line", i)
         tts(text, mp3, al)
-        open(cached, "w").write(text)
+        open(cached, "w").write(MODEL + VOICE + text)
     fast = os.path.join(d, "vo", f"line_{i}_fast.wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-af", f"atempo={SPEED}", fast], check=True)
     dur = duration(fast)
@@ -82,6 +82,8 @@ for i, L in enumerate(S["lines"]):
         tot = sum(len(x) for x in parts) or 1
         acc = 0
         for part in parts:
+            if not part:
+                continue
             ps = s + (e - s) * acc / tot
             acc += len(part)
             words.append({"w": part, "s": round(start + ps, 3), "e": round(start + s + (e - s) * acc / tot, 3)})
