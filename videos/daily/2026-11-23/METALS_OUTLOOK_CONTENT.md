@@ -40,3 +40,29 @@ Research: 23 Nov 2026, raat. Rule: koi prediction ya buy/sell nahi. Sirf "kya de
 
 Style: Whiteboard (8) mein tarazu ⚖️: ek taraf 🔴 China + Dollar, doosri taraf 🟢 Duty, aur end mein Kinetic (3) date cards.
 Disclaimer: Not investment advice. Prediction nahi, sirf factors.
+
+---
+## F. ✅ CORRECTION: China ka export figure
+Official China customs: 2025 mein steel export **119.02 million tonne (~11.9 crore tonne)**, ab tak ka record (pichla record 112.4 MT, 2015). China mein apni maang **−5.4%**. (Steelorbis, Mysteel, Caixin, Mining.com)
+SteelOnTheNet wala 131 MT aur "EU se zyada" wala claim **use nahi karna** (sirf 1 source, official se match nahi).
+
+## G. v2 SCRIPT: "Rassa-kassi" (watch time + hook ke liye, ~35 sec)
+Idea: metal stocks ek rassa-kassi 🪢 hain. 2 villain neeche kheench rahe hain, 1 hero bacha raha hai. Viewer last tak ruke: "kaun jeetega?" + "ek date".
+
+| # | Time | Screen | Voice (Bunty v4) |
+|---|---|---|---|
+| 1 Hook | 0–3s | 🪢 Rassi: 🔴🔴 vs 🟢 · "METAL −3.7%" | `[dramatic]` "Metal stocks ki rassa-kassi! Do taqatein neeche kheench rahi hain… ek bacha rahi hai." |
+| 2 Open loop | 3–5s | "Last mein: 1 DATE 📅" | `[curious]` "Kaun jeetega? Aur last mein woh ek date, jo note karni hai." |
+| 3 Villain 1 | 5–12s | 🇨🇳 11.9 CRORE TONNE 🚢 · "RECORD" | `[serious]` "Villain number ek: China. Ghar mein maang kam, toh 2025 mein record 11.9 crore tonne steel duniya mein bech diya. Daam dab gaye." |
+| 4 Villain 2 | 12–19s | 💵⬆️ ⚖️ 🪨⬇️ seesaw · "19-MONTH HIGH" | "Villain number do: Dollar. 19 mahine ke high par. Seesaw samjho: dollar upar, metal ke daam neeche." |
+| 5 Hero | 19–25s | 🧱 DEEWAR "11.5% DUTY" · Chinese steel takraake ruke | `[confident]` "Par hero bhi hai! India mein imported steel par 11.5% duty, ek deewar jo sasta Chinese steel rokti hai." |
+| 6 Payoff | 25–30s | 📅 **9 DEC · US FED** (bada) + 30 Nov China data (chhota) | "Aur woh date: 9 December, US Fed. Rate badhe toh dollar aur mazboot ho sakta hai." |
+| 7 CTA | 30–35s | "Kaun jeetega? 🔴 ya 🟢 👇" | `[calm]` "Aapko kya lagta hai, kaun jeetega? Comment mein sirf ek emoji: laal ya hara! Finance Junction follow karo." |
+
+⚠️ Line 6: "rate badhe toh dollar mazboot ho sakta hai" = general economics, prediction nahi. 30 Nov China PMI date third-party calendar se, isliye chhota dikhana.
+
+Watch-time tricks:
+- Har 2–3 sec mein naya visual: rassi khinchna, ship, seesaw, deewar.
+- Open loop ("last mein ek date") viewer ko end tak rokta hai.
+- Emoji comment (🔴/🟢) sabse aasaan comment hai, isse comments badhenge.
+- End frame wapas rassi par, taaki loop mein replay ho.
