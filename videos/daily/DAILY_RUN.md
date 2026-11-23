@@ -21,6 +21,13 @@ Repo: `AkshayKhoyani/AkshayKhoyani`, branch `claude/finance-videos-pz24zv`.
 8. Final message (user ke phone par notification): Hinglish mein kaunsi reels bani, kahan mili (GitHub path), aaj ka posting time
    suggestion (subah 9, dopahar 1, shaam 7, raat 9), koi source/voice issue.
 
+## Insights se seekh (23 Nov: weekly calendar reel = 5,887 views, 80 follows, 81 saves, 52 shares)
+- "Kal / aaj" mat bolo, **date bolo** (jaise "23 November 2026 ko"). Voice aur screen dono par.
+- Reel **≤ 35–40 sec**. 63 sec wali reel ka average watch 20 sec tha.
+- **Pehle 2 sec mein sabse badi baat / suspense** (shuru ke 5–6 sec mein ~50% drop tha).
+- End mein **aasaan comment sawaal** ("1, 2 ya 3 comment karo"); comments 0 the.
+- Utility / save-worthy content (calendar, list, dates) sabse achha chalta hai.
+
 ## Kabhi mat karo
 - Guaranteed return / "pakka paisa" jaisi baatein, kisi stock/fund ka naam leke buy/sell advice.
 - Bina source ka number.
