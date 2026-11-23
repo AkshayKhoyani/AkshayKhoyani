@@ -12,9 +12,9 @@ Templates hint: hook / stat / formula / compare / list / chart / phone / mythfac
 | 5 | Rule of 72 | Paisa kab DOUBLE hoga? | formula, compare, stat | done (samples/d05) |
 | 6 | FD vs Equity 10 saal | ₹1 lakh: FD ya Mutual Fund? | chart, list | done (samples/d06) |
 | 8 | Credit card minimum due | Minimum due bhara? GALTI 😬 | phone, stat, list | done (samples/d08) |
-| 7 | Inflation ✳️ | ₹100 ki cheez 10 saal baad kitne ki? | stat, chart | todo |
-| 9 | Emergency fund | Job gayi toh kitne mahine chaloge? | stat, list | todo |
-| 10 | Repo rate → EMI ✳️ | RBI ne rate badhaya, EMI kyun badhi? | stat, compare | todo |
+| 7 | Inflation ✳️ | ₹100 ki cheez 10 saal baad kitne ki? | stat, chart | done (2026-11-23, morning session; push fail, files in that session) |
+| 9 | Emergency fund | Job gayi toh kitne mahine chaloge? | stat, list | done (2026-11-23, morning session; push fail, files in that session) |
+| 10 | Repo rate → EMI ✳️ | RBI ne rate badhaya, EMI kyun badhi? | stat, compare | done (2026-11-23, morning session; push fail, files in that session) |
 | 11 | ₹12 lakh tak zero tax ✳️ | ₹12 LAKH salary, TAX ZERO? | stat, mythfact | todo |
 | 12 | Fake trading app scam | App mein profit hai, nikal nahi raha? | phone, list | todo |
 | 13 | 50-30-20 budget rule | Salary aate hi khatam? | formula, compare | todo |
