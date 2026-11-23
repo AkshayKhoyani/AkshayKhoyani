@@ -273,10 +273,21 @@ def render(r, L):
     open(lst, "w").write("".join(f"file '{p}'\n" for p in parts))
     joined = f"{W}/{rid}_{L}_joined.mp4"
     run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", lst, "-c", "copy", joined])
+    mix(rid, L)
+
+
+MUSIC_VOL = 0.07  # background music level (voice stays on top)
+
+
+def mix(rid, L):
+    joined = f"{W}/{rid}_{L}_joined.mp4"
     T = dur(joined)
-    af = (f"[1:a]aloop=loop=-1:size=2e9,atrim=0:{T:.3f},volume=0.18,afade=t=in:d=0.5,"
-          f"afade=t=out:st={T - 1.8:.3f}:d=1.8[m];[0:a]volume=1.3[v];"
-          f"[v][m]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,"
+    # soft music bed: low volume, gentle low-pass, and ducked further while the voice speaks
+    af = (f"[0:a]volume=1.4,asplit=2[v][key];"
+          f"[1:a]aloop=loop=-1:size=2e9,atrim=0:{T:.3f},lowpass=f=5000,volume={MUSIC_VOL},"
+          f"afade=t=in:d=0.8,afade=t=out:st={T - 2:.3f}:d=2[m];"
+          f"[m][key]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400[md];"
+          f"[v][md]amix=inputs=2:duration=first:normalize=0,loudnorm=I=-14:TP=-1.5:LRA=11,"
           f"aresample=44100[a]")
     final = f"{OUT}/tradenest_{rid}_{L}.mp4"
     run(["ffmpeg", "-y", "-i", joined, "-i", f"{W}/{rid}_music.mp3", "-filter_complex", af,
@@ -286,8 +297,14 @@ def render(r, L):
 
 
 if __name__ == "__main__":
-    only = sys.argv[1:]
+    mix_only = "--mix-only" in sys.argv
+    only = [a for a in sys.argv[1:] if not a.startswith("--")]
     reels = [r for r in cfg["reels"] if not only or r["id"] in only]
+    if mix_only:
+        for r in reels:
+            for L in LANGS:
+                mix(r["id"], L)
+        sys.exit(0)
     make_assets(reels)
     with cf.ThreadPoolExecutor(3) as ex:
         list(ex.map(lambda a: render(*a), [(r, L) for r in reels for L in LANGS]))
