@@ -81,7 +81,10 @@ def render(s):
     out += [f"<p>{p}</p>" for p in s["final"]]
     out.append('<p><em>Disclaimer: Employment Junction is an independent information portal and is not affiliated with any government '
                'body. Always verify details from the official notification before applying. We never charge money for any job.</em></p>')
-    return "\n".join(out)
+    html_out = "\n".join(out)
+    # make every Instagram handle mention clickable
+    ig = '<a href="https://www.instagram.com/employmentjunction.in/" target="_blank" rel="noopener">@employmentjunction.in</a>'
+    return html_out.replace("<strong>@employmentjunction.in</strong>", "<strong>" + ig + "</strong>")
 
 
 def featured_image(s, path):
