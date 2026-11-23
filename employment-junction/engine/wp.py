@@ -43,7 +43,8 @@ e = html.escape
 
 def render(s):
     """Job spec -> post HTML matching the site's existing posts."""
-    out = [f"<h1>{e(s['title'])}</h1>"]
+    # no H1 here: the theme prints the post title as the page's only H1
+    out = []
     out.append("<p>" + "<br />".join(f"<strong>{e(k)}:</strong> {e(v)}" for k, v in s["summary"]) + "</p>")
     out += [f"<p>{p}</p>" for p in s["intro"]]
     rows = [f'<tr style="background: #0b5ed7; color: #fff;"><th {TH}>Particular</th><th {TH}>Details</th></tr>']
@@ -125,12 +126,19 @@ def main():
 
     content = render(s)
     open(os.path.join(out_dir, s["slug"] + ".html"), "w").write(content)
+    # content type: ej_job (default, emits JobPosting schema), ej_result, ej_admit_card, ej_answer_key, ej_syllabus, posts
+    ptype = s.get("type", "ej_job")
     post = {"title": s["title"], "slug": s["slug"], "content": content, "status": a.status,
-            "categories": s["categories"], "featured_media": media_id, "excerpt": s["seo"]["description"],
+            "featured_media": media_id, "excerpt": s.get("schema_description", s["seo"]["description"]),
             # the site's own SEO plugin (employmentjunction-seo-suite)
             "meta": {"ej_seo_title": s["seo"]["title"].replace(" %sep% %sitename%", " | Employment Junction"),
                      "ej_seo_desc": s["seo"]["description"], "ej_focus_kw": s["seo"]["keyword"]}}
-    p = req("POST", f"/wp/v2/posts/{a.update}" if a.update else "/wp/v2/posts", post)
+    if ptype == "posts":
+        post["categories"] = s["categories"]
+    # JobPosting fields read by the site's employmentjunction-seo-suite plugin
+    for k, v in s.get("job", {}).items():
+        post["meta"]["ej_" + k] = v
+    p = req("POST", f"/wp/v2/{ptype}/{a.update}" if a.update else f"/wp/v2/{ptype}", post)
     req("POST", "/rankmath/v1/updateMeta", {"objectType": "post", "objectID": p["id"], "meta": {
         "rank_math_title": s["seo"]["title"], "rank_math_description": s["seo"]["description"],
         "rank_math_focus_keyword": s["seo"]["keyword"]}})
