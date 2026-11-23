@@ -32,3 +32,11 @@ Repo: `AkshayKhoyani/AkshayKhoyani`, branch `claude/finance-videos-pz24zv`.
 - Guaranteed return / "pakka paisa" jaisi baatein, kisi stock/fund ka naam leke buy/sell advice.
 - Bina source ka number.
 - Kisi asli bank/brand ka logo ya asli vyakti ki nakal.
+
+## SOURCE RULES (user ki request, 23 Nov 2026), har content par lagu
+1. User ko dikhane se **pehle** poora verify karo. Pehle draft dikhaakar baad mein number badalna mana hai.
+2. Har number ke liye: **2+ alag publishers** (ek hi article copy karne wale nahi) YA 1 official source (NSE/BSE, RBI, PIB, govt stats, exchange, company filing).
+3. Official/primary source sabse upar: China customs, NBS, LME, RBI, NSE/BSE. Blog/aggregator (SteelOnTheNet, accio, etc.) sirf hint hain, script mein nahi.
+4. Har reel folder mein `SOURCES.md`: number → exact figure → publisher → URL → date. Script sirf isi table se.
+5. Number ek baar **FINAL** mark ho gaya to badalna nahi. Agar galti mile to user ko saaf batao: "ye pehle galat tha, ye sahi hai, is source se".
+6. Jo verify na ho, woh script se bahar. ⚠️ wale numbers reel mein nahi jaate.
