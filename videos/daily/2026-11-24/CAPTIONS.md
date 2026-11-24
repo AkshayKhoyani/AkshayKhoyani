@@ -95,3 +95,27 @@ Rates 23–24 Nov 2026 ke; roz badalte hain. Not investment advice.
 **Hashtags:** `#goldrate #goldprice #gold #mcx #sona #goldinvestment #fed #rbi #financejunction #personalfinance`
 **YT:** `SONA 30% GIRA 📉 Bechein Ya Kharidein? Gold Rate Story #shorts`
 **Sources:** `04-gold-3d-story/SOURCES.md` (MCX, Groww, Kotak Neo, IndMoney, IBTimes, Goodreturns, FXStreet, Investing News)
+
+## 5. Ek CEO wapas aaya, duniya ke market UDE 🚀 (05-ceo-wapas-world-rally/ceo-wapas-duniya-ke-market-ude.mp4, 38s)
+Suggested posting: **aaj shaam 7 baje** (25 Nov ko market khulne se pehle)
+**IG:**
+```
+Ek aadmi wapas aaya… aur ek raat mein Nvidia +31% UD GAYA! 🚀
+
+📅 11 Nov: CEO Jensen Huang ne resign kiya, share girta raha
+🔙 23 Nov: Board ne wapas bula liya
+💰 Ek din mein $950 billion badhe (2003 ke baad best din)
+
+🇺🇸 Nasdaq +6.51% · S&P 500 +4.73% · Dow +3.01%
+🇪🇺 Europe ~+2%
+🇯🇵 Japan +3.9% · 🇰🇷 Korea +6.3% (Kospi phir 5,000 paar) · 🇹🇼 Taiwan +9%
+🇮🇳 India: 24 Nov market BAND (Guru Nanak Jayanti), asli asar 25 Nov ko 👀
+
+25 Nov ko Nifty upar khulega ya neeche? Upar = 1, Neeche = 2 comment karo 👇
+🔔 Follow @FinanceJunction · 🔁 Repost karo
+
+Not investment advice. Data: 23–24 Nov 2026 closing figures.
+```
+**Hashtags:** `#nvidia #stockmarket #nasdaq #globalmarkets #nifty #sensex #wallstreet #aistocks #financejunction #marketnews`
+**YT:** `Ek CEO Wapas Aaya, Duniya Ke Market UDE 🚀 Nvidia +31% #shorts`
+**Sources:** `05-ceo-wapas-world-rally/SOURCES.md`
