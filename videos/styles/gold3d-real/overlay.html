@@ -1,0 +1,19 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas><script>
+const q = new URLSearchParams(location.search), c = document.getElementById('c'), x = c.getContext('2d');
+const F = (w, s) => `${w} ${s}px Inter, "Noto Color Emoji", sans-serif`;
+function pill(t, y, s, bg, fg) { x.font = F(900, s); const w = x.measureText(t).width + 64, h = s * 1.4; x.fillStyle = bg; x.beginPath(); x.roundRect(540 - w / 2, y - h / 2, w, h, 22); x.fill(); x.fillStyle = fg; x.textAlign = 'center'; x.textBaseline = 'middle'; x.fillText(t, 540, y + 3); }
+(async () => {
+  await document.fonts.load('900 40px Inter'); await document.fonts.load('40px "Noto Color Emoji"', '📉😱');
+  const im = new Image(); im.src = q.get('img'); await im.decode();
+  const s = Math.max(1080 / im.width, 1920 / im.height), w = im.width * s, h = im.height * s; x.drawImage(im, (1080 - w) / 2, (1920 - h) / 2, w, h);
+  const g = x.createLinearGradient(0, 1300, 0, 1920); g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,0,0,0.55)'); x.fillStyle = g; x.fillRect(0, 1300, 1080, 620);
+  pill('SONA 30% GIRA 📉', 300, 80, 'rgba(251,250,247,0.95)', '#16181d');
+  pill('₹1.8 lakh → ₹1.25 lakh', 430, 58, 'rgba(11,37,69,0.95)', '#ffffff');
+  pill('30% GAYA?! 😱', 1500, 50, 'rgba(31,35,43,0.94)', '#ffffff');
+  x.fillStyle = 'rgba(0,0,0,0.78)'; x.beginPath(); x.roundRect(40, 1790, 1000, 90, 20); x.fill();
+  x.font = F(900, 38); x.fillStyle = '#f4cf6a'; x.textAlign = 'left'; x.textBaseline = 'middle'; x.fillText('CONCEPT ' + q.get('n'), 76, 1836);
+  x.font = F(800, 34); x.fillStyle = '#fff'; x.textAlign = 'right'; x.fillText(q.get('name'), 1010, 1836);
+  window.READY = true;
+})();
+</script></body></html>
