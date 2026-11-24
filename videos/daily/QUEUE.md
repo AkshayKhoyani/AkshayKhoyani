@@ -15,9 +15,9 @@ Templates hint: hook / stat / formula / compare / list / chart / phone / mythfac
 | 7 | Inflation ✳️ | ₹100 ki cheez 10 saal baad kitne ki? | stat, chart | done (2026-11-23, morning session; push fail, files in that session) |
 | 9 | Emergency fund | Job gayi toh kitne mahine chaloge? | stat, list | done (2026-11-23, morning session; push fail, files in that session) |
 | 10 | Repo rate → EMI ✳️ | RBI ne rate badhaya, EMI kyun badhi? | stat, compare | done (2026-11-23, morning session; push fail, files in that session) |
-| 11 | ₹12 lakh tak zero tax ✳️ | ₹12 LAKH salary, TAX ZERO? | stat, mythfact | todo |
-| 12 | Fake trading app scam | App mein profit hai, nikal nahi raha? | phone, list | todo |
-| 13 | 50-30-20 budget rule | Salary aate hi khatam? | formula, compare | todo |
+| 11 | ₹12 lakh tak zero tax ✳️ | ₹12 LAKH salary, TAX ZERO? | stat, mythfact | done (2026-11-24) |
+| 12 | Fake trading app scam | App mein profit hai, nikal nahi raha? | phone, list | done (2026-11-24) |
+| 13 | 50-30-20 budget rule | Salary aate hi khatam? | formula, compare | done (2026-11-24) |
 | 14 | Endowment vs term insurance | LIC policy = investment? | mythfact, compare | todo |
 | 16 | 25 vs 35 umar mein SIP | 10 saal late = kitna kam? 😱 | chart, compare | todo |
 | 17 | CIBIL score | 750+ CIBIL ka fayda kya? | stat, list | todo |
