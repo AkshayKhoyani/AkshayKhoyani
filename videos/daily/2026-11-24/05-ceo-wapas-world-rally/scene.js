@@ -130,15 +130,15 @@ SEG[0] = t => {
   TX('+31%', 540, 920, { font: AN(320), c: GREEN, sc: pulse, glow: g > 0 ? GREEN : 0 });
   // rocket flies up after "ud"
   const rk = pr(t, H0.ud, H0.ud + 1.1);
-  if (rk > 0 && rk < 1) { const ry = 1250 - eio(rk) * 1300; TX('🚀', 820 + rk * 80, ry, { font: IN(400, 170), rot: -0.35 });
-    for (let k = 0; k < 8; k++) { x.fillStyle = `rgba(255,180,60,${0.5 - k * 0.06})`; x.beginPath(); x.arc(760 + rk * 80 - k * 6, ry + 90 + k * 34, 18 - k * 1.6, 0, 7); x.fill(); } }
+  if (rk > 0 && rk < 1) { const ry = 1380 - eio(rk) * 1500; TX('🚀', 985, ry, { font: IN(400, 120), rot: -0.2 });
+    for (let k = 0; k < 8; k++) { x.fillStyle = `rgba(255,180,60,${0.5 - k * 0.06})`; x.beginPath(); x.arc(970 - k * 3, ry + 70 + k * 26, 13 - k * 1.2, 0, 7); x.fill(); } }
   TX('ek raat mein 😱', 540, 1200, { font: AN(84), c: '#fff', sc: Math.max(0.001, eb(pr(t, wt(0, 'raat', 0.5) - 0.15, wt(0, 'raat', 0.5) + 0.2))) });
 };
 // 1 STORY — whiteboard timeline, camera pans left→right along it
 const S1 = { n11: wt(1, '11'), res: wt(1, 'resign'), n23: wt(1, '23'), wap: wt(1, 'wapas'), bul: wt(1, 'bula') };
 PUNCH.push([S1.wap, 0.08]);
 SEG[1] = t => {
-  const pan = eio(pr(t, S1.n23 - 0.6, S1.n23 + 0.4));
+  const pan = eio(pr(t, S1.n23 - 0.35, S1.n23 + 0.3));
   x.save(); x.translate(-560 * pan, 0);
   boardBg(t, W + 600);
   write('Kahani 12 din ki 📅', 540, 300, 70, BLUE, pr(t, LS(1), LS(1) + 0.8));
@@ -146,8 +146,8 @@ SEG[1] = t => {
   // 11 Nov: resign
   sketch('b11', boxPts(80, 440, 480, 330), pr(t, S1.n11 - 0.3, S1.n11 + 0.2), INK);
   write('11 NOV', 320, 530, 96, INK, pr(t, S1.n11, S1.n11 + 0.4)); write('CEO Resign 👋', 320, 670, 72, BRED, pr(t, S1.res - 0.3, S1.res + 0.3));
-  sketch('dn', [[160, 960], [250, 1010], [320, 990], [410, 1110], [480, 1090], [560, 1240]], pr(t, S1.res + 0.1, S1.res + 0.9), BRED, 9);
-  write('Share girta raha 📉', 360, 1330, 64, BRED, pr(t, S1.res + 0.4, S1.res + 1.0));
+  sketch('dn', [[110, 960], [200, 1010], [270, 990], [360, 1110], [430, 1090], [520, 1220]], pr(t, S1.res - 0.1, S1.res + 0.5), BRED, 9);
+  write('Share girta raha 📉', 320, 1320, 64, BRED, pr(t, S1.res + 0.1, S1.res + 0.6));
   arrow('ar', 560, 600, 1010, 600, pr(t, S1.n23 - 0.5, S1.n23 - 0.05), INK, -90);
   // 23 Nov: back
   sketch('b23', boxPts(1020, 430, 500, 350), pr(t, S1.n23 - 0.2, S1.n23 + 0.25), BGREEN, 8);
@@ -162,7 +162,7 @@ PUNCH.push([S2.bad, 0.12]); SHAKE.push([S2.bad, 14]);
 const coins = Array.from({ length: 26 }, () => ({ x: rnd() * W, d: rnd() * 0.8, sp: 0.8 + rnd() * 0.6, r: rnd() * 6 }));
 SEG[2] = t => {
   kineticBg(t, 'rgba(244,207,106,0.18)');
-  coins.forEach(c => { const k = (t - S2.b - c.d) * c.sp; if (k < 0) return; const y = -100 + ((k * 900) % (H + 200)); TX('💰', c.x, y, { font: IN(400, 70), rot: c.r + k * 3, alpha: 0.75 }); });
+  coins.forEach(c => { const k = (t - S2.b - c.d) * c.sp; if (k < 0) return; const y = -100 + ((k * 900) % (H + 200)); if (y > 380 && y < 560) return; TX('💰', c.x, y, { font: IN(400, 60), rot: c.r + k * 3, alpha: 0.45 }); });
   TX('EK DIN MEIN', 540, 470, { font: AN(110), c: '#fff', sc: eb(pr(t, LS(2), LS(2) + 0.3)) });
   const v = Math.round(950 * eo(pr(t, S2.b - 0.1, S2.bad + 0.2)));
   TX('$' + v, 540, 760, { font: AN(340), c: GOLD, glow: GOLD });
@@ -185,7 +185,8 @@ SEG[3] = t => {
     TX(sub, X - 430, Y + 50, { font: IN(700, 34), c: '#9ca3af', a: 'left', alpha: p });
     const v = '+' + (val * eo(pr(t, at, at + 0.7))).toFixed(2) + '%';
     TX(v, X + 430, Y + 5, { font: AN(160), c: GREEN, a: 'right', alpha: p });
-    TX('▲', X + 30, Y + 5 - Math.abs(Math.sin(t * 6)) * 12, { font: IN(900, 70), c: GREEN, alpha: p });
+    x.font = AN(160); const vw = x.measureText('+' + val.toFixed(2) + '%').width;
+    TX('▲', X + 430 - vw - 45, Y + 5 - Math.abs(Math.sin(t * 6)) * 12, { font: IN(900, 60), c: GREEN, alpha: p });
   };
   row('NASDAQ', 6.51, 640, S3.nq, '24,090');
   row('S&P 500', 4.73, 930, S3.sp, '7,237');
@@ -231,7 +232,8 @@ const S5 = { in: wt(5, 'india'), band: wt(5, 'band'), n25: wt(5, '25'), dk: wt(5
 PUNCH.push([S5.in, 0.06], [S5.band, 0.12], [S5.n25, 0.07]); SHAKE.push([S5.band + 0.08, 20]);
 SEG[5] = t => {
   kineticBg(t, 'rgba(244,207,106,0.14)');
-  TX('PAR INDIA? 🇮🇳', 540, 380, { font: AN(140), c: '#fff', sc: eb(pr(t, S5.in - 0.1, S5.in + 0.3)) });
+  TX('PAR INDIA? 🇮🇳', 540, 380, { font: AN(140), c: '#fff', sc: 0.75 + 0.25 * eb(pr(t, S5.in - 0.1, S5.in + 0.3)) });
+  TX('🇮🇳', 540, 700, { font: IN(400, 260), alpha: 1 - pr(t, S5.band - 0.2, S5.band), sc: 1 + 0.05 * Math.sin(t * 5) });
   // stamp: falls from big scale to 1
   const st = pr(t, S5.band - 0.05, S5.band + 0.18);
   if (st > 0) { const sc = 1 + 1.6 * (1 - eo(st)); x.save(); x.translate(540, 720); x.rotate(-0.08); x.scale(sc, sc); x.globalAlpha = cl(st * 2);
