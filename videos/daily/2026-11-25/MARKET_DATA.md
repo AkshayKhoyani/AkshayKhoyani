@@ -1,5 +1,12 @@
 # 25 Nov 2026 (Budhvaar): market ke liye zaroori data (research: 24 Nov 2026, reel abhi nahi)
 
+
+## 0. UPDATE (24 Nov shaam): sirf 25 Nov ke liye
+- ⚠️ 24 Nov US futures neeche: Nasdaq 100 fut ~−1.2% se −2.2%, S&P fut −0.5% se −1.3%, Dow fut −0.1% se −0.7% (time ke hisaab se alag); Nvidia premarket ~−6% (Monday close $165.05, +31.5%). Wajah: profit booking + tariff badhne ki khabrein (Yahoo Finance, Investing.com, MLQ, Seeking Alpha). US ka 24 Nov close abhi baaki: 25 Nov subah check karna.
+- US Fed hike odds ~96–97% (CME FedWatch via Kiplinger/Yahoo).
+- 25 Nov US calendar (8:30 AM ET = 7 PM IST): Q3 GDP 2nd est (pehle 3.4%), October PCE, durable goods (pehle 1.8%) (Kiplinger, Investrade, tradingcharts).
+- Pichle hafte S&P 500 aur Dow correction zone mein, Nasdaq bear market ke paas the (Yahoo).
+
 ## 1. Pichla close (23 Nov) ✅
 | Index | Close | Badlaav | Source |
 |---|---|---|---|
