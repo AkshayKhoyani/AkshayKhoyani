@@ -70,3 +70,28 @@ Rule of thumb hai, apne hisaab se badlo.
 **Hashtags:** `#budgeting #503020rule #salary #savings #moneytips #personalfinance #financejunction #sip`
 **YT:** `Salary Aate Hi Khatam? 😩 50-30-20 Rule #shorts`
 **Sources:** 50-30-20 rule (Elizabeth Warren, "All Your Worth", 2005); ₹40,000 sirf example.
+
+## 4. 3D story: Sona 30% gira (04-gold-3d-story/gold-30-gira-3d-story.mp4, 39s)
+Suggested posting: **raat 9 baje** (ya kal subah 9 se pehle; rates purane ho jaate hain)
+**IG:**
+```
+SONA 30% GIRA 📉 ₹1.8 lakh → ₹1.25 lakh. Bechein ya kharidein? 🤔
+
+📅 Jan 2026: record ~₹1.8 lakh / 10g (Pinky ne yahin kharida 😬)
+📉 20 Nov: ~30% neeche, 14 mahine ka low
+🇺🇸 Wajah: Fed rate hike ka dar, mazboot dollar, oonche US yields
+📈 23 Nov: MCX par wapas ~₹1.25 lakh
+💍 24 Nov: 24K retail ~₹1.27 lakh / 10g
+
+👵 Dadi ki seekh: ghabrakar mat becho, ek saath nahi, thoda-thoda.
+
+🗓️ Ye dates note karo: 25 Nov (US data), 4 Dec (RBI), 9 Dec (US Fed)
+
+Aap kya karoge? Bechoge = 1, Rukoge = 2, Kharidoge = 3 👇
+🔔 Follow @FinanceJunction
+
+Rates 23–24 Nov 2026 ke; roz badalte hain. Not investment advice.
+```
+**Hashtags:** `#goldrate #goldprice #gold #mcx #sona #goldinvestment #fed #rbi #financejunction #personalfinance`
+**YT:** `SONA 30% GIRA 📉 Bechein Ya Kharidein? Gold Rate Story #shorts`
+**Sources:** `04-gold-3d-story/SOURCES.md` (MCX, Groww, Kotak Neo, IndMoney, IBTimes, Goodreturns, FXStreet, Investing News)

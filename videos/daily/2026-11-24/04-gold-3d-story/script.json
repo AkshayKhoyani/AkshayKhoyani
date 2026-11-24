@@ -1,0 +1,37 @@
+{
+  "voice": "cgSgspJ2msm6clMCkdW9",
+  "speed": 1.14,
+  "lead": 0.12,
+  "gap": 0.22,
+  "tail": 0.4,
+  "lines": [
+    {
+      "text": "सोना|Sona एक_लाख_अस्सी_हज़ार|₹1.8_lakh से|se सवा_लाख!|₹1.25_lakh! अब|Ab बेचें,|bechein, या|ya खरीदें?|kharidein?",
+      "min": 3.4
+    },
+    {
+      "text": "जनवरी_दो_हज़ार_छब्बीस|January_2026 में|mein सोना|sona record पर_था,|par_tha, करीब|kareeb एक_लाख_अस्सी_हज़ार।|₹1.8_lakh. Pinky ने|ne वहीं|wahin खरीदा।|kharida."
+    },
+    {
+      "text": "फिर|Phir बीस_नवंबर|20_November तक|tak करीब|kareeb तीस|30 परसेंट|percent गिरा,|gira, चौदह|14 महीने_का|mahine_ka सबसे|sabse निचला|nichla स्तर!|level!",
+      "min": 4.2
+    },
+    {
+      "text": "वजह?|Wajah? अमेरिका|America में|mein Fed के|ke rate बढ़ने_का|badhne_ka डर,|dar, मज़बूत|mazboot dollar और|aur ऊँचे|oonche bond yields."
+    },
+    {
+      "text": "पर|Par तेईस_नवंबर|23_November को|ko MCX पर|par सोना|sona फिर|phir उछला,|uchhla, सवा_लाख|₹1.25_lakh के|ke पास।|paas."
+    },
+    {
+      "text": "दादी|Dadi बोलीं:|boli: घबराकर|ghabrakar मत|mat बेचो,|becho, और|aur एक_साथ|ek_saath नहीं,|nahi, थोड़ा_थोड़ा|thoda_thoda खरीदो।|kharido."
+    },
+    {
+      "text": "अगली|Agli तारीखें|dates नोट|note करो:|karo: पच्चीस_नवंबर,|25_Nov, चार|4 और|aur नौ_दिसंबर!|9_Dec!",
+      "min": 3.8
+    },
+    {
+      "text": "बेचोगे|Bechoge एक,|1, रुकोगे|rukoge दो,|2, खरीदोगे|kharidoge तीन|3 comment करो।|karo. Finance_Junction follow_करो!|follow_karo!",
+      "min": 3.6
+    }
+  ]
+}
