@@ -1,0 +1,39 @@
+{
+  "voice": "7b9mYhmnp0y2qSH1FnBL",
+  "model": "eleven_v4",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8
+  },
+  "speed": 1.28,
+  "lead": 0.1,
+  "gap": 0.15,
+  "tail": 0.6,
+  "lines": [
+    {
+      "text": "[dramatic]| छब्बीस_नवंबर:|26_November: market खुलने_से_पहले|khulne_se_pehle ये|ye पाँच|5 ख़बर!|khabar! नंबर_वन|Number_1 सबसे_बड़ी।|sabse_badi.",
+      "min": 3.6
+    },
+    {
+      "text": "पाँच:|Paanch: पच्चीस_नवंबर_को|25_Nov_ko Sensex पंद्रह_सौ_दो|1,502 points उछला,|uchhla, FII और|aur DII दोनों|dono खरीदार।|kharidaar."
+    },
+    {
+      "text": "चार:|Chaar: ABB, APL_Apollo, और|aur Foodlink IPO पर|par नज़र।|nazar."
+    },
+    {
+      "text": "तीन:|Teen: छब्बीस_नवंबर_को|26_Nov_ko US market बंद,|band, Thanksgiving.",
+      "min": 3.2
+    },
+    {
+      "text": "[concerned]| दो:|Do: US core inflation तीन_दशमलव_तीन_परसेंट,|3.3%, दो_हज़ार_तेईस_के_बाद|2023_ke_baad सबसे_ज़्यादा।|sabse_zyada. Rate hike लगभग|lagbhag पक्का।|pakka."
+    },
+    {
+      "text": "[serious]| नंबर_वन:|Number_1: Trump ने|ne India पर|par पच्चीस_परसेंट_तक|25%_tak tariff का|ka प्रस्ताव|prastaav रखा।|rakha. पर|Par अभी|abhi लागू_नहीं।|lagu_nahi.",
+      "min": 4.6
+    },
+    {
+      "text": "Tariff से|se डर|dar लगता_है?|lagta_hai? हाँ_एक,|Haan_1, ना_दो|na_2 comment करो,|karo, और|aur Finance_Junction follow_करो!|follow_karo!",
+      "min": 3.4
+    }
+  ]
+}

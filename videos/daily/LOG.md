@@ -9,3 +9,4 @@
 | 2026-11-24 | + ceo-wapas-world-rally (38s, kinetic + whiteboard, Bunty v4 + SFX, camera motion) | el | Asia closes 2 sources se; Kospi record nahi (sirf 5,000 paar) |
 | 2026-11-24 (raat) | 25-nov-market-5-cheezein (40s, naya "Live Market Terminal" theme, countdown 5→1) | el | GIFT Nifty / US 24 Nov close / APL open offer bahar (unverified) |
 | 2026-11-25 | endowment-vs-term (29s), sip-25-vs-35 (26s), cibil-score-750 (28s) (auto run) | el | Sab smooth; term premium aur endowment IRR "andaaza" (blog sources) |
+| 2026-11-25 (raat) | 26-nov-pre-market-5-khabar (40s, terminal theme, countdown) | el | US 25 Nov close / GIFT Nifty bahar (pakka nahi) |
