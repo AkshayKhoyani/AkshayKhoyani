@@ -1,0 +1,18 @@
+{
+ "slug": "chandrayaan-3-ki-kahani",
+ "sources": "ISRO; All India Radio News; Scientific American; Live Science; Space.com.",
+ "scenes": [
+  {"type": "hook", "tag": "ISRO 🚀", "tagColor": "orange", "lines": [["2019: CRASH 💥", "red2"], ["2023: HISTORY 🇮🇳", "orange"]], "sub": "Chandrayaan-3 ki kahani",
+   "voice": "दो_हज़ार_उन्नीस|2019 में|mein lander चाँद_पर|Chaand_par crash. चार_साल_बाद,|4_saal_baad, इतिहास।|itihaas."},
+  {"type": "list", "title": "Chandrayaan-3 ka safar 🛰️", "colors": ["orange", "blue", "green"], "icons": ["🚀", "🌍", "🌕"],
+   "items": [["14 July 2023", "LVM3 launch, Sriharikota"], ["Lagbhag 40 din", "Dharti se Chaand tak"], ["23 Aug 2023, 6:03 PM", "Vikram ki soft landing"]],
+   "voice": "चौदह_जुलाई_दो_हज़ार_तेईस|14_July_2023 को|ko LVM3 से|se launch, लगभग|lagbhag चालीस_दिन|40_din का|ka safar, और|aur तेईस_अगस्त|23_August शाम_छह_बजकर_तीन_मिनट|6:03_PM पर|par soft landing."},
+  {"type": "stat", "tag": "WORLD 🌍", "label": "Chaand par soft landing karne wala", "value": 4, "suffix": "th desh", "color": "orange",
+   "note": "South pole ke paas: PEHLA 🇮🇳", "noteColor": "green2", "source": "ISRO; All India Radio; Scientific American",
+   "voice": "भारत|India बना|bana चाँद_पर_उतरने_वाला|Chaand_par_utarne_wala चौथा|4th desh, और|aur south pole के_पास|ke_paas पहला!|pehla!"},
+  {"type": "formula", "tag": "PRAGYAN 🔬", "title": "Rover ki khoj", "lines": [["Sulphur ✔", "green2"], ["Pehli baar, zameen par jaanch", "orange"]], "source": "ISRO via All India Radio; Live Science",
+   "voice": "प्रज्ञान_रोवर_ने|Pragyan_rover_ne वहाँ|wahan पहली_बार|pehli_baar ज़मीन_पर|zameen_par sulphur confirm किया।|kiya."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Landing live dekhi thi? 1 = haan, 2 = nahi", "cta": "Follow karo 🔔", "disclaimer": false,
+   "voice": "लैंडिंग_लाइव_देखी_थी?|Landing_live_dekhi_thi? हाँ_तो|Haan_toh एक,|1, नहीं_तो|nahi_toh दो।|2. हाउ_टू_हिंदी|HowToHindi फ़ॉलो_करो,|follow_karo, क्योंकि|kyunki दो_हज़ार_उन्नीस_का|2019_ka crash ही|hi असली_शुरुआत_थी।|asli_shuruaat_thi."}
+ ]
+}

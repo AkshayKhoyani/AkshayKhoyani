@@ -1,0 +1,20 @@
+{
+ "slug": "upi-kaise-kaam-karta-hai",
+ "sources": "NPCI (UPI launch 11 Apr 2016; Oct 2026 data via Free Press Journal, StartupTalky). Educational only.",
+ "scenes": [
+  {"type": "hook", "tag": "UPI", "tagColor": "orange", "lines": [["₹10 ki chai 💸", "text"], ["2 SECOND mein?", "orange"]], "sub": "Peeche asal mein kya hota hai?",
+   "voice": "दस_रुपये_की|₹10_ki चाय,|chai, दो_सेकंड_में|2_second_mein payment. पर|Par पीछे|peeche असल_में|asal_mein क्या|kya होता_है?|hota_hai?"},
+  {"type": "formula", "tag": "UPI ID", "title": "Account number ki zaroorat nahi", "lines": [["naam@bank", "orange"], ["= aapka bank account", "text"]],
+   "voice": "आपकी|Aapki UPI ID, जैसे|jaise नाम_एट_बैंक,|naam@bank, आपके|aapke bank account का|ka nickname है।|hai."},
+  {"type": "list", "title": "Payment ka route 🛣️", "colors": ["blue", "orange", "red", "green"], "icons": ["📱", "🔀", "🏦", "🏪"],
+   "items": [["Aapka app", "PIN ke baad request"], ["NPCI", "Beech ka switch"], ["Aapka bank", "Paisa katta hai"], ["Dukaandaar ka bank", "Paisa judta hai"]],
+   "voice": "PIN डालते_ही,|daalte_hi, app request NPCI को|ko भेजता_है।|bhejta_hai. NPCI आपके|aapke bank से|se पैसा|paisa काटकर|kaatkar दुकानदार_के|dukaandaar_ke bank में|mein जोड़ता_है।|jodta_hai."},
+  {"type": "stat", "tag": "OCT 2026", "label": "UPI transactions, sirf ek mahine mein", "value": 2547, "suffix": " crore", "color": "orange",
+   "note": "Yaani roz lagbhag 82 crore", "noteColor": "text", "source": "NPCI data, Nov 2026",
+   "voice": "अक्टूबर_दो_हज़ार_छब्बीस|October_2026 में,|mein, एक_महीने_में|ek_mahine_mein पच्चीस_सौ_सैंतालीस_करोड़|2,547_crore transactions!"},
+  {"type": "mythfact", "title": "Yaad rakho ⚠️", "myth": "Paisa lene ke liye PIN daalo", "fact": ["Paisa LENE ke liye", "PIN kabhi nahi lagta"],
+   "voice": "और_याद_रखो:|Aur_yaad_rakho: पैसा|paisa लेने_के_लिए|lene_ke_liye PIN कभी|kabhi नहीं|nahi लगता।|lagta."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Roz UPI: 1 = haan, 2 = kabhi kabhi", "cta": "Follow karo 🔔", "disclaimer": "Educational only.",
+   "voice": "रोज़|Roz UPI करते_हो_तो|karte_ho_toh एक,|1, कभी_कभी_तो|kabhi_kabhi_toh दो।|2. हाउ_टू_हिंदी|HowToHindi फ़ॉलो_करो,|follow_karo, अगली_चाय_का|agli_chai_ka payment अलग_लगेगा!|alag_lagega!"}
+ ]
+}

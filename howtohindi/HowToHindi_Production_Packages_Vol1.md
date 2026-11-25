@@ -9,6 +9,8 @@ Prepared: 25 Nov 2026
 | 2 | Credit Score kya hai? | ~44 sec | **High (financial)** |
 | 3 | Chandrayaan-3 ki kahani | ~43 sec | Low–Medium (cost figure) |
 
+> **Rendered reels:** Tight ~31-sec MP4 versions of all three are in `reels/`. They follow the Finance Junction rules in `RULES.md` (hook on frame 0, under 40 sec, easy "1 ya 2" comment ending, loop line, a SOURCES.md for every reel). The longer 42–44 sec scripts below are the full-length documentary versions. Unverified figures (such as the Chandrayaan-3 cost) are left out of the rendered reels.
+
 ### Global brand & visual system (applies to all three)
 
 - **Palette:** Dark Navy `#0B1A33` (background), White `#FFFFFF` (primary text), Orange `#FF7A1A` (highlights, key numbers, underlines). Muted navy `#1C2E4F` for cards.
