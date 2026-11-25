@@ -10,7 +10,7 @@ Suggested posting order: Day 1 Chandrayaan-3 (reach), Day 2 UPI (shares), Day 3 
 UPI ID = aapke bank account ka nickname. NPCI = beech ka switch. Aur October 2026 mein sirf ek mahine mein 2,547 crore UPI transactions! 🤯
 ⚠️ Yaad rakho: paisa LENE ke liye PIN kabhi nahi lagta.
 Roz UPI karte ho? 1 ya 2 comment karo 👇
-Follow @HowToHindi 🔔
+Follow @howtohindi.official 🔔
 
 **Hashtags:** #UPI #DigitalIndia #NPCI #UPIPayments #HowToHindi #HindiExplainer #CyberSafety #LearnInHindi #Reels
 
@@ -45,7 +45,7 @@ Score check kiya? 1 = haan, 2 = abhi nahi 👇
 2019: crash 💥 2023: HISTORY 🇮🇳🌕
 14 July 2023 ko launch, 23 August 2023 ko shaam 6:03 baje soft landing. India bana Chaand par utarne wala 4th desh aur south pole ke paas PEHLA! Pragyan rover ne wahan pehli baar zameen par sulphur confirm kiya 🔬
 Landing live dekhi thi? 1 = haan, 2 = nahi 👇
-Follow @HowToHindi 🔔
+Follow @howtohindi.official 🔔
 
 **Hashtags:** #Chandrayaan3 #ISRO #IndiaOnTheMoon #SpaceScience #HowToHindi #HindiExplainer #ScienceInHindi #ProudIndian #Reels
 

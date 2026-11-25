@@ -88,7 +88,7 @@ Why: it opens on a moment every viewer has lived, and it ends on a question. Hoo
   UPI ID asal mein ek nickname hai, NPCI beech ka "traffic police" hai, aur sirf October 2026 mein 2,547 crore transactions hue! 🤯
   ⚠️ Yaad rakho: paisa receive karne ke liye PIN kabhi nahi lagta.
   Save karo, family ke saath share karo 🙏
-  Follow @HowToHindi for simple explainers.
+  Follow @howtohindi.official for simple explainers.
 - **Hashtags:** #UPI #DigitalIndia #NPCI #UPIPayments #HowToHindi #HindiExplainer #FinanceInHindi #Fintech #OnlinePayments #CyberSafety #LearnInHindi #Reels #Shorts
 - **YouTube description:**
   UPI (Unified Payments Interface) kaise kaam karta hai — UPI ID, PIN aur NPCI ka role, 40 second mein.
@@ -261,7 +261,7 @@ Why: a comeback story (failure → redemption) is the strongest emotional arc an
   2023 — "India, I reached my destination." 🌕🇮🇳
   Chandrayaan-3 ne India ko Chaand par utarne wala 4th desh aur south pole ke paas utarne wala PEHLA desh bana diya. Pragyan ne wahan sulphur bhi confirm kiya! 🔬
   Landing ke waqt aap kahan the? 👇
-  Follow @HowToHindi for science stories in simple Hindi.
+  Follow @howtohindi.official for science stories in simple Hindi.
 - **Hashtags:** #Chandrayaan3 #ISRO #IndiaOnTheMoon #ShivShaktiPoint #SpaceScience #ProudIndian #HowToHindi #HindiExplainer #ScienceInHindi #Moon #NationalSpaceDay #Reels #Shorts
 - **YouTube description:**
   Chandrayaan-3 ki kahani 45 second mein: 2019 ke Chandrayaan-2 crash se lekar 23 August 2023 ki historic south-pole landing tak.

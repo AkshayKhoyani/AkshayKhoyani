@@ -4,7 +4,8 @@ Every HowToHindi reel follows these rules. They were learned on Finance Junction
 
 ## Brand
 - Colors: Dark Navy `#0B1A33` background, White text, Orange `#FF7A1A` highlights (`orange` / `orange2` in spec; `gold` is an alias of orange).
-- Logo: `brand/logo-dark.png` (end card), `brand/mark-dark.png` + "HOW TO / HINDI" wordmark (top-left on every scene). Regenerate with `python3 brand/make_brand.py brand`.
+- Instagram handle: **@howtohindi.official**. It appears under the wordmark on every scene and as "Instagram: @howtohindi.official" on the end card.
+- Logo: the official logo `brand/logo-original.png` (play button + bulb, "HOWTOHINDI"). Two versions are built from it: `brand/logo-dark.png` (circular, end card) and `brand/mark-dark.png` (icon only, top-left with the "HOW**TO**HINDI" wordmark). Rebuild them after any logo change with `python3 brand/make_brand.py brand`.
 - Voice: ElevenLabs Jessica at 1.12x (falls back to OpenAI `nova` when the quota runs out). The last line always says "…HowToHindi follow karo".
 - Captions: karaoke, Roman Hinglish, synced to ElevenLabs word timings.
 

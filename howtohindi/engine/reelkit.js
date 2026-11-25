@@ -9,6 +9,7 @@ const C = {
   text: '#f8fafc', muted: '#94a3b8', card: 'rgba(255,255,255,0.06)', stroke: 'rgba(255,255,255,0.13)'
 };
 const col = c => C[c] || c || C.text;
+const HANDLE = '@howtohindi.official';
 
 const spec = await (await fetch('./spec.json')).json();
 const tl = await (await fetch('./timeline.json')).json();
@@ -291,11 +292,12 @@ S.cta = (t, d, s) => {
     ctx.fillStyle = g; ctx.fillRect(0, 400, W, 800);
     ctx.save(); ctx.globalAlpha *= clamp(p); ctx.translate(540, 800); ctx.scale(p, p);
     ctx.strokeStyle = 'rgba(255,122,26,0.55)'; ctx.lineWidth = 4;
-    ctx.beginPath(); ctx.arc(0, 0, 280, t * 1.2, t * 1.2 + Math.PI * 1.3); ctx.stroke();
-    ctx.drawImage(logo, -240, -240, 480, 480); ctx.restore();
+    ctx.beginPath(); ctx.arc(0, 0, 290, t * 1.2, t * 1.2 + Math.PI * 1.3); ctx.stroke();
+    ctx.drawImage(logo, -255, -255, 510, 510); ctx.restore();
   }
   const q = easeBack(prog(t, 0.5, 1.0)) * (1 + 0.04 * Math.sin(t * 6));
   txt(s.cta || 'Follow karo 🔔', 540, 1170, { size: 100, weight: 900, color: 'gold', scale: Math.max(0, q), alpha: clamp(q) });
+  pop(t, 0.6, 'Instagram: ' + HANDLE, 540, 1250, { size: 44, weight: 800, color: 'text', maxW: 980 });
   if (s.disclaimer !== false) pop(t, 0.7, s.disclaimer || 'Educational purpose only.', 540, 1300, { size: 28, weight: 500, color: 'muted', maxW: 980 });
   if (spec.sources) pop(t, 0.8, 'Sources: ' + spec.sources, 540, 1342, { size: 26, weight: 500, color: 'rgba(148,163,184,0.85)', maxW: 980 });
 };
@@ -343,11 +345,12 @@ function captions(t) {
 function watermark(t, a) {
   if (!mark || a <= 0) return;
   ctx.save(); ctx.globalAlpha = a;
-  const h = 84, w = h * mark.width / mark.height;
-  ctx.drawImage(mark, 34, 34, w, h);
-  ctx.font = F(800, 30); ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
-  ctx.fillStyle = '#f8fafc'; ctx.fillText('HOW TO', 48 + w, 34 + h * 0.36);
-  ctx.fillStyle = C.orange; ctx.fillText('HINDI', 48 + w, 34 + h * 0.74);
+  const h = 92, w = h * mark.width / mark.height, x = 48 + w;
+  ctx.drawImage(mark, 34, 30, w, h);
+  ctx.font = F(900, 38); ctx.textBaseline = 'middle'; ctx.textAlign = 'left';
+  const parts = [['HOW', '#f8fafc'], ['TO', C.orange], ['HINDI', '#f8fafc']];
+  let cx = x; parts.forEach(([p, c]) => { ctx.fillStyle = c; ctx.fillText(p, cx, 30 + h * 0.38); cx += ctx.measureText(p).width; });
+  ctx.font = F(600, 26); ctx.fillStyle = 'rgba(248,250,252,0.8)'; ctx.fillText(HANDLE, x, 30 + h * 0.8);
   ctx.restore();
 }
 const SHAKE_TYPES = { phone: 0.68 };
