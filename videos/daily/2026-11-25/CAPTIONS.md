@@ -88,3 +88,26 @@ Educational only.
 ```
 **Hashtags:** `#cibil #cibilscore #creditscore #loan #creditcard #personalfinance #financejunction #moneytips`
 **YT:** `750+ CIBIL = Sasta Loan? 🤔 Score Kaise Badhaye #shorts`
+
+## 5. Mid-day carousel (05-midday-carousel/slide_1..8.png, 8 images, 4:5)
+Post: **abhi (dopahar)**, market band hone se pehle
+**IG:**
+```
+MARKET KI WAPSI 🚀 Somvaar ke crash ke baad Sensex ~1,900 pts upar, Nifty ~25,900! (25 Nov, intraday)
+
+👉 Swipe karo:
+📈 Kitna chadha
+🤔 4 badi wajah: FII kharidari, sasta crude, achhe Q2 results, crash ke baad bounce
+🏦💻 Banks aur IT aage
+🟢 HDFC Bank, Infosys, ICICI, Axis
+🔴 APL Apollo naye 52-week low par
+🌍 Dow pehli baar 50,000 paar, par Nasdaq aur Nvidia neeche
+⏰ Aaj shaam 7 baje US inflation data
+
+Aaj profit book kiya? Haan = 1, Na = 2 comment karo 👇
+📌 Save · 🔁 Share · 🔔 Follow @FinanceJunction
+
+Intraday data, din bhar badalta hai. Not investment advice.
+```
+**Hashtags:** `#stockmarket #sensex #nifty #sharemarket #marketupdate #banknifty #itstocks #stockmarketindia #financejunction #marketnews`
+**Sources:** `MIDDAY_DATA.md`
