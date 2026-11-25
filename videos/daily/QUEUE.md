@@ -18,9 +18,9 @@ Templates hint: hook / stat / formula / compare / list / chart / phone / mythfac
 | 11 | ₹12 lakh tak zero tax ✳️ | ₹12 LAKH salary, TAX ZERO? | stat, mythfact | done (2026-11-24) |
 | 12 | Fake trading app scam | App mein profit hai, nikal nahi raha? | phone, list | done (2026-11-24) |
 | 13 | 50-30-20 budget rule | Salary aate hi khatam? | formula, compare | done (2026-11-24) |
-| 14 | Endowment vs term insurance | LIC policy = investment? | mythfact, compare | todo |
-| 16 | 25 vs 35 umar mein SIP | 10 saal late = kitna kam? 😱 | chart, compare | todo |
-| 17 | CIBIL score | 750+ CIBIL ka fayda kya? | stat, list | todo |
+| 14 | Endowment vs term insurance | LIC policy = investment? | mythfact, compare | done (2026-11-25) |
+| 16 | 25 vs 35 umar mein SIP | 10 saal late = kitna kam? 😱 | chart, compare | done (2026-11-25) |
+| 17 | CIBIL score | 750+ CIBIL ka fayda kya? | stat, list | done (2026-11-25) |
 | 18 | Instant loan app trap | ₹5,000 loan, ₹50,000 wapas? 😨 | phone, list | todo |
 | 19 | Index fund kya hai | Sabse simple investment jo log ignore karte hain | list, chart | todo |
 | 20 | Gold vs SIP ✳️ | Gold ya SIP: 10 saal mein kaun jeeta? | chart | todo |
