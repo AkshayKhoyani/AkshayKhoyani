@@ -59,3 +59,8 @@ eligibility (one of: high school, associate degree, bachelor degree, professiona
 - Schema Pro plugin: **deactivated** (it emitted an invalid "News Media Organization" type and empty blocks).
 - Rank Math: schema ("rich-snippet") module **off**; Rank Math still handles titles, meta descriptions and sitemaps.
 - Do not re-enable either without checking for duplicate schema.
+
+## Speed (25 Nov 2026)
+- Featured images are **JPEG q82** (~100 KB), never PNG (old PNGs were ~1.4 MB each; 81 converted).
+- Site logo uses the optimized 18 KB PNG (media 2105); the old logo media is kept for rollback.
+- After bulk media changes, purge the whole WP Rocket cache by re-saving a menu (`POST /wp/v2/menus/56 {"name":"Main Menu Header"}`), then check pages for broken images.

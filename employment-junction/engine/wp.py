@@ -89,7 +89,7 @@ def render(s):
 
 
 def featured_image(s, path):
-    """Render a 1536x1024 featured image with Playwright."""
+    """Render a 1536x1024 featured image with Playwright (JPEG q82: ~10x smaller than PNG)."""
     tpl = open(os.path.join(HERE, "featured.html")).read()
     page = tpl.replace("__DATA__", json.dumps(s["image"]))
     tmp = path + ".html"
@@ -97,7 +97,7 @@ def featured_image(s, path):
     subprocess.run(["node", "-e", f"""
 const {{ chromium }} = require('playwright');
 (async () => {{ const b = await chromium.launch(); const p = await b.newPage({{ viewport: {{ width: 1536, height: 1024 }} }});
-await p.goto('file://{tmp}'); await p.evaluate(() => document.fonts.ready); await p.screenshot({{ path: '{path}' }}); await b.close(); }})();
+await p.goto('file://{tmp}'); await p.evaluate(() => document.fonts.ready); await p.screenshot({{ path: '{path}', type: 'jpeg', quality: 82 }}); await b.close(); }})();
 """], check=True)
     os.remove(tmp)
 
@@ -105,7 +105,7 @@ await p.goto('file://{tmp}'); await p.evaluate(() => document.fonts.ready); awai
 def upload(path, title, alt):
     name = os.path.basename(path)
     m = req("POST", "/wp/v2/media", raw=open(path, "rb").read(),
-            headers={"Content-Type": "image/png", "Content-Disposition": f'attachment; filename="{name}"'})
+            headers={"Content-Type": "image/jpeg" if path.endswith(".jpg") else "image/png", "Content-Disposition": f'attachment; filename="{name}"'})
     req("POST", f"/wp/v2/media/{m['id']}", {"title": title, "alt_text": alt})
     return m["id"]
 
@@ -120,7 +120,7 @@ def main():
     out_dir = os.path.join(os.path.dirname(os.path.abspath(a.spec)), "out")
     os.makedirs(out_dir, exist_ok=True)
 
-    img = os.path.join(out_dir, s["slug"] + ".png")
+    img = os.path.join(out_dir, s["slug"] + ".jpg")
     featured_image(s, img)
     media_id = upload(img, s["title"], s["title"])
 
