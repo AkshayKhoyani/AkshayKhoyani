@@ -25,7 +25,7 @@ VOICE_EL = spec.get("voice", "cgSgspJ2msm6clMCkdW9")
 OPENAI_VOICE = spec.get("openai_voice", "nova")
 EL_SPEED, OA_SPEED = 1.12, 1.06
 os.makedirs(os.path.join(d, "vo"), exist_ok=True)
-MIN = {"cta": 2.6, "hook": 0, "phone": 3.5, "compare": 3.5, "chart": 4.0}
+MIN = {"cta": 2.6, "hook": 0, "phone": 3.5, "compare": 3.5, "chart": 4.0, "quiz": 6.5, "engage": 6.0, "metro": 5.0, "gauge": 4.6}
 
 
 def sh(*cmd, **kw):
@@ -123,7 +123,7 @@ for i, s in enumerate(spec["scenes"]):
         for p in caps:
             ps = 0.1 + span * acc / tot; acc += len(p) + 1
             words.append({"w": p, "s": round(start + ps, 3), "e": round(start + 0.1 + span * acc / tot, 3)})
-    end = max(start + dur + 0.25, cursor + s.get("min", MIN.get(s["type"], 0)))
+    end = max(start + dur + 0.25 + s.get("pad", 0), cursor + s.get("min", MIN.get(s["type"], 0)))
     scenes.append({"start": round(cursor, 3), "end": round(end, 3), "words": words, "voice": eng})
     clips.append((fast, start))
     cursor = end
@@ -143,7 +143,7 @@ idx = os.path.join(d, "index.html")
 if not os.path.exists(idx):
     open(idx, "w").write('<!doctype html><html><head><meta charset="utf-8"><title>reel</title>'
                          '<style>html,body{margin:0;background:#000}canvas{display:block}</style></head>'
-                         '<body><script type="module" src="/engine/reelkit.js"></script></body></html>')
+                         f'<body><script type="module" src="/engine/{"mixkit" if spec.get("kit") == "mix" else "reelkit"}.js"></script></body></html>')
 
 render = ["node", os.path.join(ENGINE, "render3d.js"), d]
 if "--preview" in args:

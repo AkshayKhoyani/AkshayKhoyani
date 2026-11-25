@@ -47,3 +47,24 @@ Then add the caption block to `reels/CAPTIONS.md`.
 - Reply to every comment in the first 30 minutes, and share the reel to your story.
 - Post the same video to YouTube Shorts with #shorts in the title.
 - After 2 weeks, collect views, average watch time, % watched fully, shares, saves and follows for each reel.
+
+## Default format: MIX (user's choice, 25 Nov 2026)
+Every reel uses `"kit": "mix"` in spec.json (engine: `engine/mixkit.js`). Scene order:
+1. `hook`: kinetic typography, with the full text on frame 0 and an "End mein QUIZ hai 👀" teaser.
+2. Explanation:
+   - `story` for a cartoon scene: `chai`, `rocket`, `landing` or `rover`.
+   - `metro` for a step-by-step route.
+   - `gauge` or `wblist` for a whiteboard sketch.
+3. `count`: the main number rolls like a slot machine, then the words slam in. This scene carries `"save": true` (the SAVE sticker).
+4. `quiz` (question + 3-2-1 countdown, `"pad": 2.6`) → `quiz` with `"reveal": true` (answer, confetti, explanation).
+5. `engage`: the voice says "Like karo, share karo, repost karo, howtohindi.official follow karo". The finger taps each button in sync with those words.
+Keep the total at 35–40 sec. Quiz answers must come from SOURCES.md too.
+
+## Captions
+Use `reels/CAPTIONS_MIX.md` as the template. Every caption has:
+- hook line
+- value lines
+- comment question
+- Like/Share/Repost/Follow line
+- **🔎 Keywords section** (12–20 search phrases in Hinglish, English and Hindi)
+- 10–12 hashtags
