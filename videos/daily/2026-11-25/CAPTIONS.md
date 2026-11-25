@@ -111,3 +111,14 @@ Intraday data, din bhar badalta hai. Not investment advice.
 ```
 **Hashtags:** `#stockmarket #sensex #nifty #sharemarket #marketupdate #banknifty #itstocks #stockmarketindia #financejunction #marketnews`
 **Sources:** `MIDDAY_DATA.md`
+
+### 5b. Har slide ka alag caption (story / alag post / alt text ke liye)
+1. 🚀 MARKET KI WAPSI! Somvaar ke crash ke baad Sensex ~1,900 pts upar, Nifty ~25,900 (25 Nov, intraday). Kyun? Kaun chadha? Aage kya? Swipe karo 👉 #sensex #nifty #stockmarket
+2. 📈 Kitna chadha? Sensex ~84,334 (▲1,898), Nifty ~25,900 (▲551). Khulte hi Sensex +1,384 tha. Din bhar level badalta rahega ⏰ #nifty50 #marketupdate
+3. 🤔 4 badi wajah: 💰 FII kharidari (Nov mein record $13.2 bn, Geojit analyst) · 🛢️ sasta crude, mazboot rupaya · 📊 achhe Q2 results (~27% kamai badhi) · 📉 crash ke baad bounce. Aapke hisaab se sabse badi wajah kaunsi? 👇 #fii #stockmarketindia
+4. 🏦💻 Rally ke hero: Nifty IT ~+2.4%, Private Banks ~+2.3%, Bank Nifty ~+1.9% (intraday). Aapke portfolio mein kaunsa sector hai? #banknifty #itstocks
+5. 🟢 Top gainers: HDFC Bank +3.5%, Infosys +3.4%, ICICI Bank +3.2%, Axis Bank 3%+. Khulte waqt TCS, Tech Mahindra, HCL bhi 4% tak upar. #hdfcbank #infosys #icicibank
+6. 🔴 Rally mein bhi neeche: APL Apollo Tubes naye 52-week low par (▼15–19.6%), Tata Steel deal ke baad bikwali jaari. Tata Steel, M&M, Titan, Sun Pharma bhi laggards. #aplapollo #tatasteel
+7. 🌍 US mein ulta-pulta (24 Nov): Dow pehli baar 50,000 paar (50,019) 🇺🇸, par Nasdaq −1.48%, Nvidia −5.9%. Asia mein tech girawat, phir bhi India upar 🇮🇳🟢 #dowjones #nvidia #globalmarkets
+8. ⏰ Aaj shaam 7 baje US inflation (PCE) + GDP data. Mahanadi Coalfields IPO ka allotment aaj, listing 27 Nov. Aaj profit book kiya? Haan = 1, Na = 2 comment karo 👇 🔔 Follow @FinanceJunction #ipo #fed
+(Sab intraday data, 25 Nov 2026. Not investment advice.)
