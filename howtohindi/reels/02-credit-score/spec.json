@@ -1,0 +1,19 @@
+{
+ "slug": "credit-score-kya-hai",
+ "sources": "RBI (CIC list; free annual report circular 2016); TransUnion CIBIL (300-900 range). Educational only, financial advice nahi.",
+ "scenes": [
+  {"type": "hook", "tag": "CREDIT SCORE", "tagColor": "orange", "lines": [["3-DIGIT NUMBER", "text"], ["= LOAN YES / NO?", "orange"]], "sub": "Score 300 se 900 tak",
+   "voice": "एक_तीन_अंकों_का|Ek_3-digit नंबर|number तय_करता_है,|decide_karta_hai, loan मिलेगा|milega या_नहीं।|ya_nahi."},
+  {"type": "stat", "tag": "RANGE", "label": "Credit score kitna hota hai?", "value": 900, "prefix": "300 – ", "color": "orange",
+   "note": "Jitna zyada, utna behtar", "noteColor": "text", "chips": ["4 RBI-regulated bureaus", "CIBIL • Experian • Equifax • CRIF"], "source": "RBI; TransUnion CIBIL",
+   "voice": "CIBIL जैसे|jaise RBI-regulated bureaus इसे|ise तीन_सौ|300 से|se नौ_सौ|900 के_बीच|ke_beech बनाते_हैं।|banaate_hain. जितना|Jitna ज़्यादा,|zyada, उतना|utna बेहतर।|behtar."},
+  {"type": "list", "title": "Score kaise sudhre? 📈", "colors": ["green", "blue", "red"], "icons": ["⏰", "💳", "🚫"],
+   "items": [["EMI / bill time par", "Sabse bada factor"], ["Card limit kam use", "Experts: 30% se kam"], ["Baar-baar apply mat karo", "Har enquiry record hoti hai"]],
+   "voice": "सबसे_बड़ा|Sabse_bada factor: EMI और|aur bill समय_पर।|time_par. Card limit कम|kam use करो,|karo, और|aur बार_बार|baar_baar loan apply मत|mat करो।|karo."},
+  {"type": "stat", "tag": "FREE 🎁", "label": "Har credit bureau se saal mein", "value": 1, "suffix": " FREE report", "color": "blue",
+   "note": "RBI ka niyam", "noteColor": "muted", "source": "RBI circular (2016, lagu 1 Jan 2017)",
+   "voice": "और|Aur RBI के_नियम_से,|ke_niyam_se, हर|har bureau से|se साल_में|saal_mein एक|ek full report फ़्री।|free."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Score check kiya? 1 = haan, 2 = abhi nahi", "cta": "Follow karo 🔔", "disclaimer": "Educational only. Financial advice nahi.",
+   "voice": "स्कोर_चेक_किया?|Score_check_kiya? हाँ_तो|Haan_toh एक,|1, नहीं_तो|nahi_toh दो।|2. हाउ_टू_हिंदी|HowToHindi फ़ॉलो_करो,|follow_karo, क्योंकि|kyunki वही_तीन_अंक|wahi_3_digit आपका|aapka loan तय_करते_हैं।|decide_karte_hain."}
+ ]
+}

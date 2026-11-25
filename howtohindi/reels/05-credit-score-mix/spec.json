@@ -1,0 +1,151 @@
+{
+ "kit": "mix",
+ "slug": "credit-score-kya-hai-mix",
+ "disclaimer": "Educational only. Financial advice nahi.",
+ "scenes": [
+  {
+   "type": "hook",
+   "chip": "CREDIT SCORE 💳",
+   "lines": [
+    [
+     "3-DIGIT NUMBER",
+     "white",
+     150
+    ],
+    [
+     "LOAN",
+     "orange",
+     290
+    ],
+    [
+     "YES YA NO?",
+     "white",
+     160,
+     "outline"
+    ]
+   ],
+   "teaser": "End mein QUIZ hai 👀",
+   "voice": "एक_तीन_अंकों_का|Ek_3-digit नंबर|number तय_करता_है,|decide_karta_hai, loan मिलेगा|milega या_नहीं।|ya_nahi."
+  },
+  {
+   "type": "gauge",
+   "title": "Credit Score ka meter",
+   "lo": 300,
+   "hi": 900,
+   "needle": 0.82,
+   "pad": 0.6,
+   "notes": [
+    [
+     "Jitna zyada, utna behtar ✅",
+     "green",
+     62
+    ],
+    [
+     "4 RBI-regulated bureaus:",
+     "navy",
+     48
+    ],
+    [
+     "CIBIL • Experian • Equifax • CRIF",
+     "ink",
+     46
+    ]
+   ],
+   "circle": 0,
+   "voice": "CIBIL जैसे|jaise RBI-regulated bureaus ये|ye score तीन_सौ|300 से|se नौ_सौ|900 के_बीच|ke_beech बनाते_हैं।|banaate_hain. जितना|Jitna ज़्यादा,|zyada, उतना|utna बेहतर।|behtar."
+  },
+  {
+   "type": "wblist",
+   "title": "Score kaise sudhre? 📈",
+   "save": true,
+   "saveAt": 0.55,
+   "saveY": 1500,
+   "items": [
+    [
+     "EMI / bill time par",
+     "Sabse bada factor",
+     "green"
+    ],
+    [
+     "Card limit kam use",
+     "Experts: 30% se kam",
+     "blue"
+    ],
+    [
+     "Baar-baar apply nahi",
+     "Har enquiry record hoti hai",
+     "red"
+    ]
+   ],
+   "voice": "सबसे_बड़ा|Sabse_bada factor: EMI और|aur bill समय_पर।|time_par. Card limit कम|kam use करो,|karo, और|aur बार_बार|baar_baar loan apply मत|mat करो।|karo."
+  },
+  {
+   "type": "count",
+   "chip": "RBI KA NIYAM 🎁",
+   "value": "1",
+   "size": 380,
+   "color": "orange",
+   "words": [
+    [
+     "FREE REPORT",
+     "white",
+     170
+    ],
+    [
+     "HAR BUREAU SE / SAAL",
+     "white",
+     100,
+     "outline"
+    ]
+   ],
+   "source": "RBI circular (2016, lagu 1 Jan 2017)",
+   "voice": "RBI के_नियम_से,|ke_niyam_se, हर|har bureau से|se साल_में|saal_mein एक|ek full report फ़्री।|free."
+  },
+  {
+   "type": "quiz",
+   "question": [
+    "Credit score ki range",
+    "kya hoti hai?"
+   ],
+   "options": [
+    "0 se 100",
+    "300 se 900"
+   ],
+   "answer": 1,
+   "pad": 2.6,
+   "voice": "अब_क्विज़!|Ab_quiz! Credit score की|ki range क्या_है?|kya_hai? कमेंट_में|Comment_mein जवाब|jawab लॉक_करो!|lock_karo!"
+  },
+  {
+   "type": "quiz",
+   "reveal": true,
+   "question": [
+    "Credit score ki range",
+    "kya hoti hai?"
+   ],
+   "options": [
+    "0 se 100",
+    "300 se 900"
+   ],
+   "answer": 1,
+   "stamp": "SAHI JAWAB: B ✅",
+   "explainColor": "green2",
+   "explain": [
+    [
+     "300 se 900",
+     "orange",
+     "anton"
+    ],
+    [
+     "Jitna zyada, utna achha",
+     "white"
+    ]
+   ],
+   "min": 4.0,
+   "voice": "सही_जवाब|Sahi_jawab B: तीन_सौ_से_नौ_सौ!|300_se_900!"
+  },
+  {
+   "type": "engage",
+   "voice": "काम_की_लगी?|Kaam_ki_lagi? लाइक_करो,|Like_karo, दोस्त_को|dost_ko शेयर_करो,|share_karo, रीपोस्ट_करो,|repost_karo, और|aur हाउ_टू_हिंदी_डॉट_ऑफ़िशियल|howtohindi.official फ़ॉलो_करो!|follow_karo!"
+  }
+ ]
+}

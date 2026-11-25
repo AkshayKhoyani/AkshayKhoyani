@@ -1,0 +1,137 @@
+{
+ "kit": "mix",
+ "slug": "chandrayaan-3-ki-kahani-mix",
+ "scenes": [
+  {
+   "type": "hook",
+   "chip": "ISRO 🚀",
+   "lines": [
+    [
+     "2019:",
+     "white",
+     130
+    ],
+    [
+     "CRASH 💥",
+     "red",
+     230
+    ],
+    [
+     "2023: HISTORY",
+     "orange",
+     170
+    ]
+   ],
+   "teaser": "End mein QUIZ hai 👀",
+   "voice": "दो_हज़ार_उन्नीस|2019 में|mein lander चाँद_पर|Chaand_par crash. चार_साल_बाद,|4_saal_baad, इतिहास।|itihaas."
+  },
+  {
+   "type": "story",
+   "scene": "rocket",
+   "cards": [
+    [
+     "14 July 2023",
+     "LVM3 rocket se launch, Sriharikota"
+    ],
+    [
+     "Lagbhag 40 din",
+     "Dharti se Chaand tak ka safar"
+    ]
+   ],
+   "voice": "चौदह_जुलाई_दो_हज़ार_तेईस|14_July_2023 को|ko LVM3 से|se launch, और|aur लगभग|lagbhag चालीस_दिन|40_din का|ka safar."
+  },
+  {
+   "type": "story",
+   "scene": "landing",
+   "chip": "23 Aug 2023 · 6:03 PM",
+   "stamp": "SOFT LANDING ✓",
+   "touch": 0.55,
+   "voice": "तेईस_अगस्त,|23_August, शाम_छह_बजकर_तीन_मिनट|6:03_PM पर,|par, Vikram की|ki soft landing!"
+  },
+  {
+   "type": "count",
+   "chip": "CHAAND PAR UTARNE WALA",
+   "value": "4",
+   "size": 380,
+   "words": [
+    [
+     "CHAUTHA DESH 🇮🇳",
+     "white",
+     150
+    ],
+    [
+     "SOUTH POLE PAR PEHLA",
+     "green2",
+     100
+    ]
+   ],
+   "source": "ISRO; All India Radio; Scientific American",
+   "save": true,
+   "saveAt": 0.35,
+   "voice": "भारत|India बना|bana चाँद_पर_उतरने_वाला|Chaand_par_utarne_wala चौथा|4th desh, और|aur south pole के_पास|ke_paas पहला!|pehla!"
+  },
+  {
+   "type": "story",
+   "scene": "rover",
+   "title": "PRAGYAN KI KHOJ 🔬",
+   "sub": "Pehli baar, zameen par jaanch",
+   "chips": [
+    "Al",
+    "Ca",
+    "Fe",
+    "Cr",
+    "Ti",
+    "Mn",
+    "Si",
+    "O"
+   ],
+   "voice": "प्रज्ञान_रोवर_ने|Pragyan_rover_ne वहाँ|wahan पहली_बार|pehli_baar ज़मीन_पर|zameen_par sulphur confirm किया।|kiya."
+  },
+  {
+   "type": "quiz",
+   "question": [
+    "Vikram lander Chaand par",
+    "kis din utra?"
+   ],
+   "options": [
+    "15 August 2023",
+    "23 August 2023"
+   ],
+   "answer": 1,
+   "pad": 2.6,
+   "voice": "अब_क्विज़!|Ab_quiz! Vikram चाँद_पर|Chaand_par किस_दिन|kis_din उतरा?|utra? कमेंट_में|Comment_mein जवाब|jawab लॉक_करो!|lock_karo!"
+  },
+  {
+   "type": "quiz",
+   "reveal": true,
+   "question": [
+    "Vikram lander Chaand par",
+    "kis din utra?"
+   ],
+   "options": [
+    "15 August 2023",
+    "23 August 2023"
+   ],
+   "answer": 1,
+   "stamp": "SAHI JAWAB: B ✅",
+   "explainColor": "green2",
+   "explain": [
+    [
+     "23 August 2023",
+     "orange",
+     "anton"
+    ],
+    [
+     "Ab ye din National Space Day hai 🇮🇳",
+     "white"
+    ]
+   ],
+   "min": 4.0,
+   "voice": "सही_जवाब:|Sahi_jawab: तेईस_अगस्त_दो_हज़ार_तेईस!|23_August_2023!"
+  },
+  {
+   "type": "engage",
+   "voice": "पसंद_आया?|Pasand_aaya? लाइक_करो,|Like_karo, दोस्त_को|dost_ko शेयर_करो,|share_karo, रीपोस्ट_करो,|repost_karo, और|aur हाउ_टू_हिंदी_डॉट_ऑफ़िशियल|howtohindi.official फ़ॉलो_करो!|follow_karo!"
+  }
+ ]
+}

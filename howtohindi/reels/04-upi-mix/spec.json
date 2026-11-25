@@ -1,0 +1,21 @@
+{
+ "kit": "mix",
+ "slug": "upi-kaise-kaam-karta-hai-mix",
+ "scenes": [
+  {"type": "hook", "chip": "UPI 🤯", "lines": [["₹10 KI CHAI", "white", 170], ["2 SECOND", "orange", 270], ["MEIN KAISE?", "white", 150, "outline"]], "teaser": "End mein ek QUIZ hai 👀",
+   "voice": "दस_रुपये_की|₹10_ki चाय,|chai, दो_सेकंड_में|2_second_mein payment. पर|Par पीछे|peeche क्या|kya होता_है?|hota_hai?"},
+  {"type": "story", "scene": "chai", "bubbles": [["Bhaiya, UPI chalega?", 0.05, 300, 900, false], ["Haan, scan karo! 😄", 0.3, 760, 870, true]], "paid": ["₹10 Paid ✓", 0.75],
+   "voice": "आपने|Aapne QR scan किया,|kiya, PIN डाला,|daala, और|aur हो_गया।|ho_gaya."},
+  {"type": "metro", "title": "PAISE KA SAFAR 🚇", "sub": "Aapke ₹10 ka route", "stations": [["PHONE 📱", "PIN check ✓"], ["NPCI 🔀", "Sahi bank dhoondha"], ["AAPKA BANK 🏦", "₹10 kata"], ["DUKAAN KA BANK 🏪", "₹10 juda ✓"]],
+   "voice": "Request NPCI के_पास|ke_paas गई।|gayi. NPCI ने|ne आपके|aapke bank से|se दस_रुपये|₹10 काटे,|kaate, और|aur दुकानदार_के|dukaandaar_ke bank में|mein जोड़_दिए।|jod_diye."},
+  {"type": "count", "chip": "SIRF 1 MAHINE MEIN", "value": "2,547", "words": [["CRORE", "white", 210], ["UPI PAYMENTS", "white", 120, "outline"]], "source": "NPCI data, October 2026", "save": true, "saveAt": 0.3,
+   "voice": "अक्टूबर_दो_हज़ार_छब्बीस|October_2026 में,|mein, एक_महीने_में|ek_mahine_mein पच्चीस_सौ_सैंतालीस_करोड़|2,547_crore UPI payments!"},
+  {"type": "quiz", "question": ["Paisa RECEIVE karne ke liye", "UPI PIN daalna padta hai?"], "options": ["HAAN", "NAHI"], "answer": 1, "pad": 2.6,
+   "voice": "अब_क्विज़!|Ab_quiz! पैसा|Paisa receive करने_के_लिए|karne_ke_liye PIN लगता_है?|lagta_hai? कमेंट_में|Comment_mein जवाब|jawab लॉक_करो!|lock_karo!"},
+  {"type": "quiz", "reveal": true, "question": ["Paisa RECEIVE karne ke liye", "UPI PIN daalna padta hai?"], "options": ["HAAN", "NAHI"], "answer": 1, "stamp": "SAHI JAWAB: NAHI ✅",
+   "explain": [["PIN sirf paisa BHEJNE ke liye", "white"], ["Receive ke liye PIN maange =", "muted"], ["SCAM 🚨", "red", "anton"]], "min": 4.2,
+   "voice": "जवाब_है|Jawab_hai नहीं!|NAHI! रिसीव_के_लिए|Receive_ke_liye PIN माँगे,|maange, तो_समझो|toh_samjho scam."},
+  {"type": "engage",
+   "voice": "काम_की_लगी?|Kaam_ki_lagi? लाइक_करो,|Like_karo, दोस्त_को|dost_ko शेयर_करो,|share_karo, रीपोस्ट_करो,|repost_karo, और|aur हाउ_टू_हिंदी_डॉट_ऑफ़िशियल|howtohindi.official फ़ॉलो_करो!|follow_karo!"}
+ ]
+}

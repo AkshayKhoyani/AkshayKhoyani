@@ -1,0 +1,1 @@
+el:PIN डालते ही, app request NPCI को भेजता है। NPCI आपके bank से पैसा काटकर दुकानदार के bank में जोड़ता है।
