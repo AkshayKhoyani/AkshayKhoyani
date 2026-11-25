@@ -38,7 +38,7 @@ One recruitment = one main URL. When the admit card, answer key or result comes 
 ## JobPosting fields (must be filled on every `ej_job`)
 org_name, post_name, vacancies, employment_type (FULL_TIME / TEMPORARY for apprentices), date_posted, start_date, last_date,
 valid_through (YYYY-MM-DD; expired jobs drop out of Google for Jobs), location, state_name, apply_url, notification_url,
-eligibility (one of: high school, associate degree, bachelor degree, professional certificate, postgraduate degree), salary_min/max when known.
+eligibility (one of: high school, associate degree, bachelor degree, professional certificate, postgraduate degree), **salary_min / salary_max (monthly ₹) whenever the pay level or pay scale is confirmed** — Google recommends baseSalary and shows it in Google for Jobs (schema audit 25 Nov 2026: 18 of 28 job pages lacked it).
 `schema_description` = full plain description (eligibility, selection, fee, dates) — Google needs the full job text.
 
 ## Accuracy rules
