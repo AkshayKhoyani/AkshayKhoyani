@@ -1,0 +1,21 @@
+{
+ "slug": "instant-loan-app-trap",
+ "sources": "RBI (Digital Lending) Directions, 2025 (8 May 2025): loan sirf bank / RBI-registered NBFC se; KFS pehle; contacts/gallery access mana; paisa seedha bank account mein; apps ki list RBI CIMS par public. Complaint: sachet.rbi.org.in, 1930.",
+ "scenes": [
+  {"type": "hook", "tag": "LOAN APP SCAM 🚨", "tagColor": "red", "lines": [["₹5,000 loan,", "text"], ["₹50,000 WAPAS? 😨", "red2"]], "sub": "Instant loan app ka jaal",
+   "voice": "पाँच_हज़ार|₹5,000 का|ka loan, और|aur पचास_हज़ार|₹50,000 वापस?|wapas? ये|Ye instant loan app का|ka जाल_है!|jaal_hai!"},
+  {"type": "phone", "tag": "AISA HOTA HAI 📱", "header": "QuickCash Loan ⚡",
+   "bubbles": [["2 minute mein ₹5,000 ✅"], ["Allow: Contacts, Gallery 📇"], ["7 din baad: 'Abhi ₹15,000 bharo", "warna sabko photo bhejenge' 😡"]],
+   "stamp": "FRAUD ⚠️", "stampColor": "red", "bottom": "Example: asli app ka naam nahi", "bottomColor": "muted",
+   "voice": "दो_मिनट|2_minute में|mein loan, फिर|phir contacts और|aur gallery की|ki permission, और|aur बाद_में|baad_mein धमकी|dhamki भरे|bhare calls."},
+  {"type": "list", "title": "RBI ke niyam ✅", "colors": ["green", "blue", "amber", "red"], "icons": ["🏦", "📄", "💸", "🚫"],
+   "items": [["Sirf bank / NBFC", "RBI-registered hi loan de sakte"], ["Pehle KFS milega", "Saara kharcha + APR likha"], ["Paisa seedha aapke account", "Beech mein koi wallet nahi"], ["Contacts / gallery mana", "Recovery ke liye bhi nahi"]],
+   "source": "RBI Digital Lending Directions 2025",
+   "voice": "R_B_I|RBI के_नियम:|ke_niyam: loan सिर्फ़|sirf bank या|ya registered NBFC से,|se, पहले|pehle KFS में|mein पूरा|poora खर्चा,|kharcha, और|aur contacts access बिल्कुल|bilkul मना।|mana."},
+  {"type": "list", "title": "Phans gaye to? 🆘", "colors": ["blue", "green", "red"], "icons": ["🔍", "📝", "☎️"],
+   "items": [["App RBI list mein hai?", "Lender ka naam check karo"], ["Shikayat: sachet.rbi.org.in", "RBI ka portal"], ["Dhamki / fraud? 1930", "cybercrime.gov.in"]],
+   "voice": "फँस_गए|Phans_gaye तो:|toh: app RBI की|ki list में|mein check करो,|karo, sachet पर|par शिकायत|shikayat करो,|karo, और|aur धमकी_पर|dhamki_par उन्नीस_सौ_तीस|1930."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aisa call aaya? Haan = 1, Na = 2", "disclaimer": "Educational only.",
+   "voice": "ऐसा|Aisa call आया?|aaya? हाँ_तो|Haan_toh एक,|1, ना_तो|na_toh दो।|2. Finance_Junction follow_करो,|follow_karo, और|aur याद|yaad रखो:|rakho: instant loan, बड़ा|bada जाल!|jaal!"}
+ ]
+}

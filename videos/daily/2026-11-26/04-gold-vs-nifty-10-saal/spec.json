@@ -1,0 +1,21 @@
+{
+ "slug": "gold-vs-nifty-10-saal",
+ "sources": "Gold Nov 2016 ~₹29,000-30,600/10g (Business Standard, goldpriceindia) -> MCX ~₹1.25 lakh (23 Nov 2026, IndMoney/Goodreturns). Nifty 24 Nov 2016: 7,965.50 (Business Standard) -> 25,819.25 (25 Nov 2026). Nifty dividend ke bina. Past ≠ future.",
+ "scenes": [
+  {"type": "hook", "tag": "10 SAAL 📅", "tagColor": "gold", "lines": [["Gold ne NIFTY ko", "text"], ["HARAYA? 😱", "gold"]], "sub": "₹1 lakh · Nov 2016 → Nov 2026",
+   "voice": "दस_साल_में|10_saal_mein gold ने|ne Nifty को|ko हरा_दिया?|hara_diya? वो_भी|Wo_bhi तीस_परसेंट|30% गिरने_के_बाद!|girne_ke_baad!"},
+  {"type": "compare", "title": "₹1 lakh, Nov 2016 se 💰", "subtitle": "*Nifty dividend ke bina · andaaza",
+   "items": [{"label": "Gold 🪙", "sub": "~₹30k → ₹1.25L", "value": 4.2, "display": "~₹4.2 L", "color": "gold"},
+             {"label": "Nifty 50*", "sub": "7,965 → 25,819", "value": 3.24, "display": "~₹3.2 L", "color": "blue"}],
+   "winner": 0, "winnerText": "~₹4.2 L 🏆",
+   "voice": "नवंबर_दो_हज़ार_सोलह|Nov_2016 में|mein एक_लाख|₹1_lakh: gold में|mein आज|aaj करीब|kareeb चार_दशमलव_दो_लाख,|₹4.2_lakh, Nifty में|mein करीब|kareeb तीन_दशमलव_दो_लाख।|₹3.2_lakh."},
+  {"type": "stat", "tag": "PAR DHYAN ⚠️", "label": "Gold January 2026 peak se", "value": 30, "prefix": "−", "suffix": "%", "color": "red",
+   "note": "Teji ke baad bada jhatka bhi aata hai", "noteColor": "red2", "chips": ["Nifty ka dividend alag", "Past ≠ future"],
+   "voice": "पर|Par ध्यान:|dhyan: gold जनवरी_के_पीक_से|January_ke_peak_se तीस_परसेंट|30% गिर_चुका_है,|gir_chuka_hai, और|aur Nifty का|ka dividend अलग_से|alag_se मिलता_है।|milta_hai."},
+  {"type": "list", "title": "Seekh 🎯", "colors": ["gold", "blue", "green"], "icons": ["🪙", "📈", "⚖️"],
+   "items": [["Gold = suraksha", "Mushkil waqt mein sahara"], ["Equity = growth", "Lambe samay mein"], ["Dono thoda thoda", "Ek par sab mat lagao"]],
+   "voice": "सीख:|Seekh: एक_पर|ek_par सब|sab मत|mat लगाओ,|lagao, gold और|aur equity, दोनों|dono थोड़ा_थोड़ा।|thoda_thoda."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aap kya lete: Gold = 1, Nifty = 2", "disclaimer": "Not investment advice. Past returns future ki guarantee nahi.",
+   "voice": "आप|Aap क्या|kya लेते?|lete? Gold एक,|1, Nifty दो।|2. Finance_Junction follow_करो!|follow_karo!"}
+ ]
+}

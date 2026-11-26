@@ -21,9 +21,9 @@ Templates hint: hook / stat / formula / compare / list / chart / phone / mythfac
 | 14 | Endowment vs term insurance | LIC policy = investment? | mythfact, compare | done (2026-11-25) |
 | 16 | 25 vs 35 umar mein SIP | 10 saal late = kitna kam? 😱 | chart, compare | done (2026-11-25) |
 | 17 | CIBIL score | 750+ CIBIL ka fayda kya? | stat, list | done (2026-11-25) |
-| 18 | Instant loan app trap | ₹5,000 loan, ₹50,000 wapas? 😨 | phone, list | todo |
-| 19 | Index fund kya hai | Sabse simple investment jo log ignore karte hain | list, chart | todo |
-| 20 | Gold vs SIP ✳️ | Gold ya SIP: 10 saal mein kaun jeeta? | chart | todo |
+| 18 | Instant loan app trap | ₹5,000 loan, ₹50,000 wapas? 😨 | phone, list | done (2026-11-26) |
+| 19 | Index fund kya hai | Sabse simple investment jo log ignore karte hain | list, chart | done (2026-11-26) |
+| 20 | Gold vs SIP ✳️ | Gold ya SIP: 10 saal mein kaun jeeta? | chart | done (2026-11-26, Gold vs Nifty lumpsum) |
 | 22 | SIP step-up | Har saal SIP 10% badhao, phir dekho | chart, stat | todo |
 | 23 | PPF ✳️ | Tax-free 15 saal: PPF kaise kaam karta hai? | stat, list | todo |
 | 24 | FD par TDS ✳️ | FD ka interest pura nahi milta? | stat, list | todo |
