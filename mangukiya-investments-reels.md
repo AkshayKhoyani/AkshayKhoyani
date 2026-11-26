@@ -4,7 +4,7 @@
 
 Each reel has: Hook (first 2 sec), Scenes with on-screen text (OST) + voiceover (VO), CTA, caption and hashtags.
 
-> **Before posting:** replace `[Name]`, `[City]`, `[Phone]` placeholders. All number examples are illustrative — check current premiums/rates before using them. Keep the disclaimers (IRDAI and SEBI/AMFI norms do not allow promising guaranteed returns on market-linked products).
+> **Before posting:** replace `[Name]`, `[City]`, `[handle]` placeholders. All number examples are illustrative — check current premiums/rates before using them. Keep the disclaimers (IRDAI and SEBI/AMFI norms do not allow promising guaranteed returns on market-linked products).
 
 ---
 
@@ -192,13 +192,13 @@ Aapka number kya hai? Comment "RETIRE" aur hum aapke saath calculate karenge.
 | 1 | Walk into office. OST: **"Namaste! Main hoon [Name] 👋"** | "Namaste! Main hoon [Name], Mangukiya Investments se." |
 | 2 | OST: "Life • Health • Term • Mutual Funds • Tax Planning" | "Hum life insurance, health insurance aur wealth planning mein families ki help karte hain." |
 | 3 | OST: "[X]+ families ka trust 🤝" | "Ab tak [X]+ families humare saath apna future secure kar chuki hain." |
-| 4 | OST: "📍 [City] | 📞 [Phone]" | "Aapka financial plan banana hai? Ek call ya DM bas." |
+| 4 | OST: "📍 [City] &#124; 📞 97239 72151" | "Aapka financial plan banana hai? Ek call ya DM bas." |
 
-**CTA:** Call / DM
+**CTA:** Call / WhatsApp 97239 72151 or DM
 **Caption:**
 Mangukiya Investments — aapke parivaar ki financial security ka partner. 🤝
 🛡️ Life & Term Insurance | 🏥 Health Insurance | 📈 Mutual Funds & SIP | 🧾 Tax Planning
-📍 [City] | 📞 [Phone]
+📍 [City] | 📞 97239 72151 | ✉️ bhavik515151@gmail.com
 *Insurance is the subject matter of solicitation. Mutual fund investments are subject to market risks.*
 
 **Hashtags:** #MangukiyaInvestments #InsuranceAdvisor #WealthManagement #[City]Business #FinancialAdvisor #MeetTheTeam
@@ -235,3 +235,13 @@ DM "EDU" for a child education plan.
 - **Keyword CTAs** ("COVER", "SIP", "TAX") make DMs easy to track. Reply within 1 hour.
 - **Cover image:** use the hook text on a branded colour so the profile grid looks consistent.
 - **Compliance:** never say "guaranteed returns" for market-linked products, and keep the disclaimer in each caption. If you are an AMFI-registered distributor, add your ARN in the bio.
+
+## Contact details (use in bio and Reel 9)
+
+- 📞 Phone / WhatsApp: 97239 72151
+- ✉️ Email: bhavik515151@gmail.com
+
+**Bio line suggestion:**
+Mangukiya Investments | Insurance & Wealth Planning 🛡️📈
+📞 97239 72151 | ✉️ bhavik515151@gmail.com
+👇 Free financial review
