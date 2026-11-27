@@ -22,7 +22,8 @@ RULES = [
 LABEL = {"gujarat-police": "Gujarat Police LRD", "police": "Police Constable & SI", "railway": "Railway (RRB/RRC)", "bank": "Bank Clerk / PO",
          "teaching": "Teaching / TET", "psc": "UPSC / State PSC", "engineering": "Engineering & PSU", "ssc": "SSC / DSSSB / Group C"}
 
-CSS = (".ejm{contain:inline-size;max-width:100%;min-width:0;position:relative;margin:22px 0;border-radius:22px;padding:3px;background:linear-gradient(110deg,#ffb703,#ff4d6d,#7c3aed,#22c55e,#ffb703);background-size:300% 300%;animation:ejmg 6s ease infinite;box-shadow:0 12px 34px rgba(124,58,237,.25)}"
+CSS = (".wrap.layout>div{min-width:0}.entry-content table{display:block;max-width:100%;overflow-x:auto}.entry-content td,.entry-content th{overflow-wrap:anywhere}"
+       ".ejm{contain:inline-size;max-width:100%;min-width:0;position:relative;margin:22px 0;border-radius:22px;padding:3px;background:linear-gradient(110deg,#ffb703,#ff4d6d,#7c3aed,#22c55e,#ffb703);background-size:300% 300%;animation:ejmg 6s ease infinite;box-shadow:0 12px 34px rgba(124,58,237,.25)}"
        "@keyframes ejmg{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}"
        ".ejm-in{position:relative;overflow:hidden;border-radius:19px;background:linear-gradient(150deg,#0b2a66,#071a3d);color:#fff;padding:20px 20px 18px}"
        ".ejm-in:after{content:'';position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.18),transparent);animation:ejms 3.2s infinite}"
