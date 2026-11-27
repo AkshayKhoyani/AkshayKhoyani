@@ -66,3 +66,9 @@ eligibility (one of: high school, associate degree, bachelor degree, professiona
 - After bulk media changes, purge the whole WP Rocket cache by re-saving a menu (`POST /wp/v2/menus/56 {"name":"Main Menu Header"}`), then check pages for broken images.
 - Ad Inserter Pro: **deactivated** 25 Nov 2026 (no ads were running; it injected 78 KB of inline JS on every page). Re-activate only when ads go live.
 - Open items for the owner (plugin settings not reachable by API): two GA4 tags + a GTM container load on every page (Site Kit analytics-4 `GT-5D4X6LR9`/`G-F7TTYZX49J` and tagmanager `GTM-NP78SP9S`) — check GA4 for double-counted page views; WP Rocket lazy-loads the LCP featured image — add `wp-post-image` to LazyLoad excluded images.
+
+## Featured images (premium, from 27 Nov 2026)
+- Template `featured.html`: dark navy premium layout + a **3D cartoon character** matching the post (`assets/characters/*.webp`, made once with OpenAI gpt-image-1.5, transparent).
+- Characters: engineer, police, railway, teacher, medical, bank, office, defence, apprentice, student_result, admit_card, answer_key.
+- `wp.py` picks the character automatically from post type and title keywords (see `CHAR_RULES`); override with `"image": {"character": "police"}` in the spec. Accent colour follows the character (`THEME`), or set `"theme"`: gold / green / sky / rose / violet.
+- Keep the headline short (2 lines) so it does not run into the character; max 4 chips.

@@ -88,16 +88,55 @@ def render(s):
     return html_out.replace("<strong>@employmentjunction.in</strong>", "<strong>" + ig + "</strong>")
 
 
+CHAR_DIR = os.path.join(HERE, "assets", "characters")
+# keyword in title/tag/org -> character (first match wins); falls back by post type
+CHAR_RULES = [
+    (("engineer", " je ", "je ", "junior engineer", "aee", "technical", "electrical", "civil"), "engineer"),
+    (("police", "constable", "lokrakshak", "lrd", "si ", "sub inspector", "capf", "home guard", "jail", "fireman", "forest guard"), "police"),
+    (("army", "navy", "air force", "agniveer", "defence", "nda", "cds", "bsf", "crpf", "itbp", "ssb", "cisf"), "defence"),
+    (("apprentice", "iti", "trade"), "apprentice"),
+    (("railway", "rrb", "rrc", "loco", "station master"), "railway"),
+    (("teacher", "tgt", "pgt", "prt", "lecturer", "professor", "faculty", "tet", "kvs", "nvs"), "teacher"),
+    (("nurse", "nursing", "medical", "doctor", "pharmacist", "aiims", "hospital", "health", "paramedical"), "medical"),
+    (("bank", "sbi", "ibps", "rbi", "nabard", "po ", "clerk", "exim", "sidbi"), "bank"),
+]
+TYPE_CHAR = {"ej_result": "student_result", "ej_admit_card": "admit_card", "ej_answer_key": "answer_key", "ej_syllabus": "admit_card"}
+THEME = {"student_result": "green", "admit_card": "sky", "answer_key": "violet", "medical": "rose", "defence": "green"}
+
+
+def pick_character(s):
+    im = s.get("image", {})
+    if im.get("character"):
+        return im["character"]
+    ptype = s.get("type", "ej_job")
+    if ptype in TYPE_CHAR:
+        return TYPE_CHAR[ptype]
+    text = " " + " ".join([s.get("title", ""), im.get("tag", ""), im.get("org", "")]).lower() + " "
+    for words, ch in CHAR_RULES:
+        if any(w in text for w in words) and os.path.exists(os.path.join(CHAR_DIR, ch + ".webp")):
+            return ch
+    return "office"
+
+
 def featured_image(s, path):
-    """Render a 1536x1024 featured image with Playwright (JPEG q82: ~10x smaller than PNG)."""
+    """Render a 1536x1024 premium featured image (3D character + details) as JPEG q82."""
+    data = dict(s["image"])
+    ch = pick_character(s)
+    src = os.path.join(CHAR_DIR, ch + ".webp")
+    if not os.path.exists(src):
+        src = os.path.join(CHAR_DIR, "office.webp")
+    data["character_src"] = "file://" + src
+    data.setdefault("theme", THEME.get(ch, "gold"))
     tpl = open(os.path.join(HERE, "featured.html")).read()
-    page = tpl.replace("__DATA__", json.dumps(s["image"]))
+    page = tpl.replace("__DATA__", json.dumps(data))
     tmp = path + ".html"
     open(tmp, "w").write(page)
     subprocess.run(["node", "-e", f"""
 const {{ chromium }} = require('playwright');
 (async () => {{ const b = await chromium.launch(); const p = await b.newPage({{ viewport: {{ width: 1536, height: 1024 }} }});
-await p.goto('file://{tmp}'); await p.evaluate(() => document.fonts.ready); await p.screenshot({{ path: '{path}', type: 'jpeg', quality: 82 }}); await b.close(); }})();
+await p.goto('file://{tmp}'); await p.evaluate(() => document.fonts.ready);
+await p.waitForFunction(() => {{ const i = document.getElementById('char'); return !i.src || i.complete; }});
+await p.screenshot({{ path: '{path}', type: 'jpeg', quality: 84 }}); await b.close(); }})();
 """], check=True)
     os.remove(tmp)
 

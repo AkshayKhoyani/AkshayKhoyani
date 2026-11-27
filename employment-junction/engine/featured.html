@@ -2,33 +2,51 @@
 <html><head><meta charset="utf-8">
 <style>
 *{box-sizing:border-box;margin:0}
-body{width:1536px;height:1024px;font-family:Inter,sans-serif;color:#f8fafc;overflow:hidden;
- background:radial-gradient(circle at 15% 20%,rgba(59,130,246,.35),transparent 45%),radial-gradient(circle at 90% 85%,rgba(255,153,51,.25),transparent 45%),linear-gradient(160deg,#0a2352,#071a3d 60%,#030b1c)}
-.top{display:flex;align-items:center;gap:22px;padding:56px 72px 0}
-.logo{width:96px;height:96px;border-radius:24px;background:linear-gradient(135deg,#1554c0,#0b3d91);border:4px solid #ffb703;display:grid;place-items:center;font:900 44px Inter;color:#ffb703}
-.brand b{display:block;font:900 34px Inter;letter-spacing:.5px}.brand span{color:#ffb703;font:900 34px Inter}
-.tag{margin-left:auto;background:#ffb703;color:#071a3d;font:800 30px Inter;padding:14px 30px;border-radius:999px}
-.main{padding:70px 72px 0}
-.org{font:700 42px Inter;color:#7dd3fc;margin-bottom:18px}
-h1{font:900 92px/1.05 Inter;max-width:1300px}
-h1 em{font-style:normal;color:#ffb703}
-.chips{display:flex;gap:22px;margin-top:56px;flex-wrap:wrap}
-.chip{background:rgba(255,255,255,.08);border:2px solid rgba(255,255,255,.16);border-radius:24px;padding:22px 30px}
-.chip small{display:block;font:600 24px Inter;color:#9fb3d1;text-transform:uppercase;letter-spacing:1px}
-.chip b{font:900 44px Inter}
-.chip.hot{border-color:#ef4444;background:rgba(239,68,68,.14)}
-.bar{position:absolute;bottom:0;left:0;right:0;height:18px;background:linear-gradient(90deg,#ff9933 0 33.3%,#fff 33.3% 66.6%,#138808 66.6%)}
-.site{position:absolute;bottom:44px;right:72px;font:700 30px Inter;color:#9fb3d1}
+:root{--accent:#ffb703;--accent2:#ff9933;--glow:rgba(255,183,3,.35)}
+body{width:1536px;height:1024px;font-family:Inter,sans-serif;color:#f8fafc;overflow:hidden;position:relative;
+ background:radial-gradient(1200px 700px at 78% 55%,var(--glow),transparent 60%),radial-gradient(900px 600px at 0% 0%,rgba(37,99,235,.45),transparent 60%),linear-gradient(150deg,#0b2a66 0%,#071a3d 55%,#040d22 100%)}
+.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(90deg,#000 0%,transparent 75%)}
+.ring{position:absolute;border-radius:50%;border:2px solid rgba(255,255,255,.10)}
+.r1{width:820px;height:820px;right:-120px;top:120px}.r2{width:600px;height:600px;right:-10px;top:230px;border-color:var(--glow)}
+.disc{position:absolute;right:40px;top:250px;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.16),rgba(255,255,255,.02) 65%,transparent 70%)}
+.char{position:absolute;right:30px;bottom:0;height:960px;filter:drop-shadow(0 30px 50px rgba(0,0,0,.55))}
+.spark{position:absolute;color:var(--accent);font-size:44px;opacity:.9}
+.top{position:absolute;left:72px;top:56px;display:flex;align-items:center;gap:20px}
+.logo{width:88px;height:88px;border-radius:22px;background:linear-gradient(135deg,#1554c0,#0b3d91);border:4px solid #ffb703;display:grid;place-items:center;font:900 40px Inter;color:#ffb703;box-shadow:0 10px 30px rgba(0,0,0,.35)}
+.brand b{display:block;font:900 31px Inter;letter-spacing:.6px}.brand span{color:#ffb703;font:900 31px Inter;letter-spacing:.6px}
+.main{position:absolute;left:72px;top:205px;width:830px}
+.tag{display:inline-flex;align-items:center;gap:12px;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#071a3d;font:900 28px Inter;padding:12px 26px;border-radius:999px;box-shadow:0 8px 24px var(--glow);letter-spacing:.5px}
+.org{font:700 34px Inter;color:#93c5fd;margin:30px 0 14px}
+h1{font:900 72px/1.06 Inter;letter-spacing:-.5px;text-shadow:0 6px 24px rgba(0,0,0,.35)}
+h1 em{font-style:normal;background:linear-gradient(90deg,#ffd166,#ff9933);-webkit-background-clip:text;color:transparent}
+.chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:40px;width:820px}
+.chip{background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.18);border-radius:22px;padding:18px 24px;backdrop-filter:blur(6px);box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
+.chip small{display:block;font:700 20px Inter;color:#9fb3d1;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:6px}
+.chip b{font:900 36px Inter}
+.chip.hot{border-color:#f87171;background:linear-gradient(135deg,rgba(239,68,68,.28),rgba(239,68,68,.08))}
+.chip.hot b{color:#fecaca}
+.foot{position:absolute;left:72px;bottom:44px;display:flex;align-items:center;gap:14px;font:800 26px Inter;color:#cbd5e1}
+.foot i{width:12px;height:12px;border-radius:50%;background:#22c55e;box-shadow:0 0 12px #22c55e}
+.bar{position:absolute;bottom:0;left:0;right:0;height:14px;background:linear-gradient(90deg,#ff9933 0 33.3%,#fff 33.3% 66.6%,#138808 66.6%)}
 </style></head>
 <body>
-<div class="top"><div class="logo">EJ</div><div class="brand"><b>EMPLOYMENT</b><span>JUNCTION</span></div><div class="tag" id="tag"></div></div>
-<div class="main"><div class="org" id="org"></div><h1 id="h"></h1><div class="chips" id="chips"></div></div>
-<div class="site">employmentjunction.in</div><div class="bar"></div>
+<div class="grid"></div><div class="ring r1"></div><div class="ring r2"></div><div class="disc"></div>
+<img class="char" id="char" alt="">
+<div class="spark" style="right:640px;top:210px">✦</div><div class="spark" style="right:90px;top:170px;font-size:30px">✦</div><div class="spark" style="right:600px;top:780px;font-size:26px;opacity:.6">✦</div>
+<div class="top"><div class="logo">EJ</div><div class="brand"><b>EMPLOYMENT</b><span>JUNCTION</span></div></div>
+<div class="main"><div class="tag" id="tag"></div><div class="org" id="org"></div><h1 id="h"></h1><div class="chips" id="chips"></div></div>
+<div class="foot"><i></i>employmentjunction.in · Sarkari Naukri ki har khabar</div>
+<div class="bar"></div>
 <script>
 const D = __DATA__;
+const THEMES = {gold:['#ffb703','#ff9933','rgba(255,183,3,.35)'],green:['#4ade80','#22c55e','rgba(34,197,94,.33)'],sky:['#7dd3fc','#38bdf8','rgba(56,189,248,.33)'],
+  rose:['#fda4af','#f43f5e','rgba(244,63,94,.30)'],violet:['#c4b5fd','#8b5cf6','rgba(139,92,246,.33)']};
+const t = THEMES[D.theme || 'gold'];
+document.documentElement.style.setProperty('--accent', t[0]); document.documentElement.style.setProperty('--accent2', t[1]); document.documentElement.style.setProperty('--glow', t[2]);
 document.getElementById('tag').textContent = D.tag;
 document.getElementById('org').textContent = D.org;
 document.getElementById('h').innerHTML = D.headline;
-document.getElementById('chips').innerHTML = D.chips.map(([k, v, hot]) => `<div class="chip${hot ? ' hot' : ''}"><small>${k}</small><b>${v}</b></div>`).join('');
+document.getElementById('chips').innerHTML = D.chips.slice(0, 4).map(([k, v, hot]) => `<div class="chip${hot ? ' hot' : ''}"><small>${k}</small><b>${v}</b></div>`).join('');
+document.getElementById('char').src = D.character_src;
 </script>
 </body></html>
