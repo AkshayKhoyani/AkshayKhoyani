@@ -1,0 +1,1302 @@
+{
+ "exam": "Kerala PSC District Executive Officer / Additional District Executive Officer",
+ "paper": "Question Paper Code 035/2026, Booklet A (English medium)",
+ "year": 2026,
+ "board": "Kerala Public Service Commission",
+ "state": "Kerala",
+ "lang": "en",
+ "source_paper": "https://www.keralapsc.gov.in/sites/default/files/2026-04/035-2026-A.pdf",
+ "source_key": "https://www.keralapsc.gov.in/sites/default/files/2026-04/final_answer_key_district_executive_officer.pdf",
+ "duration_min": 90,
+ "marks_per_q": 1,
+ "negative": 0.33,
+ "questions": [
+  {
+   "q": "Which of the following correctly explains the concept of Sociological Imagination?\n(i) It connects personal troubles with public issues.\n(ii) It analyses individual experiences within broader social structures.\n(iii) It focuses only on psychological explanations of behaviour.",
+   "o": [
+    "Only (i) & (ii)",
+    "Only (ii) & (iii)",
+    "Only (i) & (iii)",
+    "All of the above (i), (ii) & (iii)"
+   ],
+   "a": 0,
+   "e": "C. Wright Mills' sociological imagination links personal troubles to public issues and social structure; it is not purely psychological.",
+   "section": "Sociology",
+   "topic": "Sociological Theory"
+  },
+  {
+   "q": "The sociologist who analysed dyads, triads, and forms of interaction was :",
+   "o": [
+    "Jürgen Habermas",
+    "Anthony Giddens",
+    "Pierre Bourdieu",
+    "George Simmel"
+   ],
+   "a": 3,
+   "e": "Georg Simmel's formal sociology studied dyads, triads and forms of interaction.",
+   "section": "Sociology",
+   "topic": "Sociological Theory"
+  },
+  {
+   "q": "The expansion of sociology in the 20th century also involved the growth of quantitative and qualitative research methods. Which of the following best represents this methodological shift?",
+   "o": [
+    "Reliance only on philosophical speculation",
+    "Use of statistical analysis and field studies",
+    "Rejection of empirical data",
+    "Exclusive focus on theology"
+   ],
+   "a": 1,
+   "e": "Twentieth-century sociology grew through statistical analysis and fieldwork, i.e. empirical methods.",
+   "section": "Sociology",
+   "topic": "Research Methods"
+  },
+  {
+   "q": "In Anthony Giddens’ Structuration Theory, the concept of ‘duality of structure’ refers to :",
+   "o": [
+    "Conflict between social classes",
+    "Interaction between religion and economy",
+    "Mutual constitution of structure and agency",
+    "Separation between institutions and individuals"
+   ],
+   "a": 2,
+   "e": "Giddens' duality of structure means structure and agency constitute each other.",
+   "section": "Sociology",
+   "topic": "Sociological Theory"
+  },
+  {
+   "q": "Which of the following most accurately reflects Bourdieu’s critique of objectivism and subjectivism in social theory?",
+   "o": [
+    "He rejects both and proposes methodological positivism",
+    "He synthesizes them through the concept of practice structured by habitus within fields",
+    "He prioritizes structural determinism over individual agency",
+    "He argues that symbolic structures operate independently of social actors"
+   ],
+   "a": 1,
+   "e": "Bourdieu overcomes objectivism and subjectivism through practice, shaped by habitus operating within fields.",
+   "section": "Sociology",
+   "topic": "Sociological Theory"
+  },
+  {
+   "q": "Derrida’s critique of logocentrism primarily targets :",
+   "o": [
+    "The privileging of written language over speech",
+    "The assumption that language transparently reflects reality",
+    "The privileging of presence and fixed meaning in western metaphysics",
+    "Structuralist analysis of myth and kinship"
+   ],
+   "a": 2,
+   "e": "Derrida's critique of logocentrism attacks the Western metaphysics of presence and fixed meaning.",
+   "section": "Sociology",
+   "topic": "Sociological Theory"
+  },
+  {
+   "q": "Which statement(s) is/are correct about “Indigenization”?\n(i) It involves self-awareness and rejection of a borrowed consciousness.\n(ii) It encourages attention to cultural and historical specificities while using a dialectic perspective on national problems.\n(iii) It recommends narrow parochialism even if it fragments sociological understanding into insulated systems.",
+   "o": [
+    "(i) and (ii) only",
+    "(i) only",
+    "(ii) and (iii) only",
+    "(i) (ii) and (iii)"
+   ],
+   "a": 0,
+   "e": "Indigenisation calls for rejecting borrowed consciousness and attending to local specificities, without parochial fragmentation.",
+   "section": "Sociology",
+   "topic": "Indian Sociology"
+  },
+  {
+   "q": "Which statement(s) is/are correct about change in the Indian joint family system?\n(i) Studies show structural transformation linked to modernization/ industrialization/urbanization\n(ii) Joint-family values remain socially favoured despite change.\n(iii) Transformation is often analysed via the family cycle idea.",
+   "o": [
+    "(i) only",
+    "(ii) only",
+    "(ii) and (iii) only",
+    "(i) (ii) and (iii)"
+   ],
+   "a": 3,
+   "e": "Studies link joint-family change to modernisation, note that joint-family values persist, and use the family-cycle concept.",
+   "section": "Sociology",
+   "topic": "Indian Society"
+  },
+  {
+   "q": "Why does Ghurye argue that endogamy should be treated as a principal feature of caste- society?",
+   "o": [
+    "Because treating endogamy as chief characteristic implies recognizing the endogamous sub-units as real castes for analytical purposes",
+    "Because endogamy is unrelated to social stratification and is merely a ritual preference",
+    "Because caste endogamy is identical to totemic exogamy",
+    "Because endogamy makes caste disappear by enabling fusion"
+   ],
+   "a": 0,
+   "e": "Ghurye treats endogamy as the chief feature, which means the endogamous sub-castes are the real units of analysis.",
+   "section": "Sociology",
+   "topic": "Caste"
+  },
+  {
+   "q": "In Dumont’s framing, hierarchy is introduced when people adopt values, and it is quite independent of which factor?",
+   "o": [
+    "Natural inequalities or the distribution of power",
+    "Endogamy rules in marriage",
+    "Colonial administrative classification",
+    "The existence of caste councils"
+   ],
+   "a": 0,
+   "e": "Dumont saw hierarchy as a value principle (purity/impurity) independent of natural inequality or the distribution of power.",
+   "section": "Sociology",
+   "topic": "Caste"
+  },
+  {
+   "q": "In Gail Omvedt’s framing of her project, which equation does she explicitly critique?",
+   "o": [
+    "Equating caste with race biology alone",
+    "Equating Indian tradition with Hinduism and Hinduism with Brahmanism",
+    "Equating all anti-caste movements with parliamentary politics",
+    "Equating Buddhism with Vedic orthodoxy"
+   ],
+   "a": 1,
+   "e": "Omvedt critiques equating Indian tradition with Hinduism and Hinduism with Brahmanism.",
+   "section": "Sociology",
+   "topic": "Caste"
+  },
+  {
+   "q": "In “Annihilation of Caste,” Ambedkar argues caste is not merely a division of labour but also :",
+   "o": [
+    "A division of labourers into water-tight compartments, producing a graded hierarchy rather than reflecting natural aptitudes",
+    "A voluntary association of workers that maximizes occupational mobility",
+    "An interchangeable term for modern class position in industrial capitalism",
+    "A purely religious classification without economic consequences"
+   ],
+   "a": 0,
+   "e": "Ambedkar said caste divides labourers, not just labour, into watertight graded compartments unrelated to aptitude.",
+   "section": "Sociology",
+   "topic": "Caste"
+  },
+  {
+   "q": "In Kancha Ilaiah’s Note about terms and concepts, why does he avoid labels like lower castes or Harijans for OBCs/SCs?",
+   "o": [
+    "Because such labels subordinate productive castes; he prefers terms emerging from Dalit bahujan history for these group",
+    "Because these terms are linguistically incorrect in Sanskrit grammar",
+    "Because these labels refer only to religious minorities, not castes",
+    "Because he argues caste categories no longer exist in India"
+   ],
+   "a": 0,
+   "e": "Ilaiah rejects labels like \"lower castes\"/\"Harijans\" as demeaning and prefers terms from Dalit-Bahujan history.",
+   "section": "Sociology",
+   "topic": "Caste"
+  },
+  {
+   "q": "With reference to Globalisation, consider the following statements:\n(i) It facilitates the movement of capital, labour, and technology across national borders.\n(ii) It can lead to widening socio-economic inequalities within societies.\n(iii) It eliminates the role of nation-states in economic policy making. Which of the statements given above is/are correct?",
+   "o": [
+    "Only (i)",
+    "Only (i) & (ii)",
+    "Only (ii) & (iii)",
+    "All of the above"
+   ],
+   "a": 1,
+   "e": "Globalisation moves capital, labour and technology across borders and can widen inequality, but it does not eliminate the state's role.",
+   "section": "Sociology",
+   "topic": "Globalisation"
+  },
+  {
+   "q": "Which of the following factors contribute to depletion of natural resources?\n1. Rapid industrialization\n2. Over-extraction of groundwater\n3. Sustainable resource management Select the correct answer using the code below:",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 only",
+    "1,2 and 3"
+   ],
+   "a": 0,
+   "e": "Rapid industrialisation and groundwater over-extraction deplete resources; sustainable management conserves them.",
+   "section": "Sociology",
+   "topic": "Environment"
+  },
+  {
+   "q": "Match the following:\nA. MNREGS  1. Livelihood security through rural employment\nB. Kudumbasree  2. Women-centred poverty eradication programme\nC. Panchayati Raj Institutions  3. Local self-governance system",
+   "o": [
+    "A-1, B-2, C-3",
+    "A-2, B-1, C-3",
+    "A-3, B-2, C-1",
+    "A-1, B-3, C-2"
+   ],
+   "a": 0,
+   "e": "MGNREGS ensures rural employment, Kudumbashree is Kerala's women-led anti-poverty mission, and PRIs are local self-government.",
+   "section": "Sociology",
+   "topic": "Development"
+  },
+  {
+   "q": "Reason and Assertion\nAssertion [A]: Development projects such as dams and mining often cause displacement of local communities.\nReason [R]: Tribal and rural communities frequently inhabit resource-rich regions targeted for development projects.",
+   "o": [
+    "Both [A] and [R] are correct and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are correct but [R] is not the correct explanation of [A]",
+    "[A] is correct but [R] is incorrect",
+    "[A] is incorrect but [R] is correct"
+   ],
+   "a": 0,
+   "e": "Projects like dams and mines displace communities precisely because tribal and rural people live in resource-rich areas.",
+   "section": "Sociology",
+   "topic": "Development"
+  },
+  {
+   "q": "Which of the following environmental issues is primarily associated with increase in greenhouse gas concentration in the atmosphere?",
+   "o": [
+    "Desertification",
+    "Global warming",
+    "Soil salinization",
+    "Land fragmentation"
+   ],
+   "a": 1,
+   "e": "Rising greenhouse gas concentrations cause global warming.",
+   "section": "Sociology",
+   "topic": "Environment"
+  },
+  {
+   "q": "Identify the incorrect pair:",
+   "o": [
+    "MNREGS — Rural employment guarantee scheme",
+    "Kudumbasree — Women empowerment programme in Kerala",
+    "Gender auditing — Evaluation of gender equality in policies",
+    "Globalisation — Restriction of cross-border economic flows"
+   ],
+   "a": 3,
+   "e": "Globalisation expands, not restricts, cross-border economic flows.",
+   "section": "Sociology",
+   "topic": "Globalisation"
+  },
+  {
+   "q": "Which of the following best describes the objective of Gender Auditing in development programmes?",
+   "o": [
+    "Measuring economic growth of a country",
+    "Assessing gender equality in policies, programmes and institutions",
+    "Monitoring industrial productivity",
+    "Evaluating environmental sustainability only"
+   ],
+   "a": 1,
+   "e": "A gender audit checks policies, programmes and institutions for gender equality.",
+   "section": "Sociology",
+   "topic": "Gender"
+  },
+  {
+   "q": "Consider the following statements regarding religious fundamentalism:\n1. It involves strict adherence to religious doctrines.\n2. It rejects reinterpretation of sacred texts.\n3. It necessarily promotes pluralistic tolerance.\n4. Sociologists link it with identity politics. Which of the statements are NOT correct?",
+   "o": [
+    "3 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "3 and 4 only"
+   ],
+   "a": 0,
+   "e": "Fundamentalism stresses strict doctrine and literal readings; it does not necessarily promote pluralist tolerance.",
+   "section": "Sociology",
+   "topic": "Religion"
+  },
+  {
+   "q": "Consider the following statements regarding poverty in sociological analysis:\n1. Absolute poverty refers to the inability to meet basic survival needs.\n2. Relative poverty compares the living standards of individuals within a society.\n3. Oscar Lewis proposed the concept of the culture of poverty.\n4. Poverty is unrelated to structural inequality. Which of the statements given above are correct?",
+   "o": [
+    "1 and 4 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 2,
+   "e": "Absolute and relative poverty and Lewis's culture of poverty are correct; poverty is closely tied to structural inequality.",
+   "section": "Sociology",
+   "topic": "Poverty"
+  },
+  {
+   "q": "Match the Following:\nA. Heteronormativity  1. Recognition of transgender persons as third gender\nB. Homophobia  2. Fear, prejudice or hatred towards homosexual people\nC. Navtej Singh Johar Case (2018)  3. Decriminalization of homosexuality\nD. NALSA Judgment (2014)  4. Social assumption that heterosexuality is the norm",
+   "o": [
+    "A-4, B-2, C-3, D-1",
+    "A-2, B-4, C-3, D-1",
+    "A-4, B-3, C-2, D-1",
+    "A-1, B-2, C-3, D-4"
+   ],
+   "a": 0,
+   "e": "Heteronormativity = heterosexuality as the norm; homophobia = fear or hatred; Navtej Johar decriminalised homosexuality; NALSA recognised the third gender.",
+   "section": "Sociology",
+   "topic": "Gender"
+  },
+  {
+   "q": "Consider the following statements regarding Untouchability:\n1. Untouchability was abolished under Article 16 of the Constitution of India.\n2. Untouchability is historically linked to the caste hierarchy and notions of ritual purity and pollution.\n3. Untouchability exists only in rural India and has disappeared in urban areas.\n4. The Protection of Civil Rights Act, 1955 was enacted to enforce the constitutional abolition of untouchability. Which of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 4 only",
+    "2, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "e": "Untouchability was abolished by Article 17 (not 16) and persists in urban areas; the PCR Act 1955 enforces the abolition.",
+   "section": "Sociology",
+   "topic": "Caste"
+  },
+  {
+   "q": "Consider the following statements regarding Social Exclusion and Indian society:\n1. Caste-based discrimination historically contributed to social exclusion of Dalit communities.\n2. Social exclusion can operate through spatial segregation, occupational restrictions, and denial of social mobility.\n3. Social exclusion disappears automatically with economic growth.\n4. Social exclusion may also intersect with gender, ethnicity and disability. Which of the statements given above are correct?",
+   "o": [
+    "1 and 3 only",
+    "2 and 3 only",
+    "1, 2, 3 and 4",
+    "1, 2 and 4 only"
+   ],
+   "a": 3,
+   "e": "Exclusion stems from caste, works through segregation and restrictions, and intersects with other identities; it does not vanish with growth.",
+   "section": "Sociology",
+   "topic": "Social Exclusion"
+  },
+  {
+   "q": "Which of the following is NOT one of the dimensions of communalism identified by T. K. Oommen?",
+   "o": [
+    "Assimilationist",
+    "Secessionist",
+    "Welfarist",
+    "Structuralist"
+   ],
+   "a": 3,
+   "e": "Oommen's dimensions include assimilationist, welfarist, retreatist, retaliatory, separatist and secessionist; \"structuralist\" is not one.",
+   "section": "Sociology",
+   "topic": "Communalism"
+  },
+  {
+   "q": "In one of the following Research Design, the researcher has either no knowledge or a limited knowledge about the issue to be studied :",
+   "o": [
+    "Explanatory research design",
+    "Experimental research design",
+    "Exploratory research design",
+    "Descriptive research design"
+   ],
+   "a": 2,
+   "e": "Exploratory research is used when little is known about a problem.",
+   "section": "Sociology",
+   "topic": "Research Methods"
+  },
+  {
+   "q": "The data collection method that can be used for indepth study in a detailed manner:",
+   "o": [
+    "Participant Observation",
+    "Case study",
+    "Questionnaire",
+    "Interview schedule"
+   ],
+   "a": 1,
+   "e": "The case study method allows in-depth, detailed study of a unit.",
+   "section": "Sociology",
+   "topic": "Research Methods"
+  },
+  {
+   "q": "Which among the following is true about Participant Observation method?",
+   "o": [
+    "Analyses the content of documents, books, newspapers, magazines and other forms of written material",
+    "Studies individual cases often in a natural environment and for a longer period of time",
+    "The investigator involves himself in the setting and group life of the research subjects",
+    "Information is collected from a sample of individuals representative of the population through their responses to questions."
+   ],
+   "a": 2,
+   "e": "In participant observation the researcher joins the group life of those studied.",
+   "section": "Sociology",
+   "topic": "Research Methods"
+  },
+  {
+   "q": "Which among the following steps of social research involves using of quantitative or qualitative techniques to interpret data?",
+   "o": [
+    "Report Writing",
+    "Data Analysis",
+    "Data Collection",
+    "Pilot Study"
+   ],
+   "a": 1,
+   "e": "Interpreting data with quantitative or qualitative techniques is data analysis.",
+   "section": "Sociology",
+   "topic": "Research Methods"
+  },
+  {
+   "q": "Utilizing existing data sources such as government reports, books and previous research findings for research purpose is:",
+   "o": [
+    "Primary data analysis",
+    "Secondary data analysis",
+    "Tertiary data analysis",
+    "In-depth data analysis"
+   ],
+   "a": 1,
+   "e": "Using existing reports and studies is secondary data analysis.",
+   "section": "Sociology",
+   "topic": "Research Methods"
+  },
+  {
+   "q": "Collecting numerical data from a large population is a:",
+   "o": [
+    "Quantitative method",
+    "Qualitative method",
+    "Mixed Method",
+    "Content analysis method"
+   ],
+   "a": 0,
+   "e": "Numerical data from large populations is collected through quantitative methods.",
+   "section": "Sociology",
+   "topic": "Research Methods"
+  },
+  {
+   "q": "Which among the following is availed to track changes and developmental trends over an extended period of time?",
+   "o": [
+    "Longitudinal study",
+    "Case study",
+    "Cross sectional study",
+    "Critical study"
+   ],
+   "a": 0,
+   "e": "Longitudinal studies follow the same subjects over long periods to track change.",
+   "section": "Sociology",
+   "topic": "Research Methods"
+  },
+  {
+   "q": "The project of colonial modernity aimed at the reformation of inhabitants of the colonised places affected different communities or social groups differently which was determined by factors such as",
+   "o": [
+    "Structural conditions",
+    "Regional diversities",
+    "Discontent for the colonised elite",
+    "All of the above"
+   ],
+   "a": 3,
+   "e": "Colonial modernity affected groups differently according to structural conditions, regional diversity and elite discontent.",
+   "section": "Sociology",
+   "topic": "Colonialism"
+  },
+  {
+   "q": "When applying the Systems Approach to a family intervention, a social worker views the family as a ‘Boundaried System.’ If one member suffers from substance abuse, the social worker focuses on the ‘Equifinality’ principle. What does this imply?",
+   "o": [
+    "The worker assumes that the substance abuse has only one root cause that must be fixed.",
+    "The worker recognises that the same end state can be reached starting from different initial conditions and through different paths.",
+    "The worker focuses on the individual alone as the systems boundaries are impenetrable.",
+    "The worker believes that the family system will naturally return to its original state without any intervention"
+   ],
+   "a": 1,
+   "e": "Equifinality means the same outcome can be reached from different starting points and paths.",
+   "section": "Social Work",
+   "topic": "Systems Approach"
+  },
+  {
+   "q": "Social legislation in a democratic welfare state acts as an instrument of social change. Logically, what is the primary limitation of legislation achieving this change?",
+   "o": [
+    "Legislation focuses on the majority and ignores the needs of the marginalised groups",
+    "Laws are static while society is dynamic, leading to a ‘cultural lag’ where legal norms trail behind the social realities.",
+    "Legislation is only punitive and cannot be used for developmental purposes",
+    "Constitutional provisions prohibit law from intervening in social customs."
+   ],
+   "a": 1,
+   "e": "Law tends to lag behind social change (cultural lag), which limits its reforming power.",
+   "section": "Social Work",
+   "topic": "Social Legislation"
+  },
+  {
+   "q": "Which of the following distinguishes ‘Social Security’ from ‘Social Welfare’ in a logical framework?",
+   "o": [
+    "Social Security is a universal right, whereas Social welfare is only for the poor.",
+    "Social Welfare is mandatory for the state, whereas social security is only for poor.",
+    "Social security is primarily an economic response to specific life contingencies, while social welfare is a broader range of social services",
+    "Social security focuses on future, while social welfare focuses only on the past"
+   ],
+   "a": 2,
+   "e": "Social security protects income against specific contingencies, while social welfare is a broader set of services.",
+   "section": "Social Work",
+   "topic": "Social Security"
+  },
+  {
+   "q": "The ‘Residual’ view of social policy suggests that state should only intervene when other social institutions like family and market fail. What is a critical logical flaw in this perspective from a ‘Social Justice’ perspective?",
+   "o": [
+    "It ensures that the state budget is efficiently and only on those in need.",
+    "It makes the state too powerful by allowing it to control all social institutions.",
+    "It focuses too much on preventive measures and not enough on emergency relief",
+    "It ignores the fact that social institutions are very often sources of inequality and exclusion."
+   ],
+   "a": 3,
+   "e": "The residual view ignores that the family and the market themselves often produce inequality and exclusion.",
+   "section": "Social Work",
+   "topic": "Social Policy"
+  },
+  {
+   "q": "In the Remedial Model of Social Work, the worker is often seen as a ‘Clinical’ Expert. What is the primary focus of this model?",
+   "o": [
+    "Identifying and treating social dysfunction or deviance in individuals of small groups to restore them to normalcy.",
+    "Distributing wealth in a society to ensure economic equality",
+    "Building new institutions to foster community growth",
+    "Changing laws to prevent future occurrences of social problems."
+   ],
+   "a": 0,
+   "e": "The remedial model treats dysfunction in individuals or small groups to restore normal functioning.",
+   "section": "Social Work",
+   "topic": "Social Work Models"
+  },
+  {
+   "q": "Match the following\nI. Person in Environment: a. Systems Theory\nII. Unconscious Motivation: b. Social learning Theory\nIII. Boundaries and Subsystem: c. Ecological Theory\nIV. Role Modelling d. Psychodynamic Theory",
+   "o": [
+    "I-a, II-d, III-b, IV-c",
+    "I-c, II-d, III-a, IV-b",
+    "I-b, II-d, III-c, IV-a",
+    "I-a, II-d, III-c, IV-b"
+   ],
+   "a": 1,
+   "e": "Person-in-environment is ecological, unconscious motivation psychodynamic, boundaries/subsystems systems theory, and role modelling social learning.",
+   "section": "Social Work",
+   "topic": "Social Work Theories"
+  },
+  {
+   "q": "Choose the correct option\nAssertion [A] : Psychodynamic theory mainly focuses on observable behaviour.\nReason [R] : Behavioural theory studies observable actions.",
+   "o": [
+    "Both Assertion [A] and Reason [R] are true, and [R] correctly explains [A]",
+    "Both Assertion [A] and Reason [R] are true, but Reason [R] does NOT correctly explain Assertion [A]",
+    "Assertion [A] is true, but Reason [R] is false.",
+    "Assertion [A] is false, but Reason [R] is true."
+   ],
+   "a": 3,
+   "e": "Psychodynamic theory focuses on unconscious processes, not observable behaviour; behaviourism studies observable actions.",
+   "section": "Social Work",
+   "topic": "Social Work Theories"
+  },
+  {
+   "q": "Choose the statements that are correct about the Task-Centred Approach.\n1. The task-centred model is structured around collaboratively negotiated goals, which are changed into specific, time-bound tasks.\n2. Long-term interventions are needed for personality changes in order to make changes measurable.\n3. Signifies the importance of client participation in problem identification and in the success of interventions.\n4. This model focuses on brief and focused intervention rather than being exploratory.",
+   "o": [
+    "1, 3 and 4 only",
+    "1, 2 and 3 only",
+    "1, 2 and 4 only",
+    "All statements are correct"
+   ],
+   "a": 0,
+   "e": "The task-centred model is brief, time-limited and collaborative; it does not require long-term personality change.",
+   "section": "Social Work",
+   "topic": "Social Work Models"
+  },
+  {
+   "q": "The Strengths-Based Perspective primarily focuses on:",
+   "o": [
+    "Identifying deficits and dysfunction",
+    "Professional authority over client decisions",
+    "Client capacities, resources, and resilience",
+    "Structural revolution"
+   ],
+   "a": 2,
+   "e": "The strengths perspective builds on client capacities, resources and resilience.",
+   "section": "Social Work",
+   "topic": "Social Work Models"
+  },
+  {
+   "q": "Arrange the correct sequence in the Problem-Solving Model:",
+   "o": [
+    "Problem identification → Goal setting → Intervention → Evaluation",
+    "Evaluation → Intervention → Goal setting → Problem definition",
+    "Goal setting → Avoidance → Termination",
+    "Treatment → Diagnosis → Evaluation"
+   ],
+   "a": 0,
+   "e": "Problem solving runs from problem identification to goal setting, intervention and evaluation.",
+   "section": "Social Work",
+   "topic": "Social Work Models"
+  },
+  {
+   "q": "Consider the following four statements about social work models and perspectives. Identify which statement is INCORRECT:",
+   "o": [
+    "The Crisis Intervention Model draws on ego psychology and assumes that a crisis, while destabilizing, can also be a turning point for growth and change.",
+    "Anti-Oppressive Practice challenges structural inequalities and recognises that personal problems are often rooted in systemic discrimination, power imbalances and social injustice.",
+    "Cognitive Behavioral Therapy in social work practice focuses on changing the client’s external social environment first, as this is what directly drives negative thought patterns.",
+    "Psychosocial Development Theory proposes that individuals pass through eight stages across the lifespan, each presenting a psychosocial crisis whose resolution shapes personality and wellbeing."
+   ],
+   "a": 2,
+   "e": "CBT changes the client's thoughts and beliefs first; it does not start by changing the external environment.",
+   "section": "Social Work",
+   "topic": "Social Work Models"
+  },
+  {
+   "q": "Assertion [A] : Social stratification persists in modern societies despite formal commitments to equality.\nReason [R] : Institutional mechanisms reproduce inequality through differential access to resources and power.",
+   "o": [
+    "Both [A] and [R] are true, but [R] does not correctly explain [A]",
+    "[A] is true, but [R] is false in contemporary societies.",
+    "Both [A] and [R] are true, and [R] correctly explains [A]",
+    "[A] is false, but [R] is true in certain contexts."
+   ],
+   "a": 2,
+   "e": "Inequality persists because institutions reproduce unequal access to resources and power.",
+   "section": "Sociology",
+   "topic": "Stratification"
+  },
+  {
+   "q": "In a rapidly urbanizing locality, traditional authority collapses, crime rates increase, and normative regulation weakens. This condition most closely reflects:",
+   "o": [
+    "The process of modernization through rational institutional development.",
+    "The emergence of organic solidarity through occupational interdependence.",
+    "The consolidation of mechanical solidarity through shared beliefs.",
+    "The state of anomie resulting from weakened collective moral regulation."
+   ],
+   "a": 3,
+   "e": "Durkheim's anomie is a breakdown of normative regulation during rapid change.",
+   "section": "Sociology",
+   "topic": "Sociological Theory"
+  },
+  {
+   "q": "The welfare orientation of the Indian State is primarily institutionalized through:",
+   "o": [
+    "The Directive Principles guiding state policy toward social justice and equity.",
+    "The Fundamental Duties ensuring moral responsibility among citizens.",
+    "The Emergency Provisions enabling centralized administrative authority.",
+    "The Amendment Procedure allowing constitutional flexibility."
+   ],
+   "a": 0,
+   "e": "The Directive Principles (Part IV) embody India's welfare-state goals.",
+   "section": "Welfare Administration",
+   "topic": "Welfare State"
+  },
+  {
+   "q": "Arrange the following theories in chronological order of publication:\n1. Historical materialism by Karl Marx\n2. Cultural lag by William F. Ogburn\n3. Social evolutionism by Herbert Spencer\n4. Cyclical theory by Pitirim Sorokin",
+   "o": [
+    "3, 1, 2, 4 represents the correct historical sequence.",
+    "1, 3, 4, 2 represents the correct historical sequence.",
+    "3, 2, 1, 4 represents the correct historical sequence.",
+    "1, 3, 2, 4 represents the correct historical sequence."
+   ],
+   "a": 0,
+   "e": "Spencer's evolutionism (1850s-60s), Marx's historical materialism (1859-67), Ogburn's cultural lag (1922) and Sorokin's cyclical theory (1937) is the order accepted by the key.",
+   "section": "Sociology",
+   "topic": "Social Change"
+  },
+  {
+   "q": "A social institution differs from a social group because it:",
+   "o": [
+    "Refers to individuals interacting through direct face-to-face relations.",
+    "Consists of organized norms and roles to fulfill societal needs.",
+    "Represents temporary gatherings formed for immediate objectives.",
+    "Implies biological association based on kinship and heredity."
+   ],
+   "a": 1,
+   "e": "An institution is an organised set of norms and roles meeting social needs, not a group of people.",
+   "section": "Sociology",
+   "topic": "Social Institutions"
+  },
+  {
+   "q": "An organization adjusting its policies in response to market competition demonstrates the systems approach to management.",
+   "o": [
+    "Viewing organization as closed mechanical unit",
+    "Treating organization as open adaptive system",
+    "Ignoring environmental economic influences",
+    "Operating independently of external factors"
+   ],
+   "a": 1,
+   "e": "Adapting to market forces treats the organisation as an open, adaptive system.",
+   "section": "Welfare Administration",
+   "topic": "Management"
+  },
+  {
+   "q": "Assertion [A] : A budget acts as a financial control tool in organizations.\nReason [R] : A budget compares actual performance with planned estimates.",
+   "o": [
+    "Both [A] and [R] are true. and [R] explains [A]",
+    "Both [A] and [R] are true, but [R] does not explain [A]",
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true"
+   ],
+   "a": 0,
+   "e": "A budget controls finances by comparing actual performance with plans.",
+   "section": "Welfare Administration",
+   "topic": "Financial Management"
+  },
+  {
+   "q": "Auditing ensures that financial records present a true and fair view of organizational performance. (True/False)",
+   "o": [
+    "True statement regarding audit objectives",
+    "False statement regarding audit objectives",
+    "Partially correct accounting assumption",
+    "Irrelevant statement about management"
+   ],
+   "a": 0,
+   "e": "Audit aims to confirm that accounts show a true and fair view.",
+   "section": "Welfare Administration",
+   "topic": "Financial Management"
+  },
+  {
+   "q": "Arrange the stages of the strategic management process in the correct sequence:\n1. Strategy implementation\n2. Environmental scanning\n3. Strategy evaluation\n4. Strategy formulation",
+   "o": [
+    "4-2-1-3",
+    "2-1-4-3",
+    "2-4-1-3",
+    "4-1-2-3"
+   ],
+   "a": 2,
+   "e": "Environmental scanning, then strategy formulation, implementation and evaluation.",
+   "section": "Welfare Administration",
+   "topic": "Strategic Management"
+  },
+  {
+   "q": "Consider the following statements regarding the formation of a society under the Societies Registration Act, 1860:\n1. A society can be formed by subscribing names to a Memorandum of Association.\n2. The Memorandum of Association must be filed with the Registrar for registration\n3. A minimum of seven persons are required to form such a society.\nWhich of the above statements is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3",
+    "1 and 3 only"
+   ],
+   "a": 2,
+   "e": "Under the 1860 Act, seven or more persons subscribe to a memorandum and file it with the Registrar.",
+   "section": "Welfare Administration",
+   "topic": "NGO Management"
+  },
+  {
+   "q": "A trustee of a charitable trust diverts a portion of the trust property for purposes not authorized by the trust deed and contrary to the legal obligations imposed on him. In the context of the provisions governing trustees, such an act would most appropriately be classified as:",
+   "o": [
+    "Ultra vires action of the trust",
+    "Breach of trust by the trustee",
+    "Administrative irregularity in trust management",
+    "Procedural lapse in trust registration"
+   ],
+   "a": 1,
+   "e": "Misapplying trust property against the deed and the law is a breach of trust.",
+   "section": "Welfare Administration",
+   "topic": "Trusts"
+  },
+  {
+   "q": "Which of the following statements about POSDCORB is NOT correct?",
+   "o": [
+    "It attempts to classify the major functions performed by executives in administration.",
+    "It assumes that administrative principles can be applied across different types of organizations.",
+    "It focuses primarily on behavioural dynamics and informal group relations in organizations.",
+    "It has been widely used as a framework to understand managerial responsibilities."
+   ],
+   "a": 2,
+   "e": "POSDCORB lists formal executive functions; it does not focus on behavioural or informal dynamics.",
+   "section": "Welfare Administration",
+   "topic": "Administration"
+  },
+  {
+   "q": "Which of the following provisions would most appropriately be included in the bye-laws of a voluntary organization rather than in its Memorandum of Association?",
+   "o": [
+    "Statement of the objectives of the organization",
+    "Name and registered office of the organization",
+    "Procedure for conducting annual general meetings",
+    "Declaration of the organization’s area of operation"
+   ],
+   "a": 2,
+   "e": "Procedures like conducting AGMs belong in the bye-laws, while objects, name and area go in the memorandum.",
+   "section": "Welfare Administration",
+   "topic": "NGO Management"
+  },
+  {
+   "q": "Which of the following statements best reflects the legal position of a society in litigation under the Societies Registration Act, 1860?",
+   "o": [
+    "A society must always be sued in the name of all its members.",
+    "A society cannot be a party to legal proceedings.",
+    "A society may sue or be sued through designated office bearers.",
+    "Legal proceedings against a society require prior government approval."
+   ],
+   "a": 2,
+   "e": "A registered society sues and is sued through its designated office-bearers (s.6).",
+   "section": "Welfare Administration",
+   "topic": "NGO Management"
+  },
+  {
+   "q": "A senior administrator notices that two departments are implementing similar programmes independently, leading to duplication of work and inefficient use of resources. He intervenes to integrate their activities. Which POSDCORB function is primarily involved in this action?",
+   "o": [
+    "Coordinating",
+    "Planning",
+    "Organizing",
+    "Directing"
+   ],
+   "a": 0,
+   "e": "Integrating overlapping activities of departments is coordinating.",
+   "section": "Welfare Administration",
+   "topic": "Administration"
+  },
+  {
+   "q": "Refer to the following statements marked as Assertion [A] and Reason [R]. Choose the correct code :\nAssertion [A]: Distributional analysis promotes equitable allocation of welfare resources.\nReason [R]: It examines how benefits and costs are shared among different population groups.",
+   "o": [
+    "Both [A] and [R] are true and [R] explains [A]",
+    "Both [A] and [R] are true but [R] does not explain [A]",
+    "[A] is true but [R] is false",
+    "[A] is false but [R] is true"
+   ],
+   "a": 0,
+   "e": "Distributional analysis looks at who gains and bears costs, promoting equitable allocation.",
+   "section": "Welfare Administration",
+   "topic": "Policy Analysis"
+  },
+  {
+   "q": "While reviewing a social protection scheme, administrators observe that outputs are delivered as planned, but intended long-term social change is not achieved. According to Log Frame Analysis, which dimension requires critical reassessment?",
+   "o": [
+    "Immediate inputs",
+    "Output indicators",
+    "Assumptions and outcome-level indicators",
+    "Budget sanction procedures"
+   ],
+   "a": 2,
+   "e": "If outputs are delivered but outcomes are not, the logframe's assumptions and outcome indicators need review.",
+   "section": "Welfare Administration",
+   "topic": "Programme Evaluation"
+  },
+  {
+   "q": "A State Government finds that a welfare programme shows high aggregate benefit, but the lowest income quintile receives minimal direct advantage. From a managerial and policy standpoint, which analytical tool should be applied to correct this imbalance?",
+   "o": [
+    "Cost minimization technique",
+    "Distributional Analysis",
+    "Financial audit compliance review",
+    "Media impact evaluation"
+   ],
+   "a": 1,
+   "e": "Distributional analysis reveals how benefits are spread across income groups.",
+   "section": "Welfare Administration",
+   "topic": "Policy Analysis"
+  },
+  {
+   "q": "A district-level welfare programme reports strong quantitative outputs but weak beneficiary satisfaction and limited behavioural change. From an administrative evaluation standpoint, which principle of Social Welfare Administration must be strengthened?",
+   "o": [
+    "Centralized authority control",
+    "Participatory planning and monitoring",
+    "Reduction of staff strength",
+    "Increased bureaucratic hierarchy"
+   ],
+   "a": 1,
+   "e": "Weak satisfaction despite outputs calls for participatory planning and monitoring.",
+   "section": "Welfare Administration",
+   "topic": "Welfare Administration"
+  },
+  {
+   "q": "Which of the following policy shifts represents a transition from residual welfare to institutional welfare in social security design?",
+   "o": [
+    "Introducing strict income ceilings for all benefits",
+    "Expanding benefits to cover all citizens as a matter of right",
+    "Privatizing pension management",
+    "Linking benefits solely to market performance"
+   ],
+   "a": 1,
+   "e": "Universal, rights-based coverage marks institutional welfare, as against means-tested residual welfare.",
+   "section": "Welfare Administration",
+   "topic": "Social Security"
+  },
+  {
+   "q": "Which of the following statements regarding the Central Social Welfare Board (CSWB) is/are correct?\n1. It was established by an Act of Parliament in 1953.\n2. It functions as an autonomous body under the Government of India.\n3. It derives its authority from a Government Resolution.\n4. It is a constitutional body under Part III of the Indian Constitution.",
+   "o": [
+    "1 and 4 only",
+    "1, 2 and 3 only",
+    "2 and 3 only",
+    "2, 3 and 4 only"
+   ],
+   "a": 2,
+   "e": "CSWB was set up in 1953 by a Government resolution as an autonomous body; it is neither statutory nor constitutional.",
+   "section": "Welfare Administration",
+   "topic": "Welfare Institutions"
+  },
+  {
+   "q": "Which of the following specific phrasing is NOT included in the “Declaration concerning the aims and purposes of the International Labour Organisation” (Declaration of Philadelphia, 1944) as an obligation to be promoted among the nations of the world?",
+   "o": [
+    "The extension of social security measures to provide a basic income to all in need of such protection and comprehensive medical care.",
+    "The provision of adequate nutrition, housing, and facilities for recreation and culture.",
+    "The assurance of equality of educational and vocational opportunity for all workers regardless of race, creed, or sex.",
+    "The absolute prohibition of child labor in all sectors of the economy as a prerequisite for universal and lasting peace."
+   ],
+   "a": 3,
+   "e": "The Philadelphia Declaration lists social security, nutrition, housing and equal opportunity; it does not contain an absolute child-labour ban clause.",
+   "section": "Labour Laws",
+   "topic": "ILO"
+  },
+  {
+   "q": "According to CESCR General Comment No. 3, while the Covenant provides for “progressive realization” and acknowledges resource constraints, certain obligations are of “immediate effect.” Which of the following is NOT an obligation of immediate effect under the ICESCR?",
+   "o": [
+    "The undertaking to guarantee that the relevant rights will be exercised without discrimination of any kind.",
+    "The obligation “to take steps” which must be deliberate, concrete, and targeted as clearly as possible toward meeting the obligations recognized in the Covenant.",
+    "The obligation to ensure the satisfaction of, at very least, minimum essential levels of each of the rights (the “minimum core” obligations).",
+    "The obligation to provide free secondary and higher education and to establish a social security system covering all nine branches of social security as defined by ILO Convention 102."
+   ],
+   "a": 3,
+   "e": "Free secondary/higher education and full ILO-102 social security are progressive goals, not immediate obligations.",
+   "section": "Labour Laws",
+   "topic": "Human Rights"
+  },
+  {
+   "q": "Article 43A (inserted by the 42nd Amendment) mandates the State to secure the participation of workers in the management of undertakings. Under the Industrial Relations Code, 2020, “Negotiating Councils” have been established. If a Trade Union demands a seat on the Board of Directors based on Article 43A, how would the Court likely resolve the conflict between this Directive Principle and the Employer’s Right under Article 19(1)(g)?",
+   "o": [
+    "The Court will issue a Writ of Mandamus to seat the worker, as Article 43A is “fundamental in the governance of the country” under Article 37.",
+    "The demand will be rejected because Article 43A is not self-executing and requires specific enabling legislation (which the IR Code does not currently provide for Board-level seats).",
+    "The Court will apply the “Doctrine of Harmonious Construction” to grant the seat only if the industry is a “State” under Article 12 and is showing a net loss.",
+    "Article 19(1)(g) will always override Article 43A because Fundamental Rights are “transcendental” and cannot be abridged by any Directive Principle."
+   ],
+   "a": 1,
+   "e": "DPSPs like Art. 43A are non-justiciable and need enabling legislation, so a court will not mandate board seats.",
+   "section": "Labour Laws",
+   "topic": "Constitutional Law"
+  },
+  {
+   "q": "Under the Industrial Relations (IR) Code, 2020, the Industrial Tribunal now consists of two members: one Judicial and one Administrative. In the event of a disagreement between the two members during the adjudication of a dispute, what is the specific, highly technical procedural mandate for resolving the deadlock to ensure a final order?",
+   "o": [
+    "The matter is referred to the Chairperson of the National Industrial Tribunal, whose decision shall be final and binding on both members.",
+    "The members must refer the point of difference to the “Appropriate Government,” which will then appoint a third judicial member to cast the deciding vote.",
+    "The point of difference is referred to the Central Government (if it is the appropriate government), which then refers it to a separate Tribunal for a fresh hearing on that specific point.",
+    "If the members are divided, they shall state the point(s) of difference and refer the same to the Appropriate Government, which shall then refer the case to another member of a Tribunal or a Judicial Officer of equivalent rank for a final decision."
+   ],
+   "a": 3,
+   "e": "When the two members differ, the point is referred to the appropriate government, which refers the case to another member or equivalent judicial officer.",
+   "section": "Labour Laws",
+   "topic": "IR Code 2020"
+  },
+  {
+   "q": "Under Section 54 of the Industrial Relations Code, 2020, the Central Government possesses the discretionary power to refer disputes of “national importance” to a National Industrial Tribunal. In a scenario where a dispute involving a multi-state establishment is already pending before a State-level Industrial Tribunal, what is the legal consequence of a subsequent reference made by the Central Government under Section 54(1)?",
+   "o": [
+    "The State-level Industrial Tribunal shall continue its proceedings concurrently with the National Industrial Tribunal to ensure “speedy justice” under Article 21.",
+    "The reference to the National Industrial Tribunal is legally void unless the Central Government obtains a “No Objection Certificate” (NOC) from the respective State Governments.",
+    "On the making of such a reference to a National Industrial Tribunal, any proceeding in relation to that dispute pending before a State Tribunal shall be deemed to have been stayed and shall subsequently lapse.",
+    "The National Industrial Tribunal must adopt the interim orders and evidence already recorded by the State Tribunal to avoid the “Doctrine of Double Jeopardy.”"
+   ],
+   "a": 2,
+   "e": "A reference to a National Tribunal stays proceedings on the same dispute pending before a state tribunal, and they lapse.",
+   "section": "Labour Laws",
+   "topic": "IR Code 2020"
+  },
+  {
+   "q": "If a union issues a strike notice but the strike is subsequently prohibited because the Government refers the dispute to a National Tribunal, what happens to the legal validity of that specific notice once the 60-day expiry period passes during the pendency of the adjudication?",
+   "o": [
+    "The notice is automatically extended by a period equal to the duration of the Tribunal proceedings.",
+    "The notice remains “frozen” in time and can be revived within 7 days of the final award being published.",
+    "The notice lapses completely, and the union must issue a fresh 14-day notice if they wish to strike after the 60-day bar following the award.",
+    "The notice is converted into a “Permanent Grievance” that allows for an immediate strike if the award is not implemented."
+   ],
+   "a": 2,
+   "e": "Per the key, the original notice lapses and a fresh notice is needed to strike after the post-award bar.",
+   "section": "Labour Laws",
+   "topic": "IR Code 2020"
+  },
+  {
+   "q": "Under Section 65(1), the provisions regarding Lay-off and Retrenchment are explicitly declared non-applicable to industrial establishments to which “Chapter X” applies. What is the fundamental legal reason for this specific exclusion?",
+   "o": [
+    "Establishments under Chapter X are exempt from all forms of worker compensation due to their “Strategic Importance.”",
+    "Chapter X provides a separate, more stringent set of “Prior Permission” requirements for lay-offs and retrenchments in larger establishments.",
+    "Chapter X establishments are governed by the Civil Courts rather than Industrial Tribunals for all termination disputes.",
+    "The IR Code treats Chapter X establishments as “State” entities under Article 12, exempting them from statutory retrenchment procedures."
+   ],
+   "a": 1,
+   "e": "Larger establishments under Chapter X need prior government permission for lay-off and retrenchment, so the general provisions do not apply.",
+   "section": "Labour Laws",
+   "topic": "IR Code 2020"
+  },
+  {
+   "q": "Under the Explanation to Section 67 of IR code, a “Badli worker” is initially excluded from lay-off compensation. However, at what precise legal moment does a Badli worker automatically acquire the right to claim lay-off compensation under this section?",
+   "o": [
+    "Upon the completion of 180 days of physical work in a calendar year.",
+    "Immediately upon the permanent retirement or death of the worker, they were originally substituting.",
+    "Upon the completion of one year of continuous service in the establishment.",
+    "Only after their name is formally transferred from the “Badli Register” to the “Muster Roll” by the employer."
+   ],
+   "a": 2,
+   "e": "A badli worker becomes entitled once he completes one year of continuous service.",
+   "section": "Labour Laws",
+   "topic": "IR Code 2020"
+  },
+  {
+   "q": "An employer lays off a worker for 60 days. There is a prior written agreement that no compensation is payable after the first 45 days. If the employer decides to retrench the worker on the 61st day, how is the “Set-off” principle under the second proviso of Section 67 applied to the final retrenchment package?",
+   "o": [
+    "The employer can deduct the 45 days of lay-off compensation from the total retrenchment compensation payable under Section 70.",
+    "No set-off is allowed if the lay-off was intermittent rather than continuous.",
+    "The employer must pay full retrenchment compensation plus an additional “penalty” for the 15 uncompensated days.",
+    "The set-off only applies to the “Basic Wage” component, not the “Dearness Allowance.”"
+   ],
+   "a": 0,
+   "e": "Lay-off compensation paid in the preceding 12 months may be set off against retrenchment compensation.",
+   "section": "Labour Laws",
+   "topic": "IR Code 2020"
+  },
+  {
+   "q": "A worker is employed by a firm specifically set up for the construction of a dam. The project is completed and the undertaking is closed down exactly 18 months after it was set up. What is the worker’s statutory entitlement to compensation under clause (b) of Section 70 of IR Code",
+   "o": [
+    "Full retrenchment compensation for the 1.5 years of service.",
+    "Compensation capped at 3 months’ average pay.",
+    "No compensation under clause (b) of Section 70 is payable.",
+    "Only 15 days of wages, provided they were not given 3 months’ notice."
+   ],
+   "a": 2,
+   "e": "Under clause (b), closure of a project undertaking within two years of its set-up attracts no compensation.",
+   "section": "Labour Laws",
+   "topic": "IR Code 2020"
+  },
+  {
+   "q": "A registered Trade Union has exactly 50.8% support on the muster roll. Under Section 14(3), what is its legal status in an establishment with multiple unions?",
+   "o": [
+    "Sole Negotiating Union",
+    "Leading Union in a Council",
+    "Deemed Sole Union",
+    "Majority Negotiating Agent"
+   ],
+   "a": 1,
+   "e": "Per the key, a union with over 50% support leads the negotiating council.",
+   "section": "Labour Laws",
+   "topic": "IR Code 2020"
+  },
+  {
+   "q": "If a Negotiating Council reaches an agreement with an employer, but the largest union in that council (holding 48% support) dissents, is the agreement legally binding?",
+   "o": [
+    "No, the largest union holds a veto",
+    "Yes, if a majority of representatives agree",
+    "No, it requires 75% representative consent",
+    "Yes, if the Employer and Registrar agree"
+   ],
+   "a": 1,
+   "e": "Council agreements are binding when a majority of its representatives agree.",
+   "section": "Labour Laws",
+   "topic": "IR Code 2020"
+  },
+  {
+   "q": "A “group of employers” submits a joint draft of standing orders. If only one employer in the group is dissatisfied with the Certifying Officer’s order, can they file an individual appeal?",
+   "o": [
+    "No, the group must appeal collectively",
+    "Yes, “employer” includes all individual employers in the group",
+    "Only if the Negotiating Union consents",
+    "Only if they represent 51% of the group’s workers"
+   ],
+   "a": 1,
+   "e": "Any individual employer in the group counts as an \"employer\" and may appeal.",
+   "section": "Labour Laws",
+   "topic": "Standing Orders"
+  },
+  {
+   "q": "Who among the following gave wage fund theory for the first time?",
+   "o": [
+    "Adam Smith",
+    "Roosevelt",
+    "Robert Owen",
+    "Sidney and Beatrice Webb"
+   ],
+   "a": 0,
+   "e": "Per the official key, the wage-fund idea is traced to Adam Smith among the classical economists.",
+   "section": "Labour Laws",
+   "topic": "Wage Theories"
+  },
+  {
+   "q": "The price at which the Government purchases food grains for maintaining public distribution is known as :",
+   "o": [
+    "Ceiling prices",
+    "Procurement prices",
+    "Issue price",
+    "Minimum price"
+   ],
+   "a": 1,
+   "e": "The Government buys grain for PDS at procurement prices.",
+   "section": "Labour Laws",
+   "topic": "Food Security"
+  },
+  {
+   "q": "Under the Minimum Wages Act 1948 the appropriate government shall fix the minimum rate of wages payable to the employees employed in an employment specified in",
+   "o": [
+    "Schedule I, Part I, II and the employments and added under Section 27",
+    "Schedule I Part I",
+    "Schedule I Part II",
+    "Schedule I and II"
+   ],
+   "a": 0,
+   "e": "Rates are fixed for employments in Schedule Part I and II, plus those added under Section 27.",
+   "section": "Labour Laws",
+   "topic": "Minimum Wages"
+  },
+  {
+   "q": "The minimum wages as fixed under the Minimum Wages Act 1948 must be revised at least once in",
+   "o": [
+    "2 years",
+    "3 years",
+    "5 years",
+    "No mention under the Act"
+   ],
+   "a": 2,
+   "e": "Minimum wage rates must be revised at least once every five years.",
+   "section": "Labour Laws",
+   "topic": "Minimum Wages"
+  },
+  {
+   "q": "What is the primary objective of the Minimum Wages Act?",
+   "o": [
+    "To regulate the wages of workers in all sectors",
+    "To ensure fair remuneration for labour and prevent exploitation",
+    "To establish a fixed minimum wages for all employees",
+    "To encourage employers to pay higher wages voluntarily"
+   ],
+   "a": 1,
+   "e": "The Act aims to ensure fair pay and prevent sweating and exploitation of labour.",
+   "section": "Labour Laws",
+   "topic": "Minimum Wages"
+  },
+  {
+   "q": "Which of the following categories of workers are exempted from the provision of the Minimum Wages Act?",
+   "o": [
+    "All workers are covered under the Act",
+    "Apprentices engaged under the Apprentices Act, 1961",
+    "Employees in managerial or supervisory roles",
+    "Workers in the informal sector"
+   ],
+   "a": 1,
+   "e": "The key treats apprentices under the Apprentices Act 1961 as excluded from \"employee\".",
+   "section": "Labour Laws",
+   "topic": "Minimum Wages"
+  },
+  {
+   "q": "What action can be taken against employers who fail to pay minimum wages as per the provisions of the Minimum Wages Act?",
+   "o": [
+    "Revocation of the employers business licence",
+    "Fine or imprisonment",
+    "Warning Letter for the Labour Commissioner",
+    "Compensation to the affected party"
+   ],
+   "a": 1,
+   "e": "Failure to pay minimum wages is punishable with fine or imprisonment (s.22).",
+   "section": "Labour Laws",
+   "topic": "Minimum Wages"
+  },
+  {
+   "q": "Inspector for the purpose of administration of the Minimum Wages Act 1948 is appointed by",
+   "o": [
+    "Appropriate Government",
+    "Local Administer",
+    "Central Government",
+    "State Government"
+   ],
+   "a": 0,
+   "e": "Inspectors are appointed by the appropriate government (s.19).",
+   "section": "Labour Laws",
+   "topic": "Minimum Wages"
+  },
+  {
+   "q": "Under the Minimum Wages Act minimum wages are fixed based on",
+   "o": [
+    "Cost of living index",
+    "Skill level of workers",
+    "Industry profitability",
+    "Inflation rate"
+   ],
+   "a": 0,
+   "e": "A cost-of-living (VDA) component linked to the price index forms the basis.",
+   "section": "Labour Laws",
+   "topic": "Minimum Wages"
+  },
+  {
+   "q": "Under the Employees’ Compensation Act, 1923, an employer is liable to pay compensation for personal injury caused to a workman by accident arising out of and in the course of employment. Which of the following is NOT a valid defence available to the employer?",
+   "o": [
+    "Injury does not result in total or partial disablement for more than three days.",
+    "Injury was directly attributable to the workman having been under the influence of drink or drugs.",
+    "Injury was caused by the wilful disobedience of safety rules",
+    "Injury occurred outside India during the course of employment."
+   ],
+   "a": 3,
+   "e": "Injury outside India in the course of employment is still compensable; the other three are valid defences.",
+   "section": "Labour Laws",
+   "topic": "Employees Compensation"
+  },
+  {
+   "q": "The maximum period for which maternity benefits are available to a woman having less than two surviving children under the Maternity Benefit Act, 1961 is :",
+   "o": [
+    "12 weeks",
+    "20 weeks",
+    "26 weeks",
+    "30 weeks"
+   ],
+   "a": 2,
+   "e": "Since 2017, women with fewer than two surviving children get 26 weeks.",
+   "section": "Labour Laws",
+   "topic": "Maternity Benefit"
+  },
+  {
+   "q": "Which of the following statements are correct as per the Employees State Insurance (ESI) Act, 1948?\nI. The ESI Act applies to factories employing 10 or more persons\nII. Medical benefit under ESI is available only during the period of contribution.\nIII. The appropriate Government may extend the provisions of the Act to other establishments.",
+   "o": [
+    "I and III only",
+    "I only",
+    "II and III only",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "ESI covers factories with 10+ persons and can be extended by notification; medical benefit is not limited to contribution periods.",
+   "section": "Labour Laws",
+   "topic": "ESI Act"
+  },
+  {
+   "q": "Under the Factories Act, 1948, the term ‘manufacturing process’ includes :",
+   "o": [
+    "storing finished goods",
+    "pumping oil or water",
+    "clerical work",
+    "marketing activities"
+   ],
+   "a": 1,
+   "e": "Pumping oil, water or sewage is a manufacturing process under s.2(k).",
+   "section": "Labour Laws",
+   "topic": "Factories Act"
+  },
+  {
+   "q": "The Employers’ Liability Act, 1938 provides that any contract whereby a workman relinquishes his right to compensation for personal injury arising from employer’s negligence is :",
+   "o": [
+    "valid if entered voluntarily",
+    "valid with the approval of Labour court.",
+    "void and unenforceable.",
+    "enforceable if consideration is adequate"
+   ],
+   "a": 2,
+   "e": "Any contract waiving a worker's right to compensation is void.",
+   "section": "Labour Laws",
+   "topic": "Employers Liability"
+  },
+  {
+   "q": "Under the Code on Social Security, 2020 which of the following statements is correct?\nI. The Code subsumes the Employees Compensation Act, 1923\nII. Gig workers and platform workers are recognized under the Code.\nIII. The Code abolishes maternity benefit provisions.",
+   "o": [
+    "I and II only",
+    "II only",
+    "I only",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "The Code subsumes the EC Act and recognises gig/platform workers; maternity benefits continue.",
+   "section": "Labour Laws",
+   "topic": "Social Security Code"
+  },
+  {
+   "q": "Compensation in case of death resulting from injury is calculated under the Employees Compensation Act, 1923 as :",
+   "o": [
+    "60% of monthly wages × relevant factor",
+    "50% of monthly wages × relevant factor",
+    "100% of monthly wages × relevant factor",
+    "fixed amount irrespective of wages"
+   ],
+   "a": 1,
+   "e": "Death compensation = 50% of monthly wages × relevant factor (subject to the minimum).",
+   "section": "Labour Laws",
+   "topic": "Employees Compensation"
+  },
+  {
+   "q": "Which of the following statements is correct under the Factories Act, 1948.\nI. A factory must provide a creche if it employs more than 30 women workers.\nII. No adult worker shall work more than 48 hours in a week.\nIII. Weekly holiday is mandatory.",
+   "o": [
+    "II and III only",
+    "I and II only",
+    "I and III only",
+    "All of the above"
+   ],
+   "a": 3,
+   "e": "Crèches are required for over 30 women, adult weekly hours are capped at 48, and a weekly holiday is mandatory.",
+   "section": "Labour Laws",
+   "topic": "Factories Act"
+  },
+  {
+   "q": "Which of the following statements is correct according to the Code on Social Security, 2020.\nI. Aggregators are required to contribute towards social security of gig workers.\nII. Employees’ Provident Fund provisions are retained under the Code.\nIII. Employees’ State Insurance provisions are completely repealed without incorporation.",
+   "o": [
+    "I only",
+    "II and III only",
+    "I and II only",
+    "All of the above"
+   ],
+   "a": 2,
+   "e": "Aggregators contribute for gig workers and EPF provisions are retained; ESI is subsumed, not repealed.",
+   "section": "Labour Laws",
+   "topic": "Social Security Code"
+  },
+  {
+   "q": "Under the Employees’ State Insurance Act, 1948 an insured person who suffers permanent disablement is entitled to",
+   "o": [
+    "Sickness benefit",
+    "Permanent disablement benefit",
+    "Maternity benefit",
+    "Funeral Expenses only"
+   ],
+   "a": 1,
+   "e": "Permanent disablement entitles the insured to permanent disablement benefit.",
+   "section": "Labour Laws",
+   "topic": "ESI Act"
+  },
+  {
+   "q": "Which of the following statements are true under the Maternity Benefit Act, 1961.\nI. Dismissal during maternity leave is prohibited.\nII. Medical bonus is payable where no pre-natal confinement care is provided by the employer.\nIII. The Act applies only to factories.",
+   "o": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "Dismissal during maternity absence is barred and a medical bonus is payable without free pre-natal care; the Act also covers shops and establishments.",
+   "section": "Labour Laws",
+   "topic": "Maternity Benefit"
+  }
+ ]
+}

@@ -1,0 +1,1263 @@
+{
+ "exam": "Assam Police SI Combined Written Test (CWT-2025) Paper-I",
+ "paper": "Paper-I (General Knowledge, Reasoning, Maths, English) - Booklet Code A",
+ "year": 2025,
+ "board": "State Level Police Recruitment Board (SLPRB), Assam",
+ "state": "Assam",
+ "lang": "en",
+ "source_paper": "https://slprbassam.in/pdf/Notice2025/28022025/question_paper_Set-A.pdf",
+ "source_key": "https://slprbassam.in/pdf/Notice2025/28022025/final_anskey-Set_A.pdf",
+ "duration_min": 120,
+ "marks_per_q": 1,
+ "negative": 0.5,
+ "questions": [
+  {
+   "q": "What is the name of the only novel written by Roxoraj Lakshminath Bezbaruah?",
+   "o": [
+    "Jonbiri",
+    "Kadamkali",
+    "Padum Kunwari",
+    "Surabhi"
+   ],
+   "a": 2,
+   "e": "Padum Kunwari (1891) is the only novel written by Lakshminath Bezbaruah; his other famous works are mostly short stories and plays.",
+   "section": "State GK",
+   "topic": "Assamese Literature"
+  },
+  {
+   "q": "Remote sensing involves the use of",
+   "o": [
+    "NMR",
+    "ESR",
+    "EMR",
+    "SSR"
+   ],
+   "a": 2,
+   "e": "Remote sensing works by detecting electromagnetic radiation (EMR) reflected or emitted from objects on the Earth's surface.",
+   "section": "General Knowledge",
+   "topic": "Science & Technology"
+  },
+  {
+   "q": "Which film by Dr. Bhabendranath Saikia is based on a short story, namely Banaprastha ?",
+   "o": [
+    "Agnisnaan",
+    "Sandhya Raag",
+    "Sarathi",
+    "Kolahal"
+   ],
+   "a": 1,
+   "e": "Bhabendranath Saikia's debut film Sandhya Raag (1977) was adapted from his own short story 'Banaprastha'.",
+   "section": "State GK",
+   "topic": "Assamese Cinema"
+  },
+  {
+   "q": "Who first discovered the ‘noble gas’?",
+   "o": [
+    "Niels Bohr",
+    "Neil Bartlett",
+    "Neil Armstrong",
+    "William Ramsay"
+   ],
+   "a": 3,
+   "e": "Sir William Ramsay (with Lord Rayleigh) discovered argon and went on to identify the other noble gases, earning the 1904 Nobel Prize.",
+   "section": "General Knowledge",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Who was the first Chief Election Commissioner of Independent India?",
+   "o": [
+    "Dr. Nagendra Singh",
+    "S. P. Sen Verma",
+    "K. V. K. Sundaram",
+    "Sukumar Sen"
+   ],
+   "a": 3,
+   "e": "Sukumar Sen served as India's first Chief Election Commissioner (1950-58) and conducted the first two general elections.",
+   "section": "General Knowledge",
+   "topic": "Polity"
+  },
+  {
+   "q": "Who became the first woman President of the Indian Olympic Association?",
+   "o": [
+    "Karnam Malleswari",
+    "Anju Bobby George",
+    "M. D. Valsamma",
+    "P. T. Usha"
+   ],
+   "a": 3,
+   "e": "P. T. Usha was elected unopposed in December 2022 as the first woman President of the Indian Olympic Association.",
+   "section": "General Knowledge",
+   "topic": "Sports"
+  },
+  {
+   "q": "Which of the following is used as a lubricant?",
+   "o": [
+    "Graphite",
+    "Silica",
+    "Iron oxide",
+    "Diamond"
+   ],
+   "a": 0,
+   "e": "Graphite has layers held by weak forces that slide over each other, so it is used as a dry lubricant.",
+   "section": "General Knowledge",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "In which year did the Government of India launch the Unified Payments Interface or UPI?",
+   "o": [
+    "2015",
+    "2016",
+    "2017",
+    "2018"
+   ],
+   "a": 1,
+   "e": "UPI was launched by NPCI in April 2016 under the RBI's guidance.",
+   "section": "General Knowledge",
+   "topic": "Economy"
+  },
+  {
+   "q": "By what name was Swargadeo Sulikphaa (Swargadeo Ratnadhwaj Singha) known as?",
+   "o": [
+    "Bamuni Konwar",
+    "Lora Roja",
+    "Lai",
+    "Lechai"
+   ],
+   "a": 1,
+   "e": "Sulikphaa (Ratnadhwaj Singha) became Ahom king as a boy, so he is remembered as 'Lora Roja' (boy king).",
+   "section": "State GK",
+   "topic": "Ahom History"
+  },
+  {
+   "q": "Who is the first Olympic medalist of Assam?",
+   "o": [
+    "Bhogeshwar Baruah",
+    "Hima Das",
+    "Monalisa Baruah Mehta",
+    "Lovlina Borgohain"
+   ],
+   "a": 3,
+   "e": "Boxer Lovlina Borgohain won bronze at the Tokyo 2020 Olympics, becoming Assam's first Olympic medallist.",
+   "section": "State GK",
+   "topic": "Assam Sports"
+  },
+  {
+   "q": "Lightyear is the unit of",
+   "o": [
+    "distance",
+    "time",
+    "speed of light",
+    "intensity of light"
+   ],
+   "a": 0,
+   "e": "A light-year is the distance light travels in one year (about 9.46 × 10^12 km), so it is a unit of distance.",
+   "section": "General Knowledge",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which is the largest tributary of the Brahmaputra River?",
+   "o": [
+    "Barnadi",
+    "Dikhow",
+    "Dhansiri",
+    "Subansiri"
+   ],
+   "a": 3,
+   "e": "The Subansiri, entering Assam from Arunachal Pradesh, is the largest tributary of the Brahmaputra.",
+   "section": "State GK",
+   "topic": "Assam Geography"
+  },
+  {
+   "q": "The unique title ‘Roxoraj’ was given to Lakshminath Bezbaruah by which institution?",
+   "o": [
+    "Asam Sahitya Sabha, at Sibsagar",
+    "Kashi Hindu Vishwavidyalaya, at Varanasi",
+    "Asom Chatra Sanmilan, at Guwahati",
+    "Asomiya Club, at Tezpur"
+   ],
+   "a": 0,
+   "e": "Asam Sahitya Sabha conferred the title 'Roxoraj' on Lakshminath Bezbaruah at its Sibsagar session in 1931.",
+   "section": "State GK",
+   "topic": "Assamese Literature"
+  },
+  {
+   "q": "The Chipko Movement was launched for the protection of",
+   "o": [
+    "grasslands",
+    "wetlands",
+    "forest",
+    "livestocks"
+   ],
+   "a": 2,
+   "e": "The Chipko Movement (1973, Uttarakhand) saw villagers hug trees to stop forests being felled.",
+   "section": "General Knowledge",
+   "topic": "Environment"
+  },
+  {
+   "q": "Who is the founding father of Mobile Theatre in Assam?",
+   "o": [
+    "Sadananda Lahkar",
+    "Ratan Lahkar",
+    "Achyut Lahkar",
+    "Sitanath Lahkar"
+   ],
+   "a": 2,
+   "e": "Achyut Lahkar founded Nataraj Theatre in 1963 and is regarded as the father of Assam's mobile theatre (Bhramyaman).",
+   "section": "State GK",
+   "topic": "Assam Culture"
+  },
+  {
+   "q": "The green planet in the solar system is",
+   "o": [
+    "Mars",
+    "Uranus",
+    "Venus",
+    "Earth"
+   ],
+   "a": 1,
+   "e": "Methane in Uranus's atmosphere absorbs red light, giving it a blue-green colour, so it is called the green planet.",
+   "section": "General Knowledge",
+   "topic": "Geography"
+  },
+  {
+   "q": "What was the name of the Mascot of 33rd National Games held in Guwahati?",
+   "o": [
+    "Tikhor",
+    "Rongmon",
+    "Rongili",
+    "Bordoisila"
+   ],
+   "a": 1,
+   "e": "The mascot of the 33rd National Games (Guwahati, 2007) was 'Rongmon', a cheerful rhinoceros.",
+   "section": "State GK",
+   "topic": "Assam Sports"
+  },
+  {
+   "q": "Which of the following is the plant important in sericulture?",
+   "o": [
+    "Cassia",
+    "Jute",
+    "Pea",
+    "Mulberry"
+   ],
+   "a": 3,
+   "e": "Silkworms (Bombyx mori) feed on mulberry leaves, making mulberry the key plant in sericulture.",
+   "section": "General Knowledge",
+   "topic": "Agriculture"
+  },
+  {
+   "q": "‘Lachit Diwas’ is being celebrated on which date?",
+   "o": [
+    "24th November",
+    "29th August",
+    "2nd December",
+    "24th October"
+   ],
+   "a": 0,
+   "e": "Lachit Diwas is observed on 24 November, the birth anniversary of Ahom general Lachit Borphukan.",
+   "section": "State GK",
+   "topic": "Assam Culture"
+  },
+  {
+   "q": "Who has the power to dissolve the Lok Sabha?",
+   "o": [
+    "The Prime Minister",
+    "The President",
+    "The Speaker of the Lok Sabha",
+    "The Chief Justice of India"
+   ],
+   "a": 1,
+   "e": "Under Article 85(2)(b), the President can dissolve the Lok Sabha (normally on the advice of the Prime Minister).",
+   "section": "General Knowledge",
+   "topic": "Polity"
+  },
+  {
+   "q": "The best cadet of the National Defence Academy (Pune) is awarded with a medal named after which brave son of Assam?",
+   "o": [
+    "Sukladhwaj",
+    "Sukaphaa",
+    "Kushal Konwar",
+    "Lachit Borphukan"
+   ],
+   "a": 3,
+   "e": "The Lachit Borphukan Gold Medal is given to the best passing-out cadet of the NDA since 1999.",
+   "section": "State GK",
+   "topic": "Ahom History"
+  },
+  {
+   "q": "Name the two foreign countries which have international border with Assam.",
+   "o": [
+    "Bangladesh and Bhutan",
+    "Nepal and Bhutan",
+    "Myanmar and Bangladesh",
+    "Nepal and Bangladesh"
+   ],
+   "a": 0,
+   "e": "Assam shares international borders with Bhutan (north) and Bangladesh (south-west).",
+   "section": "State GK",
+   "topic": "Assam Geography"
+  },
+  {
+   "q": "Which politician is known as the ‘Iron Man’ of Assam?",
+   "o": [
+    "Gopinath Bordoloi",
+    "Tarun Ram Phukan",
+    "Bimala Prasad Chaliha",
+    "Bishnuram Medhi"
+   ],
+   "a": 3,
+   "e": "Bishnuram Medhi, Assam's second Chief Minister, is popularly called the 'Iron Man of Assam'.",
+   "section": "State GK",
+   "topic": "Assam Polity"
+  },
+  {
+   "q": "Which among the following is the smallest unit in an image in a computer system?",
+   "o": [
+    "Unit",
+    "Pixel",
+    "Array",
+    "Resolution"
+   ],
+   "a": 1,
+   "e": "A pixel (picture element) is the smallest addressable unit of a digital image.",
+   "section": "General Knowledge",
+   "topic": "Computer"
+  },
+  {
+   "q": "What is ‘laughing gas’?",
+   "o": [
+    "Nitrous oxide",
+    "Nitric oxide",
+    "Sulphur dioxide",
+    "Hydrogen peroxide"
+   ],
+   "a": 0,
+   "e": "Nitrous oxide (N2O) causes mild euphoria when inhaled, hence the name laughing gas.",
+   "section": "General Knowledge",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "If Discus Throw is called Shot Put, Shot Put is called Javelin Throw, Javelin Throw is called Hammer Throw and Hammer Throw is called Discus Throw, then which athletic event is played with a pointed equipment?",
+   "o": [
+    "Javelin Throw",
+    "Hammer Throw",
+    "Discus Throw",
+    "Shot Put"
+   ],
+   "a": 1,
+   "e": "The pointed equipment is the javelin; since Javelin Throw is called Hammer Throw, the answer is Hammer Throw.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "A cloth shop has a total of 150 frocks and shirts, which are either red or blue. In stock, there are 70 red items and 120 frocks. If there are 18 blue shirts, then how many red frocks does the shop have?",
+   "o": [
+    "48",
+    "12",
+    "58",
+    "62"
+   ],
+   "a": 2,
+   "e": "Shirts = 150 - 120 = 30, so red shirts = 30 - 18 = 12; red frocks = 70 - 12 = 58.",
+   "section": "Maths",
+   "topic": "Sets"
+  },
+  {
+   "q": "How many two-digit natural numbers are there between 1 and 100?",
+   "o": [
+    "90",
+    "99",
+    "91",
+    "89"
+   ],
+   "a": 0,
+   "e": "Two-digit numbers run from 10 to 99, giving 99 - 10 + 1 = 90 numbers.",
+   "section": "Maths",
+   "topic": "Number System"
+  },
+  {
+   "q": "A chord of a circle is drawn whose length is equal to its radius. If the endpoints of the chord are joined to the centre of the circle with appropriate line segments, the triangle formed is a/an",
+   "o": [
+    "obtuse-angled triangle",
+    "scalene triangle",
+    "right-angled triangle",
+    "equilateral triangle"
+   ],
+   "a": 3,
+   "e": "Both radii and the chord are equal in length, so all three sides are equal: an equilateral triangle.",
+   "section": "Maths",
+   "topic": "Geometry"
+  },
+  {
+   "q": "In a meeting, five persons assembled and every person shook hand with every other exactly once. The total number of handshakes made in the meeting is",
+   "o": [
+    "10",
+    "25",
+    "15",
+    "5"
+   ],
+   "a": 0,
+   "e": "Handshakes among 5 people = 5C2 = 5 × 4 / 2 = 10.",
+   "section": "Maths",
+   "topic": "Combinations"
+  },
+  {
+   "q": "Let a year consist of 364 days. If the first day of the given year falls on Sunday, then the first day of the immediate next year is",
+   "o": [
+    "Monday",
+    "Wednesday",
+    "Friday",
+    "Sunday"
+   ],
+   "a": 3,
+   "e": "364 days = exactly 52 weeks with no odd day, so the next year also starts on Sunday.",
+   "section": "Reasoning",
+   "topic": "Calendar"
+  },
+  {
+   "q": "Which one of the following is not a perfect square number?",
+   "o": [
+    "3721",
+    "1296",
+    "1026",
+    "1369"
+   ],
+   "a": 2,
+   "e": "3721 = 61², 1296 = 36², 1369 = 37²; 1026 ends in 6 but lies between 32² = 1024 and 33² = 1089, so it is not a square.",
+   "section": "Maths",
+   "topic": "Number System"
+  },
+  {
+   "q": "A discount of 20% is offered on the selling price of an item. By what percentage the price needs to be increased on the present selling price in order to bring it to the original selling price?",
+   "o": [
+    "20%",
+    "25%",
+    "15%",
+    "30%"
+   ],
+   "a": 1,
+   "e": "If price falls by 20% to 80, raising it back to 100 needs 20/80 × 100 = 25% increase.",
+   "section": "Maths",
+   "topic": "Percentage"
+  },
+  {
+   "q": "5 hens lay eggs everyday for 5 days to the total 250 number of eggs. Then the number of eggs laid by the 10 hens in 10 days is",
+   "o": [
+    "1000",
+    "100",
+    "2500",
+    "500"
+   ],
+   "a": 0,
+   "e": "Each hen lays 250/(5×5) = 10 eggs a day; 10 hens × 10 days × 10 = 1000 eggs.",
+   "section": "Maths",
+   "topic": "Unitary Method"
+  },
+  {
+   "q": "Kanika’s only brother Abhay is the husband of Ujjwal’s mother Kajol. How is Kanika’s mother Rajni related to Ujjwal?",
+   "o": [
+    "Paternal aunt",
+    "Maternal aunt",
+    "Maternal grandmother",
+    "Paternal grandmother"
+   ],
+   "a": 3,
+   "e": "Abhay is Ujjwal's father and Kanika's brother, so their mother Rajni is Ujjwal's father's mother: paternal grandmother.",
+   "section": "Reasoning",
+   "topic": "Blood Relations"
+  },
+  {
+   "q": "In a certain code, ‘247’ means ‘spread red carpet’; ‘256’ means ‘dust one carpet’ and ‘264’ means ‘one red carpet’. Which digit in the code means ‘dust’?",
+   "o": [
+    "5",
+    "2",
+    "6",
+    "4"
+   ],
+   "a": 0,
+   "e": "'carpet' is common to all and is 2; 'one' is common to the 2nd and 3rd (6); so in 256, 'dust' = 5.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "ABCD is a 4-digit number where the sum of A and B is equal to that of the sum of C and D. The sum of A and D is equal to C, and the sum of B and D is twice the sum of A and C. What is the sum of the first and the last digit?",
+   "o": [
+    "7",
+    "5",
+    "9",
+    "8"
+   ],
+   "a": 1,
+   "e": "From the conditions B = 2D and D = 4A, so A = 1, B = 8, C = 5, D = 4 (number 1854); first + last digit = 1 + 4 = 5.",
+   "section": "Maths",
+   "topic": "Number System"
+  },
+  {
+   "q": "Few cyclists are pedalling in a circular track, without overtaking. Tapan is behind Pawan, and Vinita is in front of Pawan. Vinita can see two cyclists between herself and Shalini who is following Tapan. How many cyclists are there on the track?",
+   "o": [
+    "5",
+    "6",
+    "7",
+    "8"
+   ],
+   "a": 1,
+   "e": "Behind Vinita come Pawan, Tapan and Shalini; looking ahead around the circle she sees two more riders before Shalini, so 4 + 2 = 6 cyclists.",
+   "section": "Reasoning",
+   "topic": "Arrangement"
+  },
+  {
+   "q": "The direction pointer at a road crossing got hit by a truck, and what was earlier East is now pointing towards South. A car came and started moving towards West as per the pointer. Which direction is the car actually moving?",
+   "o": [
+    "South",
+    "West",
+    "North",
+    "East"
+   ],
+   "a": 2,
+   "e": "The pointer turned 90° clockwise (E shows S), so its 'West' actually points North.",
+   "section": "Reasoning",
+   "topic": "Direction"
+  },
+  {
+   "q": "A man is 24 years older than his son. After 2 years, his age will be twice the age of his son. The present age of his son is",
+   "o": [
+    "14 years",
+    "18 years",
+    "20 years",
+    "22 years"
+   ],
+   "a": 3,
+   "e": "Let son = x: x + 24 + 2 = 2(x + 2) gives x = 22 years.",
+   "section": "Maths",
+   "topic": "Ages"
+  },
+  {
+   "q": "How many times do the hands of a clock coincide in a day?",
+   "o": [
+    "24",
+    "22",
+    "21",
+    "20"
+   ],
+   "a": 1,
+   "e": "The hands coincide 11 times in 12 hours, hence 22 times in a day.",
+   "section": "Reasoning",
+   "topic": "Clock"
+  },
+  {
+   "q": "(8 ÷ 88) × 8888088 = ?",
+   "o": [
+    "808008",
+    "808080",
+    "808088",
+    "8008008"
+   ],
+   "a": 0,
+   "e": "(8 ÷ 88) × 8888088 = 8888088 / 11 = 808008.",
+   "section": "Maths",
+   "topic": "Simplification"
+  },
+  {
+   "q": "A bag contains 50 paise, 25 paise and 10 paise coins and the ratio of the numbers of coins is 4 : 5 : 9. If the total value of all the coins is ₹830, then find the number of 25 paise coins in the bag.",
+   "o": [
+    "800",
+    "1000",
+    "1800",
+    "900"
+   ],
+   "a": 1,
+   "e": "Value ratio = 4×0.50 : 5×0.25 : 9×0.10 = 2 : 1.25 : 0.9; 830 / 4.15 = 200, so 25-paise coins = 5 × 200 = 1000.",
+   "section": "Maths",
+   "topic": "Ratio"
+  },
+  {
+   "q": "The radius of a sphere is increased by 10%. By what percentage will the volume of the sphere increase?",
+   "o": [
+    "30%",
+    "21%",
+    "33.33%",
+    "33.1%"
+   ],
+   "a": 3,
+   "e": "Volume ∝ r³: 1.1³ = 1.331, an increase of 33.1%.",
+   "section": "Maths",
+   "topic": "Mensuration"
+  },
+  {
+   "q": "If we represent the relationship as: A + B indicates A is the mother of B; A − B indicates A is the father of B; A × B indicates A is the sister of B; then which of the following indicates that Jane is the daughter of Mr. Bennet?",
+   "o": [
+    "Mrs. Bennet + Elizabeth + Jane",
+    "Mr. Bennet – Elizabeth × Jane",
+    "Mrs. Bennet × Jane × Elizabeth",
+    "Mr. Bennet – Elizabeth + Jane"
+   ],
+   "a": 1,
+   "e": "Mr. Bennet − Elizabeth means he is her father, and Elizabeth × Jane means Elizabeth is Jane's sister, so Jane is his daughter.",
+   "section": "Reasoning",
+   "topic": "Blood Relations"
+  },
+  {
+   "q": "A rectangular plot measuring 90 metres × 50 metres is to be enclosed by wire fencing. If the poles of the fence are kept 5 metres apart, then how many poles will be needed?",
+   "o": [
+    "55",
+    "56",
+    "57",
+    "58"
+   ],
+   "a": 1,
+   "e": "Perimeter = 2(90 + 50) = 280 m; poles on a closed boundary = 280/5 = 56.",
+   "section": "Maths",
+   "topic": "Mensuration"
+  },
+  {
+   "q": "Among five friends, Mahesh is taller than Kunal but not as tall as Yash. Hrithik is taller than Yash but shorter than Abhishek. If they stand in increasing order of their heights, then who will be the first in the line?",
+   "o": [
+    "Abhishek",
+    "Yash",
+    "Kunal",
+    "Hrithik"
+   ],
+   "a": 2,
+   "e": "Order of height: Kunal < Mahesh < Yash < Hrithik < Abhishek, so Kunal is first in increasing order.",
+   "section": "Reasoning",
+   "topic": "Ranking"
+  },
+  {
+   "q": "The average of 7 consecutive numbers is 20. The largest of these numbers is",
+   "o": [
+    "20",
+    "22",
+    "23",
+    "24"
+   ],
+   "a": 2,
+   "e": "Seven consecutive numbers with average 20 are 17 to 23; the largest is 23.",
+   "section": "Maths",
+   "topic": "Average"
+  },
+  {
+   "q": "Ramakanta walks Northwards. After a while, he turns to his right and a little further to his left. Finally, after walking a distance of one kilometre, he turns to his left again. In which direction is he moving now?",
+   "o": [
+    "North",
+    "South",
+    "East",
+    "West"
+   ],
+   "a": 3,
+   "e": "North → right (East) → left (North) → left (West): he is now moving West.",
+   "section": "Reasoning",
+   "topic": "Direction"
+  },
+  {
+   "q": "The fourth proportional to 5, 8, 15 is",
+   "o": [
+    "18",
+    "24",
+    "19",
+    "20"
+   ],
+   "a": 1,
+   "e": "Fourth proportional = (8 × 15)/5 = 24.",
+   "section": "Maths",
+   "topic": "Ratio & Proportion"
+  },
+  {
+   "q": "Arun and Barun can do a piece of work in 72 days. Barun and Gitu can do it in 120 days. Arun and Gitu can do it in 90 days. In what time can Arun alone do it?",
+   "o": [
+    "120 days",
+    "100 days",
+    "80 days",
+    "150 days"
+   ],
+   "a": 0,
+   "e": "2(A+B+G) = 1/72 + 1/120 + 1/90 = 1/30, so A+B+G = 1/60; A = 1/60 − 1/120 = 1/120, i.e. 120 days.",
+   "section": "Maths",
+   "topic": "Time & Work"
+  },
+  {
+   "q": "(476 + 424)² − 4 × 476 × 424 = ?",
+   "o": [
+    "2906",
+    "2706",
+    "2704",
+    "2904"
+   ],
+   "a": 2,
+   "e": "(a+b)² − 4ab = (a−b)² = (476 − 424)² = 52² = 2704.",
+   "section": "Maths",
+   "topic": "Algebraic Identity"
+  },
+  {
+   "q": "What is the appropriate number to replace the question mark (?) in the following expression? C : 16 :: E : 36 :: G : ?",
+   "o": [
+    "64",
+    "40",
+    "25",
+    "50"
+   ],
+   "a": 0,
+   "e": "C is the 3rd letter, (3+1)² = 16; E is 5th, (5+1)² = 36; G is 7th, (7+1)² = 64.",
+   "section": "Reasoning",
+   "topic": "Analogy"
+  },
+  {
+   "q": "E is the son of A. D is the son of B. E is married to C. C is B ’s daughter. How does D relate to E ?",
+   "o": [
+    "Brother",
+    "Uncle",
+    "Father-in-law",
+    "Brother-in-law"
+   ],
+   "a": 3,
+   "e": "C is B's daughter and D is B's son, so D is C's brother; C is E's wife, so D is E's brother-in-law.",
+   "section": "Reasoning",
+   "topic": "Blood Relations"
+  },
+  {
+   "q": "An equilateral triangle, a square and a circle have equal perimeter. If T denotes the area of the triangle, S the area of the square and C the area of the circle, then",
+   "o": [
+    "S < T < C",
+    "T < C < S",
+    "T < S < C",
+    "C < S < T"
+   ],
+   "a": 2,
+   "e": "For a fixed perimeter, area increases with more symmetry: triangle < square < circle.",
+   "section": "Maths",
+   "topic": "Mensuration"
+  },
+  {
+   "q": "What should come in the place of question mark (?) ? CBD, GFH, KJL, ? , SRT",
+   "o": [
+    "QOP",
+    "WVX",
+    "POQ",
+    "ONP"
+   ],
+   "a": 3,
+   "e": "First letters C, G, K, O, S increase by 4; each group is (n, n−1, n+1), giving ONP.",
+   "section": "Reasoning",
+   "topic": "Letter Series"
+  },
+  {
+   "q": "A boy moves from his house to school at the speed of 20 km/hr and returns back at the speed of 30 km/hr. Find his average speed during his journey.",
+   "o": [
+    "25 km/hr",
+    "26 km/hr",
+    "24 km/hr",
+    "Data insufficient"
+   ],
+   "a": 2,
+   "e": "Average speed for equal distances = 2 × 20 × 30 / (20 + 30) = 24 km/h.",
+   "section": "Maths",
+   "topic": "Speed"
+  },
+  {
+   "q": "On 8th February, 2005, it was Tuesday. What was the day of the week on 8th February, 2004?",
+   "o": [
+    "Sunday",
+    "Monday",
+    "Tuesday",
+    "Wednesday"
+   ],
+   "a": 0,
+   "e": "2004 was a leap year and 29 Feb 2004 lies between the dates, so going back 366 days shifts the day back by 2: Sunday.",
+   "section": "Reasoning",
+   "topic": "Calendar"
+  },
+  {
+   "q": "The largest number of four digits exactly divisible by 12, 15, 18 and 27 is",
+   "o": [
+    "9720",
+    "9725",
+    "9730",
+    "9735"
+   ],
+   "a": 0,
+   "e": "LCM(12,15,18,27) = 540; the largest 4-digit multiple is 540 × 18 = 9720.",
+   "section": "Maths",
+   "topic": "LCM"
+  },
+  {
+   "q": "The average of runs of a cricket player of his last 10 innings was 32. How many runs must he make in his next innings so as to increase his average of runs by 4?",
+   "o": [
+    "2",
+    "4",
+    "70",
+    "76"
+   ],
+   "a": 3,
+   "e": "New total = 11 × 36 = 396; runs needed = 396 − 320 = 76.",
+   "section": "Maths",
+   "topic": "Average"
+  },
+  {
+   "q": "Passage: Lionel Messi could not believe it. Frankly, few could. Against the US four days ago, his divine left foot had made the ball overcome a wall of defenders and curl and dip past a diving goalkeeper to magically settle in the top left corner of the goal. It was not as much a free kick from 25 yards, but a laser-guided missile. On Sunday night, in the penalty shootout of the Copa America final against Chile, he hit it over from less than half that distance with nothing but the thick New Jersey air to beat. The resultant 4–2 loss meant Argentina’s title drought, dating back to 1993, would continue. It also ensured that Messi, one of the most decorated club footballers of all time, would not get that one trophy with the national team he so covets. It will remain that way as Messi, later, announced his retirement from international football. His teammates have said it was a heat-of-the-moment decision and he would reconsider. Messi’s unhappiness with the Argentine Federation, which is teetering on the brink of collapse, may also have influenced his decision. Therefore, a return to sky blue-and-white, with the World Cup just two years away, cannot be implausible. Nevertheless, if Sunday was his final appearance for Albiceleste, what legacy does he leave behind? It is easy to brand him as an underachiever, given his 28–0 club vs. country record at the senior level. But the picture is more complex. For one, modern-day football has very limited scope for independent, individual flair. Two, what that number does not show is both as a player and a captain, Messi has been instrumental in Argentina making it to three major finals in the last two years, including the 2014 World Cup. What remains unquestionable is Messi’s unimpeachable genius. His unparalleled vision, deft touch, and nimble footwork have often proved to be the lifeline of his teams, be it at Barcelona or Argentina. Yes, he may have missed that crucial penalty, but it is important to remember that football is a team sport. It is equally about collective endeavour as it is about individual brilliance. Clearly, the margin between an underachiever and a GOAT is very, very slim. It, therefore, depends on how you want to remember Messi : Through his last miss or his last hit, that free kick.\n\nQuestion: What does the author mean to say when he comments, “Lionel Messi could not believe it”?",
+   "o": [
+    "Lionel Messi could not believe that he could not score a goal of a free kick during the penalty shootout",
+    "Lionel Messi could not believe that he had overcome a wall of defenders to score a goal from 25 yards",
+    "Lionel Messi could not believe that the football that he kicked from 25 yards hit the goals like a missile",
+    "Lionel Messi could not believe the ball that he kicked curved and settled in the top left corner of the goal"
+   ],
+   "a": 0,
+   "e": "The opening line refers to his disbelief at missing a short penalty in the shootout after scoring a superb long free kick days earlier.",
+   "section": "English",
+   "topic": "Reading Comprehension"
+  },
+  {
+   "q": "Passage: Lionel Messi could not believe it. Frankly, few could. Against the US four days ago, his divine left foot had made the ball overcome a wall of defenders and curl and dip past a diving goalkeeper to magically settle in the top left corner of the goal. It was not as much a free kick from 25 yards, but a laser-guided missile. On Sunday night, in the penalty shootout of the Copa America final against Chile, he hit it over from less than half that distance with nothing but the thick New Jersey air to beat. The resultant 4–2 loss meant Argentina’s title drought, dating back to 1993, would continue. It also ensured that Messi, one of the most decorated club footballers of all time, would not get that one trophy with the national team he so covets. It will remain that way as Messi, later, announced his retirement from international football. His teammates have said it was a heat-of-the-moment decision and he would reconsider. Messi’s unhappiness with the Argentine Federation, which is teetering on the brink of collapse, may also have influenced his decision. Therefore, a return to sky blue-and-white, with the World Cup just two years away, cannot be implausible. Nevertheless, if Sunday was his final appearance for Albiceleste, what legacy does he leave behind? It is easy to brand him as an underachiever, given his 28–0 club vs. country record at the senior level. But the picture is more complex. For one, modern-day football has very limited scope for independent, individual flair. Two, what that number does not show is both as a player and a captain, Messi has been instrumental in Argentina making it to three major finals in the last two years, including the 2014 World Cup. What remains unquestionable is Messi’s unimpeachable genius. His unparalleled vision, deft touch, and nimble footwork have often proved to be the lifeline of his teams, be it at Barcelona or Argentina. Yes, he may have missed that crucial penalty, but it is important to remember that football is a team sport. It is equally about collective endeavour as it is about individual brilliance. Clearly, the margin between an underachiever and a GOAT is very, very slim. It, therefore, depends on how you want to remember Messi : Through his last miss or his last hit, that free kick.\n\nQuestion: When Messi missed the penalty shot, what result did that ensure?",
+   "o": [
+    "It brought criticism for Messi from all around the world",
+    "It deprived his national football team of the Copa America Cup",
+    "It made Lionel Messi so dejected that he had to announce retirement from football",
+    "It cost Argentina its chance of winning the FIFA World Cup"
+   ],
+   "a": 1,
+   "e": "The passage says the miss meant Argentina lost the Copa America final, extending its title drought.",
+   "section": "English",
+   "topic": "Reading Comprehension"
+  },
+  {
+   "q": "Passage: Lionel Messi could not believe it. Frankly, few could. Against the US four days ago, his divine left foot had made the ball overcome a wall of defenders and curl and dip past a diving goalkeeper to magically settle in the top left corner of the goal. It was not as much a free kick from 25 yards, but a laser-guided missile. On Sunday night, in the penalty shootout of the Copa America final against Chile, he hit it over from less than half that distance with nothing but the thick New Jersey air to beat. The resultant 4–2 loss meant Argentina’s title drought, dating back to 1993, would continue. It also ensured that Messi, one of the most decorated club footballers of all time, would not get that one trophy with the national team he so covets. It will remain that way as Messi, later, announced his retirement from international football. His teammates have said it was a heat-of-the-moment decision and he would reconsider. Messi’s unhappiness with the Argentine Federation, which is teetering on the brink of collapse, may also have influenced his decision. Therefore, a return to sky blue-and-white, with the World Cup just two years away, cannot be implausible. Nevertheless, if Sunday was his final appearance for Albiceleste, what legacy does he leave behind? It is easy to brand him as an underachiever, given his 28–0 club vs. country record at the senior level. But the picture is more complex. For one, modern-day football has very limited scope for independent, individual flair. Two, what that number does not show is both as a player and a captain, Messi has been instrumental in Argentina making it to three major finals in the last two years, including the 2014 World Cup. What remains unquestionable is Messi’s unimpeachable genius. His unparalleled vision, deft touch, and nimble footwork have often proved to be the lifeline of his teams, be it at Barcelona or Argentina. Yes, he may have missed that crucial penalty, but it is important to remember that football is a team sport. It is equally about collective endeavour as it is about individual brilliance. Clearly, the margin between an underachiever and a GOAT is very, very slim. It, therefore, depends on how you want to remember Messi : Through his last miss or his last hit, that free kick.\n\nQuestion: What tone does the author employ when discussing Lionel Messi’s career and achievements in the passage?",
+   "o": [
+    "Appreciative and celebratory",
+    "Critical and judgemental",
+    "Analytical and objective",
+    "Emotional and empathetic"
+   ],
+   "a": 2,
+   "e": "The author weighs both criticism and praise using facts, so the tone is analytical and objective.",
+   "section": "English",
+   "topic": "Reading Comprehension"
+  },
+  {
+   "q": "Passage: Lionel Messi could not believe it. Frankly, few could. Against the US four days ago, his divine left foot had made the ball overcome a wall of defenders and curl and dip past a diving goalkeeper to magically settle in the top left corner of the goal. It was not as much a free kick from 25 yards, but a laser-guided missile. On Sunday night, in the penalty shootout of the Copa America final against Chile, he hit it over from less than half that distance with nothing but the thick New Jersey air to beat. The resultant 4–2 loss meant Argentina’s title drought, dating back to 1993, would continue. It also ensured that Messi, one of the most decorated club footballers of all time, would not get that one trophy with the national team he so covets. It will remain that way as Messi, later, announced his retirement from international football. His teammates have said it was a heat-of-the-moment decision and he would reconsider. Messi’s unhappiness with the Argentine Federation, which is teetering on the brink of collapse, may also have influenced his decision. Therefore, a return to sky blue-and-white, with the World Cup just two years away, cannot be implausible. Nevertheless, if Sunday was his final appearance for Albiceleste, what legacy does he leave behind? It is easy to brand him as an underachiever, given his 28–0 club vs. country record at the senior level. But the picture is more complex. For one, modern-day football has very limited scope for independent, individual flair. Two, what that number does not show is both as a player and a captain, Messi has been instrumental in Argentina making it to three major finals in the last two years, including the 2014 World Cup. What remains unquestionable is Messi’s unimpeachable genius. His unparalleled vision, deft touch, and nimble footwork have often proved to be the lifeline of his teams, be it at Barcelona or Argentina. Yes, he may have missed that crucial penalty, but it is important to remember that football is a team sport. It is equally about collective endeavour as it is about individual brilliance. Clearly, the margin between an underachiever and a GOAT is very, very slim. It, therefore, depends on how you want to remember Messi : Through his last miss or his last hit, that free kick.\n\nQuestion: According to the passage, Lionel Messi’s decision to retire from the international football was perhaps influenced by",
+   "o": [
+    "his unhappiness with the Argentine Federation",
+    "the defeat in the Copa America final",
+    "the heat of the moment",
+    "the desire to focus on his club career"
+   ],
+   "a": 0,
+   "e": "The passage states his unhappiness with the Argentine Federation may have influenced the decision.",
+   "section": "English",
+   "topic": "Reading Comprehension"
+  },
+  {
+   "q": "Passage: Lionel Messi could not believe it. Frankly, few could. Against the US four days ago, his divine left foot had made the ball overcome a wall of defenders and curl and dip past a diving goalkeeper to magically settle in the top left corner of the goal. It was not as much a free kick from 25 yards, but a laser-guided missile. On Sunday night, in the penalty shootout of the Copa America final against Chile, he hit it over from less than half that distance with nothing but the thick New Jersey air to beat. The resultant 4–2 loss meant Argentina’s title drought, dating back to 1993, would continue. It also ensured that Messi, one of the most decorated club footballers of all time, would not get that one trophy with the national team he so covets. It will remain that way as Messi, later, announced his retirement from international football. His teammates have said it was a heat-of-the-moment decision and he would reconsider. Messi’s unhappiness with the Argentine Federation, which is teetering on the brink of collapse, may also have influenced his decision. Therefore, a return to sky blue-and-white, with the World Cup just two years away, cannot be implausible. Nevertheless, if Sunday was his final appearance for Albiceleste, what legacy does he leave behind? It is easy to brand him as an underachiever, given his 28–0 club vs. country record at the senior level. But the picture is more complex. For one, modern-day football has very limited scope for independent, individual flair. Two, what that number does not show is both as a player and a captain, Messi has been instrumental in Argentina making it to three major finals in the last two years, including the 2014 World Cup. What remains unquestionable is Messi’s unimpeachable genius. His unparalleled vision, deft touch, and nimble footwork have often proved to be the lifeline of his teams, be it at Barcelona or Argentina. Yes, he may have missed that crucial penalty, but it is important to remember that football is a team sport. It is equally about collective endeavour as it is about individual brilliance. Clearly, the margin between an underachiever and a GOAT is very, very slim. It, therefore, depends on how you want to remember Messi : Through his last miss or his last hit, that free kick.\n\nQuestion: Which of the following can be inferred from the passage?",
+   "o": [
+    "Lionel Messi’s retirement from international football was solely influenced by his missed penalty in the Copa America final",
+    "Lionel Messi’s legacy as a football player is defined by his individual achievements rather than his contributions to the teams he played for",
+    "Lionel Messi’s individual brilliance as a football player is acknowledged, but it is important to remember that football is a team sport",
+    "Lionel Messi’s retirement from international football marks the end of his football career altogether"
+   ],
+   "a": 2,
+   "e": "The author praises his genius but reminds readers that football is a team sport.",
+   "section": "English",
+   "topic": "Reading Comprehension"
+  },
+  {
+   "q": "Passage: Lionel Messi could not believe it. Frankly, few could. Against the US four days ago, his divine left foot had made the ball overcome a wall of defenders and curl and dip past a diving goalkeeper to magically settle in the top left corner of the goal. It was not as much a free kick from 25 yards, but a laser-guided missile. On Sunday night, in the penalty shootout of the Copa America final against Chile, he hit it over from less than half that distance with nothing but the thick New Jersey air to beat. The resultant 4–2 loss meant Argentina’s title drought, dating back to 1993, would continue. It also ensured that Messi, one of the most decorated club footballers of all time, would not get that one trophy with the national team he so covets. It will remain that way as Messi, later, announced his retirement from international football. His teammates have said it was a heat-of-the-moment decision and he would reconsider. Messi’s unhappiness with the Argentine Federation, which is teetering on the brink of collapse, may also have influenced his decision. Therefore, a return to sky blue-and-white, with the World Cup just two years away, cannot be implausible. Nevertheless, if Sunday was his final appearance for Albiceleste, what legacy does he leave behind? It is easy to brand him as an underachiever, given his 28–0 club vs. country record at the senior level. But the picture is more complex. For one, modern-day football has very limited scope for independent, individual flair. Two, what that number does not show is both as a player and a captain, Messi has been instrumental in Argentina making it to three major finals in the last two years, including the 2014 World Cup. What remains unquestionable is Messi’s unimpeachable genius. His unparalleled vision, deft touch, and nimble footwork have often proved to be the lifeline of his teams, be it at Barcelona or Argentina. Yes, he may have missed that crucial penalty, but it is important to remember that football is a team sport. It is equally about collective endeavour as it is about individual brilliance. Clearly, the margin between an underachiever and a GOAT is very, very slim. It, therefore, depends on how you want to remember Messi : Through his last miss or his last hit, that free kick.\n\nQuestion: Which of the following statements is supported by the passage?",
+   "o": [
+    "Messi has never won a major international trophy with Argentina.",
+    "Messi’s individual brilliance outweighs the importance of collective endeavour in football.",
+    "Messi’s missed penalty in the Copa America final was the sole reason for Argentina’s loss.",
+    "Messi’s retirement from the international football is irreversible."
+   ],
+   "a": 0,
+   "e": "The 28-0 club vs country record implies he had not won a major senior international trophy with Argentina at that point.",
+   "section": "English",
+   "topic": "Reading Comprehension"
+  },
+  {
+   "q": "Who shifted his capital from Chikangram to Cooch Behar?",
+   "o": [
+    "Haria Mandal",
+    "Sisu Singha",
+    "Biswa Singha",
+    "None of them"
+   ],
+   "a": 2,
+   "e": "Biswa Singha, founder of the Koch kingdom, moved his capital from Chikangram to Cooch Behar.",
+   "section": "State GK",
+   "topic": "Koch History"
+  },
+  {
+   "q": "Name the place where Buddhists believe Gautama Buddha attained Parinirvana after his death.",
+   "o": [
+    "Kaushambi",
+    "Kushinagar",
+    "Budaun",
+    "Chitrakoot"
+   ],
+   "a": 1,
+   "e": "Buddha attained Mahaparinirvana at Kushinagar (in present-day Uttar Pradesh).",
+   "section": "General Knowledge",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Who was the court poet of Samudragupta?",
+   "o": [
+    "Banabhatta",
+    "Harisena",
+    "Chand Bardai",
+    "Bhavabhuti"
+   ],
+   "a": 1,
+   "e": "Harisena, Samudragupta's court poet, composed the Prayaga Prashasti on the Allahabad pillar.",
+   "section": "General Knowledge",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Aideu Handique, the first female actor of Assamese screen, adopted which of the following as her middle name?",
+   "o": [
+    "Nilambar",
+    "Gadadhar",
+    "Pitambar",
+    "Maneshwar"
+   ],
+   "a": 0,
+   "e": "Aideu Handique, heroine of Joymoti (1935), took her father's name Nilambar as her middle name.",
+   "section": "State GK",
+   "topic": "Assam Culture"
+  },
+  {
+   "q": "In 1923, by whom was the Swaraj Party founded?",
+   "o": [
+    "Motilal Nehru and C. R. Das",
+    "Sachin Sanyal and Jogesh Chatterjee",
+    "Gandhiji and Jawaharlal Nehru",
+    "Abdul Ghaffar Khan and Vithalbhai Patel"
+   ],
+   "a": 0,
+   "e": "C. R. Das and Motilal Nehru founded the Swaraj Party in 1923 to contest council elections.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "What was the role of ‘Laimekuri’ in the kitchen of Ahom King?",
+   "o": [
+    "Supplier of firewood",
+    "Cook",
+    "Testing of food",
+    "Supplier of meat"
+   ],
+   "a": 2,
+   "e": "In the Ahom royal kitchen the Laimekuri tasted food first to guard the king against poisoning.",
+   "section": "State GK",
+   "topic": "Ahom History"
+  },
+  {
+   "q": "Rabindranath Tagore renounced his Knighthood in protest against the",
+   "o": [
+    "Partition of Bengal",
+    "Jallianwala Bagh Massacre",
+    "execution of Bhagat Singh",
+    "execution of Rajguru and Sukhdev"
+   ],
+   "a": 1,
+   "e": "Tagore returned his knighthood in 1919 in protest against the Jallianwala Bagh massacre.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "The Battle of Samdhara was the first battle between Ahoms and Mughals. Which was the last battle between the both sides?",
+   "o": [
+    "The Battle of Rangamati",
+    "The Battle of Saraighat",
+    "The Battle of Itakhuli",
+    "The Battle of Jogighopa"
+   ],
+   "a": 2,
+   "e": "The Battle of Itakhuli (1682) was the last Ahom-Mughal battle, after which the Mughals were driven beyond the Manas.",
+   "section": "State GK",
+   "topic": "Ahom History"
+  },
+  {
+   "q": "The Labour Swaraj Party was set up by whom in 1925?",
+   "o": [
+    "Abdul Ghaffar Khan",
+    "Kazi Nazrul Islam",
+    "Joseph Baptista",
+    "C. R. Das"
+   ],
+   "a": 1,
+   "e": "Kazi Nazrul Islam helped form the Labour Swaraj Party of the Indian National Congress in Bengal in 1925.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Koum Kontong and Kambang are the traditional dress for women of which tribe?",
+   "o": [
+    "Rabha",
+    "Tiwa",
+    "Sonowal Kachari",
+    "Mishing"
+   ],
+   "a": 0,
+   "e": "Koum Kontong and Kambang are traditional garments worn by Rabha women.",
+   "section": "State GK",
+   "topic": "Assam Tribes"
+  },
+  {
+   "q": "In which year was Nagaland bifurcated from Assam?",
+   "o": [
+    "1961",
+    "1962",
+    "1963",
+    "1964"
+   ],
+   "a": 2,
+   "e": "Nagaland was carved out of Assam and became a state on 1 December 1963.",
+   "section": "State GK",
+   "topic": "Assam History"
+  },
+  {
+   "q": "Who established the Varman dynasty?",
+   "o": [
+    "Bhaskaravarman",
+    "Pushyavarman",
+    "Samudravarman",
+    "None of them"
+   ],
+   "a": 1,
+   "e": "Pushyavarman founded the Varman dynasty of Kamarupa in the 4th century CE.",
+   "section": "State GK",
+   "topic": "Kamarupa History"
+  },
+  {
+   "q": "Who among the following was the first Governor-General of India?",
+   "o": [
+    "Lord Dalhousie",
+    "Lord Cornwallis",
+    "Lord William Bentinck",
+    "None of them"
+   ],
+   "a": 2,
+   "e": "Under the Charter Act of 1833, Lord William Bentinck became the first Governor-General of India.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Who was the first Muslim invader of Kamarupa?",
+   "o": [
+    "Muhammad Bakhtiyar Khalji",
+    "Muhammad Ghuri",
+    "Mir Jumla",
+    "None of them"
+   ],
+   "a": 0,
+   "e": "Muhammad Bakhtiyar Khalji led the first Muslim invasion of Kamarupa in about 1206 and was defeated.",
+   "section": "State GK",
+   "topic": "Medieval Assam"
+  },
+  {
+   "q": "The word ‘Swaraj’ was first used by Dadabhai Naoroji in the Congress Session held in _____ at _____.",
+   "o": [
+    "1904, Bombay",
+    "1906, Calcutta",
+    "1907, Surat",
+    "1916, Lucknow"
+   ],
+   "a": 1,
+   "e": "Dadabhai Naoroji, presiding over the 1906 Calcutta session, first declared Swaraj as the Congress goal.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Who was the father of King Harshavardhana?",
+   "o": [
+    "Prabhakaravardhana",
+    "Bhaskaravardhana",
+    "Jaivardhana",
+    "Mahavardhana"
+   ],
+   "a": 0,
+   "e": "Harshavardhana was the son of Prabhakaravardhana of the Pushyabhuti dynasty of Thanesar.",
+   "section": "General Knowledge",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "The Hindu Mahasabha was organized for the first time in 1915 at",
+   "o": [
+    "Haridwar",
+    "Allahabad",
+    "Varanasi",
+    "None of these"
+   ],
+   "a": 0,
+   "e": "The All-India Hindu Mahasabha held its first session at Haridwar in 1915.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Who rebuilt the temple of Goddess Kamakhya?",
+   "o": [
+    "Sukladhwaj",
+    "Biswa Singha",
+    "Naranarayan",
+    "Chakradhwaj"
+   ],
+   "a": 2,
+   "e": "Koch king Naranarayan rebuilt the Kamakhya temple in 1565 after its destruction.",
+   "section": "State GK",
+   "topic": "Koch History"
+  },
+  {
+   "q": "Who was the mother of Srimanta Sankardev?",
+   "o": [
+    "Khersuti Ai",
+    "Satyasandhya Devi",
+    "Devi Parvati",
+    "None of them"
+   ],
+   "a": 1,
+   "e": "Srimanta Sankardev was born to Kusumbar Bhuyan and Satyasandhya Devi.",
+   "section": "State GK",
+   "topic": "Assam Culture"
+  },
+  {
+   "q": "Who among the following ambassadors of Queen Elizabeth visited Akbar’s court to obtain a Firman for trade in Gujarat?",
+   "o": [
+    "Sir Thomas Roe",
+    "William Hawkins",
+    "John Mildenhall",
+    "None of them"
+   ],
+   "a": 2,
+   "e": "Englishman John Mildenhall reached Akbar's court around 1603 seeking trading rights.",
+   "section": "General Knowledge",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "When and where was the first meeting of the Assam Association held?",
+   "o": [
+    "In 1905, at Dibrugarh",
+    "In 1904, at Guwahati",
+    "In 1905, at Lakhimpur",
+    "In 1904, at Jorhat"
+   ],
+   "a": 0,
+   "e": "The Assam Association held its first meeting in 1905 at Dibrugarh.",
+   "section": "State GK",
+   "topic": "Assam History"
+  },
+  {
+   "q": "Who was the first Governor of independent Assam?",
+   "o": [
+    "Fakhruddin Ali Ahmed",
+    "Sir Saadulla",
+    "Sir Akbar Hydari",
+    "None of them"
+   ],
+   "a": 2,
+   "e": "Sir Akbar Hydari was the first Governor of Assam after independence (1947-48).",
+   "section": "State GK",
+   "topic": "Assam Polity"
+  },
+  {
+   "q": "Name the first man to oppose British administration in Assam.",
+   "o": [
+    "Piyoli Borphukan",
+    "Gomdhar Konwar",
+    "Maniram Dewan",
+    "Jeuram Dulia Baruah"
+   ],
+   "a": 1,
+   "e": "Gomdhar Konwar led the 1828 uprising, the first revolt against British rule in Assam.",
+   "section": "State GK",
+   "topic": "Assam History"
+  },
+  {
+   "q": "In which year did Alexander invade India?",
+   "o": [
+    "326 BC",
+    "316 BC",
+    "346 BC",
+    "356 BC"
+   ],
+   "a": 0,
+   "e": "Alexander crossed into India and fought Porus at the Hydaspes in 326 BC.",
+   "section": "General Knowledge",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "The famous ‘Trimurti Sadashiva’ is the part of which among the following caves in India?",
+   "o": [
+    "Ajanta",
+    "Ellora",
+    "Elephanta",
+    "Bagh"
+   ],
+   "a": 2,
+   "e": "The Trimurti (Sadashiva) sculpture is in Cave 1 of the Elephanta Caves near Mumbai.",
+   "section": "General Knowledge",
+   "topic": "Art & Culture"
+  },
+  {
+   "q": "Who was the first Editor of the Arunodoi ?",
+   "o": [
+    "Dr. Nathan Brown",
+    "Padmanath Gohain Baruah",
+    "Jagannath Baruah",
+    "Bishnuram Medhi"
+   ],
+   "a": 0,
+   "e": "Arunodoi (1846), the first Assamese periodical, was started by American Baptist missionary Dr. Nathan Brown.",
+   "section": "State GK",
+   "topic": "Assamese Literature"
+  },
+  {
+   "q": "The Gandhi-Irwin Pact was associated with which of the following movements of India?",
+   "o": [
+    "Rowlatt Satyagraha",
+    "Civil Disobedience",
+    "Non-Cooperation",
+    "Quit India"
+   ],
+   "a": 1,
+   "e": "The Gandhi-Irwin Pact (1931) suspended the Civil Disobedience Movement.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Which Veda depicts the information about the most ancient Vedic age culture?",
+   "o": [
+    "Rigveda",
+    "Yajurveda",
+    "Atharvaveda",
+    "Samaveda"
+   ],
+   "a": 0,
+   "e": "The Rigveda is the oldest Veda and the main source on early Vedic culture.",
+   "section": "General Knowledge",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Whose birthday is celebrated as Abhiruchi Sports Day in Assam?",
+   "o": [
+    "Radha Govinda Baruah",
+    "Bhogeshwar Baruah",
+    "Lachit Borphukan",
+    "Major Dhyan Chand"
+   ],
+   "a": 1,
+   "e": "Footballer Bhogeshwar Baruah's birthday (3 September) is observed as Abhiruchi Sports Day in Assam.",
+   "section": "State GK",
+   "topic": "Assam Sports"
+  },
+  {
+   "q": "Which party was established by Subhas Chandra Bose after he came out of the Indian National Congress?",
+   "o": [
+    "Republican Party",
+    "Socialist Party",
+    "Forward Bloc",
+    "Indian National Army"
+   ],
+   "a": 2,
+   "e": "After leaving the Congress presidency, Subhas Chandra Bose formed the Forward Bloc in 1939.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  }
+ ]
+}

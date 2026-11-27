@@ -1,0 +1,741 @@
+{
+ "exam": "Kerala PSC Junior Co-operative Inspector / Assistant etc.",
+ "paper": "Question Paper 13/2026 (English medium, Set A) - Co-operative Law, Banking and Computer section (Q45-100)",
+ "year": 2026,
+ "board": "Kerala PSC",
+ "source_paper": "https://www.keralapsc.gov.in/sites/default/files/2026-03/13-26%20%28Set%20A%29.pdf",
+ "source_key": "https://www.keralapsc.gov.in/sites/default/files/2026-03/junior_co_operative_inspector_final_key_.pdf",
+ "duration_min": 90,
+ "marks_per_q": 1,
+ "negative": 0.33,
+ "questions": [
+  {
+   "q": "Minimum number of persons required to form a cooperative society under Cooperative Credit Societies Act, 1904 was",
+   "o": [
+    "5",
+    "10",
+    "15",
+    "20"
+   ],
+   "a": 1,
+   "e": "The Co-operative Credit Societies Act, 1904 required at least 10 persons to form a society.",
+   "section": "Commerce",
+   "topic": "Co-operation"
+  },
+  {
+   "q": "One of the major features of the Model Cooperative Societies Bill, 1991 was",
+   "o": [
+    "No rule making power to the government",
+    "Accepting funds from the government by way of equity",
+    "Power to the Registrar for the compulsory amendment of the by-laws",
+    "None of the above"
+   ],
+   "a": 0,
+   "e": "As per the official key, the Model Co-operative Societies Bill, 1991 took away the government's rule-making power to make societies more autonomous.",
+   "section": "Commerce",
+   "topic": "Co-operation"
+  },
+  {
+   "q": "The Andhra Pradesh Mutually Aided Cooperative Societies Act was based on",
+   "o": [
+    "Model Cooperative Societies Bill, 1957",
+    "Cooperative Credit Societies Act, 1904",
+    "Cooperative Societies Act, 1912",
+    "Model Cooperative Societies Bill, 1991"
+   ],
+   "a": 3,
+   "e": "Andhra Pradesh's Mutually Aided Co-operative Societies Act, 1995 was modelled on the Model Co-operative Societies Bill, 1991.",
+   "section": "Commerce",
+   "topic": "Co-operation"
+  },
+  {
+   "q": "The authority responsible for the administration of the Multi-State Cooperative Societies Act, 1984 vests with",
+   "o": [
+    "State Registrar of Cooperative Societies",
+    "Reserve Bank of India",
+    "Central Registrar of Cooperative Societies",
+    "Planning Commission"
+   ],
+   "a": 2,
+   "e": "Multi-State co-operative societies are administered by the Central Registrar of Co-operative Societies.",
+   "section": "Commerce",
+   "topic": "Co-operation"
+  },
+  {
+   "q": "Which is the supreme authority of a cooperative society under Kerala Cooperative Societies Act, 1969?",
+   "o": [
+    "Registrar",
+    "General Body",
+    "Cooperative Tribunal",
+    "Managing Director"
+   ],
+   "a": 1,
+   "e": "Under the Kerala Co-operative Societies Act, 1969 the General Body of members is the supreme authority.",
+   "section": "Commerce",
+   "topic": "Co-operation"
+  },
+  {
+   "q": "The National Development Council (NDC) Resolution in 1956, was linked with",
+   "o": [
+    "Second five-year Plan",
+    "Foreign Investment Policy",
+    "Defence Policy",
+    "Companies Act"
+   ],
+   "a": 0,
+   "e": "The 1956 NDC resolution on co-operative development was tied to the Second Five-Year Plan.",
+   "section": "Commerce",
+   "topic": "Co-operation"
+  },
+  {
+   "q": "Under which banking system banks operate through a network of branches?",
+   "o": [
+    "Unit banking",
+    "Chain banking",
+    "Branch banking",
+    "Group banking"
+   ],
+   "a": 2,
+   "e": "In branch banking one bank works through many branches.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Statement I : Unit banking system is popular in the USA.\nStatement II : Branch banking promotes uniform banking practices.\nChoose the correct answer :",
+   "o": [
+    "Both true",
+    "Both false",
+    "Statement I true, II false",
+    "Statement I false, II true"
+   ],
+   "a": 0,
+   "e": "Unit banking is common in the USA, and branch banking spreads uniform practices; both statements are true.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which deposit is included under CASA?",
+   "o": [
+    "Fixed deposit only",
+    "Recurring deposit only",
+    "Current and savings deposits",
+    "Certificate of deposit"
+   ],
+   "a": 2,
+   "e": "CASA means Current Account and Savings Account deposits.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Credit creation by commercial banks is mainly based on",
+   "o": [
+    "Primary deposits only",
+    "Derived deposits only",
+    "Cash reserves only",
+    "Primary and derived deposits"
+   ],
+   "a": 3,
+   "e": "Banks create credit from primary deposits and the derived deposits that loans generate.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Statement I : RBI acts as banker to the government.\nStatement II : RBI provides Ways and Means Advances to State Governments.\nChoose the correct answer :",
+   "o": [
+    "Both true",
+    "Both false",
+    "Statement I true, II false",
+    "Statement I false, II true"
+   ],
+   "a": 0,
+   "e": "RBI is banker to the governments and gives Ways and Means Advances to states for short-term cash gaps.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Open Market Operations (OMO) refer to",
+   "o": [
+    "Lending to commercial banks",
+    "Purchase and sale of government securities",
+    "Regulation of consumer credit",
+    "Moral persuasion"
+   ],
+   "a": 1,
+   "e": "Open market operations are RBI's purchase and sale of government securities.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which of the following is a qualitative method of credit control?",
+   "o": [
+    "Bank rate",
+    "CRR",
+    "SLR",
+    "Moral suasion"
+   ],
+   "a": 3,
+   "e": "Moral suasion is a qualitative (selective) credit control; bank rate, CRR and SLR are quantitative.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "The Reserve Bank of India was established in the year",
+   "o": [
+    "1930",
+    "1934",
+    "1935",
+    "1947"
+   ],
+   "a": 2,
+   "e": "RBI started working on 1 April 1935 under the RBI Act, 1934.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Name the banks which were merged to form the Imperial Bank of India in 1921?",
+   "o": [
+    "Allahabad Bank, United Bank of India, Syndicate Bank",
+    "Bank of India, Central Bank of India, Punjab National Bank",
+    "Bank of Bombay, Bank of Bengal, Bank of Madras",
+    "Bank of Baroda, Canara Bank, Indian Bank"
+   ],
+   "a": 2,
+   "e": "The three Presidency Banks of Bombay, Bengal and Madras merged into the Imperial Bank of India in 1921.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which of the statements regarding Regional Rural Banks are correct?\nI. RRBs are primarily formed to lend to priority sectors in rural and semi-urban areas.\nII. RRBs were established under the provisions of the Banking Regulation Act, 1949.\nIII. The ownership structure of RRBs is shared between the Central Government, State Government and the concerned Sponsor Bank.",
+   "o": [
+    "Only Statements I and III are correct",
+    "Only Statements II and III are correct",
+    "Only Statements I and II are correct",
+    "Statements I, II and III are correct"
+   ],
+   "a": 0,
+   "e": "RRBs serve rural priority sectors and are owned by the Centre, the state and a sponsor bank; they were set up under the RRB Act, 1976, not the BR Act.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which of the following is/are the function/s of the Lead Bank under the Lead Bank Scheme?",
+   "o": [
+    "Prepares and monitors District Credit Plans to meet credit needs in Agriculture, Micro and Small Enterprises etc.",
+    "Organizes District Consultative Committees and Block Level Bankers' Committees to align banks and government agencies",
+    "Acts as a consortium leader for all banks in its assigned district, co-ordinating efforts for development",
+    "All of the above"
+   ],
+   "a": 3,
+   "e": "Under the Lead Bank Scheme the lead bank prepares district credit plans, runs district/block committees and coordinates all banks in the district.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "The National Credit Council (NCC), constituted in India, primarily aimed to",
+   "o": [
+    "Formulate monetary policy, regulate money supply and help in the control of inflation to protect currency value",
+    "Act as a statutory regulator of commercial banks under the RBI Act, 1934",
+    "Advise the government and RBI on the allocation of institutional credit in accordance with national priorities",
+    "Directly supervise credit appraisal and sanction by public sector banks"
+   ],
+   "a": 2,
+   "e": "The National Credit Council advised on allocating bank credit according to national priorities.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Consider the following statements regarding the recommendations of the Narasimham Committee (1991).\nStatement I : The Committee recommended the introduction of prudential norms relating to income recognition, asset classification and capital adequacy for banks.\nStatement II : The Committee advocated greater operational autonomy for public sector banks and a reduction in Statutory Liquidity Ratio (SLR) and Cash Reserve Ratio (CRR) to enhance banks' lending capacity.\nStatement III : The Committee recommended the continuation of government-administered interest rate policy for banks, rather than allowing market forces of demand and supply to determine rates.\nWhich of the above statements are correct?",
+   "o": [
+    "Only Statement I and Statement II are correct",
+    "Only Statement II and Statement III are correct",
+    "Only Statement I and Statement III are correct",
+    "All the Statements are correct"
+   ],
+   "a": 0,
+   "e": "Narasimham Committee (1991) recommended prudential norms and lower SLR/CRR, but it wanted interest rates deregulated, not administered.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which of the following was not the objective behind permitting the entry of new generation private sector banks in India?",
+   "o": [
+    "To promote competition, efficiency and technological upgradation in the banking system",
+    "To increase government ownership in banking and to reduce the role of RBI in banking regulation",
+    "To strengthen the banking system and make reach banking services to almost all areas of the country",
+    "To promote financial inclusion for bringing more people into the formal banking system"
+   ],
+   "a": 1,
+   "e": "New private banks were allowed to increase competition and efficiency, not to raise government ownership or weaken RBI.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which of the following is a direct initiative of the Reserve Bank of India to promote financial inclusion in India?",
+   "o": [
+    "Launch of Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+    "Implementation of Self-Help Group – Bank Linkage Programme (SHG-BLP)",
+    "Introduction of Kisan Credit Card (KCC) Scheme",
+    "Introduction of Basic Savings Bank Deposit Account (BSBDA)"
+   ],
+   "a": 3,
+   "e": "The Basic Savings Bank Deposit Account was introduced by RBI itself to promote financial inclusion.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Certain challenges are often faced by banks that come across with merger or acquisition. Identify a major challenge from the following.",
+   "o": [
+    "Excess liquidity due to increase in the deposits",
+    "Difficulty in integrating different organizational cultures and systems",
+    "Drastic improvement in asset quality",
+    "Customer satisfaction will increase suddenly"
+   ],
+   "a": 1,
+   "e": "Merging banks often struggle to combine different work cultures and IT systems.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "After recent amendments through the Banking Regulation (Amendment) Act, 2020 and the Banking Laws (Amendment) Act, 2024/2025, which of the following is correct?",
+   "o": [
+    "RBI's regulatory powers over cooperative banks have been reduced and the threshold of “substantial interest” has been brought down from Rs. 5 lakh to Rs. 1 lakh",
+    "RBI's powers over cooperative banks have been strengthened, and the definition of “substantial interest” threshold is proposed to be increased from Rs. 5 lakh to Rs. 2 crore to reflect current economic conditions",
+    "Cooperative banks are fully removed from the scope of the Banking Regulation Act",
+    "The concept of “substantial interest” has been deleted from the Act"
+   ],
+   "a": 1,
+   "e": "The amendments strengthened RBI's control over co-operative banks and proposed raising the 'substantial interest' limit from Rs. 5 lakh to Rs. 2 crore.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "For a company to commence or carry on banking business in India under the Banking Regulation Act, 1949, it must",
+   "o": [
+    "Obtain a licence from the Registrar of Companies",
+    "Obtain a licence from the Reserve Bank of India under Section 22",
+    "Take approval only from SEBI",
+    "Take approval only from the Ministry of Finance"
+   ],
+   "a": 1,
+   "e": "Section 22 of the Banking Regulation Act requires a licence from RBI to carry on banking.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Under Section 17 of the Banking Regulation Act, 1949, every banking company (other than certain exempted ones) must transfer to its Reserve fund each year",
+   "o": [
+    "Not less than 2% of its net profits",
+    "Not less than 10% of its gross profits",
+    "Not less than 20% of its profits before declaration of dividend",
+    "A fixed amount prescribed by the Central Government"
+   ],
+   "a": 2,
+   "e": "Section 17 requires at least 20% of profit (before dividend) to be moved to the reserve fund.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Acquisition of the undertaking of a banking company under the Banking Regulation Act, 1949 can generally be done by the Central Government",
+   "o": [
+    "Without consulting any authority",
+    "Only on the recommendation of SEBI",
+    "After consultation with the Reserve Bank of India and following the prescribed procedure",
+    "Only if all shareholders consent unanimously"
+   ],
+   "a": 2,
+   "e": "The Centre can acquire a banking company's undertaking only after consulting RBI and following the Act.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which is not typically considered a special type of bank customer requiring specific documentation?",
+   "o": [
+    "Minors (through guardian)",
+    "Lunatics (through court-appointed manager)",
+    "Married women",
+    "Unregistered partnerships"
+   ],
+   "a": 2,
+   "e": "Married women do not need special documents; minors, lunatics and unregistered firms do.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "In a joint bank account operated on \"Either or Survivor\" basis, upon death of one holder",
+   "o": [
+    "Account is frozen until succession certificate",
+    "Survivor can operate and close the account",
+    "Bank closes it immediately",
+    "Only nominee can operate"
+   ],
+   "a": 1,
+   "e": "In an 'Either or Survivor' account the surviving holder can operate and close it.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "For opening a bank account of a partnership firm, the bank typically requires",
+   "o": [
+    "Partnership deed and resolution authorizing signatories",
+    "Individual PAN cards only",
+    "No documents if partners are known",
+    "Company incorporation certificate"
+   ],
+   "a": 0,
+   "e": "A firm's account needs the partnership deed and a mandate naming who can sign.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which is a key obligation of a banker towards the customer?",
+   "o": [
+    "To disclose customer's account details to third parties without consent",
+    "To honour customer's cheques if sufficient funds are available and no legal stop is in place",
+    "To charge interest on deposits",
+    "To invest customer's money without permission"
+   ],
+   "a": 1,
+   "e": "A banker must honour cheques when funds are enough and there is no legal bar.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which of the following can endorse a bill of exchange?",
+   "o": [
+    "Drawee",
+    "Payee",
+    "Drawer",
+    "All of the above"
+   ],
+   "a": 1,
+   "e": "As per the official key, the payee (as holder) endorses the bill to transfer it.",
+   "section": "Commerce",
+   "topic": "Negotiable Instruments"
+  },
+  {
+   "q": "Who directs the bank to credit the cheque amount only into the bank account of the payee named on the cheque and not pay it in cash or to anyone else?",
+   "o": [
+    "Account Payee",
+    "Bank",
+    "Law",
+    "None of the above"
+   ],
+   "a": 0,
+   "e": "An 'Account Payee' crossing tells the bank to credit only the named payee's account.",
+   "section": "Commerce",
+   "topic": "Negotiable Instruments"
+  },
+  {
+   "q": "Who can convert a general crossing of cheque into a special crossing of cheque?",
+   "o": [
+    "Banker",
+    "Holder of the cheque",
+    "Drawer",
+    "Drawer's bank"
+   ],
+   "a": 1,
+   "e": "Under Section 125 of the NI Act, the holder can convert a general crossing into a special one.",
+   "section": "Commerce",
+   "topic": "Negotiable Instruments"
+  },
+  {
+   "q": "In which type of mortgage, the sale becomes void if the loan is repaid?",
+   "o": [
+    "Mortgage by conditional sale",
+    "Simple mortgage",
+    "Equitable mortgage",
+    "Anomalous mortgage"
+   ],
+   "a": 0,
+   "e": "In a mortgage by conditional sale, the sale becomes void when the loan is repaid.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Who introduced KCC?\ni. Central Government\nii. State Government\niii. Local Self Government\niv. All of the above",
+   "o": [
+    "i and ii",
+    "ii only",
+    "i only",
+    "iv only"
+   ],
+   "a": 2,
+   "e": "The Kisan Credit Card scheme was introduced by the Central Government (with RBI and NABARD) in 1998.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which is the apex institution for rural credit and financing?",
+   "o": [
+    "SIDBI",
+    "IFCI",
+    "NABARD",
+    "ICICI"
+   ],
+   "a": 2,
+   "e": "NABARD is the apex institution for agriculture and rural credit.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which among the following is not a feature of micro financing?",
+   "o": [
+    "Reasonable repayment",
+    "Self employment",
+    "Women empowerment",
+    "Target on high income group"
+   ],
+   "a": 3,
+   "e": "Microfinance serves low-income people, so targeting high-income groups is not its feature.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Who first launched Self Help group bank linkage programme in India?",
+   "o": [
+    "NABARD",
+    "SBI",
+    "RBI",
+    "SFC"
+   ],
+   "a": 0,
+   "e": "NABARD launched the SHG-Bank Linkage Programme in 1992.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which payment system in India allows 24 × 7 instant fund transfer including holidays?",
+   "o": [
+    "NEFT",
+    "RTGS",
+    "IMPS",
+    "ECS"
+   ],
+   "a": 2,
+   "e": "IMPS gives instant transfers 24x7, including holidays.",
+   "section": "Commerce",
+   "topic": "Payment Systems"
+  },
+  {
+   "q": "Which card payment system is India's domestic card network promoted by NPCI?",
+   "o": [
+    "Visa",
+    "MasterCard",
+    "American Express",
+    "RuPay"
+   ],
+   "a": 3,
+   "e": "RuPay is India's own card network run by NPCI.",
+   "section": "Commerce",
+   "topic": "Payment Systems"
+  },
+  {
+   "q": "In which system are interbank funds settled individually and in real time?",
+   "o": [
+    "NEFT",
+    "RTGS",
+    "ECS",
+    "CTS"
+   ],
+   "a": 1,
+   "e": "RTGS settles each transaction individually and in real time.",
+   "section": "Commerce",
+   "topic": "Payment Systems"
+  },
+  {
+   "q": "Which system enables electronic image-based cheque clearing instead of physical movement of cheques?",
+   "o": [
+    "SWIFT",
+    "ECS",
+    "CTS",
+    "IMPS"
+   ],
+   "a": 2,
+   "e": "Cheque Truncation System (CTS) clears cheques using images instead of moving paper.",
+   "section": "Commerce",
+   "topic": "Payment Systems"
+  },
+  {
+   "q": "CAMELS rating of banks is used to assess",
+   "o": [
+    "Customer satisfaction",
+    "Financial health of banks",
+    "Employee performance",
+    "Loan recovery only"
+   ],
+   "a": 1,
+   "e": "CAMELS (Capital, Assets, Management, Earnings, Liquidity, Sensitivity) rates a bank's financial health.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which of the following forms part of Tier I Capital?",
+   "o": [
+    "Revaluation reserves",
+    "Subordinated debt",
+    "Equity capital",
+    "General provisions"
+   ],
+   "a": 2,
+   "e": "Paid-up equity capital is core Tier I capital; the others are Tier II.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "An asset becomes a Non-Performing Asset (NPA) when interest or principal remains overdue for more than",
+   "o": [
+    "30 days",
+    "60 days",
+    "90 days",
+    "120 days"
+   ],
+   "a": 2,
+   "e": "A loan becomes an NPA when interest or principal is overdue for more than 90 days.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Which Act empowers banks to recover dues by enforcing security interest without court intervention?",
+   "o": [
+    "Banking Regulation Act",
+    "RBI Act",
+    "SARFAESI Act, 2002",
+    "Companies Act"
+   ],
+   "a": 2,
+   "e": "The SARFAESI Act, 2002 lets banks enforce security without going to court.",
+   "section": "Commerce",
+   "topic": "Banking"
+  },
+  {
+   "q": "Consider page reference string 1, 2, 0, 2, 5, 6, 2 with 3-page frames. Find the number of page faults using FIFO Page Replacement Algorithm.",
+   "o": [
+    "4",
+    "5",
+    "6",
+    "3"
+   ],
+   "a": 2,
+   "e": "FIFO: 1, 2, 0 fault; 2 hits; 5, 6 and 2 each fault, giving 6 page faults.",
+   "section": "Computer",
+   "topic": "Operating Systems"
+  },
+  {
+   "q": "What is the main purpose of using overlays in memory management?",
+   "o": [
+    "To increase the physical memory size",
+    "To allow programs larger than memory to execute",
+    "To eliminate external fragmentation",
+    "To increase CPU speed"
+   ],
+   "a": 1,
+   "e": "Overlays let a program larger than memory run by loading only needed parts.",
+   "section": "Computer",
+   "topic": "Operating Systems"
+  },
+  {
+   "q": "A device that can interconnect two different networks having different protocols",
+   "o": [
+    "Router",
+    "Hub",
+    "Modem",
+    "Gateway"
+   ],
+   "a": 3,
+   "e": "A gateway connects networks that use different protocols.",
+   "section": "Computer",
+   "topic": "Networking"
+  },
+  {
+   "q": "What happens during a Denial of Service (DoS) attack?",
+   "o": [
+    "Data is permanently deleted from the system",
+    "Hackers steal passwords",
+    "A system or network is made unavailable by overwhelming it with traffic",
+    "Software updates are blocked"
+   ],
+   "a": 2,
+   "e": "A DoS attack floods a system with traffic so real users cannot use it.",
+   "section": "Computer",
+   "topic": "Cyber Security"
+  },
+  {
+   "q": "Section 67A of the Information Technology Act deals with",
+   "o": [
+    "Hacking of computer systems",
+    "Punishment for cyber terrorism",
+    "Publishing or transmitting material containing sexually explicit acts in electronic form",
+    "Online financial fraud"
+   ],
+   "a": 2,
+   "e": "Section 67A of the IT Act punishes publishing sexually explicit material electronically.",
+   "section": "Computer",
+   "topic": "Cyber Law"
+  },
+  {
+   "q": "Web crawlers in search engines are programs that",
+   "o": [
+    "Design web pages",
+    "Automatically browse the internet to collect and update web page information",
+    "Search information only when users type a query",
+    "Protect websites from cyber attacks"
+   ],
+   "a": 1,
+   "e": "Web crawlers automatically browse the web to collect and update page data for the search index.",
+   "section": "Computer",
+   "topic": "Internet"
+  },
+  {
+   "q": "Which control structure allows you to choose between multiple alternatives?",
+   "o": [
+    "Do-while",
+    "While",
+    "For",
+    "Switch-Case"
+   ],
+   "a": 3,
+   "e": "Switch-case selects one of many alternatives.",
+   "section": "Computer",
+   "topic": "Programming"
+  },
+  {
+   "q": "Which type of storage device mainly benefits from disk defragmentation?",
+   "o": [
+    "Hard disk drive (HDD)",
+    "Optical disks (CD/DVD)",
+    "RAM",
+    "Pen drive"
+   ],
+   "a": 0,
+   "e": "Defragmentation helps hard disk drives, where scattered files slow down the moving read head.",
+   "section": "Computer",
+   "topic": "Computer Basics"
+  },
+  {
+   "q": "Arrange the following memory types in decreasing order of speed",
+   "o": [
+    "Hard disk → RAM → Cache → Registers",
+    "RAM → Cache → Registers → Hard disk",
+    "Registers → Cache → RAM → Hard disk",
+    "Cache → Registers → RAM → Hard disk"
+   ],
+   "a": 2,
+   "e": "Speed order is registers > cache > RAM > hard disk.",
+   "section": "Computer",
+   "topic": "Computer Basics"
+  },
+  {
+   "q": "Study the table given below and answer the question :\nSoftware — Example\nA — Windows\nB — MS Word\nC — WinZip\nD — MySQL\nWhich of the following correctly classifies the software listed in the table?",
+   "o": [
+    "A and B – System software; C and D – Application software",
+    "A and C – System software; B and D – Application software",
+    "A and D – System software; B and C – Application software",
+    "All are application software"
+   ],
+   "a": 1,
+   "e": "Windows and WinZip (utility) are system software; MS Word and the fourth item are application software.",
+   "section": "Computer",
+   "topic": "Computer Basics"
+  }
+ ]
+}

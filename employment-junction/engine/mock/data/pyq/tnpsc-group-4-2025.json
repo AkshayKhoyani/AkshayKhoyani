@@ -1,0 +1,1198 @@
+{
+ "exam": "TNPSC Combined Civil Services Examination-IV (Group IV Services)",
+ "paper": "General English with General Studies - Part B General Studies & Part C Aptitude and Mental Ability (Q.101-200), held 12-07-2025",
+ "year": 2025,
+ "board": "Tamil Nadu Public Service Commission",
+ "state": "Tamil Nadu",
+ "lang": "en",
+ "source_paper": "https://www.tnpsc.gov.in/Tentative/Document/07_2025_GENEARAL_ENGLISH_GS.pdf",
+ "source_key": "https://www.tnpsc.gov.in/Document/Answerkeyfinalresult/07_2025_CCSE_IV_FINAL_ANSWER_KEY.pdf",
+ "duration_min": 180,
+ "marks_per_q": 1.5,
+ "negative": 0,
+ "questions": [
+  {
+   "q": "Match the following :\n(a) Financial Assistance to Dependent children  1. Between the age group of 18 and 21 years\n(b) Maintenance of Orphan and Destitute Girls  2. Providing destitute, orphan and unattached children\n(c) Foster Care Services Scheme  3. Children below the age of 16 years\n(d) State After-Care Home for Boys  4. Children between the age of 6 and 16 years",
+   "o": [
+    "(a)-2, (b)-3, (c)-1, (d)-4",
+    "(a)-4, (b)-2, (c)-3, (d)-1",
+    "(a)-3, (b)-4, (c)-2, (d)-1",
+    "(a)-2, (b)-4, (c)-1, (d)-3"
+   ],
+   "a": 2,
+   "e": "Per the official key: dependent-children assistance covers those below 16, orphan girls' homes take 6-16 year olds, foster care places destitute/orphan children, and after-care homes serve 18-21 year olds.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Welfare Schemes"
+  },
+  {
+   "q": "As per the Tamilnadu Economic Survey of 2024-2025, arrange the following in the ascending order based on the productivity.\n(1) Paddy productivity\n(2) Maize productivity\n(3) Oil seeds, Groundnut and Sugarcane productivity",
+   "o": [
+    "(1) (2) (3)",
+    "(3) (2) (1)",
+    "(2) (1) (3)",
+    "(3) (1) (2)"
+   ],
+   "a": 0,
+   "e": "Per the TN Economic Survey, per-hectare productivity rises from paddy to maize to the oilseed/groundnut/sugarcane group, so the order is (1) (2) (3).",
+   "section": "State GK",
+   "topic": "Tamil Nadu Economy"
+  },
+  {
+   "q": "Find out the Incorrect statement(s) about the Tamilnadu Health System Reform Program (TNHSRP).\n(i) This program was supported by World Bank.\n(ii) This program is sponsored by the Central and State Government in the ratio of 60 : 40.\n(iii) It is implemented by the Department of Health and Family Welfare of Tamilnadu on Program for Results basis.\n(iv) This program aims to achieve the goal of SDG 9.",
+   "o": [
+    "(i) and (iii) only",
+    "(ii) and (iii) only",
+    "(ii) and (iv) only",
+    "(iii) only"
+   ],
+   "a": 2,
+   "e": "TNHSRP is a World Bank-supported, state-implemented Program-for-Results scheme on health outcomes (SDG 3); it is not a 60:40 Centre-State scheme and not about SDG 9.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Health"
+  },
+  {
+   "q": "Assertion [A] : In 1892, Tremenheere report was accepted by the Government for increasing the income of the Government, to allot the poramboke land to down trodden community.\nReason [R] : In Chengalpet, the Panchamar Schools were run by the Philanthropic individuals in Panchami Land for promoting Education for downtrodden community people.",
+   "o": [
+    "[A] is true [R] is false",
+    "Both [A] and [R] are true and [R] is the correct explanation of [A]",
+    "[A] is false [R] is true",
+    "Both [A] and [R] are true but [R] is not the correct explanation of [A]"
+   ],
+   "a": 0,
+   "e": "The 1892 Tremenheere report led to the assignment of panchami (depressed class) lands; the Panchama schools were run by missionaries/philanthropists, but the official key treats [R] as false.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Social History"
+  },
+  {
+   "q": "Identify the incorrectly paired matches :\n(1) Lokpal and Lokayuktas Act came into force – January 16th, 2014\n(2) Tamil declared as Classical Language – Oct 10, 2004\n(3) Election Commission of India – Article 324\n(4) National Integration Council in India – 1960",
+   "o": [
+    "(1) and (3)",
+    "(2) and (4)",
+    "(3) and (4)",
+    "(4) and (1)"
+   ],
+   "a": 1,
+   "e": "The Lokpal Act came into force on 16 Jan 2014, Tamil was declared classical on 12 Oct 2004 (not 10 Oct), and the National Integration Council was formed in 1961, so pairs (2) and (4) are wrong.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "The purpose of “Surya Ghar Muft Bijli Yojana” is",
+   "o": [
+    "Installing roof top solar",
+    "Providing Houses to the poor",
+    "Insurance to old age people",
+    "Financing to small industries"
+   ],
+   "a": 0,
+   "e": "PM Surya Ghar Muft Bijli Yojana (2024) subsidises rooftop solar to give households free electricity.",
+   "section": "General Studies",
+   "topic": "Government Schemes"
+  },
+  {
+   "q": "Assertion [A] : Goods and Services Tax in India is a comprehensive, multistage, destination-based tax that is levied on every value addition.\nReason [R] : The motto is ‘One Tax, One Market, One Nation’.",
+   "o": [
+    "[A] is true, but [R] is false",
+    "Both [A] and [R] are true; and [R] is the correct explanation of [A]",
+    "[A] is false, [R] is true",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]"
+   ],
+   "a": 1,
+   "e": "GST is a multistage, destination-based tax on value addition, and the \"One Nation, One Tax, One Market\" idea is what it was designed to achieve.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Arrange the following Finance Ministers of Tamil Nadu according to the Budget Year (Chronological Order)\n1. Mr. Paneerselvam\n2. Dr. Nedunchezhiyan\n3. Mr. Palanivel Thiagarajan\n4. Mr. Thangam Thennarasu",
+   "o": [
+    "1 2 3 4",
+    "4 3 2 1",
+    "2 1 3 4",
+    "1 4 2 3"
+   ],
+   "a": 2,
+   "e": "Nedunchezhiyan presented budgets decades earlier, followed by O. Paneerselvam, then Palanivel Thiagarajan (2021-23) and Thangam Thennarasu (2024 onward).",
+   "section": "State GK",
+   "topic": "Tamil Nadu Polity"
+  },
+  {
+   "q": "Assertion [A] : The plan period 1966 – 69 were called as “Annual plans or plan holiday”.\nReason [R] : Because of the two major conflicts with China and Pakistan.",
+   "o": [
+    "[A] is true, [R] is false",
+    "Both [A] and [R] are true, but [R] is not a correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is the correct explanation of [A]",
+    "[A] is false, [R] is true"
+   ],
+   "a": 2,
+   "e": "After the 1962 and 1965 wars and drought, the Fourth Plan was postponed and 1966-69 had annual plans, called the plan holiday.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Statement : Thiruvalluvar has captured certain features like pride and administration of the Three Great Kings (Moovendhar) in his couplets.\nReason : Thiruvalluvar wanted to portray the administrative skills of Kings.",
+   "o": [
+    "Both Statement and Reason are correct",
+    "Reason is incorrect but Statement is correct",
+    "Both Statement and Reason are incorrect",
+    "Statement is incorrect but Reason is correct"
+   ],
+   "a": 3,
+   "e": "Per the official key, the statement is incorrect while the reason is correct: Valluvar describes ideal kingship in general, not the three crowned kings by name.",
+   "section": "State GK",
+   "topic": "Thirukkural"
+  },
+  {
+   "q": "Who is the author of “Valluvarum Kuralum”?",
+   "o": [
+    "Tamilannal",
+    "Ki.Aa.Pe. Vishwanatham",
+    "Ra.Pi. Sethupillai",
+    "Thiru.Vi. Kalyanasundaram"
+   ],
+   "a": 1,
+   "e": "\"Valluvarum Kuralum\" was written by Ki.Aa.Pe. Viswanatham.",
+   "section": "State GK",
+   "topic": "Tamil Literature"
+  },
+  {
+   "q": "Who was the first to draw the portrait of Thiruvalluvar?",
+   "o": [
+    "Venkata Krishna Pandithar",
+    "Venugopala Sharma",
+    "Saminatha Sharma",
+    "Vannacharaba Dheetchithar"
+   ],
+   "a": 1,
+   "e": "Per the official key, the first portrait of Thiruvalluvar was painted by K.R. Venugopala Sharma.",
+   "section": "State GK",
+   "topic": "Tamil Culture"
+  },
+  {
+   "q": "Choose the right matches.\n(1) New India – Bharathi\n(2) Thesapakthan – V.V. Subramanian\n(3) Nava Sakthi – Thiru. V. Kalyanasundaram\n(4) The Hindu – G. Subramaniam",
+   "o": [
+    "(1) and (2) are correct",
+    "(2) and (3) are correct",
+    "(3) and (4) are correct",
+    "(1) and (4) are correct"
+   ],
+   "a": 2,
+   "e": "Per the final key, the correct pairs are Navasakthi with Thiru.Vi.Ka. and The Hindu with G. Subramania Iyer.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Freedom Movement"
+  },
+  {
+   "q": "Which of the following statements are true about the Theosophical Movement?\n(i) The Theosophical society was founded by Madam Blavatsky and Col. H.S. Olcott in New York.\n(ii) In 1888 Mrs. Annie Besant joined the society in India.\n(iii) The headquarters of the society in Adyar.",
+   "o": [
+    "(i) and (ii)",
+    "(ii) and (iii)",
+    "(i) and (iii)",
+    "(iii) only"
+   ],
+   "a": 2,
+   "e": "The Theosophical Society was founded in New York in 1875 and later headquartered at Adyar; Annie Besant joined in 1889 in London, so (ii) is wrong.",
+   "section": "General Studies",
+   "topic": "Modern India"
+  },
+  {
+   "q": "Assertion [A] : E.V.R. Periyar started the Self-Respect Movement in 1925.\nReason [R] : New India was the official Newspaper of the Self-Respect Movement.",
+   "o": [
+    "[A] is true, but [R] is false",
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "[A] is false, [R] is true",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]"
+   ],
+   "a": 0,
+   "e": "Periyar launched the Self-Respect Movement in 1925, but its organ was Kudi Arasu; New India was Annie Besant's paper.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Social Reform"
+  },
+  {
+   "q": "Consider the following statements and Identify the wrong answers\n(1) On 1st September 1798 Major Bannerman served an ultimatum directing Kattabomman to see him at Palayamkottai.\n(2) Kattabomman's Fort 500 feet long and 300 feet broad, was constructed entirely of Mud.\n(3) On September 16, 1799 Veera Pandiya Kattabomman was tried before an assembly of Palayakkarars at Kayatar.\n(4) On 1st June, 1799 Kattabomman, attended by 500 men, proceeded to Sivagangai.",
+   "o": [
+    "(1) is wrong",
+    "(2) is wrong",
+    "(1) and (3) are wrong",
+    "(2) and (4) are wrong"
+   ],
+   "a": 2,
+   "e": "Bannerman's ultimatum came in August 1799 and Kattabomman was tried at Kayathar on 16 October 1799, so statements (1) and (3) are wrong.",
+   "section": "State GK",
+   "topic": "Tamil Nadu History"
+  },
+  {
+   "q": "Which of the following statements are true?\n(1) Congress boycotted the election which was held in 1923 in Chennai.\n(2) Swaraj Party won 11 seats.\n(3) Justice Party formed Ministry in Chennai.\n(4) Kamaraj led the Non-Co-operation movement in Chennai.",
+   "o": [
+    "(1), (4) are correct",
+    "(1), (2) are correct",
+    "(1), (3) are correct",
+    "(1), (2), (3) are correct"
+   ],
+   "a": 3,
+   "e": "Per the official key, in the 1923 Madras elections Congress boycotted the polls, the Swarajists won 11 seats and the Justice Party formed the ministry.",
+   "section": "State GK",
+   "topic": "Tamil Nadu History"
+  },
+  {
+   "q": "Match the following :\n(a) Karaikkal Ammaiyar  1. Thiruvantadi\n(b) Andal  2. Kachhikalambagam\n(c) Aranganadha Mudaliyar  3. Pavaippattu\n(d) Seraman Perumal Nayanar  4. Moothathiruppathigangal",
+   "o": [
+    "(a)-2, (b)-3, (c)-1, (d)-4",
+    "(a)-3, (b)-1, (c)-2, (d)-4",
+    "(a)-4, (b)-3, (c)-2, (d)-1",
+    "(a)-1, (b)-2, (c)-3, (d)-4"
+   ],
+   "a": 2,
+   "e": "Karaikkal Ammaiyar wrote the Thiruvalangattu Moothathiruppathigangal, Andal wrote Thiruppavai, Aranganatha Mudaliyar wrote Kachchikalambagam, and Cheraman Perumal wrote Thiruvanthadi.",
+   "section": "State GK",
+   "topic": "Tamil Literature"
+  },
+  {
+   "q": "Which of the following statements are true about Sivakalai excavation?\n(i) Sivakalai excavation located in North shore of river Thamiraparani.\n(ii) Tamil society lived in Sivakalai considered very ancient.\n(iii) Copper and gold goods are found.",
+   "o": [
+    "(i) only",
+    "(i) and (iii) only",
+    "(i) and (ii) only",
+    "(iii) only"
+   ],
+   "a": 2,
+   "e": "Sivakalai lies on the northern bank of the Thamirabarani, and its finds date Tamil society very early; the official key does not accept the copper and gold claim.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Archaeology"
+  },
+  {
+   "q": "Choose the right matches among the following :\n(1) Five Kingdom System – R.H. Whittaker\n(2) Six Kingdom System – Carl Woese, et al\n(3) Four Kingdom System – Carl Linnaeus\n(4) Three Kingdom System – Ernst Haeckel",
+   "o": [
+    "(1) only correct",
+    "(1), (2) and (4) are correct",
+    "(1) and (2) are correct",
+    "(1), (2) and (3) are correct"
+   ],
+   "a": 1,
+   "e": "Whittaker proposed five kingdoms, Woese et al. six, and Haeckel three; the four-kingdom system was Copeland's, not Linnaeus's.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "0.10 M of weak acid is found to be dissociated to the extent of 1.20% at 25°C. Its dissociation constant is",
+   "o": [
+    "1.44 × 10^5",
+    "1.44 × 10^-4",
+    "1.44 × 10^-5",
+    "1.44 × 10^4"
+   ],
+   "a": 2,
+   "e": "Ka ≈ Cα² = 0.10 × (0.012)² = 1.44 × 10⁻⁵.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "The GSLV-F15 is launched on ________ by ISRO.",
+   "o": [
+    "January 29, 2025",
+    "March 08, 2025",
+    "January 29, 2024",
+    "March 08, 2024"
+   ],
+   "a": 0,
+   "e": "GSLV-F15 carrying NVS-02 lifted off on 29 January 2025, ISRO's 100th launch from Sriharikota.",
+   "section": "General Studies",
+   "topic": "Science & Technology"
+  },
+  {
+   "q": "Who among the following was the Indian Prime Minister when the 42nd Amendment Act was passed?",
+   "o": [
+    "Jawaharlal Nehru",
+    "V.P. Singh",
+    "Indira Gandhi",
+    "Morarji Desai"
+   ],
+   "a": 2,
+   "e": "The 42nd Amendment (1976), the \"mini-constitution\", was passed during Indira Gandhi's term during the Emergency.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Assertion [A] : The Pallavas constructed the Cave temples without brick, wood, metal and sudhai.\nReason [R] : The stones kept one upon another and not bound with plaster is known as “Katraligal”.",
+   "o": [
+    "[A] true, but [R] false",
+    "[A] false but [R] true",
+    "Both [A] and [R] are true",
+    "Both [A] and [R] are false"
+   ],
+   "a": 0,
+   "e": "Mahendravarman I's Mandagapattu inscription says the temple was built without brick, timber, metal or mortar; the final key treats the reason's definition of \"Katraligal\" as false.",
+   "section": "State GK",
+   "topic": "Tamil Nadu History"
+  },
+  {
+   "q": "Choose the wrong pair :\n(1) South Dravidan Language – Malayalam\n(2) East Dravidan Language – Munda\n(3) Central Dravidan Language – Telugu\n(4) North Dravidan Language – Kuruk",
+   "o": [
+    "(1)",
+    "(2)",
+    "(3)",
+    "(4)"
+   ],
+   "a": 1,
+   "e": "Munda is an Austroasiatic language family, not East Dravidian.",
+   "section": "General Studies",
+   "topic": "Indian Culture"
+  },
+  {
+   "q": "Assertion [A] : Rabindranath Tagore surrendered his knighthood.\nReason [R] : On 13th April 1919 Jalianwala Bagh Massacre occurred in Amritsar.",
+   "o": [
+    "[A] True [R] False",
+    "Both [A] and [R] are true and [R] is the correct explanation of [A]",
+    "[A] is False [R] is True",
+    "Both [A] and [R] are true but [R] is not the correct explanation of [A]"
+   ],
+   "a": 1,
+   "e": "Tagore renounced his knighthood in protest against the Jallianwala Bagh massacre of 13 April 1919.",
+   "section": "General Studies",
+   "topic": "Modern India"
+  },
+  {
+   "q": "Assertion [A] : The Indian National Congress First Conference convened on 28th December 1885 in Bombay.\nReason [R] : Tamil Nadu region represented and attend 21 members.",
+   "o": [
+    "[A] is true but [R] is false",
+    "Both [A] and [R] are true and [R] is the correct explanation of [A]",
+    "[A] is false [R] is true",
+    "Both [A] and [R] are true but [R] is not the correct explanation of [A]"
+   ],
+   "a": 0,
+   "e": "The first INC session met in Bombay on 28 Dec 1885; the final key treats the figure in [R] as incorrect.",
+   "section": "General Studies",
+   "topic": "Modern India"
+  },
+  {
+   "q": "Which of the following statements are true about the Indus Civilisation?\n(i) In the 1920s Martimer Wheeler excavated the Harappan sites.\n(ii) The longest text has about twenty six signs.\n(iii) The term “Meluhha” in the Prakrit inscriptions refers to the Indus region.\n(iv) The “Priest King” of steatite was discovered in Mohenjo-Daro.",
+   "o": [
+    "(i) and (ii) only",
+    "(i) and (iii) only",
+    "(ii) and (iii) only",
+    "(ii) and (iv) only"
+   ],
+   "a": 3,
+   "e": "The longest Indus text has about 26 signs and the steatite \"Priest King\" came from Mohenjo-daro; the 1920s digs were by Sahni and Banerji, and Meluhha appears in Mesopotamian, not Prakrit, texts.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "The correct statements on the New Chief Election Commissioner of India are:\n(i) Gyanesh Kumar took charge as the 26th Chief Election Commissioner of India on February 19th, 2025.\n(ii) He is a Kerala cadre of the Indian Administrative Service in the 1989 batch.\n(iii) He has been responsible for handling various departments as the secretary to the government of Kerala.",
+   "o": [
+    "(i) only",
+    "(i) and (iii) only",
+    "(i) and (ii) only",
+    "(ii) and (iii) only"
+   ],
+   "a": 1,
+   "e": "Gyanesh Kumar took charge as the 26th CEC on 19 Feb 2025; he is a 1988-batch Kerala-cadre IAS officer, so (ii) is wrong.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Match the following (Name of the Act – Enacted year) :\n(a) Consumer Protection Rules  1. 1930\n(b) Drug Control Act  2. 1987\n(c) The Monopolies and Restrictive Trade Practice Act  3. 1950\n(d) Goods and Services Sales Act  4. 1969",
+   "o": [
+    "(a)-2, (b)-3, (c)-4, (d)-1",
+    "(a)-3, (b)-1, (c)-2, (d)-4",
+    "(a)-1, (b)-3, (c)-4, (d)-2",
+    "(a)-4, (b)-1, (c)-2, (d)-3"
+   ],
+   "a": 0,
+   "e": "The Consumer Protection Rules date to 1987, Drugs Control Act 1950, MRTP Act 1969 and Sale of Goods Act 1930.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Consider the Assertion [A] and Reason [R]\nAssertion [A] : Supreme court judges are to be appointed by the President.\nReason [R] : In the case of appointment of the Judges the Law Minister of India shall always be consulted.",
+   "o": [
+    "Both [A] and [R] are true and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true but [R] is not a correct explanation of [A]",
+    "[A] is true but [R] is false",
+    "[A] is false but [R] is true"
+   ],
+   "a": 2,
+   "e": "Under Art. 124 the President appoints SC judges after consultation with the CJI and collegium; consulting the Law Minister is not mandated.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Arrange in chronological order on Inter-State council\n(1) Punchhi Commission\n(2) Rajamannar Commission\n(3) Sarkaria Commission\n(4) Venkatachaliah Commission",
+   "o": [
+    "(3), (4), (2), (1)",
+    "(2), (1), (4), (3)",
+    "(2), (4), (3), (1)",
+    "(2), (3), (4), (1)"
+   ],
+   "a": 3,
+   "e": "Rajamannar (1969), Sarkaria (1983), Venkatachaliah/NCRWC (2000) and Punchhi (2007) is the chronological order.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Choose the right match :\n(1) Retirement age of the Supreme Court Judge – 60 years\n(2) Minimum age for contesting for the President of India – 35 years\n(3) Minimum age for becoming Rajya Sabha member – 30 years\n(4) Minimum age for becoming Lok Sabha member – 21 years",
+   "o": [
+    "(1) and (3) are correct",
+    "(1) and (2) are correct",
+    "(2) and (3) are correct",
+    "(3) and (4) are correct"
+   ],
+   "a": 2,
+   "e": "The minimum age for President is 35 and for the Rajya Sabha 30; SC judges retire at 65 and the Lok Sabha age is 25.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Match the following (Name of the States – States in Part, as per the original Constitution) :\n(a) Himachal Pradesh  1. A\n(b) Rajasthan  2. D\n(c) West Bengal  3. B\n(d) The Andaman and Nicobar Islands  4. C",
+   "o": [
+    "(a)-4, (b)-3, (c)-1, (d)-2",
+    "(a)-2, (b)-4, (c)-1, (d)-3",
+    "(a)-3, (b)-1, (c)-2, (d)-4",
+    "(a)-1, (b)-2, (c)-4, (d)-3"
+   ],
+   "a": 0,
+   "e": "In 1950 Himachal Pradesh was a Part C state, Rajasthan Part B, West Bengal Part A and the Andaman & Nicobar Islands Part D.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "P and Q can do a piece of work in 20 days and 40 days respectively. They started the work together and Q left after some days of work and P finished the remaining work in 8 days. After how many days from the start did Q leave?",
+   "o": [
+    "9 days",
+    "10 days",
+    "8 days",
+    "11 days"
+   ],
+   "a": 2,
+   "e": "P does 8/20 = 2/5 alone, so 3/5 was done together at 3/40 per day, i.e. 8 days.",
+   "section": "Aptitude",
+   "topic": "Time & Work"
+  },
+  {
+   "q": "Divide Rs. 2,602 between A and B, so that the amount of A at the end of 6 years is equal to the amount of B at the end of 8 years, compound interest being at 4% per annum.",
+   "o": [
+    "Rs. 1,300, Rs. 1,252",
+    "Rs. 1,452, Rs. 1,150",
+    "Rs. 1,302, Rs. 1,300",
+    "Rs. 1,352, Rs. 1,250"
+   ],
+   "a": 3,
+   "e": "A(1.04)⁶ = B(1.04)⁸ gives A:B = 1.0816:1, so B = 2602/2.0816 = 1250 and A = 1352.",
+   "section": "Aptitude",
+   "topic": "Compound Interest"
+  },
+  {
+   "q": "Find the simple interest on Rs. 68,000 at 16⅔% per annum for 9 months.",
+   "o": [
+    "Rs. 8,500",
+    "Rs. 8,000",
+    "Rs. 9,400",
+    "Rs. 9,100"
+   ],
+   "a": 0,
+   "e": "SI = 68000 × (50/3)% × 3/4 = 8,500.",
+   "section": "Aptitude",
+   "topic": "Simple Interest"
+  },
+  {
+   "q": "If a : b = 3 : 7 and b : c = 7 : 6, then find the ratio between c and a",
+   "o": [
+    "1 : 2",
+    "3 : 6",
+    "6 : 7",
+    "2 : 1"
+   ],
+   "a": 3,
+   "e": "a:b:c = 21:49:42, so c:a = 42:21 = 2:1.",
+   "section": "Aptitude",
+   "topic": "Ratio"
+  },
+  {
+   "q": "The ratio of two numbers is 3 : 4 and H.C.F is 4. Their L.C.M. is ________.",
+   "o": [
+    "48",
+    "38",
+    "58",
+    "68"
+   ],
+   "a": 0,
+   "e": "The numbers are 12 and 16; LCM = 48.",
+   "section": "Aptitude",
+   "topic": "HCF & LCM"
+  },
+  {
+   "q": "A number x is divisible by 13. When this number is divided by 16, 24, 32 it leaves a remainder 6 in each case. The least value of x is ________.",
+   "o": [
+    "390",
+    "391",
+    "389",
+    "392"
+   ],
+   "a": 0,
+   "e": "x = 96k + 6 must be divisible by 13; k = 4 gives 390 = 13 × 30.",
+   "section": "Aptitude",
+   "topic": "HCF & LCM"
+  },
+  {
+   "q": "There are 80 students in a class. If 25% are absent on a particular day, find the number of students present in the class.",
+   "o": [
+    "10",
+    "60",
+    "30",
+    "25"
+   ],
+   "a": 1,
+   "e": "75% of 80 = 60 present.",
+   "section": "Aptitude",
+   "topic": "Percentage"
+  },
+  {
+   "q": "The ratio of boys and girls in a class is 5 : 3. If 16% of boys and 8% of girls failed in an examination, then find the percentage of passed students.",
+   "o": [
+    "87%",
+    "13%",
+    "84%",
+    "92%"
+   ],
+   "a": 0,
+   "e": "Failed = (5×16 + 3×8)/8 = 13%, so 87% passed.",
+   "section": "Aptitude",
+   "topic": "Percentage"
+  },
+  {
+   "q": "Find the sum of 1 + 3 + 5 + ... + 55",
+   "o": [
+    "700",
+    "784",
+    "555",
+    "550"
+   ],
+   "a": 1,
+   "e": "There are 28 odd numbers from 1 to 55, and their sum is 28² = 784.",
+   "section": "Aptitude",
+   "topic": "Series Sum"
+  },
+  {
+   "q": "The next term in the given sequence is 0, 2, 24, 252, 3120, ________.",
+   "o": [
+    "42450",
+    "46650",
+    "38450",
+    "44650"
+   ],
+   "a": 1,
+   "e": "Terms are nⁿ − n: 1−1, 4−2, 27−3, 256−4, 3125−5, so next is 6⁶ − 6 = 46650.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "In the series 6 4 1 2 2 8 7 4 2 1 5 3 8, how many pairs of successive numbers have a difference of 2 each?",
+   "o": [
+    "One",
+    "Two",
+    "Three",
+    "Four"
+   ],
+   "a": 2,
+   "e": "The pairs (6,4), (4,2) and (5,3) differ by 2, so there are three.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "Find the missing term of the sequence : 7, 12, 19, 24, 43, ________, 91",
+   "o": [
+    "50",
+    "45",
+    "48",
+    "63"
+   ],
+   "a": 2,
+   "e": "Alternately add 5 and add the term two places back: 43 + 5 = 48, then 48 + 43 = 91.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "Identify the correct answer.\nAssertion [A] : Space MAITRI is a collaborative space mission between India and Australia.\nReason [R] : India aims to lower the cost of access to space through this mission.",
+   "o": [
+    "Both [A] and [R] are correct and [R] is the correct explanation for [A]",
+    "Both [A] and [R] are correct, but [R] is not the correct explanation for [A]",
+    "[A] is correct but [R] is wrong",
+    "[A] is wrong but [R] is correct"
+   ],
+   "a": 2,
+   "e": "Space MAITRI is an India-Australia mission (with Space Machines Co.); the key marks the stated aim in [R] as incorrect.",
+   "section": "General Studies",
+   "topic": "Science & Technology"
+  },
+  {
+   "q": "Which of the following statement(s) is/are true about the agricultural cultivation of 2021-2022 in Tamilnadu?\n(i) Mayiladuthurai District involved more Paddy cultivation in Tamilnadu.\n(ii) Perambalur District involved more Maize cultivation in Tamilnadu.\n(iii) Kallakurichi involved more Sugarcane cultivation in Tamilnadu.",
+   "o": [
+    "(i) only",
+    "(i) and (iii) only",
+    "(i) and (ii) only",
+    "(ii) and (iii) only"
+   ],
+   "a": 3,
+   "e": "Per 2021-22 data Perambalur leads in maize and Kallakurichi in sugarcane; paddy area is highest elsewhere (Thanjavur/Thiruvarur belt).",
+   "section": "State GK",
+   "topic": "Tamil Nadu Agriculture"
+  },
+  {
+   "q": "Identify the correct answer after understanding the Assertion and the Reason.\nAssertion [A] : As per the Economic Survey of Tamilnadu 2024-2025 the Urban inflation in Tamilnadu is coming down from 6% in 2019-2020 to 4.5% in 2024-2025, while rural inflation is static at 5.4%.\nReason [R] : It is mainly due to the Governments' policy on the Tamilnadu Public Distribution System and other income support schemes like Kalignar Mahalir Urimai Thittam and hundred days employment guarantee schemes.",
+   "o": [
+    "[A] is true [R] is false",
+    "Both [A] and [R] are true and [R] is the correct explanation of [A]",
+    "[A] is false [R] is true",
+    "Both [A] and [R] are true but [R] is not the correct explanation of [A]"
+   ],
+   "a": 1,
+   "e": "The TN Economic Survey 2024-25 credits the fall in urban inflation to PDS and income-support schemes.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Economy"
+  },
+  {
+   "q": "Assertion [A] : The “Illam Thedi Kalvi” scheme in Tamilnadu aims to bridge learning gaps among school students caused by the Covid-19 Pandemic.\nReason [R] : The scheme involves volunteers providing remedial education to students at their homes.",
+   "o": [
+    "Both [A] and [R] are true and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true but [R] is not the correct explanation of [A]",
+    "[A] is true but [R] is false",
+    "[A] is false but [R] is true"
+   ],
+   "a": 0,
+   "e": "Illam Thedi Kalvi uses volunteers to give remedial lessons near students' homes to close Covid-era learning gaps.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Schemes"
+  },
+  {
+   "q": "Which of the following statement(s) is/are true about “The Mandal Commission Report”?\n(i) The commission used Three indicators i.e. Social, Educational and Economic.\n(ii) In social indicator there were five criteria and educational indicators there were two criteria.\n(iii) In economic indicator there were four criteria. Thus there were 11 criteria used in the Mandal Commission Report.",
+   "o": [
+    "(i) only",
+    "(i) and (iii) only",
+    "(i) and (ii) only",
+    "(ii) and (iii) only"
+   ],
+   "a": 1,
+   "e": "Mandal used 11 indicators: 4 social, 3 educational and 4 economic, so statement (ii) is wrong.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "What was the cause for high inflation in India?",
+   "o": [
+    "High demand",
+    "Weaken rupee against the dollar",
+    "Low production",
+    "Low money supply"
+   ],
+   "a": 1,
+   "e": "The official key attributes the high inflation to the weakening rupee against the dollar, which raises import costs.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Arrange poverty eradication schemes in chronological order.\n1. National Rural Livelihood Mission\n2. Rajiv Awas Yojana\n3. Bharat Nirman Yojana\n4. National Food Security Scheme",
+   "o": [
+    "1 2 4 3",
+    "3 1 4 2",
+    "3 2 1 4",
+    "2 3 4 1"
+   ],
+   "a": 2,
+   "e": "Bharat Nirman (2005), Rajiv Awas Yojana (2009), NRLM (2011) and the National Food Security Act (2013) is the order.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Which of the following is incorrectly paired?\n(1) MFAL – Marginal Farmers and Agricultural Labourer Development Agency\n(2) DPAP – Drought Prone Area Programme\n(3) DDP – District Development Programme\n(4) HDA – Hills Development Agencies",
+   "o": [
+    "(1) and (2)",
+    "(1) and (3)",
+    "(3) and (4)",
+    "(2) and (3)"
+   ],
+   "a": 2,
+   "e": "DDP is the Desert Development Programme and HDA stands for Hill Area Development, so (3) and (4) are wrongly expanded.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Kokkokka Koompum Paruvaththu Matradhan\nKuththokka Seerththa Itaththu\nAs Heron with folded wing, so wait in waiting hour; As Heron snaps its prey, when fortune smiles, put forth your power - Denotes.\n(1) To act like a Heron is incorrect.\n(2) You must wait till the Time Ripens.\n(3) This Kural appears in the Chapter titled “Therinthu Thelithal”.\n(4) “Vaadiyirukkumaam Kokku” is the phrase best suited to this Thirukkural.",
+   "o": [
+    "(1) – Right (2) – Wrong (3) – Wrong (4) – Wrong",
+    "(1) – Wrong (2) – Right (3) – Right (4) – Wrong",
+    "(1) – Wrong (2) – Right (3) – Wrong (4) – Right",
+    "(1) – Right (2) – Wrong (3) – Right (4) – Right"
+   ],
+   "a": 2,
+   "e": "The kural advises waiting like a heron for the right time (a waiting heron, \"vaadiyirukkumaam kokku\"); it is in \"Kaalamarithal\", not \"Therinthu Thelithal\".",
+   "section": "State GK",
+   "topic": "Thirukkural"
+  },
+  {
+   "q": "“Manaththodu vaiymai mozhiyin thavaththodu\nThaananj Seiyvaarin Thalai”.\nStatement 1 : Those who speak the TRUTH are always more superior than those who practice charity or penance.\nStatement 2 : Those who practice charity and penance are far better than who speak the TRUTH.",
+   "o": [
+    "Statement 1 – Correct",
+    "Statement 2 – Correct",
+    "Statement 1 and 2 – Correct",
+    "Statement 1 and 2 – Incorrect"
+   ],
+   "a": 0,
+   "e": "The kural says one who speaks truth from the heart is greater than those who do penance and charity.",
+   "section": "State GK",
+   "topic": "Thirukkural"
+  },
+  {
+   "q": "Match the following :\n(a) Iyotheethass Pandithar  1. Tahdhip-ul-Akhluq\n(b) Ramalinga Adigal  2. Gulamgiri\n(c) Jotiba Phule  3. Thiruvarutpa\n(d) Syed Ahmed Khan  4. Oru Paisa Tamilan",
+   "o": [
+    "(a)-1, (b)-2, (c)-3, (d)-4",
+    "(a)-4, (b)-3, (c)-2, (d)-1",
+    "(a)-4, (b)-3, (c)-1, (d)-2",
+    "(a)-1, (b)-2, (c)-4, (d)-3"
+   ],
+   "a": 1,
+   "e": "Iyothee Thass ran Oru Paisa Tamilan, Ramalinga wrote Thiruvarutpa, Phule wrote Gulamgiri and Syed Ahmed Khan published Tahdhib-ul-Akhlaq.",
+   "section": "General Studies",
+   "topic": "Social Reformers"
+  },
+  {
+   "q": "Assertion [A] : K.M. Balasubramanian, author of South Indian Celebrities compared Dr. C. Natesa Mudaliyar to Mahathma Gandhi.\nReason [R] : He was the epitome of love, character, tolerance, compromise and he was the heart of Justice Party.",
+   "o": [
+    "[A] is true but [R] is false",
+    "Both [A] and [R] are true and [R] is the correct explanation of [A]",
+    "[A] is false [R] is true",
+    "Both [A] and [R] are true but [R] is not the correct explanation of [A]"
+   ],
+   "a": 1,
+   "e": "C. Natesa Mudaliar, a founder of the Justice movement, was praised as its heart for his tolerance and character, hence the comparison.",
+   "section": "State GK",
+   "topic": "Justice Party"
+  },
+  {
+   "q": "Which of the following statements are true about Ramalinga Adigal?\n(i) He said that apart from musical Instruments the mind should unite.\n(ii) He started night schools for farmers.\n(iii) He said that through human charity one should get full benefit in life and be one with God.",
+   "o": [
+    "(i) only",
+    "(i) and (iii) only",
+    "(i) and (ii) only",
+    "(ii) and (iii) only"
+   ],
+   "a": 1,
+   "e": "Vallalar stressed unity of the mind in worship and service to living beings (jeevakarunyam) as the path to God; night schools are not attributed to him.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Social Reform"
+  },
+  {
+   "q": "Assertion [A] : In 1930 Muthulakshmi Ammaiyar introduced in the Madras Legislative Council a Bill on the prevention of the dedication of woman of Hindu temples in the ‘Presidency of Madras’.\nReason [R] : The Bill which later became the Devadasi Abolition Act, declared the “Pottukattu Ceremony” Illegal.",
+   "o": [
+    "[A] is true but [R] is false",
+    "[A] is false but [R] is true",
+    "Both [A] and [R] are true and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true but [R] is not the correct explanation of [A]"
+   ],
+   "a": 2,
+   "e": "Dr. Muthulakshmi Reddy moved the bill against dedicating girls to temples; it became the Devadasi Abolition Act, which outlawed the pottukattu ceremony.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Social Reform"
+  },
+  {
+   "q": "Assertion [A] : Under the leadership of Rajaji, Congress decided to boycott Simon Commission in Chennai.\nReason [R] : The Simon Commission had only Whitemen as members that is no Indians.",
+   "o": [
+    "[A] is true, [R] is false",
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "[A] is false, [R] is true",
+    "Both [A] and [R] are true, and [R] is not the correct explanation of [A]"
+   ],
+   "a": 2,
+   "e": "The Simon Commission had only British members, hence the boycott; per the key, the Madras boycott was led by S. Satyamurti, not Rajaji.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Freedom Movement"
+  },
+  {
+   "q": "Match the Works/Books with the author's :\n(a) Vetriverkai  1. Avaiyar\n(b) Nanneri  2. Kumara Kurubarar\n(c) Neethinerivilakam  3. Athiveerarama Pandiyar\n(d) Nalvazhi  4. Duraimangalam Sivaprakasar",
+   "o": [
+    "(a)-1, (b)-3, (c)-4, (d)-2",
+    "(a)-1, (b)-4, (c)-2, (d)-3",
+    "(a)-3, (b)-4, (c)-2, (d)-1",
+    "(a)-3, (b)-4, (c)-1, (d)-2"
+   ],
+   "a": 2,
+   "e": "Vetriverkai is by Athiveerarama Pandiyan, Nanneri by Sivaprakasar, Neethineri Vilakkam by Kumaraguruparar and Nalvazhi by Avvaiyar.",
+   "section": "State GK",
+   "topic": "Tamil Literature"
+  },
+  {
+   "q": "Match correctly the Excavated places with their corresponding Districts.\n(a) Azhagankulam  1. Sivagangai\n(b) Vasavasamudram  2. Erode\n(c) Kodumanal  3. Kanchipuram\n(d) Keezhadi  4. Ramanathapuram",
+   "o": [
+    "(a)-1, (b)-4, (c)-3, (d)-2",
+    "(a)-4, (b)-2, (c)-3, (d)-1",
+    "(a)-3, (b)-1, (c)-2, (d)-4",
+    "(a)-4, (b)-3, (c)-2, (d)-1"
+   ],
+   "a": 3,
+   "e": "Azhagankulam is in Ramanathapuram, Vasavasamudram in Kanchipuram, Kodumanal in Erode and Keezhadi in Sivagangai.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Archaeology"
+  },
+  {
+   "q": "Match the diseases in Column I with the site of infection in Column II :\n(a) Dengue  1. Intestine, Brain\n(b) Polio myelitis  2. Skin and Blood\n(c) Measels  3. Respiratory tract and Nervous system\n(d) Chicken Pox  4. Skin and Respiratory tract",
+   "o": [
+    "(a)-2, (b)-1, (c)-4, (d)-3",
+    "(a)-2, (b)-1, (c)-3, (d)-4",
+    "(a)-2, (b)-4, (c)-3, (d)-1",
+    "(a)-1, (b)-3, (c)-2, (d)-4"
+   ],
+   "a": 0,
+   "e": "Per the official key, dengue affects skin and blood, polio the intestine and brain, measles the skin and respiratory tract, and chickenpox the respiratory and nervous systems.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Assertion [A] : Cobalt-60 is useful in Cancer therapy.\nReason [R] : Cobalt-60 is source of γ-radiations capable of killing cancerous cells.",
+   "o": [
+    "Both [A] and [R] are correct and the [R] is a correct explanation of the [A]",
+    "Both [A] and [R] are correct but the [R] is not a correct explanation of the [A]",
+    "[A] is correct but [R] is incorrect",
+    "Both [A] and [R] are incorrect"
+   ],
+   "a": 0,
+   "e": "Cobalt-60 emits gamma rays that destroy cancer cells, which is why it is used in radiotherapy.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "In Tamil Nadu, Vidiyal Payanam Scheme introduced in the month of",
+   "o": [
+    "May, 2021",
+    "December, 2021",
+    "March, 2022",
+    "October, 2021"
+   ],
+   "a": 0,
+   "e": "The Vidiyal Payanam free bus travel scheme for women was launched in May 2021.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Schemes"
+  },
+  {
+   "q": "Assertion [A] : Climate, Relief, Soil and Natural resources are influencing the distribution of population.\nReason [R] : Birth and death rate does not affect the distribution of population.",
+   "o": [
+    "[A] is true, but [R] is false",
+    "[A] is false, but [R] is true",
+    "Both [A] and [R] are true, and [R] is the correct explanation of [A]",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]"
+   ],
+   "a": 0,
+   "e": "Physical factors shape population distribution; birth and death rates also affect it, so [R] is false.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Match the following (Shifting cultivation – Region) :\n(a) Ladang  1. Malaysia\n(b) Milpa  2. Vietnam\n(c) Roca  3. Brazil\n(d) Ray  4. Mexico",
+   "o": [
+    "(a)-1, (b)-4, (c)-3, (d)-2",
+    "(a)-3, (b)-4, (c)-1, (d)-2",
+    "(a)-4, (b)-2, (c)-3, (d)-1",
+    "(a)-2, (b)-3, (c)-4, (d)-1"
+   ],
+   "a": 0,
+   "e": "Ladang is the Malaysian, Milpa the Mexican, Roca the Brazilian and Ray the Vietnamese name for shifting cultivation.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Match the following (Author – Work) :\n(a) Amoghavarsha  1. Mahapurana\n(b) Jinasena  2. Kavirajamarga\n(c) Gunabhadra  3. Kadambari\n(d) Bana  4. Adipurana",
+   "o": [
+    "(a)-2, (b)-4, (c)-3, (d)-1",
+    "(a)-2, (b)-4, (c)-1, (d)-3",
+    "(a)-2, (b)-3, (c)-4, (d)-1",
+    "(a)-2, (b)-3, (c)-1, (d)-4"
+   ],
+   "a": 1,
+   "e": "Amoghavarsha wrote Kavirajamarga, Jinasena Adipurana, Gunabhadra Mahapurana (Uttarapurana) and Banabhatta Kadambari.",
+   "section": "General Studies",
+   "topic": "Medieval India"
+  },
+  {
+   "q": "Which of the following statements are true about Velu Nachiyar?\n(i) Velu Nachiyar was the daughter of Chellamuthu Sethupathi, King of Sivagangai.\n(ii) Velu Nachiyar's husband was assassinated by the Nawab Army and to attack the Nawab and British. She joined with Gopal Naicker and Hyder Ali.\n(iii) In 1790, she died due to illness.",
+   "o": [
+    "(ii) only",
+    "(i) and (iii)",
+    "(i) and (ii)",
+    "(ii) and (iii)"
+   ],
+   "a": 0,
+   "e": "Velu Nachiyar was the daughter of the Ramanathapuram king and died in 1796; her alliance with Gopala Nayakkar and Hyder Ali is correct.",
+   "section": "State GK",
+   "topic": "Tamil Nadu History"
+  },
+  {
+   "q": "Which of the following points were accepted in Gandhi-Irwin Pact?\n(i) People allowed to make salt for their consumption.\n(ii) Not releasing the political prisoners who had not indulged in violence.\n(iii) Permitted picketing of foreign cloth shops.\n(iv) Reduced the death sentence of Bhagat Singh and his Comrades.",
+   "o": [
+    "(i) and (ii) only",
+    "(i) and (iii) only",
+    "(ii) and (iii) only",
+    "(ii) and (iv) only"
+   ],
+   "a": 1,
+   "e": "The 1931 pact allowed salt-making for personal use and peaceful picketing of liquor and foreign cloth shops; it did not commute Bhagat Singh's sentence.",
+   "section": "General Studies",
+   "topic": "Modern India"
+  },
+  {
+   "q": "Consider the following statements and identify the correct answer :\n(1) In 1918, Madurai Harvi Mill labours strike happened.\n(2) B.B. Wadhiya was the labour union leader of Madurai Harvi Mill.\n(3) Dr. P. Varadharajulu's speech was an eye opener to the government.\n(4) Dr. P. Varadharajulu was the Author of “Prabanja Mitran” Magazine.",
+   "o": [
+    "(1) only",
+    "(2) only",
+    "(1), (3) and (4) only",
+    "(1), (2) and (3) only"
+   ],
+   "a": 2,
+   "e": "The 1918 Madurai Harvey Mill strike drew attention through Dr. Varadarajulu Naidu, who also ran Prapancha Mitran; B.P. Wadia led the Madras Labour Union, not Madurai.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Freedom Movement"
+  },
+  {
+   "q": "False statements about Subhas Chandra Bose are:\n(i) Subhas Chandra Bose was born on 23rd January 1897, in Calcutta, West Bengal.\n(ii) The Government of India has declared his birthday, 23rd January as “Parakram Diwas”.\n(iii) To honour of Subhas Chandra Bose's legacy, 23rd January is a National holiday.",
+   "o": [
+    "(iii) only",
+    "(i) and (ii) only",
+    "(ii) and (iii) only",
+    "(i) and (iii) only"
+   ],
+   "a": 3,
+   "e": "Bose was born in Cuttack (Odisha), and 23 January is observed as Parakram Diwas, not a national holiday.",
+   "section": "General Studies",
+   "topic": "Modern India"
+  },
+  {
+   "q": "Match the Presidents listed below with the distinguished guests who attended the Republic Day celebrations held under their leadership.\n(a) Droupadi Murmu  1. Cyril Ramaphosa\n(b) A.P.J. Abdul Kalam  2. Prabowo Subianto\n(c) Pranab Mukherjee  3. Vladimir Putin\n(d) Ram Nath Kovind  4. Barack Obama",
+   "o": [
+    "(a)-1, (b)-4, (c)-3, (d)-2",
+    "(a)-2, (b)-3, (c)-4, (d)-1",
+    "(a)-3, (b)-4, (c)-1, (d)-2",
+    "(a)-4, (b)-2, (c)-3, (d)-1"
+   ],
+   "a": 1,
+   "e": "Prabowo Subianto was chief guest in 2025 (Murmu), Putin in 2007 (Kalam), Obama in 2015 (Pranab), and Ramaphosa in 2019 (Kovind).",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Directorate of Vigilance and Anti-corruption Tamil Nadu Toll free No. is :\n(1) 1062 and 1963\n(2) 1064 and 1965\n(3) 1066 and 1967\n(4) 1068 and 1969",
+   "o": [
+    "(4)",
+    "(2)",
+    "(1)",
+    "(3)"
+   ],
+   "a": 1,
+   "e": "Per the official key, the DVAC toll-free numbers are 1064 and 1965.",
+   "section": "State GK",
+   "topic": "Tamil Nadu Administration"
+  },
+  {
+   "q": "Find out the correct statements on election\n(i) In all the states elections EVMS were used in 2003.\n(ii) The commission took a historic decision to use only EVMS for the Lok Sabha election in 2004.\n(iii) Two million EVMS were used in this elections.",
+   "o": [
+    "(i) only",
+    "(i) and (iii) only",
+    "(i) and (ii) only",
+    "(ii) and (iii) only"
+   ],
+   "a": 2,
+   "e": "EVMs were used in all state polls by 2003 and exclusively in the 2004 Lok Sabha election; per the key, the 2-million figure is not correct.",
+   "section": "General Studies",
+   "topic": "Elections"
+  },
+  {
+   "q": "Choose the right matches (Committees – Chairman) :\n(1) Committee on Panchayat Raj Election – K. Santhanam\n(2) Committee on Rationalisation of Panchayat statistics – G. Ramachandran\n(3) Committee on Panchayat Raj Training centres – V.K. Rao\n(4) Study team on Panchayat Raj Administration – V. Iswaran",
+   "o": [
+    "(1) and (3) are correct",
+    "(1) and (4) are correct",
+    "(2) and (3) are correct",
+    "(3) and (4) are correct"
+   ],
+   "a": 1,
+   "e": "K. Santhanam headed the committee on Panchayat Raj elections (1965) and V. Iswaran the study team on PR administration.",
+   "section": "General Studies",
+   "topic": "Local Government"
+  },
+  {
+   "q": "The correct statements on the Directive principles of state policy are\n(i) The Directive principles of the state policy are provided in Article 36 to 51 of the constitution.\n(ii) The framers of the constitution borrowed this idea from the Spanish constitution.\n(iii) The Directive principles form the soul of the constitution.",
+   "o": [
+    "(i) only",
+    "(i) and (iii) only",
+    "(i) and (ii) only",
+    "(ii) and (iii) only"
+   ],
+   "a": 0,
+   "e": "DPSPs are in Articles 36-51; they were borrowed from the Irish (not Spanish) constitution, and the final key rejects the \"soul\" claim.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Assertion [A] : Indian constitution is federal in nature.\nReason [R] : Indian constitution provides dual citizenship like United States of America.",
+   "o": [
+    "[A] is false [R] is true",
+    "Both [A] and [R] are true; and [R] is the correct explanation of [A]",
+    "[A] is true [R] is false",
+    "Both [A] and [R] are true but [R] is not the correct explanation of [A]"
+   ],
+   "a": 2,
+   "e": "India is federal with a unitary bias but has only single citizenship, unlike the USA.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Assertion [A] : Indian constitution has the qualities of both rigid and flexible.\nReason [R] : The constitution was amended more than 100 times without changing the foundations of the constitution.",
+   "o": [
+    "[A] is true but [R] is false",
+    "Both [A] and [R] are true; and [R] is the correct explanation of [A]",
+    "[A] is false, but [R] is true",
+    "Both [A] and [R] are true, but [R] is not the correct explanation of [A]"
+   ],
+   "a": 1,
+   "e": "More than 100 amendments without disturbing the basic structure show the Constitution's blend of rigidity and flexibility.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "A person distributes his pens among four friends A, B, C and D in the ratio 1/3 : 1/4 : 1/5 : 1/6, then the minimum number of pens that the person should have is ________.",
+   "o": [
+    "23",
+    "55",
+    "57",
+    "65"
+   ],
+   "a": 2,
+   "e": "LCM of 3, 4, 5, 6 is 60, so the ratio becomes 20:15:12:10, giving a minimum of 57 pens.",
+   "section": "Aptitude",
+   "topic": "Ratio"
+  },
+  {
+   "q": "If the ratios formed using the numbers 2, 5, x, 20 are in the same order of proportion, then the value of x is",
+   "o": [
+    "50",
+    "10",
+    "8",
+    "4"
+   ],
+   "a": 2,
+   "e": "2 : 5 = x : 20 gives x = 8.",
+   "section": "Aptitude",
+   "topic": "Proportion"
+  },
+  {
+   "q": "If the HCF of 108 and 234 is expressible of the form 23x − 51 then what is the value of x?",
+   "o": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "a": 0,
+   "e": "HCF(108, 234) = 18; 23x − 51 = 18 gives x = 3.",
+   "section": "Aptitude",
+   "topic": "HCF"
+  },
+  {
+   "q": "Find the HCF of the polynomials x³ + x² − x + 2 and 2x³ − 5x² + 5x − 3.",
+   "o": [
+    "x² − x + 1",
+    "x² + x − 1",
+    "−7x² + 7x − 7",
+    "7x² − 7x + 7"
+   ],
+   "a": 0,
+   "e": "Both polynomials have the factor x² − x + 1: (x + 2)(x² − x + 1) and (2x − 3)(x² − x + 1).",
+   "section": "Aptitude",
+   "topic": "Algebra"
+  },
+  {
+   "q": "Simplify : (4⁻¹ + 4⁻² + 4⁻³)⁰ × (4⁻¹ + 4⁻² + 4⁻³)¹.",
+   "o": [
+    "63/19",
+    "19/63",
+    "21/64",
+    "64/21"
+   ],
+   "a": 2,
+   "e": "Anything to the power 0 is 1, and 1/4 + 1/16 + 1/64 = 21/64.",
+   "section": "Aptitude",
+   "topic": "Indices"
+  },
+  {
+   "q": "The average mark of 25 students was found to be 78.4. Later on, it was found that score of 96 was misread as 69. Find the correct mean of the marks.",
+   "o": [
+    "77.32",
+    "79.48",
+    "78.42",
+    "78.24"
+   ],
+   "a": 1,
+   "e": "The total rises by 96 − 69 = 27, so the mean rises by 27/25 = 1.08 to 79.48.",
+   "section": "Aptitude",
+   "topic": "Average"
+  },
+  {
+   "q": "D, F, G, H, I and M are sitting in a row. I and M are in the centre, and F and D are at the beginning and at the end. G is sitting on the left of D. Then who is sitting on the right of F?",
+   "o": [
+    "H",
+    "I",
+    "M",
+    "G"
+   ],
+   "a": 0,
+   "e": "Order: F, H, I/M, M/I, G, D, so H sits right of F.",
+   "section": "Reasoning",
+   "topic": "Seating Arrangement"
+  },
+  {
+   "q": "If A = 26, SUN = 27, then CAT = ?",
+   "o": [
+    "24",
+    "27",
+    "57",
+    "58"
+   ],
+   "a": 2,
+   "e": "Letters take reverse values (A = 26, Z = 1): S8 + U6 + N13 = 27, so C24 + A26 + T7 = 57.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "If a ≠ b ≠ c is given, which one of the following is correct?",
+   "o": [
+    "b ≠ a ≠ c",
+    "a, b, c are distinct",
+    "a = b = c",
+    "a ≠ c or a = c"
+   ],
+   "a": 3,
+   "e": "a ≠ b and b ≠ c do not fix the relation between a and c, so a ≠ c or a = c.",
+   "section": "Reasoning",
+   "topic": "Logic"
+  },
+  {
+   "q": "The missing term in the given alpha-numeric series is 2 X 2, 7 T 4, 14 P 12, 23 L 48, ________.",
+   "o": [
+    "34 H 240",
+    "34 H 144",
+    "30 H 100",
+    "30 H 120"
+   ],
+   "a": 0,
+   "e": "First numbers add 5, 7, 9, 11 to give 34, letters go back 4 to H, and last numbers multiply by 2, 3, 4, 5 to give 240.",
+   "section": "Reasoning",
+   "topic": "Alpha-numeric Series"
+  },
+  {
+   "q": "Two unbiased dice are rolled once. Find the probability of getting the product of face value is 4 or the difference of the face value is 5.",
+   "o": [
+    "1/12",
+    "5/36",
+    "1/9",
+    "7/36"
+   ],
+   "a": 1,
+   "e": "Product 4: (1,4), (4,1), (2,2); difference 5: (1,6), (6,1); so 5/36.",
+   "section": "Aptitude",
+   "topic": "Probability"
+  }
+ ]
+}
