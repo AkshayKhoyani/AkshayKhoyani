@@ -19,7 +19,7 @@ MARKETS = {
  "usa": dict(
    slug="bulk-food-ingredient-powder-supplier-usa", country="USA", place="the USA", people="US",
    title="Bulk Food Ingredient Powders Supplier for USA Importers",
-   seo_title="Bulk Ingredient Powders Supplier for USA Importers | TradeNest",
+   seo_title="Bulk Ingredient Powders Supplier for USA Importers | Tradenest",
    desc="Dehydrated, spray dried, spice and botanical powders from India for US food manufacturers, brands and importers. MOQ 5 Kg, private label, samples.",
    buyers=["Food and beverage manufacturers", "Seasoning and spice blenders", "Supplement and wellness brands", "Private label and Amazon / DTC brands", "Ethnic and Indian grocery importers", "Distributors and ingredient traders"],
    products=[("premium-moringa-leaf-powder-manufacturers-exporters-tradenest-naturals","Moringa Leaf Powder"),("ashwagandha-powder-price-per-kg-bulk-exporter-manufacturer","Ashwagandha Powder"),("turmeric-powder-wholesale-price-80-mesh-bulk-turmeric-powder","Turmeric Powder"),("onion-powder-price-per-kg-premium-dehydrated-onion-powder-manufacturer-india","Dehydrated Onion Powder"),("premium-spray-dried-garlic-powder-supplier-bulk-wholesale-solutions","Spray Dried Garlic Powder"),("tomato-powder-price-dehydrated-tomato-powder-supplier","Tomato Powder"),("premium-spray-dried-beetroot-powder","Spray Dried Beetroot Powder"),("premium-spray-dried-mango-alphonso-powder","Alphonso Mango Powder")],
@@ -29,7 +29,7 @@ MARKETS = {
  "uk": dict(
    slug="bulk-food-ingredient-powder-supplier-uk", country="UK", place="the UK", people="UK",
    title="Bulk Food Ingredient Powders Supplier for UK Importers",
-   seo_title="Bulk Ingredient Powders Supplier for UK Importers | TradeNest",
+   seo_title="Bulk Ingredient Powders Supplier for UK Importers | Tradenest",
    desc="Dehydrated, spray dried, spice and botanical powders from India for UK food manufacturers, brands and wholesalers. MOQ 5 Kg, private label, samples.",
    buyers=["Food manufacturers and co-packers", "Spice, curry and seasoning blenders", "Health food and supplement brands", "Private label and online brands", "Asian and world-food wholesalers", "Ingredient distributors"],
    products=[("turmeric-powder-wholesale-price-80-mesh-bulk-turmeric-powder","Turmeric Powder"),("dehydrated-red-chilli-powder-manufacturer-and-exporter","Red Chilli Powder"),("coriander-powder-hs-code-09092200-bulk-ground-coriander","Coriander Powder"),("chai-masala-powder-bulk-chai-masala-powder-supplier-india","Chai Masala Powder"),("premium-moringa-leaf-powder-manufacturers-exporters-tradenest-naturals","Moringa Leaf Powder"),("ashwagandha-powder-price-per-kg-bulk-exporter-manufacturer","Ashwagandha Powder"),("onion-powder-price-per-kg-premium-dehydrated-onion-powder-manufacturer-india","Dehydrated Onion Powder"),("premium-dehydrated-kasuri-methi-supplier-india-tradenest-naturals","Kasuri Methi")],
@@ -39,7 +39,7 @@ MARKETS = {
  "canada": dict(
    slug="bulk-food-ingredient-powder-supplier-canada", country="Canada", people="Canadian",
    title="Bulk Food Ingredient Powders Supplier for Canadian Importers",
-   seo_title="Bulk Ingredient Powders Supplier for Canada Importers | TradeNest",
+   seo_title="Bulk Ingredient Powders Supplier for Canada Importers | Tradenest",
    desc="Dehydrated, spray dried, spice and botanical powders from India for Canadian food manufacturers, brands and importers. MOQ 5 Kg, private label, samples.",
    buyers=["Food and snack manufacturers", "Seasoning and spice blenders", "Natural health and wellness brands", "Private label and online brands", "South Asian grocery importers", "Distributors and ingredient traders"],
    products=[("premium-moringa-leaf-powder-manufacturers-exporters-tradenest-naturals","Moringa Leaf Powder"),("turmeric-powder-wholesale-price-80-mesh-bulk-turmeric-powder","Turmeric Powder"),("ashwagandha-powder-price-per-kg-bulk-exporter-manufacturer","Ashwagandha Powder"),("onion-powder-price-per-kg-premium-dehydrated-onion-powder-manufacturer-india","Dehydrated Onion Powder"),("dehydrated-potato-powder-supplier-bulk-potato-powder-80-mesh","Dehydrated Potato Powder"),("premium-spray-dried-beetroot-powder","Spray Dried Beetroot Powder"),("premium-spray-dried-strawberry-powder","Spray Dried Strawberry Powder"),("chai-masala-powder-bulk-chai-masala-powder-supplier-india","Chai Masala Powder")],
@@ -57,14 +57,14 @@ def page(m):
       (f"What is your minimum order quantity for {pl}?", "Our MOQ is 5 Kg per product, so you can trial an ingredient before ordering in bulk. Larger volumes are quoted per order."),
       ("Can I get samples before ordering?", "Yes. Samples are available on request and are usually sent by courier."),
       ("Do you offer private label packing?", "Yes. We supply bulk bags and can pack in smaller private label pouches and jars for your brand."),
-      ("Which licences do you hold?", "TradeNest Naturals is an FSSAI licensed food business and holds an Import Export Code (IEC) from the Government of India. We also provide export documentation support."),
+      ("Which licences do you hold?", "Tradenest Naturals is an FSSAI licensed food business and holds an Import Export Code (IEC) from the Government of India. We also provide export documentation support."),
       ("How do I get a price?", "Send the product, quantity, mesh or grade, packing and destination port to export@tradenestnaturals.com or WhatsApp +91 92651 28276. We reply with a quote, usually within one business day."),
     ]
     faqh = "".join(f"<h3>{q}</h3><p>{ans}</p>" for q, ans in faq)
-    return f"""<p><strong>TradeNest Naturals</strong> is a manufacturer and exporter of dehydrated, spray dried, spice and botanical powders based in Surat, India. We supply {m['people']} food manufacturers, brands, importers and distributors with consistent bulk ingredients, from a 5 Kg trial order to full container loads.</p>
+    return f"""<p><strong>Tradenest Naturals</strong> is a manufacturer and exporter of dehydrated, spray dried, spice and botanical powders based in Surat, India. We supply {m['people']} food manufacturers, brands, importers and distributors with consistent bulk ingredients, from a 5 Kg trial order to full container loads.</p>
 <p><strong>Request a quote:</strong> {a('mailto:export@tradenestnaturals.com','export@tradenestnaturals.com')} | WhatsApp {a('https://wa.me/919265128276','+91 92651 28276')}</p>
 
-<h2>Why {c} buyers source from TradeNest Naturals</h2>
+<h2>Why {c} buyers source from Tradenest Naturals</h2>
 <ul>
 <li><strong>Low MOQ of 5 Kg</strong>: test a product with your team before committing to volume.</li>
 <li><strong>80+ ingredients from one supplier</strong>: consolidate fruit, vegetable, spice and herbal powders in one shipment.</li>
@@ -100,7 +100,7 @@ def page(m):
 {faqh}
 
 <h2>Get a quote for {pl}</h2>
-<p>Email {a('mailto:export@tradenestnaturals.com','export@tradenestnaturals.com')}, message us on WhatsApp at {a('https://wa.me/919265128276','+91 92651 28276')}, or use our {a(S+'/contact/','contact page')}. TradeNest Naturals, Ashirwad Embro Park-1, Plot No. 1, 4th Floor, Saniya Hemad, Surat, Gujarat 395006, India.</p>
+<p>Email {a('mailto:export@tradenestnaturals.com','export@tradenestnaturals.com')}, message us on WhatsApp at {a('https://wa.me/919265128276','+91 92651 28276')}, or use our {a(S+'/contact/','contact page')}. Tradenest Naturals, Ashirwad Embro Park-1, Plot No. 1, 4th Floor, Saniya Hemad, Surat, Gujarat 395006, India.</p>
 """
 
 def curl(method, url, data):

@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.3.0
+ * Version: 1.4.0
  *
  * @package Tradenest
  */
@@ -24,7 +24,7 @@ function tn_bridge_real_certifications() {
  * Words that indicate a certification/claim the business does not hold.
  */
 function tn_bridge_is_unverified_claim( $text ) {
-	return (bool) preg_match( '/\b(ISO|HACCP|GMP|APEDA|Spices\s*Board|BRC|BRCGS|IFS|Halal|Kosher|USDA|NPOP|Organic|FDA|Kosher|SGS)\b/i', (string) $text );
+	return (bool) preg_match( '/\b(ISO|HACCP|GMP|APEDA|Spices\s*Board|BRC|BRCGS|IFS|Halal|Kosher|USDA|NPOP|Organic|FDA|SGS|Non-?GMO|GMO|Lab\s*Tested|Laboratory|100\s*%|COA)\b/i', (string) $text );
 }
 
 // 1) Theme default certification list (used when a product has none).
@@ -129,7 +129,7 @@ add_action(
 	20
 );
 
-// 7) Brand logo (media ID 751 = TradeNest Naturals logo) in the header via the theme's custom-logo support.
+// 7) Brand logo (media ID 751 = Tradenest Naturals logo) in the header via the theme's custom-logo support.
 define( 'TN_BRIDGE_LOGO_ID', 751 );
 add_filter(
 	'theme_mod_custom_logo',
@@ -157,7 +157,7 @@ add_action(
 		?>
 <script id="tn-bridge-footer-logo">
 (function(){var f=document.querySelector('footer[role="contentinfo"] .lg\\:col-span-4 > .flex.items-center');
-if(!f){return;}var i=document.createElement('img');i.src=<?php echo wp_json_encode( esc_url( $src ) ); ?>;i.alt='TradeNest Naturals';i.className='tn-footer-logo';i.loading='lazy';
+if(!f){return;}var i=document.createElement('img');i.src=<?php echo wp_json_encode( esc_url( $src ) ); ?>;i.alt='Tradenest Naturals';i.className='tn-footer-logo';i.loading='lazy';
 f.innerHTML='';f.appendChild(i);}());
 </script>
 		<?php
@@ -226,9 +226,277 @@ add_action(
 	function () {
 		?>
 <script id="tn-bridge-a11y-js">
-(function(){document.querySelectorAll('a[href*="wa.me/"]').forEach(function(a){if(!a.textContent.trim()&&!a.getAttribute('aria-label')){a.setAttribute('aria-label','Chat with TradeNest Naturals on WhatsApp');}});
+(function(){document.querySelectorAll('a[href*="wa.me/"]').forEach(function(a){if(!a.textContent.trim()&&!a.getAttribute('aria-label')){a.setAttribute('aria-label','Chat with Tradenest Naturals on WhatsApp');}});
 document.querySelectorAll('textarea:not([aria-label]),input:not([type=hidden]):not([aria-label])').forEach(function(el){if(el.id&&document.querySelector('label[for="'+el.id+'"]')){return;}if(el.closest('label')){return;}
 var t=el.getAttribute('placeholder')||(el.name==='message'?'Your message':el.id==='tn-fresh'?'Fresh weight (kg)':el.name);if(t){el.setAttribute('aria-label',t);}});}());
+</script>
+		<?php
+	},
+	99
+);
+
+// 12) Export documents line on product pages: only documents we can always provide.
+add_filter(
+	'tradenest_export_docs',
+	function () {
+		return array( 'Commercial invoice', 'Packing list', 'Spec sheet', 'Certificate of Origin (on request)' );
+	},
+	99
+);
+
+// 13) Default product FAQ (products without their own FAQ): no COA / phytosanitary promise.
+add_filter(
+	'tradenest_default_faq',
+	function ( $faq ) {
+		foreach ( $faq as &$item ) {
+			if ( isset( $item['answer'] ) && false !== stripos( $item['answer'], 'COA' ) ) {
+				$item['answer'] = 'Yes. Samples are available for quality checks, and a product specification sheet is shared with every quotation. Third-party lab testing can be arranged on request.';
+			}
+		}
+		return $faq;
+	},
+	100
+);
+
+/**
+ * Remove sentences that make claims we cannot document (COA, lab/microbial/heavy-metal testing, GMP, Non-GMO, 100%).
+ *
+ * @param string $text Text.
+ * @return string
+ */
+function tn_bridge_clean_claims( $text ) {
+	$re    = '/\b(CO[Aa]|Certificates? of Analysis|heavy metals?|pesticides?|microbial|microbiolog\w*|Salmonella|E\.?\s?coli|aflatoxin|Non-?GMO|GMP|ISO|HACCP|organic|lab[- ]tested|laboratory|100\s?%)\b/i';
+	$parts = preg_split( '/(?<=[.!?])\s+/', (string) $text );
+	$kept  = array();
+	$hit   = false;
+	foreach ( $parts as $sentence ) {
+		if ( preg_match( $re, $sentence ) ) {
+			$hit = true;
+			continue;
+		}
+		$kept[] = $sentence;
+	}
+	$out = trim( implode( ' ', $kept ) );
+	if ( $hit ) {
+		$out = trim( $out . ' A product specification sheet is shared with every quotation, and third-party lab testing can be arranged on request.' );
+	}
+	return $out;
+}
+
+// 14) Per-product FAQ answers and specification rows (ACF): drop undocumented claims and lab-only parameters.
+add_filter(
+	'acf/format_value/name=tn_faq',
+	function ( $rows ) {
+		if ( ! is_array( $rows ) ) {
+			return $rows;
+		}
+		foreach ( $rows as &$row ) {
+			if ( is_array( $row ) && isset( $row['answer'] ) ) {
+				$row['answer'] = tn_bridge_clean_claims( $row['answer'] );
+			}
+		}
+		return $rows;
+	},
+	99
+);
+add_filter(
+	'acf/format_value/name=tn_tech_specs',
+	function ( $rows ) {
+		if ( ! is_array( $rows ) ) {
+			return $rows;
+		}
+		$lab = '/(salmonella|coli|coliform|yeast|mou?ld|plate count|tpc|aerobic|aflatoxin|heavy|lead|arsenic|cadmium|mercury|pesticide|cfu|microb|staph|listeria)/i';
+		$out = array();
+		foreach ( $rows as $row ) {
+			$param = is_array( $row ) && isset( $row['parameter'] ) ? $row['parameter'] : '';
+			$spec  = is_array( $row ) && isset( $row['specification'] ) ? $row['specification'] : '';
+			if ( preg_match( $lab, $param . ' ' . $spec ) || ( preg_match( '/purity/i', $param ) && preg_match( '/100/', $spec ) ) ) {
+				continue;
+			}
+			$out[] = $row;
+		}
+		return $out;
+	},
+	99
+);
+add_filter(
+	'acf/format_value/name=tn_purity',
+	function ( $v ) {
+		return preg_match( '/100/', (string) $v ) ? '' : $v;
+	},
+	99
+);
+
+// 15) Gallery: kit images attached to the product (description "tn-gallery-N") feed the theme's gallery.
+function tn_bridge_gallery_ids( $post_id ) {
+	$kids = get_children(
+		array(
+			'post_parent'    => $post_id,
+			'post_type'      => 'attachment',
+			'post_mime_type' => 'image',
+			'numberposts'    => 20,
+		)
+	);
+	$ids = array();
+	foreach ( $kids as $k ) {
+		if ( preg_match( '/^tn-gallery-(\d+)/', (string) $k->post_content, $m ) ) {
+			$ids[ (int) $m[1] ] = (int) $k->ID;
+		}
+	}
+	ksort( $ids );
+	return array_values( $ids );
+}
+add_filter(
+	'acf/format_value/name=tn_gallery',
+	function ( $v, $post_id ) {
+		$ids = is_numeric( $post_id ) ? tn_bridge_gallery_ids( (int) $post_id ) : array();
+		return $ids ? $ids : $v;
+	},
+	99,
+	2
+);
+add_filter(
+	'acf/load_value/name=tn_gallery',
+	function ( $v, $post_id ) {
+		if ( ! empty( $v ) || ! is_numeric( $post_id ) ) {
+			return $v;
+		}
+		$ids = tn_bridge_gallery_ids( (int) $post_id );
+		return $ids ? $ids : $v;
+	},
+	99,
+	2
+);
+
+// 16) Front-end text fixes in theme templates that have no filter (MOQ, lab/COA promises, purity badges, yield calculator).
+add_action(
+	'template_redirect',
+	function () {
+		if ( is_admin() || wp_doing_ajax() || is_feed() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) ) {
+			return;
+		}
+		ob_start( 'tn_bridge_filter_html' );
+	},
+	99999 // Inner buffer: runs before WP Rocket's page cache stores the HTML.
+);
+function tn_bridge_filter_html( $html ) {
+	if ( false === stripos( (string) $html, '<html' ) ) {
+		return $html;
+	}
+	$map  = array(
+		'Our standard MOQ for international bulk orders is 500 Kg per product line item.' => 'Our MOQ is just 5 Kg per product, so you can trial an ingredient before scaling up.',
+		'Yes! We provide 100g - 250g lab testing samples with complete COA documents to verified food manufacturers, procurement heads, and importers worldwide.' => 'Yes. We send 100g - 250g samples with a product specification sheet to food manufacturers, procurement teams and importers worldwide.',
+		'Our processes follow strict quality control protocols, hygienic stainless-steel batch handling, moisture testing, and comprehensive Certificate of Analysis (COA) verification.' => 'Tradenest Naturals is an FSSAI licensed food business. Every batch is processed hygienically and checked against the agreed specification, and third-party lab testing can be arranged on request.',
+		'Our private label facility packs into' => 'For private label we pack into',
+		'Get proforma pricing, free 250g lab testing samples, and batch COA datasheets.' => 'Get proforma pricing, free samples and product specification sheets.',
+		'Batch Tested &amp; Laboratory Verified' => 'FSSAI Licensed &middot; IEC Registered',
+		'100% Pure Sourcing' => 'Natural Ingredients',
+		'100% Pure Spray Dried &amp; Dehydrated Ingredients' => 'Spray Dried &amp; Dehydrated Ingredients',
+		'500 Kg (Trial Batch)' => '5 - 100 Kg (Trial Order)',
+		'Get spec sheet + sample COA' => 'Get spec sheet &amp; price',
+		'Download spec sheet + COA' => 'Download spec sheet',
+		'Parameters tested on every production batch' => 'Typical specification. Exact values are confirmed with your quotation.',
+		'Test Method / Protocol' => 'Notes',
+		'>Standard Method<' => '>Typical<',
+		'Quality Certifications' => 'Licences &amp; Support',
+		'Ships to worldwide from India' => 'Ships worldwide from India',
+		'Lab testing sample pack available' => 'Samples available on request',
+		'Batch COA &amp; spec sheets attached' => 'Spec sheet shared with every quote',
+		'Batch COA & spec sheets attached' => 'Spec sheet shared with every quote',
+		'Verified food manufacturers receive COA datasheets and complimentary 250g lab testing samples.' => 'Food manufacturers and importers receive product specification sheets and free 100g - 250g samples.',
+		'Dispatch 250g Free Sample &amp; Lab COA' => 'Send me a free sample &amp; spec sheet',
+	);
+	$html = strtr( $html, $map );
+	// Yield calculator (meant for flakes/granules; misleading on powders).
+	$html = preg_replace( '#<!-- Rehydration & yield calculator -->.*?(?=<!-- Spec sheet \+ COA -->)#s', '', $html );
+	// Badges we cannot document (Non-GMO, Lab Tested, 100% ...).
+	$html = preg_replace( '#<span class="text-\[11px\] font-semibold[^"]*"[^>]*>(?:(?!</span>).)*?(?:Non-?GMO|Lab Tested|100\s?%)(?:(?!</span>).)*?</span>#s', '', $html );
+	$html = preg_replace( '#<span class="px-3 py-1 bg-emerald-100[^"]*">\s*100[^<]*</span>#', '', $html );
+	return $html;
+}
+
+// 17) Product structured data (Product schema) for single product pages.
+add_action(
+	'wp_head',
+	function () {
+		if ( ! is_singular( 'product' ) ) {
+			return;
+		}
+		$id     = get_queried_object_id();
+		$images = array();
+		$feat   = get_the_post_thumbnail_url( $id, 'full' );
+		if ( $feat ) {
+			$images[] = $feat;
+		}
+		foreach ( tn_bridge_gallery_ids( $id ) as $gid ) {
+			$u = wp_get_attachment_image_url( $gid, 'full' );
+			if ( $u ) {
+				$images[] = $u;
+			}
+		}
+		$terms = get_the_terms( $id, 'product_category' );
+		$props = array();
+		foreach ( array( 'hs_code' => 'HS Code', 'mesh_size' => 'Mesh size', 'moisture_content' => 'Moisture', 'shelf_life' => 'Shelf life', 'moq' => 'Minimum order quantity' ) as $k => $label ) {
+			$v = function_exists( 'tradenest_pm' ) ? tradenest_pm( $k, $id ) : '';
+			if ( is_string( $v ) && '' !== trim( $v ) ) {
+				$props[] = array( '@type' => 'PropertyValue', 'name' => $label, 'value' => wp_strip_all_tags( $v ) );
+			}
+		}
+		$data = array(
+			'@context'        => 'https://schema.org',
+			'@type'           => 'Product',
+			'name'            => wp_strip_all_tags( get_the_title( $id ) ),
+			'url'             => get_permalink( $id ),
+			'image'           => $images,
+			'description'     => wp_strip_all_tags( get_the_excerpt( $id ) ),
+			'brand'           => array( '@type' => 'Brand', 'name' => 'Tradenest Naturals' ),
+			'manufacturer'    => array( '@type' => 'Organization', 'name' => 'Tradenest Naturals', 'url' => home_url( '/' ) ),
+			'countryOfOrigin' => array( '@type' => 'Country', 'name' => 'India' ),
+		);
+		if ( $terms && ! is_wp_error( $terms ) ) {
+			$data['category'] = $terms[0]->name;
+		}
+		if ( $props ) {
+			$data['additionalProperty'] = $props;
+		}
+		echo '<script type="application/ld+json" id="tn-bridge-product">' . wp_json_encode( $data, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>' . "\n";
+	},
+	20
+);
+
+// 18) Layout polish: compact mobile header, product name first on mobile, one WhatsApp button on product pages, gallery click-to-view.
+add_action(
+	'wp_head',
+	function () {
+		echo '<style id="tn-bridge-layout">'
+			. '@media(max-width:767px){header[role="banner"]>div:first-child{display:none}.single-product [data-whatsapp-widget]{display:none}}'
+			. '[data-whatsapp-tooltip]{display:none!important}'
+			. '@media(max-width:1023px){.single-product main .grid.lg\:grid-cols-12.items-start>.lg\:col-span-7{display:contents}'
+			. '.single-product main .grid.lg\:grid-cols-12.items-start>.lg\:col-span-7>*{order:2}'
+			. '.single-product main .grid.lg\:grid-cols-12.items-start>.lg\:col-span-7>div:first-child{order:0}'
+			. '.single-product main .grid.lg\:grid-cols-12.items-start>.lg\:col-span-5{order:1}}'
+			. '.tn-g-thumb{cursor:pointer;transition:outline-color .2s;outline:2px solid transparent;outline-offset:2px}.tn-g-thumb.is-active{outline-color:#1B4332}'
+			. '</style>' . "\n";
+	},
+	99
+);
+add_action(
+	'wp_footer',
+	function () {
+		if ( ! is_singular( 'product' ) ) {
+			return;
+		}
+		?>
+<script id="tn-bridge-gallery">
+(function(){var main=document.querySelector('main .lg\\:col-span-5 img.wp-post-image');var grid=main&&main.closest('.lg\\:col-span-5').querySelector('.grid.grid-cols-4');if(!main||!grid){return;}
+var first={src:main.currentSrc||main.src,srcset:main.getAttribute('srcset')||''};
+var full=function(u){return u.replace(/-\d+x\d+(\.\w+)$/,'$1');};
+var tiles=[].slice.call(grid.children);
+var mk=function(src,srcset){var d=document.createElement('div');d.className=tiles[0]?tiles[0].className:'';var i=document.createElement('img');i.src=src;i.className='w-full h-full object-cover';i.alt=main.alt;i.loading='lazy';d.appendChild(i);d.dataset.full=src;d.dataset.srcset=srcset;return d;};
+var all=[mk(first.src,first.srcset)];tiles.forEach(function(t){var im=t.querySelector('img');if(im){t.dataset.full=full(im.src);t.dataset.srcset='';all.push(t);}});
+grid.innerHTML='';grid.className='grid grid-cols-5 gap-2';all.forEach(function(t,ix){t.classList.add('tn-g-thumb');if(!ix){t.classList.add('is-active');}t.setAttribute('role','button');t.setAttribute('tabindex','0');
+var go=function(){main.removeAttribute('srcset');main.src=t.dataset.full;if(t.dataset.srcset){main.setAttribute('srcset',t.dataset.srcset);}all.forEach(function(x){x.classList.remove('is-active');});t.classList.add('is-active');};
+t.addEventListener('click',go);t.addEventListener('keydown',function(e){if(e.key==='Enter'){go();}});grid.appendChild(t);});}());
 </script>
 		<?php
 	},
