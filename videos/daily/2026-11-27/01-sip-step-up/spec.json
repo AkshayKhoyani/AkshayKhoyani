@@ -1,0 +1,20 @@
+{
+ "slug": "sip-step-up-10",
+ "sources": "Calculation: ₹5,000/mahina se shuru, 20 saal, 12% saalana (1%/mahina) sirf andaaza, guaranteed nahi. Step-up = har saal SIP 10% badhao. Tax/fees shamil nahi.",
+ "scenes": [
+  {"type": "hook", "tag": "SIP STEP-UP", "tagColor": "gold", "lines": [["SIP har saal 10% badhao,", "text"], ["paisa ~DOUBLE 😮", "green2"]], "sub": "₹50 lakh → ₹99 lakh (20 saal, andaaza)",
+   "voice": "SIP हर_साल|har_saal दस_परसेंट|10% बढ़ाओ,|badhao, और|aur बीस_साल_में|20_saal_mein पैसा|paisa लगभग|lagbhag डबल!|double!"},
+  {"type": "chart", "title": "₹5,000 se shuru, 20 saal 📈", "xlabel": "saal", "xticks": [[0, "0"], [2, "8"], [5, "20"]], "ymax": 105,
+   "series": [{"label": "Step-up 10%", "color": "green", "end": "₹99 L", "points": [0, 3.5, 10.9, 25.1, 51.6, 99.4]},
+              {"label": "Flat ₹5,000", "color": "amber", "end": "₹50 L", "points": [0, 3.1, 8.1, 16.1, 29.1, 50.0]}],
+   "source": "12% andaaza, guaranteed nahi",
+   "voice": "पाँच_हज़ार|₹5,000 की|ki flat SIP, बारह_परसेंट|12% मानो,|maano, तो|toh बीस_साल_में|20_saal_mein करीब|kareeb पचास_लाख।|₹50_lakh. Step-up के_साथ|ke_saath करीब|kareeb निन्यानवे_लाख!|₹99_lakh!"},
+  {"type": "compare", "title": "Par jeb se kitna? 💸", "subtitle": "*12% sirf andaaza",
+   "items": [{"label": "Flat", "sub": "lagaya ₹12 L", "value": 50, "display": "₹50 L", "color": "amber"},
+             {"label": "Step-up", "sub": "lagaya ₹34 L", "value": 99.4, "display": "₹99 L", "color": "green"}],
+   "winner": 1, "winnerText": "₹99 L 🚀",
+   "voice": "हाँ,|Haan, step-up में|mein लगाया|lagaya भी|bhi ज़्यादा:|zyada: चौंतीस_लाख,|₹34_lakh, बारह_की|12_ki जगह।|jagah. पर|Par salary बढ़े,|badhe, तो|toh SIP भी|bhi बढ़ाओ।|badhao."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aapki SIP step-up hai? Haan = 1, Na = 2", "disclaimer": "12% sirf andaaza. Market risk hai.",
+   "voice": "आपकी|Aapki SIP step-up है?|hai? हाँ_एक,|Haan_1, ना_दो।|na_2. Finance_Junction follow_करो,|follow_karo, और|aur याद|yaad रखो:|rakho: दस_परसेंट|10% step-up, पैसा|paisa डबल!|double!"}
+ ]
+}

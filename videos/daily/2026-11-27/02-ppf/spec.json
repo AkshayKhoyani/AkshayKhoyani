@@ -1,0 +1,18 @@
+{
+ "slug": "ppf-15-saal",
+ "sources": "PPF rate 7.1% (Oct-Dec 2026, Finance Ministry; Business Standard, Outlook Money, Upstox). ₹1.5 lakh/saal max, 15 saal. Calc: har saal 5 April se pehle jama, 7.1% poore 15 saal maana (rate har quarter badal sakta). Educational only.",
+ "scenes": [
+  {"type": "hook", "tag": "PPF", "tagColor": "green", "lines": [["₹22.5 lakh jama,", "text"], ["₹40 LAKH+ TAX-FREE 😮", "green2"]], "sub": "15 saal · 7.1% (Oct–Dec 2026)",
+   "voice": "साढ़े_बाईस_लाख|₹22.5_lakh जमा,|jama, और|aur चालीस_लाख_से_ज़्यादा|₹40_lakh+ tax-free! PPF कैसे?|kaise?"},
+  {"type": "stat", "tag": "RATE", "label": "PPF byaaj, Oct–Dec 2026", "value": 7.1, "decimals": 1, "suffix": "%", "color": "green",
+   "note": "Sarkar har quarter tay karti hai", "noteColor": "muted", "chips": ["Sarkari guarantee", "Byaaj + maturity tax-free"], "source": "Finance Ministry; Business Standard",
+   "voice": "अक्टूबर_से_दिसंबर_दो_हज़ार_छब्बीस|Oct_se_Dec_2026 में|mein PPF पर|par सात_दशमलव_एक_परसेंट|7.1% ब्याज,|byaaj, और|aur ब्याज|byaaj tax-free."},
+  {"type": "formula", "tag": "HISAAB 🧮", "title": "₹1.5 lakh / saal × 15 saal", "lines": ["Jama: ₹22.5 lakh", "Byaaj: ~₹18.2 lakh", ["Total: ~₹40.7 lakh", "green"]],
+   "voice": "हर_साल|Har_saal डेढ़_लाख,|₹1.5_lakh, पंद्रह_साल:|15_saal: जमा|jama साढ़े_बाईस_लाख,|₹22.5_lakh, और|aur total करीब|kareeb चालीस_दशमलव_सात_लाख।|₹40.7_lakh."},
+  {"type": "list", "title": "Yaad rakho 📌", "colors": ["green", "blue", "amber"], "icons": ["📅", "🔒", "🎯"],
+   "items": [["5 April se pehle jama", "Poore saal ka byaaj"], ["15 saal ka lock-in", "Beech mein limited nikasi"], ["Min ₹500, max ₹1.5 lakh", "Har saal"]],
+   "voice": "पाँच_अप्रैल_से_पहले|5_April_se_pehle जमा|jama करो,|karo, पंद्रह_साल|15_saal का|ka lock-in है,|hai, और|aur साल_में|saal_mein डेढ़_लाख|₹1.5_lakh तक।|tak."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "PPF account hai? Haan = 1, Na = 2", "disclaimer": "Rate badal sakta hai. Educational only.",
+   "voice": "आपका|Aapka PPF account है?|hai? हाँ_एक,|Haan_1, ना_दो।|na_2. Finance_Junction follow_करो!|follow_karo!"}
+ ]
+}
