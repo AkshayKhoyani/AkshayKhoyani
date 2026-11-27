@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Who wrote 'Gitanjali'?",
+  "o": [
+   "Rabindranath Tagore",
+   "Sarojini Naidu",
+   "Bankim Chandra Chatterjee",
+   "Sri Aurobindo"
+  ],
+  "a": 0,
+  "e": "Tagore's Gitanjali won him the Nobel Prize in Literature in 1913.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "'The Discovery of India' was written by:",
+  "o": [
+   "Mahatma Gandhi",
+   "Jawaharlal Nehru",
+   "B. R. Ambedkar",
+   "Sardar Patel"
+  ],
+  "a": 1,
+  "e": "Nehru wrote it while in Ahmednagar Fort prison during 1942-46.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "National Sports Day in India is observed on:",
+  "o": [
+   "5 September",
+   "14 November",
+   "2 October",
+   "29 August"
+  ],
+  "a": 3,
+  "e": "It marks the birth anniversary of hockey legend Major Dhyan Chand.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "World Environment Day is observed on:",
+  "o": [
+   "22 April",
+   "5 June",
+   "21 March",
+   "16 September"
+  ],
+  "a": 1,
+  "e": "World Environment Day, led by UNEP, is celebrated on 5 June.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "How many players does a volleyball team have on the court at a time?",
+  "o": [
+   "5",
+   "6",
+   "7",
+   "11"
+  ],
+  "a": 1,
+  "e": "Each volleyball team plays with 6 players on court.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "'Wings of Fire' is the autobiography of:",
+  "o": [
+   "Dr. Manmohan Singh",
+   "Dr. A. P. J. Abdul Kalam",
+   "Dr. Rajendra Prasad",
+   "Dr. Vikram Sarabhai"
+  ],
+  "a": 1,
+  "e": "Wings of Fire (1999) tells the life story of former President A. P. J. Abdul Kalam.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the highest civilian award of India?",
+  "o": [
+   "Padma Vibhushan",
+   "Bharat Ratna",
+   "Param Vir Chakra",
+   "Padma Shri"
+  ],
+  "a": 1,
+  "e": "Bharat Ratna is India's highest civilian honour.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "Which is India's highest wartime gallantry award?",
+  "o": [
+   "Param Vir Chakra",
+   "Ashoka Chakra",
+   "Maha Vir Chakra",
+   "Vir Chakra"
+  ],
+  "a": 0,
+  "e": "Param Vir Chakra is the highest wartime gallantry award; Ashoka Chakra is the peacetime equivalent.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "Teachers' Day in India is celebrated on:",
+  "o": [
+   "14 November",
+   "2 October",
+   "15 January",
+   "5 September"
+  ],
+  "a": 3,
+  "e": "It marks the birthday of Dr. Sarvepalli Radhakrishnan.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "International Day of Yoga is observed every year on:",
+  "o": [
+   "21 June",
+   "21 March",
+   "5 June",
+   "1 May"
+  ],
+  "a": 0,
+  "e": "The UN declared 21 June, the longest day in the Northern Hemisphere, as Yoga Day.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "Where is the headquarters of the United Nations?",
+  "o": [
+   "Geneva",
+   "Paris",
+   "Washington D.C.",
+   "New York"
+  ],
+  "a": 3,
+  "e": "The UN headquarters is in New York, USA.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "Who was the first woman Prime Minister of India?",
+  "o": [
+   "Sarojini Naidu",
+   "Pratibha Patil",
+   "Indira Gandhi",
+   "Sucheta Kripalani"
+  ],
+  "a": 2,
+  "e": "Indira Gandhi became Prime Minister in 1966.",
+  "topic": "Static GK",
+  "level": "easy"
+ },
+ {
+  "q": "What is the national aquatic animal of India?",
+  "o": [
+   "Blue whale",
+   "Olive ridley turtle",
+   "Ganges river dolphin",
+   "Gharial"
+  ],
+  "a": 2,
+  "e": "The Ganges river dolphin was declared the national aquatic animal in 2009.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "Who was the first Indian woman to win an Olympic medal?",
+  "o": [
+   "P. T. Usha",
+   "Mary Kom",
+   "Saina Nehwal",
+   "Karnam Malleswari"
+  ],
+  "a": 3,
+  "e": "Weightlifter Karnam Malleswari won bronze at the 2000 Sydney Olympics.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "The Hindi novel 'Godan' was written by:",
+  "o": [
+   "Harivansh Rai Bachchan",
+   "Munshi Premchand",
+   "Mahadevi Verma",
+   "Jaishankar Prasad"
+  ],
+  "a": 1,
+  "e": "Godan (1936), a story of a poor farmer, is Premchand's best-known novel.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "'Malgudi Days' was written by:",
+  "o": [
+   "Mulk Raj Anand",
+   "Raja Rao",
+   "Ruskin Bond",
+   "R. K. Narayan"
+  ],
+  "a": 3,
+  "e": "R. K. Narayan set many stories in the fictional town of Malgudi.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "'A Suitable Boy' is a novel by:",
+  "o": [
+   "Salman Rushdie",
+   "Vikram Seth",
+   "Amitav Ghosh",
+   "Arundhati Roy"
+  ],
+  "a": 1,
+  "e": "Vikram Seth's A Suitable Boy (1993) is one of the longest English novels.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "The Durand Cup is associated with which sport?",
+  "o": [
+   "Hockey",
+   "Cricket",
+   "Badminton",
+   "Football"
+  ],
+  "a": 3,
+  "e": "The Durand Cup, started in 1888, is one of the oldest football tournaments.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "Where is the headquarters of the World Health Organization (WHO)?",
+  "o": [
+   "Geneva",
+   "New York",
+   "Paris",
+   "Vienna"
+  ],
+  "a": 0,
+  "e": "WHO is headquartered in Geneva, Switzerland.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "Where is the headquarters of the International Monetary Fund (IMF)?",
+  "o": [
+   "New York",
+   "Geneva",
+   "Washington D.C.",
+   "London"
+  ],
+  "a": 2,
+  "e": "The IMF and the World Bank are headquartered in Washington D.C.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "Where is the headquarters of UNESCO?",
+  "o": [
+   "Rome",
+   "Geneva",
+   "New York",
+   "Paris"
+  ],
+  "a": 3,
+  "e": "UNESCO is headquartered in Paris, France.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "Who was the first Indian to win a Nobel Prize?",
+  "o": [
+   "C. V. Raman",
+   "Mother Teresa",
+   "Rabindranath Tagore",
+   "Hargobind Khorana"
+  ],
+  "a": 2,
+  "e": "Tagore won the Nobel Prize in Literature in 1913; C. V. Raman won in Physics in 1930.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "The national calendar of India is based on which era?",
+  "o": [
+   "Vikram Samvat",
+   "Hijri era",
+   "Saka era",
+   "Gregorian era"
+  ],
+  "a": 2,
+  "e": "India adopted the Saka calendar as the national calendar on 22 March 1957.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "The Dronacharya Award is given to:",
+  "o": [
+   "Outstanding sports coaches",
+   "Best teachers in schools",
+   "Film directors",
+   "Scientists"
+  ],
+  "a": 0,
+  "e": "The Dronacharya Award honours coaches who train medal-winning athletes.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "Who was the first Indian woman to climb Mount Everest?",
+  "o": [
+   "Santosh Yadav",
+   "Bachendri Pal",
+   "Arunima Sinha",
+   "Premlata Agarwal"
+  ],
+  "a": 1,
+  "e": "Bachendri Pal reached the summit of Everest on 23 May 1984.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "National Science Day in India is celebrated on:",
+  "o": [
+   "11 May",
+   "15 October",
+   "28 February",
+   "1 July"
+  ],
+  "a": 2,
+  "e": "It marks C. V. Raman's announcement of the Raman Effect on 28 February 1928.",
+  "topic": "Static GK",
+  "level": "medium"
+ },
+ {
+  "q": "Which animal was declared the National Heritage Animal of India in 2010?",
+  "o": [
+   "Elephant",
+   "Tiger",
+   "Lion",
+   "One-horned rhinoceros"
+  ],
+  "a": 0,
+  "e": "The Indian elephant was declared the National Heritage Animal in 2010; the tiger is the national animal.",
+  "topic": "Static GK",
+  "level": "hard"
+ },
+ {
+  "q": "The national motto 'Satyameva Jayate' is taken from which text?",
+  "o": [
+   "Mundaka Upanishad",
+   "Rigveda",
+   "Bhagavad Gita",
+   "Katha Upanishad"
+  ],
+  "a": 0,
+  "e": "'Satyameva Jayate' (Truth alone triumphs) comes from the Mundaka Upanishad.",
+  "topic": "Static GK",
+  "level": "hard"
+ },
+ {
+  "q": "The Hindi epic poem 'Kamayani' was written by:",
+  "o": [
+   "Suryakant Tripathi 'Nirala'",
+   "Jaishankar Prasad",
+   "Sumitranandan Pant",
+   "Maithili Sharan Gupt"
+  ],
+  "a": 1,
+  "e": "Kamayani (1936) is a major work of the Chhayavad poet Jaishankar Prasad.",
+  "topic": "Static GK",
+  "level": "hard"
+ },
+ {
+  "q": "Where is the headquarters of INTERPOL?",
+  "o": [
+   "Paris",
+   "Brussels",
+   "The Hague",
+   "Lyon"
+  ],
+  "a": 3,
+  "e": "INTERPOL's General Secretariat is in Lyon, France.",
+  "topic": "Static GK",
+  "level": "hard"
+ }
+]
