@@ -73,3 +73,4 @@
 {"slug": "red-onion-granules", "status": "done", "qa_failed": {}}
 {"slug": "rose-petal-powder", "status": "done", "qa_failed": {"04-bulk.jpg": "Garbled text on the first pouch tagline: 'COODNESS FRON NATURE'; Misspelled word in the first pouch badge: 'Petais'; Misspelled word in the second pouch badge: 'Reai'"}}
 {"slug": "reetha-powder", "status": "done", "qa_failed": {}}
+{"slug": "red-chilli-powder", "status": "done", "qa_failed": {}}
