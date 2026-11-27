@@ -14,6 +14,7 @@ Daily targets (across all runs): **5–10 new/updated pages in each section** �
    - Admit card / result / answer key / syllabus: write `updates/<slug>.in.json` like the existing ones, `python3 updates/make.py updates/<slug>.in.json`, then `python3 wp.py updates/<slug>.json --status publish`.
    - When an admit card/result/answer key belongs to a job we already have, also add a "Latest Update: … (link)" line at the top of that job's spec intro and re-publish it with `--update <id>`.
 6. No reels. (Owner decision 25 Nov 2026: put the whole effort into the website.)
+6b. **Saturdays (first run of the day):** update the evergreen page `/employment-news-this-week/` (page id 2336) with the new Employment News issue – top jobs table (org, posts, vacancies, last date, link to our page or official site). Create full job pages for the biggest new ones. Use aggregator lists (e.g. schools360.in/employment-news-of-this-week) for the job list; never re-host the Employment News PDF (copyrighted).
 7. Run `python3 hubs.py` (takes ~5 min): refreshes the qualification hubs (10th/12th/ITI/Diploma/Graduate/PG), state hubs, the "Related Updates" box on every page and the Hindi summary on every job page. New states get their page automatically. Then add follow-ups to `PENDING.md`. Commit and push.
 8. Report (Hinglish, short): published/updated links per section, anything blocked. If nothing new was found, say so in one line.
 
