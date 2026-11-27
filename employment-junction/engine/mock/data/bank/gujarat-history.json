@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Which Harappan site in Gujarat is famous for the remains of an ancient dockyard?",
+  "o": [
+   "Lothal",
+   "Dholavira",
+   "Surkotada",
+   "Rangpur"
+  ],
+  "a": 0,
+  "e": "Lothal, in Ahmedabad district near the Bhogavo river, has a large brick basin identified as a dockyard.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "The Harappan city of Dholavira is located on which island of the Rann of Kutch?",
+  "o": [
+   "Bet Dwarka",
+   "Piram Bet",
+   "Khadir Bet",
+   "Shiyal Bet"
+  ],
+  "a": 2,
+  "e": "Dholavira lies on Khadir Bet in Kutch; it became a UNESCO World Heritage Site in 2021.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Which archaeologist led the excavation of Lothal from 1955 onwards?",
+  "o": [
+   "S. R. Rao",
+   "R. S. Bisht",
+   "John Marshall",
+   "R. D. Banerji"
+  ],
+  "a": 0,
+  "e": "Lothal was excavated under S. R. Rao of the ASI; R. S. Bisht later excavated Dholavira.",
+  "topic": "Gujarat History",
+  "level": "hard"
+ },
+ {
+  "q": "Emperor Ashoka's major rock edicts in Gujarat are inscribed near which hill?",
+  "o": [
+   "Pavagadh",
+   "Shatrunjaya (Palitana)",
+   "Girnar (Junagadh)",
+   "Taranga"
+  ],
+  "a": 2,
+  "e": "Ashoka's fourteen major rock edicts are carved on a boulder at the foot of Girnar near Junagadh.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "The Sudarshan lake near Girnar was originally constructed during the reign of which ruler?",
+  "o": [
+   "Rudradaman I",
+   "Skandagupta",
+   "Chandragupta Maurya",
+   "Kumarpal"
+  ],
+  "a": 2,
+  "e": "It was built by Pushyagupta, governor under Chandragupta Maurya; Rudradaman I and Skandagupta later had it repaired.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Valabhi was the capital of which dynasty that ruled Gujarat?",
+  "o": [
+   "Chavda",
+   "Solanki",
+   "Vaghela",
+   "Maitraka"
+  ],
+  "a": 3,
+  "e": "The Maitrakas, founded by Bhatarka, ruled from Valabhi, which was also a renowned centre of learning.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Who founded the city of Anhilwad Patan?",
+  "o": [
+   "Mulraj Solanki",
+   "Siddhraj Jaysinh",
+   "Ahmed Shah I",
+   "Vanraj Chavda"
+  ],
+  "a": 3,
+  "e": "Vanraj Chavda of the Chavda dynasty founded Anhilwad Patan in the 8th century.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "Rani ki Vav at Patan was built by Queen Udayamati in memory of which king?",
+  "o": [
+   "Bhimdev I",
+   "Siddhraj Jaysinh",
+   "Kumarpal",
+   "Mulraj"
+  ],
+  "a": 0,
+  "e": "Udayamati built the stepwell in memory of her husband, Solanki king Bhimdev I; it is a UNESCO site since 2014.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "Mahmud of Ghazni raided the Somnath temple (1025-26 CE) during the reign of which Solanki king?",
+  "o": [
+   "Bhimdev I",
+   "Mulraj",
+   "Karnadev Vaghela",
+   "Siddhraj Jaysinh"
+  ],
+  "a": 0,
+  "e": "Bhimdev I was ruling at Anhilwad Patan when Mahmud of Ghazni attacked Somnath in 1025-26 CE.",
+  "topic": "Gujarat History",
+  "level": "hard"
+ },
+ {
+  "q": "Hemchandracharya composed the grammar 'Siddha-Hema-Shabdanushasana' under the patronage of which ruler?",
+  "o": [
+   "Siddhraj Jaysinh",
+   "Kumarpal",
+   "Bhimdev II",
+   "Vanraj Chavda"
+  ],
+  "a": 0,
+  "e": "The work was written at Siddhraj Jaysinh's request, and its title joins the names of the king (Siddha) and the author (Hema).",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Which Solanki ruler embraced Jainism under the influence of Hemchandracharya and prohibited animal slaughter?",
+  "o": [
+   "Siddhraj Jaysinh",
+   "Mulraj",
+   "Kumarpal",
+   "Bhimdev I"
+  ],
+  "a": 2,
+  "e": "Kumarpal (12th century), successor of Siddhraj, became a follower of Jainism under Hemchandracharya.",
+  "topic": "Gujarat History",
+  "level": "hard"
+ },
+ {
+  "q": "Karnadev, popularly called 'Karan Ghelo', the last Rajput ruler of Gujarat, belonged to which dynasty?",
+  "o": [
+   "Vaghela",
+   "Solanki",
+   "Chavda",
+   "Maitraka"
+  ],
+  "a": 0,
+  "e": "Karnadev Vaghela lost Gujarat to Alauddin Khilji's army around 1299 CE.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Who founded the city of Ahmedabad in 1411?",
+  "o": [
+   "Mahmud Begada",
+   "Akbar",
+   "Sultan Ahmed Shah I",
+   "Muzaffar Shah I"
+  ],
+  "a": 2,
+  "e": "Ahmed Shah I of the Gujarat Sultanate founded Ahmedabad on the banks of the Sabarmati in 1411.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "Which Sultan of Gujarat captured Pavagadh in 1484 and made Champaner his capital?",
+  "o": [
+   "Ahmed Shah I",
+   "Mahmud Begada",
+   "Bahadur Shah",
+   "Muzaffar Shah I"
+  ],
+  "a": 1,
+  "e": "Mahmud Begada conquered Champaner in 1484; Champaner-Pavagadh is now a UNESCO World Heritage Site.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Which Sultan of Gujarat was killed in 1537 during an encounter with the Portuguese off Diu?",
+  "o": [
+   "Mahmud Begada",
+   "Bahadur Shah",
+   "Ahmed Shah I",
+   "Muzaffar Shah I"
+  ],
+  "a": 1,
+  "e": "Bahadur Shah died near Diu in 1537 while dealing with the Portuguese, who then strengthened their hold there.",
+  "topic": "Gujarat History",
+  "level": "hard"
+ },
+ {
+  "q": "The Buland Darwaza at Fatehpur Sikri was built by Akbar to commemorate his conquest of:",
+  "o": [
+   "Bengal",
+   "Gujarat",
+   "Kashmir",
+   "Ahmadnagar"
+  ],
+  "a": 1,
+  "e": "Akbar built the Buland Darwaza to mark his victorious Gujarat campaign of 1572-73.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Where was Mahatma Gandhi born?",
+  "o": [
+   "Rajkot",
+   "Ahmedabad",
+   "Porbandar",
+   "Bhavnagar"
+  ],
+  "a": 2,
+  "e": "Gandhiji was born at Porbandar on 2 October 1869.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "Sardar Vallabhbhai Patel was born at which place?",
+  "o": [
+   "Karamsad",
+   "Bardoli",
+   "Anand",
+   "Nadiad"
+  ],
+  "a": 3,
+  "e": "Patel was born at Nadiad on 31 October 1875; Karamsad was his ancestral village.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "Vallabhbhai Patel received the title 'Sardar' after leading which movement?",
+  "o": [
+   "Kheda Satyagraha (1918)",
+   "Bardoli Satyagraha (1928)",
+   "Dandi March (1930)",
+   "Borsad Satyagraha (1923)"
+  ],
+  "a": 1,
+  "e": "The women of Bardoli honoured him as 'Sardar' after the successful 1928 no-tax campaign.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "During which 1918 movement in Gujarat did Gandhiji undertake his first fast in India?",
+  "o": [
+   "Kheda Satyagraha",
+   "Ahmedabad mill workers' strike",
+   "Bardoli Satyagraha",
+   "Rowlatt Satyagraha"
+  ],
+  "a": 1,
+  "e": "In March 1918 Gandhiji fasted in support of Ahmedabad mill workers' demand for higher wages.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "The Kheda Satyagraha of 1918 was mainly concerned with:",
+  "o": [
+   "Remission of land revenue after crop failure",
+   "Abolition of the salt tax",
+   "Wages of textile mill workers",
+   "Forced indigo cultivation"
+  ],
+  "a": 0,
+  "e": "Kheda's peasants demanded suspension of revenue collection due to crop failure; Gandhiji and Patel led them.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Gandhiji's Dandi March of 1930 began from:",
+  "o": [
+   "Kochrab Ashram, Ahmedabad",
+   "Sabarmati Ashram, Ahmedabad",
+   "Sevagram, Wardha",
+   "Navsari"
+  ],
+  "a": 1,
+  "e": "He set out from Sabarmati Ashram on 12 March 1930 and broke the salt law at Dandi on 6 April 1930.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "Which was the first ashram set up by Gandhiji in India after his return from South Africa?",
+  "o": [
+   "Sabarmati Ashram",
+   "Sevagram Ashram",
+   "Phoenix Settlement",
+   "Kochrab Ashram"
+  ],
+  "a": 3,
+  "e": "Gandhiji founded Kochrab Ashram in Ahmedabad in 1915 and moved to the Sabarmati site in 1917.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "On which date did Gujarat come into existence as a separate state?",
+  "o": [
+   "15 August 1947",
+   "1 May 1960",
+   "26 January 1950",
+   "1 November 1956"
+  ],
+  "a": 1,
+  "e": "Gujarat was carved out of the bilingual Bombay State under the Bombay Reorganisation Act, 1960.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "Who led the Mahagujarat Movement and is affectionately called 'Indu Chacha'?",
+  "o": [
+   "Jivraj Mehta",
+   "Indulal Yagnik",
+   "Ravishankar Maharaj",
+   "Balwantrai Mehta"
+  ],
+  "a": 1,
+  "e": "Indulal Yagnik led the Mahagujarat Janata Parishad, which campaigned for a separate Gujarat state.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Who formally inaugurated the new state of Gujarat on 1 May 1960?",
+  "o": [
+   "Jawaharlal Nehru",
+   "Dr. Rajendra Prasad",
+   "Morarji Desai",
+   "Ravishankar Maharaj"
+  ],
+  "a": 3,
+  "e": "The Gandhian social worker Ravishankar Maharaj inaugurated the state of Gujarat.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Who was the first Chief Minister of Gujarat?",
+  "o": [
+   "Balwantrai Mehta",
+   "Hitendra Desai",
+   "Chimanbhai Patel",
+   "Dr. Jivraj Mehta"
+  ],
+  "a": 3,
+  "e": "Dr. Jivraj Mehta became Gujarat's first Chief Minister on 1 May 1960.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ },
+ {
+  "q": "The 'Aarzi Hukumat' (provisional government) formed in 1947 against the Nawab of Junagadh was headed by:",
+  "o": [
+   "U. N. Dhebar",
+   "Indulal Yagnik",
+   "Samaldas Gandhi",
+   "Ravishankar Maharaj"
+  ],
+  "a": 2,
+  "e": "Samaldas Gandhi headed the Aarzi Hukumat, whose campaign helped bring Junagadh into the Indian Union.",
+  "topic": "Gujarat History",
+  "level": "hard"
+ },
+ {
+  "q": "Shyamji Krishna Varma, founder of India House in London, was born in which town?",
+  "o": [
+   "Mandvi (Kutch)",
+   "Bhuj",
+   "Porbandar",
+   "Surat"
+  ],
+  "a": 0,
+  "e": "Shyamji Krishna Varma was born at Mandvi in Kutch in 1857 and founded India House in 1905.",
+  "topic": "Gujarat History",
+  "level": "medium"
+ },
+ {
+  "q": "Gujarat Vidyapith in Ahmedabad was founded in 1920 by:",
+  "o": [
+   "Sardar Patel",
+   "Morarji Desai",
+   "Indulal Yagnik",
+   "Mahatma Gandhi"
+  ],
+  "a": 3,
+  "e": "Gandhiji founded Gujarat Vidyapith as a national university during the Non-Cooperation Movement.",
+  "topic": "Gujarat History",
+  "level": "easy"
+ }
+]

@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Which Indian state has the longest coastline?",
+  "o": [
+   "Andhra Pradesh",
+   "Tamil Nadu",
+   "Gujarat",
+   "Maharashtra"
+  ],
+  "a": 2,
+  "e": "Gujarat has the longest coastline of any Indian state, along the Arabian Sea and its gulfs.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which important line of latitude passes through Gujarat?",
+  "o": [
+   "Tropic of Cancer",
+   "Equator",
+   "Tropic of Capricorn",
+   "Arctic Circle"
+  ],
+  "a": 0,
+  "e": "The Tropic of Cancer (about 23.5 degrees N) passes through northern Gujarat.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the highest mountain in Gujarat?",
+  "o": [
+   "Pavagadh",
+   "Saputara",
+   "Taranga",
+   "Girnar"
+  ],
+  "a": 3,
+  "e": "Girnar near Junagadh, with its Gorakhnath peak, is the highest point in Gujarat.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Saputara, the hill station in Dang district, lies on which mountain range?",
+  "o": [
+   "Aravalli",
+   "Satpura",
+   "Vindhya",
+   "Sahyadri (Western Ghats)"
+  ],
+  "a": 3,
+  "e": "Saputara is on the Sahyadri range, the northern extension of the Western Ghats into Gujarat.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Surat city stands on the bank of which river?",
+  "o": [
+   "Narmada",
+   "Mahi",
+   "Tapi",
+   "Sabarmati"
+  ],
+  "a": 2,
+  "e": "Surat is located on the Tapi river close to its mouth.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Ahmedabad is situated on the bank of which river?",
+  "o": [
+   "Mahi",
+   "Sabarmati",
+   "Tapi",
+   "Banas"
+  ],
+  "a": 1,
+  "e": "Ahmedabad was founded on the eastern bank of the Sabarmati.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which river crosses the Tropic of Cancer twice in its course?",
+  "o": [
+   "Mahi",
+   "Sabarmati",
+   "Narmada",
+   "Tapi"
+  ],
+  "a": 0,
+  "e": "The Mahi rises in Madhya Pradesh and loops through Rajasthan, crossing the Tropic of Cancer twice before entering Gujarat.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The Sardar Sarovar Dam is built on which river?",
+  "o": [
+   "Tapi",
+   "Mahi",
+   "Sabarmati",
+   "Narmada"
+  ],
+  "a": 3,
+  "e": "The Sardar Sarovar Dam is on the Narmada at Kevadia (Ekta Nagar) in Narmada district.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Ukai Dam is constructed on which river?",
+  "o": [
+   "Tapi",
+   "Narmada",
+   "Mahi",
+   "Purna"
+  ],
+  "a": 0,
+  "e": "Ukai Dam on the Tapi is one of the largest reservoirs of Gujarat.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Kadana Dam is built on which river?",
+  "o": [
+   "Sabarmati",
+   "Mahi",
+   "Narmada",
+   "Vishwamitri"
+  ],
+  "a": 1,
+  "e": "Kadana Dam is on the Mahi river in Mahisagar district.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which is the longest river of the Saurashtra region?",
+  "o": [
+   "Shetrunji",
+   "Machhu",
+   "Bhadar",
+   "Hiran"
+  ],
+  "a": 2,
+  "e": "The Bhadar, flowing west through Rajkot, Junagadh and Porbandar districts, is the longest river of Saurashtra.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Gir National Park is the only natural home in the world of which animal?",
+  "o": [
+   "Bengal tiger",
+   "Asiatic lion",
+   "One-horned rhinoceros",
+   "Snow leopard"
+  ],
+  "a": 1,
+  "e": "The Gir forest of Saurashtra is the last natural habitat of the Asiatic lion.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Velavadar National Park, famous for blackbucks, is in which district?",
+  "o": [
+   "Kutch",
+   "Junagadh",
+   "Surendranagar",
+   "Bhavnagar"
+  ],
+  "a": 3,
+  "e": "Velavadar Blackbuck National Park lies in Bhavnagar district near the Gulf of Khambhat.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The Indian Wild Ass Sanctuary is located in:",
+  "o": [
+   "Little Rann of Kutch",
+   "Great Rann of Kutch",
+   "Gir forest",
+   "Barda hills"
+  ],
+  "a": 0,
+  "e": "The Little Rann of Kutch sanctuary protects the Indian wild ass (ghudkhar).",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "India's first Marine National Park was declared in:",
+  "o": [
+   "Gulf of Kutch",
+   "Gulf of Khambhat",
+   "Gulf of Mannar",
+   "Andaman Islands"
+  ],
+  "a": 0,
+  "e": "The Marine National Park in the Gulf of Kutch, off Jamnagar, was declared in 1982 and is India's first.",
+  "topic": "Gujarat Geography",
+  "level": "hard"
+ },
+ {
+  "q": "Nal Sarovar, a Ramsar site and bird sanctuary, lies closest to which city?",
+  "o": [
+   "Jamnagar",
+   "Vadodara",
+   "Ahmedabad",
+   "Rajkot"
+  ],
+  "a": 2,
+  "e": "Nal Sarovar is on the Ahmedabad-Surendranagar district border, about 60 km from Ahmedabad.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which is the largest district of Gujarat by area?",
+  "o": [
+   "Banaskantha",
+   "Ahmedabad",
+   "Junagadh",
+   "Kutch"
+  ],
+  "a": 3,
+  "e": "Kutch is Gujarat's largest district and also the largest district of India by area.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Kathiawar (Saurashtra) peninsula lies between which two gulfs?",
+  "o": [
+   "Gulf of Khambhat and Gulf of Mannar",
+   "Gulf of Kutch and Gulf of Mannar",
+   "Gulf of Kutch and Gulf of Khambhat",
+   "Gulf of Khambhat and Bay of Bengal"
+  ],
+  "a": 2,
+  "e": "Saurashtra is bounded by the Gulf of Kutch in the north-west and the Gulf of Khambhat in the east.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Alang, known for one of the world's largest ship-breaking yards, is in which district?",
+  "o": [
+   "Kutch",
+   "Jamnagar",
+   "Bharuch",
+   "Bhavnagar"
+  ],
+  "a": 3,
+  "e": "Alang lies on the Gulf of Khambhat coast in Bhavnagar district.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Deendayal Port in Kutch was earlier known as:",
+  "o": [
+   "Kandla Port",
+   "Mundra Port",
+   "Okha Port",
+   "Pipavav Port"
+  ],
+  "a": 0,
+  "e": "Kandla Port was renamed Deendayal Port in 2017.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Asia's first Export Processing Zone was set up in 1965 at:",
+  "o": [
+   "Santacruz (Mumbai)",
+   "Falta",
+   "Cochin",
+   "Kandla"
+  ],
+  "a": 3,
+  "e": "The Kandla Free Trade Zone, established in 1965, was the first Export Processing Zone in Asia.",
+  "topic": "Gujarat Geography",
+  "level": "hard"
+ },
+ {
+  "q": "The Ambaji temple is situated in which hill range?",
+  "o": [
+   "Sahyadri",
+   "Aravalli",
+   "Satpura",
+   "Barda"
+  ],
+  "a": 1,
+  "e": "Ambaji in Banaskantha district lies in the Arasur hills, part of the Aravalli range.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which state does NOT share a border with Gujarat?",
+  "o": [
+   "Rajasthan",
+   "Madhya Pradesh",
+   "Goa",
+   "Maharashtra"
+  ],
+  "a": 2,
+  "e": "Gujarat borders Rajasthan, Madhya Pradesh and Maharashtra; Goa is far to the south.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which region of Gujarat receives the least rainfall?",
+  "o": [
+   "South Gujarat",
+   "Dang",
+   "Kutch",
+   "Central Gujarat"
+  ],
+  "a": 2,
+  "e": "Kutch has an arid to semi-arid climate and the lowest rainfall in the state, while the south is the wettest.",
+  "topic": "Gujarat Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Gujarat is India's leading producer of which commodity, much of it from the Rann of Kutch and coastal pans?",
+  "o": [
+   "Tea",
+   "Common salt",
+   "Coffee",
+   "Jute"
+  ],
+  "a": 1,
+  "e": "Gujarat produces the bulk of India's salt from its coastal salt pans and the Rann.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Sir Creek, a disputed tidal estuary on the India-Pakistan border, is in which district?",
+  "o": [
+   "Kutch",
+   "Banaskantha",
+   "Devbhumi Dwarka",
+   "Jamnagar"
+  ],
+  "a": 0,
+  "e": "Sir Creek lies in the marshes of Kutch between Gujarat and Sindh.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Jessore Wildlife Sanctuary, known for sloth bears, is in which district?",
+  "o": [
+   "Dang",
+   "Banaskantha",
+   "Narmada",
+   "Panchmahal"
+  ],
+  "a": 1,
+  "e": "Jessore Sloth Bear Sanctuary lies in Banaskantha district near the Rajasthan border.",
+  "topic": "Gujarat Geography",
+  "level": "hard"
+ },
+ {
+  "q": "Which river flows through the Gir forest and has the Kamleshwar dam built on it?",
+  "o": [
+   "Bhadar",
+   "Hiran",
+   "Shetrunji",
+   "Machhu"
+  ],
+  "a": 1,
+  "e": "The Hiran rises in the Gir hills; the Kamleshwar dam on it is a key water source for Gir's wildlife.",
+  "topic": "Gujarat Geography",
+  "level": "hard"
+ },
+ {
+  "q": "The Statue of Unity stands on which river island?",
+  "o": [
+   "Bet Dwarka",
+   "Sadhu Bet",
+   "Khadir Bet",
+   "Piram Bet"
+  ],
+  "a": 1,
+  "e": "It stands on Sadhu Bet in the Narmada, a short distance downstream of the Sardar Sarovar Dam.",
+  "topic": "Gujarat Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Where was oil first struck in Gujarat in 1958?",
+  "o": [
+   "Lunej (near Khambhat)",
+   "Ankleshwar",
+   "Kalol",
+   "Mehsana"
+  ],
+  "a": 0,
+  "e": "ONGC discovered oil at Lunej near Khambhat in 1958; the Ankleshwar field followed in 1960.",
+  "topic": "Gujarat Geography",
+  "level": "hard"
+ }
+]

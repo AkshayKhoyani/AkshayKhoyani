@@ -1,0 +1,392 @@
+[
+ {
+  "q": "According to Piaget, the stage of cognitive development from birth to about 2 years is the:",
+  "o": [
+   "Pre-operational stage",
+   "Sensorimotor stage",
+   "Concrete operational stage",
+   "Formal operational stage"
+  ],
+  "a": 1,
+  "e": "Piaget's first stage, from birth to about 2 years, is the sensorimotor stage, in which infants learn through senses and actions.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "In Piaget's theory, 'object permanence' develops during which stage?",
+  "o": [
+   "Pre-operational",
+   "Concrete operational",
+   "Formal operational",
+   "Sensorimotor"
+  ],
+  "a": 3,
+  "e": "By the end of the sensorimotor stage a child understands that objects continue to exist even when out of sight.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "Egocentrism and animism are typical features of a child's thinking in which Piagetian stage?",
+  "o": [
+   "Pre-operational",
+   "Sensorimotor",
+   "Concrete operational",
+   "Formal operational"
+  ],
+  "a": 0,
+  "e": "In the pre-operational stage (about 2-7 years) children see things only from their own viewpoint and attribute life to objects.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "According to Piaget, children usually master the concept of 'conservation' in the:",
+  "o": [
+   "Sensorimotor stage",
+   "Pre-operational stage",
+   "Formal operational stage",
+   "Concrete operational stage"
+  ],
+  "a": 3,
+  "e": "Conservation, understanding that quantity stays the same despite change in shape, is acquired in the concrete operational stage (about 7-11 years).",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "In Piaget's theory, changing an existing schema to fit new information is called:",
+  "o": [
+   "Accommodation",
+   "Assimilation",
+   "Conservation",
+   "Centration"
+  ],
+  "a": 0,
+  "e": "Accommodation modifies existing schemas; assimilation fits new information into existing schemas without changing them.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "The concept of the 'Zone of Proximal Development' (ZPD) was given by:",
+  "o": [
+   "Jean Piaget",
+   "Lev Vygotsky",
+   "Jerome Bruner",
+   "B. F. Skinner"
+  ],
+  "a": 1,
+  "e": "Vygotsky described the ZPD as the gap between what a child can do alone and what she can do with guidance.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "In the classroom, 'scaffolding' refers to:",
+  "o": [
+   "Punishing a child for wrong answers",
+   "Temporary support given by a teacher or peer, gradually withdrawn as the learner becomes capable",
+   "Making children memorise answers by repetition",
+   "Permanent help so the child never works alone"
+  ],
+  "a": 1,
+  "e": "Scaffolding, linked to Vygotsky's ideas, is support that is reduced as the learner gains independence.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "Lawrence Kohlberg's theory is mainly concerned with:",
+  "o": [
+   "Moral development",
+   "Language development",
+   "Physical development",
+   "Development of intelligence quotient"
+  ],
+  "a": 0,
+  "e": "Kohlberg proposed stages of moral reasoning, using dilemmas such as the Heinz dilemma.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "According to Kohlberg, at which level is a child's morality based mainly on avoiding punishment and gaining rewards?",
+  "o": [
+   "Pre-conventional",
+   "Conventional",
+   "Post-conventional",
+   "Formal operational"
+  ],
+  "a": 0,
+  "e": "At the pre-conventional level, right and wrong are judged by consequences such as punishment and reward.",
+  "topic": "Child Development & Pedagogy",
+  "level": "hard"
+ },
+ {
+  "q": "The theory of Multiple Intelligences was proposed by:",
+  "o": [
+   "Charles Spearman",
+   "Howard Gardner",
+   "Alfred Binet",
+   "L. L. Thurstone"
+  ],
+  "a": 1,
+  "e": "Howard Gardner proposed the theory of multiple intelligences in 1983.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "Erik Erikson's theory of development is known as a theory of:",
+  "o": [
+   "Psychosocial development",
+   "Psychosexual development",
+   "Cognitive development",
+   "Moral development"
+  ],
+  "a": 0,
+  "e": "Erikson described eight psychosocial stages, each with a crisis to resolve; psychosexual stages are Freud's.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "According to Erikson, the main crisis of adolescence is:",
+  "o": [
+   "Trust vs. mistrust",
+   "Industry vs. inferiority",
+   "Integrity vs. despair",
+   "Identity vs. role confusion"
+  ],
+  "a": 3,
+  "e": "Erikson saw adolescence as the period of forming a stable identity versus role confusion.",
+  "topic": "Child Development & Pedagogy",
+  "level": "hard"
+ },
+ {
+  "q": "Classical conditioning is associated with the experiments of:",
+  "o": [
+   "B. F. Skinner",
+   "E. L. Thorndike",
+   "Ivan Pavlov",
+   "Albert Bandura"
+  ],
+  "a": 2,
+  "e": "Pavlov showed that dogs could learn to salivate at the sound of a bell paired with food.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "The 'Law of Effect' in learning was given by:",
+  "o": [
+   "Ivan Pavlov",
+   "Wolfgang Kohler",
+   "E. L. Thorndike",
+   "Jean Piaget"
+  ],
+  "a": 2,
+  "e": "Thorndike's Law of Effect states that responses followed by satisfaction are strengthened.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "Learning by observing and imitating others (the Bobo doll experiment) is associated with:",
+  "o": [
+   "B. F. Skinner",
+   "Ivan Pavlov",
+   "Lev Vygotsky",
+   "Albert Bandura"
+  ],
+  "a": 3,
+  "e": "Bandura's social learning theory explains learning through observation and modelling.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "'Insight learning' was demonstrated through experiments on chimpanzees by:",
+  "o": [
+   "E. L. Thorndike",
+   "Wolfgang Kohler",
+   "B. F. Skinner",
+   "Ivan Pavlov"
+  ],
+  "a": 1,
+  "e": "Kohler's chimpanzee Sultan solved problems by sudden understanding of relationships (insight).",
+  "topic": "Child Development & Pedagogy",
+  "level": "hard"
+ },
+ {
+  "q": "The Right of Children to Free and Compulsory Education Act, 2009 applies to children of which age group?",
+  "o": [
+   "6 to 14 years",
+   "3 to 6 years",
+   "5 to 15 years",
+   "6 to 18 years"
+  ],
+  "a": 0,
+  "e": "The RTE Act guarantees free and compulsory elementary education to every child aged 6 to 14 years.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "Under the RTE Act, 2009, which of the following is prohibited in schools?",
+  "o": [
+   "Continuous and comprehensive evaluation",
+   "Teaching through the mother tongue",
+   "Physical punishment and mental harassment of children",
+   "Activity-based learning"
+  ],
+  "a": 2,
+  "e": "Section 17 of the RTE Act prohibits physical punishment and mental harassment of children.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "Under the RTE Act, 2009, private unaided schools must reserve what share of entry-level seats for children of weaker and disadvantaged sections?",
+  "o": [
+   "10 percent",
+   "25 percent",
+   "15 percent",
+   "33 percent"
+  ],
+  "a": 1,
+  "e": "Section 12(1)(c) requires at least 25 percent of entry-class seats for such children.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "A key recommendation of the National Curriculum Framework (NCF) 2005 is to:",
+  "o": [
+   "Make learning centred on textbooks only",
+   "Increase rote memorisation",
+   "Make examinations the main aim of teaching",
+   "Connect knowledge to life outside the school"
+  ],
+  "a": 3,
+  "e": "NCF 2005 stressed linking school knowledge with life outside school and moving away from rote learning.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "Dyslexia is a learning disability mainly related to difficulty in:",
+  "o": [
+   "Mathematical calculation",
+   "Motor coordination",
+   "Hearing",
+   "Reading"
+  ],
+  "a": 3,
+  "e": "Dyslexia affects reading and decoding words; dyscalculia relates to mathematics.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "Inclusive education means:",
+  "o": [
+   "Sending children with disabilities only to special schools",
+   "Educating children with diverse needs, including disabilities, together in regular schools",
+   "Grouping children strictly by ability in separate schools",
+   "Admitting only high-achieving children"
+  ],
+  "a": 1,
+  "e": "Inclusive education welcomes all learners into mainstream classrooms with appropriate support.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "The main purpose of formative assessment is to:",
+  "o": [
+   "Rank students at the end of the year",
+   "Award certificates",
+   "Improve learning during the teaching-learning process",
+   "Select students for admission"
+  ],
+  "a": 2,
+  "e": "Formative assessment gives ongoing feedback to both teacher and learner while learning is in progress.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "The principle that development proceeds from head to toe is called the:",
+  "o": [
+   "Proximodistal principle",
+   "Cephalocaudal principle",
+   "Principle of continuity",
+   "Principle of individual differences"
+  ],
+  "a": 1,
+  "e": "Cephalocaudal development means control develops first in the head region and later towards the feet.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ },
+ {
+  "q": "The principle that development proceeds from the centre of the body outwards to the extremities is the:",
+  "o": [
+   "Proximodistal principle",
+   "Cephalocaudal principle",
+   "Principle of integration",
+   "Principle of predictability"
+  ],
+  "a": 0,
+  "e": "Proximodistal development means the trunk and shoulders gain control before the hands and fingers.",
+  "topic": "Child Development & Pedagogy",
+  "level": "hard"
+ },
+ {
+  "q": "A child's development is the result of:",
+  "o": [
+   "Heredity alone",
+   "Environment alone",
+   "Interaction of heredity and environment",
+   "Neither heredity nor environment"
+  ],
+  "a": 2,
+  "e": "Modern psychology holds that heredity and environment interact to shape development.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "In the revised Bloom's Taxonomy (2001), the highest level of the cognitive domain is:",
+  "o": [
+   "Creating",
+   "Evaluating",
+   "Analysing",
+   "Applying"
+  ],
+  "a": 0,
+  "e": "The revised taxonomy places 'Creating' at the top, above 'Evaluating'.",
+  "topic": "Child Development & Pedagogy",
+  "level": "hard"
+ },
+ {
+  "q": "In a child-centred classroom, the teacher mainly acts as a:",
+  "o": [
+   "Strict controller",
+   "Mere lecturer",
+   "Facilitator of learning",
+   "Examiner only"
+  ],
+  "a": 2,
+  "e": "Child-centred pedagogy sees the teacher as a facilitator who guides children to construct knowledge.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "The best way for a teacher to treat children's errors is to:",
+  "o": [
+   "Punish the child immediately",
+   "Ignore them completely",
+   "Use them to understand children's thinking and guide learning",
+   "Ask the child to copy the correct answer many times"
+  ],
+  "a": 2,
+  "e": "Errors reveal how children think and give the teacher a starting point for guidance.",
+  "topic": "Child Development & Pedagogy",
+  "level": "easy"
+ },
+ {
+  "q": "Intelligence Quotient (IQ) is calculated as:",
+  "o": [
+   "(Chronological age / Mental age) x 100",
+   "Mental age x Chronological age",
+   "(Mental age - Chronological age) x 100",
+   "(Mental age / Chronological age) x 100"
+  ],
+  "a": 3,
+  "e": "In the classical ratio formula given by Stern and Terman, IQ = MA / CA x 100.",
+  "topic": "Child Development & Pedagogy",
+  "level": "medium"
+ }
+]
