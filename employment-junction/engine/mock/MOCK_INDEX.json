@@ -21,7 +21,33 @@
   "bank-clerk-po-mock-test-1": "https://employmentjunction.in/mock-test/bank-clerk-po-mock-test-1/",
   "teaching-tet-mock-test-1": "https://employmentjunction.in/mock-test/teaching-tet-mock-test-1/",
   "engineering-psu-aptitude-mock-test-1": "https://employmentjunction.in/mock-test/engineering-psu-aptitude-mock-test-1/",
-  "upsc-state-psc-gs-mock-test-1": "https://employmentjunction.in/mock-test/upsc-state-psc-gs-mock-test-1/"
+  "upsc-state-psc-gs-mock-test-1": "https://employmentjunction.in/mock-test/upsc-state-psc-gs-mock-test-1/",
+  "gujarat-gk-mock-test": "https://employmentjunction.in/mock-test/gujarat-gk-mock-test/",
+  "gujarati-grammar-mock-test": "https://employmentjunction.in/mock-test/gujarati-grammar-mock-test/",
+  "gsssb-cce-prelims-mock-test-1": "https://employmentjunction.in/mock-test/gsssb-cce-prelims-mock-test-1/",
+  "up-police-constable-mock-test-1": "https://employmentjunction.in/mock-test/up-police-constable-mock-test-1/",
+  "delhi-police-constable-mock-test-1": "https://employmentjunction.in/mock-test/delhi-police-constable-mock-test-1/",
+  "bihar-police-constable-mock-test-1": "https://employmentjunction.in/mock-test/bihar-police-constable-mock-test-1/",
+  "ssc-gd-constable-mock-test-1": "https://employmentjunction.in/mock-test/ssc-gd-constable-mock-test-1/",
+  "rrb-ntpc-graduate-cbt-1-mock-test-1": "https://employmentjunction.in/mock-test/rrb-ntpc-graduate-cbt-1-mock-test-1/",
+  "rrb-group-d-mock-test-1": "https://employmentjunction.in/mock-test/rrb-group-d-mock-test-1/",
+  "rrb-alp-cbt-1-mock-test-1": "https://employmentjunction.in/mock-test/rrb-alp-cbt-1-mock-test-1/",
+  "rrb-ntpc-undergraduate-cbt-1-mock-test-1": "https://employmentjunction.in/mock-test/rrb-ntpc-undergraduate-cbt-1-mock-test-1/",
+  "ibps-po-prelims-mock-test-1": "https://employmentjunction.in/mock-test/ibps-po-prelims-mock-test-1/",
+  "ibps-clerk-prelims-mock-test-1": "https://employmentjunction.in/mock-test/ibps-clerk-prelims-mock-test-1/",
+  "sbi-clerk-prelims-mock-test-1": "https://employmentjunction.in/mock-test/sbi-clerk-prelims-mock-test-1/",
+  "data-interpretation-questions-mock-test": "https://employmentjunction.in/mock-test/data-interpretation-questions-mock-test/",
+  "ctet-paper-1-mock-test-1": "https://employmentjunction.in/mock-test/ctet-paper-1-mock-test-1/",
+  "ctet-paper-2-maths-science-mock-test-1": "https://employmentjunction.in/mock-test/ctet-paper-2-maths-science-mock-test-1/",
+  "ctet-paper-2-social-studies-mock-test-1": "https://employmentjunction.in/mock-test/ctet-paper-2-social-studies-mock-test-1/",
+  "child-development-pedagogy-mock-test": "https://employmentjunction.in/mock-test/child-development-pedagogy-mock-test/",
+  "upsc-cse-prelims-gs-1-mock-test-1": "https://employmentjunction.in/mock-test/upsc-cse-prelims-gs-1-mock-test-1/",
+  "modern-history-mock-test": "https://employmentjunction.in/mock-test/modern-history-mock-test/",
+  "economy-mock-test": "https://employmentjunction.in/mock-test/economy-mock-test/",
+  "ssc-cgl-tier-1-mock-test-1": "https://employmentjunction.in/mock-test/ssc-cgl-tier-1-mock-test-1/",
+  "ssc-chsl-tier-1-mock-test-1": "https://employmentjunction.in/mock-test/ssc-chsl-tier-1-mock-test-1/",
+  "ssc-mts-mock-test-1": "https://employmentjunction.in/mock-test/ssc-mts-mock-test-1/",
+  "ssc-cpo-paper-1-mock-test-1": "https://employmentjunction.in/mock-test/ssc-cpo-paper-1-mock-test-1/"
  },
  "titles": {
   "general-knowledge-mock-test-1": "General Knowledge (GK) Mock Test 1",
@@ -37,63 +63,89 @@
   "gujarat-gk-mock-test-1": "Gujarat GK Mock Test 1",
   "computer-awareness-mock-test-1": "Computer Awareness Mock Test 1",
   "english-mock-test-1": "General English Mock Test 1",
-  "hindi-mock-test-1": "\u0938\u093e\u092e\u093e\u0928\u094d\u092f \u0939\u093f\u0902\u0926\u0940 \u092e\u0949\u0915 \u091f\u0947\u0938\u094d\u091f 1 (General Hindi)",
-  "gujarat-police-lrd-mock-test-1": "Gujarat Police LRD Mock Test 2026 \u2013 Full Test 1",
-  "ssc-mts-dsssb-mock-test-1": "SSC MTS / DSSSB MTS Mock Test 2026 \u2013 Full Test 1",
-  "railway-ntpc-group-d-mock-test-1": "Railway (RRB NTPC / Group D) Mock Test 2026 \u2013 Full Test 1",
-  "police-constable-mock-test-1": "Police Constable Mock Test 2026 \u2013 Full Test 1 (All States)",
-  "bank-clerk-po-mock-test-1": "Bank Clerk / PO Mock Test 2026 \u2013 Full Test 1",
-  "teaching-tet-mock-test-1": "Teaching (TET / Teacher Recruitment) Mock Test 2026 \u2013 Full Test 1",
-  "engineering-psu-aptitude-mock-test-1": "Engineering & PSU General Aptitude Mock Test 2026 \u2013 Full Test 1",
-  "upsc-state-psc-gs-mock-test-1": "UPSC / State PSC General Studies Mock Test 2026 \u2013 Full Test 1"
+  "hindi-mock-test-1": "सामान्य हिंदी मॉक टेस्ट 1 (General Hindi)",
+  "gujarat-police-lrd-mock-test-1": "Gujarat Police Lokrakshak (LRD) Written Exam Mock Test 1 – Full Length, Syllabus-wise",
+  "ssc-mts-dsssb-mock-test-1": "SSC MTS / DSSSB MTS Mock Test 2026 – Full Test 1",
+  "railway-ntpc-group-d-mock-test-1": "Railway (RRB NTPC / Group D) Mock Test 2026 – Full Test 1",
+  "police-constable-mock-test-1": "Police Constable Mock Test 2026 – Full Test 1 (All States)",
+  "bank-clerk-po-mock-test-1": "Bank Clerk / PO Mock Test 2026 – Full Test 1",
+  "teaching-tet-mock-test-1": "Teaching (TET / Teacher Recruitment) Mock Test 2026 – Full Test 1",
+  "engineering-psu-aptitude-mock-test-1": "Engineering & PSU General Aptitude Mock Test 2026 – Full Test 1",
+  "upsc-state-psc-gs-mock-test-1": "UPSC / State PSC General Studies Mock Test 2026 – Full Test 1",
+  "gujarat-gk-mock-test": "Gujarat GK Mock Test – State Exams Practice",
+  "gujarati-grammar-mock-test": "Gujarati Grammar Mock Test – Topic-wise Practice",
+  "gsssb-cce-prelims-mock-test-1": "GSSSB CCE (Class-3 Group A & B) Preliminary Mock Test 1 – Full Length, Syllabus-wise",
+  "up-police-constable-mock-test-1": "UP Police Constable (Civil Police) Written Mock Test 1 – Full Length, Syllabus-wise",
+  "delhi-police-constable-mock-test-1": "Delhi Police Constable (Executive) Mock Test 1 – Full Length, Syllabus-wise",
+  "bihar-police-constable-mock-test-1": "Bihar Police Constable (CSBC) Written Mock Test 1 – Full Length, Syllabus-wise",
+  "ssc-gd-constable-mock-test-1": "SSC GD Constable Mock Test 1 – Full Length, Syllabus-wise",
+  "rrb-ntpc-graduate-cbt-1-mock-test-1": "RRB NTPC (Graduate) CBT 1 Mock Test 1 – Full Length, Syllabus-wise",
+  "rrb-group-d-mock-test-1": "RRB Group D (Level 1) CBT Mock Test 1 – Full Length, Syllabus-wise",
+  "rrb-alp-cbt-1-mock-test-1": "RRB ALP CBT 1 Mock Test 1 – Full Length, Syllabus-wise",
+  "rrb-ntpc-undergraduate-cbt-1-mock-test-1": "RRB NTPC (Undergraduate) CBT 1 Mock Test 1 – Full Length, Syllabus-wise",
+  "ibps-po-prelims-mock-test-1": "IBPS PO Prelims (CRP PO/MT-XVI) Mock Test 1 – Full Length, Syllabus-wise",
+  "ibps-clerk-prelims-mock-test-1": "IBPS Clerk Prelims (CRP CSA-XV) Mock Test 1 – Full Length, Syllabus-wise",
+  "sbi-clerk-prelims-mock-test-1": "SBI Clerk (Junior Associate) Prelims Mock Test 1 – Full Length, Syllabus-wise",
+  "data-interpretation-questions-mock-test": "Data Interpretation Questions – Quantitative Aptitude Mock Test (SSC, Railway, Bank)",
+  "ctet-paper-1-mock-test-1": "CTET Paper 1 (Classes I-V) Mock Test 1 – Full Length, Syllabus-wise",
+  "ctet-paper-2-maths-science-mock-test-1": "CTET Paper 2 (Classes VI-VIII) - Mathematics & Science Mock Test 1 – Full Length, Syllabus-wise",
+  "ctet-paper-2-social-studies-mock-test-1": "CTET Paper 2 (Classes VI-VIII) - Social Studies/Social Science Mock Test 1 – Full Length, Syllabus-wise",
+  "child-development-pedagogy-mock-test": "Child Development & Pedagogy Mock Test – Topic-wise Practice",
+  "upsc-cse-prelims-gs-1-mock-test-1": "UPSC CSE Prelims GS Paper I Mock Test 1 – Full Length, Syllabus-wise",
+  "modern-history-mock-test": "Modern History Mock Test – Topic-wise Practice",
+  "economy-mock-test": "Economy Mock Test – Topic-wise Practice",
+  "ssc-cgl-tier-1-mock-test-1": "SSC CGL Tier 1 Mock Test 1 – Full Length, Syllabus-wise",
+  "ssc-chsl-tier-1-mock-test-1": "SSC CHSL Tier 1 Mock Test 1 – Full Length, Syllabus-wise",
+  "ssc-mts-mock-test-1": "SSC MTS (Non-Technical) & Havaldar CBE Mock Test 1 – Full Length, Syllabus-wise",
+  "ssc-cpo-paper-1-mock-test-1": "SSC CPO (SI in Delhi Police & CAPFs) Paper 1 Mock Test 1 – Full Length, Syllabus-wise"
  },
  "exams": {
   "gujarat-police": [
    "gujarat-police-lrd-mock-test-1",
    [
-    "gujarat-gk-mock-test-1",
-    "reasoning-mock-test-1",
-    "maths-mock-test-1"
+    "gujarat-gk-mock-test",
+    "gujarati-grammar-mock-test",
+    "gsssb-cce-prelims-mock-test-1"
    ]
   ],
   "police": [
-   "police-constable-mock-test-1",
+   "up-police-constable-mock-test-1",
    [
-    "general-knowledge-mock-test-1",
-    "reasoning-mock-test-1",
-    "hindi-mock-test-1"
+    "delhi-police-constable-mock-test-1",
+    "bihar-police-constable-mock-test-1",
+    "ssc-gd-constable-mock-test-1"
    ]
   ],
   "ssc": [
-   "ssc-mts-dsssb-mock-test-1",
+   "ssc-cgl-tier-1-mock-test-1",
    [
-    "general-knowledge-mock-test-1",
-    "reasoning-mock-test-2",
-    "english-mock-test-1"
+    "ssc-chsl-tier-1-mock-test-1",
+    "ssc-mts-mock-test-1",
+    "ssc-cpo-paper-1-mock-test-1"
    ]
   ],
   "railway": [
-   "railway-ntpc-group-d-mock-test-1",
+   "rrb-ntpc-graduate-cbt-1-mock-test-1",
    [
-    "general-science-mock-test-1",
-    "reasoning-mock-test-2",
-    "maths-mock-test-2"
+    "rrb-group-d-mock-test-1",
+    "rrb-alp-cbt-1-mock-test-1",
+    "rrb-ntpc-undergraduate-cbt-1-mock-test-1"
    ]
   ],
   "bank": [
-   "bank-clerk-po-mock-test-1",
+   "ibps-po-prelims-mock-test-1",
    [
-    "reasoning-mock-test-3",
-    "maths-mock-test-3",
-    "english-mock-test-1"
+    "ibps-clerk-prelims-mock-test-1",
+    "sbi-clerk-prelims-mock-test-1",
+    "data-interpretation-questions-mock-test"
    ]
   ],
   "teaching": [
-   "teaching-tet-mock-test-1",
+   "ctet-paper-1-mock-test-1",
    [
-    "hindi-mock-test-1",
-    "english-mock-test-1",
-    "general-knowledge-mock-test-2"
+    "ctet-paper-2-maths-science-mock-test-1",
+    "ctet-paper-2-social-studies-mock-test-1",
+    "child-development-pedagogy-mock-test"
    ]
   ],
   "engineering": [
@@ -105,11 +157,10 @@
    ]
   ],
   "psc": [
-   "upsc-state-psc-gs-mock-test-1",
+   "upsc-cse-prelims-gs-1-mock-test-1",
    [
-    "indian-polity-mock-test-1",
-    "general-science-mock-test-1",
-    "general-knowledge-mock-test-2"
+    "modern-history-mock-test",
+    "economy-mock-test"
    ]
   ]
  }

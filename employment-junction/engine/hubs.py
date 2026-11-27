@@ -11,6 +11,7 @@ Usage: python3 engine/hubs.py [--dry]
 import datetime
 import html
 import json
+import os
 import re
 import subprocess
 import sys
@@ -303,8 +304,8 @@ def main():
 
     # mock test hub page
     if MOCK and not ONLY:
-        upsert_page("free-mock-test", "Free Mock Test Series 2026 – Online Test for Govt Exams", MOCK.hub_html(),
-                    "Free Mock Test 2026 – Online Test Series for Govt Exams", "Free online mock tests for Police, Gujarat LRD, SSC, DSSSB, Railway, Bank, Teaching & PSC exams with timer, score and solutions.", pages_by_slug)
+        import subprocess as _sp  # v2 hub: exam-wise / PYQ / topic-wise / state GK tabs (engine/mock/hub_v2.py)
+        _sp.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), "mock", "hub_v2.py")], check=False)
 
     # old-style job posts (post type "posts") also get the mock-test banner
     for p in fetch("posts"):
