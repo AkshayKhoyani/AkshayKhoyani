@@ -1,6 +1,6 @@
-# Content run – what the scheduled task does (3x daily: 07:43, 13:43, 18:43 IST)
+# Content run – what the scheduled task does (every 4 hours, 24×7)
 
-Goal: everything new since the previous run (about 6–12 hours) goes on the site in this run.
+Goal: everything new since the previous run (about 4 hours) goes on the site in this run, and the site never sits idle.
 Daily targets (across all runs): **5–10 new/updated pages in each section** — Jobs, Admit Card, Result, Answer Key, Syllabus/Exam Date.
 
 1. `git fetch origin claude/employment-junction-website-p8ywzx && git checkout claude/employment-junction-website-p8ywzx && git pull`.
@@ -19,3 +19,13 @@ Daily targets (across all runs): **5–10 new/updated pages in each section** �
 8. Report (Hinglish, short): published/updated links per section, anything blocked. If nothing new was found, say so in one line.
 
 Retention: never delete anything published less than 1 year ago. Pages older than 1 year may be moved to Trash (not permanently deleted), at most one batch per month, listed in the report.
+
+
+## When there is little or no new government-job news in this run
+Never end a run with nothing done. Pick from this list (top first) until the run has 6–10 useful changes:
+1. Update existing pages: date extensions, corrigenda, admit card / answer key / result links added as "Latest Update" on the job page, expired last dates noted.
+2. Fill "see official notification" gaps (fee, age, category-wise vacancy) on recent job pages now that official sites are reachable.
+3. Add new mock tests: new Reasoning/Maths sectional tests with new generator seeds (answers are computed, always safe), and new full mocks for exams that have open jobs but no full mock yet (add to SECTIONAL / FULL / EXAMS in mock/build_tests.py, run it, then hubs.py). Only add GK/Science/Polity questions to mock/banks.py if they are well-established static facts.
+4. Syllabus / exam-pattern pages for open recruitments that do not have one yet.
+5. Previous-year cut-off pages for big exams (official figures only).
+Then run hubs.py for the changed pages and report.
