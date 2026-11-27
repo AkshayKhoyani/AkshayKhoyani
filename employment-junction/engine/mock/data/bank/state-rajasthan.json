@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Ghoomar, performed by women in swirling ghagras, is a traditional folk dance of:",
+  "o": [
+   "Rajasthan",
+   "Haryana",
+   "Gujarat",
+   "Punjab"
+  ],
+  "a": 0,
+  "e": "Ghoomar is a famous folk dance of Rajasthan, originally associated with the Bhil community.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the largest state of India by area?",
+  "o": [
+   "Maharashtra",
+   "Uttar Pradesh",
+   "Madhya Pradesh",
+   "Rajasthan"
+  ],
+  "a": 3,
+  "e": "Rajasthan has been the largest state by area since the division of Madhya Pradesh in 2000.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "easy"
+ },
+ {
+  "q": "The Dilwara Jain temples, famous for intricate marble carving, are located at:",
+  "o": [
+   "Chittorgarh",
+   "Jaisalmer",
+   "Ranakpur",
+   "Mount Abu"
+  ],
+  "a": 3,
+  "e": "The Dilwara temples (11th-13th century) are at Mount Abu in Sirohi district.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "easy"
+ },
+ {
+  "q": "The famous Pushkar Fair, known for its camel trade, is held in which district?",
+  "o": [
+   "Nagaur",
+   "Bikaner",
+   "Ajmer",
+   "Jodhpur"
+  ],
+  "a": 2,
+  "e": "Pushkar, near Ajmer, hosts the annual camel fair in the month of Kartik.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "easy"
+ },
+ {
+  "q": "Keoladeo National Park, a UNESCO World Heritage Site famous for migratory birds, is located at:",
+  "o": [
+   "Bharatpur",
+   "Udaipur",
+   "Kota",
+   "Alwar"
+  ],
+  "a": 0,
+  "e": "Keoladeo Ghana National Park at Bharatpur is a renowned bird sanctuary and World Heritage Site.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "easy"
+ },
+ {
+  "q": "The Battle of Haldighati (1576) was fought between Akbar's forces and:",
+  "o": [
+   "Rana Sanga",
+   "Maharana Pratap",
+   "Rana Kumbha",
+   "Maharana Amar Singh"
+  ],
+  "a": 1,
+  "e": "Maharana Pratap of Mewar fought Akbar's army led by Raja Man Singh at Haldighati in 1576.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "easy"
+ },
+ {
+  "q": "Guru Shikhar, the highest peak of the Aravalli range, is located in Rajasthan at:",
+  "o": [
+   "Sariska",
+   "Kumbhalgarh",
+   "Mount Abu",
+   "Ranthambore"
+  ],
+  "a": 2,
+  "e": "Guru Shikhar (about 1,722 m) on Mount Abu is the highest point of the Aravallis.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "easy"
+ },
+ {
+  "q": "Blue Pottery is a famous traditional craft of which city of Rajasthan?",
+  "o": [
+   "Bikaner",
+   "Sikar",
+   "Barmer",
+   "Jaipur"
+  ],
+  "a": 3,
+  "e": "Jaipur Blue Pottery, made from quartz-based dough with cobalt blue glaze, is a GI-tagged craft.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "easy"
+ },
+ {
+  "q": "Ranthambore National Park, famous for its tigers, is in which district?",
+  "o": [
+   "Alwar",
+   "Bundi",
+   "Sawai Madhopur",
+   "Kota"
+  ],
+  "a": 2,
+  "e": "Ranthambore National Park lies in Sawai Madhopur district.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "medium"
+ },
+ {
+  "q": "The Vijay Stambha at Chittorgarh was built by which ruler to celebrate his victory over Mahmud Khilji of Malwa?",
+  "o": [
+   "Bappa Rawal",
+   "Rana Kumbha",
+   "Rana Sanga",
+   "Maharana Pratap"
+  ],
+  "a": 1,
+  "e": "Rana Kumbha built the Vijay Stambha (Tower of Victory) in the 15th century.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "medium"
+ },
+ {
+  "q": "Rajasthan Diwas is celebrated every year on:",
+  "o": [
+   "1 November",
+   "26 January",
+   "30 March",
+   "15 August"
+  ],
+  "a": 2,
+  "e": "Rajasthan Day marks the formation of Greater Rajasthan on 30 March 1949.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "medium"
+ },
+ {
+  "q": "Which river of Rajasthan, originating near Ajmer, ends in the Rann of Kutch and is called a salt river?",
+  "o": [
+   "Luni",
+   "Chambal",
+   "Banas",
+   "Mahi"
+  ],
+  "a": 0,
+  "e": "The Luni rises near Ajmer and drains into the Rann of Kutch; its water turns saline downstream.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "medium"
+ },
+ {
+  "q": "Sambhar Lake in Rajasthan is best known as:",
+  "o": [
+   "India's largest inland saltwater lake",
+   "India's highest freshwater lake",
+   "The source of the Chambal river",
+   "A man-made irrigation reservoir"
+  ],
+  "a": 0,
+  "e": "Sambhar is India's largest inland salt lake and a major source of salt.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "medium"
+ },
+ {
+  "q": "Which bird, critically endangered and locally called 'Godawan', is the state bird of Rajasthan?",
+  "o": [
+   "Sarus crane",
+   "Indian peafowl",
+   "Demoiselle crane",
+   "Great Indian Bustard"
+  ],
+  "a": 3,
+  "e": "The Great Indian Bustard (Godawan) is the state bird of Rajasthan.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "medium"
+ },
+ {
+  "q": "Amrita Devi Bishnoi and hundreds of Bishnois sacrificed their lives at Khejarli in 1730 to protect which trees?",
+  "o": [
+   "Neem",
+   "Khejri",
+   "Sal",
+   "Banyan"
+  ],
+  "a": 1,
+  "e": "The Bishnois died protecting Khejri trees; the Khejri is now Rajasthan's state tree.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "medium"
+ },
+ {
+  "q": "The Bhakti poetess Mirabai, devotee of Lord Krishna, belonged to the royal family of:",
+  "o": [
+   "Amber",
+   "Jaisalmer",
+   "Bundi",
+   "Merta"
+  ],
+  "a": 3,
+  "e": "Mirabai was a Rathore princess of Merta, married into the Sisodia royal family of Mewar.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "medium"
+ },
+ {
+  "q": "Jantar Mantar in Jaipur, an astronomical observatory, was built by:",
+  "o": [
+   "Maharaja Ganga Singh",
+   "Sawai Jai Singh II",
+   "Raja Man Singh",
+   "Sawai Pratap Singh"
+  ],
+  "a": 1,
+  "e": "Sawai Jai Singh II, founder of Jaipur, built five Jantar Mantars; Jaipur's is a World Heritage Site.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "medium"
+ },
+ {
+  "q": "The epic 'Prithviraj Raso', describing the life of Prithviraj Chauhan, is attributed to:",
+  "o": [
+   "Surajmal Mishran",
+   "Chand Bardai",
+   "Kalhana",
+   "Narpati Nalha"
+  ],
+  "a": 1,
+  "e": "Chand Bardai, court poet of Prithviraj Chauhan, is credited with the Prithviraj Raso.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "hard"
+ },
+ {
+  "q": "The Harappan site of Kalibangan, known for early ploughed field evidence, lies in which district?",
+  "o": [
+   "Bikaner",
+   "Sri Ganganagar",
+   "Hanumangarh",
+   "Churu"
+  ],
+  "a": 2,
+  "e": "Kalibangan is on the dried bed of the Ghaggar in Hanumangarh district.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "hard"
+ },
+ {
+  "q": "Jaipur's Hawa Mahal, built in 1799, was commissioned by:",
+  "o": [
+   "Maharaja Sawai Pratap Singh",
+   "Raja Man Singh I",
+   "Sawai Jai Singh II",
+   "Sawai Ram Singh II"
+  ],
+  "a": 0,
+  "e": "Sawai Pratap Singh built the Hawa Mahal, designed by Lal Chand Ustad.",
+  "topic": "Rajasthan GK",
+  "state": "Rajasthan",
+  "level": "hard"
+ }
+]

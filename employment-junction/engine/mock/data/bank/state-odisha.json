@@ -1,0 +1,282 @@
+[
+ {
+  "q": "The Rath Yatra of Lord Jagannath is held every year at:",
+  "o": [
+   "Puri",
+   "Bhubaneswar",
+   "Cuttack",
+   "Konark"
+  ],
+  "a": 0,
+  "e": "Puri's Rath Yatra takes Jagannath, Balabhadra and Subhadra to the Gundicha temple.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "easy"
+ },
+ {
+  "q": "Odissi is the classical dance form of:",
+  "o": [
+   "Assam",
+   "Kerala",
+   "Andhra Pradesh",
+   "Odisha"
+  ],
+  "a": 3,
+  "e": "Odissi originated in the temples of Odisha.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "easy"
+ },
+ {
+  "q": "The Kalinga War, which transformed Ashoka, was fought in present-day:",
+  "o": [
+   "Andhra Pradesh",
+   "Bihar",
+   "West Bengal",
+   "Odisha"
+  ],
+  "a": 3,
+  "e": "Ashoka's Kalinga War (c. 261 BCE) was fought near Dhauli in present-day Odisha.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "easy"
+ },
+ {
+  "q": "Chilika, in Odisha, is India's largest:",
+  "o": [
+   "Freshwater lake",
+   "Man-made reservoir",
+   "Glacial lake",
+   "Brackish-water lagoon"
+  ],
+  "a": 3,
+  "e": "Chilika Lake is the largest brackish-water lagoon in India and a Ramsar site.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "easy"
+ },
+ {
+  "q": "The Hirakud Dam, among the longest earthen dams in the world, is built on:",
+  "o": [
+   "Baitarani",
+   "Brahmani",
+   "Mahanadi",
+   "Subarnarekha"
+  ],
+  "a": 2,
+  "e": "Hirakud Dam near Sambalpur is on the Mahanadi.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "easy"
+ },
+ {
+  "q": "Pattachitra, a traditional cloth-based scroll painting, is associated with:",
+  "o": [
+   "Goa",
+   "Punjab",
+   "Odisha",
+   "Gujarat"
+  ],
+  "a": 2,
+  "e": "Pattachitra of Odisha, especially from Raghurajpur, depicts Jagannath and mythological themes.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "easy"
+ },
+ {
+  "q": "The Lingaraj Temple, dedicated to Lord Shiva, is in which city?",
+  "o": [
+   "Bhubaneswar",
+   "Puri",
+   "Sambalpur",
+   "Berhampur"
+  ],
+  "a": 0,
+  "e": "The 11th-century Lingaraj Temple is the largest temple of Bhubaneswar.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "easy"
+ },
+ {
+  "q": "Paradip in Odisha is known as a major:",
+  "o": [
+   "Tiger reserve",
+   "Seaport",
+   "Steel plant",
+   "Hill station"
+  ],
+  "a": 1,
+  "e": "Paradip, at the mouth of the Mahanadi, is one of India's major ports.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "easy"
+ },
+ {
+  "q": "The Konark Sun Temple was built by which Eastern Ganga ruler?",
+  "o": [
+   "Narasimhadeva I",
+   "Kharavela",
+   "Anantavarman Chodaganga",
+   "Kapilendra Deva"
+  ],
+  "a": 0,
+  "e": "Narasimhadeva I built the Sun Temple at Konark in the 13th century.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "medium"
+ },
+ {
+  "q": "Simlipal National Park is located in which district of Odisha?",
+  "o": [
+   "Kandhamal",
+   "Koraput",
+   "Kendrapara",
+   "Mayurbhanj"
+  ],
+  "a": 3,
+  "e": "Simlipal Tiger Reserve is in Mayurbhanj district.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "medium"
+ },
+ {
+  "q": "Bhitarkanika National Park in Odisha is famous for mangroves and the:",
+  "o": [
+   "Snow leopard",
+   "Gharial",
+   "Saltwater crocodile",
+   "Asiatic lion"
+  ],
+  "a": 2,
+  "e": "Bhitarkanika hosts one of India's largest populations of saltwater crocodiles.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "medium"
+ },
+ {
+  "q": "Gahirmatha beach in Odisha is world-famous as a mass nesting site of:",
+  "o": [
+   "Olive Ridley turtles",
+   "Horseshoe crabs",
+   "Flamingos",
+   "Dugongs"
+  ],
+  "a": 0,
+  "e": "Gahirmatha sees the arribada (mass nesting) of Olive Ridley sea turtles.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "medium"
+ },
+ {
+  "q": "Utkal Divas is celebrated on 1 April to mark Odisha's formation as a separate province in:",
+  "o": [
+   "1956",
+   "1936",
+   "1947",
+   "1912"
+  ],
+  "a": 1,
+  "e": "Odisha became a separate province on 1 April 1936.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "medium"
+ },
+ {
+  "q": "The name of the state was officially changed from Orissa to Odisha in:",
+  "o": [
+   "2001",
+   "2006",
+   "2014",
+   "2011"
+  ],
+  "a": 3,
+  "e": "The Orissa (Alteration of Name) Act, 2011 changed the name to Odisha.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "medium"
+ },
+ {
+  "q": "Raja Parba, a three-day festival of Odisha, celebrates:",
+  "o": [
+   "The arrival of winter",
+   "Womanhood and the earth's fertility",
+   "The harvest of mangoes",
+   "Victory in the Kalinga war"
+  ],
+  "a": 1,
+  "e": "Raja Parba in mid-June celebrates womanhood and Mother Earth before the monsoon.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "medium"
+ },
+ {
+  "q": "Tarakasi, the fine silver filigree work of Odisha, is mainly associated with:",
+  "o": [
+   "Rourkela",
+   "Balasore",
+   "Cuttack",
+   "Koraput"
+  ],
+  "a": 2,
+  "e": "Cuttack is famous for Tarakasi silver filigree.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "medium"
+ },
+ {
+  "q": "Which Odia social reformer and freedom fighter was given the title 'Utkalmani'?",
+  "o": [
+   "Madhusudan Das",
+   "Gopabandhu Das",
+   "Fakir Mohan Senapati",
+   "Harekrushna Mahtab"
+  ],
+  "a": 1,
+  "e": "Pandit Gopabandhu Das was called Utkalmani (Gem of Utkal).",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "medium"
+ },
+ {
+  "q": "The Hathigumpha inscription in the Udayagiri caves describes the achievements of which king?",
+  "o": [
+   "Narasimhadeva I",
+   "Kharavela",
+   "Samudragupta",
+   "Ashoka"
+  ],
+  "a": 1,
+  "e": "Kharavela of the Mahameghavahana dynasty recorded his deeds in the Hathigumpha inscription.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "hard"
+ },
+ {
+  "q": "Odia was declared a classical language of India in which year?",
+  "o": [
+   "2004",
+   "2008",
+   "2014",
+   "2013"
+  ],
+  "a": 2,
+  "e": "Odia became the sixth classical language in 2014.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "hard"
+ },
+ {
+  "q": "What is the state bird of Odisha?",
+  "o": [
+   "Indian roller",
+   "Peacock",
+   "Hill myna",
+   "Great hornbill"
+  ],
+  "a": 0,
+  "e": "The Indian roller (Blue Jay) is the state bird of Odisha.",
+  "topic": "Odisha GK",
+  "state": "Odisha",
+  "level": "hard"
+ }
+]

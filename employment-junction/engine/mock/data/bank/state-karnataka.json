@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Hampi, a UNESCO World Heritage Site, was the capital of which empire?",
+  "o": [
+   "Chalukya",
+   "Rashtrakuta",
+   "Vijayanagara",
+   "Hoysala"
+  ],
+  "a": 2,
+  "e": "Hampi (Vijayanagara) was the capital of the Vijayanagara Empire.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "easy"
+ },
+ {
+  "q": "The Dasara festival with a grand royal procession (Jamboo Savari) is famous in:",
+  "o": [
+   "Mangaluru",
+   "Belagavi",
+   "Hubballi",
+   "Mysuru"
+  ],
+  "a": 3,
+  "e": "Mysuru Dasara is Karnataka's state festival (Nadahabba).",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "easy"
+ },
+ {
+  "q": "Yakshagana, a dance-drama with elaborate costumes and headgear, is a traditional theatre form of:",
+  "o": [
+   "Karnataka",
+   "Tamil Nadu",
+   "Odisha",
+   "Maharashtra"
+  ],
+  "a": 0,
+  "e": "Yakshagana is the folk theatre of coastal and Malnad Karnataka.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "easy"
+ },
+ {
+  "q": "The monolithic statue of Gommateshwara (Bahubali) is at:",
+  "o": [
+   "Mudbidri",
+   "Shravanabelagola",
+   "Halebidu",
+   "Badami"
+  ],
+  "a": 1,
+  "e": "The 57-foot Gommateshwara statue at Shravanabelagola was erected around 983 CE.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "easy"
+ },
+ {
+  "q": "Tipu Sultan died defending which capital in 1799?",
+  "o": [
+   "Chitradurga",
+   "Bengaluru",
+   "Mysuru",
+   "Srirangapatna"
+  ],
+  "a": 3,
+  "e": "Tipu Sultan died at Srirangapatna in the Fourth Anglo-Mysore War, 1799.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "easy"
+ },
+ {
+  "q": "Channapatna in Karnataka is famous for:",
+  "o": [
+   "Sandalwood oil",
+   "Wooden lacquered toys",
+   "Silk sarees",
+   "Brass lamps"
+  ],
+  "a": 1,
+  "e": "Channapatna, the 'toy town', makes GI-tagged lacquered wooden toys.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "easy"
+ },
+ {
+  "q": "Gol Gumbaz, famous for its whispering gallery, is the tomb of:",
+  "o": [
+   "Ibrahim Adil Shah II",
+   "Tipu Sultan",
+   "Muhammad Adil Shah",
+   "Hyder Ali"
+  ],
+  "a": 2,
+  "e": "Gol Gumbaz at Vijayapura (Bijapur) is the mausoleum of Muhammad Adil Shah.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "easy"
+ },
+ {
+  "q": "Bandipur National Park in Karnataka adjoins which national park of Tamil Nadu?",
+  "o": [
+   "Mudumalai",
+   "Anamalai",
+   "Silent Valley",
+   "Periyar"
+  ],
+  "a": 0,
+  "e": "Bandipur is contiguous with Tamil Nadu's Mudumalai and Kerala's Wayanad sanctuary.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "easy"
+ },
+ {
+  "q": "Mysore State was renamed Karnataka in which year?",
+  "o": [
+   "1956",
+   "1973",
+   "1966",
+   "1960"
+  ],
+  "a": 1,
+  "e": "Mysore State was renamed Karnataka on 1 November 1973.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "medium"
+ },
+ {
+  "q": "Jog Falls, one of India's highest plunge waterfalls, is formed by which river?",
+  "o": [
+   "Netravati",
+   "Kali",
+   "Tunga",
+   "Sharavathi"
+  ],
+  "a": 3,
+  "e": "Jog Falls is on the Sharavathi river in Shivamogga district.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "medium"
+ },
+ {
+  "q": "The Kaveri river originates at Talakaveri in which district of Karnataka?",
+  "o": [
+   "Hassan",
+   "Mandya",
+   "Kodagu",
+   "Chikkamagaluru"
+  ],
+  "a": 2,
+  "e": "Talakaveri on the Brahmagiri hills in Kodagu is the source of the Kaveri.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "medium"
+ },
+ {
+  "q": "Rani Chennamma, who fought the British in 1824, was the queen of:",
+  "o": [
+   "Belur",
+   "Keladi",
+   "Kittur",
+   "Mysore"
+  ],
+  "a": 2,
+  "e": "Kittur Rani Chennamma resisted the British over the doctrine of adoption.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "medium"
+ },
+ {
+  "q": "The 12th-century reformer Basavanna is associated with which literary form?",
+  "o": [
+   "Ragale",
+   "Shatakas",
+   "Tripadi",
+   "Vachanas"
+  ],
+  "a": 3,
+  "e": "Basavanna and the Sharanas composed Vachanas, simple prose-poems in Kannada.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "medium"
+ },
+ {
+  "q": "Pattadakal, a UNESCO site of temples blending Nagara and Dravida styles, was built by:",
+  "o": [
+   "Hoysalas",
+   "Kadambas",
+   "Chalukyas of Badami",
+   "Gangas"
+  ],
+  "a": 2,
+  "e": "The Pattadakal temples were built by the Badami Chalukyas in the 7th-8th centuries.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "medium"
+ },
+ {
+  "q": "Badami, famous for its rock-cut cave temples, was earlier known as:",
+  "o": [
+   "Vatapi",
+   "Banavasi",
+   "Dorasamudra",
+   "Talakad"
+  ],
+  "a": 0,
+  "e": "Badami (Vatapi) was the capital of the Early Chalukyas.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "medium"
+ },
+ {
+  "q": "The Krishna Raja Sagara (KRS) Dam on the Kaveri was built under the supervision of:",
+  "o": [
+   "A. N. Khosla",
+   "C. V. Raman",
+   "K. L. Rao",
+   "M. Visvesvaraya"
+  ],
+  "a": 3,
+  "e": "Sir M. Visvesvaraya was the chief engineer for the KRS Dam.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "medium"
+ },
+ {
+  "q": "Kannada was declared a classical language of India in which year?",
+  "o": [
+   "2008",
+   "2005",
+   "2004",
+   "2013"
+  ],
+  "a": 0,
+  "e": "Kannada and Telugu were granted classical language status in 2008.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "medium"
+ },
+ {
+  "q": "Which poet is known as the 'Adikavi' (first poet) of Kannada?",
+  "o": [
+   "Ponna",
+   "Pampa",
+   "Kumaravyasa",
+   "Ranna"
+  ],
+  "a": 1,
+  "e": "Pampa (10th century), author of Vikramarjuna Vijaya, is called Adikavi of Kannada.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "hard"
+ },
+ {
+  "q": "What is the state bird of Karnataka?",
+  "o": [
+   "Indian roller",
+   "Peacock",
+   "Great hornbill",
+   "Malabar whistling thrush"
+  ],
+  "a": 0,
+  "e": "The Indian roller is Karnataka's state bird; the elephant is its state animal.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "hard"
+ },
+ {
+  "q": "Which is the highest peak of Karnataka?",
+  "o": [
+   "Brahmagiri",
+   "Mullayanagiri",
+   "Kudremukh",
+   "Kumara Parvatha"
+  ],
+  "a": 1,
+  "e": "Mullayanagiri (about 1,930 m) in Chikkamagaluru district is Karnataka's highest peak.",
+  "topic": "Karnataka GK",
+  "state": "Karnataka",
+  "level": "hard"
+ }
+]

@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Gautama Buddha attained enlightenment under the Bodhi tree at which place in Bihar?",
+  "o": [
+   "Nalanda",
+   "Vaishali",
+   "Bodh Gaya",
+   "Rajgir"
+  ],
+  "a": 2,
+  "e": "Buddha attained enlightenment at Bodh Gaya; the Mahabodhi Temple there is a UNESCO World Heritage Site.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "easy"
+ },
+ {
+  "q": "The Chhath festival, widely celebrated in Bihar, is dedicated to the worship of:",
+  "o": [
+   "Goddess Durga",
+   "Lord Shiva",
+   "Lord Krishna",
+   "The Sun God"
+  ],
+  "a": 3,
+  "e": "Chhath Puja is devoted to Surya (the Sun God) and Chhathi Maiya, with offerings made at sunset and sunrise.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "easy"
+ },
+ {
+  "q": "Madhubani painting is a traditional folk art of which region of Bihar?",
+  "o": [
+   "Bhojpur",
+   "Magadh",
+   "Mithila",
+   "Anga"
+  ],
+  "a": 2,
+  "e": "Madhubani or Mithila painting originates from the Mithila region of north Bihar.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "easy"
+ },
+ {
+  "q": "Mahatma Gandhi's Champaran Satyagraha of 1917 was launched in support of farmers forced to grow:",
+  "o": [
+   "Jute",
+   "Indigo",
+   "Opium",
+   "Cotton"
+  ],
+  "a": 1,
+  "e": "The Champaran Satyagraha opposed the oppressive tinkathia system of indigo cultivation.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "easy"
+ },
+ {
+  "q": "Pataliputra, the capital of the Mauryan Empire, is the ancient name of which present-day city?",
+  "o": [
+   "Bhagalpur",
+   "Gaya",
+   "Patna",
+   "Rajgir"
+  ],
+  "a": 2,
+  "e": "Pataliputra is the ancient name of Patna, capital of the Magadha, Maurya and Gupta empires.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "easy"
+ },
+ {
+  "q": "Which river is known as the 'Sorrow of Bihar' because of its frequent floods and course changes?",
+  "o": [
+   "Kosi",
+   "Son",
+   "Gandak",
+   "Bagmati"
+  ],
+  "a": 0,
+  "e": "The Kosi is called the Sorrow of Bihar due to devastating floods and frequent shifting of its course.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "easy"
+ },
+ {
+  "q": "The First Buddhist Council was held shortly after Buddha's death at which place?",
+  "o": [
+   "Rajgir",
+   "Vaishali",
+   "Kundalvana",
+   "Pataliputra"
+  ],
+  "a": 0,
+  "e": "The First Buddhist Council was held at Rajgir (Rajagriha) under the patronage of Ajatashatru.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "easy"
+ },
+ {
+  "q": "The state of Jharkhand was carved out of Bihar in which year?",
+  "o": [
+   "2000",
+   "2004",
+   "2002",
+   "1998"
+  ],
+  "a": 0,
+  "e": "Jharkhand was separated from Bihar and formed on 15 November 2000.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "easy"
+ },
+ {
+  "q": "The ancient Nalanda Mahavihara is generally credited to the patronage of which Gupta ruler?",
+  "o": [
+   "Samudragupta",
+   "Kumaragupta I",
+   "Chandragupta Maurya",
+   "Harshavardhana"
+  ],
+  "a": 1,
+  "e": "Nalanda was founded in the 5th century CE under Kumaragupta I; later rulers like Harsha patronised it.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "medium"
+ },
+ {
+  "q": "Valmiki National Park and Tiger Reserve is located in which district of Bihar?",
+  "o": [
+   "Purnia",
+   "West Champaran",
+   "Kaimur",
+   "Jamui"
+  ],
+  "a": 1,
+  "e": "Valmiki Tiger Reserve lies in West Champaran district on the Nepal border.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "medium"
+ },
+ {
+  "q": "Bihar Diwas is celebrated on 22 March to mark the separation of Bihar from the Bengal Presidency in:",
+  "o": [
+   "1912",
+   "1936",
+   "1905",
+   "1947"
+  ],
+  "a": 0,
+  "e": "On 22 March 1912 the province of Bihar and Orissa was carved out of the Bengal Presidency.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "medium"
+ },
+ {
+  "q": "Vardhamana Mahavira, the 24th Jain Tirthankara, was born at Kundagrama near which ancient city?",
+  "o": [
+   "Vaishali",
+   "Champa",
+   "Rajgir",
+   "Pawapuri"
+  ],
+  "a": 0,
+  "e": "Mahavira was born at Kundagrama near Vaishali; he attained nirvana at Pawapuri.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "medium"
+ },
+ {
+  "q": "The famous Sonepur cattle fair is held at the confluence of the Ganga and which river?",
+  "o": [
+   "Punpun",
+   "Kosi",
+   "Son",
+   "Gandak"
+  ],
+  "a": 3,
+  "e": "The Sonepur (Harihar Kshetra) Mela is held on Kartik Purnima where the Gandak meets the Ganga.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "medium"
+ },
+ {
+  "q": "The tomb of Sher Shah Suri, an Indo-Afghan monument set in a lake, is located at:",
+  "o": [
+   "Patna",
+   "Bihar Sharif",
+   "Munger",
+   "Sasaram"
+  ],
+  "a": 3,
+  "e": "Sher Shah Suri's tomb stands in an artificial lake at Sasaram, his birthplace region.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "medium"
+ },
+ {
+  "q": "Which elderly zamindar of Jagdishpur led the 1857 revolt in Bihar?",
+  "o": [
+   "Bakht Khan",
+   "Maulvi Ahmadullah",
+   "Tantya Tope",
+   "Veer Kunwar Singh"
+  ],
+  "a": 3,
+  "e": "Kunwar Singh of Jagdishpur (Bhojpur) led the revolt in Bihar at about 80 years of age.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "medium"
+ },
+ {
+  "q": "Which language spoken in Bihar is included in the Eighth Schedule of the Constitution?",
+  "o": [
+   "Angika",
+   "Maithili",
+   "Magahi",
+   "Bhojpuri"
+  ],
+  "a": 1,
+  "e": "Maithili was added to the Eighth Schedule by the 92nd Amendment in 2003; Bhojpuri and Magahi are not included.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "medium"
+ },
+ {
+  "q": "Vidyapati, the celebrated medieval poet known as 'Maithil Kavi Kokil', wrote mainly in:",
+  "o": [
+   "Braj Bhasha",
+   "Awadhi",
+   "Maithili",
+   "Bhojpuri"
+  ],
+  "a": 2,
+  "e": "Vidyapati's devotional and love songs were composed in Maithili.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "medium"
+ },
+ {
+  "q": "The Vikramashila Mahavihara near Bhagalpur was founded by which Pala ruler?",
+  "o": [
+   "Gopala",
+   "Devapala",
+   "Mahipala",
+   "Dharmapala"
+  ],
+  "a": 3,
+  "e": "Vikramashila was established by the Pala king Dharmapala in the late 8th century.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "hard"
+ },
+ {
+  "q": "What is the state bird of Bihar?",
+  "o": [
+   "Indian roller",
+   "Sarus crane",
+   "House sparrow",
+   "Koel"
+  ],
+  "a": 2,
+  "e": "The house sparrow (Goraiya) is the state bird of Bihar.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "hard"
+ },
+ {
+  "q": "The Mauryan rock-cut Barabar caves were dedicated by Ashoka to monks of which sect?",
+  "o": [
+   "Theravada Buddhists",
+   "Ajivikas",
+   "Pashupatas",
+   "Jains"
+  ],
+  "a": 1,
+  "e": "Inscriptions in the Barabar caves record Ashoka's donation of these caves to the Ajivika sect.",
+  "topic": "Bihar GK",
+  "state": "Bihar",
+  "level": "hard"
+ }
+]

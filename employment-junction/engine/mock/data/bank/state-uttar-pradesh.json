@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Which Indian classical dance form developed in the Lucknow and Banaras gharanas of Uttar Pradesh?",
+  "o": [
+   "Odissi",
+   "Kuchipudi",
+   "Manipuri",
+   "Kathak"
+  ],
+  "a": 3,
+  "e": "Kathak is the classical dance of Uttar Pradesh; its Lucknow and Banaras gharanas are among its main schools.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "The Taj Mahal, built by Shah Jahan in memory of Mumtaz Mahal, stands in which city of Uttar Pradesh?",
+  "o": [
+   "Varanasi",
+   "Agra",
+   "Lucknow",
+   "Fatehpur Sikri"
+  ],
+  "a": 1,
+  "e": "The Taj Mahal is located on the banks of the Yamuna at Agra.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "The Triveni Sangam, the confluence of the Ganga, the Yamuna and the mythical Saraswati, is at which place?",
+  "o": [
+   "Kanpur",
+   "Varanasi",
+   "Ayodhya",
+   "Prayagraj"
+  ],
+  "a": 3,
+  "e": "The Triveni Sangam lies at Prayagraj, the venue of the Kumbh Mela.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "At which place in Uttar Pradesh did Gautama Buddha deliver his first sermon?",
+  "o": [
+   "Kushinagar",
+   "Shravasti",
+   "Sarnath",
+   "Kaushambi"
+  ],
+  "a": 2,
+  "e": "Buddha gave his first sermon (Dharmachakra Pravartana) in the Deer Park at Sarnath near Varanasi.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "The Revolt of 1857 broke out with the uprising of sepoys on 10 May 1857 at which cantonment in Uttar Pradesh?",
+  "o": [
+   "Jhansi",
+   "Meerut",
+   "Lucknow",
+   "Kanpur"
+  ],
+  "a": 1,
+  "e": "The sepoys at Meerut rose on 10 May 1857 and marched to Delhi, starting the revolt.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "Chikankari, a delicate white-thread embroidery, is most closely associated with which city?",
+  "o": [
+   "Agra",
+   "Lucknow",
+   "Varanasi",
+   "Moradabad"
+  ],
+  "a": 1,
+  "e": "Chikankari embroidery is the famous traditional craft of Lucknow.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "The Buland Darwaza, built by Akbar to commemorate his Gujarat victory, is located at:",
+  "o": [
+   "Allahabad Fort",
+   "Sikandra",
+   "Agra Fort",
+   "Fatehpur Sikri"
+  ],
+  "a": 3,
+  "e": "Akbar built the Buland Darwaza at Fatehpur Sikri around 1575-76 after conquering Gujarat.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "Which queen led the resistance against the British at Jhansi during the Revolt of 1857?",
+  "o": [
+   "Rani Chennamma",
+   "Begum Hazrat Mahal",
+   "Rani Lakshmibai",
+   "Rani Durgavati"
+  ],
+  "a": 2,
+  "e": "Rani Lakshmibai of Jhansi was a leading figure of the 1857 revolt; Begum Hazrat Mahal led at Lucknow.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "Kushinagar in Uttar Pradesh is revered by Buddhists as the place where Buddha:",
+  "o": [
+   "Delivered his first sermon",
+   "Was born",
+   "Attained Mahaparinirvana",
+   "Attained enlightenment"
+  ],
+  "a": 2,
+  "e": "Buddha attained Mahaparinirvana at Kushinagar; enlightenment was at Bodh Gaya and birth at Lumbini.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "Firozabad in Uttar Pradesh is famous throughout India for which product?",
+  "o": [
+   "Hand-knotted carpets",
+   "Locks",
+   "Brassware",
+   "Glass bangles"
+  ],
+  "a": 3,
+  "e": "Firozabad is known as the glass city of India, especially for glass bangles.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "Which city of Uttar Pradesh is popularly called 'Peetal Nagari' (Brass City)?",
+  "o": [
+   "Aligarh",
+   "Moradabad",
+   "Kannauj",
+   "Mirzapur"
+  ],
+  "a": 1,
+  "e": "Moradabad is renowned for its brassware handicrafts and exports, hence 'Peetal Nagari'.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "The Chauri Chaura incident of February 1922, which led Gandhi to call off the Non-Cooperation Movement, took place in which district?",
+  "o": [
+   "Rae Bareli",
+   "Gorakhpur",
+   "Azamgarh",
+   "Ballia"
+  ],
+  "a": 1,
+  "e": "Chauri Chaura is in Gorakhpur district; a police station was set on fire there on 4 February 1922.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "The United Provinces was renamed 'Uttar Pradesh' in which year?",
+  "o": [
+   "1950",
+   "1956",
+   "1947",
+   "1937"
+  ],
+  "a": 0,
+  "e": "The United Provinces became Uttar Pradesh on 24 January 1950, now marked as UP Day.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "What is the state bird of Uttar Pradesh?",
+  "o": [
+   "Sarus crane",
+   "Koel",
+   "Great hornbill",
+   "Indian peafowl"
+  ],
+  "a": 0,
+  "e": "The Sarus crane, the world's tallest flying bird, is the state bird of Uttar Pradesh.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "The Govind Ballabh Pant Sagar reservoir in Sonbhadra district is formed by which dam?",
+  "o": [
+   "Bhakra Dam",
+   "Matatila Dam",
+   "Rihand Dam",
+   "Tehri Dam"
+  ],
+  "a": 2,
+  "e": "The Rihand Dam on the Rihand river created the Govind Ballabh Pant Sagar reservoir.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "The Bara Imambara of Lucknow was built by which Nawab of Awadh?",
+  "o": [
+   "Asaf-ud-Daula",
+   "Shuja-ud-Daula",
+   "Saadat Ali Khan",
+   "Wajid Ali Shah"
+  ],
+  "a": 0,
+  "e": "Nawab Asaf-ud-Daula built the Bara Imambara in 1784, partly as a famine-relief project.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "In which language did Goswami Tulsidas compose the Ramcharitmanas?",
+  "o": [
+   "Awadhi",
+   "Maithili",
+   "Bhojpuri",
+   "Braj Bhasha"
+  ],
+  "a": 0,
+  "e": "The Ramcharitmanas was written in Awadhi, a dialect of the Awadh region of UP.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "Dudhwa National Park, a tiger reserve on the Indo-Nepal border, lies in which district of Uttar Pradesh?",
+  "o": [
+   "Lakhimpur Kheri",
+   "Bahraich",
+   "Pilibhit",
+   "Sonbhadra"
+  ],
+  "a": 0,
+  "e": "Dudhwa National Park is located in Lakhimpur Kheri district along the Nepal border.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "hard"
+ },
+ {
+  "q": "The Bhakti saint Kabir spent his last days and died at which place in Uttar Pradesh?",
+  "o": [
+   "Mathura",
+   "Chitrakoot",
+   "Ayodhya",
+   "Maghar"
+  ],
+  "a": 3,
+  "e": "Kabir chose to die at Maghar (Sant Kabir Nagar district) to counter the belief that dying there was inauspicious.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "hard"
+ },
+ {
+  "q": "What is the state animal of Uttar Pradesh?",
+  "o": [
+   "Nilgai",
+   "Blackbuck",
+   "Swamp deer (Barasingha)",
+   "Asiatic lion"
+  ],
+  "a": 2,
+  "e": "The swamp deer or Barasingha is the state animal of Uttar Pradesh.",
+  "topic": "Uttar Pradesh GK",
+  "state": "Uttar Pradesh",
+  "level": "hard"
+ }
+]

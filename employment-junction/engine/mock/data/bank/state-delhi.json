@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Construction of the Qutub Minar was started by:",
+  "o": [
+   "Qutb-ud-din Aibak",
+   "Alauddin Khalji",
+   "Iltutmish",
+   "Firoz Shah Tughlaq"
+  ],
+  "a": 0,
+  "e": "Aibak began the Qutub Minar; Iltutmish added storeys and later rulers repaired it.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "easy"
+ },
+ {
+  "q": "The Red Fort in Delhi was built by which Mughal emperor?",
+  "o": [
+   "Akbar",
+   "Humayun",
+   "Aurangzeb",
+   "Shah Jahan"
+  ],
+  "a": 3,
+  "e": "Shah Jahan built the Red Fort (Lal Qila) as the palace of Shahjahanabad, completed in 1648.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "easy"
+ },
+ {
+  "q": "The decision to shift the capital of British India from Calcutta to Delhi was announced in:",
+  "o": [
+   "1911",
+   "1905",
+   "1931",
+   "1947"
+  ],
+  "a": 0,
+  "e": "King George V announced the shift at the Delhi Durbar of 1911.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "easy"
+ },
+ {
+  "q": "The Lotus Temple in Delhi is a house of worship of which faith?",
+  "o": [
+   "Buddhism",
+   "Baha'i",
+   "Jainism",
+   "Sikhism"
+  ],
+  "a": 1,
+  "e": "The Lotus Temple is a Baha'i House of Worship opened in 1986.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "easy"
+ },
+ {
+  "q": "Delhi is situated on the banks of which river?",
+  "o": [
+   "Yamuna",
+   "Ganga",
+   "Sutlej",
+   "Chambal"
+  ],
+  "a": 0,
+  "e": "The Yamuna flows through Delhi.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "easy"
+ },
+ {
+  "q": "Raj Ghat in Delhi is the memorial of:",
+  "o": [
+   "Lal Bahadur Shastri",
+   "Indira Gandhi",
+   "Mahatma Gandhi",
+   "Jawaharlal Nehru"
+  ],
+  "a": 2,
+  "e": "Raj Ghat marks the spot of Mahatma Gandhi's cremation in 1948.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "easy"
+ },
+ {
+  "q": "India Gate in New Delhi was built as a memorial to Indian soldiers who died in:",
+  "o": [
+   "The Kargil war",
+   "The 1857 revolt",
+   "World War I",
+   "The 1971 war"
+  ],
+  "a": 2,
+  "e": "India Gate commemorates soldiers of the British Indian Army killed in the First World War.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "easy"
+ },
+ {
+  "q": "The Jama Masjid of Delhi was built by:",
+  "o": [
+   "Akbar",
+   "Babur",
+   "Bahadur Shah Zafar",
+   "Shah Jahan"
+  ],
+  "a": 3,
+  "e": "Shah Jahan built the Jama Masjid between 1650 and 1656.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "easy"
+ },
+ {
+  "q": "Humayun's Tomb in Delhi was commissioned by:",
+  "o": [
+   "Akbar's general Bairam Khan",
+   "Jahangir",
+   "Bega Begum, his widow",
+   "Shah Jahan"
+  ],
+  "a": 2,
+  "e": "Humayun's widow Bega Begum commissioned the tomb, completed around 1570.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "medium"
+ },
+ {
+  "q": "Which architects were chiefly responsible for planning New Delhi?",
+  "o": [
+   "Charles Correa and B. V. Doshi",
+   "Edwin Lutyens and Herbert Baker",
+   "Robert Chisholm and Henry Irwin",
+   "Le Corbusier and Pierre Jeanneret"
+  ],
+  "a": 1,
+  "e": "Lutyens and Baker designed Lutyens' Delhi, including Rashtrapati Bhavan and North Block.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "medium"
+ },
+ {
+  "q": "The rust-resistant Iron Pillar at Mehrauli is attributed to which Gupta ruler?",
+  "o": [
+   "Samudragupta",
+   "Chandragupta II",
+   "Skandagupta",
+   "Kumaragupta I"
+  ],
+  "a": 1,
+  "e": "The pillar's inscription is generally attributed to Chandragupta II (Vikramaditya).",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "medium"
+ },
+ {
+  "q": "Shahjahanabad, the walled city now called Old Delhi, was founded by:",
+  "o": [
+   "Sher Shah Suri",
+   "Firoz Shah Tughlaq",
+   "Humayun",
+   "Shah Jahan"
+  ],
+  "a": 3,
+  "e": "Shah Jahan founded Shahjahanabad in 1639 when moving the capital from Agra.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "medium"
+ },
+ {
+  "q": "Amir Khusrau was a disciple of which Sufi saint whose dargah is in Delhi?",
+  "o": [
+   "Salim Chishti",
+   "Nizamuddin Auliya",
+   "Bakhtiyar Kaki",
+   "Moinuddin Chishti"
+  ],
+  "a": 1,
+  "e": "Amir Khusrau was the devoted disciple of Hazrat Nizamuddin Auliya.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "medium"
+ },
+ {
+  "q": "The Asola Bhatti Wildlife Sanctuary is located on which part of the Delhi Ridge?",
+  "o": [
+   "Yamuna floodplain",
+   "Southern Ridge",
+   "Central Ridge",
+   "Northern Ridge"
+  ],
+  "a": 1,
+  "e": "Asola Bhatti lies on the Southern Ridge along the Delhi-Haryana border.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "medium"
+ },
+ {
+  "q": "The fort city of Tughlaqabad was built by:",
+  "o": [
+   "Alauddin Khalji",
+   "Firoz Shah Tughlaq",
+   "Ghiyasuddin Tughlaq",
+   "Muhammad bin Tughlaq"
+  ],
+  "a": 2,
+  "e": "Ghiyasuddin Tughlaq built Tughlaqabad in the 1320s.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "medium"
+ },
+ {
+  "q": "Purana Qila in its present form was largely built by:",
+  "o": [
+   "Balban",
+   "Akbar",
+   "Sher Shah Suri",
+   "Iltutmish"
+  ],
+  "a": 2,
+  "e": "Sher Shah Suri rebuilt Humayun's Dinpanah as Purana Qila.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "medium"
+ },
+ {
+  "q": "The city of Siri in Delhi was founded by:",
+  "o": [
+   "Alauddin Khalji",
+   "Qutb-ud-din Aibak",
+   "Ghiyasuddin Balban",
+   "Muhammad bin Tughlaq"
+  ],
+  "a": 0,
+  "e": "Alauddin Khalji built Siri around 1303, partly as a defence against the Mongols.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "medium"
+ },
+ {
+  "q": "Which Constitutional Amendment gave Delhi the status of National Capital Territory with a Legislative Assembly?",
+  "o": [
+   "69th Amendment, 1991",
+   "74th Amendment, 1992",
+   "42nd Amendment, 1976",
+   "61st Amendment, 1989"
+  ],
+  "a": 0,
+  "e": "The 69th Amendment inserted Articles 239AA and 239AB for the NCT of Delhi.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "hard"
+ },
+ {
+  "q": "Phoolwalon ki Sair, a festival of communal harmony, is held in which area of Delhi?",
+  "o": [
+   "Chandni Chowk",
+   "Shahdara",
+   "Nizamuddin",
+   "Mehrauli"
+  ],
+  "a": 3,
+  "e": "The festival honours both the Yogmaya temple and the dargah of Bakhtiyar Kaki at Mehrauli.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "hard"
+ },
+ {
+  "q": "Lal Kot, considered one of the earliest cities of Delhi, was founded by rulers of which dynasty?",
+  "o": [
+   "Chauhans",
+   "Pratiharas",
+   "Paramaras",
+   "Tomaras"
+  ],
+  "a": 3,
+  "e": "Lal Kot was built by the Tomara king Anangpal and later expanded by the Chauhans as Qila Rai Pithora.",
+  "topic": "Delhi GK",
+  "state": "Delhi",
+  "level": "hard"
+ }
+]

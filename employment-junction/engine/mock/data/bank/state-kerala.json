@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Kathakali, a classical dance-drama with elaborate make-up, belongs to:",
+  "o": [
+   "Kerala",
+   "Karnataka",
+   "Tamil Nadu",
+   "Andhra Pradesh"
+  ],
+  "a": 0,
+  "e": "Kathakali is the famous classical dance-drama of Kerala.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "easy"
+ },
+ {
+  "q": "The Onam festival of Kerala celebrates the homecoming of which legendary king?",
+  "o": [
+   "Cheraman Perumal",
+   "Mahabali",
+   "Parashurama",
+   "Marthanda Varma"
+  ],
+  "a": 1,
+  "e": "Onam marks the annual return of King Mahabali to visit his people.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "easy"
+ },
+ {
+  "q": "Kerala was formed as a linguistic state on:",
+  "o": [
+   "1 November 1956",
+   "1 May 1960",
+   "26 January 1950",
+   "1 July 1949"
+  ],
+  "a": 0,
+  "e": "Kerala was created on 1 November 1956 under the States Reorganisation Act.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "easy"
+ },
+ {
+  "q": "Anamudi, the highest peak in South India, is located in:",
+  "o": [
+   "Karnataka",
+   "Andhra Pradesh",
+   "Tamil Nadu",
+   "Kerala"
+  ],
+  "a": 3,
+  "e": "Anamudi (2,695 m) lies in Eravikulam National Park in Kerala.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "easy"
+ },
+ {
+  "q": "Vasco da Gama landed near which place in Kerala in 1498?",
+  "o": [
+   "Kochi",
+   "Kollam",
+   "Calicut (Kozhikode)",
+   "Kannur"
+  ],
+  "a": 2,
+  "e": "Vasco da Gama reached Kappad near Calicut in May 1498.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "easy"
+ },
+ {
+  "q": "The Nehru Trophy Boat Race is held every year in which district?",
+  "o": [
+   "Thrissur",
+   "Ernakulam",
+   "Kottayam",
+   "Alappuzha"
+  ],
+  "a": 3,
+  "e": "The snake-boat race is held on Punnamada Lake in Alappuzha.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "easy"
+ },
+ {
+  "q": "Thrissur Pooram, famous for caparisoned elephants and fireworks, is held in which city?",
+  "o": [
+   "Thrissur",
+   "Kochi",
+   "Thiruvananthapuram",
+   "Palakkad"
+  ],
+  "a": 0,
+  "e": "Thrissur Pooram is held at the Vadakkunnathan temple grounds in Thrissur.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "easy"
+ },
+ {
+  "q": "The Sree Padmanabhaswamy Temple is in which city?",
+  "o": [
+   "Guruvayur",
+   "Kochi",
+   "Kozhikode",
+   "Thiruvananthapuram"
+  ],
+  "a": 3,
+  "e": "The Padmanabhaswamy Temple, dedicated to Vishnu, is in Thiruvananthapuram.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "easy"
+ },
+ {
+  "q": "Periyar Tiger Reserve in Kerala is located at:",
+  "o": [
+   "Nilambur",
+   "Thekkady",
+   "Munnar",
+   "Wayanad"
+  ],
+  "a": 1,
+  "e": "Periyar Tiger Reserve is at Thekkady in Idukki district.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "medium"
+ },
+ {
+  "q": "Silent Valley National Park, saved by a famous people's movement, is in which district?",
+  "o": [
+   "Kollam",
+   "Idukki",
+   "Palakkad",
+   "Wayanad"
+  ],
+  "a": 2,
+  "e": "Silent Valley is in Palakkad district; the movement stopped a hydroelectric project.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "medium"
+ },
+ {
+  "q": "Eravikulam National Park in Kerala is known for protecting the:",
+  "o": [
+   "Nilgiri tahr",
+   "Lion-tailed macaque",
+   "Snow leopard",
+   "One-horned rhino"
+  ],
+  "a": 0,
+  "e": "Eravikulam near Munnar holds the largest population of the Nilgiri tahr.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "medium"
+ },
+ {
+  "q": "Mohiniyattam, a graceful solo classical dance of Kerala, is traditionally performed by:",
+  "o": [
+   "Men",
+   "Women",
+   "Temple priests",
+   "Children"
+  ],
+  "a": 1,
+  "e": "Mohiniyattam, the dance of the enchantress, is performed by women.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "medium"
+ },
+ {
+  "q": "Sree Narayana Guru gave which famous message?",
+  "o": [
+   "Work is worship",
+   "Service to man is service to God",
+   "One caste, one religion, one God for man",
+   "Back to the Vedas"
+  ],
+  "a": 2,
+  "e": "Sree Narayana Guru preached 'One caste, one religion, one God for mankind'.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "medium"
+ },
+ {
+  "q": "Which is the longest lake of India, located in Kerala?",
+  "o": [
+   "Sasthamkotta",
+   "Ashtamudi",
+   "Pookode",
+   "Vembanad"
+  ],
+  "a": 3,
+  "e": "Vembanad lake stretches across Alappuzha, Kottayam and Ernakulam districts.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "medium"
+ },
+ {
+  "q": "What is the state bird of Kerala?",
+  "o": [
+   "Great hornbill",
+   "Malabar grey hornbill",
+   "Emerald dove",
+   "Indian peafowl"
+  ],
+  "a": 0,
+  "e": "The great hornbill is Kerala's state bird; the elephant is its state animal.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "medium"
+ },
+ {
+  "q": "The Idukki arch dam in Kerala is built across which river?",
+  "o": [
+   "Chaliyar",
+   "Pamba",
+   "Periyar",
+   "Bharathapuzha"
+  ],
+  "a": 2,
+  "e": "The Idukki arch dam is on the Periyar between the Kuravan and Kurathi hills.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "medium"
+ },
+ {
+  "q": "The Vaikom Satyagraha of 1924-25 was a struggle for:",
+  "o": [
+   "Land rights for tenant farmers",
+   "Women's voting rights",
+   "The right of all castes to use temple roads",
+   "Abolition of salt tax"
+  ],
+  "a": 2,
+  "e": "The Vaikom Satyagraha demanded access for lower castes to roads around the Vaikom temple.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "medium"
+ },
+ {
+  "q": "Koodiyattam, recognised by UNESCO as intangible heritage, is a traditional theatre performed in:",
+  "o": [
+   "Pali",
+   "Sanskrit",
+   "Tamil",
+   "Malayalam"
+  ],
+  "a": 1,
+  "e": "Koodiyattam is the ancient Sanskrit theatre tradition of Kerala.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "hard"
+ },
+ {
+  "q": "Malayalam was granted classical language status in which year?",
+  "o": [
+   "2014",
+   "2013",
+   "2008",
+   "2004"
+  ],
+  "a": 1,
+  "e": "Malayalam became a classical language in 2013.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "hard"
+ },
+ {
+  "q": "Theyyam, a ritual worship dance with towering headgear, is mainly performed in which region?",
+  "o": [
+   "Cochin",
+   "Travancore",
+   "Kuttanad",
+   "North Malabar"
+  ],
+  "a": 3,
+  "e": "Theyyam is performed in the Kannur and Kasaragod regions of North Malabar.",
+  "topic": "Kerala GK",
+  "state": "Kerala",
+  "level": "hard"
+ }
+]
