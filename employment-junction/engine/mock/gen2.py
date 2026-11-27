@@ -130,3 +130,114 @@ def gen_topic(topic, seed, n):
         if all((q["q"], tuple(sorted(q["o"]))) != (x["q"], tuple(sorted(x["o"]))) for x in out):
             out.append(q)
     return out
+
+
+# ---------- more topics (computed) ----------
+def m_boats(rng):
+    b, s = rng.choice([(10, 2), (12, 3), (15, 5), (18, 2), (20, 4), (9, 3), (14, 4)])
+    t = rng.randint(2, 5)
+    if rng.random() < .5:
+        return _mcq(rng, (b + s) * t, [(b - s) * t, b * t, (b + s) * t + 4], f"A boat's speed in still water is {b} km/h and the stream flows at {s} km/h. How far will it go downstream in {t} hours?",
+                    f"Downstream speed = {b} + {s} = {b + s} km/h; distance = {b + s} × {t} = {(b + s) * t} km.")
+    return _mcq(rng, b - s, [b + s, b, s], f"A boat's speed in still water is {b} km/h and the stream's speed is {s} km/h. Find its upstream speed (km/h).", f"Upstream = {b} − {s} = {b - s} km/h.")
+
+
+def m_partnership(rng):
+    a, b = rng.randint(2, 9) * 1000, rng.randint(2, 9) * 1000
+    g = math.gcd(a, b); ra, rb = a // g, b // g
+    p = (ra + rb) * rng.randint(100, 900)
+    sa = p * ra // (ra + rb)
+    return _mcq(rng, sa, [p * rb // (ra + rb), p // 2, sa + 100], f"A and B invest ₹{a} and ₹{b} for the same period. Out of a profit of ₹{p}, what is A's share (₹)?",
+                f"Ratio = {ra}:{rb}; A's share = {p} × {ra}/{ra + rb} = ₹{sa}.")
+
+
+def m_prob(rng):
+    k = rng.randint(0, 3)
+    if k == 0:
+        return _mcq(rng, "1/2", ["1/3", "1/6", "2/3"], "A fair die is thrown once. What is the probability of getting an even number?", "Even outcomes {2,4,6} = 3 of 6 → 3/6 = 1/2.")
+    if k == 1:
+        return _mcq(rng, "3/4", ["1/4", "1/2", "2/3"], "Two fair coins are tossed. What is the probability of getting at least one head?", "Outcomes HH, HT, TH, TT; at least one head in 3 of 4 → 3/4.")
+    if k == 2:
+        return _mcq(rng, "1/13", ["1/52", "4/13", "1/4"], "A card is drawn from a well-shuffled pack of 52 cards. What is the probability that it is a king?", "4 kings in 52 cards → 4/52 = 1/13.")
+    return _mcq(rng, "1/6", ["1/12", "5/36", "1/9"], "Two dice are thrown together. What is the probability that the sum is 7?", "Favourable (1,6),(2,5),(3,4),(4,3),(5,2),(6,1) = 6 of 36 → 1/6.")
+
+
+def m_height(rng):
+    h = rng.choice([10, 15, 20, 25, 30, 40, 50])
+    ang, ans, why = rng.choice([(45, f"{h}", "tan 45° = 1"), (60, f"{h}/√3", "tan 60° = √3"), (30, f"{h}√3", "tan 30° = 1/√3")])
+    return _mcq(rng, ans + " m", [f"{h}√3 m", f"{h}/√3 m", f"{h} m", f"{2 * h} m"], f"From a point on the ground, the angle of elevation of the top of a {h} m tall tower is {ang}°. How far is the point from the foot of the tower?",
+                f"Distance = height / tan {ang}° and {why}, so distance = {ans} m.")
+
+
+def m_stats(rng):
+    nums = sorted(rng.sample(range(2, 40), 5))
+    if rng.random() < .5:
+        return _mcq(rng, nums[2], [nums[1], nums[3], sum(nums) // 5 + 1], f"Find the median of {', '.join(map(str, rng.sample(nums, 5)))}.", f"Arranged: {', '.join(map(str, nums))}; the middle value is {nums[2]}.")
+    m = rng.choice(nums); arr = nums + [m, m]; rng.shuffle(arr)
+    other = [x for x in nums if x != m]
+    return _mcq(rng, m, other, f"Find the mode of {', '.join(map(str, arr))}.", f"{m} occurs most often (3 times).")
+
+
+def m_geometry(rng):
+    a, b = rng.randint(30, 80), rng.randint(30, 80)
+    if a + b < 170:
+        return _mcq(rng, 180 - a - b, [180 - a, 90 - (a + b) % 90 or 45, 360 - a - b], f"Two angles of a triangle are {a}° and {b}°. Find the third angle (in degrees).", f"Sum of angles = 180°, so third = 180 − {a} − {b} = {180 - a - b}°.")
+    n = rng.choice([5, 6, 8, 9, 10, 12])
+    return _mcq(rng, 360 // n, [180 // n * 2 + 10, (n - 2) * 180 // n, 360 // n + 15], f"Find each exterior angle of a regular polygon with {n} sides.", f"Exterior angle = 360°/{n} = {360 // n}°.")
+
+
+def m_approx(rng):
+    a, b = rng.randint(20, 90) + rng.choice([0.02, 0.97, 0.03, 0.98]), rng.randint(11, 39) + rng.choice([0.01, 0.99, 0.02])
+    ra, rb = round(a), round(b)
+    return _mcq(rng, ra * rb, [ra * rb + 30, ra * rb - 40, ra + rb], f"Find the approximate value of {a:.2f} × {b:.2f}.", f"≈ {ra} × {rb} = {ra * rb}.")
+
+
+def m_quadratic(rng):
+    r1, r2 = rng.sample(range(-9, 10), 2)
+    while 0 in (r1, r2):
+        r1, r2 = rng.sample(range(-9, 10), 2)
+    s, p = r1 + r2, r1 * r2
+    ans = f"{min(r1, r2)}, {max(r1, r2)}"
+    eq = f"x² {'−' if s > 0 else '+'} {abs(s)}x {'+' if p >= 0 else '−'} {abs(p)} = 0"
+    return _mcq(rng, ans, [f"{-max(r1, r2)}, {-min(r1, r2)}", f"{min(r1, r2) - 1}, {max(r1, r2)}", f"{min(r1, r2)}, {max(r1, r2) + 1}"], f"Find the roots of {eq}.",
+                f"Sum of roots = {s}, product = {p} → roots are {ans}.")
+
+
+def r_inequality(rng):
+    a, b, c, d = rng.sample(["P", "Q", "R", "S", "T", "M", "N"], 4)
+    rel = [(f"{a} > {b} ≥ {c} = {d}", f"{a} > {d}", True), (f"{a} ≤ {b} < {c} ≤ {d}", f"{a} < {d}", True), (f"{a} > {b} < {c} > {d}", f"{a} > {c}", False)]
+    st, con, ok = rng.choice(rel)
+    ans = "True" if ok else "Cannot be determined"
+    return _mcq(rng, ans, ["True", "False", "Cannot be determined", "Both true and false"], f"Statement: {st}. Conclusion: {con}. Is the conclusion true?",
+                "Follow the chain of signs: " + ("the signs point the same way, so it is definitely true." if ok else "the signs change direction, so the relation cannot be determined."))
+
+
+WORDS = ["Market", "Marble", "Margin", "Marine", "Master", "Matter", "Manner", "Mantle", "Mangle", "Marker", "Planet", "Plaster", "Plenty", "Plunge", "Plural", "Pledge"]
+
+
+def r_dictionary(rng):
+    ws = rng.sample(WORDS, 4)
+    first = sorted(ws)[0]
+    return _mcq(rng, first, [w for w in ws if w != first], f"Which word comes FIRST in dictionary order: {', '.join(ws)}?", f"Alphabetical order: {', '.join(sorted(ws))}.")
+
+
+def r_math_ops(rng):
+    a, b, c, d = rng.randint(10, 40), rng.randint(2, 9), rng.randint(2, 9), rng.randint(1, 20)
+    ans = a - b * c + d
+    return _mcq(rng, ans, [a + b * c - d, (a - b) * c + d, ans + 7], f"If '+' means '−', '−' means '+', and '×' stays '×', find: {a} + {b} × {c} − {d}",
+                f"Replace signs: {a} − {b} × {c} + {d} = {a} − {b * c} + {d} = {ans}.")
+
+
+def r_missing(rng):
+    a = rng.randint(2, 9); b = rng.randint(2, 9); c = rng.randint(2, 9); d = rng.randint(2, 9)
+    return _mcq(rng, c * d + c + d, [c * d, c + d, c * d + 1], f"Find the missing number: ({a}, {b}) → {a * b + a + b}; ({c}, {d}) → ?",
+                f"Rule: x × y + x + y. {c}×{d} + {c} + {d} = {c * d + c + d}.")
+
+
+TOPIC_GENS.update({
+    "Boats & Streams": [m_boats], "Partnership": [m_partnership], "Probability": [m_prob], "Height & Distance": [m_height], "Statistics": [m_stats],
+    "Geometry": [m_geometry], "Approximation": [m_approx], "Quadratic Equations": [m_quadratic], "Inequality": [r_inequality],
+    "Dictionary Order": [r_dictionary], "Mathematical Operations": [r_math_ops], "Missing Number": [r_missing],
+    "Ages": [gen.r_age], "HCF & LCM": [gen.m_lcm], "Pipes & Cisterns": [m_pipes], "Calendar & Clock": [gen.r_calendar, gen.r_clock],
+    "Alphanumeric Series": [gen.r_letter_series, gen.r_alpha_pos],
+})

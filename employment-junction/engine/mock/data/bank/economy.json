@@ -1,0 +1,392 @@
+[
+ {
+  "q": "In which year was the Reserve Bank of India established?",
+  "o": [
+   "1935",
+   "1947",
+   "1949",
+   "1969"
+  ],
+  "a": 0,
+  "e": "The RBI was set up on 1 April 1935 under the RBI Act, 1934.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "NITI Aayog replaced which body in 2015?",
+  "o": [
+   "Finance Commission",
+   "Planning Commission",
+   "National Development Council",
+   "Election Commission"
+  ],
+  "a": 1,
+  "e": "NITI Aayog replaced the Planning Commission on 1 January 2015.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "The Goods and Services Tax (GST) came into force in India on:",
+  "o": [
+   "1 April 2017",
+   "1 January 2018",
+   "1 April 2016",
+   "1 July 2017"
+  ],
+  "a": 3,
+  "e": "GST was launched on 1 July 2017.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "Who is known as the Father of the Green Revolution in India?",
+  "o": [
+   "Verghese Kurien",
+   "Norman Borlaug",
+   "M. S. Swaminathan",
+   "C. Subramaniam"
+  ],
+  "a": 2,
+  "e": "Agricultural scientist M. S. Swaminathan led the Green Revolution in India.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "The 'White Revolution' in India is related to:",
+  "o": [
+   "Egg production",
+   "Cotton production",
+   "Milk production",
+   "Fish production"
+  ],
+  "a": 2,
+  "e": "Operation Flood, led by Verghese Kurien, increased milk production.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "Inflation means:",
+  "o": [
+   "A general rise in the price level",
+   "A fall in the price level",
+   "A rise in unemployment",
+   "A rise in exports"
+  ],
+  "a": 0,
+  "e": "Inflation is a continuous rise in the general level of prices.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "Fiscal policy in India is framed by:",
+  "o": [
+   "Reserve Bank of India",
+   "Ministry of Finance",
+   "SEBI",
+   "NITI Aayog"
+  ],
+  "a": 1,
+  "e": "Fiscal policy (taxes and government spending) is decided by the government through the Finance Ministry.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "Monetary policy in India is framed by:",
+  "o": [
+   "Ministry of Finance",
+   "Reserve Bank of India",
+   "SEBI",
+   "State Bank of India"
+  ],
+  "a": 1,
+  "e": "The RBI controls money supply and interest rates through monetary policy.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "Where is the headquarters of SEBI?",
+  "o": [
+   "Mumbai",
+   "New Delhi",
+   "Kolkata",
+   "Chennai"
+  ],
+  "a": 0,
+  "e": "The Securities and Exchange Board of India is headquartered in Mumbai.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "The 'Blue Revolution' is related to:",
+  "o": [
+   "Milk production",
+   "Oilseed production",
+   "Fish production",
+   "Fertiliser production"
+  ],
+  "a": 2,
+  "e": "Blue Revolution refers to growth in fisheries and aquaculture.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "Agriculture belongs to which sector of the economy?",
+  "o": [
+   "Primary sector",
+   "Secondary sector",
+   "Tertiary sector",
+   "Quaternary sector"
+  ],
+  "a": 0,
+  "e": "Activities that use natural resources directly, like farming, form the primary sector.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "Which of these is a direct tax?",
+  "o": [
+   "GST",
+   "Customs Duty",
+   "Excise Duty",
+   "Income Tax"
+  ],
+  "a": 3,
+  "e": "Income tax is paid directly by the person on whom it is levied.",
+  "topic": "Economy",
+  "level": "easy"
+ },
+ {
+  "q": "In which year was the Reserve Bank of India nationalised?",
+  "o": [
+   "1935",
+   "1947",
+   "1949",
+   "1969"
+  ],
+  "a": 2,
+  "e": "The RBI was nationalised on 1 January 1949.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "The one-rupee note in India is signed by the:",
+  "o": [
+   "Finance Secretary",
+   "RBI Governor",
+   "Finance Minister",
+   "Prime Minister"
+  ],
+  "a": 0,
+  "e": "The ₹1 note is issued by the Government of India and signed by the Finance Secretary.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "Repo rate is the rate at which:",
+  "o": [
+   "Commercial banks lend to the public",
+   "Banks borrow from the public",
+   "RBI lends short-term money to commercial banks",
+   "RBI borrows from the government"
+  ],
+  "a": 2,
+  "e": "Under repo, banks borrow from the RBI against government securities.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "Cash Reserve Ratio (CRR) is the part of a bank's deposits that must be kept:",
+  "o": [
+   "As gold with the bank itself",
+   "As cash with the RBI",
+   "As loans to farmers",
+   "As foreign currency"
+  ],
+  "a": 1,
+  "e": "CRR is the share of deposits that banks must keep with the RBI as cash.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "Fourteen major commercial banks in India were nationalised in:",
+  "o": [
+   "1955",
+   "1969",
+   "1980",
+   "1991"
+  ],
+  "a": 1,
+  "e": "In July 1969, 14 major banks were nationalised; six more followed in 1980.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "India's First Five-Year Plan was based on which model?",
+  "o": [
+   "Mahalanobis model",
+   "Gandhian model",
+   "Lewis model",
+   "Harrod-Domar model"
+  ],
+  "a": 3,
+  "e": "The First Plan (1951-56) used the Harrod-Domar model and focused on agriculture.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "The Second Five-Year Plan was based on the model given by:",
+  "o": [
+   "P. C. Mahalanobis",
+   "Harrod and Domar",
+   "Raj Krishna",
+   "M. Visvesvaraya"
+  ],
+  "a": 0,
+  "e": "The Mahalanobis model stressed heavy industry in the Second Plan (1956-61).",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "Who presented the first Union Budget of independent India?",
+  "o": [
+   "John Mathai",
+   "C. D. Deshmukh",
+   "R. K. Shanmukham Chetty",
+   "Morarji Desai"
+  ],
+  "a": 2,
+  "e": "R. K. Shanmukham Chetty presented the first budget on 26 November 1947.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "Fiscal deficit is:",
+  "o": [
+   "Total expenditure minus total receipts excluding borrowings",
+   "Revenue expenditure minus revenue receipts",
+   "Total expenditure minus revenue receipts",
+   "Imports minus exports"
+  ],
+  "a": 0,
+  "e": "Fiscal deficit shows the total borrowing needed by the government.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "'Stagflation' refers to a situation of:",
+  "o": [
+   "Falling prices with high growth",
+   "High inflation along with stagnant growth and unemployment",
+   "High growth with full employment",
+   "Stable prices with rising exports"
+  ],
+  "a": 1,
+  "e": "Stagflation combines inflation with economic stagnation.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "The Gini coefficient is used to measure:",
+  "o": [
+   "Inflation",
+   "Literacy",
+   "Income inequality",
+   "Unemployment"
+  ],
+  "a": 2,
+  "e": "A Gini value of 0 means perfect equality and 1 means total inequality.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "NABARD was established in:",
+  "o": [
+   "1969",
+   "1975",
+   "1982",
+   "1991"
+  ],
+  "a": 2,
+  "e": "NABARD was set up on 12 July 1982 for agriculture and rural development.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "The 'Drain Theory' about British economic exploitation of India was given by:",
+  "o": [
+   "R. C. Dutt",
+   "Gopal Krishna Gokhale",
+   "M. G. Ranade",
+   "Dadabhai Naoroji"
+  ],
+  "a": 3,
+  "e": "Dadabhai Naoroji explained it in 'Poverty and Un-British Rule in India'.",
+  "topic": "Economy",
+  "level": "medium"
+ },
+ {
+  "q": "The Laffer Curve shows the relationship between:",
+  "o": [
+   "Inflation and unemployment",
+   "Income and consumption",
+   "Price and demand",
+   "Tax rates and tax revenue"
+  ],
+  "a": 3,
+  "e": "The Laffer Curve suggests that beyond a point, higher tax rates reduce total tax revenue.",
+  "topic": "Economy",
+  "level": "hard"
+ },
+ {
+  "q": "The term 'Hindu rate of growth' was coined by:",
+  "o": [
+   "Amartya Sen",
+   "Jagdish Bhagwati",
+   "Manmohan Singh",
+   "Raj Krishna"
+  ],
+  "a": 3,
+  "e": "Economist Raj Krishna used it for India's low growth of about 3.5% per year from the 1950s to 1980s.",
+  "topic": "Economy",
+  "level": "hard"
+ },
+ {
+  "q": "Under the Statutory Liquidity Ratio (SLR), banks must keep a part of their deposits in the form of:",
+  "o": [
+   "Cash, gold or approved securities with themselves",
+   "Cash with the RBI only",
+   "Loans to priority sectors",
+   "Deposits with foreign banks"
+  ],
+  "a": 0,
+  "e": "SLR assets are kept by banks themselves, unlike CRR which is kept with the RBI.",
+  "topic": "Economy",
+  "level": "hard"
+ },
+ {
+  "q": "Which of these money supply measures is called 'broad money'?",
+  "o": [
+   "M3",
+   "M1",
+   "M2",
+   "Reserve money (M0)"
+  ],
+  "a": 0,
+  "e": "M1 and M2 are narrow money, while M3 (which includes time deposits) is broad money.",
+  "topic": "Economy",
+  "level": "hard"
+ },
+ {
+  "q": "Engel's Law states that as income rises, the share of income spent on food:",
+  "o": [
+   "Rises",
+   "Stays the same",
+   "First falls and then rises",
+   "Falls"
+  ],
+  "a": 3,
+  "e": "Engel's Law says the proportion spent on food falls as income increases, though the amount may rise.",
+  "topic": "Economy",
+  "level": "hard"
+ }
+]

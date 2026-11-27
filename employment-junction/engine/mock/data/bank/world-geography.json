@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Which is the largest continent by area?",
+  "o": [
+   "Asia",
+   "Africa",
+   "North America",
+   "Europe"
+  ],
+  "a": 0,
+  "e": "Asia is the largest continent, covering about 30% of the world's land.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the largest hot desert in the world?",
+  "o": [
+   "Kalahari",
+   "Gobi",
+   "Sahara",
+   "Thar"
+  ],
+  "a": 2,
+  "e": "The Sahara in North Africa is the largest hot desert.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Equator does NOT pass through which of these countries?",
+  "o": [
+   "Brazil",
+   "Kenya",
+   "Indonesia",
+   "India"
+  ],
+  "a": 3,
+  "e": "The Equator passes through Brazil, Kenya and Indonesia; India lies entirely north of it.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which strait separates Asia from North America?",
+  "o": [
+   "Bering Strait",
+   "Strait of Gibraltar",
+   "Strait of Malacca",
+   "Palk Strait"
+  ],
+  "a": 0,
+  "e": "The Bering Strait lies between Russia (Asia) and Alaska (North America).",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which country is known as the 'Land of the Rising Sun'?",
+  "o": [
+   "Japan",
+   "China",
+   "South Korea",
+   "Thailand"
+  ],
+  "a": 0,
+  "e": "Japan's name 'Nippon' means 'origin of the sun'.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The deepest known point in the oceans lies in the:",
+  "o": [
+   "Java Trench",
+   "Mariana Trench",
+   "Puerto Rico Trench",
+   "Tonga Trench"
+  ],
+  "a": 1,
+  "e": "The Challenger Deep in the Mariana Trench (Pacific Ocean) is the deepest point.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Prime Meridian (0° longitude) passes through:",
+  "o": [
+   "Greenwich",
+   "Paris",
+   "New York",
+   "Moscow"
+  ],
+  "a": 0,
+  "e": "The Prime Meridian passes through the Royal Observatory at Greenwich, London.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the smallest continent by area?",
+  "o": [
+   "Europe",
+   "Antarctica",
+   "South America",
+   "Australia"
+  ],
+  "a": 3,
+  "e": "Australia is the smallest continent.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Mount Kilimanjaro is located in:",
+  "o": [
+   "Kenya",
+   "Uganda",
+   "Ethiopia",
+   "Tanzania"
+  ],
+  "a": 3,
+  "e": "Kilimanjaro, Africa's highest peak, is in northern Tanzania.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Great Barrier Reef lies off the coast of:",
+  "o": [
+   "Indonesia",
+   "Australia",
+   "Philippines",
+   "New Zealand"
+  ],
+  "a": 1,
+  "e": "The Great Barrier Reef is off Queensland in north-east Australia.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Andes mountains are in which continent?",
+  "o": [
+   "North America",
+   "Africa",
+   "South America",
+   "Europe"
+  ],
+  "a": 2,
+  "e": "The Andes run along the western side of South America.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the largest island in the world?",
+  "o": [
+   "Greenland",
+   "New Guinea",
+   "Borneo",
+   "Madagascar"
+  ],
+  "a": 0,
+  "e": "Greenland is the largest island; Australia is counted as a continent.",
+  "topic": "World Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which river carries the largest volume of water (discharge) in the world?",
+  "o": [
+   "Nile",
+   "Mississippi",
+   "Yangtze",
+   "Amazon"
+  ],
+  "a": 3,
+  "e": "The Amazon has by far the greatest discharge of any river.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The Strait of Gibraltar connects:",
+  "o": [
+   "Atlantic Ocean and Mediterranean Sea",
+   "Red Sea and Mediterranean Sea",
+   "Black Sea and Mediterranean Sea",
+   "Pacific Ocean and Atlantic Ocean"
+  ],
+  "a": 0,
+  "e": "The Strait of Gibraltar lies between Spain and Morocco, joining the Atlantic and the Mediterranean.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The Suez Canal connects:",
+  "o": [
+   "Atlantic Ocean and Pacific Ocean",
+   "Black Sea and Caspian Sea",
+   "Mediterranean Sea and Red Sea",
+   "Red Sea and Arabian Sea"
+  ],
+  "a": 2,
+  "e": "The Suez Canal in Egypt links the Mediterranean with the Red Sea.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The ozone layer is found mainly in which layer of the atmosphere?",
+  "o": [
+   "Stratosphere",
+   "Troposphere",
+   "Mesosphere",
+   "Thermosphere"
+  ],
+  "a": 0,
+  "e": "Most ozone is in the stratosphere, where it absorbs harmful ultraviolet rays.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The Atacama Desert, one of the driest places on Earth, is in:",
+  "o": [
+   "Argentina",
+   "Peru",
+   "Mexico",
+   "Chile"
+  ],
+  "a": 3,
+  "e": "The Atacama lies in northern Chile along the Pacific coast.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Lake Baikal, the deepest lake in the world, is in:",
+  "o": [
+   "Kazakhstan",
+   "Russia",
+   "Mongolia",
+   "China"
+  ],
+  "a": 1,
+  "e": "Lake Baikal is in Siberia, Russia.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The International Date Line roughly follows which meridian?",
+  "o": [
+   "0°",
+   "180°",
+   "90° E",
+   "90° W"
+  ],
+  "a": 1,
+  "e": "The Date Line runs roughly along the 180° meridian in the Pacific Ocean.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The 'Doldrums', a belt of calm winds, lie near the:",
+  "o": [
+   "Tropic of Cancer",
+   "Equator",
+   "Arctic Circle",
+   "Poles"
+  ],
+  "a": 1,
+  "e": "The Doldrums are a low-pressure belt of calm air near the Equator.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The Black Forest is a mountain region in:",
+  "o": [
+   "France",
+   "Austria",
+   "Germany",
+   "Switzerland"
+  ],
+  "a": 2,
+  "e": "The Black Forest (Schwarzwald) is in south-west Germany.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Victoria Falls lies on which river?",
+  "o": [
+   "Nile",
+   "Congo",
+   "Niger",
+   "Zambezi"
+  ],
+  "a": 3,
+  "e": "Victoria Falls is on the Zambezi, on the Zambia-Zimbabwe border.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "'Chinook' is a warm local wind that blows in the:",
+  "o": [
+   "Alps of Europe",
+   "Sahara Desert",
+   "Rocky Mountains of North America",
+   "Andes of South America"
+  ],
+  "a": 2,
+  "e": "The Chinook blows down the eastern slopes of the Rockies and melts snow quickly.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The 'Pampas' grasslands are found in:",
+  "o": [
+   "Argentina",
+   "Australia",
+   "South Africa",
+   "Russia"
+  ],
+  "a": 0,
+  "e": "The Pampas are temperate grasslands of Argentina; the Veld is in South Africa.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which is the longest mountain range on land in the world?",
+  "o": [
+   "Himalayas",
+   "Rocky Mountains",
+   "Andes",
+   "Alps"
+  ],
+  "a": 2,
+  "e": "The Andes stretch about 7,000 km along South America.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Lines on a map joining places of equal rainfall are called:",
+  "o": [
+   "Isotherms",
+   "Isohyets",
+   "Isobars",
+   "Contours"
+  ],
+  "a": 1,
+  "e": "Isohyets join equal rainfall; isotherms join equal temperature and isobars equal pressure.",
+  "topic": "World Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The Kalahari Desert lies mainly in which country?",
+  "o": [
+   "Namibia",
+   "Angola",
+   "Zambia",
+   "Botswana"
+  ],
+  "a": 3,
+  "e": "Most of the Kalahari Desert is in Botswana, extending into Namibia and South Africa.",
+  "topic": "World Geography",
+  "level": "hard"
+ },
+ {
+  "q": "The Mohorovicic (Moho) discontinuity separates the:",
+  "o": [
+   "Mantle and the outer core",
+   "Outer core and inner core",
+   "Crust and the mantle",
+   "Upper and lower atmosphere"
+  ],
+  "a": 2,
+  "e": "The Moho marks the boundary between Earth's crust and mantle; the Gutenberg discontinuity separates mantle and core.",
+  "topic": "World Geography",
+  "level": "hard"
+ },
+ {
+  "q": "The Dardanelles strait connects the Sea of Marmara with the:",
+  "o": [
+   "Black Sea",
+   "Aegean Sea",
+   "Red Sea",
+   "Adriatic Sea"
+  ],
+  "a": 1,
+  "e": "The Dardanelles links the Sea of Marmara to the Aegean Sea; the Bosporus links Marmara to the Black Sea.",
+  "topic": "World Geography",
+  "level": "hard"
+ },
+ {
+  "q": "Which river crosses the Equator twice?",
+  "o": [
+   "Nile",
+   "Amazon",
+   "Congo",
+   "Niger"
+  ],
+  "a": 2,
+  "e": "The Congo river crosses the Equator twice as it curves through Central Africa.",
+  "topic": "World Geography",
+  "level": "hard"
+ }
+]

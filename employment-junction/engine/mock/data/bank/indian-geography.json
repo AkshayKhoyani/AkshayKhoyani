@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Indian Standard Time (IST) is based on which longitude?",
+  "o": [
+   "80°00' E",
+   "85°30' E",
+   "82°30' E",
+   "75°30' E"
+  ],
+  "a": 2,
+  "e": "IST is calculated from the 82.5° E meridian, which passes near Mirzapur (Uttar Pradesh).",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "What is the southernmost point of India?",
+  "o": [
+   "Kanyakumari",
+   "Indira Point",
+   "Rameswaram",
+   "Port Blair"
+  ],
+  "a": 1,
+  "e": "Indira Point in Great Nicobar is India's southernmost point; Kanyakumari is the southern tip of the mainland.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Chilika Lake, a large brackish-water lagoon, is located in:",
+  "o": [
+   "Andhra Pradesh",
+   "West Bengal",
+   "Odisha",
+   "Tamil Nadu"
+  ],
+  "a": 2,
+  "e": "Chilika Lake lies on the east coast of Odisha.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which river is known as the 'Dakshin Ganga'?",
+  "o": [
+   "Krishna",
+   "Kaveri",
+   "Godavari",
+   "Mahanadi"
+  ],
+  "a": 2,
+  "e": "The Godavari, the longest river of peninsular India, is called Dakshin Ganga.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Which of these rivers flows west through a rift valley into the Arabian Sea?",
+  "o": [
+   "Narmada",
+   "Godavari",
+   "Krishna",
+   "Mahanadi"
+  ],
+  "a": 0,
+  "e": "The Narmada flows westward through a rift valley between the Vindhya and Satpura ranges.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Black soil (regur) is best suited for growing:",
+  "o": [
+   "Cotton",
+   "Tea",
+   "Rice",
+   "Jute"
+  ],
+  "a": 0,
+  "e": "Black soil holds moisture well, so it is ideal for cotton and is also called black cotton soil.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Palk Strait separates India from:",
+  "o": [
+   "Maldives",
+   "Myanmar",
+   "Bangladesh",
+   "Sri Lanka"
+  ],
+  "a": 3,
+  "e": "The Palk Strait lies between Tamil Nadu and northern Sri Lanka.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Sundarbans delta is formed by which rivers?",
+  "o": [
+   "Godavari and Krishna",
+   "Ganga and Brahmaputra",
+   "Mahanadi and Brahmani",
+   "Kaveri and Vaigai"
+  ],
+  "a": 1,
+  "e": "The Ganga-Brahmaputra delta, home of the Sundarbans, is the world's largest delta.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Hirakud Dam is built on which river?",
+  "o": [
+   "Mahanadi",
+   "Godavari",
+   "Krishna",
+   "Sutlej"
+  ],
+  "a": 0,
+  "e": "Hirakud Dam on the Mahanadi in Odisha is one of the longest earthen dams.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Bhakra Nangal Dam is built on which river?",
+  "o": [
+   "Beas",
+   "Ravi",
+   "Chenab",
+   "Sutlej"
+  ],
+  "a": 3,
+  "e": "Bhakra Dam on the Sutlej lies on the Himachal Pradesh-Punjab border.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Mawsynram, one of the wettest places on Earth, is in:",
+  "o": [
+   "Assam",
+   "Arunachal Pradesh",
+   "Sikkim",
+   "Meghalaya"
+  ],
+  "a": 3,
+  "e": "Mawsynram in the Khasi Hills of Meghalaya receives very heavy rainfall.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "Kaziranga National Park, famous for the one-horned rhinoceros, is in:",
+  "o": [
+   "West Bengal",
+   "Assam",
+   "Meghalaya",
+   "Uttarakhand"
+  ],
+  "a": 1,
+  "e": "Kaziranga in Assam is a UNESCO World Heritage Site known for the Indian rhinoceros.",
+  "topic": "Indian Geography",
+  "level": "easy"
+ },
+ {
+  "q": "The Tropic of Cancer does NOT pass through which of these states?",
+  "o": [
+   "Gujarat",
+   "Odisha",
+   "Jharkhand",
+   "Mizoram"
+  ],
+  "a": 1,
+  "e": "The Tropic of Cancer passes through 8 states including Gujarat, Jharkhand and Mizoram, but not Odisha.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which is considered the largest freshwater lake in India?",
+  "o": [
+   "Dal Lake",
+   "Chilika Lake",
+   "Pulicat Lake",
+   "Wular Lake"
+  ],
+  "a": 3,
+  "e": "Wular Lake in Jammu & Kashmir, fed by the Jhelum, is India's largest freshwater lake; Chilika and Pulicat are brackish.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which is the highest peak of peninsular (South) India?",
+  "o": [
+   "Doddabetta",
+   "Mahendragiri",
+   "Anamudi",
+   "Dhupgarh"
+  ],
+  "a": 2,
+  "e": "Anamudi (about 2,695 m) in the Anaimalai Hills of Kerala is the highest peak of South India.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The Ten Degree Channel separates:",
+  "o": [
+   "Lakshadweep from Maldives",
+   "Andaman Islands from Nicobar Islands",
+   "India from Sri Lanka",
+   "North Andaman from Middle Andaman"
+  ],
+  "a": 1,
+  "e": "The Ten Degree Channel lies between Little Andaman and Car Nicobar.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Loktak Lake, known for its floating 'phumdis', is in:",
+  "o": [
+   "Mizoram",
+   "Manipur",
+   "Nagaland",
+   "Tripura"
+  ],
+  "a": 1,
+  "e": "Loktak Lake in Manipur has the floating Keibul Lamjao National Park.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Laterite soil is formed mainly due to:",
+  "o": [
+   "Leaching under high temperature and heavy rainfall",
+   "Deposition by rivers",
+   "Weathering of volcanic lava in dry areas",
+   "Wind deposits in deserts"
+  ],
+  "a": 0,
+  "e": "Heavy rain washes away silica and lime, leaving iron and aluminium-rich laterite soil.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which mountain pass connects Srinagar with Leh?",
+  "o": [
+   "Nathu La",
+   "Shipki La",
+   "Bomdi La",
+   "Zoji La"
+  ],
+  "a": 3,
+  "e": "Zoji La in the Great Himalaya links the Kashmir valley with Ladakh.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "In Tibet, the Brahmaputra river is known as:",
+  "o": [
+   "Dihang",
+   "Jamuna",
+   "Padma",
+   "Tsangpo"
+  ],
+  "a": 3,
+  "e": "The Brahmaputra is called Tsangpo in Tibet, Dihang in Arunachal Pradesh and Jamuna in Bangladesh.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "The Jharia coalfield is located in:",
+  "o": [
+   "Jharkhand",
+   "Odisha",
+   "Chhattisgarh",
+   "West Bengal"
+  ],
+  "a": 0,
+  "e": "Jharia in Dhanbad district of Jharkhand is a major coking-coal field.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Kudremukh in Karnataka is famous for:",
+  "o": [
+   "Coal",
+   "Mica",
+   "Iron ore",
+   "Copper"
+  ],
+  "a": 2,
+  "e": "Kudremukh is known for its iron ore deposits in the Western Ghats.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Pre-monsoon showers called 'Mango Showers' occur mainly in:",
+  "o": [
+   "Punjab and Haryana",
+   "Rajasthan and Gujarat",
+   "West Bengal and Assam",
+   "Kerala and Karnataka"
+  ],
+  "a": 3,
+  "e": "These early showers help the ripening of mangoes along the coasts of Kerala and Karnataka.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Majuli, the largest river island of India, lies in which river?",
+  "o": [
+   "Ganga",
+   "Godavari",
+   "Brahmaputra",
+   "Mahanadi"
+  ],
+  "a": 2,
+  "e": "Majuli in Assam is a river island in the Brahmaputra.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which of the following is NOT a tributary of the Indus?",
+  "o": [
+   "Chenab",
+   "Gandak",
+   "Beas",
+   "Ravi"
+  ],
+  "a": 1,
+  "e": "Jhelum, Chenab, Ravi, Beas and Sutlej join the Indus; the Gandak is a tributary of the Ganga.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which Indian state shares its border with the largest number of other states?",
+  "o": [
+   "Uttar Pradesh",
+   "Madhya Pradesh",
+   "Assam",
+   "Chhattisgarh"
+  ],
+  "a": 0,
+  "e": "Uttar Pradesh borders eight states and also the National Capital Territory of Delhi.",
+  "topic": "Indian Geography",
+  "level": "medium"
+ },
+ {
+  "q": "Which is the highest peak of the Andaman and Nicobar Islands?",
+  "o": [
+   "Mount Harriet",
+   "Mount Thuillier",
+   "Mount Diavolo",
+   "Saddle Peak"
+  ],
+  "a": 3,
+  "e": "Saddle Peak in North Andaman is the highest point of the islands.",
+  "topic": "Indian Geography",
+  "level": "hard"
+ },
+ {
+  "q": "The Godavari river rises at:",
+  "o": [
+   "Mahabaleshwar",
+   "Amarkantak",
+   "Trimbakeshwar",
+   "Talakaveri"
+  ],
+  "a": 2,
+  "e": "The Godavari rises near Trimbakeshwar in Nashik; the Krishna rises at Mahabaleshwar and the Narmada at Amarkantak.",
+  "topic": "Indian Geography",
+  "level": "hard"
+ },
+ {
+  "q": "Doddabetta is the highest peak of which hills?",
+  "o": [
+   "Anaimalai Hills",
+   "Nilgiri Hills",
+   "Cardamom Hills",
+   "Palani Hills"
+  ],
+  "a": 1,
+  "e": "Doddabetta (about 2,637 m) near Ooty is the highest point of the Nilgiris.",
+  "topic": "Indian Geography",
+  "level": "hard"
+ },
+ {
+  "q": "Which Indian river crosses the Tropic of Cancer twice?",
+  "o": [
+   "Mahi",
+   "Narmada",
+   "Tapi",
+   "Sabarmati"
+  ],
+  "a": 0,
+  "e": "The Mahi rises in Madhya Pradesh, loops through Rajasthan and enters Gujarat, crossing the Tropic of Cancer twice.",
+  "topic": "Indian Geography",
+  "level": "hard"
+ }
+]
