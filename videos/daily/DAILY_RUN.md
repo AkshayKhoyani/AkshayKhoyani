@@ -7,11 +7,11 @@ User ka order (27 Nov 2026). Repo `AkshayKhoyani/AkshayKhoyani`, branch `claude/
 | A | Mon–Fri ~3:52 PM (market close ke baad), post ~4:30 PM | **"Aaj market mein kya hua"**: Sensex/Nifty close, sabse bade gainers/losers sector, 2–3 wajah, ek "aage kya" line |
 | B | Mon–Thu ~6:41 PM, post ~7:15 PM | **"Kal market mein kya hoga"**: GIFT Nifty (agar mile), global cues, agle din ke events/results/data, levels nahi, prediction nahi |
 | W | Fri ~6:41 PM (slot B ki jagah) | **"Agle hafte ke dhamake"**: agle hafte ki zaroori dates (data, RBI/Fed, results, IPO, expiry, chhuttiyan) |
-| N | Tue–Sat ~2:51 AM (US close 2:30 AM IST ke baad) | **"America mein kya hua + India par asar"**: Dow/S&P/Nasdaq close, Europe close, crude, dollar, bade US stocks; India ke liye kya matlab (prediction nahi) |
+| N (BAND, 27 Nov: user ne din ki 2 reels kahi) | Tue–Sat ~2:51 AM | **"America mein kya hua + India par asar"**: Dow/S&P/Nasdaq close, Europe close, crude, dollar, bade US stocks; India ke liye kya matlab (prediction nahi) |
 | Subah / dopahar | abhi KHAALI | user baad mein batayega. Purani evergreen QUEUE.md wali reels **band** |
 
 Chhutti: NSE band ho to slot A mat banao; agle din chhutti ho to slot B "agle trading day" ke baare mein. US market band ho to slot N mat banao.
-Har run sirf apne slot ki EK reel banata hai.
+Har run sirf apne slot ki EK reel banata hai. **Din mein sirf 2 reels** (slot A + slot B/W). Slot B mein US futures / pichli raat ke US close ka ek point daal sakte ho.
 
 ## Har reel ke steps
 1. `git pull`; `cd videos/engine && npm install` (pehli baar).
