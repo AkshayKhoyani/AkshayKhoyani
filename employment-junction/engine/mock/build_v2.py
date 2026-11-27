@@ -167,13 +167,16 @@ def fill_section(sec, drawer, exam_key, k, alt_lang=None):
         if c <= 0:
             continue
         qs = gen2.gen_topic(topic, seed_of(exam_key, topic, k), c) if topic in gen2.TOPIC_GENS else drawer.take(ALIAS.get(topic, [topic]), c, rng)
-        cover[topic] = (c, len(qs))
+        if qs:
+            cover[topic] = (c, len(qs))
         got += qs
     if len(got) < want:  # same-section fallback, never another subject
         kind, src = family(sec["name"])
         need = want - len(got)
         extra = gen2.gen_funcs(src, seed_of(exam_key, sec["name"], k, "fb"), need) if kind == "gen" else drawer.take(src, need, rng)
         got += extra
+        if extra:
+            cover["Mixed practice (same section)"] = (len(extra), len(extra))
     rng.shuffle(got)
     return got[:want], cover
 
@@ -188,7 +191,7 @@ def pattern_table(bp, built):
 def coverage_table(bp, built):
     rows = ""
     for s, (_, cover) in zip(bp["sections"], built):
-        tops = ", ".join(f"{html.escape(t)} ({c})" for t, (c, _) in cover.items())
+        tops = ", ".join(f"{html.escape(t)} ({g})" for t, (_, g) in cover.items() if g)
         rows += f"<tr><td>{html.escape(s['name'])}</td><td>{tops}</td></tr>"
     return '<table class="ejp-t"><tbody><tr><th>Section</th><th>Syllabus topics covered (questions)</th></tr>' + rows + "</tbody></table>"
 
@@ -198,10 +201,12 @@ def quiz_html(title, label, sections, minutes, pos, neg, nxt, url):
     b64 = lambda t: base64.b64encode(t.encode("utf-8")).decode()
     data = {"id": slugify(title), "title": title, "exam": label, "duration": minutes, "marking": {"correct": pos, "wrong": neg},
             "sections": [{"name": n, "questions": q} for n, q in sections if q], "next": nxt, "url": url}
-    return (f"<style>{CSS_MIN}</style>" + '<div id="ejq"></div>' + "<script>!function(){function d(b){return decodeURIComponent(escape(atob(b)))}"
+    return (f"<style>{CSS_MIN}{PAGE_CSS}</style>" + '<div id="ejq"></div>' + "<script>!function(){function d(b){return decodeURIComponent(escape(atob(b)))}"
             f'window.__EJQ=JSON.parse(d("{b64(json.dumps(data, ensure_ascii=False))}"));new Function(d("{b64(JS)}"))()' + "}()</script>")
 
 
+PAGE_CSS = (".wrap.layout>div{min-width:0}.entry-content{overflow-wrap:anywhere}.entry-content table{display:block;max-width:100%;overflow-x:auto;border-collapse:collapse}"
+            ".ejp-t td,.ejp-t th{border:1px solid #dbe4f3;padding:8px 10px;vertical-align:top}.ejp-t th{background:#0b3d91;color:#fff;text-align:left}.ejp-t tr:nth-child(even) td{background:#f6f9ff}")
 HOWTO = ("<h2>📝 How to attempt</h2><ol><li>Tap <strong>Start Test</strong> — the timer starts.</li><li>Pick an option; mark <strong>Review</strong> to come back.</li>"
          "<li>Submit to see score, accuracy, section-wise analysis and the solution of every question. Retake any time — 100% free, no login.</li></ol>")
 
@@ -351,7 +356,11 @@ def publish(items):
         print("ok", it["kind"], r["link"], n, flush=True)
     idx = {"items": [{"slug": it["slug"], "kind": it["kind"], "group": it["group"], "exam_key": it.get("exam_key"), "title": it["title"],
                       "n": sum(len(q) for _, q in it["sections"]), "link": links[it["slug"]]} for it in items]}
-    json.dump(idx, open(os.path.join(HERE, "MOCK_INDEX_V2.json"), "w"), indent=1, ensure_ascii=False)
+    path = os.path.join(HERE, "MOCK_INDEX_V2.json")
+    if os.path.exists(path):  # merge: keep items of kinds not rebuilt in this run
+        kinds = {it["kind"] for it in items}
+        idx["items"] = [x for x in json.load(open(path))["items"] if x["kind"] not in kinds] + idx["items"]
+    json.dump(idx, open(path, "w"), indent=1, ensure_ascii=False)
 
 
 if __name__ == "__main__":
