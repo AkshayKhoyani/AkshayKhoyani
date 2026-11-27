@@ -1,0 +1,103 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Midday carousel 25 Nov</title>
+<style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1350"></canvas>
+<script type="module">
+// 25 Nov 2026 mid-day carousel — "Live Market Terminal" theme (same as 25 Nov reel). Facts: ../MIDDAY_DATA.md
+const W = 1080, H = 1350, c = document.getElementById('c'), x = c.getContext('2d');
+const n = +(new URLSearchParams(location.search).get('s') || 1);
+const ff = (fam, url) => new FontFace(fam, `url(${url})`).load().then(f => document.fonts.add(f));
+await Promise.all([ff('Anton', '/engine/node_modules/@fontsource/anton/files/anton-latin-400-normal.woff2'),
+  ...['900', '800', '700', '600'].map(w => document.fonts.load(`${w} 40px Inter`)), document.fonts.load('40px "JetBrains Mono"'),
+  document.fonts.load('40px "Noto Color Emoji"', '🚀🏦💻🟢🔴🇺🇸⏰📌🔔👉💰🛢️💵📊📉📈🔁👇🔥⚠️🪙')]);
+const L = u => new Promise(r => { const i = new Image(); i.onload = () => r(i); i.src = u; });
+const mark = await L('/brand/logo-transparent.png'), logo = await L('/brand/logo-dark.png');
+const G = '#22e58a', R = '#ff3b5c', GOLD = '#ffcf4a', CY = '#38d9ff', MUT = '#8a96b8';
+const AN = s => `400 ${s}px Anton, "Noto Color Emoji", sans-serif`, IN = (w, s) => `${w} ${s}px Inter, "Noto Color Emoji", sans-serif`, MO = s => `600 ${s}px "JetBrains Mono", monospace`;
+let seed = 77; const rnd = () => { seed = (seed * 16807) % 2147483647; return (seed - 1) / 2147483646; };
+function rr(X, Y, w, h, r) { r = Math.min(r, w / 2, h / 2); x.beginPath(); x.moveTo(X + r, Y); x.arcTo(X + w, Y, X + w, Y + h, r); x.arcTo(X + w, Y + h, X, Y + h, r); x.arcTo(X, Y + h, X, Y, r); x.arcTo(X, Y, X + w, Y, r); x.closePath(); }
+function T(s, X, Y, o = {}) { const { font = AN(80), c = '#fff', a = 'center', maxW = 960, glow = 0, stroke = null } = o;
+  x.save(); x.font = font; let k = 1; const m = x.measureText(s).width; if (m > maxW) k = maxW / m; x.translate(X, Y); x.scale(k, k); x.textAlign = a; x.textBaseline = 'middle';
+  if (glow) { x.shadowColor = glow === true ? c : glow; x.shadowBlur = 40; } if (stroke) { x.strokeStyle = stroke[0]; x.lineWidth = stroke[1]; x.strokeText(s, 0, 0); } if (c) { x.fillStyle = c; x.fillText(s, 0, 0); } x.restore(); }
+function glass(X, Y, w, h, col = CY) { x.save(); rr(X, Y, w, h, 26); x.fillStyle = 'rgba(255,255,255,0.055)'; x.fill(); const g = x.createLinearGradient(X, Y, X + w, Y + h); g.addColorStop(0, col); g.addColorStop(1, 'rgba(255,255,255,0.08)'); x.strokeStyle = g; x.lineWidth = 3; x.shadowColor = col; x.shadowBlur = 22; x.stroke(); x.restore(); }
+function bg(mood = 'g') {
+  const g = x.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#050913'); g.addColorStop(0.5, '#0a1430'); g.addColorStop(1, '#050913'); x.fillStyle = g; x.fillRect(0, 0, W, H);
+  const tint = mood === 'r' ? 'rgba(255,59,92,0.20)' : mood === 'y' ? 'rgba(255,207,74,0.16)' : 'rgba(34,229,138,0.17)';
+  const rg = x.createRadialGradient(540, 620, 0, 540, 620, 800); rg.addColorStop(0, tint); rg.addColorStop(1, 'rgba(0,0,0,0)'); x.fillStyle = rg; x.fillRect(0, 0, W, H);
+  x.strokeStyle = 'rgba(56,217,255,0.08)'; x.lineWidth = 2; for (let i = -12; i <= 12; i++) { x.beginPath(); x.moveTo(540 + i * 30, 1000); x.lineTo(540 + i * 220, H); x.stroke(); }
+  for (let k = 1; k < 8; k++) { const y = 1000 + Math.pow(k / 8, 2) * 350; x.beginPath(); x.moveTo(0, y); x.lineTo(W, y); x.stroke(); }
+  for (let i = 0; i < 160; i++) { x.fillStyle = `rgba(150,200,255,${0.05 + rnd() * 0.18})`; x.fillRect(rnd() * W, rnd() * H, 3, 3); }
+  // background candles
+  for (let i = 0; i < 34; i++) { const X = i * 33 - 10, o = 0.45 + 0.3 * Math.sin(i * 0.5) + (rnd() - 0.5) * 0.2, cc = o + (mood === 'r' ? -1 : 1) * (rnd() * 0.18 - 0.04);
+    const up = cc >= o; x.fillStyle = up ? 'rgba(34,229,138,0.12)' : 'rgba(255,59,92,0.12)'; const base = 960, hh = 480; x.fillRect(X, base - Math.max(o, cc) * hh, 22, Math.max(4, Math.abs(o - cc) * hh)); }
+}
+function chrome(page) {
+  x.save(); rr(48, 48, 84, 84, 20); x.fillStyle = '#fff'; x.fill(); x.drawImage(mark, 250, 75, 755, 755, 57, 57, 66, 66); x.restore();
+  T('FINANCE JUNCTION', 148, 90, { font: IN(900, 28), a: 'left' });
+  x.save(); rr(800, 62, 230, 56, 28); x.fillStyle = 'rgba(255,59,92,0.15)'; x.fill(); x.strokeStyle = R; x.lineWidth = 2; x.stroke(); x.restore();
+  x.fillStyle = R; x.beginPath(); x.arc(832, 90, 9, 0, 7); x.fill(); T('LIVE · 25 NOV', 936, 91, { font: MO(24) });
+  // bottom bar
+  x.fillStyle = 'rgba(5,9,19,0.92)'; x.fillRect(0, H - 92, W, 92); x.fillStyle = 'rgba(56,217,255,0.5)'; x.fillRect(0, H - 92, W, 2);
+  T('Intraday data · 25 Nov 2026 · Not investment advice', 60, H - 46, { font: MO(22), c: MUT, a: 'left', maxW: 700 });
+  T(page < 8 ? `${page}/8  SWIPE 👉` : '8/8', 1020, H - 46, { font: IN(900, 30), c: GOLD, a: 'right' });
+}
+function title(tag, t, col = CY) {
+  x.save(); x.font = IN(900, 30); const w = x.measureText(tag).width + 50; rr(60, 170, w, 54, 27); x.fillStyle = col; x.globalAlpha = 0.18; x.fill(); x.globalAlpha = 1; x.strokeStyle = col; x.lineWidth = 2; x.stroke(); x.restore();
+  T(tag, 85, 198, { font: IN(900, 30), c: col, a: 'left' });
+  T(t, 60, 300, { font: AN(96), a: 'left', maxW: 960 });
+}
+const S = {};
+S[1] = () => { bg('g');
+  for (let i = 0; i < 40; i++) { x.fillStyle = `rgba(34,229,138,${0.2 + rnd() * 0.4})`; x.beginPath(); x.arc(rnd() * W, 200 + rnd() * 900, 2 + rnd() * 5, 0, 7); x.fill(); }
+  x.save(); rr(300, 190, 480, 74, 37); x.fillStyle = 'rgba(255,207,74,0.14)'; x.fill(); x.strokeStyle = GOLD; x.lineWidth = 3; x.stroke(); x.restore();
+  T('📊 25 NOV · MID-DAY UPDATE', 540, 228, { font: IN(900, 32), c: GOLD, maxW: 440 });
+  T('MARKET KI', 540, 370, { font: AN(150), glow: 'rgba(255,255,255,0.35)' });
+  T('WAPSI 🚀', 540, 530, { font: AN(170), c: G, glow: true });
+  glass(90, 650, 900, 160, G); T('SENSEX', 160, 730, { font: AN(64), a: 'left' }); T('+1,900 pts', 940, 730, { font: AN(96), c: G, a: 'right', glow: true });
+  glass(90, 840, 900, 160, G); T('NIFTY', 160, 920, { font: AN(64), a: 'left' }); T('~25,900', 940, 920, { font: AN(96), c: G, a: 'right', glow: true });
+  T('Somvaar ke crash ke baad zabardast bounce', 540, 1080, { font: IN(800, 40), c: '#c9d4f0', maxW: 900 });
+  T('Kyun? Kaun chadha? Aage kya? 👉', 540, 1160, { font: AN(60), c: GOLD });
+  chrome(1); };
+S[2] = () => { bg('g'); title('KITNA CHADHA 📈', 'Intraday high tak');
+  const row = (Y, name, val, chg, sub) => { glass(70, Y, 940, 250, G); T(name, 120, Y + 70, { font: IN(900, 40), c: MUT, a: 'left' }); T(val, 120, Y + 160, { font: AN(120), a: 'left' }); T(chg, 970, Y + 120, { font: AN(90), c: G, a: 'right', glow: true }); T(sub, 970, Y + 205, { font: IN(700, 30), c: MUT, a: 'right' }); };
+  row(400, 'SENSEX', '~84,334', '▲ +1,898', 'pichla close 82,436');
+  row(690, 'NIFTY 50', '~25,900', '▲ +551', 'pichla close 25,350');
+  T('Khulte hi: Sensex +1,384 · Nifty +381', 540, 1030, { font: IN(800, 38), c: '#c9d4f0' });
+  T('Din bhar level badalta rahega ⏰', 540, 1100, { font: IN(700, 32), c: MUT });
+  chrome(2); };
+S[3] = () => { bg('y'); title('KYUN CHADHA? 🤔', '4 badi wajah', GOLD);
+  const items = [['💰', 'FII ki kharidari', 'November mein record $13.2 bn (Geojit analyst)'], ['🛢️', 'Crude sasta, rupaya mazboot', 'Import bill aur inflation ka dar kam'], ['📊', 'Achhe Q2 results', 'Nifty companies ki kamai ~27% badhi'], ['📉', '23 Nov crash ke baad bounce', 'Neeche ke bhaav par kharidari']];
+  items.forEach(([e, h, s], i) => { const Y = 390 + i * 175; glass(70, Y, 940, 150, GOLD); T(e, 140, Y + 76, { font: IN(400, 70) }); T(h, 220, Y + 55, { font: AN(54), a: 'left', maxW: 760 }); T(s, 220, Y + 110, { font: IN(700, 30), c: MUT, a: 'left', maxW: 760 }); });
+  chrome(3); };
+S[4] = () => { bg('g'); title('SECTORS 🏦💻', 'Kaun aage?', G);
+  const bar = (Y, e, name, v) => { T(e + ' ' + name, 80, Y, { font: AN(64), a: 'left' }); const w = 900 * v / 2.6; x.save(); rr(80, Y + 50, 920, 90, 45); x.fillStyle = 'rgba(255,255,255,0.06)'; x.fill(); rr(80, Y + 50, w, 90, 45); const g = x.createLinearGradient(80, 0, 80 + w, 0); g.addColorStop(0, 'rgba(34,229,138,0.3)'); g.addColorStop(1, G); x.fillStyle = g; x.shadowColor = G; x.shadowBlur = 25; x.fill(); x.restore(); T('+' + v.toFixed(1) + '%', 80 + w - 30, Y + 97, { font: AN(64), c: '#04140b', a: 'right' }); };
+  bar(440, '💻', 'NIFTY IT', 2.4); bar(660, '🏦', 'PVT BANK', 2.3); bar(880, '🏦', 'BANK NIFTY', 1.9);
+  T('IT ~+2% se +2.4% · Bank Nifty ~+1.9% (intraday)', 540, 1120, { font: IN(700, 32), c: MUT, maxW: 940 });
+  chrome(4); };
+S[5] = () => { bg('g'); title('TOP GAINERS 🟢', 'Heavyweights ne uthaya', G);
+  const it = [['HDFC Bank', '+3.5%'], ['Infosys', '+3.4%'], ['ICICI Bank', '+3.2%'], ['Axis Bank', '+3%+']];
+  it.forEach(([nm, v], i) => { const Y = 390 + i * 160; glass(70, Y, 940, 136, G); T(String(i + 1), 135, Y + 70, { font: AN(80), c: G }); T(nm, 210, Y + 70, { font: AN(70), a: 'left' }); T('▲ ' + v, 970, Y + 70, { font: AN(76), c: G, a: 'right', glow: true }); });
+  T('Khulte waqt TCS, Tech Mahindra, HCL bhi 4% tak upar', 540, 1080, { font: IN(800, 34), c: '#c9d4f0', maxW: 940 });
+  chrome(5); };
+S[6] = () => { bg('r'); title('LAGGARDS 🔴', 'Rally mein bhi neeche', R);
+  glass(70, 380, 940, 330, R); T('APL APOLLO TUBES', 120, 450, { font: AN(70), a: 'left' }); T('NAYA 52-WEEK LOW', 120, 540, { font: AN(60), c: R, a: 'left', glow: true });
+  T('▼ 15% se 19.6% · ~₹1,342–1,420', 120, 620, { font: IN(800, 40), c: '#ffd0d8', a: 'left' }); T('Tata Steel deal ke baad bikwali jaari', 120, 675, { font: IN(700, 30), c: MUT, a: 'left' });
+  const sm = [['Tata Steel', '~₹161.7'], ['M&M', 'neeche'], ['Titan', 'neeche'], ['Sun Pharma', 'neeche']];
+  sm.forEach(([nm, v], i) => { const X = 70 + (i % 2) * 480, Y = 750 + Math.floor(i / 2) * 170; glass(X, Y, 460, 145, R); T(nm, X + 30, Y + 55, { font: AN(54), a: 'left', maxW: 400 }); T('▼ ' + v, X + 30, Y + 110, { font: IN(800, 34), c: R, a: 'left' }); });
+  chrome(6); };
+S[7] = () => { bg('y'); title('GLOBAL 🌍', 'US mein ulta-pulta (24 Nov)', CY);
+  glass(70, 390, 940, 230, GOLD); T('🇺🇸 DOW', 120, 450, { font: AN(64), a: 'left' }); T('50,019', 120, 550, { font: AN(110), c: GOLD, a: 'left', glow: true }); T('PEHLI BAAR', 960, 460, { font: AN(52), c: '#fff', a: 'right' }); T('50,000 PAAR!', 960, 530, { font: AN(64), c: GOLD, a: 'right' }); T('▲ +0.85%', 960, 590, { font: AN(48), c: G, a: 'right' });
+  const sm = [['NASDAQ', '▼ 1.48%'], ['S&P 500', '▼ 0.50%'], ['NVIDIA', '▼ 5.9%']];
+  sm.forEach(([nm, v], i) => { const X = 70 + i * 318, Y = 660; glass(X, Y, 300, 200, R); T(nm, X + 150, Y + 65, { font: AN(50), maxW: 260 }); T(v, X + 150, Y + 140, { font: AN(60), c: R }); });
+  glass(70, 900, 940, 170, CY); T('Asia mein tech girawat 📉', 540, 955, { font: AN(56) }); T('phir bhi India upar! 🇮🇳🟢', 540, 1025, { font: AN(56), c: G });
+  chrome(7); };
+S[8] = () => { bg('y'); title('AAGE KYA? ⏰', 'Aaj shaam nazar rakho', GOLD);
+  glass(70, 380, 940, 190, GOLD); T('⏰ SHAAM 7 BAJE', 120, 440, { font: AN(64), c: GOLD, a: 'left' }); T('US inflation (PCE) + GDP data', 120, 510, { font: IN(800, 40), a: 'left' });
+  glass(70, 600, 940, 190, CY); T('🪙 MAHANADI COALFIELDS IPO', 120, 660, { font: AN(56), a: 'left', maxW: 860 }); T('Allotment aaj · 1.52x · listing 27 Nov', 120, 730, { font: IN(800, 38), a: 'left' });
+  T('Aaj profit book kiya?', 540, 880, { font: AN(84) });
+  x.save(); rr(110, 940, 400, 120, 30); x.fillStyle = G; x.shadowColor = G; x.shadowBlur = 30; x.fill(); rr(570, 940, 400, 120, 30); x.fillStyle = R; x.shadowColor = R; x.fill(); x.restore();
+  T('HAAN = 1', 310, 1003, { font: AN(70), c: '#05110a' }); T('NA = 2', 770, 1003, { font: AN(70), c: '#fff' });
+  T('👇 Comment · 📌 Save · 🔁 Share · 🔔 Follow @FinanceJunction', 540, 1140, { font: IN(800, 32), c: '#c9d4f0', maxW: 960 });
+  chrome(8); };
+S[n](); window.READY = true;
+</script></body></html>

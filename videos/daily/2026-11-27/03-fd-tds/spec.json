@@ -1,0 +1,18 @@
+{
+ "slug": "fd-tds-kyun-katta",
+ "sources": "TDS on bank FD interest: ₹50,000/saal (senior ₹1 lakh) se upar, 10% (PAN ke saath), bina PAN 20%; limit per bank (Finance Act 2025, FY 2026-27 mein bhi same; TaxGarden, Arthzo, Peak BCS). ₹8 lakh × 7% = sirf example. TDS ≠ final tax.",
+ "scenes": [
+  {"type": "hook", "tag": "FD TDS", "tagColor": "red", "lines": [["FD ka byaaj", "text"], ["POORA nahi mila? 🤔", "red2"]], "sub": "Bank ne TDS kaata hai",
+   "voice": "FD का|ka ब्याज|byaaj पूरा|poora नहीं|nahi मिला?|mila? Bank ने|ne TDS काटा_है!|kaata_hai!"},
+  {"type": "stat", "tag": "LIMIT", "label": "Ek bank se saal ka byaaj isse upar = TDS", "value": 50000, "prefix": "₹", "color": "gold",
+   "note": "Senior citizen: ₹1 lakh", "noteColor": "gold2", "chips": ["PAN diya: 10%", "PAN nahi: 20%"],
+   "voice": "एक_बैंक_से|Ek_bank_se साल_का|saal_ka ब्याज|byaaj पचास_हज़ार|₹50,000 से_ऊपर,|se_upar, senior के_लिए|ke_liye एक_लाख,|₹1_lakh, तो|toh दस_परसेंट|10% TDS. PAN नहीं|nahi तो|toh बीस।|20."},
+  {"type": "formula", "tag": "EXAMPLE 🧮", "title": "₹8 lakh FD, 7% byaaj", "lines": ["Byaaj: ₹56,000 (> ₹50,000)", "TDS 10%: −₹5,600", ["Haath mein: ₹50,400", "gold"]],
+   "voice": "आठ_लाख|₹8_lakh की|ki FD, सात_परसेंट:|7%: ब्याज|byaaj छप्पन_हज़ार,|₹56,000, तो|toh छप्पन_सौ|₹5,600 TDS कटा।|kata."},
+  {"type": "list", "title": "Kya karein? ✅", "colors": ["green", "blue", "amber"], "icons": ["🪪", "📝", "💰"],
+   "items": [["PAN zaroor do", "Warna 20% katega"], ["Income tax-free limit se kam?", "Bank ko declaration form do"], ["Zyada kata?", "ITR bharo, refund lo"]],
+   "voice": "PAN ज़रूर|zaroor दो,|do, income कम_है|kam_hai तो|toh bank को|ko declaration form दो,|do, और|aur ज़्यादा|zyada कटा|kata तो|toh ITR भरके|bharke refund लो।|lo."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aapka TDS kata? Haan = 1, Na = 2", "disclaimer": "Educational only. TDS final tax nahi, CA se confirm karein.",
+   "voice": "आपका|Aapka TDS कटा?|kata? हाँ_एक,|Haan_1, ना_दो।|na_2. Finance_Junction follow_करो!|follow_karo!"}
+ ]
+}

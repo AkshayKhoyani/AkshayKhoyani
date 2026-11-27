@@ -1,0 +1,20 @@
+{
+ "slug": "sip-25-vs-35",
+ "sources": "Calculation: ₹5,000/mahina SIP, 12% saalana return (sirf andaaza, guaranteed nahi), 60 saal tak. Taxes/fees shamil nahi.",
+ "scenes": [
+  {"type": "hook", "tag": "SIP", "tagColor": "gold", "lines": [["10 saal LATE =", "text"], ["₹2.3 CRORE kam 😱", "red2"]], "sub": "₹5,000 SIP · 25 vs 35 umar",
+   "voice": "दस_साल|10_saal late SIP, और|aur सवा_दो_करोड़|₹2.3_crore कम!|kam! कैसे?|Kaise?"},
+  {"type": "chart", "title": "₹5,000/mahina, 60 saal tak 📈", "xlabel": "umar", "xticks": [[0, "25"], [3, "40"], [5, "50"], [7, "60"]], "ymax": 3.5,
+   "series": [{"label": "25 se shuru", "color": "green", "end": "₹3.25 Cr", "points": [0, 0.041, 0.116, 0.252, 0.5, 0.949, 1.765, 3.248]},
+              {"label": "35 se shuru", "color": "red", "end": "₹95 L", "points": [0, 0, 0, 0.041, 0.116, 0.252, 0.5, 0.949]}],
+   "source": "12% andaaza, guaranteed nahi",
+   "voice": "पच्चीस|25 की|ki उम्र_से|umar_se पाँच_हज़ार|₹5,000 महीना,|mahina, बारह_परसेंट|12% मानो,|maano, तो|toh साठ_तक|60_tak करीब|kareeb सवा_तीन_करोड़।|₹3.25_crore. पैंतीस_से|35_se शुरू|shuru किया,|kiya, तो|toh सिर्फ़|sirf पंचानवे_लाख!|₹95_lakh!"},
+  {"type": "compare", "title": "Jeb se kitna gaya? 💸", "subtitle": "*12% sirf andaaza",
+   "items": [{"label": "25 se", "sub": "lagaya ₹21L", "value": 3.25, "display": "₹3.25 Cr", "color": "green"},
+             {"label": "35 se", "sub": "lagaya ₹15L", "value": 0.95, "display": "₹95 L", "color": "red"}],
+   "winner": 0, "winnerText": "3x+ 🚀",
+   "voice": "फ़र्क़|Farak लगाने_में|lagane_mein सिर्फ़|sirf छह_लाख|₹6_lakh का,|ka, पर|par नतीजा|nateeja तीन_गुना_से_ज़्यादा!|3x_se_zyada! यही|Yahi compounding है।|hai."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aapne SIP kis umar mein shuru ki?", "disclaimer": "12% sirf andaaza. Market risk hai.",
+   "voice": "आपने|Aapne SIP किस|kis उम्र_में|umar_mein शुरू_की?|shuru_ki? Comment करो।|karo. Finance_Junction follow_करो,|follow_karo, क्योंकि|kyunki दस_साल|10_saal late मतलब|matlab सवा_दो_करोड़|₹2.3_crore कम!|kam!"}
+ ]
+}

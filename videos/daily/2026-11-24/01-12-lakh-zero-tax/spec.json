@@ -1,0 +1,72 @@
+{
+ "slug": "12-lakh-zero-tax",
+ "sources": "Budget 2025 (1 Feb 2025) + Budget 2026 (1 Feb 2026, slabs unchanged). Business Standard, Business Today, Zee Business. Educational only.",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "TAX FY 2026-27",
+   "tagColor": "green",
+   "lines": [
+    [
+     "₹12.75 lakh salary",
+     "text"
+    ],
+    [
+     "TAX ZERO! 😮",
+     "green2"
+    ]
+   ],
+   "sub": "Par 1 shart hai 👇",
+   "voice": "बारह_लाख_पचहत्तर_हज़ार|₹12.75_lakh की|ki salary, और|aur tax ज़ीरो!|ZERO! पर|Par एक|ek शर्त|shart है।|hai."
+  },
+  {
+   "type": "stat",
+   "tag": "NEW REGIME",
+   "label": "₹12 lakh taxable income tak tax",
+   "value": 0,
+   "prefix": "₹",
+   "color": "green",
+   "note": "₹60,000 tak ka rebate milta hai",
+   "noteColor": "green2",
+   "chips": [
+    "1 Feb 2026 Budget: slab NAHI badle",
+    "FY 2026-27 mein bhi same"
+   ],
+   "source": "Budget 2025, Budget 2026",
+   "voice": "New regime में|mein बारह_लाख|₹12_lakh तक|tak taxable income पर|par tax ज़ीरो।|zero. एक_फ़रवरी_दो_हज़ार_छब्बीस|1_February_2026 के|ke Budget में|mein भी|bhi slab नहीं|nahi बदले।|badle."
+  },
+  {
+   "type": "formula",
+   "tag": "SALARIED 🧮",
+   "title": "Salary wala hisaab",
+   "lines": [
+    "₹12,75,000 salary",
+    "− ₹75,000 standard deduction",
+    [
+     "= ₹12,00,000 → Tax ₹0",
+     "green"
+    ]
+   ],
+   "voice": "Salary वालों|walon को|ko पचहत्तर_हज़ार|₹75,000 का|ka standard deduction भी|bhi मिलता_है,|milta_hai, तो|toh बारह_लाख_पचहत्तर_हज़ार|₹12.75_lakh तक|tak tax ज़ीरो।|zero."
+  },
+  {
+   "type": "mythfact",
+   "title": "Shart kya hai? ⚠️",
+   "myth": "Har income par ₹0 tax",
+   "fact": [
+    "Ye rebate hai, exemption nahi",
+    "Capital gains par tax alag",
+    "Sirf NEW regime mein"
+   ],
+   "source": "Business Standard, Scroll (Budget 2025)",
+   "voice": "शर्त:|Shart: ये|ye rebate है,|hai, exemption नहीं।|nahi. Shares या|ya mutual fund के|ke capital gains पर|par tax अलग|alag लगता_है।|lagta_hai. और|Aur ये|ye सिर्फ़|sirf new regime में|mein है।|hai."
+  },
+  {
+   "type": "cta",
+   "top": "Comment karo 👇",
+   "topSub": "Old regime = 1, New regime = 2",
+   "disclaimer": "Educational only. Apne CA se confirm karein.",
+   "voice": "Old के_लिए|Old_ke_liye एक,|1, new के_लिए|ke_liye दो|2 comment करो।|karo. Finance_Junction follow_करो,|follow_karo, और|aur याद|yaad रखो:|rakho: बारह_लाख_पचहत्तर_हज़ार|₹12.75_lakh की|ki salary, tax ज़ीरो!|ZERO!"
+  }
+ ]
+}

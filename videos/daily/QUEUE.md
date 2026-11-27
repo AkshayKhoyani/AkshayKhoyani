@@ -15,18 +15,18 @@ Templates hint: hook / stat / formula / compare / list / chart / phone / mythfac
 | 7 | Inflation ✳️ | ₹100 ki cheez 10 saal baad kitne ki? | stat, chart | done (2026-11-23, morning session; push fail, files in that session) |
 | 9 | Emergency fund | Job gayi toh kitne mahine chaloge? | stat, list | done (2026-11-23, morning session; push fail, files in that session) |
 | 10 | Repo rate → EMI ✳️ | RBI ne rate badhaya, EMI kyun badhi? | stat, compare | done (2026-11-23, morning session; push fail, files in that session) |
-| 11 | ₹12 lakh tak zero tax ✳️ | ₹12 LAKH salary, TAX ZERO? | stat, mythfact | todo |
-| 12 | Fake trading app scam | App mein profit hai, nikal nahi raha? | phone, list | todo |
-| 13 | 50-30-20 budget rule | Salary aate hi khatam? | formula, compare | todo |
-| 14 | Endowment vs term insurance | LIC policy = investment? | mythfact, compare | todo |
-| 16 | 25 vs 35 umar mein SIP | 10 saal late = kitna kam? 😱 | chart, compare | todo |
-| 17 | CIBIL score | 750+ CIBIL ka fayda kya? | stat, list | todo |
-| 18 | Instant loan app trap | ₹5,000 loan, ₹50,000 wapas? 😨 | phone, list | todo |
-| 19 | Index fund kya hai | Sabse simple investment jo log ignore karte hain | list, chart | todo |
-| 20 | Gold vs SIP ✳️ | Gold ya SIP: 10 saal mein kaun jeeta? | chart | todo |
-| 22 | SIP step-up | Har saal SIP 10% badhao, phir dekho | chart, stat | todo |
-| 23 | PPF ✳️ | Tax-free 15 saal: PPF kaise kaam karta hai? | stat, list | todo |
-| 24 | FD par TDS ✳️ | FD ka interest pura nahi milta? | stat, list | todo |
+| 11 | ₹12 lakh tak zero tax ✳️ | ₹12 LAKH salary, TAX ZERO? | stat, mythfact | done (2026-11-24) |
+| 12 | Fake trading app scam | App mein profit hai, nikal nahi raha? | phone, list | done (2026-11-24) |
+| 13 | 50-30-20 budget rule | Salary aate hi khatam? | formula, compare | done (2026-11-24) |
+| 14 | Endowment vs term insurance | LIC policy = investment? | mythfact, compare | done (2026-11-25) |
+| 16 | 25 vs 35 umar mein SIP | 10 saal late = kitna kam? 😱 | chart, compare | done (2026-11-25) |
+| 17 | CIBIL score | 750+ CIBIL ka fayda kya? | stat, list | done (2026-11-25) |
+| 18 | Instant loan app trap | ₹5,000 loan, ₹50,000 wapas? 😨 | phone, list | done (2026-11-26) |
+| 19 | Index fund kya hai | Sabse simple investment jo log ignore karte hain | list, chart | done (2026-11-26) |
+| 20 | Gold vs SIP ✳️ | Gold ya SIP: 10 saal mein kaun jeeta? | chart | done (2026-11-26, Gold vs Nifty lumpsum) |
+| 22 | SIP step-up | Har saal SIP 10% badhao, phir dekho | chart, stat | done (2026-11-27) |
+| 23 | PPF ✳️ | Tax-free 15 saal: PPF kaise kaam karta hai? | stat, list | done (2026-11-27) |
+| 24 | FD par TDS ✳️ | FD ka interest pura nahi milta? | stat, list | done (2026-11-27) |
 | 25 | QR code scam | Paisa lene ke liye QR SCAN? Ruko! | phone | todo |
 | 26 | Pehli salary ke 4 kaam | Pehli salary? Ye 4 kaam karo | list | todo |
 | 27 | UPI daily limit ✳️ | UPI ki daily limit kitni hai? | stat, list | todo |

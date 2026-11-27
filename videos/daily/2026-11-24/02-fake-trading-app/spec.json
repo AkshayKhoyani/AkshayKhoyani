@@ -1,0 +1,20 @@
+{
+ "slug": "fake-trading-app-scam",
+ "sources": "MHA data via ThePrint (2025 cyber fraud loss ₹22,495 crore, 76% investment fraud); ETV Bharat / Outlook Money (I4C advisory). Helpline 1930, cybercrime.gov.in.",
+ "scenes": [
+  {"type": "hook", "tag": "SCAM ALERT 🚨", "tagColor": "red", "lines": [["App mein ₹10 lakh profit", "text"], ["par NIKAL nahi raha? 🚩", "red2"]],
+   "voice": "App में|mein दस_लाख|₹10_lakh का|ka profit दिख_रहा_है,|dikh_raha_hai, पर|par पैसा|paisa निकल|nikal नहीं|nahi रहा?|raha? ये|Ye scam है!|hai!"},
+  {"type": "phone", "tag": "WHATSAPP GROUP 📱", "header": "VIP Stock Tips 📈",
+   "bubbles": [["Aaj 300% profit pakka 🔥"], ["Ye app download karo 👉 link"], ["Withdraw karna hai?", "Pehle 20% 'tax' bharo 💸"]],
+   "stamp": "SCAM ⚠️", "stampColor": "red", "bottom": "Profit sirf screen par, paisa unke paas", "bottomColor": "red2",
+   "voice": "पहले|Pehle WhatsApp group में|mein tips, फिर|phir link से|se app, छोटा|chhota profit भी|bhi देते_हैं।|dete_hain. फिर|Phir withdraw पर|par बोलते_हैं:|bolte_hain: पहले|pehle tax भरो!|bharo!"},
+  {"type": "stat", "tag": "2025 KA NUKSAAN", "label": "Cyber fraud mein Indians ne gawaye", "value": 22495, "prefix": "₹", "suffix": " cr", "color": "red",
+   "note": "76% investment scams se 😱", "noteColor": "red2", "source": "MHA data (ThePrint)",
+   "voice": "दो_हज़ार_पच्चीस|2025 में|mein cyber fraud से|se बाईस_हज़ार_चार_सौ_पंचानवे_करोड़|₹22,495_crore गए,|gaye, और|aur छिहत्तर|76 परसेंट|percent investment scams से।|se."},
+  {"type": "list", "title": "Kaise bachein? ✅", "colors": ["green", "red", "blue", "gold"], "icons": ["📲", "🚫", "🔍", "☎️"],
+   "items": [["App sirf Play/App Store se", "Link wala app = khatra"], ["Withdraw par fees? = SCAM", "Asli broker nahi maangta"], ["Anjaan group ke tips ignore", "SEBI registered check karo"], ["Fraud hua? 1930 call", "cybercrime.gov.in"]],
+   "voice": "App सिर्फ़|sirf store से,|se, withdraw पर|par fees माँगे|maange तो|toh scam, अनजान|anjaan tips ignore, और|aur fraud हो|ho तो|toh तुरंत|turant उन्नीस_सौ_तीस|1930 call करो।|karo."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aisa message aaya? Haan = 1, Na = 2", "disclaimer": "Educational only.",
+   "voice": "आपको|Aapko ऐसा|aisa message आया?|aaya? हाँ_तो|Haan_toh एक,|1, ना_तो|na_toh दो|2 comment करो।|karo. Finance_Junction follow_करो,|follow_karo, और|aur याद|yaad रखो:|rakho: पैसा|paisa नहीं|nahi निकल_रहा?|nikal_raha? ये|ye scam है!|hai!"}
+ ]
+}
