@@ -40,3 +40,8 @@ Repo: `AkshayKhoyani/AkshayKhoyani`, branch `claude/finance-videos-pz24zv`.
 4. Har reel folder mein `SOURCES.md`: number → exact figure → publisher → URL → date. Script sirf isi table se.
 5. Number ek baar **FINAL** mark ho gaya to badalna nahi. Agar galti mile to user ko saaf batao: "ye pehle galat tha, ye sahi hai, is source se".
 6. Jo verify na ho, woh script se bahar. ⚠️ wale numbers reel mein nahi jaate.
+
+## INSTAGRAM AUTO-POST (setup 27 Nov 2026)
+- Account: financejunction.in (IG id 17841415627923533). Token: system-user, never expires, proxy injects it for graph.facebook.com.
+- Post: commit + push the mp4, write caption to a .txt, then `python3 engine/ig_post.py <videos/...mp4> <caption.txt> --publish`.
+- Rule: **user ka OK milne ke baad hi --publish.** Bina OK sirf upload test (no --publish). Limit 100 posts/24h.
