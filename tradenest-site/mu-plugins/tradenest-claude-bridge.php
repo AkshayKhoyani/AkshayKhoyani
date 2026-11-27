@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.1.0
+ * Version: 1.2.0
  *
  * @package Tradenest
  */
@@ -159,6 +159,38 @@ add_action(
 (function(){var f=document.querySelector('footer[role="contentinfo"] .lg\\:col-span-4 > .flex.items-center');
 if(!f){return;}var i=document.createElement('img');i.src=<?php echo wp_json_encode( esc_url( $src ) ); ?>;i.alt='TradeNest Naturals';i.className='tn-footer-logo';i.loading='lazy';
 f.innerHTML='';f.appendChild(i);}());
+</script>
+		<?php
+	},
+	99
+);
+
+// 9) Business address (Contact page, inquiry areas, footer). Edit TN_BRIDGE_ADDRESS to change it everywhere.
+define( 'TN_BRIDGE_ADDRESS', 'Ashirwad Embro Park-1, Plot No. 1, 4th Floor, Saniya Hemad, Surat, Gujarat, India' );
+add_filter(
+	'acf/load_value/name=tn_opt_address',
+	function () {
+		return TN_BRIDGE_ADDRESS;
+	},
+	99
+);
+add_filter(
+	'option_tradenest_options',
+	function ( $opts ) {
+		$opts            = is_array( $opts ) ? $opts : array();
+		$opts['address'] = TN_BRIDGE_ADDRESS;
+		return $opts;
+	},
+	99
+);
+add_action(
+	'wp_footer',
+	function () {
+		?>
+<script id="tn-bridge-footer-address">
+(function(){var f=document.querySelector('footer[role="contentinfo"] .lg\\:col-span-4');if(!f||f.querySelector('.tn-addr')){return;}
+var p=document.createElement('p');p.className='tn-addr';p.style.cssText='font-size:12px;line-height:1.6;color:#d1fae5cc;margin-top:8px';
+p.textContent=<?php echo wp_json_encode( '📍 ' . TN_BRIDGE_ADDRESS ); ?>;var t=f.querySelector('p');if(t){t.insertAdjacentElement('afterend',p);}else{f.appendChild(p);}}());
 </script>
 		<?php
 	},
