@@ -41,7 +41,7 @@ def req(method, path, data=None, headers=None, raw=None):
 e = html.escape
 
 
-PCSS = (".ejp{contain:inline-size;max-width:100%;font-size:17px;line-height:1.7}"
+PCSS = (".wrap.layout>div{min-width:0}.ejp{contain:inline-size;max-width:100%;font-size:17px;line-height:1.7}"
         ".ejp h2{position:relative;margin:34px 0 14px!important;padding:12px 16px 12px 18px!important;border-radius:12px;background:linear-gradient(90deg,#eef4ff,#fff);border-left:6px solid #0b3d91;color:#0b2a66!important;font-size:24px!important;line-height:1.3}"
         ".ejp h3{color:#0b3d91!important;margin:20px 0 6px!important}"
         ".ejp-t{width:100%;border-collapse:separate!important;border-spacing:0;border-radius:14px;overflow:hidden;box-shadow:0 6px 20px rgba(11,61,145,.10);border:1px solid #dbe4f3;margin:10px 0 18px;font-size:16px}"
@@ -225,7 +225,18 @@ await p.screenshot({{ path: '{path}', type: 'jpeg', quality: 84 }}); await b.clo
 
 
 def upload(path, title, alt):
+    import time
     name = os.path.basename(path)
+    for attempt in range(3):  # Hostinger occasionally answers 502 on uploads
+        try:
+            return _upload(path, title, alt, name)
+        except SystemExit as err:
+            print("upload retry", attempt + 1, err)
+            time.sleep(10 * (attempt + 1))
+    return _upload(path, title, alt, name)
+
+
+def _upload(path, title, alt, name):
     m = req("POST", "/wp/v2/media", raw=open(path, "rb").read(),
             headers={"Content-Type": "image/jpeg" if path.endswith(".jpg") else "image/png", "Content-Disposition": f'attachment; filename="{name}"'})
     req("POST", f"/wp/v2/media/{m['id']}", {"title": title, "alt_text": alt})

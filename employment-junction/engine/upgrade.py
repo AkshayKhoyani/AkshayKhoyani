@@ -164,6 +164,8 @@ def main():
                 continue
             upd = {}
             new = upgrade_content(p)
+            if new is None and "--force" not in ARGS:
+                continue  # already upgraded (content and image)
             if new:
                 upd["content"] = new
             if "--no-images" not in ARGS:
