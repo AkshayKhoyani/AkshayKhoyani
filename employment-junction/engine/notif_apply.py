@@ -35,7 +35,7 @@ def main():
         url = r.get("pdf_url") or mirror or r.get("page_url") or ""
         if not url:
             # nothing better known: keep the post's own official link (board site) for the plain-text mentions
-            m = re.search(r'<a class="ejp-btn nt" href="([^"]+)"', c) or re.search(r'href="(https?://(?!employmentjunction|www\.instagram|wa\.me|t\.me|api\.whatsapp|www\.facebook|twitter)[^"]+)"', c)
+            m = re.search(r'<a class="ejp-btn nt" href="([^"]+)"', c) or re.search(r'href="(https?://(?!employmentjunction|www\.instagram|wa\.me|t\.me|api\.whatsapp|www\.facebook|twitter|[^"]*sarkari|[^"]*freejobalert|[^"]*testbook|[^"]*adda247|[^"]*jagranjosh)[^"]+)"', c)
             url = m.group(1) if m else ""
         new = notif.link_notifications(c, url, mirror)
         upd = {}

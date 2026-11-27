@@ -18,3 +18,4 @@ When an item is done, delete its row.
 - posts 125 (UPPCB) and posts 36 (UPSSSC Pharmacist) link PDFs on sarkariresults.org.in (aggregator) — replace with official links.
 - Many Indian govt sites (RRB, GSSSB/OJAS, GPRB, RSSB, KEA, OSSSC, HPRCA, BSF, CPCL…) refuse connections from the cloud runner, so their PDFs could not be fetched; those posts link the official page. Retry in later runs.
 - posts 26 (BSNL) links an aggregator (sarkariresults) — replace with official link.
+- posts 130 Bihar Police says Constable (Driver) but Advt 02/2026 is Constable (Operator) — verify title/content.
