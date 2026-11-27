@@ -2,10 +2,10 @@
 
 Usage: python3 engine/ig_post.py <repo-relative mp4 path> <caption.txt> [--publish]
 Without --publish it only uploads and checks the container (nothing goes live).
-The video must be committed and pushed: Instagram fetches it from GitHub raw.
+The video must be committed and pushed (and under 20 MB): Instagram fetches it via jsDelivr from GitHub.
 The token is injected by the network proxy for graph.facebook.com (never stored here).
 """
-import json, subprocess, sys, time, urllib.parse
+import json, os, subprocess, sys, time, urllib.parse
 
 IG = "17841415627923533"  # financejunction.in
 BRANCH = "claude/finance-videos-pz24zv"
@@ -23,7 +23,11 @@ def call(method, path, data=None):
 
 
 mp4, cap_file = sys.argv[1], sys.argv[2]
-url = f"https://raw.githubusercontent.com/AkshayKhoyani/AkshayKhoyani/{BRANCH}/" + urllib.parse.quote(mp4)
+# jsDelivr CDN (pinned to the pushed commit): GitHub raw started failing for Meta's fetcher (error 2207076)
+sha = subprocess.run(["git", "rev-parse", "HEAD"], capture_output=True, text=True, check=True).stdout.strip()
+rel = os.path.relpath(os.path.abspath(mp4), subprocess.run(["git", "rev-parse", "--show-toplevel"], capture_output=True, text=True, check=True).stdout.strip())
+url = f"https://cdn.jsdelivr.net/gh/AkshayKhoyani/AkshayKhoyani@{sha}/" + urllib.parse.quote(rel)
+print("video url", url)
 cid = call("POST", f"{IG}/media", {"media_type": "REELS", "video_url": url,
                                      "caption": open(cap_file).read().strip(), "share_to_feed": "true"})["id"]
 print("container", cid)
