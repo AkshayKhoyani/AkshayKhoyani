@@ -8,3 +8,12 @@
 | when out | jobs/rrc-nr-apprentice-recruitment-2026-4651-posts (ej_job 1888) | Category-wise seat matrix; merit list (expected Feb 2027) → publish as ej_result and link from job page. |
 
 When an item is done, delete its row.
+
+## Fact checks flagged by the notification-PDF research (27 Nov 2026)
+- ej_job 1924 BHEL "415 posts": no official 2026 advertisement found (only the 2025 one with 400 posts). Verify on bhel.com, fix or retitle.
+- ej_answer_key 1922 KEA KREIS: no official notice found for objections till 25 Nov. Verify.
+- ej_job 1908 Gujarat Police LRD: page says 13,152 posts; other sources say 13,591. Verify on the official notification.
+- ej_result 2203 OSSSC Nursing Officer: 8 Dec DV date not confirmed.
+- ej_job 2178 BPSC AEDO 935 posts is Advt 87/2025 (Aug 2025), not a new 2026 advertisement — make the page say so.
+- posts 125 (UPPCB) and posts 36 (UPSSSC Pharmacist) link PDFs on sarkariresults.org.in (aggregator) — replace with official links.
+- Many Indian govt sites (RRB, GSSSB/OJAS, GPRB, RSSB, KEA, OSSSC, HPRCA, BSF, CPCL…) refuse connections from the cloud runner, so their PDFs could not be fetched; those posts link the official page. Retry in later runs.

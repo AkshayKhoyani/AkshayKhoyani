@@ -1,0 +1,3823 @@
+{
+ "_meta": {
+  "generated": "2026-11-27",
+  "schema": "slug -> {exam, source, duration_min, negative (marks deducted per wrong answer), marks_per_q, sections[{name, questions, topics{topic:count}, weight_basis}], notes}. Section-level negative / marks_per_q / duration_min override the exam-level values when present.",
+  "weight_basis_values": [
+   "official",
+   "estimated from recent papers"
+  ]
+ },
+ "_topics": {
+  "Computer": {
+   "family": "Computer",
+   "exams": [
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "up-police-constable"
+   ]
+  },
+  "Active Passive Voice": {
+   "family": "English",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Antonyms": {
+   "family": "English",
+   "exams": [
+    "bihar-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Cloze Test": {
+   "family": "English",
+   "exams": [
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Direct Indirect Speech": {
+   "family": "English",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Error Spotting": {
+   "family": "English",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Fill in the Blanks": {
+   "family": "English",
+   "exams": [
+    "bihar-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Grammar": {
+   "family": "English",
+   "exams": [
+    "bihar-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims"
+   ]
+  },
+  "Idioms & Phrases": {
+   "family": "English",
+   "exams": [
+    "bihar-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "One Word Substitution": {
+   "family": "English",
+   "exams": [
+    "bihar-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Para Jumbles": {
+   "family": "English",
+   "exams": [
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Reading Comprehension": {
+   "family": "English",
+   "exams": [
+    "gsssb-cce-prelims",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Sentence Improvement": {
+   "family": "English",
+   "exams": [
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-mts"
+   ]
+  },
+  "Spelling Correction": {
+   "family": "English",
+   "exams": [
+    "bihar-police-constable",
+    "gpssb-talati-cum-mantri",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Synonyms": {
+   "family": "English",
+   "exams": [
+    "bihar-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Word Usage": {
+   "family": "English",
+   "exams": [
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims"
+   ]
+  },
+  "Ancient History": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Art & Culture": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gujarat-police-lrd",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Awards & Honours": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Books & Authors": {
+   "family": "General Awareness",
+   "exams": [
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Current Affairs": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Economy": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Environment & Ecology": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "gujarat-police-lrd",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "state-psc-prelims-generic",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Government Schemes": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "gujarat-police-lrd",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "state-psc-prelims-generic",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Indian Geography": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "International Relations": {
+   "family": "General Awareness",
+   "exams": [
+    "state-psc-prelims-generic",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Medieval History": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Modern History": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Polity": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Public Administration": {
+   "family": "General Awareness",
+   "exams": [
+    "gujarat-police-lrd"
+   ]
+  },
+  "Rights & RTI": {
+   "family": "General Awareness",
+   "exams": [
+    "gujarat-police-lrd"
+   ]
+  },
+  "Science & Technology": {
+   "family": "General Awareness",
+   "exams": [
+    "gujarat-police-lrd",
+    "state-psc-prelims-generic",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Sports": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gujarat-police-lrd",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Static GK": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable"
+   ]
+  },
+  "World Geography": {
+   "family": "General Awareness",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gujarat-police-lrd",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable",
+    "upsc-cse-prelims-gs-1"
+   ]
+  },
+  "Biology": {
+   "family": "General Science",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable"
+   ]
+  },
+  "Chemistry": {
+   "family": "General Science",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable"
+   ]
+  },
+  "Physics": {
+   "family": "General Science",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable"
+   ]
+  },
+  "Gujarati Grammar": {
+   "family": "Gujarati",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Gujarati Idioms & Proverbs": {
+   "family": "Gujarati",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Gujarati Reading Comprehension": {
+   "family": "Gujarati",
+   "exams": [
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Gujarati Sahitya": {
+   "family": "Gujarati",
+   "exams": [
+    "gpssb-talati-cum-mantri"
+   ]
+  },
+  "Gujarati Sandhi & Samas": {
+   "family": "Gujarati",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Gujarati Spelling (Jodani)": {
+   "family": "Gujarati",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Gujarati Vocabulary": {
+   "family": "Gujarati",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Anekarthi & Ek Shabd": {
+   "family": "Hindi",
+   "exams": [
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Hindi Grammar": {
+   "family": "Hindi",
+   "exams": [
+    "bihar-police-constable",
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Hindi Reading Comprehension": {
+   "family": "Hindi",
+   "exams": [
+    "ssc-gd-constable"
+   ]
+  },
+  "Hindi Sahitya": {
+   "family": "Hindi",
+   "exams": [
+    "bihar-police-constable",
+    "up-police-constable"
+   ]
+  },
+  "Muhavare & Lokoktiyan": {
+   "family": "Hindi",
+   "exams": [
+    "bihar-police-constable",
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Paryayvachi": {
+   "family": "Hindi",
+   "exams": [
+    "bihar-police-constable",
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Ras Chhand Alankar": {
+   "family": "Hindi",
+   "exams": [
+    "up-police-constable"
+   ]
+  },
+  "Samas": {
+   "family": "Hindi",
+   "exams": [
+    "bihar-police-constable",
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Sandhi": {
+   "family": "Hindi",
+   "exams": [
+    "bihar-police-constable",
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Tatsam Tadbhav": {
+   "family": "Hindi",
+   "exams": [
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Upsarg Pratyay": {
+   "family": "Hindi",
+   "exams": [
+    "up-police-constable"
+   ]
+  },
+  "Vakya Shuddhi": {
+   "family": "Hindi",
+   "exams": [
+    "bihar-police-constable",
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Vilom Shabd": {
+   "family": "Hindi",
+   "exams": [
+    "bihar-police-constable",
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Child Development & Pedagogy": {
+   "family": "Pedagogy",
+   "exams": [
+    "ctet-paper-1",
+    "ctet-paper-2-maths-science",
+    "ctet-paper-2-social-studies"
+   ]
+  },
+  "EVS Pedagogy": {
+   "family": "Pedagogy",
+   "exams": [
+    "ctet-paper-1"
+   ]
+  },
+  "Inclusive Education": {
+   "family": "Pedagogy",
+   "exams": [
+    "ctet-paper-1",
+    "ctet-paper-2-maths-science",
+    "ctet-paper-2-social-studies"
+   ]
+  },
+  "Language Pedagogy": {
+   "family": "Pedagogy",
+   "exams": [
+    "ctet-paper-1",
+    "ctet-paper-2-maths-science",
+    "ctet-paper-2-social-studies"
+   ]
+  },
+  "Learning & Pedagogy": {
+   "family": "Pedagogy",
+   "exams": [
+    "ctet-paper-1",
+    "ctet-paper-2-maths-science",
+    "ctet-paper-2-social-studies"
+   ]
+  },
+  "Mathematics Pedagogy": {
+   "family": "Pedagogy",
+   "exams": [
+    "ctet-paper-1",
+    "ctet-paper-2-maths-science"
+   ]
+  },
+  "Science Pedagogy": {
+   "family": "Pedagogy",
+   "exams": [
+    "ctet-paper-2-maths-science"
+   ]
+  },
+  "Social Studies Pedagogy": {
+   "family": "Pedagogy",
+   "exams": [
+    "ctet-paper-2-social-studies"
+   ]
+  },
+  "Ages": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "up-police-constable"
+   ]
+  },
+  "Algebra": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Approximation": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims"
+   ]
+  },
+  "Average": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Boats & Streams": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "gsssb-cce-prelims",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Calendar & Clock": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "rrb-group-d"
+   ]
+  },
+  "Compound Interest": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Data Interpretation": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-mts",
+    "state-psc-prelims-generic",
+    "up-police-constable"
+   ]
+  },
+  "Data Sufficiency": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1"
+   ]
+  },
+  "Discount": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "up-police-constable"
+   ]
+  },
+  "Geometry": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "HCF & LCM": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Height & Distance": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "ssc-cgl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Mensuration": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Mixture & Alligation": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Number Series": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims"
+   ]
+  },
+  "Number System": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Partnership": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ssc-cpo-paper-1",
+    "up-police-constable"
+   ]
+  },
+  "Percentage": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Pipes & Cisterns": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Probability": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-po-prelims"
+   ]
+  },
+  "Profit & Loss": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Quadratic Equations": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "ibps-po-prelims"
+   ]
+  },
+  "Ratio & Proportion": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Simple Interest": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Simplification": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Speed Time Distance": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Statistics": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "rrb-alp-cbt-1",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Time & Work": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "bihar-police-constable",
+    "delhi-police-constable",
+    "gpssb-talati-cum-mantri",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Trigonometry": {
+   "family": "Quantitative Aptitude",
+   "exams": [
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Alphanumeric Series": {
+   "family": "Reasoning",
+   "exams": [
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims"
+   ]
+  },
+  "Analogy": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Blood Relation": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Calendar": {
+   "family": "Reasoning",
+   "exams": [
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1"
+   ]
+  },
+  "Classification": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Clock": {
+   "family": "Reasoning",
+   "exams": [
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Coding-Decoding": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Counting Figures": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Decision Making": {
+   "family": "Reasoning",
+   "exams": [
+    "up-police-constable"
+   ]
+  },
+  "Dictionary Order": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Direction": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Embedded Figures": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Inequality": {
+   "family": "Reasoning",
+   "exams": [
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "sbi-clerk-prelims"
+   ]
+  },
+  "Logical Deduction": {
+   "family": "Reasoning",
+   "exams": [
+    "state-psc-prelims-generic"
+   ]
+  },
+  "Mathematical Operations": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Mirror & Water Image": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Missing Number": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts"
+   ]
+  },
+  "Order & Ranking": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Paper Folding & Cutting": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Pattern Completion": {
+   "family": "Reasoning",
+   "exams": [
+    "ssc-cpo-paper-1"
+   ]
+  },
+  "Puzzle": {
+   "family": "Reasoning",
+   "exams": [
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims"
+   ]
+  },
+  "Seating Arrangement": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "up-police-constable"
+   ]
+  },
+  "Series": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Statement & Conclusion": {
+   "family": "Reasoning",
+   "exams": [
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cpo-paper-1",
+    "state-psc-prelims-generic",
+    "up-police-constable"
+   ]
+  },
+  "Syllogism": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "ibps-clerk-prelims",
+    "ibps-po-prelims",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "sbi-clerk-prelims",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "up-police-constable"
+   ]
+  },
+  "Venn Diagram": {
+   "family": "Reasoning",
+   "exams": [
+    "delhi-police-constable",
+    "gsssb-cce-prelims",
+    "gujarat-police-lrd",
+    "rrb-alp-cbt-1",
+    "rrb-group-d",
+    "rrb-ntpc-graduate-cbt-1",
+    "rrb-ntpc-undergraduate-cbt-1",
+    "ssc-cgl-tier-1",
+    "ssc-chsl-tier-1",
+    "ssc-cpo-paper-1",
+    "ssc-gd-constable",
+    "ssc-mts",
+    "up-police-constable"
+   ]
+  },
+  "Bihar GK": {
+   "family": "Regional GK",
+   "exams": [
+    "bihar-police-constable"
+   ]
+  },
+  "Delhi GK": {
+   "family": "Regional GK",
+   "exams": [
+    "delhi-police-constable"
+   ]
+  },
+  "Gujarat Culture": {
+   "family": "Regional GK",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Gujarat Current Affairs": {
+   "family": "Regional GK",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Gujarat Geography": {
+   "family": "Regional GK",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Gujarat History": {
+   "family": "Regional GK",
+   "exams": [
+    "gpssb-talati-cum-mantri",
+    "gujarat-police-lrd"
+   ]
+  },
+  "Gujarat Panchayati Raj": {
+   "family": "Regional GK",
+   "exams": [
+    "gpssb-talati-cum-mantri"
+   ]
+  },
+  "State GK": {
+   "family": "Regional GK",
+   "exams": [
+    "state-psc-prelims-generic"
+   ]
+  },
+  "Uttar Pradesh GK": {
+   "family": "Regional GK",
+   "exams": [
+    "up-police-constable"
+   ]
+  },
+  "EVS Content": {
+   "family": "Teaching Subject Content",
+   "exams": [
+    "ctet-paper-1"
+   ]
+  },
+  "Geography Content": {
+   "family": "Teaching Subject Content",
+   "exams": [
+    "ctet-paper-2-social-studies"
+   ]
+  },
+  "History Content": {
+   "family": "Teaching Subject Content",
+   "exams": [
+    "ctet-paper-2-social-studies"
+   ]
+  },
+  "Language Comprehension": {
+   "family": "Teaching Subject Content",
+   "exams": [
+    "ctet-paper-1",
+    "ctet-paper-2-maths-science",
+    "ctet-paper-2-social-studies"
+   ]
+  },
+  "Mathematics Content": {
+   "family": "Teaching Subject Content",
+   "exams": [
+    "ctet-paper-1",
+    "ctet-paper-2-maths-science"
+   ]
+  },
+  "Science Content": {
+   "family": "Teaching Subject Content",
+   "exams": [
+    "ctet-paper-2-maths-science"
+   ]
+  },
+  "Social & Political Life Content": {
+   "family": "Teaching Subject Content",
+   "exams": [
+    "ctet-paper-2-social-studies"
+   ]
+  }
+ },
+ "ssc-cgl-tier-1": {
+  "exam": "SSC CGL Tier 1",
+  "source": "https://ssc.gov.in/",
+  "source_doc": "SSC Notice: Combined Graduate Level Examination 2025 (Scheme of Examination, Tier-I)",
+  "duration_min": 60,
+  "negative": 0.5,
+  "marks_per_q": 2,
+  "total_questions": 100,
+  "total_marks": 200,
+  "languages": [
+   "English",
+   "Hindi",
+   "Assamese",
+   "Bengali",
+   "Gujarati",
+   "Kannada",
+   "Konkani",
+   "Malayalam",
+   "Manipuri",
+   "Marathi",
+   "Odia",
+   "Punjabi",
+   "Tamil",
+   "Telugu",
+   "Urdu"
+  ],
+  "sections": [
+   {
+    "name": "General Intelligence & Reasoning",
+    "questions": 25,
+    "topics": {
+     "Analogy": 3,
+     "Classification": 3,
+     "Series": 3,
+     "Coding-Decoding": 2,
+     "Mathematical Operations": 2,
+     "Missing Number": 1,
+     "Blood Relation": 1,
+     "Direction": 1,
+     "Syllogism": 1,
+     "Venn Diagram": 1,
+     "Order & Ranking": 1,
+     "Seating Arrangement": 1,
+     "Dictionary Order": 1,
+     "Paper Folding & Cutting": 1,
+     "Mirror & Water Image": 1,
+     "Embedded Figures": 1,
+     "Counting Figures": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Awareness",
+    "questions": 25,
+    "topics": {
+     "Ancient History": 1,
+     "Medieval History": 1,
+     "Modern History": 2,
+     "Art & Culture": 2,
+     "Polity": 3,
+     "Indian Geography": 2,
+     "World Geography": 1,
+     "Economy": 2,
+     "Physics": 1,
+     "Chemistry": 1,
+     "Biology": 2,
+     "Static GK": 2,
+     "Sports": 1,
+     "Awards & Honours": 1,
+     "Current Affairs": 3
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Quantitative Aptitude",
+    "questions": 25,
+    "topics": {
+     "Number System": 2,
+     "Simplification": 1,
+     "HCF & LCM": 1,
+     "Percentage": 1,
+     "Profit & Loss": 2,
+     "Ratio & Proportion": 1,
+     "Average": 1,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 1,
+     "Speed Time Distance": 1,
+     "Algebra": 2,
+     "Geometry": 3,
+     "Mensuration": 2,
+     "Trigonometry": 2,
+     "Height & Distance": 1,
+     "Statistics": 1,
+     "Data Interpretation": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "note": "Basic arithmetical skill"
+   },
+   {
+    "name": "English Comprehension",
+    "questions": 25,
+    "topics": {
+     "Reading Comprehension": 5,
+     "Cloze Test": 5,
+     "Error Spotting": 2,
+     "Sentence Improvement": 2,
+     "Fill in the Blanks": 2,
+     "Synonyms": 1,
+     "Antonyms": 1,
+     "One Word Substitution": 2,
+     "Idioms & Phrases": 2,
+     "Spelling Correction": 2,
+     "Para Jumbles": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "languages": [
+     "English"
+    ]
+   }
+  ],
+  "notes": "Section question counts, 2 marks/Q, 0.50 negative and 60 min are official (scribe: 80 min). English section is in English only; other sections in English, Hindi and 13 regional languages. Topic weights within sections are estimated from 2024-2025 Tier-1 shifts."
+ },
+ "ssc-chsl-tier-1": {
+  "exam": "SSC CHSL Tier 1",
+  "source": "https://ssc.gov.in/",
+  "source_doc": "SSC Notice: Combined Higher Secondary (10+2) Level Examination 2025, Tier-I scheme",
+  "duration_min": 60,
+  "negative": 0.5,
+  "marks_per_q": 2,
+  "total_questions": 100,
+  "total_marks": 200,
+  "languages": [
+   "English",
+   "Hindi",
+   "Assamese",
+   "Bengali",
+   "Gujarati",
+   "Kannada",
+   "Konkani",
+   "Malayalam",
+   "Manipuri",
+   "Marathi",
+   "Odia",
+   "Punjabi",
+   "Tamil",
+   "Telugu",
+   "Urdu"
+  ],
+  "sections": [
+   {
+    "name": "English Language (Basic Knowledge)",
+    "questions": 25,
+    "topics": {
+     "Reading Comprehension": 5,
+     "Cloze Test": 5,
+     "Error Spotting": 2,
+     "Sentence Improvement": 1,
+     "Fill in the Blanks": 2,
+     "Synonyms": 1,
+     "Antonyms": 1,
+     "One Word Substitution": 2,
+     "Idioms & Phrases": 2,
+     "Spelling Correction": 1,
+     "Active Passive Voice": 1,
+     "Direct Indirect Speech": 1,
+     "Para Jumbles": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "languages": [
+     "English"
+    ]
+   },
+   {
+    "name": "General Intelligence",
+    "questions": 25,
+    "topics": {
+     "Analogy": 3,
+     "Classification": 3,
+     "Series": 3,
+     "Coding-Decoding": 2,
+     "Mathematical Operations": 2,
+     "Missing Number": 1,
+     "Blood Relation": 1,
+     "Direction": 1,
+     "Syllogism": 1,
+     "Venn Diagram": 1,
+     "Order & Ranking": 1,
+     "Seating Arrangement": 1,
+     "Dictionary Order": 1,
+     "Paper Folding & Cutting": 1,
+     "Mirror & Water Image": 1,
+     "Embedded Figures": 1,
+     "Counting Figures": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Quantitative Aptitude (Basic Arithmetic Skill)",
+    "questions": 25,
+    "topics": {
+     "Number System": 2,
+     "Simplification": 2,
+     "HCF & LCM": 1,
+     "Percentage": 2,
+     "Profit & Loss": 2,
+     "Discount": 1,
+     "Ratio & Proportion": 1,
+     "Average": 1,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 1,
+     "Speed Time Distance": 1,
+     "Algebra": 2,
+     "Geometry": 2,
+     "Mensuration": 2,
+     "Trigonometry": 2,
+     "Data Interpretation": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Awareness",
+    "questions": 25,
+    "topics": {
+     "Ancient History": 1,
+     "Medieval History": 1,
+     "Modern History": 2,
+     "Art & Culture": 2,
+     "Polity": 3,
+     "Indian Geography": 2,
+     "World Geography": 1,
+     "Economy": 2,
+     "Physics": 1,
+     "Chemistry": 1,
+     "Biology": 2,
+     "Static GK": 2,
+     "Sports": 1,
+     "Awards & Honours": 1,
+     "Current Affairs": 3
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "Pattern official (4 x 25 Q, 2 marks each, -0.50, 60 min). Topic weights estimated from 2024-2025 Tier-1 papers."
+ },
+ "ssc-mts": {
+  "exam": "SSC MTS (Non-Technical) & Havaldar CBE",
+  "source": "https://ssc.gov.in/",
+  "source_doc": "SSC Notice: Multi-Tasking (Non-Technical) Staff and Havaldar (CBIC & CBN) Examination 2025",
+  "duration_min": 90,
+  "negative": 1,
+  "marks_per_q": 3,
+  "total_questions": 90,
+  "total_marks": 270,
+  "languages": [
+   "English",
+   "Hindi",
+   "Assamese",
+   "Bengali",
+   "Gujarati",
+   "Kannada",
+   "Konkani",
+   "Malayalam",
+   "Manipuri",
+   "Marathi",
+   "Odia",
+   "Punjabi",
+   "Tamil",
+   "Telugu",
+   "Urdu"
+  ],
+  "sessions": [
+   {
+    "session": "Session-I",
+    "duration_min": 45,
+    "negative": 0,
+    "sections": [
+     "Numerical and Mathematical Ability",
+     "Reasoning Ability and Problem Solving"
+    ]
+   },
+   {
+    "session": "Session-II",
+    "duration_min": 45,
+    "negative": 1,
+    "sections": [
+     "General Awareness",
+     "English Language and Comprehension"
+    ]
+   }
+  ],
+  "sections": [
+   {
+    "name": "Numerical and Mathematical Ability",
+    "questions": 20,
+    "topics": {
+     "Number System": 2,
+     "Simplification": 2,
+     "HCF & LCM": 1,
+     "Percentage": 2,
+     "Profit & Loss": 2,
+     "Ratio & Proportion": 1,
+     "Average": 2,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 2,
+     "Speed Time Distance": 1,
+     "Mensuration": 2,
+     "Data Interpretation": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "session": "Session-I",
+    "negative": 0
+   },
+   {
+    "name": "Reasoning Ability and Problem Solving",
+    "questions": 20,
+    "topics": {
+     "Analogy": 2,
+     "Classification": 2,
+     "Series": 3,
+     "Coding-Decoding": 2,
+     "Mathematical Operations": 2,
+     "Missing Number": 1,
+     "Blood Relation": 1,
+     "Direction": 1,
+     "Order & Ranking": 1,
+     "Venn Diagram": 1,
+     "Paper Folding & Cutting": 1,
+     "Mirror & Water Image": 1,
+     "Embedded Figures": 1,
+     "Counting Figures": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "session": "Session-I",
+    "negative": 0
+   },
+   {
+    "name": "General Awareness",
+    "questions": 25,
+    "topics": {
+     "Ancient History": 1,
+     "Medieval History": 1,
+     "Modern History": 2,
+     "Art & Culture": 2,
+     "Polity": 3,
+     "Indian Geography": 2,
+     "World Geography": 1,
+     "Economy": 2,
+     "Physics": 2,
+     "Chemistry": 2,
+     "Biology": 2,
+     "Static GK": 2,
+     "Sports": 1,
+     "Current Affairs": 2
+    },
+    "weight_basis": "estimated from recent papers",
+    "session": "Session-II",
+    "negative": 1
+   },
+   {
+    "name": "English Language and Comprehension",
+    "questions": 25,
+    "topics": {
+     "Reading Comprehension": 5,
+     "Cloze Test": 5,
+     "Error Spotting": 2,
+     "Sentence Improvement": 2,
+     "Fill in the Blanks": 2,
+     "Synonyms": 2,
+     "Antonyms": 2,
+     "One Word Substitution": 2,
+     "Idioms & Phrases": 1,
+     "Spelling Correction": 2
+    },
+    "weight_basis": "estimated from recent papers",
+    "session": "Session-II",
+    "negative": 1,
+    "languages": [
+     "English"
+    ]
+   }
+  ],
+  "notes": "Two sessions of 45 min each, both compulsory; 3 marks per question. No negative marking in Session-I; 1 mark deducted per wrong answer in Session-II (section-level 'negative' overrides the top-level value). Havaldar candidates additionally take PET/PST. Topic weights estimated from 2023-2025 papers."
+ },
+ "ssc-gd-constable": {
+  "exam": "SSC GD Constable",
+  "source": "https://ssc.gov.in/",
+  "source_doc": "SSC Notice: Constables (GD) in CAPFs, SSF, Rifleman (GD) in Assam Rifles and Sepoy in NCB Examination, 2026",
+  "duration_min": 60,
+  "negative": 0.25,
+  "marks_per_q": 2,
+  "total_questions": 80,
+  "total_marks": 160,
+  "languages": [
+   "English",
+   "Hindi",
+   "Assamese",
+   "Bengali",
+   "Gujarati",
+   "Kannada",
+   "Konkani",
+   "Malayalam",
+   "Manipuri",
+   "Marathi",
+   "Odia",
+   "Punjabi",
+   "Tamil",
+   "Telugu",
+   "Urdu"
+  ],
+  "sections": [
+   {
+    "name": "General Intelligence and Reasoning",
+    "questions": 20,
+    "topics": {
+     "Analogy": 3,
+     "Classification": 3,
+     "Series": 3,
+     "Coding-Decoding": 2,
+     "Mathematical Operations": 1,
+     "Missing Number": 1,
+     "Blood Relation": 1,
+     "Direction": 1,
+     "Order & Ranking": 1,
+     "Venn Diagram": 1,
+     "Paper Folding & Cutting": 1,
+     "Mirror & Water Image": 1,
+     "Counting Figures": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Knowledge and General Awareness",
+    "questions": 20,
+    "topics": {
+     "Ancient History": 1,
+     "Medieval History": 1,
+     "Modern History": 2,
+     "Art & Culture": 1,
+     "Polity": 2,
+     "Indian Geography": 2,
+     "World Geography": 1,
+     "Economy": 1,
+     "Physics": 1,
+     "Chemistry": 1,
+     "Biology": 2,
+     "Static GK": 1,
+     "Sports": 1,
+     "Current Affairs": 3
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Elementary Mathematics",
+    "questions": 20,
+    "topics": {
+     "Number System": 2,
+     "Simplification": 2,
+     "HCF & LCM": 1,
+     "Percentage": 2,
+     "Profit & Loss": 2,
+     "Discount": 1,
+     "Ratio & Proportion": 1,
+     "Average": 2,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 2,
+     "Speed Time Distance": 1,
+     "Mensuration": 2
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "English / Hindi",
+    "questions": 20,
+    "topics": {
+     "Reading Comprehension": 5,
+     "Cloze Test": 5,
+     "Error Spotting": 1,
+     "Fill in the Blanks": 2,
+     "Synonyms": 2,
+     "Antonyms": 2,
+     "One Word Substitution": 1,
+     "Idioms & Phrases": 1,
+     "Spelling Correction": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "alt_topics": {
+     "Hindi": {
+      "Hindi Reading Comprehension": 5,
+      "Hindi Grammar": 3,
+      "Sandhi": 1,
+      "Samas": 1,
+      "Paryayvachi": 2,
+      "Vilom Shabd": 2,
+      "Muhavare & Lokoktiyan": 2,
+      "Tatsam Tadbhav": 1,
+      "Vakya Shuddhi": 2,
+      "Anekarthi & Ek Shabd": 1
+     }
+    },
+    "note": "Candidate attempts either English or Hindi; 'topics' is the English variant, 'alt_topics.Hindi' the Hindi variant."
+   }
+  ],
+  "notes": "80 Q x 2 marks, 60 min, 0.25 marks negative per wrong answer (official). Language part: English or Hindi. Topic weights estimated."
+ },
+ "ssc-cpo-paper-1": {
+  "exam": "SSC CPO (SI in Delhi Police & CAPFs) Paper 1",
+  "source": "https://ssc.gov.in/",
+  "source_doc": "SSC Notice: Sub-Inspector in Delhi Police and Central Armed Police Forces Examination 2025",
+  "duration_min": 120,
+  "negative": 0.25,
+  "marks_per_q": 1,
+  "total_questions": 200,
+  "total_marks": 200,
+  "languages": [
+   "English",
+   "Hindi"
+  ],
+  "sections": [
+   {
+    "name": "General Intelligence and Reasoning",
+    "questions": 50,
+    "topics": {
+     "Analogy": 5,
+     "Classification": 5,
+     "Series": 5,
+     "Coding-Decoding": 4,
+     "Mathematical Operations": 3,
+     "Missing Number": 3,
+     "Blood Relation": 2,
+     "Direction": 2,
+     "Syllogism": 2,
+     "Venn Diagram": 2,
+     "Order & Ranking": 2,
+     "Seating Arrangement": 2,
+     "Dictionary Order": 1,
+     "Statement & Conclusion": 2,
+     "Paper Folding & Cutting": 2,
+     "Mirror & Water Image": 2,
+     "Embedded Figures": 2,
+     "Counting Figures": 2,
+     "Pattern Completion": 2
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Knowledge and General Awareness",
+    "questions": 50,
+    "topics": {
+     "Ancient History": 3,
+     "Medieval History": 3,
+     "Modern History": 4,
+     "Art & Culture": 3,
+     "Polity": 6,
+     "Indian Geography": 4,
+     "World Geography": 2,
+     "Economy": 4,
+     "Physics": 3,
+     "Chemistry": 3,
+     "Biology": 4,
+     "Static GK": 3,
+     "Sports": 2,
+     "Awards & Honours": 1,
+     "Books & Authors": 1,
+     "Current Affairs": 4
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Quantitative Aptitude",
+    "questions": 50,
+    "topics": {
+     "Number System": 3,
+     "Simplification": 2,
+     "HCF & LCM": 1,
+     "Percentage": 2,
+     "Profit & Loss": 3,
+     "Discount": 1,
+     "Ratio & Proportion": 2,
+     "Partnership": 1,
+     "Average": 2,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 2,
+     "Pipes & Cisterns": 1,
+     "Speed Time Distance": 2,
+     "Boats & Streams": 1,
+     "Mixture & Alligation": 1,
+     "Algebra": 5,
+     "Geometry": 6,
+     "Mensuration": 4,
+     "Trigonometry": 4,
+     "Height & Distance": 1,
+     "Statistics": 1,
+     "Data Interpretation": 3
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "English Comprehension",
+    "questions": 50,
+    "topics": {
+     "Reading Comprehension": 10,
+     "Cloze Test": 5,
+     "Error Spotting": 5,
+     "Sentence Improvement": 5,
+     "Fill in the Blanks": 4,
+     "Synonyms": 2,
+     "Antonyms": 2,
+     "One Word Substitution": 3,
+     "Idioms & Phrases": 3,
+     "Spelling Correction": 2,
+     "Active Passive Voice": 3,
+     "Direct Indirect Speech": 3,
+     "Para Jumbles": 3
+    },
+    "weight_basis": "estimated from recent papers",
+    "languages": [
+     "English"
+    ]
+   }
+  ],
+  "notes": "Paper-I: 4 x 50 Q, 1 mark each, -0.25, 2 hours (official). Topic weights estimated from 2023-2025 papers."
+ },
+ "rrb-ntpc-graduate-cbt-1": {
+  "exam": "RRB NTPC (Graduate) CBT 1",
+  "source": "https://www.rrbcdg.gov.in/",
+  "source_doc": "RRB Centralised Employment Notice CEN 06/2025 (NTPC Graduate), Annexure: Scheme of Examination",
+  "duration_min": 90,
+  "negative": 0.3333,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "languages": [
+   "English",
+   "Hindi",
+   "Assamese",
+   "Bengali",
+   "Gujarati",
+   "Kannada",
+   "Konkani",
+   "Malayalam",
+   "Manipuri",
+   "Marathi",
+   "Odia",
+   "Punjabi",
+   "Tamil",
+   "Telugu",
+   "Urdu"
+  ],
+  "sections": [
+   {
+    "name": "General Awareness",
+    "questions": 40,
+    "topics": {
+     "Ancient History": 2,
+     "Medieval History": 2,
+     "Modern History": 3,
+     "Art & Culture": 2,
+     "Polity": 4,
+     "Indian Geography": 3,
+     "World Geography": 1,
+     "Economy": 3,
+     "Physics": 2,
+     "Chemistry": 2,
+     "Biology": 2,
+     "Computer": 2,
+     "Static GK": 3,
+     "Sports": 1,
+     "Awards & Honours": 1,
+     "Government Schemes": 1,
+     "Environment & Ecology": 1,
+     "Current Affairs": 5
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Mathematics",
+    "questions": 30,
+    "topics": {
+     "Number System": 3,
+     "Simplification": 2,
+     "HCF & LCM": 1,
+     "Percentage": 2,
+     "Profit & Loss": 2,
+     "Ratio & Proportion": 2,
+     "Average": 2,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 2,
+     "Speed Time Distance": 2,
+     "Algebra": 2,
+     "Geometry": 2,
+     "Mensuration": 2,
+     "Trigonometry": 1,
+     "Statistics": 1,
+     "Data Interpretation": 1,
+     "Ages": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Intelligence and Reasoning",
+    "questions": 30,
+    "topics": {
+     "Analogy": 2,
+     "Classification": 2,
+     "Series": 3,
+     "Coding-Decoding": 3,
+     "Mathematical Operations": 2,
+     "Missing Number": 1,
+     "Blood Relation": 2,
+     "Direction": 2,
+     "Syllogism": 2,
+     "Venn Diagram": 1,
+     "Order & Ranking": 1,
+     "Seating Arrangement": 2,
+     "Puzzle": 2,
+     "Statement & Conclusion": 2,
+     "Data Sufficiency": 1,
+     "Calendar": 1,
+     "Dictionary Order": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "100 Q, 90 min (120 min for PwBD with scribe), 1/3 negative (official). CBT-1 is qualifying/screening. Topic weights estimated from 2024-2025 CBT-1 shifts."
+ },
+ "rrb-ntpc-undergraduate-cbt-1": {
+  "exam": "RRB NTPC (Undergraduate) CBT 1",
+  "source": "https://www.rrbcdg.gov.in/",
+  "source_doc": "RRB Centralised Employment Notice CEN 07/2025 (NTPC Undergraduate), Annexure: Scheme of Examination",
+  "duration_min": 90,
+  "negative": 0.3333,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "languages": [
+   "English",
+   "Hindi",
+   "Assamese",
+   "Bengali",
+   "Gujarati",
+   "Kannada",
+   "Konkani",
+   "Malayalam",
+   "Manipuri",
+   "Marathi",
+   "Odia",
+   "Punjabi",
+   "Tamil",
+   "Telugu",
+   "Urdu"
+  ],
+  "sections": [
+   {
+    "name": "General Awareness",
+    "questions": 40,
+    "topics": {
+     "Ancient History": 2,
+     "Medieval History": 2,
+     "Modern History": 3,
+     "Art & Culture": 2,
+     "Polity": 4,
+     "Indian Geography": 3,
+     "World Geography": 1,
+     "Economy": 3,
+     "Physics": 2,
+     "Chemistry": 2,
+     "Biology": 2,
+     "Computer": 2,
+     "Static GK": 3,
+     "Sports": 1,
+     "Awards & Honours": 1,
+     "Government Schemes": 1,
+     "Environment & Ecology": 1,
+     "Current Affairs": 5
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Mathematics",
+    "questions": 30,
+    "topics": {
+     "Number System": 3,
+     "Simplification": 2,
+     "HCF & LCM": 1,
+     "Percentage": 2,
+     "Profit & Loss": 2,
+     "Ratio & Proportion": 2,
+     "Average": 2,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 2,
+     "Speed Time Distance": 2,
+     "Algebra": 2,
+     "Geometry": 2,
+     "Mensuration": 2,
+     "Trigonometry": 1,
+     "Statistics": 1,
+     "Data Interpretation": 1,
+     "Ages": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Intelligence and Reasoning",
+    "questions": 30,
+    "topics": {
+     "Analogy": 2,
+     "Classification": 2,
+     "Series": 3,
+     "Coding-Decoding": 3,
+     "Mathematical Operations": 2,
+     "Missing Number": 1,
+     "Blood Relation": 2,
+     "Direction": 2,
+     "Syllogism": 2,
+     "Venn Diagram": 1,
+     "Order & Ranking": 1,
+     "Seating Arrangement": 2,
+     "Puzzle": 2,
+     "Statement & Conclusion": 2,
+     "Data Sufficiency": 1,
+     "Calendar": 1,
+     "Dictionary Order": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "Same scheme as Graduate CBT-1; difficulty pitched at 10+2 level. Topic weights estimated."
+ },
+ "rrb-group-d": {
+  "exam": "RRB Group D (Level 1) CBT",
+  "source": "https://www.rrbcdg.gov.in/",
+  "source_doc": "RRB Centralised Employment Notice CEN 08/2024 (Level-1), Scheme of CBT",
+  "duration_min": 90,
+  "negative": 0.3333,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "languages": [
+   "English",
+   "Hindi",
+   "Assamese",
+   "Bengali",
+   "Gujarati",
+   "Kannada",
+   "Konkani",
+   "Malayalam",
+   "Manipuri",
+   "Marathi",
+   "Odia",
+   "Punjabi",
+   "Tamil",
+   "Telugu",
+   "Urdu"
+  ],
+  "sections": [
+   {
+    "name": "General Science",
+    "questions": 25,
+    "topics": {
+     "Physics": 9,
+     "Chemistry": 8,
+     "Biology": 8
+    },
+    "weight_basis": "estimated from recent papers",
+    "note": "Physics, Chemistry, Life Sciences at 10th (CBSE) level"
+   },
+   {
+    "name": "Mathematics",
+    "questions": 25,
+    "topics": {
+     "Number System": 2,
+     "Simplification": 2,
+     "HCF & LCM": 1,
+     "Percentage": 2,
+     "Profit & Loss": 2,
+     "Ratio & Proportion": 1,
+     "Average": 1,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 2,
+     "Pipes & Cisterns": 1,
+     "Speed Time Distance": 2,
+     "Algebra": 1,
+     "Geometry": 1,
+     "Mensuration": 2,
+     "Trigonometry": 1,
+     "Ages": 1,
+     "Calendar & Clock": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Intelligence and Reasoning",
+    "questions": 30,
+    "topics": {
+     "Analogy": 3,
+     "Classification": 3,
+     "Series": 3,
+     "Coding-Decoding": 3,
+     "Mathematical Operations": 3,
+     "Missing Number": 1,
+     "Blood Relation": 2,
+     "Direction": 2,
+     "Syllogism": 2,
+     "Venn Diagram": 2,
+     "Order & Ranking": 1,
+     "Seating Arrangement": 1,
+     "Statement & Conclusion": 2,
+     "Data Sufficiency": 1,
+     "Calendar": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Awareness and Current Affairs",
+    "questions": 20,
+    "topics": {
+     "Modern History": 2,
+     "Ancient History": 1,
+     "Art & Culture": 1,
+     "Polity": 2,
+     "Indian Geography": 2,
+     "Economy": 2,
+     "Static GK": 2,
+     "Sports": 1,
+     "Computer": 1,
+     "Government Schemes": 1,
+     "Current Affairs": 5
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "Section counts, 90 min, 1/3 negative are official. Topic weights estimated from 2022 and 2025 CBT papers."
+ },
+ "rrb-alp-cbt-1": {
+  "exam": "RRB ALP CBT 1",
+  "source": "https://www.rrbcdg.gov.in/",
+  "source_doc": "RRB Centralised Employment Notice CEN 01/2025 (Assistant Loco Pilot), Scheme of CBT-1",
+  "duration_min": 60,
+  "negative": 0.3333,
+  "marks_per_q": 1,
+  "total_questions": 75,
+  "total_marks": 75,
+  "languages": [
+   "English",
+   "Hindi",
+   "Assamese",
+   "Bengali",
+   "Gujarati",
+   "Kannada",
+   "Konkani",
+   "Malayalam",
+   "Manipuri",
+   "Marathi",
+   "Odia",
+   "Punjabi",
+   "Tamil",
+   "Telugu",
+   "Urdu"
+  ],
+  "sections": [
+   {
+    "name": "Mathematics",
+    "questions": 20,
+    "topics": {
+     "Number System": 2,
+     "Simplification": 1,
+     "HCF & LCM": 1,
+     "Percentage": 1,
+     "Profit & Loss": 1,
+     "Ratio & Proportion": 1,
+     "Average": 1,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 1,
+     "Pipes & Cisterns": 1,
+     "Speed Time Distance": 1,
+     "Algebra": 1,
+     "Geometry": 1,
+     "Mensuration": 2,
+     "Trigonometry": 1,
+     "Ages": 1,
+     "Statistics": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Intelligence and Reasoning",
+    "questions": 25,
+    "topics": {
+     "Analogy": 2,
+     "Classification": 2,
+     "Series": 3,
+     "Coding-Decoding": 2,
+     "Mathematical Operations": 2,
+     "Blood Relation": 2,
+     "Direction": 2,
+     "Syllogism": 2,
+     "Venn Diagram": 1,
+     "Seating Arrangement": 2,
+     "Puzzle": 1,
+     "Statement & Conclusion": 2,
+     "Data Sufficiency": 1,
+     "Calendar": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Basic Science and Engineering",
+    "questions": 20,
+    "topics": {
+     "Physics": 8,
+     "Chemistry": 6,
+     "Biology": 6
+    },
+    "weight_basis": "estimated from recent papers",
+    "note": "Physics/Chemistry/Biology plus engineering drawing, units, measurement, work-power-energy, heat; mapped to Physics/Chemistry/Biology"
+   },
+   {
+    "name": "General Awareness on Current Affairs",
+    "questions": 10,
+    "topics": {
+     "Polity": 1,
+     "Indian Geography": 1,
+     "Modern History": 1,
+     "Economy": 1,
+     "Static GK": 1,
+     "Computer": 1,
+     "Current Affairs": 4
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "75 Q, 60 min, 1/3 negative (official). CBT-1 is qualifying. Topic weights estimated."
+ },
+ "ibps-po-prelims": {
+  "exam": "IBPS PO Prelims (CRP PO/MT-XVI)",
+  "source": "https://www.ibps.in/wp-content/uploads/Detailed-Notification_CRP-PO-XVI_Final_V1_30.06.2026.pdf",
+  "duration_min": 60,
+  "negative": 0.25,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "negative_rule": "0.25 of the marks assigned to the question",
+  "languages": [
+   "English",
+   "Hindi"
+  ],
+  "sectional_timing": true,
+  "sections": [
+   {
+    "name": "English Language",
+    "questions": 30,
+    "topics": {
+     "Reading Comprehension": 10,
+     "Cloze Test": 5,
+     "Para Jumbles": 5,
+     "Fill in the Blanks": 4,
+     "Error Spotting": 3,
+     "Word Usage": 3
+    },
+    "weight_basis": "estimated from recent papers",
+    "max_marks": 30,
+    "marks_per_q": 1,
+    "duration_min": 20,
+    "languages": [
+     "English"
+    ]
+   },
+   {
+    "name": "Quantitative Aptitude",
+    "questions": 35,
+    "topics": {
+     "Data Interpretation": 12,
+     "Number Series": 5,
+     "Quadratic Equations": 5,
+     "Approximation": 3,
+     "Profit & Loss": 2,
+     "Percentage": 1,
+     "Ratio & Proportion": 1,
+     "Time & Work": 1,
+     "Speed Time Distance": 1,
+     "Simple Interest": 1,
+     "Average": 1,
+     "Mixture & Alligation": 1,
+     "Probability": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "max_marks": 30,
+    "marks_per_q": 0.8571,
+    "duration_min": 20
+   },
+   {
+    "name": "Reasoning Ability",
+    "questions": 35,
+    "topics": {
+     "Puzzle": 10,
+     "Seating Arrangement": 8,
+     "Syllogism": 3,
+     "Inequality": 3,
+     "Blood Relation": 2,
+     "Direction": 2,
+     "Coding-Decoding": 2,
+     "Order & Ranking": 2,
+     "Alphanumeric Series": 3
+    },
+    "weight_basis": "estimated from recent papers",
+    "max_marks": 40,
+    "marks_per_q": 1.1429,
+    "duration_min": 20
+   }
+  ],
+  "notes": "Official (CRP PO/MT-XVI, 2026): English 30Q/30M, Quant 35Q/30M, Reasoning 35Q/40M, each 20 min separately timed. Marks per question therefore differ by section (section-level marks_per_q overrides top level). Penalty = 1/4 of that question's marks. Topic weights estimated from 2024-2025 prelims."
+ },
+ "ibps-clerk-prelims": {
+  "exam": "IBPS Clerk Prelims (CRP CSA-XV)",
+  "source": "https://www.ibps.in/wp-content/uploads/DetailedNotification_CRP_CSA_XV_Final_for_Website_12.9.2025.pdf",
+  "duration_min": 60,
+  "negative": 0.25,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "languages": [
+   "English",
+   "Hindi",
+   "Assamese",
+   "Bengali",
+   "Gujarati",
+   "Kannada",
+   "Konkani",
+   "Malayalam",
+   "Manipuri",
+   "Marathi",
+   "Odia",
+   "Punjabi",
+   "Tamil",
+   "Telugu",
+   "Urdu"
+  ],
+  "sectional_timing": true,
+  "sections": [
+   {
+    "name": "English Language",
+    "questions": 30,
+    "topics": {
+     "Reading Comprehension": 8,
+     "Cloze Test": 5,
+     "Para Jumbles": 4,
+     "Fill in the Blanks": 5,
+     "Error Spotting": 5,
+     "Word Usage": 3
+    },
+    "weight_basis": "estimated from recent papers",
+    "duration_min": 20,
+    "languages": [
+     "English"
+    ]
+   },
+   {
+    "name": "Numerical Ability",
+    "questions": 35,
+    "topics": {
+     "Simplification": 10,
+     "Approximation": 2,
+     "Number Series": 5,
+     "Data Interpretation": 8,
+     "Percentage": 1,
+     "Profit & Loss": 2,
+     "Ratio & Proportion": 1,
+     "Average": 1,
+     "Simple Interest": 1,
+     "Time & Work": 1,
+     "Speed Time Distance": 1,
+     "Ages": 1,
+     "Mixture & Alligation": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "duration_min": 20
+   },
+   {
+    "name": "Reasoning Ability",
+    "questions": 35,
+    "topics": {
+     "Puzzle": 10,
+     "Seating Arrangement": 6,
+     "Syllogism": 3,
+     "Inequality": 3,
+     "Blood Relation": 3,
+     "Direction": 2,
+     "Coding-Decoding": 3,
+     "Order & Ranking": 2,
+     "Alphanumeric Series": 3
+    },
+    "weight_basis": "estimated from recent papers",
+    "duration_min": 20
+   }
+  ],
+  "notes": "Official CSA-XV (2025) scheme: 30/35/35 Q, 1 mark each, 20 min per section, -0.25. Numerical & Reasoning offered in English, Hindi and regional languages. CSA-XVI (2026) detailed notification was not found on ibps.in at time of writing; re-check. Topic weights estimated."
+ },
+ "sbi-clerk-prelims": {
+  "exam": "SBI Clerk (Junior Associate) Prelims",
+  "source": "https://sbi.bank.in/web/careers/current-openings",
+  "source_doc": "SBI Advt. CRPD/CR/2025-26/06 (Junior Associates - Customer Support & Sales)",
+  "duration_min": 60,
+  "negative": 0.25,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "languages": [
+   "English",
+   "Hindi",
+   "regional languages as per SBI advertisement"
+  ],
+  "sectional_timing": true,
+  "sections": [
+   {
+    "name": "English Language",
+    "questions": 30,
+    "topics": {
+     "Reading Comprehension": 8,
+     "Cloze Test": 5,
+     "Para Jumbles": 4,
+     "Fill in the Blanks": 5,
+     "Error Spotting": 5,
+     "Word Usage": 3
+    },
+    "weight_basis": "estimated from recent papers",
+    "duration_min": 20,
+    "languages": [
+     "English"
+    ]
+   },
+   {
+    "name": "Numerical Ability",
+    "questions": 35,
+    "topics": {
+     "Simplification": 10,
+     "Approximation": 2,
+     "Number Series": 5,
+     "Data Interpretation": 8,
+     "Percentage": 1,
+     "Profit & Loss": 2,
+     "Ratio & Proportion": 1,
+     "Average": 1,
+     "Simple Interest": 1,
+     "Time & Work": 1,
+     "Speed Time Distance": 1,
+     "Ages": 1,
+     "Mixture & Alligation": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "duration_min": 20
+   },
+   {
+    "name": "Reasoning Ability",
+    "questions": 35,
+    "topics": {
+     "Puzzle": 10,
+     "Seating Arrangement": 6,
+     "Syllogism": 3,
+     "Inequality": 3,
+     "Blood Relation": 3,
+     "Direction": 2,
+     "Coding-Decoding": 3,
+     "Order & Ranking": 2,
+     "Alphanumeric Series": 3
+    },
+    "weight_basis": "estimated from recent papers",
+    "duration_min": 20
+   }
+  ],
+  "notes": "30/35/35 Q, 20 min each, -0.25 per wrong answer per SBI 2025 JA scheme (as reported; the SBI PDF itself could not be fetched, so confirm). Topic weights estimated."
+ },
+ "gujarat-police-lrd": {
+  "exam": "Gujarat Police Lokrakshak (LRD) Written Exam",
+  "source": "https://gprb.gujarat.gov.in/",
+  "source_doc": "Gujarat Police Recruitment Board - Lokrakshak cadre recruitment rules/notification (2025 scheme: Part A 80 + Part B 120)",
+  "duration_min": 180,
+  "negative": 0.25,
+  "marks_per_q": 1,
+  "total_questions": 200,
+  "total_marks": 200,
+  "languages": [
+   "Gujarati"
+  ],
+  "parts": {
+   "Part A": 80,
+   "Part B": 120
+  },
+  "sections": [
+   {
+    "name": "Reasoning & Data Interpretation",
+    "questions": 30,
+    "topics": {
+     "Analogy": 2,
+     "Classification": 2,
+     "Series": 3,
+     "Coding-Decoding": 3,
+     "Blood Relation": 2,
+     "Direction": 2,
+     "Syllogism": 2,
+     "Venn Diagram": 1,
+     "Order & Ranking": 2,
+     "Seating Arrangement": 2,
+     "Puzzle": 2,
+     "Statement & Conclusion": 2,
+     "Calendar": 1,
+     "Clock": 1,
+     "Data Interpretation": 3
+    },
+    "weight_basis": "estimated from recent papers",
+    "part": "Part A"
+   },
+   {
+    "name": "Quantitative Aptitude",
+    "questions": 30,
+    "topics": {
+     "Number System": 2,
+     "Simplification": 2,
+     "HCF & LCM": 1,
+     "Percentage": 2,
+     "Profit & Loss": 2,
+     "Discount": 1,
+     "Ratio & Proportion": 2,
+     "Partnership": 1,
+     "Average": 2,
+     "Ages": 1,
+     "Simple Interest": 2,
+     "Compound Interest": 1,
+     "Time & Work": 2,
+     "Pipes & Cisterns": 1,
+     "Speed Time Distance": 2,
+     "Mixture & Alligation": 1,
+     "Mensuration": 3,
+     "Probability": 1,
+     "Algebra": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "part": "Part A"
+   },
+   {
+    "name": "Gujarati Language Comprehension",
+    "questions": 20,
+    "topics": {
+     "Gujarati Reading Comprehension": 5,
+     "Gujarati Grammar": 6,
+     "Gujarati Vocabulary": 3,
+     "Gujarati Idioms & Proverbs": 2,
+     "Gujarati Sandhi & Samas": 2,
+     "Gujarati Spelling (Jodani)": 2
+    },
+    "weight_basis": "estimated from recent papers",
+    "part": "Part A"
+   },
+   {
+    "name": "The Constitution of India",
+    "questions": 30,
+    "topics": {
+     "Polity": 26,
+     "Rights & RTI": 2,
+     "Public Administration": 2
+    },
+    "weight_basis": "estimated from recent papers",
+    "part": "Part B",
+    "note": "Preamble, FR/DPSP/FD, Union & State executive/legislature/judiciary, Panchayati Raj, constitutional bodies, amendments"
+   },
+   {
+    "name": "Current Affairs, Science & Technology",
+    "questions": 40,
+    "topics": {
+     "Current Affairs": 12,
+     "Gujarat Current Affairs": 6,
+     "Physics": 4,
+     "Chemistry": 4,
+     "Biology": 4,
+     "Science & Technology": 4,
+     "Computer": 3,
+     "Environment & Ecology": 1,
+     "Sports": 1,
+     "Government Schemes": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "part": "Part B"
+   },
+   {
+    "name": "History, Cultural Heritage & Geography",
+    "questions": 50,
+    "topics": {
+     "Ancient History": 4,
+     "Medieval History": 4,
+     "Modern History": 7,
+     "Gujarat History": 8,
+     "Art & Culture": 4,
+     "Gujarat Culture": 8,
+     "Indian Geography": 6,
+     "Gujarat Geography": 6,
+     "World Geography": 3
+    },
+    "weight_basis": "estimated from recent papers",
+    "part": "Part B"
+   }
+  ],
+  "notes": "200 MCQ, 1 mark each, Part A 80 and Part B 120; minimum 40% required separately in each Part; -0.25 per wrong answer; option 'E' (not attempted) carries no penalty. Duration taken as 3 hours. Section marks per Part are from the GPRB 2025 scheme as reproduced by Gujarati exam portals - the GPRB PDF itself was not retrieved, so confirm. Topic weights estimated from the 2025 LRD paper and earlier GPRB papers."
+ },
+ "gsssb-cce-prelims": {
+  "exam": "GSSSB CCE (Class-3 Group A & B) Preliminary",
+  "source": "https://gsssb.gujarat.gov.in/",
+  "source_doc": "GSSSB Advt. No. 212/2023-24 Combined Competitive Examination (Group A & Group B) - Preliminary test scheme",
+  "duration_min": 60,
+  "negative": 0.25,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "languages": [
+   "Gujarati",
+   "English (English section)"
+  ],
+  "sections": [
+   {
+    "name": "Reasoning & Data Interpretation",
+    "questions": 40,
+    "topics": {
+     "Analogy": 3,
+     "Classification": 3,
+     "Series": 4,
+     "Coding-Decoding": 3,
+     "Blood Relation": 3,
+     "Direction": 3,
+     "Syllogism": 3,
+     "Venn Diagram": 2,
+     "Order & Ranking": 2,
+     "Seating Arrangement": 3,
+     "Puzzle": 3,
+     "Statement & Conclusion": 2,
+     "Calendar": 1,
+     "Clock": 1,
+     "Data Interpretation": 4
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Quantitative Aptitude",
+    "questions": 30,
+    "topics": {
+     "Number System": 2,
+     "Simplification": 2,
+     "HCF & LCM": 1,
+     "Percentage": 2,
+     "Profit & Loss": 2,
+     "Discount": 1,
+     "Ratio & Proportion": 2,
+     "Partnership": 1,
+     "Average": 2,
+     "Ages": 1,
+     "Simple Interest": 2,
+     "Compound Interest": 1,
+     "Time & Work": 2,
+     "Pipes & Cisterns": 1,
+     "Speed Time Distance": 2,
+     "Boats & Streams": 1,
+     "Mensuration": 3,
+     "Probability": 1,
+     "Algebra": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "English Language",
+    "questions": 15,
+    "topics": {
+     "Grammar": 4,
+     "Error Spotting": 2,
+     "Fill in the Blanks": 2,
+     "Synonyms": 1,
+     "Antonyms": 1,
+     "One Word Substitution": 1,
+     "Idioms & Phrases": 1,
+     "Active Passive Voice": 1,
+     "Reading Comprehension": 2
+    },
+    "weight_basis": "estimated from recent papers",
+    "languages": [
+     "English"
+    ]
+   },
+   {
+    "name": "Gujarati Language",
+    "questions": 15,
+    "topics": {
+     "Gujarati Grammar": 5,
+     "Gujarati Vocabulary": 2,
+     "Gujarati Idioms & Proverbs": 2,
+     "Gujarati Sandhi & Samas": 2,
+     "Gujarati Spelling (Jodani)": 2,
+     "Gujarati Reading Comprehension": 2
+    },
+    "weight_basis": "estimated from recent papers",
+    "languages": [
+     "Gujarati"
+    ]
+   }
+  ],
+  "notes": "Prelim is qualifying (100 MCQ / 100 marks / 60 min / -0.25), per the 2023-24 CCE scheme; final merit is from Mains (Group A 350 marks descriptive, Group B 200 MCQ). Some secondary sources describe a 150-mark prelim for the next cycle - NOT confirmed from a GSSSB PDF; re-check the next CCE advertisement. Topic weights estimated from the 2024 CCE prelim papers."
+ },
+ "gpssb-talati-cum-mantri": {
+  "exam": "GPSSB Talati cum Mantri (Panchayat Secretary) Written",
+  "source": "https://gpssb.gujarat.gov.in/",
+  "source_doc": "GPSSB Advt. No. 10/2021-22 Talati cum Mantri, scheme of written examination (last held 7 May 2023)",
+  "duration_min": 60,
+  "negative": 0.25,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "languages": [
+   "Gujarati",
+   "English (English section)"
+  ],
+  "sections": [
+   {
+    "name": "General Awareness & General Knowledge",
+    "questions": 50,
+    "topics": {
+     "Gujarat History": 4,
+     "Gujarat Geography": 4,
+     "Gujarat Culture": 5,
+     "Ancient History": 2,
+     "Medieval History": 2,
+     "Modern History": 4,
+     "Indian Geography": 3,
+     "Polity": 5,
+     "Gujarat Panchayati Raj": 4,
+     "Economy": 2,
+     "Physics": 2,
+     "Chemistry": 1,
+     "Biology": 2,
+     "Computer": 2,
+     "Current Affairs": 5,
+     "Gujarat Current Affairs": 3
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Gujarati Language & Grammar",
+    "questions": 20,
+    "topics": {
+     "Gujarati Grammar": 7,
+     "Gujarati Vocabulary": 3,
+     "Gujarati Idioms & Proverbs": 3,
+     "Gujarati Sandhi & Samas": 3,
+     "Gujarati Spelling (Jodani)": 2,
+     "Gujarati Sahitya": 2
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "English Language & Grammar",
+    "questions": 20,
+    "topics": {
+     "Grammar": 5,
+     "Error Spotting": 2,
+     "Fill in the Blanks": 3,
+     "Synonyms": 2,
+     "Antonyms": 2,
+     "One Word Substitution": 2,
+     "Idioms & Phrases": 1,
+     "Active Passive Voice": 1,
+     "Direct Indirect Speech": 1,
+     "Spelling Correction": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "languages": [
+     "English"
+    ]
+   },
+   {
+    "name": "Mathematics (Quantitative)",
+    "questions": 10,
+    "topics": {
+     "Number System": 1,
+     "Percentage": 1,
+     "Profit & Loss": 1,
+     "Ratio & Proportion": 1,
+     "Average": 1,
+     "Simple Interest": 1,
+     "Time & Work": 1,
+     "Speed Time Distance": 1,
+     "Mensuration": 1,
+     "Ages": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "Sections 50/20/20/10, 100 marks, 1 hour (GPSSB 2021-22 scheme). -0.25 negative as applied by GPSSB since 2022. Revenue Talati has since moved to GSSSB with a separate prelim+mains scheme, and Panchayat Talati cum Mantri has not been re-advertised; use this blueprint for Panchayat-cadre practice and re-check if GPSSB issues a new advertisement."
+ },
+ "up-police-constable": {
+  "exam": "UP Police Constable (Civil Police) Written",
+  "source": "https://uppbpb.gov.in/",
+  "source_doc": "UPPRPB Constable Civil Police direct recruitment notification - written exam scheme",
+  "duration_min": 120,
+  "negative": 0.5,
+  "marks_per_q": 2,
+  "total_questions": 150,
+  "total_marks": 300,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "sections": [
+   {
+    "name": "General Knowledge",
+    "questions": 38,
+    "topics": {
+     "Ancient History": 2,
+     "Medieval History": 2,
+     "Modern History": 4,
+     "Art & Culture": 2,
+     "Polity": 4,
+     "Indian Geography": 3,
+     "World Geography": 1,
+     "Economy": 3,
+     "Physics": 2,
+     "Chemistry": 1,
+     "Biology": 2,
+     "Computer": 2,
+     "Uttar Pradesh GK": 4,
+     "Current Affairs": 4,
+     "Static GK": 2
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Hindi",
+    "questions": 37,
+    "topics": {
+     "Hindi Grammar": 4,
+     "Sandhi": 3,
+     "Samas": 3,
+     "Muhavare & Lokoktiyan": 4,
+     "Paryayvachi": 3,
+     "Vilom Shabd": 3,
+     "Tatsam Tadbhav": 3,
+     "Vakya Shuddhi": 3,
+     "Ras Chhand Alankar": 3,
+     "Hindi Sahitya": 4,
+     "Upsarg Pratyay": 2,
+     "Anekarthi & Ek Shabd": 2
+    },
+    "weight_basis": "estimated from recent papers",
+    "languages": [
+     "Hindi"
+    ]
+   },
+   {
+    "name": "Numerical & Mental Ability",
+    "questions": 38,
+    "topics": {
+     "Number System": 3,
+     "Simplification": 3,
+     "HCF & LCM": 2,
+     "Percentage": 3,
+     "Profit & Loss": 3,
+     "Discount": 1,
+     "Ratio & Proportion": 3,
+     "Partnership": 1,
+     "Average": 3,
+     "Ages": 1,
+     "Simple Interest": 2,
+     "Compound Interest": 2,
+     "Time & Work": 3,
+     "Speed Time Distance": 3,
+     "Mensuration": 3,
+     "Data Interpretation": 2
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Mental Aptitude, IQ & Reasoning",
+    "questions": 37,
+    "topics": {
+     "Analogy": 4,
+     "Classification": 3,
+     "Series": 4,
+     "Coding-Decoding": 3,
+     "Blood Relation": 3,
+     "Direction": 2,
+     "Syllogism": 2,
+     "Venn Diagram": 2,
+     "Order & Ranking": 2,
+     "Seating Arrangement": 2,
+     "Mathematical Operations": 2,
+     "Statement & Conclusion": 2,
+     "Decision Making": 2,
+     "Mirror & Water Image": 1,
+     "Paper Folding & Cutting": 1,
+     "Embedded Figures": 1,
+     "Counting Figures": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "150 Q x 2 marks = 300, 2 hours, -0.5 per wrong answer (official 2024 scheme; minimum 35% per subject in some cycles). Section counts 38/37/38/37 follow the 2024 exam. Topic weights estimated from Feb & Aug 2024 papers."
+ },
+ "delhi-police-constable": {
+  "exam": "Delhi Police Constable (Executive)",
+  "source": "https://ssc.gov.in/",
+  "source_doc": "SSC Notice: Constable (Executive) Male and Female in Delhi Police Examination 2025",
+  "duration_min": 90,
+  "negative": 0.25,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "languages": [
+   "English",
+   "Hindi"
+  ],
+  "sections": [
+   {
+    "name": "General Knowledge / Current Affairs",
+    "questions": 50,
+    "topics": {
+     "Ancient History": 3,
+     "Medieval History": 3,
+     "Modern History": 5,
+     "Art & Culture": 3,
+     "Polity": 6,
+     "Indian Geography": 4,
+     "World Geography": 2,
+     "Economy": 4,
+     "Physics": 2,
+     "Chemistry": 2,
+     "Biology": 3,
+     "Static GK": 3,
+     "Sports": 2,
+     "Delhi GK": 1,
+     "Current Affairs": 7
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Reasoning",
+    "questions": 25,
+    "topics": {
+     "Analogy": 3,
+     "Classification": 3,
+     "Series": 3,
+     "Coding-Decoding": 2,
+     "Mathematical Operations": 2,
+     "Missing Number": 1,
+     "Blood Relation": 1,
+     "Direction": 1,
+     "Syllogism": 1,
+     "Venn Diagram": 1,
+     "Order & Ranking": 1,
+     "Seating Arrangement": 1,
+     "Dictionary Order": 1,
+     "Paper Folding & Cutting": 1,
+     "Mirror & Water Image": 1,
+     "Embedded Figures": 1,
+     "Counting Figures": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Numerical Ability",
+    "questions": 15,
+    "topics": {
+     "Number System": 1,
+     "Simplification": 1,
+     "HCF & LCM": 1,
+     "Percentage": 1,
+     "Profit & Loss": 2,
+     "Ratio & Proportion": 1,
+     "Average": 1,
+     "Simple Interest": 1,
+     "Compound Interest": 1,
+     "Time & Work": 1,
+     "Speed Time Distance": 1,
+     "Mensuration": 2,
+     "Data Interpretation": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Computer Fundamentals, MS Excel, MS Word, Communication, Internet, WWW and Web Browsers etc.",
+    "questions": 10,
+    "topics": {
+     "Computer": 10
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "100 Q, 1 mark each, 90 min, -0.25 (official). Topic weights estimated from 2023 and 2025 papers."
+ },
+ "bihar-police-constable": {
+  "exam": "Bihar Police Constable (CSBC) Written",
+  "source": "https://csbc.bihar.gov.in/",
+  "source_doc": "CSBC Advt. No. 01/2025 Constable recruitment - written exam scheme",
+  "duration_min": 120,
+  "negative": 0,
+  "marks_per_q": 1,
+  "total_questions": 100,
+  "total_marks": 100,
+  "languages": [
+   "Hindi",
+   "English"
+  ],
+  "sections": [
+   {
+    "name": "Hindi",
+    "questions": 12,
+    "topics": {
+     "Hindi Grammar": 3,
+     "Sandhi": 1,
+     "Samas": 1,
+     "Paryayvachi": 1,
+     "Vilom Shabd": 1,
+     "Muhavare & Lokoktiyan": 2,
+     "Hindi Sahitya": 2,
+     "Vakya Shuddhi": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "languages": [
+     "Hindi"
+    ]
+   },
+   {
+    "name": "English",
+    "questions": 8,
+    "topics": {
+     "Grammar": 2,
+     "Synonyms": 1,
+     "Antonyms": 1,
+     "Fill in the Blanks": 1,
+     "One Word Substitution": 1,
+     "Idioms & Phrases": 1,
+     "Spelling Correction": 1
+    },
+    "weight_basis": "estimated from recent papers",
+    "languages": [
+     "English"
+    ]
+   },
+   {
+    "name": "Mathematics",
+    "questions": 12,
+    "topics": {
+     "Number System": 1,
+     "Simplification": 1,
+     "Percentage": 1,
+     "Profit & Loss": 1,
+     "Ratio & Proportion": 1,
+     "Average": 1,
+     "Simple Interest": 1,
+     "Time & Work": 1,
+     "Speed Time Distance": 1,
+     "Mensuration": 1,
+     "Algebra": 1,
+     "Ages": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Science",
+    "questions": 18,
+    "topics": {
+     "Physics": 6,
+     "Chemistry": 6,
+     "Biology": 6
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "Social Science",
+    "questions": 25,
+    "topics": {
+     "Ancient History": 3,
+     "Medieval History": 3,
+     "Modern History": 5,
+     "Polity": 5,
+     "Indian Geography": 4,
+     "World Geography": 1,
+     "Economy": 3,
+     "Bihar GK": 1
+    },
+    "weight_basis": "estimated from recent papers"
+   },
+   {
+    "name": "General Knowledge & Current Affairs",
+    "questions": 25,
+    "topics": {
+     "Bihar GK": 5,
+     "Current Affairs": 8,
+     "Static GK": 3,
+     "Sports": 2,
+     "Awards & Honours": 2,
+     "Art & Culture": 2,
+     "Environment & Ecology": 1,
+     "Government Schemes": 2
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "Official: 100 MCQ, 100 marks, 2 hours, Matric (10th) standard, subjects Hindi, English, Maths, Social Science, Science, GK & Current Affairs; minimum 30% to qualify; no negative marking. The notification does NOT give per-subject question counts - section counts here are estimated from 2023-2025 papers.",
+  "section_counts_basis": "estimated from recent papers"
+ },
+ "ctet-paper-1": {
+  "exam": "CTET Paper 1 (Classes I-V)",
+  "source": "https://ctet.nic.in/",
+  "source_doc": "CBSE CTET Information Bulletin (Feb 2026 session), Scheme & Syllabus Paper I",
+  "duration_min": 150,
+  "negative": 0,
+  "marks_per_q": 1,
+  "total_questions": 150,
+  "total_marks": 150,
+  "languages": [
+   "English",
+   "Hindi",
+   "Language I/II chosen from the 20 CTET languages"
+  ],
+  "sections": [
+   {
+    "name": "Child Development and Pedagogy",
+    "questions": 30,
+    "topics": {
+     "Child Development & Pedagogy": 15,
+     "Inclusive Education": 5,
+     "Learning & Pedagogy": 10
+    },
+    "weight_basis": "official"
+   },
+   {
+    "name": "Language I",
+    "questions": 30,
+    "topics": {
+     "Language Comprehension": 15,
+     "Language Pedagogy": 15
+    },
+    "weight_basis": "official",
+    "note": "Comprehension of unseen prose/poem + language pedagogy"
+   },
+   {
+    "name": "Language II",
+    "questions": 30,
+    "topics": {
+     "Language Comprehension": 15,
+     "Language Pedagogy": 15
+    },
+    "weight_basis": "official"
+   },
+   {
+    "name": "Mathematics",
+    "questions": 30,
+    "topics": {
+     "Mathematics Content": 15,
+     "Mathematics Pedagogy": 15
+    },
+    "weight_basis": "official"
+   },
+   {
+    "name": "Environmental Studies",
+    "questions": 30,
+    "topics": {
+     "EVS Content": 15,
+     "EVS Pedagogy": 15
+    },
+    "weight_basis": "official"
+   }
+  ],
+  "notes": "5 x 30 Q, 1 mark each, 150 min, no negative marking (official). Content/pedagogy and CDP sub-splits are as printed in the CTET syllabus."
+ },
+ "ctet-paper-2-maths-science": {
+  "exam": "CTET Paper 2 (Classes VI-VIII) - Mathematics & Science",
+  "source": "https://ctet.nic.in/",
+  "source_doc": "CBSE CTET Information Bulletin (Feb 2026 session), Scheme & Syllabus Paper II",
+  "duration_min": 150,
+  "negative": 0,
+  "marks_per_q": 1,
+  "total_questions": 150,
+  "total_marks": 150,
+  "languages": [
+   "English",
+   "Hindi",
+   "Language I/II chosen from the 20 CTET languages"
+  ],
+  "sections": [
+   {
+    "name": "Child Development and Pedagogy",
+    "questions": 30,
+    "topics": {
+     "Child Development & Pedagogy": 15,
+     "Inclusive Education": 5,
+     "Learning & Pedagogy": 10
+    },
+    "weight_basis": "official"
+   },
+   {
+    "name": "Language I",
+    "questions": 30,
+    "topics": {
+     "Language Comprehension": 15,
+     "Language Pedagogy": 15
+    },
+    "weight_basis": "official"
+   },
+   {
+    "name": "Language II",
+    "questions": 30,
+    "topics": {
+     "Language Comprehension": 15,
+     "Language Pedagogy": 15
+    },
+    "weight_basis": "official"
+   },
+   {
+    "name": "Mathematics and Science",
+    "questions": 60,
+    "topics": {
+     "Mathematics Content": 20,
+     "Mathematics Pedagogy": 10,
+     "Science Content": 20,
+     "Science Pedagogy": 10
+    },
+    "weight_basis": "official"
+   }
+  ],
+  "notes": "For Maths & Science teachers. Official splits: Maths 30 (20 content + 10 pedagogy), Science 30 (20 + 10). No negative marking."
+ },
+ "ctet-paper-2-social-studies": {
+  "exam": "CTET Paper 2 (Classes VI-VIII) - Social Studies/Social Science",
+  "source": "https://ctet.nic.in/",
+  "source_doc": "CBSE CTET Information Bulletin (Feb 2026 session), Scheme & Syllabus Paper II",
+  "duration_min": 150,
+  "negative": 0,
+  "marks_per_q": 1,
+  "total_questions": 150,
+  "total_marks": 150,
+  "languages": [
+   "English",
+   "Hindi",
+   "Language I/II chosen from the 20 CTET languages"
+  ],
+  "sections": [
+   {
+    "name": "Child Development and Pedagogy",
+    "questions": 30,
+    "topics": {
+     "Child Development & Pedagogy": 15,
+     "Inclusive Education": 5,
+     "Learning & Pedagogy": 10
+    },
+    "weight_basis": "official"
+   },
+   {
+    "name": "Language I",
+    "questions": 30,
+    "topics": {
+     "Language Comprehension": 15,
+     "Language Pedagogy": 15
+    },
+    "weight_basis": "official"
+   },
+   {
+    "name": "Language II",
+    "questions": 30,
+    "topics": {
+     "Language Comprehension": 15,
+     "Language Pedagogy": 15
+    },
+    "weight_basis": "official"
+   },
+   {
+    "name": "Social Studies/Social Science",
+    "questions": 60,
+    "topics": {
+     "History Content": 14,
+     "Geography Content": 13,
+     "Social & Political Life Content": 13,
+     "Social Studies Pedagogy": 20
+    },
+    "weight_basis": "estimated from recent papers",
+    "note": "Official: 40 content + 20 pedagogy; the 40 content split across History/Geography/SPL is estimated."
+   }
+  ],
+  "notes": "For Social Studies teachers. No negative marking. Content-vs-pedagogy (40/20) is official; sub-split of content estimated."
+ },
+ "upsc-cse-prelims-gs-1": {
+  "exam": "UPSC CSE Prelims GS Paper I",
+  "source": "https://upsc.gov.in/examinations/active-exams",
+  "source_doc": "UPSC Civil Services (Preliminary) Examination 2026 Notice, Appendix I (Scheme & Syllabus)",
+  "duration_min": 120,
+  "negative": 0.6667,
+  "marks_per_q": 2,
+  "total_questions": 100,
+  "total_marks": 200,
+  "languages": [
+   "English",
+   "Hindi"
+  ],
+  "sections": [
+   {
+    "name": "General Studies",
+    "questions": 100,
+    "topics": {
+     "Polity": 15,
+     "Economy": 14,
+     "Environment & Ecology": 15,
+     "Ancient History": 3,
+     "Medieval History": 3,
+     "Modern History": 10,
+     "Art & Culture": 5,
+     "Indian Geography": 8,
+     "World Geography": 4,
+     "Science & Technology": 10,
+     "International Relations": 5,
+     "Government Schemes": 3,
+     "Current Affairs": 5
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "100 Q, 200 marks, 2 hours, 1/3 of the question's marks (0.66) deducted per wrong answer (official). GS-II (CSAT) is qualifying at 33% and is not covered here. Topic weights estimated from 2022-2025 papers."
+ },
+ "state-psc-prelims-generic": {
+  "exam": "State PSC Prelims - General Studies (generic)",
+  "source": "n/a (generic template)",
+  "duration_min": 120,
+  "negative": 0.3333,
+  "marks_per_q": 1,
+  "total_questions": 150,
+  "total_marks": 150,
+  "languages": [
+   "English",
+   "State official language"
+  ],
+  "sections": [
+   {
+    "name": "General Studies",
+    "questions": 150,
+    "topics": {
+     "Ancient History": 6,
+     "Medieval History": 6,
+     "Modern History": 12,
+     "Art & Culture": 6,
+     "State GK": 20,
+     "Polity": 15,
+     "Economy": 12,
+     "Indian Geography": 10,
+     "World Geography": 4,
+     "Environment & Ecology": 8,
+     "Science & Technology": 10,
+     "Physics": 2,
+     "Chemistry": 2,
+     "Biology": 3,
+     "Current Affairs": 14,
+     "Government Schemes": 4,
+     "International Relations": 2,
+     "Data Interpretation": 4,
+     "Logical Deduction": 4,
+     "Statement & Conclusion": 2,
+     "Static GK": 4
+    },
+    "weight_basis": "estimated from recent papers"
+   }
+  ],
+  "notes": "Generic template - no single official source. Approximates GPSC/UPPSC/BPSC/RPSC/MPPSC GS papers (150 Q common; GPSC uses 200 marks over 2 papers, UPPSC 150 Q/200 marks with CSAT, BPSC 150 Q with 1/3 negative). Adjust per commission. 'State GK' should be expanded to that state's history/geography/culture."
+ }
+}
