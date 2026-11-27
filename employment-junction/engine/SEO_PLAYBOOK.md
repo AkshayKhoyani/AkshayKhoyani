@@ -78,3 +78,4 @@ eligibility (one of: high school, associate degree, bachelor degree, professiona
   a "Related Updates" box on every content page (same organisation: job ↔ admit card ↔ answer key ↔ result) and a Hindi summary on every job page.
 - Footer menu (id 162, location `footer`) links the six sections, the qualification hubs, the main state hubs and the legal pages.
 - Legal pages for AdSense: /privacy-policy/, /disclaimer/, /terms-and-conditions/.
+- Rank Math sitemap file cache is disabled by the mu-plugin `wp-content/mu-plugins/ej-sitemap-fresh.php` (added 27 Nov 2026) – the cache never refreshed for REST-created posts. Keep it.
