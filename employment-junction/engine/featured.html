@@ -27,6 +27,8 @@ h1 em{font-style:normal;background:linear-gradient(90deg,#ffd166,#ff9933);-webki
 .chip.hot b{color:#fecaca}
 .foot{position:absolute;left:72px;bottom:44px;display:flex;align-items:center;gap:14px;font:800 26px Inter;color:#cbd5e1}
 .foot i{width:12px;height:12px;border-radius:50%;background:#22c55e;box-shadow:0 0 12px #22c55e}
+.mock{position:absolute;right:0;top:56px;background:linear-gradient(90deg,#ff4d6d,#7c3aed);color:#fff;font:900 26px Inter;padding:14px 26px 14px 34px;border-radius:999px 0 0 999px;box-shadow:0 10px 30px rgba(124,58,237,.5);letter-spacing:.5px}
+.mock i{font-style:normal;background:#ffd166;color:#071a3d;border-radius:999px;padding:2px 10px;margin-left:8px;font-size:20px}
 .bar{position:absolute;bottom:0;left:0;right:0;height:14px;background:linear-gradient(90deg,#ff9933 0 33.3%,#fff 33.3% 66.6%,#138808 66.6%)}
 </style></head>
 <body>
@@ -36,6 +38,7 @@ h1 em{font-style:normal;background:linear-gradient(90deg,#ffd166,#ff9933);-webki
 <div class="top"><div class="logo">EJ</div><div class="brand"><b>EMPLOYMENT</b><span>JUNCTION</span></div></div>
 <div class="main"><div class="tag" id="tag"></div><div class="org" id="org"></div><h1 id="h"></h1><div class="chips" id="chips"></div></div>
 <div class="foot"><i></i>employmentjunction.in · Sarkari Naukri ki har khabar</div>
+<div class="mock" id="mock" style="display:none">🎯 MOCK TEST<i>FREE</i></div>
 <div class="bar"></div>
 <script>
 const D = __DATA__;
@@ -48,5 +51,6 @@ document.getElementById('org').textContent = D.org;
 document.getElementById('h').innerHTML = D.headline;
 document.getElementById('chips').innerHTML = D.chips.slice(0, 4).map(([k, v, hot]) => `<div class="chip${hot ? ' hot' : ''}"><small>${k}</small><b>${v}</b></div>`).join('');
 document.getElementById('char').src = D.character_src;
+if (D.mock) document.getElementById('mock').style.display = 'block';
 </script>
 </body></html>

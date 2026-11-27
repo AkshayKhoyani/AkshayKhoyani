@@ -67,6 +67,20 @@ def fmt(d):
     return d.strftime("%d %b %Y") if d else "See notification"
 
 
+sys.path.insert(0, __file__.rsplit("/", 1)[0] + "/mock")
+try:
+    import highlight as MOCK  # mock-test highlight blocks
+except Exception as _e:  # MOCK_INDEX.json missing etc.
+    MOCK = None
+    print("mock highlight disabled:", _e)
+
+
+def prepend_block(content, name, block):
+    start, end = f"<!-- ej-{name} -->", f"<!-- /ej-{name} -->"
+    content = re.sub(re.escape(start) + r".*?" + re.escape(end) + r"\n?", "", content, flags=re.S)
+    return (start + block + end + "\n" + content) if block else content
+
+
 def replace_block(content, name, block):
     start, end = f"<!-- ej-{name} -->", f"<!-- /ej-{name} -->"
     content = re.sub(re.escape(start) + r".*?" + re.escape(end), "", content, flags=re.S).rstrip()
@@ -286,11 +300,26 @@ def main():
         if link:
             hub_links.append((name, link))
 
-    # 3 + 4. related box and Hindi summary on content pages
+    # mock test hub page
+    if MOCK:
+        upsert_page("free-mock-test", "Free Mock Test Series 2026 – Online Test for Govt Exams", MOCK.hub_html(),
+                    "Free Mock Test 2026 – Online Test Series for Govt Exams", "Free online mock tests for Police, Gujarat LRD, SSC, DSSSB, Railway, Bank, Teaching & PSC exams with timer, score and solutions.", pages_by_slug)
+
+    # old-style job posts (post type "posts") also get the mock-test banner
+    for p in fetch("posts"):
+        p["_type"] = "posts"
+        every.append(p)
+    TYPES.setdefault("posts", "Job")
+
+    # 3 + 4 + 5. related box, Hindi summary and mock-test banners on content pages
     changed = 0
     for p in every:
         c = p["content"]["raw"]
-        new = replace_block(c, "related", related_block(p, every))
+        new = c if p["_type"] == "posts" else replace_block(c, "related", related_block(p, every))
+        if MOCK and p["_type"] in ("ej_job", "ej_admit_card", "ej_answer_key", "ej_syllabus", "ej_schedule", "posts"):
+            txt = title_of(p) + " " + (p.get("meta") or {}).get("ej_org_name", "")
+            new = prepend_block(new, "mock", MOCK.block(txt))
+            new = replace_block(new, "mock2", MOCK.block(txt, compact=True))
         if p["_type"] == "ej_job":
             new = replace_block(new, "hindi", hindi_block(p))
         if new != c:

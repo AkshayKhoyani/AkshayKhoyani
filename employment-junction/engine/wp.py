@@ -127,6 +127,8 @@ def featured_image(s, path):
         src = os.path.join(CHAR_DIR, "office.webp")
     data["character_src"] = "file://" + src
     data.setdefault("theme", THEME.get(ch, "gold"))
+    # job / admit card / syllabus pages link to a free mock test -> show the ribbon
+    data.setdefault("mock", s.get("type", "ej_job") in ("ej_job", "ej_admit_card", "ej_syllabus", "ej_answer_key"))
     tpl = open(os.path.join(HERE, "featured.html")).read()
     page = tpl.replace("__DATA__", json.dumps(data))
     tmp = path + ".html"
