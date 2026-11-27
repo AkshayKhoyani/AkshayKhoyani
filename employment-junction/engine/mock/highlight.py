@@ -22,14 +22,14 @@ RULES = [
 LABEL = {"gujarat-police": "Gujarat Police LRD", "police": "Police Constable & SI", "railway": "Railway (RRB/RRC)", "bank": "Bank Clerk / PO",
          "teaching": "Teaching / TET", "psc": "UPSC / State PSC", "engineering": "Engineering & PSU", "ssc": "SSC / DSSSB / Group C"}
 
-CSS = (".ejm{position:relative;margin:22px 0;border-radius:22px;padding:3px;background:linear-gradient(110deg,#ffb703,#ff4d6d,#7c3aed,#22c55e,#ffb703);background-size:300% 300%;animation:ejmg 6s ease infinite;box-shadow:0 12px 34px rgba(124,58,237,.25)}"
+CSS = (".ejm{contain:inline-size;max-width:100%;min-width:0;position:relative;margin:22px 0;border-radius:22px;padding:3px;background:linear-gradient(110deg,#ffb703,#ff4d6d,#7c3aed,#22c55e,#ffb703);background-size:300% 300%;animation:ejmg 6s ease infinite;box-shadow:0 12px 34px rgba(124,58,237,.25)}"
        "@keyframes ejmg{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}"
        ".ejm-in{position:relative;overflow:hidden;border-radius:19px;background:linear-gradient(150deg,#0b2a66,#071a3d);color:#fff;padding:20px 20px 18px}"
        ".ejm-in:after{content:'';position:absolute;top:0;left:-60%;width:40%;height:100%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.18),transparent);animation:ejms 3.2s infinite}"
        "@keyframes ejms{0%{left:-60%}60%,100%{left:130%}}"
        ".ejm-tag{display:inline-block;background:#ff4d6d;color:#fff;font-weight:900;font-size:12px;letter-spacing:1px;padding:5px 12px;border-radius:999px;animation:ejmp 1.4s infinite}"
        "@keyframes ejmp{0%,100%{box-shadow:0 0 0 0 rgba(255,77,109,.7)}50%{box-shadow:0 0 0 9px rgba(255,77,109,0)}}"
-       ".ejm h3{color:#fff!important;margin:10px 0 4px!important;font-size:22px;line-height:1.3}.ejm h3 b{color:#ffd166}"
+       ".ejm h3{overflow-wrap:anywhere;color:#fff!important;margin:10px 0 4px!important;font-size:22px;line-height:1.3}.ejm h3 b{color:#ffd166}"
        ".ejm p{color:#cbd5e1;margin:0 0 14px!important;font-size:15px}"
        ".ejm-go{display:inline-flex;align-items:center;gap:8px;background:linear-gradient(90deg,#ffb703,#ff9933);color:#071a3d!important;font-weight:900;font-size:17px;padding:13px 22px;border-radius:14px;text-decoration:none!important;box-shadow:0 8px 20px rgba(255,153,51,.4);animation:ejmb 2s infinite}"
        "@keyframes ejmb{0%,100%{transform:translateY(0)}50%{transform:translateY(-3px)}}"
@@ -71,7 +71,7 @@ def hub_html():
     cards = []
     groups = [("Exam-wise Full Mock Tests", [EXAMS[k][0] for k in EXAMS]),
               ("Subject-wise Mock Tests", [s for s in LINKS if s not in {v[0] for v in EXAMS.values()}])]
-    css = (".ejh-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin:16px 0 30px}"
+    css = (".ejh-grid{contain:inline-size;max-width:100%;display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:16px;margin:16px 0 30px}"
            ".ejh-card{display:block;border-radius:18px;padding:18px;background:linear-gradient(150deg,#0b2a66,#071a3d);color:#fff!important;text-decoration:none!important;box-shadow:0 10px 26px rgba(7,26,61,.2);transition:transform .2s;position:relative;overflow:hidden}"
            ".ejh-card:hover{transform:translateY(-4px)}.ejh-card b{display:block;font-size:17px;line-height:1.35;margin:8px 0 10px;color:#fff}"
            ".ejh-card small{color:#9fb3d1}.ejh-card span.t{background:#ffb703;color:#071a3d;font-weight:900;font-size:11px;padding:3px 9px;border-radius:999px}"
