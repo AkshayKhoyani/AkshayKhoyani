@@ -319,7 +319,7 @@ def main():
             continue
         c = p["content"]["raw"]
         new = c if p["_type"] == "posts" else replace_block(c, "related", related_block(p, every))
-        if MOCK and p["_type"] in ("ej_job", "ej_admit_card", "ej_answer_key", "ej_syllabus", "ej_schedule", "posts"):
+        if MOCK and p["_type"] in ("ej_job", "ej_admit_card", "ej_answer_key", "ej_result", "ej_syllabus", "ej_schedule", "posts"):
             txt = title_of(p) + " " + (p.get("meta") or {}).get("ej_org_name", "")
             new = prepend_block(new, "mock", MOCK.block(txt))
             new = replace_block(new, "mock2", MOCK.block(txt, compact=True))
