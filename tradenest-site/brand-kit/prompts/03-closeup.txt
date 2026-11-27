@@ -1,0 +1,11 @@
+HOW TO USE: Open ChatGPT (image) or Gemini. Attach 2 images: assets/tradenest-logo.png and assets/style-reference-pouch.jpg. Replace every {...} with your product values (from prompt 00), paste, and ask for a SQUARE (1:1) image.
+-----------------------------------------------------------------
+BRAND RULES (follow exactly):
+- Use the EXACT "Tradenest Naturals" logo from the attached logo image (green two-leaf icon above "Tradenest" in dark green and "Naturals" in lighter green) with the small tagline "GOODNESS FROM NATURE" under it. Keep logo + tagline in English, spelled exactly.
+- ALL other visible text must be in English, spelled exactly as written in quotes below. Crisp, large, legible. No extra words, no gibberish, no other languages.
+- STYLE: premium Indian FMCG advertising photography like the attached style reference: warm golden natural light, rustic wooden table, brass/wooden bowls, real ingredient props, shallow depth of field, rich but natural colours, elegant serif headline, round outline icon badges. Square 1:1 image, everything inside the frame.
+- Do NOT show certification logos, the words "organic", "100%", "certified", health or medical claims, prices, or weights other than those given.
+- The style reference image is ONLY for style and pouch design. Do NOT copy any of its words (no "No Preservatives", "No Artificial Colours", "Real Goodness", "Rich in...", "Made with...", "Net Weight", "Serves", no Indian veg symbol).
+- Never put small or tiny lettering on background items. Any text must be large, sharp and correctly spelled.
+
+SCENE: Macro close-up of a hand-carved wooden bowl filled with {POWDER_LOOK}, a wooden scoop with powder, {RAW_PROPS} around it. Small Tradenest Naturals logo badge in the top-left corner. Bottom-left elegant label "{NAME}" and under it "{TEXTURE}".

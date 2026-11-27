@@ -1,0 +1,11 @@
+HOW TO USE: Open ChatGPT (image) or Gemini. Attach 2 images: assets/tradenest-logo.png and assets/style-reference-pouch.jpg. Replace every {...} with your product values (from prompt 00), paste, and ask for a SQUARE (1:1) image.
+-----------------------------------------------------------------
+BRAND RULES (follow exactly):
+- Use the EXACT "Tradenest Naturals" logo from the attached logo image (green two-leaf icon above "Tradenest" in dark green and "Naturals" in lighter green) with the small tagline "GOODNESS FROM NATURE" under it. Keep logo + tagline in English, spelled exactly.
+- ALL other visible text must be in English, spelled exactly as written in quotes below. Crisp, large, legible. No extra words, no gibberish, no other languages.
+- STYLE: premium Indian FMCG advertising photography like the attached style reference: warm golden natural light, rustic wooden table, brass/wooden bowls, real ingredient props, shallow depth of field, rich but natural colours, elegant serif headline, round outline icon badges. Square 1:1 image, everything inside the frame.
+- Do NOT show certification logos, the words "organic", "100%", "certified", health or medical claims, prices, or weights other than those given.
+- The style reference image is ONLY for style and pouch design. Do NOT copy any of its words (no "No Preservatives", "No Artificial Colours", "Real Goodness", "Rich in...", "Made with...", "Net Weight", "Serves", no Indian veg symbol).
+- Never put small or tiny lettering on background items. Any text must be large, sharp and correctly spelled.
+
+SCENE: Premium B2B bulk supply scene in a clean warehouse-style setting with warm light: a large 25 kg cream woven bulk bag printed with the Tradenest Naturals logo and "{NAME}", next to two branded pouches (a matte cream stand-up pouch with a {ACCENT} vertical accent band on the right, the Tradenest Naturals logo at the top, headline "{NAME}" in large elegant serif, sub-line "{SUB}", and a round badge "{BADGE}") and two small jars with plain cream labels showing only the green two-leaf icon and NO words, a scoop of {POWDER_LOOK} in front. Headline at top: "Bulk & Private Label Supply". Three round icon badges: "MOQ Just 5 Kg", "Export Packing", "Documentation Support".

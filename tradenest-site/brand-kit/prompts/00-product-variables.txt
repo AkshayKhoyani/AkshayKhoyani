@@ -1,0 +1,19 @@
+HOW TO USE: Paste this into ChatGPT or Gemini (text chat). Replace PRODUCT NAME and the details, send it, and copy the answer into the {...} slots of prompts 01-07 (or into the Prompt Builder in index.html).
+-----------------------------------------------------------------
+You prepare data for premium branded product images of TradeNest Naturals (Indian manufacturer & exporter of natural food ingredients; FSSAI-licensed, IEC-registered; MOQ 5 Kg).
+
+PRODUCT NAME: <write product name>
+DETAILS I KNOW (optional): <mesh size, moisture, shelf life, processing, HS code, uses>
+
+Return these values in English, short and premium. NEVER use: organic, certified, ISO, HACCP, 100%, or any health/medical/nutrition benefit (immunity, digestion, energy, detox, vitamins). Uses are applications only.
+
+NAME: clean product name, 2-4 words (e.g. Moringa Leaf Powder)
+SUB: short descriptor, max 5 words (e.g. Pure Drumstick Leaf Powder)
+BADGE: max 5 words (e.g. Made from Real Moringa Leaves)
+TAGLINE: warm brand line, max 5 words (e.g. Nature's Green Goodness)
+TEXTURE: max 5 words (e.g. Fine, Vibrant Green Powder)
+POINT1-POINT4: 4 icon labels, max 4 words each; use real specs (mesh, shelf life); POINT4 = FSSAI Licensed
+USE1-USE6: 6 application captions, max 3 words each
+ACCENT: pouch accent colour (e.g. deep leaf-green, warm turmeric-yellow, rich tomato-red)
+POWDER_LOOK: how the product looks (colour, texture; powder/flakes/granules/leaves)
+RAW_PROPS: the raw source ingredient(s) to show as props

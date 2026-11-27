@@ -1,0 +1,14 @@
+BEST WAY: Use the "Spec Card Maker" inside index.html — type the values and click Download. The text is 100% accurate there (AI often misspells numbers).
+
+ALTERNATIVE (AI version) — attach assets/tradenest-logo.png and paste:
+-----------------------------------------------------------------
+Create a clean, premium square (1:1) technical specification card on a warm cream background. Top-left: the exact Tradenest Naturals logo from the attached image. Top-right: a dark green (#0F382C) rounded badge "FSSAI Licensed" with small text "IEC Registered Exporter". Small elegant script line "Technical Specifications", then a large dark-green serif headline "{NAME}" and under it "{SUB}". A small round photo of {POWDER_LOOK} at the top-right. Below, a white rounded table with alternating cream rows, left column labels in brown, right column values in bold dark green:
+Processing: {PROCESSING}
+Mesh Size: {MESH}
+Moisture: {MOISTURE}
+Shelf Life: {SHELF_LIFE}
+HS Code: {HS_CODE}
+MOQ: 5 Kg
+Origin: India
+Storage: Cool, dry place away from sunlight and moisture
+Under the table three outlined pill buttons: "MOQ Just 5 Kg", "Private Label", "Samples Available". Bottom full-width dark green strip with white text: "WhatsApp: +91 92651 28276 • export@tradenestnaturals.com • tradenestnaturals.com". All text spelled exactly as given, no other text, no certification logos.

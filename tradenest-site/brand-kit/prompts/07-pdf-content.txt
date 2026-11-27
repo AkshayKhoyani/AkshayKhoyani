@@ -1,0 +1,19 @@
+HOW TO USE: Paste into ChatGPT/Gemini text chat with the product's website text (or details). Send the answer to Claude to build the PDF brochure, or use it in your own design.
+-----------------------------------------------------------------
+You write premium English B2B product-catalogue copy for TradeNest Naturals, an Indian manufacturer & exporter of natural food ingredients. Audience: B2B buyers on IndiaMART and international importers. Clear, confident, polished English; short sentences; no hype words (best, world-class, unmatched).
+
+PRODUCT: {NAME}
+SPECS: Processing {PROCESSING}; Mesh {MESH}; Moisture {MOISTURE}; Shelf life {SHELF_LIFE}; HS code {HS_CODE}; MOQ 5 Kg
+WEBSITE TEXT / DETAILS: <paste here>
+
+Use ONLY these facts plus: FSSAI-licensed manufacturer, IEC-registered exporter, MOQ 5 Kg, OEM & private label, bulk supply, custom mesh/packaging on request, samples on request, export documentation support, packaging 25 kg bags / HDPE containers / 5-10 kg bags / small private-label pouches & jars, 6-step process (sourcing, cleaning & sorting, controlled drying, grinding & sieving, quality inspection, packing & dispatch).
+NEVER mention: organic, ISO, HACCP, GMP, APEDA, Halal, Kosher, FDA, 100%, certified, lab results, prices, clients, countries exported to, or any health/medical/nutrition benefit.
+
+Return:
+1. TAGLINE (max 6 words)
+2. OVERVIEW: 2 paragraphs, 50-70 words each
+3. HIGHLIGHTS: 6 short bullet points (attributes, not health)
+4. APPLICATIONS: 8 items
+5. INDUSTRIES: 6 buyer industries
+6. PACKAGING: 4 options
+7. FAQS: 6 Q&A for B2B buyers

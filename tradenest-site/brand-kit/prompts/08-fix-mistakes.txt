@@ -1,0 +1,8 @@
+If the image has a spelling mistake or extra text, reply in the SAME chat:
+-----------------------------------------------------------------
+Keep this exact image and composition, change ONLY the text: the text "<wrong text>" must read exactly "<correct text>". Remove any other text that is not in my prompt. Keep the Tradenest Naturals logo exactly as in the attached logo.
+
+Common fixes:
+- Remove "No Preservatives" / "100% Natural" / veg symbol if they appear.
+- Small text on background jars garbled? Ask: "Make the small jars have plain cream labels with only the green leaf icon and no words."
+- Wrong colour? Ask: "Change the pouch accent band to {ACCENT}, keep everything else same."
