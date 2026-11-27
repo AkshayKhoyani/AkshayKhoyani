@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.2.0
+ * Version: 1.3.0
  *
  * @package Tradenest
  */
@@ -189,8 +189,46 @@ add_action(
 		?>
 <script id="tn-bridge-footer-address">
 (function(){var f=document.querySelector('footer[role="contentinfo"] .lg\\:col-span-4');if(!f||f.querySelector('.tn-addr')){return;}
-var p=document.createElement('p');p.className='tn-addr';p.style.cssText='font-size:12px;line-height:1.6;color:#d1fae5cc;margin-top:8px';
+var p=document.createElement('p');p.className='tn-addr';p.style.cssText='font-size:12px;line-height:1.6;color:#ecfdf5;margin-top:8px';
 p.textContent=<?php echo wp_json_encode( '📍 ' . TN_BRIDGE_ADDRESS ); ?>;var t=f.querySelector('p');if(t){t.insertAdjacentElement('afterend',p);}else{f.appendChild(p);}}());
+</script>
+		<?php
+	},
+	99
+);
+
+// 10) Homepage hero: the saved image/name overrides (onion) did not match the linked featured product,
+//     so the card showed one product's photo with another's text. Blank them so the card uses the
+//     featured product's own photo, title, link and text.
+add_filter(
+	'acf/load_value',
+	function ( $value, $post_id, $field ) {
+		if ( isset( $field['name'] ) && in_array( $field['name'], array( 'tn_hero_image', 'tn_hero_product_name' ), true ) ) {
+			return '';
+		}
+		return $value;
+	},
+	99,
+	3
+);
+
+// 11) Accessibility (Lighthouse): readable contrast for small grey/footer text, names for icon-only links and unlabeled fields.
+add_action(
+	'wp_head',
+	function () {
+		echo '<style id="tn-bridge-a11y">.bg-white .text-gray-400,.bg-\[\#FAF9F5\] .text-gray-400,main .text-gray-400{color:#6b7280}'
+			. 'footer .text-emerald-100\/80,footer [class*="text-emerald-100"]{color:#ecfdf5}</style>' . "\n";
+	},
+	99
+);
+add_action(
+	'wp_footer',
+	function () {
+		?>
+<script id="tn-bridge-a11y-js">
+(function(){document.querySelectorAll('a[href*="wa.me/"]').forEach(function(a){if(!a.textContent.trim()&&!a.getAttribute('aria-label')){a.setAttribute('aria-label','Chat with TradeNest Naturals on WhatsApp');}});
+document.querySelectorAll('textarea:not([aria-label]),input:not([type=hidden]):not([aria-label])').forEach(function(el){if(el.id&&document.querySelector('label[for="'+el.id+'"]')){return;}if(el.closest('label')){return;}
+var t=el.getAttribute('placeholder')||(el.name==='message'?'Your message':el.id==='tn-fresh'?'Fresh weight (kg)':el.name);if(t){el.setAttribute('aria-label',t);}});}());
 </script>
 		<?php
 	},
