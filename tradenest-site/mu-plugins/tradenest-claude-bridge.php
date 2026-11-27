@@ -166,7 +166,7 @@ f.innerHTML='';f.appendChild(i);}());
 );
 
 // 9) Business address (Contact page, inquiry areas, footer). Edit TN_BRIDGE_ADDRESS to change it everywhere.
-define( 'TN_BRIDGE_ADDRESS', 'Ashirwad Embro Park-1, Plot No. 1, 4th Floor, Saniya Hemad, Surat, Gujarat, India' );
+define( 'TN_BRIDGE_ADDRESS', 'Ashirwad Embro Park-1, Plot No. 1, 4th Floor, Saniya Hemad, Surat, Gujarat 395006, India' );
 add_filter(
 	'acf/load_value/name=tn_opt_address',
 	function () {
