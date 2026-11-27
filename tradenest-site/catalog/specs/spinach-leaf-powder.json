@@ -1,0 +1,38 @@
+{
+  "slug": "spinach-leaf-powder",
+  "en_name": "Spinach Leaf Powder",
+  "name": "Spinach Leaf Powder",
+  "sub": "Dehydrated Spinach Leaf Powder",
+  "badge": "Made from Dehydrated Spinach Leaves",
+  "tagline": "Crafted for culinary applications",
+  "texture": "Fine green powder",
+  "points": [
+    "80 Mesh Standard",
+    "Up to 12 Months",
+    "Dehydrated Processing",
+    "FSSAI Licensed"
+  ],
+  "uses": [
+    "Soups and broths",
+    "Sauces and gravies",
+    "Seasoning blends",
+    "Bakery mixes",
+    "Ready-to-cook foods",
+    "Foodservice menus"
+  ],
+  "accent": "deep spinach-green",
+  "powder_look": "Fine, smooth green powder with a soft leafy matte appearance",
+  "raw_props": "Fresh spinach leaves, dried spinach flakes, leaf fragments",
+  "specs": {
+    "Processing": "Dehydrated",
+    "Mesh Size": "80 Mesh",
+    "Moisture": "≤ 7%",
+    "Shelf Life": "12 Months",
+    "HS Code": "0712.90",
+    "MOQ": "5 Kg",
+    "Origin": "India",
+    "Storage": "Cool, dry place away from sunlight and moisture"
+  },
+  "website": "https://tradenestnaturals.com/products/bulk-spinach-powder-dehydrated-spinach-leaf-powder/",
+  "wp_id": 241
+}

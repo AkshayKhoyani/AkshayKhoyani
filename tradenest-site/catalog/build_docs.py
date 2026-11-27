@@ -72,19 +72,19 @@ pdf_html = f"""<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{B
 h2{{font-family:'Playfair Display',serif;color:var(--g);font-size:25px;margin:2mm 0 3mm}}
 p{{font-size:13.5px;line-height:1.6;margin-bottom:2.5mm}}
 .ft{{position:absolute;bottom:0;left:0;right:0;background:var(--g);color:#e9f3ec;font-size:11.5px;text-align:center;padding:3.2mm}}
-.cover-img{{width:100%;height:178mm;object-fit:cover;display:block}}
-.cover-band{{position:absolute;top:150mm;left:0;right:0;height:28mm;background:linear-gradient(transparent,var(--cream))}}
-.cover-body{{padding:2mm 15mm 0;text-align:center}}
-.cover-body img{{height:26mm}}
+.cover-img{{width:150mm;height:150mm;object-fit:contain;display:block;margin:12mm auto 0;border-radius:6mm;box-shadow:0 3mm 10mm #0f382c26}}
+.cover-band{{display:none}}
+.cover-body{{padding:5mm 15mm 0;text-align:center}}
+.cover-body img{{height:20mm}}
 .cover-body h1{{font-family:'Playfair Display',serif;color:var(--g);font-size:46px;line-height:1.1;margin-top:2mm}}
-.grid2{{display:grid;grid-template-columns:1fr 1fr;gap:7mm}}
+.grid2{{display:grid;grid-template-columns:1fr 1fr;gap:7mm;align-items:start}}
 .card{{background:#fff;border-radius:5mm;padding:5mm 6mm;box-shadow:0 2mm 6mm #0f382c14}}
 ul{{padding-left:5mm}} li{{font-size:13.5px;line-height:1.6}}
 li::marker{{color:var(--gold)}}
 table.spec{{width:100%;border-collapse:collapse;font-size:13.5px;background:#fff;border-radius:4mm;overflow:hidden}}
 table.spec td{{padding:2mm 4mm;border-bottom:1px solid #eee2cc}} table.spec td:first-child{{color:#6b5d45;font-weight:600;width:48%}}
 table.spec td:last-child{{color:var(--g);font-weight:700}}
-.ph{{width:100%;border-radius:5mm;display:block;object-fit:cover}}
+.ph{{width:100%;aspect-ratio:1/1;height:auto !important;border-radius:5mm;display:block;object-fit:contain;box-shadow:0 2mm 6mm #0f382c1f}}
 .steps{{display:grid;grid-template-columns:repeat(6,1fr);gap:2.5mm}}
 .step{{background:#fff;border-radius:4mm;padding:3mm;text-align:center;border-top:3px solid var(--gold)}}
 .step b{{display:block;font-size:18px;color:var(--gold)}} .step span{{font-weight:700;color:var(--g);font-size:12px;line-height:1.3;display:block}}
@@ -112,7 +112,7 @@ table.spec td:last-child{{color:var(--g);font-weight:700}}
  <div class="hdr"><img src="{LOGO}"><span>PRODUCT OVERVIEW</span></div>
  <h2>About {E(spec['name'])}</h2>
  {''.join(f'<p>{E(x)}</p>' for x in content['overview'])}
- <div class="grid2" style="margin-top:4mm">
+ <div class="grid2" style="margin-top:4mm;grid-template-columns:62mm 1fr">
   <div><img class="ph" style="height:64mm" src="{IMG['close']}"></div>
   <div class="card"><h2 style="font-size:20px;margin-top:0">Key Highlights</h2><ul>{li(content['highlights'])}</ul></div>
  </div>
@@ -122,11 +122,11 @@ table.spec td:last-child{{color:var(--g);font-weight:700}}
 
 <div class="page"><div class="pad">
  <div class="hdr"><img src="{LOGO}"><span>APPLICATIONS &amp; PACKAGING</span></div>
- <div class="grid2">
+ <div class="grid2" style="grid-template-columns:1fr 72mm">
   <div class="card"><h2 style="font-size:20px;margin-top:0">Key Applications</h2><ul>{li(content['applications'])}</ul></div>
   <div><img class="ph" style="height:70mm" src="{IMG['uses']}"></div>
  </div>
- <div class="grid2" style="margin-top:6mm">
+ <div class="grid2" style="margin-top:6mm;grid-template-columns:72mm 1fr">
   <div><img class="ph" style="height:70mm" src="{IMG['bulk']}"></div>
   <div>
    <div class="card"><h2 style="font-size:20px;margin-top:0">Industries We Serve</h2><ul>{li(content['industries'])}</ul></div>

@@ -19,7 +19,10 @@ BRAND_RULES = (
     "STYLE: premium Indian FMCG advertising photography like the reference: warm golden natural light, rustic wooden table, "
     "brass/wooden bowls, real ingredient props, shallow depth of field, rich but natural colours, elegant serif headline, "
     "a handwritten-script English accent line, round outline icon badges. Square 1:1 composition, everything inside the frame. "
-    "Do not show any certification logos, 'organic', '100%', health or medical claims, prices or weights other than those given."
+    "Do not show any certification logos, 'organic', '100%', health or medical claims, prices or weights other than those given. "
+    "The first reference image is ONLY a style and pouch-design reference: do NOT copy any of its words (no 'No Preservatives', "
+    "'No Artificial Colours', 'Real Goodness', 'Rich in ...', 'Made with ...', 'Net Weight', 'Serves', the Indian veg symbol). "
+    "Use only the exact text lines given in this prompt; do not invent extra claims or nutrient names."
 )
 
 def edit(name, prompt):
