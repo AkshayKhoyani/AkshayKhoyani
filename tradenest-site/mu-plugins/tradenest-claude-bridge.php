@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.0.0
+ * Version: 1.1.0
  *
  * @package Tradenest
  */
@@ -127,4 +127,40 @@ add_action(
 		}
 	},
 	20
+);
+
+// 7) Brand logo (media ID 751 = TradeNest Naturals logo) in the header via the theme's custom-logo support.
+define( 'TN_BRIDGE_LOGO_ID', 751 );
+add_filter(
+	'theme_mod_custom_logo',
+	function ( $value ) {
+		return $value ? $value : TN_BRIDGE_LOGO_ID;
+	}
+);
+
+// 8) Logo sizing (header) + footer logo on a cream badge (footer is dark green).
+add_action(
+	'wp_head',
+	function () {
+		echo '<style id="tn-bridge-logo">.custom-logo-link{display:inline-flex;align-items:center}.custom-logo{height:56px;width:auto;max-width:200px;display:block}@media(max-width:640px){.custom-logo{height:46px}}'
+			. 'footer .tn-footer-logo{height:64px;width:auto;background:#FBF6EC;border-radius:12px;padding:6px 12px;display:block}</style>' . "\n";
+	},
+	99
+);
+add_action(
+	'wp_footer',
+	function () {
+		$src = wp_get_attachment_image_url( TN_BRIDGE_LOGO_ID, 'full' );
+		if ( ! $src ) {
+			return;
+		}
+		?>
+<script id="tn-bridge-footer-logo">
+(function(){var f=document.querySelector('footer[role="contentinfo"] .lg\\:col-span-4 > .flex.items-center');
+if(!f){return;}var i=document.createElement('img');i.src=<?php echo wp_json_encode( esc_url( $src ) ); ?>;i.alt='TradeNest Naturals';i.className='tn-footer-logo';i.loading='lazy';
+f.innerHTML='';f.appendChild(i);}());
+</script>
+		<?php
+	},
+	99
 );
