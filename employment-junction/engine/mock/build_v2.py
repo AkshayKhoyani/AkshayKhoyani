@@ -46,7 +46,7 @@ POOL = {}  # topic -> list of questions {q,o,a,e,src?}
 
 
 def add(topic, q):
-    if len(q.get("o", [])) == 4 and isinstance(q.get("a"), int) and 0 <= q["a"] < 4 and q.get("q"):
+    if len(set(map(str, q.get("o", [])))) == 4 and isinstance(q.get("a"), int) and 0 <= q["a"] < 4 and q.get("q"):
         POOL.setdefault(topic, []).append({k: q[k] for k in ("q", "o", "a", "e") if k in q} | ({"src": q["src"]} if q.get("src") else {}))
 
 
@@ -64,7 +64,7 @@ for f in sorted(glob.glob(os.path.join(DATA, "pyq", "*.json"))):
         p = json.load(open(f))
     except ValueError:
         continue
-    qs = [q for q in p.get("questions", []) if len(q.get("o", [])) == 4 and isinstance(q.get("a"), int)]
+    qs = [q for q in p.get("questions", []) if len(set(map(str, q.get("o", [])))) == 4 and isinstance(q.get("a"), int)]
     if len(qs) < 20:
         continue
     p["questions"], p["file"] = qs, os.path.basename(f)[:-5]
