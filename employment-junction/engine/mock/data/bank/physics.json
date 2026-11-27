@@ -1,0 +1,392 @@
+[
+ {
+  "q": "What is the SI unit of force?",
+  "o": [
+   "Joule",
+   "Newton",
+   "Watt",
+   "Pascal"
+  ],
+  "a": 1,
+  "e": "Force is measured in newtons (N); 1 N = 1 kg·m/s².",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "What is the SI unit of power?",
+  "o": [
+   "Joule",
+   "Newton",
+   "Watt",
+   "Volt"
+  ],
+  "a": 2,
+  "e": "Power is the rate of doing work; 1 watt = 1 joule per second.",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "The speed of light in vacuum is about:",
+  "o": [
+   "3 × 10⁶ m/s",
+   "3 × 10⁵ m/s",
+   "3 × 10⁸ m/s",
+   "3 × 10¹⁰ m/s"
+  ],
+  "a": 2,
+  "e": "Light travels about 3 lakh km (3 × 10⁸ m) every second in vacuum.",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "What is the SI unit of electrical resistance?",
+  "o": [
+   "Ampere",
+   "Volt",
+   "Coulomb",
+   "Ohm"
+  ],
+  "a": 3,
+  "e": "Resistance is measured in ohms (Ω).",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "Sound cannot travel through:",
+  "o": [
+   "Vacuum",
+   "Water",
+   "Steel",
+   "Air"
+  ],
+  "a": 0,
+  "e": "Sound needs a medium to travel, so it cannot pass through a vacuum.",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "Which instrument is used to measure atmospheric pressure?",
+  "o": [
+   "Hygrometer",
+   "Thermometer",
+   "Barometer",
+   "Anemometer"
+  ],
+  "a": 2,
+  "e": "A barometer measures air pressure; a hygrometer measures humidity.",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "A rainbow is formed mainly due to which property of light?",
+  "o": [
+   "Diffraction",
+   "Polarisation",
+   "Dispersion",
+   "Photoelectric effect"
+  ],
+  "a": 2,
+  "e": "Raindrops split sunlight into its seven colours by dispersion (with refraction and internal reflection).",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "Which lens is used to correct short-sightedness (myopia)?",
+  "o": [
+   "Convex lens",
+   "Concave lens",
+   "Cylindrical lens",
+   "Bifocal lens"
+  ],
+  "a": 1,
+  "e": "A concave (diverging) lens moves the image back onto the retina for a myopic eye.",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "The law of inertia is also known as Newton's:",
+  "o": [
+   "Second law of motion",
+   "First law of motion",
+   "Third law of motion",
+   "Law of gravitation"
+  ],
+  "a": 1,
+  "e": "Newton's first law says a body stays at rest or in uniform motion unless a force acts on it.",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "What is the SI unit of frequency?",
+  "o": [
+   "Decibel",
+   "Metre",
+   "Hertz",
+   "Second"
+  ],
+  "a": 2,
+  "e": "Frequency is measured in hertz (Hz), meaning cycles per second.",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "Which device converts mechanical energy into electrical energy?",
+  "o": [
+   "Electric motor",
+   "Transformer",
+   "Electric generator",
+   "Rectifier"
+  ],
+  "a": 2,
+  "e": "A generator (dynamo) produces electricity from motion; a motor does the reverse.",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "Ohm's law is correctly written as:",
+  "o": [
+   "V = I/R",
+   "V = IR",
+   "I = VR",
+   "R = VI"
+  ],
+  "a": 1,
+  "e": "Ohm's law: voltage equals current multiplied by resistance.",
+  "topic": "Physics",
+  "level": "easy"
+ },
+ {
+  "q": "One horsepower is approximately equal to:",
+  "o": [
+   "746 watts",
+   "500 watts",
+   "1000 watts",
+   "100 watts"
+  ],
+  "a": 0,
+  "e": "1 horsepower (hp) is about 746 W.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "Ultrasonic sound waves have a frequency higher than:",
+  "o": [
+   "20,000 Hz",
+   "2,000 Hz",
+   "200 Hz",
+   "20 Hz"
+  ],
+  "a": 0,
+  "e": "Humans hear about 20 Hz to 20,000 Hz; above 20 kHz is ultrasound.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "The sky appears blue because of:",
+  "o": [
+   "Reflection of light",
+   "Refraction of light",
+   "Total internal reflection",
+   "Scattering of light"
+  ],
+  "a": 3,
+  "e": "Air molecules scatter short-wavelength blue light much more than red light.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "The escape velocity from the Earth's surface is about:",
+  "o": [
+   "7.9 km/s",
+   "11.2 km/s",
+   "3.0 km/s",
+   "25.0 km/s"
+  ],
+  "a": 1,
+  "e": "An object needs about 11.2 km/s to escape Earth's gravity; 7.9 km/s is orbital speed near the surface.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "Absolute zero (0 K) is equal to:",
+  "o": [
+   "0 °C",
+   "-100 °C",
+   "-273.15 °C",
+   "-373.15 °C"
+  ],
+  "a": 2,
+  "e": "0 kelvin is the lowest possible temperature, equal to -273.15 °C.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "At which temperature do the Celsius and Fahrenheit scales show the same reading?",
+  "o": [
+   "-40",
+   "-32",
+   "0",
+   "100"
+  ],
+  "a": 0,
+  "e": "Solving F = 9C/5 + 32 with F = C gives -40.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "Which mirror is used as a rear-view mirror in vehicles?",
+  "o": [
+   "Concave mirror",
+   "Plane mirror",
+   "Cylindrical mirror",
+   "Convex mirror"
+  ],
+  "a": 3,
+  "e": "A convex mirror gives an erect, small image and a wider field of view.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "A transformer works on the principle of:",
+  "o": [
+   "Self induction",
+   "Electrostatic induction",
+   "Thermionic emission",
+   "Mutual induction"
+  ],
+  "a": 3,
+  "e": "A changing current in one coil induces a voltage in the other coil by mutual induction.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "Which colour of visible light has the longest wavelength?",
+  "o": [
+   "Red",
+   "Violet",
+   "Green",
+   "Blue"
+  ],
+  "a": 0,
+  "e": "Red has the longest wavelength and violet the shortest in the visible spectrum.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "The electron was discovered by:",
+  "o": [
+   "Ernest Rutherford",
+   "J. J. Thomson",
+   "James Chadwick",
+   "Niels Bohr"
+  ],
+  "a": 1,
+  "e": "J. J. Thomson discovered the electron in 1897; Chadwick discovered the neutron.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "Heavy water is used in nuclear reactors as a:",
+  "o": [
+   "Fuel",
+   "Control rod material",
+   "Shield against radiation",
+   "Moderator"
+  ],
+  "a": 3,
+  "e": "Heavy water slows down fast neutrons so they can continue the chain reaction.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "Optical fibres work on the principle of:",
+  "o": [
+   "Total internal reflection",
+   "Dispersion",
+   "Diffraction",
+   "Polarisation"
+  ],
+  "a": 0,
+  "e": "Light keeps reflecting inside the fibre core by total internal reflection.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "If the velocity of a body is doubled, its kinetic energy becomes:",
+  "o": [
+   "Two times",
+   "Half",
+   "Eight times",
+   "Four times"
+  ],
+  "a": 3,
+  "e": "KE = ½mv², so doubling v makes KE 2² = 4 times.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "Two resistors of 4 Ω each are connected in parallel. Their equivalent resistance is:",
+  "o": [
+   "2 Ω",
+   "8 Ω",
+   "4 Ω",
+   "1 Ω"
+  ],
+  "a": 0,
+  "e": "For equal resistors in parallel, R = 4 × 4 / (4 + 4) = 2 Ω.",
+  "topic": "Physics",
+  "level": "medium"
+ },
+ {
+  "q": "The dimensional formula of work (energy) is:",
+  "o": [
+   "[MLT⁻²]",
+   "[ML²T⁻²]",
+   "[ML²T⁻³]",
+   "[ML⁻¹T⁻²]"
+  ],
+  "a": 1,
+  "e": "Work = force × distance = [MLT⁻²][L] = [ML²T⁻²]; [MLT⁻²] is force.",
+  "topic": "Physics",
+  "level": "hard"
+ },
+ {
+  "q": "What is the weight of a body at the centre of the Earth?",
+  "o": [
+   "Zero",
+   "Maximum",
+   "Same as on the surface",
+   "Double that on the surface"
+  ],
+  "a": 0,
+  "e": "Acceleration due to gravity becomes zero at the Earth's centre, so weight is zero (mass stays the same).",
+  "topic": "Physics",
+  "level": "hard"
+ },
+ {
+  "q": "Nuclear fission of uranium was discovered in 1938 by:",
+  "o": [
+   "Marie and Pierre Curie",
+   "Enrico Fermi and Leo Szilard",
+   "Ernest Rutherford and Frederick Soddy",
+   "Otto Hahn and Fritz Strassmann"
+  ],
+  "a": 3,
+  "e": "Otto Hahn and Fritz Strassmann discovered fission when uranium was bombarded with neutrons.",
+  "topic": "Physics",
+  "level": "hard"
+ },
+ {
+  "q": "In uniform circular motion, which quantity remains constant?",
+  "o": [
+   "Velocity",
+   "Acceleration",
+   "Speed",
+   "Displacement"
+  ],
+  "a": 2,
+  "e": "The speed stays the same, but velocity and acceleration keep changing direction.",
+  "topic": "Physics",
+  "level": "hard"
+ }
+]

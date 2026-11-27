@@ -1,0 +1,392 @@
+[
+ {
+  "q": "What is the chemical formula of common salt?",
+  "o": [
+   "KCl",
+   "NaOH",
+   "CaCl₂",
+   "NaCl"
+  ],
+  "a": 3,
+  "e": "Common salt is sodium chloride, NaCl.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "What is the pH of pure water at 25 °C?",
+  "o": [
+   "0",
+   "5",
+   "7",
+   "14"
+  ],
+  "a": 2,
+  "e": "Pure water is neutral with a pH of 7.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "Which gas is commonly used in fire extinguishers?",
+  "o": [
+   "Carbon dioxide",
+   "Oxygen",
+   "Hydrogen",
+   "Nitrogen dioxide"
+  ],
+  "a": 0,
+  "e": "CO₂ is heavier than air and cuts off oxygen supply to the fire.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "Nitrous oxide (N₂O) is commonly known as:",
+  "o": [
+   "Tear gas",
+   "Marsh gas",
+   "Laughing gas",
+   "Producer gas"
+  ],
+  "a": 2,
+  "e": "N₂O is called laughing gas and is used as a mild anaesthetic.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the hardest natural substance?",
+  "o": [
+   "Diamond",
+   "Graphite",
+   "Quartz",
+   "Iron"
+  ],
+  "a": 0,
+  "e": "Diamond, a form of carbon, is the hardest natural substance.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "Which metal is liquid at room temperature?",
+  "o": [
+   "Sodium",
+   "Aluminium",
+   "Mercury",
+   "Lead"
+  ],
+  "a": 2,
+  "e": "Mercury is the only common metal that is liquid at room temperature.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "Vinegar is a dilute solution of:",
+  "o": [
+   "Citric acid",
+   "Hydrochloric acid",
+   "Lactic acid",
+   "Acetic acid"
+  ],
+  "a": 3,
+  "e": "Vinegar contains about 5-8% acetic (ethanoic) acid.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "The chemical name of baking soda is:",
+  "o": [
+   "Sodium carbonate",
+   "Calcium carbonate",
+   "Sodium bicarbonate",
+   "Sodium chloride"
+  ],
+  "a": 2,
+  "e": "Baking soda is sodium hydrogen carbonate (NaHCO₃).",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "Which gas is the most abundant in the Earth's atmosphere?",
+  "o": [
+   "Nitrogen",
+   "Oxygen",
+   "Carbon dioxide",
+   "Argon"
+  ],
+  "a": 0,
+  "e": "Nitrogen makes up about 78% of the atmosphere.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the lightest element?",
+  "o": [
+   "Helium",
+   "Lithium",
+   "Hydrogen",
+   "Oxygen"
+  ],
+  "a": 2,
+  "e": "Hydrogen, with atomic number 1, is the lightest element.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "What is the atomic number of carbon?",
+  "o": [
+   "6",
+   "8",
+   "12",
+   "14"
+  ],
+  "a": 0,
+  "e": "Carbon has 6 protons; 12 is its common mass number.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "Rusting of iron needs:",
+  "o": [
+   "Only oxygen",
+   "Only moisture",
+   "Only carbon dioxide",
+   "Both oxygen and moisture"
+  ],
+  "a": 3,
+  "e": "Iron rusts when exposed to both air (oxygen) and water.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "Which acid is mainly present in lemon?",
+  "o": [
+   "Citric acid",
+   "Acetic acid",
+   "Tartaric acid",
+   "Oxalic acid"
+  ],
+  "a": 0,
+  "e": "Lemons and other citrus fruits contain citric acid.",
+  "topic": "Chemistry",
+  "level": "easy"
+ },
+ {
+  "q": "The chemical formula of Plaster of Paris is:",
+  "o": [
+   "CaSO₄·2H₂O",
+   "CaCO₃",
+   "Ca(OH)₂",
+   "CaSO₄·½H₂O"
+  ],
+  "a": 3,
+  "e": "Plaster of Paris is calcium sulphate hemihydrate; CaSO₄·2H₂O is gypsum.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Bleaching powder is chemically known as:",
+  "o": [
+   "Calcium carbonate",
+   "Calcium oxychloride",
+   "Sodium hypochlorite",
+   "Calcium sulphate"
+  ],
+  "a": 1,
+  "e": "Bleaching powder (CaOCl₂) is calcium oxychloride.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "The chemical formula of washing soda is:",
+  "o": [
+   "Na₂CO₃·10H₂O",
+   "NaHCO₃",
+   "NaOH",
+   "Na₂SO₄"
+  ],
+  "a": 0,
+  "e": "Washing soda is sodium carbonate decahydrate.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Galvanisation is the process of coating iron with:",
+  "o": [
+   "Tin",
+   "Zinc",
+   "Copper",
+   "Chromium"
+  ],
+  "a": 1,
+  "e": "A zinc coating protects iron from rusting.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Which is the most abundant metal in the Earth's crust?",
+  "o": [
+   "Iron",
+   "Calcium",
+   "Aluminium",
+   "Sodium"
+  ],
+  "a": 2,
+  "e": "Aluminium is the most abundant metal in the crust; oxygen is the most abundant element.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Brass is an alloy of:",
+  "o": [
+   "Copper and tin",
+   "Iron and carbon",
+   "Lead and tin",
+   "Copper and zinc"
+  ],
+  "a": 3,
+  "e": "Brass is copper plus zinc; bronze is copper plus tin.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Bauxite is the chief ore of:",
+  "o": [
+   "Iron",
+   "Aluminium",
+   "Copper",
+   "Zinc"
+  ],
+  "a": 1,
+  "e": "Aluminium is extracted from bauxite.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Which noble gas is used in glowing advertisement signs?",
+  "o": [
+   "Argon",
+   "Neon",
+   "Xenon",
+   "Radon"
+  ],
+  "a": 1,
+  "e": "Neon gives a bright orange-red glow in discharge tubes.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Quicklime is the common name of:",
+  "o": [
+   "Calcium hydroxide",
+   "Calcium oxide",
+   "Calcium carbonate",
+   "Calcium chloride"
+  ],
+  "a": 1,
+  "e": "Quicklime is CaO; slaked lime is Ca(OH)₂.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Which radioactive isotope is commonly used in cancer treatment?",
+  "o": [
+   "Cobalt-60",
+   "Carbon-14",
+   "Uranium-235",
+   "Iodine-127"
+  ],
+  "a": 0,
+  "e": "Cobalt-60 gives gamma rays used to destroy cancer cells.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "The value of Avogadro's number is approximately:",
+  "o": [
+   "6.022 × 10²³",
+   "6.022 × 10²²",
+   "3.011 × 10²³",
+   "1.602 × 10¹⁹"
+  ],
+  "a": 0,
+  "e": "One mole of any substance contains about 6.022 × 10²³ particles.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Which gas leaked in the Bhopal gas tragedy of 1984?",
+  "o": [
+   "Chlorine",
+   "Phosgene",
+   "Hydrogen sulphide",
+   "Methyl isocyanate"
+  ],
+  "a": 3,
+  "e": "Methyl isocyanate (MIC) leaked from the Union Carbide plant in Bhopal.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Heavy water is chemically written as:",
+  "o": [
+   "H₂O₂",
+   "H₂O",
+   "D₂O",
+   "H₂S"
+  ],
+  "a": 2,
+  "e": "Heavy water contains deuterium (D), an isotope of hydrogen.",
+  "topic": "Chemistry",
+  "level": "medium"
+ },
+ {
+  "q": "Which element has the highest electronegativity?",
+  "o": [
+   "Oxygen",
+   "Fluorine",
+   "Chlorine",
+   "Nitrogen"
+  ],
+  "a": 1,
+  "e": "Fluorine is the most electronegative element (about 4.0 on the Pauling scale).",
+  "topic": "Chemistry",
+  "level": "hard"
+ },
+ {
+  "q": "Which catalyst is used in the Haber process for making ammonia?",
+  "o": [
+   "Platinum",
+   "Iron",
+   "Nickel",
+   "Vanadium pentoxide"
+  ],
+  "a": 1,
+  "e": "Finely divided iron is the catalyst; V₂O₅ is used in the contact process for sulphuric acid.",
+  "topic": "Chemistry",
+  "level": "hard"
+ },
+ {
+  "q": "Which of the following is NOT an allotrope of carbon?",
+  "o": [
+   "Diamond",
+   "Graphite",
+   "Fullerene",
+   "Carborundum"
+  ],
+  "a": 3,
+  "e": "Carborundum is silicon carbide (SiC), a compound, not a form of pure carbon.",
+  "topic": "Chemistry",
+  "level": "hard"
+ },
+ {
+  "q": "Aqua regia is a mixture of concentrated nitric acid and hydrochloric acid in the ratio:",
+  "o": [
+   "1 : 3",
+   "3 : 1",
+   "1 : 1",
+   "2 : 1"
+  ],
+  "a": 0,
+  "e": "One part HNO₃ and three parts HCl make aqua regia, which can dissolve gold.",
+  "topic": "Chemistry",
+  "level": "hard"
+ }
+]
