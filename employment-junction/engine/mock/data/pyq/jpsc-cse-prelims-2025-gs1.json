@@ -1,0 +1,1224 @@
+{
+ "exam": "JPSC Combined Civil Services Preliminary Examination 2025 (Advt. No. 01/2026)",
+ "paper": "General Studies Paper-I - Question Booklet Series A (held 19.04.2026)",
+ "year": 2026,
+ "board": "Jharkhand Public Service Commission (JPSC)",
+ "state": "Jharkhand",
+ "lang": "en",
+ "source_paper": "https://jpsc.gov.in/previous%20year%20qp/Civil_Service_PT_2025/GS%20Paper-I.pdf",
+ "source_key": "https://jpsc.gov.in/data/Press_Release_and_Final_Model_Answer_Key_01_26_dated_26_05_2026.pdf",
+ "duration_min": 120,
+ "marks_per_q": 2,
+ "negative": 0,
+ "questions": [
+  {
+   "q": "The Prayaga Prashasti (Allahabad Pillar Inscription) was composed by",
+   "o": [
+    "Kalidasa in Sanskrit",
+    "Banabhatta in Sanskrit",
+    "Harishena in Sanskrit",
+    "Ravikriti in Sanskrit"
+   ],
+   "a": 2,
+   "e": "Harishena, court poet of Samudragupta, composed the Prayaga Prashasti in Sanskrit.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Statement (I): The Amaranayaka system was a major political innovation of the Vijayanagara empire.\nStatement (II): The Amaranayakas were military commanders who were given territories to govern, from which they collected taxes to maintain a stipulated contingent of horses and elephants for Raja (King).",
+   "o": [
+    "Both Statement (I) and Statement (II) are correct and Statement (II) is the correct explanation for Statement (I).",
+    "Both Statement (I) and Statement (II) are correct and Statement (II) is not the correct explanation for Statement (I).",
+    "Statement (I) is correct but Statement (II) is incorrect.",
+    "Statement (I) is incorrect but Statement (II) is correct."
+   ],
+   "a": 0,
+   "e": "Amaranayakas were Vijayanagara military chiefs given territories (amaram) to collect revenue and maintain troops, which explains the system's innovation.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "Statement (I): In the Mughal Agrarian system, the Zamindars were considered the owners of all the lands in their domain.\nStatement (II): The Zamindars were a class of landed intermediaries who enjoyed certain hereditary rights in land and collected revenue on behalf of the state, but the actual cultivation was done by peasants (Ryots).",
+   "o": [
+    "Both Statement (I) and Statement (II) are correct and Statement (II) is the correct explanation for Statement (I).",
+    "Both Statement (I) and Statement (II) are correct and Statement (II) is not the correct explanation for Statement (I).",
+    "Statement (I) is correct but Statement (II) is incorrect.",
+    "Statement (I) is incorrect but Statement (II) is correct."
+   ],
+   "a": 3,
+   "e": "Mughal zamindars were hereditary revenue intermediaries, not owners of all land; so Statement I is wrong and II is right.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "The ‘Radcliffe line’ demarcated the boundary between",
+   "o": [
+    "India and Pakistan",
+    "India and China",
+    "India and Burma",
+    "India and Afghanistan"
+   ],
+   "a": 0,
+   "e": "The Radcliffe Line (1947) drew the India-Pakistan boundary in Punjab and Bengal.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Who was the last Mughal emperor at the time of the Revolt of 1857?",
+   "o": [
+    "Aurangzeb",
+    "Shah Alam II",
+    "Bahadur Shah Zafar",
+    "Akbar II"
+   ],
+   "a": 2,
+   "e": "Bahadur Shah Zafar was the Mughal emperor in 1857 and was exiled to Rangoon.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Who was the chairman of the drafting Committee of the constituent Assembly?",
+   "o": [
+    "Jawahar Lal Nehru",
+    "Dr. Rajendra Prasad",
+    "Dr. B.R. Ambedkar",
+    "Sardar Vallabhbhai Patel"
+   ],
+   "a": 2,
+   "e": "Dr. B.R. Ambedkar chaired the Drafting Committee of the Constituent Assembly.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "With reference to the Permanent Settlement Act (1793), consider the following statements:\nI) The land revenue to be paid to the company was fixed permanently\nII) Zamindars were recognised as the owners of land, subject to payment of revenue\nIII) The settlement ensured security of tenure and protection from eviction to peasants\nIV) The system was introduced during the Governor-Generalship of Lord Cornwallis\nWhich of the statements given above are correct?",
+   "o": [
+    "I, II and III only",
+    "I, II and IV only",
+    "I and III only",
+    "II and IV only"
+   ],
+   "a": 1,
+   "e": "Cornwallis's Permanent Settlement fixed revenue permanently and made zamindars owners; it gave no tenure security to peasants.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Match the following Acts with their associated features or consequences:\nA) Rowlatt Act (1919)  1) Provincial Autonomy\nB) Government of India Act, 1919  2) Detention without trial\nC) Vernacular Press Act (1878)  3) Introduction of Dyarchy in provinces\nD) Government of India Act, 1935  4) Curb on Indian Language Newspapers",
+   "o": [
+    "A-(2), B-(3), C-(4), D-(1)",
+    "A-(3), B-(2), C-(4), D-(1)",
+    "A-(2), B-(4), C-(3), D-(1)",
+    "A-(4), B-(3), C-(2), D-(1)"
+   ],
+   "a": 0,
+   "e": "Rowlatt Act - detention without trial; GoI Act 1919 - dyarchy; Vernacular Press Act - curbs on Indian-language papers; GoI Act 1935 - provincial autonomy.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "With reference to the agrarian society in Mughal india, the term 'Khud-Khasht' and ‘Pahi-Kasht' refers to",
+   "o": [
+    "Two types of land revenue systems",
+    "Two types of Peasants (Residents Vs Non-residents/migrants)",
+    "Tools used for irrigation",
+    "Officers responsible for tax collection"
+   ],
+   "a": 1,
+   "e": "Khud-kasht were resident cultivators and pahi-kasht were non-resident/migrant peasants.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "Match the Medieval terms with their meanings:\nA) Khutba  1) A sermon read in the name of the ruler during Friday prayers\nB) Sijda  2) Land Revenue assignment in the Delhi Sultanate\nC) Iqta  3) Prostration before the monarch (introduced by Balban)\nD) Tankas  4) Silver coins introduced by Iltutmish",
+   "o": [
+    "A-(1), B-(3), C-(4), D-(2)",
+    "A-(1), B-(3), C-(2), D-(4)",
+    "A-(3), B-(1), C-(2), D-(4)",
+    "A-(4), B-(2), C-(3), D-(1)"
+   ],
+   "a": 1,
+   "e": "Khutba - Friday sermon in the ruler's name; Sijda - prostration (Balban); Iqta - revenue assignment; Tanka - silver coin of Iltutmish.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "With references to the religious history of medieval India, the Nathpanthis, Siddhas and Yogis were associated with:",
+   "o": [
+    "Advocating renunciation and meditation to realise the Formless reality (Nirguna Bhakti)",
+    "Revival of Vedic Ritualism",
+    "Temple worship of Vishnu",
+    "Spread of Sufism in Bengal"
+   ],
+   "a": 0,
+   "e": "Nathpanthis, Siddhas and Yogis advocated renunciation and meditation on the formless (nirguna) reality.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "Match the Harappan sites with their specific features:\nA) Chanhudaro  1) Evidence of ploughed field\nB) Kalibangan  2) Specialized center for craft production (bead making)\nC) Dholavira  3) Terracotta models of the plough\nD) Banawali  4) Large water reservoirs",
+   "o": [
+    "A-(2), B-(1), C-(4), D-(3)",
+    "A-(2), B-(4), C-(1), D-(3)",
+    "A-(1), B-(2), C-(3), D-(4)",
+    "A-(3), B-(1), C-(4), D-(2)"
+   ],
+   "a": 0,
+   "e": "Chanhudaro - bead making; Kalibangan - ploughed field; Dholavira - water reservoirs; Banawali - terracotta plough.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Match the Ancient texts with their Subjects/Authors:\nA) Ashtadhyayi  1) Earliest Sanskrit grammar by Panini\nB) Charaka Samhita  2) Encyclopedia of Indian Medicine (Ayurveda)\nC) Mudrarakshasa  3) Play by Vishakhadatta describing Mauryan Politics\nD) Silappadikaram  4) Tamil Epic about Kovalan and Kannagi",
+   "o": [
+    "A-(2), B-(1), C-(4), D-(3)",
+    "A-(1), B-(2), C-(3), D-(4)",
+    "A-(4), B-(2), C-(3), D-(1)",
+    "A-(3), B-(2), C-(4), D-(1)"
+   ],
+   "a": 1,
+   "e": "Ashtadhyayi (Panini grammar), Charaka Samhita (Ayurveda), Mudrarakshasa (Vishakhadatta), Silappadikaram (Kovalan-Kannagi).",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "The term ‘Sarthavaha' mentioned in ancient inscriptions and texts refers to",
+   "o": [
+    "The chief judicial officer of the village",
+    "The leader of the merchant caravan",
+    "The Officer in charge of royal elephants",
+    "The Priest performing the Ashvamedha sacrifice"
+   ],
+   "a": 1,
+   "e": "A Sarthavaha was the leader of a merchant caravan.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Who among the following was the first to decipher the Brahmi and Kharosthi scripts used in the inscriptions of Ashoka",
+   "o": [
+    "Alexander Cunningham",
+    "James Prinsep",
+    "John Marshall",
+    "R.D. Banerji"
+   ],
+   "a": 1,
+   "e": "James Prinsep deciphered Brahmi (1837) and Kharosthi scripts of the Ashokan edicts.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Public Administration is the study of",
+   "o": [
+    "Maintenance of law and order",
+    "Control of Trade and Commerce",
+    "Public policy Implementation",
+    "Public Administration dynamics of the states"
+   ],
+   "a": 2,
+   "e": "Public administration is chiefly concerned with implementing public policy.",
+   "section": "General Studies",
+   "topic": "Public Administration"
+  },
+  {
+   "q": "Which of the following governance models is most aligned with the principles of participatory democracy and decentralization.",
+   "o": [
+    "Authoritarian Governance",
+    "Totalitarian Governance",
+    "Pluralistic Governance",
+    "Oligarchic Governance"
+   ],
+   "a": 2,
+   "e": "Pluralistic governance spreads power among many groups, fitting participatory democracy and decentralisation.",
+   "section": "General Studies",
+   "topic": "Governance"
+  },
+  {
+   "q": "Under which case did the supreme court of India include the right to education with in the right to life?",
+   "o": [
+    "Uttar Pradesh Vs Abdul Samad, (1962)",
+    "Frank Anthony Public School employees federation Vs Union of India (1986)",
+    "Mohini Jain Vs Karnataka state (1992)",
+    "Ramanujam Vs Tamil Nadu State (2022)"
+   ],
+   "a": 2,
+   "e": "In Mohini Jain v. State of Karnataka (1992) the Supreme Court read the right to education into Article 21.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which of the following statement are correct?",
+   "o": [
+    "Local government derived authority from the state government and are subordinates to it",
+    "Local government are dependent on the state government",
+    "Local Government derived their authority from the constitution",
+    "Local government perform function in the interest of the nation"
+   ],
+   "a": 2,
+   "e": "After the 73rd and 74th Amendments, local governments draw constitutional authority (Parts IX and IX-A).",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Match List I (Features) with List II (Related to) and select the correct answer:\ni) Democratic decentralisation  a) 73rd Amendment\nii) Nagar panchayats  b) 74th Amendment\niii) Panchayati Raj elections  c) B.R. Mehta Committee\niv) Two Tier system  d) Ashok Mehta Committee",
+   "o": [
+    "i-(c), ii-(a), iii-(b), iv-(d)",
+    "i-(d), ii-(a), iii-(b), iv-(c)",
+    "i-(d), ii-(b), iii-(a), iv-(c)",
+    "i-(c), ii-(b), iii-(a), iv-(d)"
+   ],
+   "a": 3,
+   "e": "Democratic decentralisation - Balwant Rai Mehta; Nagar panchayats - 74th Amendment; PRI elections - 73rd Amendment; two-tier system - Ashok Mehta.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which part of the Indian constitution declares India to be a welfare state?\nI) Part III\nII) Part IV\nIII) Part IX\nIV) Part VI\nChoose the correct answer from the options given below.",
+   "o": [
+    "Only I",
+    "Only II",
+    "Only I and II",
+    "Only I, II and IV"
+   ],
+   "a": 1,
+   "e": "The Directive Principles in Part IV aim at a welfare state.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Can the Indian federal system become unitary?\nI) During the external emergency\nII) If supported by the majority in the Lok Sabha\nIII) On proposal supported by a two-third majority in both houses of the parliament\nIV) During the presidential election\nChoose the correct answer from the options given below.",
+   "o": [
+    "Only I",
+    "Only II and III",
+    "Only II, III and IV",
+    "All of these"
+   ],
+   "a": 0,
+   "e": "During a national emergency on grounds of external aggression the federal system works in a unitary manner.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Consider the following statements:\nI) The Aravalli ranges prevent the eastward expansion of the desert\nII) The Aravalli range is a major watershed/water divide\nIII) The Aravalli mountains have the greatest impact on the climate of Rajasthan\nIV) The Aravalli ranges extend from Delhi to Ahmedabad\nChoose the most appropriate answer from the options given below.",
+   "o": [
+    "I, II and IV",
+    "II, III and IV",
+    "I, III and IV",
+    "All of above"
+   ],
+   "a": 3,
+   "e": "All four statements on the Aravallis (desert barrier, water divide, climatic influence, Delhi-Gujarat extent) are accepted.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following is not correctly match?",
+   "o": [
+    "Aravalli - Residual Mountain",
+    "Himalaya- Young fold Mountain",
+    "Nilgiri - Volcanic Mountain",
+    "Satpura - Block Mountain"
+   ],
+   "a": 2,
+   "e": "The Nilgiris are a block (horst) mountain, not volcanic.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following states is also known as the “Land of Red river and Blue hills\"?",
+   "o": [
+    "Arunachal Pradesh",
+    "Meghalaya",
+    "Assam",
+    "Sikkim"
+   ],
+   "a": 2,
+   "e": "Assam, with the Brahmaputra and surrounding hills, is called the land of red river and blue hills.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "The total length of India's coastline, including islands, is kilometres.",
+   "o": [
+    "7516.6",
+    "7566.1",
+    "7566.6",
+    "11098.81"
+   ],
+   "a": 3,
+   "e": "India's revised coastline length (including islands) is 11,098.81 km.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following islands is of volcanic origin?",
+   "o": [
+    "Lakshadweep",
+    "Majuli",
+    "Barren Island",
+    "Diu"
+   ],
+   "a": 2,
+   "e": "Barren Island in the Andaman Sea is India's only active volcano.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which one of the following is the correct order of distribution of scheduled tribes of India from South to North",
+   "o": [
+    "Warli, Bhil, Kota and Gaddi",
+    "Gaddi, Warli, Kota and Bhil",
+    "Kota, Gaddi, Bhil and Warli",
+    "Kota, Warli, Bhil and Gaddi"
+   ],
+   "a": 3,
+   "e": "South to north: Kota (Nilgiris), Warli (Maharashtra), Bhil (western-central India), Gaddi (Himachal).",
+   "section": "General Studies",
+   "topic": "Indian Society"
+  },
+  {
+   "q": "Consider the following statements about population distribution in India:\nI) Physiography strongly influences population distribution and density\nII) Northern plains have high density due to fertile soils and water availability\nIII) Peninsular Plateau uniformity shows low density",
+   "o": [
+    "I and II only",
+    "II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "a": 0,
+   "e": "Physiography and fertile northern plains explain density patterns; the plateau is not uniformly low-density.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which one of the following industries is not a ‘Weight loss industry‘?",
+   "o": [
+    "Cotton Textile Industry",
+    "Paper Industry",
+    "Cement Industry",
+    "Iron and steel Industry"
+   ],
+   "a": 0,
+   "e": "Cotton textiles do not lose much weight in processing, unlike paper, cement or iron and steel.",
+   "section": "General Studies",
+   "topic": "Economic Geography"
+  },
+  {
+   "q": "Jhum cultivation is an important economic activity in Northeast India. This activity falls into which group?",
+   "o": [
+    "Quinary Activities",
+    "Tertiary Activities",
+    "Secondary Activities",
+    "Primary Activities"
+   ],
+   "a": 3,
+   "e": "Jhum (shifting cultivation) is agriculture, a primary activity.",
+   "section": "General Studies",
+   "topic": "Economic Geography"
+  },
+  {
+   "q": "Which of the following is not correctly matched?",
+   "o": [
+    "Bhimtal - Dissolution Lake",
+    "Ashtamudi - Fluvial Lake",
+    "Pulicat - Lagoon Lake",
+    "Pangong Tso - Tectonic Lake"
+   ],
+   "a": 1,
+   "e": "Ashtamudi in Kerala is a backwater/lagoon lake, not a fluvial lake.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "When was the 'Doha Development Round' of WTO be begun?",
+   "o": [
+    "1998",
+    "1999",
+    "2000",
+    "2001"
+   ],
+   "a": 3,
+   "e": "The Doha Development Round was launched at the WTO Ministerial in November 2001.",
+   "section": "General Studies",
+   "topic": "International Organisations"
+  },
+  {
+   "q": "Which one of the following states was least urbanised according to 2011 census?",
+   "o": [
+    "Himachal Pradesh",
+    "Bihar",
+    "Assam",
+    "Odisha"
+   ],
+   "a": 0,
+   "e": "Himachal Pradesh had the lowest urban share (about 10%) in Census 2011.",
+   "section": "General Studies",
+   "topic": "Census"
+  },
+  {
+   "q": "When was the National Human Right Commission established in India?",
+   "o": [
+    "1992",
+    "1993",
+    "1994",
+    "1995"
+   ],
+   "a": 1,
+   "e": "The NHRC was set up on 12 October 1993 under the Protection of Human Rights Act.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Who is the Chairperson of National Disaster management Authority of India?",
+   "o": [
+    "Shri Narendra Modi",
+    "Mrs. Draupadi Murmu",
+    "Shri Rajnath Singh",
+    "Shri Amit Shah"
+   ],
+   "a": 0,
+   "e": "The Prime Minister is the ex-officio chairperson of the NDMA.",
+   "section": "General Studies",
+   "topic": "Disaster Management"
+  },
+  {
+   "q": "Who received the Dadasaheb Phalke Award in the 71st National Film Award Ceremony?",
+   "o": [
+    "Mithun Chakraborty",
+    "Waheeda Rehman",
+    "Asha Parekh",
+    "Mohanlal Vishwanathan"
+   ],
+   "a": 3,
+   "e": "Mohanlal received the Dadasaheb Phalke Award at the 71st National Film Awards.",
+   "section": "General Studies",
+   "topic": "Awards"
+  },
+  {
+   "q": "When was the first ‘Earth Summit’ organised?",
+   "o": [
+    "1991",
+    "1992",
+    "1993",
+    "1994"
+   ],
+   "a": 1,
+   "e": "The first Earth Summit was held in Rio de Janeiro in 1992.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Which one of the following gases is minimum in the atmosphere?",
+   "o": [
+    "Oxygen",
+    "Nitrogen",
+    "Carbon Dioxide",
+    "Argon"
+   ],
+   "a": 2,
+   "e": "Carbon dioxide (~0.04%) is far less abundant than argon (~0.93%), oxygen or nitrogen.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "How many countries was participated in the Bretton woods conference in 1944?",
+   "o": [
+    "42",
+    "43",
+    "44",
+    "45"
+   ],
+   "a": 2,
+   "e": "Delegates of 44 Allied nations attended Bretton Woods in July 1944.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "In which state the largest portion of the slum population of India did live according to 2011 census?",
+   "o": [
+    "Uttar Pradesh",
+    "West Bengal",
+    "Andhra Pradesh",
+    "Maharashtra"
+   ],
+   "a": 3,
+   "e": "Maharashtra had the largest slum population in Census 2011.",
+   "section": "General Studies",
+   "topic": "Census"
+  },
+  {
+   "q": "The term \"Demographic Dividend\" refers to",
+   "o": [
+    "Migration",
+    "Unemployment",
+    "Large working age population",
+    "High Birth Rate"
+   ],
+   "a": 2,
+   "e": "Demographic dividend is the growth potential from a large working-age population.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "\"Make in India\" initiative was launched in",
+   "o": [
+    "2010",
+    "2014",
+    "2018",
+    "2022"
+   ],
+   "a": 1,
+   "e": "Make in India was launched on 25 September 2014.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Green GDP refers to",
+   "o": [
+    "GDP growth due to agriculture",
+    "GDP after accounting for environmental degradation",
+    "GDP of service sector",
+    "GDP growth due to exports"
+   ],
+   "a": 1,
+   "e": "Green GDP adjusts GDP for environmental degradation and resource depletion.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "The vision of Viksit Bharat is built upon the \"GYAN\" model to ensure inclusive development. What does the acronym GYAN represents in this context?",
+   "o": [
+    "Gati (Speed), Yuva (Youth), Aadhaar (Foundation), Niti (Policy)",
+    "Garib (Poor), Yuva (Youth), Annadata (Farmers), Nari (Women)",
+    "Grameen (Rural), Yuva (Youth), Arthvyavastha (Economy), Nidhi (Funds)",
+    "Gaurav (Pride), Yuva (Youth), Atmanirbharta (Self-reliance), Nyaya (Justice)"
+   ],
+   "a": 1,
+   "e": "GYAN stands for Garib, Yuva, Annadata and Nari - the four pillars of Viksit Bharat.",
+   "section": "General Studies",
+   "topic": "Government Schemes"
+  },
+  {
+   "q": "The Indian Economy is often described as having a “Leapfrogging\"” structural transition. Which of the following features best illustrates this unique characteristics?",
+   "o": [
+    "A dominant shift from agriculture directly to the services sector for GDP contribution, bypassing a massive industrialization phase",
+    "Achieving 100% employment in the manufacturing sector before 2026",
+    "Complete dependence on the Public sector for all heavy industries",
+    "A decline in the importance of digital economy in rural areas"
+   ],
+   "a": 0,
+   "e": "India's leapfrogging means jumping from agriculture to services-led growth, bypassing a large manufacturing phase.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "To promote a \"Circular Economy\" and sustainable lifestyle choices as part of the Viksit Bharat agenda. the Prime Minister launched which global mass movement at COP 26?",
+   "o": [
+    "PM-KUSUM",
+    "Mission life",
+    "Green Credit Program",
+    "Gati Shakti"
+   ],
+   "a": 1,
+   "e": "Mission LiFE (Lifestyle for Environment) was announced by the PM at COP26 in Glasgow.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Which International Organisation replaced the General Agreement on Tariffs and Trade (GATT) in 1995, acting as a key driver for globalization?",
+   "o": [
+    "WTO",
+    "WHO",
+    "World Bank",
+    "IMF"
+   ],
+   "a": 0,
+   "e": "The WTO replaced GATT on 1 January 1995.",
+   "section": "General Studies",
+   "topic": "International Organisations"
+  },
+  {
+   "q": "Economic planning in India was inspired by",
+   "o": [
+    "UK",
+    "Japan",
+    "USA",
+    "USSR"
+   ],
+   "a": 3,
+   "e": "India's Five-Year Plans were modelled on the Soviet (USSR) planning system.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "The term “Blue Economy\" refers to",
+   "o": [
+    "Water conservation in agriculture",
+    "Infrastructural development",
+    "Sustainable use of ocean resources",
+    "Economy based on tourism and cultural heritage"
+   ],
+   "a": 2,
+   "e": "The blue economy is the sustainable use of ocean resources for growth.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Which Indian scheme supports small and medium enterprises?",
+   "o": [
+    "MUDRA Yojana",
+    "Startup India",
+    "Make in India",
+    "Atmanirbhar Bharat"
+   ],
+   "a": 0,
+   "e": "PM MUDRA Yojana provides collateral-free loans to micro and small enterprises.",
+   "section": "General Studies",
+   "topic": "Government Schemes"
+  },
+  {
+   "q": "How many people was escaped from the multidimensional poverty in India during 2013-14 to 2022-23, according to NITI Aayog?",
+   "o": [
+    "18.28 crore",
+    "20.24 crore",
+    "24.82 crore",
+    "25.42 crore"
+   ],
+   "a": 2,
+   "e": "NITI Aayog estimated 24.82 crore people escaped multidimensional poverty between 2013-14 and 2022-23.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "How much expenditure in the next five years has been decided on the technologies of carbon capture, utilization and storage in the central Budget of 2026-27?",
+   "o": [
+    "20,000 crores",
+    "25,000 crores",
+    "30,000 crores",
+    "35,000 crores"
+   ],
+   "a": 0,
+   "e": "As per the official key, ₹20,000 crore over five years was set aside for CCUS technologies.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "How many days of employment has been guaranteed for a person in a year in the new VB-G RAM G Act?",
+   "o": [
+    "100 Days",
+    "125 Days",
+    "150 Days",
+    "175 Days"
+   ],
+   "a": 1,
+   "e": "The VB-G RAM G Act raised the employment guarantee to 125 days per household a year.",
+   "section": "General Studies",
+   "topic": "Government Schemes"
+  },
+  {
+   "q": "When was the world population counted 1 Billion?",
+   "o": [
+    "16th century",
+    "17th century",
+    "18th century",
+    "19th century"
+   ],
+   "a": 3,
+   "e": "World population reached 1 billion around 1804, in the 19th century.",
+   "section": "General Studies",
+   "topic": "Demography"
+  },
+  {
+   "q": "Which day is celebrated as Human Rights Day",
+   "o": [
+    "8 March",
+    "10 November",
+    "6 June",
+    "10 December"
+   ],
+   "a": 3,
+   "e": "Human Rights Day is observed on 10 December, the date the UDHR was adopted in 1948.",
+   "section": "General Studies",
+   "topic": "Important Days"
+  },
+  {
+   "q": "Who among the following is awarded Padma Vibhushan in 2025",
+   "o": [
+    "Osamu Suzuki",
+    "Bibek Debroy",
+    "Pankaj Udhas",
+    "Manohar Joshi"
+   ],
+   "a": 0,
+   "e": "Suzuki Motor's Osamu Suzuki was conferred the Padma Vibhushan (posthumously) in 2025.",
+   "section": "General Studies",
+   "topic": "Awards"
+  },
+  {
+   "q": "Which among the following movies was awarded as the best Non-feature film in the 71st National Film Awards?",
+   "o": [
+    "Hanu Man",
+    "Hod Venture and Human",
+    "Flowering Man",
+    "12th Fail"
+   ],
+   "a": 2,
+   "e": "'Flowering Man' won Best Non-Feature Film at the 71st National Film Awards.",
+   "section": "General Studies",
+   "topic": "Awards"
+  },
+  {
+   "q": "In India, disaster management comes under which ministry",
+   "o": [
+    "Ministry of Defence",
+    "Ministry of Home affairs",
+    "Ministry of Transport",
+    "Ministry of Finance"
+   ],
+   "a": 1,
+   "e": "Disaster management is the nodal responsibility of the Ministry of Home Affairs.",
+   "section": "General Studies",
+   "topic": "Disaster Management"
+  },
+  {
+   "q": "Which Indian sectors were reported to be negatively affected the most by US tariff increases?",
+   "o": [
+    "Pharmaceuticals",
+    "Textiles, gems and jewellery",
+    "Space Technology",
+    "Agricultural equipment"
+   ],
+   "a": 1,
+   "e": "Textiles, gems and jewellery were the labour-intensive export sectors hit hardest by the US tariff hike.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "In which state the Khelo India youth games, 2025 took place",
+   "o": [
+    "Haryana",
+    "Punjab",
+    "Delhi",
+    "Bihar"
+   ],
+   "a": 3,
+   "e": "The Khelo India Youth Games 2025 were held in Bihar.",
+   "section": "General Studies",
+   "topic": "Sports"
+  },
+  {
+   "q": "In which country the United Nations climate Conference (COP30) took place?",
+   "o": [
+    "Britain",
+    "Brazil",
+    "india",
+    "USA"
+   ],
+   "a": 1,
+   "e": "COP30 was held in Belem, Brazil in November 2025.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "In which city the wildlife Institute of India is situated",
+   "o": [
+    "Bhopal",
+    "Delhi",
+    "Dehradun",
+    "Ranchi"
+   ],
+   "a": 2,
+   "e": "The Wildlife Institute of India is located in Dehradun.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Which organization controls the Gaza strip since 2007?",
+   "o": [
+    "Fatah",
+    "Hamas",
+    "PLO",
+    "Hezbollah"
+   ],
+   "a": 1,
+   "e": "Hamas has controlled the Gaza Strip since 2007.",
+   "section": "General Studies",
+   "topic": "World Affairs"
+  },
+  {
+   "q": "\"CAPTAIN ARJUN\" is a robot which has been launched with an aim to screen passenger while they board:",
+   "o": [
+    "Train",
+    "Aeroplane",
+    "Ship",
+    "Bus"
+   ],
+   "a": 0,
+   "e": "RPF's robot 'Captain Arjun' was launched at Pune railway station to screen train passengers.",
+   "section": "General Studies",
+   "topic": "Science & Technology"
+  },
+  {
+   "q": "Which of the following are not the 4 Vs of Big Data?",
+   "o": [
+    "Velocity",
+    "Volume",
+    "Variety",
+    "Verification"
+   ],
+   "a": 3,
+   "e": "The 4 Vs of big data are Volume, Velocity, Variety and Veracity, not Verification.",
+   "section": "General Studies",
+   "topic": "Computer"
+  },
+  {
+   "q": "“PM Surya Ghar\" Mission launched in which year",
+   "o": [
+    "2024",
+    "2014",
+    "2016",
+    "2017"
+   ],
+   "a": 0,
+   "e": "PM Surya Ghar: Muft Bijli Yojana for rooftop solar was launched in 2024.",
+   "section": "General Studies",
+   "topic": "Government Schemes"
+  },
+  {
+   "q": "Which enzyme is responsible for the digestion of proteins in the stomach?",
+   "o": [
+    "Amylase",
+    "Lipase",
+    "Pepsin",
+    "Maltase"
+   ],
+   "a": 2,
+   "e": "Pepsin digests proteins in the acidic environment of the stomach.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "In 2025, Australia's Western Sydney University (WSU) is planning to setup a campus in which Indian state?",
+   "o": [
+    "Kerala",
+    "Mumbai",
+    "Delhi",
+    "Uttar Pradesh"
+   ],
+   "a": 3,
+   "e": "Western Sydney University planned its India campus in Greater Noida, Uttar Pradesh.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Which of the following international agreements first imposed legally binding emission reduction targets on developed countries?",
+   "o": [
+    "Paris Agreement",
+    "Kyoto Protocol",
+    "Montreal Protocol",
+    "Glasgow Climate Pact"
+   ],
+   "a": 1,
+   "e": "The Kyoto Protocol (1997) first set legally binding emission targets for developed countries.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "AI first came to be known in which year?",
+   "o": [
+    "1942",
+    "1965",
+    "1964",
+    "1956"
+   ],
+   "a": 3,
+   "e": "The term 'Artificial Intelligence' was coined at the Dartmouth conference in 1956.",
+   "section": "General Studies",
+   "topic": "Computer"
+  },
+  {
+   "q": "Polycythemia is disease related to ?",
+   "o": [
+    "Heart",
+    "Liver",
+    "Blood",
+    "Kidneys"
+   ],
+   "a": 2,
+   "e": "Polycythemia is an abnormal increase in red blood cells, a blood disorder.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Peru's government declared on environmental emergency in which area, where state oil firm petroperu last weekend spilled a crude oil shipment into surrounding water of the pacific ocean in 2024?",
+   "o": [
+    "Western coastal area",
+    "Eastern coastal area",
+    "Northern coastal area",
+    "Southern coastal area"
+   ],
+   "a": 2,
+   "e": "The 2024 Petroperu spill at the Talara refinery affected Peru's northern coastal area.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Which report of India was submitted to the United Nations Framework Convention on Climate Change (UNFCCC) on 30th December 2024?",
+   "o": [
+    "National Green House Gas (GHG)",
+    "4th Biennial Update Report (BUR-4)",
+    "3rd National Communication (TNC-3)",
+    "5th Emission Gap Report (EGR-5)"
+   ],
+   "a": 1,
+   "e": "India submitted its fourth Biennial Update Report (BUR-4) to the UNFCCC on 30 December 2024.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "What is the primary cause of acid rain?",
+   "o": [
+    "Carbon dioxide",
+    "Sulfur dioxide and Nitrogen oxides",
+    "Methane",
+    "Ozone"
+   ],
+   "a": 1,
+   "e": "Sulphur dioxide and nitrogen oxides form sulphuric and nitric acids that fall as acid rain.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "The 2023 Manipur crisis primarily involves violent classes between which two communities",
+   "o": [
+    "Meitei and Naga",
+    "Meitei and Kuki-Zo",
+    "Meitei and Assamese",
+    "Meitei and Garo"
+   ],
+   "a": 1,
+   "e": "The 2023 Manipur violence was mainly between the Meitei and Kuki-Zo communities.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "In June 2025, the united states carried out airstrikes on Iranian nuclear sites under what operation name?",
+   "o": [
+    "Operation Desert storm",
+    "Operation Freedom shield",
+    "Operation Midnight Hammer",
+    "Operation Enduring peace"
+   ],
+   "a": 2,
+   "e": "The June 2025 US strikes on Iranian nuclear sites were called Operation Midnight Hammer.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Who is the president of the European commission?",
+   "o": [
+    "Antonio Guterres",
+    "Ursula von der Leyen",
+    "Roberta Metsola",
+    "Antonio Costa"
+   ],
+   "a": 1,
+   "e": "Ursula von der Leyen is President of the European Commission.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "In 1994, Dishom guru Shibu Soren became president of",
+   "o": [
+    "Jharkhand Area Autonomous Council",
+    "Jharkhand subject matter Committee",
+    "Jharkhand co-ordinate committee",
+    "Jharkhand Area Development Council"
+   ],
+   "a": 0,
+   "e": "Shibu Soren became chairman of the Jharkhand Area Autonomous Council (JAAC) formed in the mid-1990s.",
+   "section": "State GK",
+   "topic": "Jharkhand Movement"
+  },
+  {
+   "q": "Which of the following is the most important critical stage for irrigation in wheat crop?",
+   "o": [
+    "Crown Root Initiation (CRI) stage",
+    "Tillering stage",
+    "Flowering stage",
+    "Milking stage"
+   ],
+   "a": 0,
+   "e": "Crown Root Initiation (about 21 days after sowing) is the most critical irrigation stage for wheat.",
+   "section": "General Studies",
+   "topic": "Agriculture"
+  },
+  {
+   "q": "Ramgarh Hill tract was established in which year?",
+   "o": [
+    "1760",
+    "1770",
+    "1780",
+    "1790"
+   ],
+   "a": 2,
+   "e": "The British formed the Ramgarh Hill Tract in 1780.",
+   "section": "State GK",
+   "topic": "Jharkhand History"
+  },
+  {
+   "q": "Which British captain was sent to occupy palamu in the year 1771?",
+   "o": [
+    "Captain Raphzez",
+    "Captain Jacob Camac",
+    "Captain Deg",
+    "Captain Ferguson"
+   ],
+   "a": 1,
+   "e": "Captain Jacob Camac was sent in 1771 to occupy Palamu.",
+   "section": "State GK",
+   "topic": "Jharkhand History"
+  },
+  {
+   "q": "The habitat of Birhor tribe is called",
+   "o": [
+    "Tanda",
+    "Parha",
+    "Dhumkuriya",
+    "Nadu"
+   ],
+   "a": 0,
+   "e": "Birhor settlements are called Tanda.",
+   "section": "State GK",
+   "topic": "Jharkhand Tribes"
+  },
+  {
+   "q": "Tanginath Mandir is situated in which district of Jharkhand?",
+   "o": [
+    "Lohardaga",
+    "Latehar",
+    "Simdega",
+    "Gumla"
+   ],
+   "a": 3,
+   "e": "Tanginath Dham, with its iron trident, is in Gumla district.",
+   "section": "State GK",
+   "topic": "Jharkhand Culture"
+  },
+  {
+   "q": "Which one is the nutrient having special significance to carbohydrate rich crops and imparts disease resistance to crops, improves size and quality of flowers, fruits, vegetables and grains?",
+   "o": [
+    "Nitrogen",
+    "Phosphorus",
+    "Potassium",
+    "Sulphur"
+   ],
+   "a": 2,
+   "e": "Potassium aids carbohydrate formation, disease resistance and produce quality.",
+   "section": "General Studies",
+   "topic": "Agriculture"
+  },
+  {
+   "q": "The dormitory in munda tribal society is called",
+   "o": [
+    "Dhumkuriya",
+    "Jonkh Erpa",
+    "Akhra",
+    "Gitiora"
+   ],
+   "a": 3,
+   "e": "The Munda youth dormitory is called Gitiora (Giti-ora).",
+   "section": "State GK",
+   "topic": "Jharkhand Tribes"
+  },
+  {
+   "q": "What is the name of the army chief that was sent by Mughal emperor Akbar in 1585 to attack the Nagvanshi ruler in Jharkhand?",
+   "o": [
+    "Ibrahim Khan",
+    "Shahbaz Khan Kambu",
+    "Jahangir",
+    "Shahjahan"
+   ],
+   "a": 1,
+   "e": "Akbar sent Shahbaz Khan Kambu in 1585 against the Nagvanshi ruler of Kokrah.",
+   "section": "State GK",
+   "topic": "Jharkhand History"
+  },
+  {
+   "q": "Which Temple was made by Nagvanshi ruler Phani Mukut Rai in Sutiyambe?",
+   "o": [
+    "Shiv Mandir",
+    "Surya Mandir",
+    "Shani Mandir",
+    "None of these"
+   ],
+   "a": 1,
+   "e": "Nagvanshi king Phani Mukut Rai built a Surya (Sun) temple at Sutiyambe, per the official key.",
+   "section": "State GK",
+   "topic": "Jharkhand History"
+  },
+  {
+   "q": "In Which scripture Jharkhand is called Pundric Desh.",
+   "o": [
+    "Mahabharata",
+    "Rigveda",
+    "Manu Smriti",
+    "Atharva Veda"
+   ],
+   "a": 0,
+   "e": "The Mahabharata refers to the region as Pundrik Desh.",
+   "section": "State GK",
+   "topic": "Jharkhand History"
+  },
+  {
+   "q": "In which year Birsa Munda held the first meeting for Ulgulan at Dombari hill?",
+   "o": [
+    "1896",
+    "1897",
+    "1898",
+    "1899"
+   ],
+   "a": 3,
+   "e": "Birsa Munda's Ulgulan meeting at Dombari Buru took place in December 1899.",
+   "section": "State GK",
+   "topic": "Jharkhand History"
+  },
+  {
+   "q": "Wilt of Pigeon pea is a disease caused which of the following?",
+   "o": [
+    "Bacteria",
+    "Fungus",
+    "Virus",
+    "Nematode"
+   ],
+   "a": 1,
+   "e": "Pigeon pea wilt is caused by the fungus Fusarium udum.",
+   "section": "General Studies",
+   "topic": "Agriculture"
+  },
+  {
+   "q": "Which of one is not a cereal crop?",
+   "o": [
+    "Maize",
+    "Finger Millet",
+    "Pigeon pea",
+    "Sorghum"
+   ],
+   "a": 2,
+   "e": "Pigeon pea (arhar) is a pulse, not a cereal.",
+   "section": "General Studies",
+   "topic": "Agriculture"
+  },
+  {
+   "q": "Which of the following is a potassic fertilizer?",
+   "o": [
+    "Urea",
+    "SSP",
+    "DAP",
+    "MOP"
+   ],
+   "a": 3,
+   "e": "Muriate of Potash (MOP, KCl) is a potassic fertiliser.",
+   "section": "General Studies",
+   "topic": "Agriculture"
+  }
+ ]
+}
