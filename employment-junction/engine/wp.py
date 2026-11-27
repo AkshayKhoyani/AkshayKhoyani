@@ -151,7 +151,9 @@ def render(s):
     out.append("</div>")
     html_out = "\n".join(out)
     ig = '<a href="https://www.instagram.com/employmentjunction.in/" target="_blank" rel="noopener">@employmentjunction.in</a>'
-    return html_out.replace("<strong>@employmentjunction.in</strong>", "<strong>" + ig + "</strong>")
+    html_out = html_out.replace("<strong>@employmentjunction.in</strong>", "<strong>" + ig + "</strong>")
+    import notif as _nf  # every "official notification" mention links to the notification itself (+ our PDF mirror)
+    return _nf.link_notifications(html_out, notif, s.get("notification_mirror", ""))
 
 
 CHAR_DIR = os.path.join(HERE, "assets", "characters")
@@ -197,6 +199,7 @@ def featured_image(s, path):
     if not os.path.exists(src):
         src = os.path.join(CHAR_DIR, "office.webp")
     data["character_src"] = "file://" + src
+    data["logo_src"] = "file://" + os.path.join(HERE, "assets", "logo.webp")  # official Employment Junction logo — always on the image
     data.setdefault("theme", THEME.get(ch, "gold"))
     ptype = s.get("type", "ej_job")
     st = STICKER.get(ptype, STICKER["ej_job"])
@@ -218,7 +221,7 @@ def featured_image(s, path):
 const {{ chromium }} = require('playwright');
 (async () => {{ const b = await chromium.launch(); const p = await b.newPage({{ viewport: {{ width: 1536, height: 1024 }} }});
 await p.goto('file://{tmp}'); await p.evaluate(() => document.fonts.ready);
-await p.waitForFunction(() => {{ const i = document.getElementById('char'); return !i.src || i.complete; }});
+await p.waitForFunction(() => {{ const i = document.getElementById('char'); const l = document.getElementById('logo'); return (!i.src || i.complete) && (!l.src || l.complete); }});
 await p.screenshot({{ path: '{path}', type: 'jpeg', quality: 84 }}); await b.close(); }})();
 """], check=True)
     os.remove(tmp)
@@ -257,6 +260,11 @@ def main():
     featured_image(s, img)
     media_id = upload(img, s["title"], s["title"])
 
+    # official notification: link the PDF itself and keep a mirror copy in our media library
+    nurl = next((v for k, v in s.get("links", []) if "notif" in k.lower() or "pdf" in k.lower()), "")
+    if nurl and not s.get("notification_mirror"):
+        import notif as _nf
+        s["notification_mirror"] = _nf.mirror_pdf(s.get("notification_pdf") or nurl, s["slug"])
     content = render(s)
     open(os.path.join(out_dir, s["slug"] + ".html"), "w").write(content)
     # content type: ej_job (default, emits JobPosting schema), ej_result, ej_admit_card, ej_answer_key, ej_syllabus, posts

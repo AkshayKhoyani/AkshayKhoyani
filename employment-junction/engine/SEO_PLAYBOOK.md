@@ -99,3 +99,15 @@ eligibility (one of: high school, associate degree, bachelor degree, professiona
 ## Network (27 Nov 2026)
 - The cloud environment now has unrestricted internet. **Read the official notification / official website directly first** (curl or Playwright), then use aggregators only to cross-check. Some state portals (e.g. ojas.gujarat.gov.in) still refuse foreign servers – fall back to ≥2 secondary sources there.
 - Hostinger file access is available through the Hostinger connector in interactive sessions (account u311135737, site root public_html) for mu-plugins/theme files; scheduled runs must not change plugins/themes/settings.
+
+## Official notification links (owner rule, 27 Nov 2026)
+- Every "official notification / notice / advertisement" mention in a post links to the **official notification PDF itself**, never just the board homepage.
+- Spec `links` must contain a `Notification` entry whose URL is the direct official PDF (verify: file starts with `%PDF`). `wp.py` mirrors it into our media library (`notif.mirror_pdf`) and adds a "📥 Notification PDF Download" button; `render()` auto-links every mention (`notif.link_notifications`).
+- If the official site has no direct link (only a listing page / blocked), download the PDF wherever the board publishes it, put its local path in spec `notification_pdf`, and the mirror becomes the link.
+- `engine/notif_apply.py` re-applies this to already-published posts from research results.
+
+## Featured images
+- Every image carries the **official Employment Junction logo** (`engine/assets/logo.webp`, top-left on a white card). Never the old "EJ" box.
+
+## Homepage / theme
+- Theme files patched (backups in `theme-patch/orig/`): `front-page.php` (newest-first across all sections, live ticker, last-date countdown, tabs, mock-test banner, hubs), `single.php` (related = same section), `sidebar.php` (CPT-based), `inc/breadcrumbs.php` (Home › Section › Title instead of "Archives"). Upload with `theme-patch/up.sh` after `php -l`.
