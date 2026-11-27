@@ -13,16 +13,22 @@ def check(spec, path):
          f"Expected product name: '{spec['name']}'. Approved text lines (any subset may appear, small wording variations are fine): {allowed}. "
          "List in `problems` ONLY real violations of these rules (otherwise return an empty list): (1) 'Tradenest' / 'Naturals' / the product name is misspelled or garbled; "
          "(2) some text is gibberish or malformed letters; (3) the image shows any of these words: organic, certified, ISO, HACCP, '100%', "
-         "'no preservatives', or a health/medical benefit claim (immunity, digestion, energy, detox, healing, cure). "
+         "'no preservatives', or a health/medical benefit claim (immunity, digestion, energy, detox, healing, cure); "
+         "(4) leaked instruction words appear as visible text, e.g. 'accent', 'English accent', 'headline', 'scene', 'reference', 'tagline', 'logo here'. "
          "Extra slogans, approved lines and FSSAI Licensed are NOT problems. Each problem must quote the exact offending text.")
     schema = {"type": "object", "additionalProperties": False, "required": ["visible_text", "problems"],
               "properties": {"visible_text": {"type": "string"}, "problems": {"type": "array", "items": {"type": "string"}}}}
     body = {"model": "gpt-5.4-mini", "messages": [{"role": "user", "content": [
         {"type": "text", "text": q}, {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{b64}"}}]}],
         "response_format": {"type": "json_schema", "json_schema": {"name": "qa", "strict": True, "schema": schema}}}
-    r = subprocess.run(["curl", "-s", "https://api.openai.com/v1/chat/completions", "-H", "Authorization: Bearer dummy",
-                        "-H", "Content-Type: application/json", "-d", "@-"], input=json.dumps(body), capture_output=True, text=True)
-    d = json.loads(json.loads(r.stdout)["choices"][0]["message"]["content"])
+    if os.environ.get("TN_BACKEND") == "gemini":
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import gemini
+        d = gemini.json_call(None, q, schema, images=[(path, "image/jpeg")])
+    else:
+        r = subprocess.run(["curl", "-s", "https://api.openai.com/v1/chat/completions", "-H", "Authorization: Bearer dummy",
+                            "-H", "Content-Type: application/json", "-d", "@-"], input=json.dumps(body), capture_output=True, text=True)
+        d = json.loads(json.loads(r.stdout)["choices"][0]["message"]["content"])
     return {"ok": not d["problems"], "issues": "; ".join(d["problems"])}
 
 if __name__ == "__main__":

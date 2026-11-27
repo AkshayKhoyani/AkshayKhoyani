@@ -48,10 +48,16 @@ body = {
                  {"role": "user", "content": f"Product: {spec['name']}. Specs: {json.dumps(spec['specs'], ensure_ascii=False)}\n\nWEBSITE TEXT:\n{text}"}],
     "response_format": {"type": "json_schema", "json_schema": {"name": "catalog", "strict": True, "schema": schema}},
 }
-r = subprocess.run(["curl", "-s", "https://api.openai.com/v1/chat/completions", "-H", "Authorization: Bearer dummy",
-                    "-H", "Content-Type: application/json", "-d", json.dumps(body)], capture_output=True, text=True)
-d = json.loads(r.stdout)
-content = json.loads(d["choices"][0]["message"]["content"])
+import os
+if os.environ.get("TN_BACKEND") == "gemini":
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import gemini
+    content = gemini.json_call(RULES, body["messages"][1]["content"], schema)
+else:
+    r = subprocess.run(["curl", "-s", "https://api.openai.com/v1/chat/completions", "-H", "Authorization: Bearer dummy",
+                        "-H", "Content-Type: application/json", "-d", json.dumps(body)], capture_output=True, text=True)
+    d = json.loads(r.stdout)
+    content = json.loads(d["choices"][0]["message"]["content"])
 BAD = re.compile(r"organic|\bISO\b|HACCP|GMP|100%|certified|immun|digest|energy|vitamin|detox|cure|heal|antioxidant|world-class|best", re.I)
 flat = json.dumps(content, ensure_ascii=False)
 hits = BAD.findall(flat)

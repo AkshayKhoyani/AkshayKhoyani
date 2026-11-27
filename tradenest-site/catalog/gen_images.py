@@ -18,17 +18,23 @@ BRAND_RULES = (
     "no extra words, no gibberish, no other languages. "
     "STYLE: premium Indian FMCG advertising photography like the reference: warm golden natural light, rustic wooden table, "
     "brass/wooden bowls, real ingredient props, shallow depth of field, rich but natural colours, elegant serif headline, "
-    "a handwritten-script English accent line, round outline icon badges. Square 1:1 composition, everything inside the frame. "
+    "a handwritten-script accent line ONLY when this prompt gives its exact words, round outline icon badges. Square 1:1 composition, everything inside the frame. "
     "Do not show any certification logos, 'organic', '100%', health or medical claims, prices or weights other than those given. "
     "The first reference image is ONLY a style and pouch-design reference: do NOT copy any of its words (no 'No Preservatives', "
     "'No Artificial Colours', 'Real Goodness', 'Rich in ...', 'Made with ...', 'Net Weight', 'Serves', the Indian veg symbol). "
-    "Use only the exact text lines given in this prompt; do not invent extra claims or nutrient names."
+    "Use only the exact text lines given in this prompt; do not invent extra claims or nutrient names. "
+    "Never put small or tiny lettering on background items; any text must be large, sharp and correctly spelled."
 )
 
 def edit(name, prompt):
     path = os.path.join(out, name)
     if os.path.exists(path):
         return path
+    if os.environ.get("TN_BACKEND") == "gemini":
+        sys.path.insert(0, HERE)
+        import gemini
+        return gemini.image(f"{BRAND_RULES}\n\nSCENE: {prompt}",
+                            [(f"{BRAND}/sample3.jpg", "image/jpeg"), (f"{BRAND}/logo.png", "image/png")], path)
     cmd = ["curl", "-s", "https://api.openai.com/v1/images/edits", "-H", "Authorization: Bearer dummy",
            "-F", "model=gpt-image-2", "-F", "size=1024x1024", "-F", "quality=high",
            "-F", f"image[]=@{BRAND}/sample3.jpg", "-F", f"image[]=@{BRAND}/logo_from_pouch.png",
@@ -62,7 +68,7 @@ scenes = {
                        f"{s['raw_props']} around it. Small Tradenest Naturals logo badge in the top-left corner. Bottom-left elegant label "
                        f"\"{s['name']}\" and under it \"{s['texture']}\"."),
     "04-bulk.jpg": (f"Premium B2B bulk supply scene in a clean warehouse-style setting with warm light: a large 25 kg cream woven bulk bag "
-                    f"printed with the Tradenest Naturals logo and \"{s['name']}\", next to two branded pouches ({pouch}) and two jars ({jar}), "
+                    f"printed with the Tradenest Naturals logo and \"{s['name']}\", next to two branded pouches ({pouch}) and two small jars with plain cream labels showing only the green two-leaf icon and NO words, "
                     f"a scoop of {s['powder_look']} in front. Headline at top: \"Bulk & Private Label Supply\". Three round icon badges: "
                     f"\"MOQ Just 5 Kg\", \"Export Packing\", \"Documentation Support\"."),
     "05-uses.jpg": (f"Infographic-style advertisement on a warm cream textured background. Top-left Tradenest Naturals logo, headline "
