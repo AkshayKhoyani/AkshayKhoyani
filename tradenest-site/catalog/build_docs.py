@@ -1,0 +1,172 @@
+"""Build the spec-card image (06) and premium Hindi PDF brochure for one product.
+
+Usage: python3 build_docs.py specs/<slug>.json out/<slug>
+"""
+import base64, html, json, os, subprocess, sys
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+spec = json.load(open(sys.argv[1]))
+content = json.load(open(sys.argv[1].replace(".json", ".content.json")))
+out = os.path.abspath(sys.argv[2])
+E = html.escape
+
+def data_uri(path, mime="image/jpeg"):
+    return f"data:{mime};base64," + base64.b64encode(open(path, "rb").read()).decode()
+
+LOGO = data_uri(os.path.join(HERE, "brand", "logo.png"), "image/png")
+IMG = {k: data_uri(os.path.join(out, f)) for k, f in
+       {"hero": "01-hero-pouch.jpg", "banner": "02-banner.jpg", "close": "03-closeup.jpg",
+        "bulk": "04-bulk.jpg", "uses": "05-uses.jpg"}.items()}
+
+FONTS = ('<link href="https://fonts.googleapis.com/css2?family=Mukta:wght@400;500;600;700;800&'
+         'family=Tiro+Devanagari+Hindi&family=Kalam:wght@700&display=swap" rel="stylesheet">')
+BASE_CSS = """
+:root{--g:#0F382C;--g2:#1B5E3B;--gold:#C8963E;--cream:#FBF6EC;--cream2:#F3EAD8;--ink:#2B2B26}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Mukta',sans-serif;color:var(--ink);background:var(--cream)}
+.serif{font-family:'Tiro Devanagari Hindi',serif}
+.hand{font-family:'Kalam',cursive;color:var(--g2)}
+.chip{display:inline-block;border:1.5px solid var(--g2);color:var(--g);border-radius:999px;padding:3px 12px;font-weight:600;font-size:13px;margin:3px 4px 3px 0;background:#fff8}
+.rule{height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:10px 0}
+"""
+contact_line = "WhatsApp: +91 92651 28276 &nbsp;•&nbsp; export@tradenestnaturals.com &nbsp;•&nbsp; tradenestnaturals.com"
+spec_rows = "".join(f"<tr><td>{E(k)}</td><td>{E(v)}</td></tr>" for k, v in spec["specs"].items())
+
+# ---------------------------------------------------------------- spec card (1080x1080)
+card = f"""<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{BASE_CSS}
+body{{width:1080px;height:1080px;overflow:hidden;background:radial-gradient(circle at 80% 10%,#fff 0,var(--cream) 45%,var(--cream2) 100%)}}
+.wrap{{position:absolute;inset:0;padding:48px 56px}}
+.top{{display:flex;justify-content:space-between;align-items:flex-start}}
+.top img{{height:150px}}
+.badge{{background:var(--g);color:#fff;border-radius:18px;padding:14px 22px;text-align:center;font-weight:700;font-size:22px;line-height:1.25}}
+.badge small{{display:block;font-weight:500;font-size:16px;color:#cfe8d8}}
+h1{{font-size:64px;color:var(--g);line-height:1.05;margin-top:6px}}
+.sub{{font-size:30px;margin-top:2px}}
+table{{width:100%;border-collapse:separate;border-spacing:0;margin-top:22px;font-size:25px;background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 6px 24px #0f382c1a}}
+td{{padding:12px 22px;border-bottom:1px solid #eadfca}}
+td:first-child{{color:#6b5d45;width:46%;font-weight:600}} td:last-child{{color:var(--g);font-weight:800}}
+tr:nth-child(odd) td{{background:#fffaf0}}
+.strip{{display:flex;gap:14px;margin-top:22px}}
+.pill{{flex:1;text-align:center;border:2px solid var(--g2);border-radius:999px;padding:10px 6px;font-weight:700;font-size:22px;color:var(--g);background:#fff}}
+.foot{{position:absolute;left:0;right:0;bottom:0;background:var(--g);color:#fff;font-size:21px;text-align:center;padding:16px}}
+.thumb{{position:absolute;right:56px;top:220px;width:210px;height:210px;border-radius:50%;object-fit:cover;border:6px solid #fff;box-shadow:0 8px 24px #0003}}
+</style></head><body><div class="wrap">
+<div class="top"><img src="{LOGO}"><div class="badge">FSSAI लाइसेंस्ड<small>IEC रजिस्टर्ड एक्सपोर्टर</small></div></div>
+<div class="hand" style="font-size:34px;margin-top:8px">तकनीकी विवरण</div>
+<h1 class="serif">{E(spec['hi_name'])}</h1><div class="sub">{E(spec['hi_sub'])}</div>
+<img class="thumb" src="{IMG['close']}">
+<table>{spec_rows}</table>
+<div class="strip"><div class="pill">MOQ सिर्फ 5 किलो</div><div class="pill">प्राइवेट लेबल</div><div class="pill">सैंपल उपलब्ध</div></div>
+</div><div class="foot">{contact_line}</div></body></html>"""
+
+# ---------------------------------------------------------------- brochure (A4)
+li = lambda items: "".join(f"<li>{E(i)}</li>" for i in items)
+steps = ["कच्चे माल की सोर्सिंग", "सफाई और छंटाई", "नियंत्रित ड्राइंग", "ग्राइंडिंग और सीविंग", "क्वालिटी जाँच", "पैकिंग और डिस्पैच"]
+faqs = "".join(f"<div class='faq'><b>प्र. {E(f['q'])}</b><p>{E(f['a'])}</p></div>" for f in content["faqs"])
+pdf_html = f"""<!doctype html><html><head><meta charset="utf-8">{FONTS}<style>{BASE_CSS}
+@page{{size:A4;margin:0}}
+.page{{width:210mm;height:297mm;position:relative;overflow:hidden;page-break-after:always;background:var(--cream)}}
+.pad{{padding:14mm 15mm}}
+.hdr{{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--gold);padding-bottom:4mm;margin-bottom:6mm}}
+.hdr img{{height:20mm}} .hdr span{{font-weight:700;color:var(--g);font-size:13px;letter-spacing:.5px}}
+h2{{font-family:'Tiro Devanagari Hindi',serif;color:var(--g);font-size:25px;margin:2mm 0 3mm}}
+p{{font-size:14.5px;line-height:1.65;margin-bottom:3mm}}
+.ft{{position:absolute;bottom:0;left:0;right:0;background:var(--g);color:#e9f3ec;font-size:11.5px;text-align:center;padding:3.2mm}}
+.cover-img{{width:100%;height:178mm;object-fit:cover;display:block}}
+.cover-band{{position:absolute;top:150mm;left:0;right:0;height:28mm;background:linear-gradient(transparent,var(--cream))}}
+.cover-body{{padding:2mm 15mm 0;text-align:center}}
+.cover-body img{{height:26mm}}
+.cover-body h1{{font-family:'Tiro Devanagari Hindi',serif;color:var(--g);font-size:46px;line-height:1.1;margin-top:2mm}}
+.grid2{{display:grid;grid-template-columns:1fr 1fr;gap:7mm}}
+.card{{background:#fff;border-radius:5mm;padding:5mm 6mm;box-shadow:0 2mm 6mm #0f382c14}}
+ul{{padding-left:5mm}} li{{font-size:13.5px;line-height:1.6}}
+li::marker{{color:var(--gold)}}
+table.spec{{width:100%;border-collapse:collapse;font-size:13.5px;background:#fff;border-radius:4mm;overflow:hidden}}
+table.spec td{{padding:2.4mm 4mm;border-bottom:1px solid #eee2cc}} table.spec td:first-child{{color:#6b5d45;font-weight:600;width:48%}}
+table.spec td:last-child{{color:var(--g);font-weight:700}}
+.ph{{width:100%;border-radius:5mm;display:block;object-fit:cover}}
+.steps{{display:grid;grid-template-columns:repeat(6,1fr);gap:2.5mm}}
+.step{{background:#fff;border-radius:4mm;padding:3mm;text-align:center;border-top:3px solid var(--gold)}}
+.step b{{display:block;font-size:18px;color:var(--gold)}} .step span{{font-weight:700;color:var(--g);font-size:12px;line-height:1.3;display:block}}
+.faq{{margin-bottom:3mm}} .faq b{{color:var(--g);font-size:14px}} .faq p{{font-size:13.5px;margin:0.5mm 0 0}}
+.cta{{background:var(--g);color:#fff;border-radius:5mm;padding:6mm;text-align:center}}
+.cta h3{{font-family:'Tiro Devanagari Hindi',serif;font-size:24px;margin-bottom:2mm}}
+.cta div{{font-size:15px;line-height:1.8}}
+.trust{{display:flex;gap:3mm;justify-content:center;margin:4mm 0}}
+.trust div{{border:1.5px solid var(--g2);border-radius:999px;padding:1.5mm 5mm;font-weight:700;color:var(--g);font-size:13px;background:#fff}}
+</style></head><body>
+
+<div class="page">
+ <img class="cover-img" src="{IMG['hero']}"><div class="cover-band"></div>
+ <div class="cover-body">
+  <img src="{LOGO}">
+  <div class="hand" style="font-size:22px;margin-top:1mm">{E(content['tagline'])}</div>
+  <h1>{E(spec['hi_name'])}</h1>
+  <div style="font-size:17px;margin:1mm 0 3mm">{E(spec['hi_sub'])} &nbsp;|&nbsp; उत्पाद विवरण पुस्तिका</div>
+  {''.join(f'<span class="chip">{E(h)}</span>' for h in content['highlights'][:4])}
+ </div>
+ <div class="ft">FSSAI लाइसेंस्ड मैन्युफैक्चरर &nbsp;•&nbsp; IEC रजिस्टर्ड एक्सपोर्टर &nbsp;•&nbsp; {contact_line}</div>
+</div>
+
+<div class="page"><div class="pad">
+ <div class="hdr"><img src="{LOGO}"><span>उत्पाद परिचय</span></div>
+ <h2>{E(spec['hi_name'])} के बारे में</h2>
+ {''.join(f'<p>{E(x)}</p>' for x in content['overview'])}
+ <div class="grid2" style="margin-top:4mm">
+  <div><img class="ph" style="height:78mm" src="{IMG['close']}"></div>
+  <div class="card"><h2 style="font-size:20px;margin-top:0">मुख्य विशेषताएँ</h2><ul>{li(content['highlights'])}</ul></div>
+ </div>
+ <h2 style="margin-top:6mm">तकनीकी विवरण</h2>
+ <table class="spec">{spec_rows}</table>
+</div><div class="ft">{contact_line}</div></div>
+
+<div class="page"><div class="pad">
+ <div class="hdr"><img src="{LOGO}"><span>उपयोग और पैकिंग</span></div>
+ <div class="grid2">
+  <div class="card"><h2 style="font-size:20px;margin-top:0">प्रमुख उपयोग</h2><ul>{li(content['applications'])}</ul></div>
+  <div><img class="ph" style="height:70mm" src="{IMG['uses']}"></div>
+ </div>
+ <div class="grid2" style="margin-top:6mm">
+  <div><img class="ph" style="height:70mm" src="{IMG['bulk']}"></div>
+  <div>
+   <div class="card"><h2 style="font-size:20px;margin-top:0">किन उद्योगों के लिए</h2><ul>{li(content['industries'])}</ul></div>
+   <div class="card" style="margin-top:4mm"><h2 style="font-size:20px;margin-top:0">पैकिंग विकल्प</h2><ul>{li(content['packaging'])}</ul></div>
+  </div>
+ </div>
+ <h2 style="margin-top:6mm">हमारी 6-चरण प्रक्रिया</h2>
+ <div class="steps">{''.join(f'<div class="step"><b>0{i+1}</b><span>{s}</span></div>' for i, s in enumerate(steps))}</div>
+</div><div class="ft">{contact_line}</div></div>
+
+<div class="page"><div class="pad">
+ <div class="hdr"><img src="{LOGO}"><span>सवाल-जवाब और संपर्क</span></div>
+ <h2>अक्सर पूछे जाने वाले सवाल</h2>
+ {faqs}
+ <div class="trust"><div>FSSAI लाइसेंस्ड</div><div>IEC रजिस्टर्ड</div><div>MOQ 5 Kg</div><div>OEM / प्राइवेट लेबल</div></div>
+ <div class="cta">
+  <div class="hand" style="color:#F4D9A0;font-size:20px">आइए साथ मिलकर कारोबार बढ़ाएँ</div>
+  <h3>बल्क कोटेशन और सैंपल के लिए संपर्क करें</h3>
+  <div>WhatsApp / कॉल: <b>+91 92651 28276</b><br>ईमेल: <b>export@tradenestnaturals.com</b><br>वेबसाइट: <b>tradenestnaturals.com</b></div>
+ </div>
+</div><div class="ft">© TradeNest Naturals — Goodness from Nature</div></div>
+</body></html>"""
+
+open(os.path.join(out, "_card.html"), "w").write(card)
+open(os.path.join(out, "_brochure.html"), "w").write(pdf_html)
+js = f"""
+const {{ chromium }} = require('playwright');
+(async () => {{
+  const b = await chromium.launch();
+  const p = await b.newPage({{viewport:{{width:1080,height:1080}}}});
+  await p.goto('file://{out}/_card.html',{{waitUntil:'networkidle'}}); await p.evaluate(()=>document.fonts.ready);
+  await p.screenshot({{path:'{out}/06-spec-card.png'}});
+  const q = await b.newPage();
+  await q.goto('file://{out}/_brochure.html',{{waitUntil:'networkidle'}}); await q.evaluate(()=>document.fonts.ready);
+  await q.pdf({{path:'{out}/TradeNest_{spec['slug']}.pdf',format:'A4',printBackground:true}});
+  await b.close();
+}})();"""
+open(os.path.join(out, "_render.js"), "w").write(js)
+subprocess.run(["node", os.path.join(out, "_render.js")], check=True)
+from PIL import Image
+Image.open(os.path.join(out, "06-spec-card.png")).convert("RGB").resize((1024, 1024)).save(os.path.join(out, "06-spec-card.jpg"), quality=92)
+os.remove(os.path.join(out, "06-spec-card.png"))
+print("done", out)
