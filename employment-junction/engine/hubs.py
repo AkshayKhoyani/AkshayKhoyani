@@ -18,6 +18,7 @@ import sys
 API = "https://employmentjunction.in/wp-json/wp/v2"
 SITE = "https://employmentjunction.in"
 DRY = "--dry" in sys.argv
+ONLY = set(int(x) for x in sys.argv[sys.argv.index("--only-ids") + 1].split(",")) if "--only-ids" in sys.argv else None
 TODAY = datetime.date.today()
 TYPES = {"ej_job": "Job", "ej_admit_card": "Admit Card", "ej_result": "Result", "ej_answer_key": "Answer Key",
          "ej_syllabus": "Syllabus", "ej_schedule": "Exam Date"}
@@ -266,7 +267,7 @@ def main():
 
     # 1. qualification hubs
     hub_links = []
-    for slug, title, label, _ in QUAL:
+    for slug, title, label, _ in ([] if ONLY else QUAL):
         items = [j for j in jobs if slug in quals(j)]
         intro = [f"Here is the complete, daily-updated list of <strong>government jobs for {label}</strong> candidates in 2026 – central and state "
                  "recruitments from railways, SSC, banks, police, PSUs and state commissions.",
@@ -285,7 +286,7 @@ def main():
     by_state = {}
     for j in jobs:
         by_state.setdefault(state_of(j), []).append(j)
-    for st, items in sorted(by_state.items()):
+    for st, items in ([] if ONLY else sorted(by_state.items())):
         name = "Central Govt Jobs 2026" if st == "Central" else f"{st} Govt Jobs 2026"
         slug = "central-govt-jobs" if st == "Central" else slugify(st) + "-govt-jobs-2026"
         where = "all over India (central government, railways, banks, PSUs, defence)" if st == "Central" else st
@@ -301,7 +302,7 @@ def main():
             hub_links.append((name, link))
 
     # mock test hub page
-    if MOCK:
+    if MOCK and not ONLY:
         upsert_page("free-mock-test", "Free Mock Test Series 2026 – Online Test for Govt Exams", MOCK.hub_html(),
                     "Free Mock Test 2026 – Online Test Series for Govt Exams", "Free online mock tests for Police, Gujarat LRD, SSC, DSSSB, Railway, Bank, Teaching & PSC exams with timer, score and solutions.", pages_by_slug)
 
@@ -314,6 +315,8 @@ def main():
     # 3 + 4 + 5. related box, Hindi summary and mock-test banners on content pages
     changed = 0
     for p in every:
+        if ONLY and p["id"] not in ONLY:
+            continue
         c = p["content"]["raw"]
         new = c if p["_type"] == "posts" else replace_block(c, "related", related_block(p, every))
         if MOCK and p["_type"] in ("ej_job", "ej_admit_card", "ej_answer_key", "ej_syllabus", "ej_schedule", "posts"):

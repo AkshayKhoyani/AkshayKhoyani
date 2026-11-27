@@ -86,3 +86,12 @@ eligibility (one of: high school, associate degree, bachelor degree, professiona
 - `hubs.py` adds the animated "FREE MOCK TEST AVAILABLE" banner (top), a compact CTA (bottom) and a floating button to every job/admit card/answer key/syllabus/exam date/post page, matched to the exam by `mock/highlight.py` rules, and rebuilds the hub page /free-mock-test/.
 - Header menu (id 56) has a highlighted 🎯 Free Mock Test item; featured images of job pages show a MOCK TEST FREE ribbon.
 - To add tests: extend banks/generators and the SECTIONAL/FULL/EXAMS catalog in build_tests.py, run it, then run hubs.py.
+
+## Cost rule (owner, 27 Nov 2026) – STRICT
+- **Never call OpenAI, Gemini or any other paid AI/image API** (api.openai.com, generativelanguage.googleapis.com, etc.). No new AI images, no AI text generation, no AI voice.
+- Featured images are rendered locally from `featured.html` with the existing character library in `assets/characters/` only.
+
+## Premium page & image design (27 Nov 2026)
+- `wp.py render()` outputs the premium layout: Quick Summary card (6 key tiles + Apply / Notification / WhatsApp buttons), styled tables (`.ejp-t`), icon H2s, Important Links buttons, share box. All CSS is one inline line (`PCSS`).
+- `featured.html` v2: bold thumbnail style – sunburst rays, yellow slash, NEW VACANCY / RESULT OUT sticker, big POSTS burst, APPLY NOW button, 3 white chips (last date red), mock-test badge, character with white outline.
+- `upgrade.py` converts older pages to this layout and re-renders their images from their own data.

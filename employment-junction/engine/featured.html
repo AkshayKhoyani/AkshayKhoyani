@@ -2,55 +2,62 @@
 <html><head><meta charset="utf-8">
 <style>
 *{box-sizing:border-box;margin:0}
-:root{--accent:#ffb703;--accent2:#ff9933;--glow:rgba(255,183,3,.35)}
-body{width:1536px;height:1024px;font-family:Inter,sans-serif;color:#f8fafc;overflow:hidden;position:relative;
- background:radial-gradient(1200px 700px at 78% 55%,var(--glow),transparent 60%),radial-gradient(900px 600px at 0% 0%,rgba(37,99,235,.45),transparent 60%),linear-gradient(150deg,#0b2a66 0%,#071a3d 55%,#040d22 100%)}
-.grid{position:absolute;inset:0;background-image:linear-gradient(rgba(255,255,255,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(255,255,255,.045) 1px,transparent 1px);background-size:48px 48px;mask-image:linear-gradient(90deg,#000 0%,transparent 75%)}
-.ring{position:absolute;border-radius:50%;border:2px solid rgba(255,255,255,.10)}
-.r1{width:820px;height:820px;right:-120px;top:120px}.r2{width:600px;height:600px;right:-10px;top:230px;border-color:var(--glow)}
-.disc{position:absolute;right:40px;top:250px;width:640px;height:640px;border-radius:50%;background:radial-gradient(circle at 50% 40%,rgba(255,255,255,.16),rgba(255,255,255,.02) 65%,transparent 70%)}
-.char{position:absolute;right:30px;bottom:0;height:960px;filter:drop-shadow(0 30px 50px rgba(0,0,0,.55))}
-.spark{position:absolute;color:var(--accent);font-size:44px;opacity:.9}
-.top{position:absolute;left:72px;top:56px;display:flex;align-items:center;gap:20px}
-.logo{width:88px;height:88px;border-radius:22px;background:linear-gradient(135deg,#1554c0,#0b3d91);border:4px solid #ffb703;display:grid;place-items:center;font:900 40px Inter;color:#ffb703;box-shadow:0 10px 30px rgba(0,0,0,.35)}
-.brand b{display:block;font:900 31px Inter;letter-spacing:.6px}.brand span{color:#ffb703;font:900 31px Inter;letter-spacing:.6px}
-.main{position:absolute;left:72px;top:205px;width:830px}
-.tag{display:inline-flex;align-items:center;gap:12px;background:linear-gradient(90deg,var(--accent),var(--accent2));color:#071a3d;font:900 28px Inter;padding:12px 26px;border-radius:999px;box-shadow:0 8px 24px var(--glow);letter-spacing:.5px}
-.org{font:700 34px Inter;color:#93c5fd;margin:30px 0 14px}
-h1{font:900 72px/1.06 Inter;letter-spacing:-.5px;text-shadow:0 6px 24px rgba(0,0,0,.35)}
-h1 em{font-style:normal;background:linear-gradient(90deg,#ffd166,#ff9933);-webkit-background-clip:text;color:transparent}
-.chips{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:40px;width:820px}
-.chip{background:rgba(255,255,255,.08);border:1.5px solid rgba(255,255,255,.18);border-radius:22px;padding:18px 24px;backdrop-filter:blur(6px);box-shadow:inset 0 1px 0 rgba(255,255,255,.12)}
-.chip small{display:block;font:700 20px Inter;color:#9fb3d1;text-transform:uppercase;letter-spacing:1.2px;margin-bottom:6px}
-.chip b{font:900 36px Inter}
-.chip.hot{border-color:#f87171;background:linear-gradient(135deg,rgba(239,68,68,.28),rgba(239,68,68,.08))}
-.chip.hot b{color:#fecaca}
-.foot{position:absolute;left:72px;bottom:44px;display:flex;align-items:center;gap:14px;font:800 26px Inter;color:#cbd5e1}
-.foot i{width:12px;height:12px;border-radius:50%;background:#22c55e;box-shadow:0 0 12px #22c55e}
-.mock{position:absolute;right:0;top:56px;background:linear-gradient(90deg,#ff4d6d,#7c3aed);color:#fff;font:900 26px Inter;padding:14px 26px 14px 34px;border-radius:999px 0 0 999px;box-shadow:0 10px 30px rgba(124,58,237,.5);letter-spacing:.5px}
-.mock i{font-style:normal;background:#ffd166;color:#071a3d;border-radius:999px;padding:2px 10px;margin-left:8px;font-size:20px}
-.bar{position:absolute;bottom:0;left:0;right:0;height:14px;background:linear-gradient(90deg,#ff9933 0 33.3%,#fff 33.3% 66.6%,#138808 66.6%)}
+:root{--a:#ffd60a;--b:#ff3d3d;--bg1:#0a2a7a;--bg2:#06123a;--ray:rgba(255,214,10,.16)}
+body{width:1536px;height:1024px;overflow:hidden;position:relative;font-family:Inter,sans-serif;color:#fff;background:radial-gradient(900px 700px at 78% 52%,rgba(255,255,255,.16),transparent 60%),linear-gradient(135deg,var(--bg1),var(--bg2))}
+.rays{position:absolute;right:-260px;top:-180px;width:1400px;height:1400px;border-radius:50%;background:repeating-conic-gradient(var(--ray) 0 7deg,transparent 7deg 15deg);mask-image:radial-gradient(circle,#000 0 34%,transparent 62%);-webkit-mask-image:radial-gradient(circle,#000 0 34%,transparent 62%)}
+.dots{position:absolute;left:0;bottom:0;width:760px;height:520px;background-image:radial-gradient(rgba(255,255,255,.12) 2.2px,transparent 2.6px);background-size:22px 22px;mask-image:linear-gradient(20deg,#000,transparent 70%);-webkit-mask-image:linear-gradient(20deg,#000,transparent 70%)}
+.slash{position:absolute;left:-120px;top:0;width:220px;height:1100px;background:var(--a);transform:rotate(14deg);opacity:.95;box-shadow:0 0 60px rgba(0,0,0,.3)}
+.slash2{position:absolute;left:120px;top:0;width:26px;height:1100px;background:var(--b);transform:rotate(14deg)}
+.char{position:absolute;right:10px;bottom:0;height:990px;filter:drop-shadow(0 0 0 #fff) drop-shadow(6px 0 0 #fff) drop-shadow(-6px 0 0 #fff) drop-shadow(0 -6px 0 #fff) drop-shadow(0 30px 40px rgba(0,0,0,.55))}
+.top{position:absolute;left:200px;top:40px;display:flex;align-items:center;gap:16px}
+.logo{width:82px;height:82px;border-radius:20px;background:#fff;border:5px solid var(--a);display:grid;place-items:center;font:900 38px Inter;color:#0b3d91;box-shadow:0 8px 22px rgba(0,0,0,.35)}
+.brand b{display:block;font:900 30px Inter;letter-spacing:.5px;text-shadow:0 3px 0 rgba(0,0,0,.35)}.brand span{color:var(--a);font:900 30px Inter;letter-spacing:.5px;text-shadow:0 3px 0 rgba(0,0,0,.35)}
+.sticker{position:absolute;right:56px;top:40px;transform:rotate(6deg);background:var(--b);color:#fff;font:900 34px Inter;padding:14px 28px;border-radius:16px;border:5px solid #fff;box-shadow:0 12px 28px rgba(0,0,0,.4);letter-spacing:1px}
+.sticker small{display:block;font:800 18px Inter;color:var(--a);letter-spacing:2px}
+.main{position:absolute;left:200px;top:168px;width:640px}
+.cat{display:inline-block;background:var(--a);color:#0a0a0a;font:900 30px Inter;padding:10px 24px;border-radius:12px;transform:skewX(-8deg);box-shadow:6px 6px 0 rgba(0,0,0,.35);letter-spacing:.5px}
+.org{font:800 32px Inter;color:#dbeafe;margin:24px 0 10px;text-shadow:0 2px 0 rgba(0,0,0,.4)}
+h1{font:900 74px/1.02 Inter;letter-spacing:-1px;text-transform:uppercase;text-shadow:0 5px 0 rgba(0,0,0,.45),0 0 30px rgba(0,0,0,.35)}
+h1 em{font-style:normal;color:var(--a)}
+.burst{position:absolute;left:870px;top:340px;width:250px;height:250px;z-index:3;display:grid;place-items:center;text-align:center;color:#0a0a0a;background:var(--a);clip-path:polygon(50% 0,61% 13%,77% 6%,80% 23%,96% 27%,89% 42%,100% 55%,87% 64%,91% 81%,74% 82%,67% 98%,52% 88%,36% 98%,30% 82%,12% 84%,15% 66%,0 57%,10% 43%,3% 27%,19% 22%,22% 5%,38% 12%);filter:drop-shadow(0 10px 20px rgba(0,0,0,.4))}
+.burst b{display:block;font:900 58px/1 Inter;letter-spacing:-2px}.burst span{font:900 26px Inter;letter-spacing:2px}
+.chips{position:absolute;left:200px;top:810px;display:flex;gap:14px}
+.chip{background:#fff;color:#0f172a;border-radius:14px;padding:12px 20px;box-shadow:0 8px 18px rgba(0,0,0,.35);min-width:180px}
+.chip small{display:block;font:800 17px Inter;color:#64748b;text-transform:uppercase;letter-spacing:1px}
+.chip b{font:900 32px Inter}
+.chip.hot{background:var(--b);color:#fff}.chip.hot small{color:#ffe4e6}
+.apply{position:absolute;left:200px;top:700px;display:inline-flex;align-items:center;gap:12px;background:linear-gradient(180deg,#22c55e,#15803d);color:#fff;font:900 34px Inter;padding:16px 30px;border-radius:999px;border:4px solid #fff;box-shadow:0 10px 24px rgba(0,0,0,.4)}
+.foot{position:absolute;left:0;right:0;bottom:0;height:62px;background:#0a0a0a;display:flex;align-items:center;justify-content:space-between;padding:0 40px 0 200px}
+.foot span{font:800 26px Inter;color:#fff}.foot span b{color:var(--a)}
+.mock{background:linear-gradient(90deg,#ff4d6d,#7c3aed);color:#fff;font:900 24px Inter;padding:8px 18px;border-radius:999px}
+.tri{position:absolute;left:0;right:0;bottom:62px;height:10px;background:linear-gradient(90deg,#ff9933 0 33.3%,#fff 33.3% 66.6%,#138808 66.6%)}
 </style></head>
 <body>
-<div class="grid"></div><div class="ring r1"></div><div class="ring r2"></div><div class="disc"></div>
+<div class="rays"></div><div class="dots"></div><div class="slash"></div><div class="slash2"></div>
 <img class="char" id="char" alt="">
-<div class="spark" style="right:640px;top:210px">✦</div><div class="spark" style="right:90px;top:170px;font-size:30px">✦</div><div class="spark" style="right:600px;top:780px;font-size:26px;opacity:.6">✦</div>
 <div class="top"><div class="logo">EJ</div><div class="brand"><b>EMPLOYMENT</b><span>JUNCTION</span></div></div>
-<div class="main"><div class="tag" id="tag"></div><div class="org" id="org"></div><h1 id="h"></h1><div class="chips" id="chips"></div></div>
-<div class="foot"><i></i>employmentjunction.in · Sarkari Naukri ki har khabar</div>
-<div class="mock" id="mock" style="display:none">🎯 MOCK TEST<i>FREE</i></div>
-<div class="bar"></div>
+<div class="sticker" id="sticker"></div>
+<div class="main"><div class="cat" id="tag"></div><div class="org" id="org"></div><h1 id="h"></h1></div>
+<div class="burst" id="burst"><div><b id="bn"></b><span id="bl"></span></div></div>
+<div class="apply" id="apply"></div>
+<div class="chips" id="chips"></div>
+<div class="tri"></div>
+<div class="foot"><span>🌐 <b>employmentjunction.in</b> · Sarkari Naukri ki har khabar</span><span class="mock" id="mock">🎯 FREE MOCK TEST</span></div>
 <script>
 const D = __DATA__;
-const THEMES = {gold:['#ffb703','#ff9933','rgba(255,183,3,.35)'],green:['#4ade80','#22c55e','rgba(34,197,94,.33)'],sky:['#7dd3fc','#38bdf8','rgba(56,189,248,.33)'],
-  rose:['#fda4af','#f43f5e','rgba(244,63,94,.30)'],violet:['#c4b5fd','#8b5cf6','rgba(139,92,246,.33)']};
-const t = THEMES[D.theme || 'gold'];
-document.documentElement.style.setProperty('--accent', t[0]); document.documentElement.style.setProperty('--accent2', t[1]); document.documentElement.style.setProperty('--glow', t[2]);
-document.getElementById('tag').textContent = D.tag;
-document.getElementById('org').textContent = D.org;
-document.getElementById('h').innerHTML = D.headline;
-document.getElementById('chips').innerHTML = D.chips.slice(0, 4).map(([k, v, hot]) => `<div class="chip${hot ? ' hot' : ''}"><small>${k}</small><b>${v}</b></div>`).join('');
-document.getElementById('char').src = D.character_src;
-if (D.mock) document.getElementById('mock').style.display = 'block';
+const T = {gold:['#ffd60a','#ff3d3d','#0a2a7a','#06123a','rgba(255,214,10,.16)'],green:['#ffd60a','#e11d48','#065f46','#022c22','rgba(255,214,10,.14)'],
+  sky:['#ffd60a','#ff3d3d','#0c4a8a','#041a3a','rgba(125,211,252,.18)'],rose:['#ffd60a','#be123c','#7f1d3a','#2a0a16','rgba(255,214,10,.14)'],
+  violet:['#ffd60a','#ff3d3d','#4c1d95','#1e0a3c','rgba(255,214,10,.14)'],red:['#ffd60a','#1d4ed8','#9f1239','#3b0716','rgba(255,214,10,.16)']}[D.theme || 'gold'];
+const R = document.documentElement.style; ['--a','--b','--bg1','--bg2','--ray'].forEach((k,i)=>R.setProperty(k,T[i]));
+const $ = id => document.getElementById(id);
+$('tag').textContent = D.tag; $('org').textContent = D.org; $('h').innerHTML = D.headline;
+$('sticker').innerHTML = (D.sticker || 'NEW VACANCY') + '<small>' + (D.sticker_sub || '2026 · APPLY ONLINE') + '</small>';
+if (D.big) { $('bn').textContent = D.big; $('bl').textContent = D.big_label || 'POSTS'; } else $('burst').style.display = 'none';
+$('apply').textContent = (D.cta || 'APPLY NOW') + ' ▶';
+$('chips').innerHTML = (D.chips || []).slice(0, 3).map(([k, v, hot]) => `<div class="chip${hot ? ' hot' : ''}"><small>${k}</small><b>${v}</b></div>`).join('');
+$('char').src = D.character_src;
+if (!D.mock) $('mock').style.display = 'none';
+// auto-shrink the headline so it never runs into the burst/character
+const h = $('h'); let fs = 74; while ((h.scrollWidth > 640 || h.offsetHeight > 300) && fs > 42) { fs -= 2; h.style.fontSize = fs + 'px'; }
 </script>
 </body></html>

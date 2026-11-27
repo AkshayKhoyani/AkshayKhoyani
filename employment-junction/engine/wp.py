@@ -41,49 +41,115 @@ def req(method, path, data=None, headers=None, raw=None):
 e = html.escape
 
 
+PCSS = (".ejp{contain:inline-size;max-width:100%;font-size:17px;line-height:1.7}"
+        ".ejp h2{position:relative;margin:34px 0 14px!important;padding:12px 16px 12px 18px!important;border-radius:12px;background:linear-gradient(90deg,#eef4ff,#fff);border-left:6px solid #0b3d91;color:#0b2a66!important;font-size:24px!important;line-height:1.3}"
+        ".ejp h3{color:#0b3d91!important;margin:20px 0 6px!important}"
+        ".ejp-t{width:100%;border-collapse:separate!important;border-spacing:0;border-radius:14px;overflow:hidden;box-shadow:0 6px 20px rgba(11,61,145,.10);border:1px solid #dbe4f3;margin:10px 0 18px;font-size:16px}"
+        ".ejp-t th{background:linear-gradient(90deg,#0b3d91,#1554c0);color:#fff;text-align:left;padding:12px 14px}"
+        ".ejp-t td{padding:11px 14px;border-top:1px solid #e8eef8;vertical-align:top;overflow-wrap:anywhere}.ejp-t tr:nth-child(even) td{background:#f6f9ff}"
+        ".ejp-t td:first-child{font-weight:700;color:#0f172a;width:38%}"
+        ".ejp-sum{border-radius:20px;padding:3px;background:linear-gradient(120deg,#ffb703,#ff4d6d,#1554c0);margin:8px 0 22px;box-shadow:0 12px 30px rgba(11,61,145,.18)}"
+        ".ejp-sum>div{border-radius:17px;background:linear-gradient(160deg,#0b2a66,#071a3d);color:#fff;padding:20px}"
+        ".ejp-sum h4{margin:0 0 14px!important;color:#ffd166!important;font-size:20px;letter-spacing:.3px}"
+        ".ejp-g{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}"
+        ".ejp-g div{background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.16);border-radius:12px;padding:10px 12px}"
+        ".ejp-g small{display:block;color:#9fb3d1;font-size:12px;text-transform:uppercase;letter-spacing:.8px;font-weight:700}.ejp-g b{color:#fff;font-size:16px;overflow-wrap:anywhere}"
+        ".ejp-g .hot{background:rgba(239,68,68,.22);border-color:#f87171}"
+        ".ejp-bt{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}"
+        ".ejp-btn{display:inline-flex;align-items:center;gap:8px;font-weight:900;font-size:16px;padding:12px 18px;border-radius:12px;text-decoration:none!important;color:#fff!important;box-shadow:0 6px 16px rgba(0,0,0,.18)}"
+        ".ejp-btn.ap{background:linear-gradient(180deg,#22c55e,#15803d)}.ejp-btn.nt{background:linear-gradient(180deg,#3b82f6,#1d4ed8)}"
+        ".ejp-btn.wa{background:#25d366}.ejp-btn.tg{background:#229ed9}.ejp-btn.ow{background:linear-gradient(180deg,#f59e0b,#d97706)}"
+        ".ejp-note{background:#fffbeb;border:1px solid #fde68a;border-left:6px solid #f59e0b;border-radius:12px;padding:12px 16px;color:#78350f;font-size:15px}"
+        ".ejp-share{text-align:center;border:2px dashed #c7d2fe;border-radius:16px;padding:16px;margin:24px 0;background:#f8faff}"
+        ".ejp-share p{margin:0 0 10px!important;font-weight:800;color:#0b2a66}")
+ICONS = {"vacancy": "📊", "eligib": "🎓", "qualif": "🎓", "age": "🎂", "fee": "💰", "date": "📅", "selection": "✅", "apply": "📝", "salary": "💵",
+         "pay": "💵", "link": "🔗", "syllabus": "📚", "pattern": "📚", "result": "🏆", "download": "⬇️", "cut": "📈", "answer": "🔑", "faq": "❓"}
+
+
+def _icon(h):
+    hl = h.lower()
+    for k, v in ICONS.items():
+        if k in hl:
+            return v + " "
+    return "📌 "
+
+
+def _table(head, rows):
+    trs = "<tr>" + "".join(f"<th>{e(x)}</th>" for x in head) + "</tr>"
+    for r in rows:
+        trs += "<tr>" + "".join(f"<td>{c if str(c).startswith('<a ') else e(c)}</td>" for c in r) + "</tr>"
+    return f'<table class="ejp-t"><tbody>{trs}</tbody></table>'
+
+
+TILE_ORDER = ["total posts", "posts", "vacanc", "qualif", "eligib", "age", "fee", "salary", "pay", "start", "last date", "exam date", "result date", "release", "mode", "website"]
+
+
+def pick_tiles(rows, n=6):
+    """The 6 facts readers look for first, in a fixed order; last date always included."""
+    picked = []
+    for key in TILE_ORDER:
+        for k, v in rows:
+            if key in k.lower() and (k, v) not in picked and len(v) < 90:
+                picked.append((k, v)); break
+    last = [r for r in picked if "last" in r[0].lower()]
+    out = [r for r in picked if r not in last][: n - len(last)] + last
+    return out or rows[:n]
+
+
 def render(s):
-    """Job spec -> post HTML matching the site's existing posts."""
-    # no H1 here: the theme prints the post title as the page's only H1
-    out = []
+    """Job spec -> premium post HTML (no H1: the theme prints the title as the page's only H1)."""
+    links = s.get("links", [])
+    apply = next((v for k, v in links if "apply" in k.lower()), links[0][1] if links else "")
+    notif = next((v for k, v in links if "notif" in k.lower() or "pdf" in k.lower()), "")
+    slug = s.get("slug", "")
+    ptype = s.get("type", "ej_job")
+    base = {"ej_job": "jobs", "ej_admit_card": "admit-card", "ej_result": "results", "ej_answer_key": "answer-key",
+            "ej_syllabus": "syllabus", "ej_schedule": "exam-dates", "posts": ""}.get(ptype, "jobs")
+    url = f"{SITE}/{base + '/' if base else ''}{slug}/"
+    from urllib.parse import quote
+    wa = "https://wa.me/?text=" + quote(f"{s['title']}\n👉 {url}")
+    tg = "https://t.me/share/url?url=" + quote(url) + "&text=" + quote(s["title"])
+    out = [f"<style>{PCSS}</style>", '<div class="ejp">']
+    # quick summary card
+    tiles = "".join(f'<div class="{"hot" if "last" in k.lower() else ""}"><small>{e(k)}</small><b>{e(v)}</b></div>' for k, v in pick_tiles(s["table"]))
+    btns = ""
+    if apply:
+        btns += f'<a class="ejp-btn ap" href="{e(apply)}" target="_blank" rel="noopener nofollow">📝 {"Apply Online" if ptype in ("ej_job", "posts") else "Official Link"}</a>'
+    if notif and notif != apply:
+        btns += f'<a class="ejp-btn nt" href="{e(notif)}" target="_blank" rel="noopener nofollow">📄 Notification</a>'
+    btns += f'<a class="ejp-btn wa" href="{wa}" target="_blank" rel="noopener">💬 WhatsApp Share</a>'
+    out.append(f'<div class="ejp-sum"><div><h4>⚡ Quick Summary – {e(s["short"])}</h4><div class="ejp-g">{tiles}</div><div class="ejp-bt">{btns}</div></div></div>')
     out.append("<p>" + "<br />".join(f"<strong>{e(k)}:</strong> {e(v)}" for k, v in s["summary"]) + "</p>")
     out += [f"<p>{p}</p>" for p in s["intro"]]
-    rows = [f'<tr style="background: #0b5ed7; color: #fff;"><th {TH}>Particular</th><th {TH}>Details</th></tr>']
-    for i, (k, v) in enumerate(s["table"]):
-        bg = ' style="background: #f6f6f6;"' if i % 2 else ""
-        rows.append(f"<tr{bg}><td {TD}><b>{e(k)}</b></td><td {TD}>{e(v)}</td></tr>")
-    out.append('<table style="width: 100%; border-collapse: collapse; font-size: 16px;"><tbody>' + "".join(rows) + "</tbody></table>")
+    out.append(f"<h2>📋 {e(s['short'])} – Overview</h2>")
+    out.append(_table(["Particular", "Details"], s["table"]))
     for sec in s["sections"]:
-        out.append(f"<h2>{e(sec['h'])}</h2>")
-        for p in sec.get("p", []):
-            out.append(f"<p>{p}</p>")
+        out.append(f"<h2>{_icon(sec['h'])}{e(sec['h'])}</h2>")
+        out += [f"<p>{p}</p>" for p in sec.get("p", [])]
         if sec.get("table"):
-            th = sec.get("th", ["Particular", "Details"])
-            rows = [f'<tr style="background: #0b5ed7; color: #fff;">' + "".join(f"<th {TH}>{e(x)}</th>" for x in th) + "</tr>"]
-            for i, r in enumerate(sec["table"]):
-                bg = ' style="background: #f6f6f6;"' if i % 2 else ""
-                rows.append(f"<tr{bg}>" + "".join(f"<td {TD}>{'<b>' + e(c) + '</b>' if j == 0 else e(c)}</td>" for j, c in enumerate(r)) + "</tr>")
-            out.append('<table style="width: 100%; border-collapse: collapse; font-size: 16px;"><tbody>' + "".join(rows) + "</tbody></table>")
+            out.append(_table(sec.get("th", ["Particular", "Details"]), sec["table"]))
         if sec.get("ul"):
             out.append("<ul>" + "".join(f"<li>{x}</li>" for x in sec["ul"]) + "</ul>")
         if sec.get("ol"):
             out.append("<ol>" + "".join(f"<li>{x}</li>" for x in sec["ol"]) + "</ol>")
-        for p in sec.get("after", []):
-            out.append(f"<p>{p}</p>")
-    if s.get("links"):
-        out.append("<h2>Important Links</h2>")
-        rows = [f'<tr style="background: #0b5ed7; color: #fff;"><th {TH}>Link</th><th {TH}>URL</th></tr>']
-        for k, v in s["links"]:
-            rows.append(f'<tr><td {TD}><b>{e(k)}</b></td><td {TD}><a href="{e(v)}" target="_blank" rel="noopener nofollow">{e(v)}</a></td></tr>')
-        out.append('<table style="width: 100%; border-collapse: collapse; font-size: 16px;"><tbody>' + "".join(rows) + "</tbody></table>")
-    out.append(f"<h2>{e(s['short'])} – Frequently Asked Questions (FAQ)</h2>")
-    for q, a in s["faq"]:
-        out.append(f"<h3>{e(q)}</h3><p>{a}</p>")
-    out.append("<h2>Final Words</h2>")
+        out += [f"<p>{p}</p>" for p in sec.get("after", [])]
+    if links:
+        out.append("<h2>🔗 Important Links</h2>")
+        out.append('<div class="ejp-bt">' + "".join(
+            f'<a class="ejp-btn {"ap" if "apply" in k.lower() else "nt" if ("notif" in k.lower() or "pdf" in k.lower()) else "ow"}" href="{e(v)}" target="_blank" rel="noopener nofollow">{e(k)} →</a>'
+            for k, v in links) + "</div>")
+        out.append(_table(["Link", "Open"], [[k, f'<a href="{e(v)}" target="_blank" rel="noopener nofollow">Click Here</a>'] for k, v in links]))
+    out.append(f"<h2>❓ {e(s['short'])} – Frequently Asked Questions (FAQ)</h2>")
+    for q, a_ in s["faq"]:
+        out.append(f"<h3>{e(q)}</h3><p>{a_}</p>")
+    out.append("<h2>📝 Final Words</h2>")
     out += [f"<p>{p}</p>" for p in s["final"]]
-    out.append('<p><em>Disclaimer: Employment Junction is an independent information portal and is not affiliated with any government '
-               'body. Always verify details from the official notification before applying. We never charge money for any job.</em></p>')
+    out.append(f'<div class="ejp-share"><p>📢 Is bharti ki jaankari doston ke saath share karein</p><div class="ejp-bt" style="justify-content:center">'
+               f'<a class="ejp-btn wa" href="{wa}" target="_blank" rel="noopener">💬 WhatsApp</a><a class="ejp-btn tg" href="{tg}" target="_blank" rel="noopener">✈️ Telegram</a></div></div>')
+    out.append('<p class="ejp-note"><strong>Disclaimer:</strong> Employment Junction is an independent information portal and is not affiliated with any government '
+               'body. Always verify details from the official notification before applying. We never charge money for any job.</p>')
+    out.append("</div>")
     html_out = "\n".join(out)
-    # make every Instagram handle mention clickable
     ig = '<a href="https://www.instagram.com/employmentjunction.in/" target="_blank" rel="noopener">@employmentjunction.in</a>'
     return html_out.replace("<strong>@employmentjunction.in</strong>", "<strong>" + ig + "</strong>")
 
@@ -101,7 +167,12 @@ CHAR_RULES = [
     (("bank", "sbi", "ibps", "rbi", "nabard", "po ", "clerk", "exim", "sidbi"), "bank"),
 ]
 TYPE_CHAR = {"ej_result": "student_result", "ej_admit_card": "admit_card", "ej_answer_key": "answer_key", "ej_syllabus": "admit_card"}
-THEME = {"student_result": "green", "admit_card": "sky", "answer_key": "violet", "medical": "rose", "defence": "green"}
+THEME = {"student_result": "green", "admit_card": "sky", "answer_key": "violet", "medical": "rose", "defence": "green", "police": "red",
+         "railway": "sky", "bank": "green", "teacher": "violet", "engineer": "gold", "apprentice": "gold", "office": "gold"}
+STICKER = {"ej_job": ("NEW VACANCY", "2026 · APPLY ONLINE", "APPLY NOW"), "ej_admit_card": ("ADMIT CARD OUT", "DOWNLOAD NOW", "DOWNLOAD NOW"),
+           "ej_result": ("RESULT OUT", "CHECK NOW", "CHECK RESULT"), "ej_answer_key": ("ANSWER KEY OUT", "CHECK & OBJECT", "CHECK ANSWER KEY"),
+           "ej_syllabus": ("SYLLABUS 2026", "EXAM PATTERN", "DOWNLOAD PDF"), "ej_schedule": ("EXAM DATE OUT", "SCHEDULE", "CHECK DATES"),
+           "ej_test": ("FREE MOCK TEST", "TIMER · SOLUTIONS", "START TEST"), "posts": ("NEW VACANCY", "2026 · APPLY ONLINE", "APPLY NOW")}
 
 
 def pick_character(s):
@@ -127,6 +198,16 @@ def featured_image(s, path):
         src = os.path.join(CHAR_DIR, "office.webp")
     data["character_src"] = "file://" + src
     data.setdefault("theme", THEME.get(ch, "gold"))
+    ptype = s.get("type", "ej_job")
+    st = STICKER.get(ptype, STICKER["ej_job"])
+    data.setdefault("sticker", st[0]); data.setdefault("sticker_sub", st[1]); data.setdefault("cta", st[2])
+    vac = s.get("job", {}).get("vacancies") or 0
+    if "big" not in data and vac:
+        data["big"] = f"{vac:,}"
+    # put the last-date chip last and highlighted; keep 3 chips max (the burst shows the post count)
+    chips = [c for c in data.get("chips", []) if not str(c[0]).lower().startswith(("posts", "total"))]
+    hot = [c for c in chips if len(c) > 2 and c[2]]
+    data["chips"] = ([c for c in chips if c not in hot][:3 - len(hot[:1])] + hot[:1])
     # job / admit card / syllabus pages link to a free mock test -> show the ribbon
     data.setdefault("mock", s.get("type", "ej_job") in ("ej_job", "ej_admit_card", "ej_syllabus", "ej_answer_key"))
     tpl = open(os.path.join(HERE, "featured.html")).read()
