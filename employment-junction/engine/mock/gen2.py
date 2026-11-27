@@ -120,7 +120,10 @@ TOPIC_GENS = {
 
 
 def gen_topic(topic, seed, n):
-    funcs = TOPIC_GENS.get(topic)
+    return gen_funcs(TOPIC_GENS.get(topic), seed, n)
+
+
+def gen_funcs(funcs, seed, n):
     if not funcs or n <= 0:
         return []
     rng, out, tries = random.Random(seed), [], 0
