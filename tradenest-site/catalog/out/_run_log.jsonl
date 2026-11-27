@@ -85,3 +85,4 @@
 {"slug": "spray-dried-chicory-powder", "status": "done", "qa_failed": {}}
 {"slug": "spray-dried-carrot-powder", "status": "done", "qa_failed": {}}
 {"slug": "spray-dried-coriander-powder", "status": "done", "qa_failed": {"04-bulk.jpg": "'Naturals' is misspelled as 'Naturais' on the left pouch; Garbled text 'COODNESS FROM NATURE' on the left pouch; Gibberish text 'Meds From Coriander Leen\u00e9s' on the left pouch badge; Garbled text 'GOOONESS FRON NATURE' on the right pouch; Malformed text 'Leavce' in 'Made from Coriander Leavce' on the right pouch badge"}}
+{"slug": "spray-dried-garlic-powder", "status": "done", "qa_failed": {}}
