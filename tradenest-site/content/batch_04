@@ -1,0 +1,14 @@
+232 src/232.json  SPEC FACTS: {"product": "Beetroot Powder", "processing": "Fine Milled", "mesh": "80 Mesh", "moisture": "≤ 8%", "shelf_life": "12-24 Months", "hs_code": "0712.90", "moq": "5 Kg"}
+440 src/440.json  SPEC FACTS: {"product": "Bhringraj Powder", "processing": "Dehydrated", "mesh": "100 Mesh", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+442 src/442.json  SPEC FACTS: {"product": "Karela Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 7.0%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+444 src/444.json  SPEC FACTS: {"product": "Jamun Seed Powder", "processing": "Fine Milled", "mesh": "80-100 Mesh", "moisture": "≤ 7%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+446 src/446.json  SPEC FACTS: {"product": "Safed Musli Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "< 7.0%", "shelf_life": "24 Months", "hs_code": "13021990", "moq": "5 Kg"}
+402 src/402.json  SPEC FACTS: {"product": "Barley Grass Powder", "processing": "Fine Milled", "mesh": "80-100 Mesh", "moisture": "< 5.0%", "shelf_life": "24 Months", "hs_code": "12129990", "moq": "5 Kg"}
+414 src/414.json  SPEC FACTS: {"product": "Bahera Powder", "processing": "Fine Milled", "mesh": "80-100 Mesh", "moisture": "< 8.0%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+410 src/410.json  SPEC FACTS: {"product": "Bhumi Amla Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "< 7%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+404 src/404.json  SPEC FACTS: {"product": "Brahmi Leaf Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 7.0%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+368 src/368.json  SPEC FACTS: {"product": "Fenugreek Seeds", "processing": "Dehydrated", "mesh": "Whole seeds", "moisture": "≤ 8%", "shelf_life": "12 Months", "hs_code": "0910.99.90", "moq": "5 Kg"}
+365 src/365.json  SPEC FACTS: {"product": "Basil Seeds", "processing": "Dehydrated", "mesh": "16-30 Mesh", "moisture": "≤ 8%", "shelf_life": "12 Months", "hs_code": "12119099 (indicative", "moq": "5 Kg"}
+359 src/359.json  SPEC FACTS: {"product": "Dried Bay Leaves", "processing": "Dehydrated", "mesh": "Whole leaf", "moisture": "≤ 10%", "shelf_life": "12 Months", "hs_code": "0910.99", "moq": "5 Kg"}
+211 src/211.json  SPEC FACTS: {"product": "Dehydrated Tomato Flakes", "processing": "Dehydrated", "mesh": "8-16 Mesh", "moisture": "≤ 5%", "shelf_life": "12 Months", "hs_code": "07129090", "moq": "5 Kg"}
+311 src/311.json  SPEC FACTS: {"product": "Raw Banana Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "< 8%", "shelf_life": "24 Months", "hs_code": "11063010", "moq": "5 Kg"}

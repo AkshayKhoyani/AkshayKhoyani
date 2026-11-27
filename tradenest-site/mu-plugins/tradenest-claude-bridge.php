@@ -494,7 +494,7 @@ var full=function(u){return u.replace(/-\d+x\d+(\.\w+)$/,'$1');};
 var tiles=[].slice.call(grid.children);
 var mk=function(src,srcset){var d=document.createElement('div');d.className=tiles[0]?tiles[0].className:'';var i=document.createElement('img');i.src=src;i.className='w-full h-full object-cover';i.alt=main.alt;i.loading='lazy';d.appendChild(i);d.dataset.full=src;d.dataset.srcset=srcset;return d;};
 var all=[mk(first.src,first.srcset)];tiles.forEach(function(t){var im=t.querySelector('img');if(im){t.dataset.full=full(im.src);t.dataset.srcset='';all.push(t);}});
-grid.innerHTML='';grid.className='grid grid-cols-5 gap-2';all.forEach(function(t,ix){t.classList.add('tn-g-thumb');if(!ix){t.classList.add('is-active');}t.setAttribute('role','button');t.setAttribute('tabindex','0');
+grid.innerHTML='';grid.style.cssText='display:grid;grid-template-columns:repeat('+Math.min(all.length,5)+',minmax(0,1fr));gap:8px';all.forEach(function(t,ix){t.classList.add('tn-g-thumb');if(!ix){t.classList.add('is-active');}t.setAttribute('role','button');t.setAttribute('tabindex','0');
 var go=function(){main.removeAttribute('srcset');main.src=t.dataset.full;if(t.dataset.srcset){main.setAttribute('srcset',t.dataset.srcset);}all.forEach(function(x){x.classList.remove('is-active');});t.classList.add('is-active');};
 t.addEventListener('click',go);t.addEventListener('keydown',function(e){if(e.key==='Enter'){go();}});grid.appendChild(t);});}());
 </script>

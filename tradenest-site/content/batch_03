@@ -1,0 +1,13 @@
+363 src/363.json  SPEC FACTS: {"product": "Dehydrated Oregano Leaves", "processing": "Dehydrated", "mesh": "8-16 Mesh cut leaves", "moisture": "≤ 8%", "shelf_life": "18 Months", "hs_code": "1211.90", "moq": "5 Kg"}
+327 src/327.json  SPEC FACTS: {"product": "Coriander Powder", "processing": "Dehydrated", "mesh": "80 / 100 Mesh options", "moisture": "≤ 10%", "shelf_life": "12 Months", "hs_code": "09092200", "moq": "5 Kg"}
+318 src/318.json  SPEC FACTS: {"product": "Red Chilli Powder", "processing": "Fine Milled", "mesh": "60-100 Mesh", "moisture": "≤ 8%", "shelf_life": "12 Months", "hs_code": "0904.22", "moq": "5 Kg"}
+316 src/316.json  SPEC FACTS: {"product": "Turmeric Powder", "processing": "Fine Milled", "mesh": "80 Mesh", "moisture": "≤ 10%", "shelf_life": "24 Months", "hs_code": "09103000", "moq": "5 Kg"}
+307 src/307.json  SPEC FACTS: {"product": "Lemon Juice Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "≤ 5.0%", "shelf_life": "24 Months", "hs_code": "21069099", "moq": "5 Kg"}
+357 src/357.json  SPEC FACTS: {"product": "Dehydrated Basil Leaves", "processing": "Dehydrated", "mesh": "8-16 Mesh", "moisture": "≤ 8%", "shelf_life": "12 Months", "hs_code": "09109990 (typical classification", "moq": "5 Kg"}
+355 src/355.json  SPEC FACTS: {"product": "Dehydrated Rosemary Leaves", "processing": "Dehydrated", "mesh": "10-20 Mesh for cut leaf", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "0910.99", "moq": "5 Kg"}
+353 src/353.json  SPEC FACTS: {"product": "Dehydrated Thyme Leaves", "processing": "Dehydrated", "mesh": "8-16 Mesh leaf cut", "moisture": "≤ 8%", "shelf_life": "12 Months", "hs_code": "0910.99", "moq": "5 Kg"}
+301 src/301.json  SPEC FACTS: {"product": "Kasuri Methi", "processing": "Dehydrated", "mesh": "Whole leaves / crushed flakes", "moisture": "< 8.0%", "shelf_life": "24 Months", "hs_code": "07129090", "moq": "5 Kg"}
+212 src/212.json  SPEC FACTS: {"product": "Tomato Powder", "processing": "Spray Dried", "mesh": "80 Mesh", "moisture": "≤ 6%", "shelf_life": "12 Months", "hs_code": "0712.90", "moq": "5 Kg"}
+218 src/218.json  SPEC FACTS: {"product": "Dehydrated Potato Powder", "processing": "Dehydrated", "mesh": "80 Mesh", "moisture": "≤ 8%", "shelf_life": "12 Months", "hs_code": "11051000", "moq": "5 Kg"}
+223 src/223.json  SPEC FACTS: {"product": "Dehydrated Potato Flakes", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 8%", "shelf_life": "12 Months", "hs_code": "1105.20", "moq": "5 Kg"}
+235 src/235.json  SPEC FACTS: {"product": "Dehydrated Beetroot Flakes", "processing": "Dehydrated", "mesh": "4-8 Mesh", "moisture": "≤ 8%", "shelf_life": "12 Months", "hs_code": "0712.90", "moq": "5 Kg"}
