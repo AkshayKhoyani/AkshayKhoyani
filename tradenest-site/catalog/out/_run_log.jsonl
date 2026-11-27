@@ -79,3 +79,4 @@
 {"slug": "shikakai-powder", "status": "done", "qa_failed": {}}
 {"slug": "shatavari-powder", "status": "done", "qa_failed": {}}
 {"slug": "spray-dried-beetroot-powder", "status": "done", "qa_failed": {}}
+{"slug": "spinach-leaf-powder", "status": "done", "qa_failed": {"04-bulk.jpg": "Misspelled brand name on the right pouch: 'urais'; Garbled product name on the right pouch: 'inach af wder'; Malformed/gibberish text on the right pouch badge: 'Dohydrated Cpinsch Leeves'"}}
