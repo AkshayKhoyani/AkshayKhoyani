@@ -1,14 +1,16 @@
 # Finance Junction: roz ka schedule (scheduled tasks isi file ko follow karte hain)
 User ka order (27 Nov 2026). Repo `AkshayKhoyani/AkshayKhoyani`, branch `claude/finance-videos-pz24zv` (sirf isi par push).
 
-## Schedule (IST)
-| Slot | Kab | Reel |
-|---|---|---|
-| A | Mon–Fri ~3:52 PM (market close ke baad), post ~4:30 PM | **"Aaj market mein kya hua"**: Sensex/Nifty close, sabse bade gainers/losers sector, 2–3 wajah, ek "aage kya" line |
-| B | Mon–Thu ~6:41 PM, post ~7:15 PM | **"Kal market mein kya hoga"**: GIFT Nifty (agar mile), global cues, agle din ke events/results/data, levels nahi, prediction nahi |
-| W | Fri ~6:41 PM (slot B ki jagah) | **"Agle hafte ke dhamake"**: agle hafte ki zaroori dates (data, RBI/Fed, results, IPO, expiry, chhuttiyan) |
-| N (BAND, 27 Nov: user ne din ki 2 reels kahi) | Tue–Sat ~2:51 AM | **"America mein kya hua + India par asar"**: Dow/S&P/Nasdaq close, Europe close, crude, dollar, bade US stocks; India ke liye kya matlab (prediction nahi) |
-| Subah / dopahar | abhi KHAALI | user baad mein batayega. Purani evergreen QUEUE.md wali reels **band** |
+## Schedule (IST): din mein max 2 reels, views ke hisaab se timing
+| Slot | Run shuru | Post (lagbhag) | Reel |
+|---|---|---|---|
+| A | Mon–Fri 4:41 PM | ~5:30 PM (office se ghar, commute scroll) | **"Aaj market mein kya hua"**: Sensex/Nifty close, sector winners/losers, 2–3 wajah, ek "aage kya" line |
+| B | Mon–Thu 7:51 PM | ~8:30–9 PM (prime time) | **"Kal market mein kya dekhna hai"**: agle trading din ke events/data/results, global cues (US futures, crude, dollar); prediction nahi |
+| W | Sunday 7:51 PM | ~8:30–9 PM | **"Agle hafte ke dhamake"**: agle hafte ki zaroori dates + hafte ka recap. Agar is hafte ka weekly reel pehle hi post ho chuka (LOG.md dekho), to skip |
+| N, subah, dopahar | BAND | | user baad mein batayega |
+
+**Timing review (har Sunday W run ke saath):** `GET graph.facebook.com/v21.0/17841415627923533/media?fields=timestamp,like_count,comments_count` se
+pichle 2 hafte ke posts ka IST time vs likes/comments dekho. Koi slot lagatar kam chale aur doosra time behtar dikhe, to LOG.md mein likho aur final report mein user ko suggest karo (trigger khud mat badlo).
 
 Chhutti: NSE band ho to slot A mat banao; agle din chhutti ho to slot B "agle trading day" ke baare mein. US market band ho to slot N mat banao.
 Har run sirf apne slot ki EK reel banata hai. **Din mein sirf 2 reels** (slot A + slot B/W). Slot B mein US futures / pichli raat ke US close ka ek point daal sakte ho.

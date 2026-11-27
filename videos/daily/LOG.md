@@ -12,3 +12,4 @@
 | 2026-11-25 (raat) | 26-nov-pre-market-5-khabar (40s, terminal theme, countdown) | el | US 25 Nov close / GIFT Nifty bahar (pakka nahi) |
 | 2026-11-26 | loan-app-trap (33s), index-fund (29s), gold-vs-nifty-10-saal (29s) (auto run) | el | Gold vs SIP ko lumpsum Gold vs Nifty banaya; index fund flat frame timing shift se theek |
 | 2026-11-27 | sip-step-up-10 (30s), ppf-15-saal (30s), fd-tds-kyun-katta (29s) (auto run) | el | Sab smooth; TDS niyam tax blogs se (CBDT text nahi), form ka naam nahi liya |
+- 2026-11-27 (W, weekly 30 Nov–9 Dec) agle-hafte-4-dhamake: NEWS CITY + Junction Bhai, Bunty v4, posted https://www.instagram.com/reel/DgQEkilILnB/ (main session). Is hafte ka weekly ho gaya; 29 Nov Sunday W run skip kare.
