@@ -15,7 +15,7 @@ Har run sirf apne slot ki EK reel banata hai.
 
 ## Har reel ke steps
 1. `git pull`; `cd videos/engine && npm install` (pehli baar).
-2. Research (WebSearch + jo sites khuli hon). Har number SOURCE RULES ke hisaab se. Closing data market band hone ke **baad** lo.
+2. Research: internet ab khula hai. Official pages (RBI, MoSPI, PIB, BSE) aur badi news sites seedha padho; jo site block kare use chhod do, doosra source lo. Index closes: Yahoo Finance chart API (query1.finance.yahoo.com) + 1 news site se match. Har number SOURCE RULES ke hisaab se. Closing data market band hone ke **baad** lo.
 3. Folder `videos/daily/<YYYY-MM-DD>/<NN-slot-slug>/` mein **NEWS CITY template** se reel banao: `videos/engine/NEWSCITY.md` padho, example `videos/daily/2026-11-27/04-agle-hafte-4-dhamake/`.
    - Theme: hamesha NEWS CITY (3D city + gates + Junction Bhai cartoon). Purani 2D "reelkit"/evergreen theme mat use karo.
    - Voice: **Bunty** (`7b9mYhmnp0y2qSH1FnBL`, `eleven_v4`, emotion tags). Script chhota: kul TTS text ~350–450 characters (ElevenLabs Starter: 30k/month).
