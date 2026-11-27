@@ -56,8 +56,31 @@ def duration(p):
                                  "-of", "csv=p=0", p], capture_output=True, text=True, check=True).stdout)
 
 
+SILENT = "--silent" in sys.argv or S.get("silent", False)  # no-voice fallback (quota khatam): text + music only
+
+
+def silent_line(toks, start):
+    """Word timings at a comfortable reading pace (no audio)."""
+    words, t = [], 0.0
+    for _, cap in toks:
+        for part in cap.split(" "):
+            if not part:
+                continue
+            d = 0.22 + 0.045 * len(part)
+            words.append({"w": part, "s": round(start + t, 3), "e": round(start + t + d, 3)})
+            t += d + 0.06
+    return words, t + 0.5
+
+
 lines, clips, cursor = [], [], 0.0
 for i, L in enumerate(S["lines"]):
+    if SILENT:
+        start = cursor + LEAD
+        words, dur = silent_line(tokens(L["text"]), start)
+        length = max(dur, L.get("min", 0))
+        lines.append({"start": round(start, 3), "end": round(start + length, 3), "audio": 0, "words": words})
+        cursor = start + length + GAP
+        continue
     toks = tokens(L["text"])
     text = " ".join(t for t, _ in toks)
     mp3, al = os.path.join(d, "vo", f"line_{i}.mp3"), os.path.join(d, "vo", f"line_{i}.json")
@@ -96,6 +119,12 @@ for i, L in enumerate(S["lines"]):
 total = round(cursor - GAP + TAIL, 3)
 json.dump({"lines": lines, "total": total}, open(os.path.join(d, "timeline.json"), "w"), ensure_ascii=False, indent=1)
 print("lines:", [round(l["end"] - l["start"], 2) for l in lines], "total", total)
+
+if SILENT:
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-t", str(total),
+                    os.path.join(d, "voice.wav")], check=True)
+    print("wrote silent voice.wav (no-voice mode)")
+    sys.exit(0)
 
 inputs, filters = [], []
 for i, (c, s) in enumerate(clips):

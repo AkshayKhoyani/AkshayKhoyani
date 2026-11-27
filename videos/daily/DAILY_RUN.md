@@ -1,25 +1,38 @@
-# Daily run: roz ki 3–4 reels (scheduled task yahi follow karta hai)
+# Finance Junction: roz ka schedule (scheduled tasks isi file ko follow karte hain)
+User ka order (27 Nov 2026). Repo `AkshayKhoyani/AkshayKhoyani`, branch `claude/finance-videos-pz24zv` (sirf isi par push).
 
-Repo: `AkshayKhoyani/AkshayKhoyani`, branch `claude/finance-videos-pz24zv`.
+## Schedule (IST)
+| Slot | Kab | Reel |
+|---|---|---|
+| A | Mon–Fri ~3:52 PM (market close ke baad), post ~4:30 PM | **"Aaj market mein kya hua"**: Sensex/Nifty close, sabse bade gainers/losers sector, 2–3 wajah, ek "aage kya" line |
+| B | Mon–Thu ~6:41 PM, post ~7:15 PM | **"Kal market mein kya hoga"**: GIFT Nifty (agar mile), global cues, agle din ke events/results/data, levels nahi, prediction nahi |
+| W | Fri ~6:41 PM (slot B ki jagah) | **"Agle hafte ke dhamake"**: agle hafte ki zaroori dates (data, RBI/Fed, results, IPO, expiry, chhuttiyan) |
+| N | Tue–Sat ~2:51 AM (US close 2:30 AM IST ke baad) | **"America mein kya hua + India par asar"**: Dow/S&P/Nasdaq close, Europe close, crude, dollar, bade US stocks; India ke liye kya matlab (prediction nahi) |
+| Subah / dopahar | abhi KHAALI | user baad mein batayega. Purani evergreen QUEUE.md wali reels **band** |
 
-## Steps
-1. Repo + branch checkout karo, `git pull`. `cd videos/engine && npm install`.
-2. `videos/daily/QUEUE.md` se **status `todo` wale pehle 3 topics** lo (agar ElevenLabs + OpenAI dono chal rahe hain aur sab smooth hai to 4).
-3. Har topic ke liye:
-   - **Research:** jo number reel mein jayega uska taaza, bharosemand source dhoondo (RBI, SEBI, NPCI, PIB, I4C, Income Tax dept, ya 2+ badi news sites jo match karein).
-     Number pakka na ho to reel mein mat daalo, ya "andaaza" likho. Calculation wale topics (Rule of 72, compounding) mein assumption saaf likho.
-   - `videos/daily/<YYYY-MM-DD>/<NN-slug>/spec.json` likho (format: `videos/engine/REELKIT.md`, examples: `videos/daily/samples/`).
-     Rules: 16–30 sec, pehla scene `hook`, aakhri `cta` with "Finance Junction follow karo" + loop line, ek reel = ek idea, Hinglish.
-   - `python3 videos/engine/make_reel.py <dir> --preview 0,<mid>,<end-1>` → PNG dekho (text kat to nahi raha, overlap to nahi, pehla frame hook dikhata hai). Theek karo.
-   - `python3 videos/engine/make_reel.py <dir>` → `flat_frames_at` khaali hona chahiye.
-   - Preview PNGs delete karo (`rm <dir>/p_*.png`).
-4. `videos/daily/<YYYY-MM-DD>/CAPTIONS.md` likho: har reel ka IG caption (pehli line hook), 5–10 hashtags, YouTube title (#shorts), sources.
-5. `QUEUE.md` mein un topics ka status `done (<date>)` karo. Agar `todo` 15 se kam bache hon, 15 naye topics jodo
-   (trending Indian personal-finance news + evergreen; scams, tax, SIP, loans, insurance, UPI, budgeting).
-6. `videos/daily/LOG.md` mein ek line: date, reels, voice (el/oa), koi dikkat.
-7. Commit + push to `claude/finance-videos-pz24zv` (koi aur branch nahi). Draft PR pehle se open hai.
-8. Final message (user ke phone par notification): Hinglish mein kaunsi reels bani, kahan mili (GitHub path), aaj ka posting time
-   suggestion (subah 9, dopahar 1, shaam 7, raat 9), koi source/voice issue.
+Chhutti: NSE band ho to slot A mat banao; agle din chhutti ho to slot B "agle trading day" ke baare mein. US market band ho to slot N mat banao.
+Har run sirf apne slot ki EK reel banata hai.
+
+## Har reel ke steps
+1. `git pull`; `cd videos/engine && npm install` (pehli baar).
+2. Research (WebSearch + jo sites khuli hon). Har number SOURCE RULES ke hisaab se. Closing data market band hone ke **baad** lo.
+3. Folder `videos/daily/<YYYY-MM-DD>/<NN-slot-slug>/` mein **NEWS CITY template** se reel banao: `videos/engine/NEWSCITY.md` padho, example `videos/daily/2026-11-27/04-agle-hafte-4-dhamake/`.
+   - Theme: hamesha NEWS CITY (3D city + gates + Junction Bhai cartoon). Purani 2D "reelkit"/evergreen theme mat use karo.
+   - Voice: **Bunty** (`7b9mYhmnp0y2qSH1FnBL`, `eleven_v4`, emotion tags). Script chhota: kul TTS text ~350–450 characters (ElevenLabs Starter: 30k/month).
+     Pehle quota check: `curl -s https://api.elevenlabs.io/v1/user/subscription -H "xi-api-key: proxy-injected"`. Agar (limit − count) < 1500 to `voice.py --silent` (bina awaaz, text + music) aur report mein batao.
+   - 30–45 sec. Pehle 2 sec mein sabse badi baat (number/shock). Date bolo ("27 November"), "aaj/kal" nahi. End: aasaan comment sawaal (1/2/3 ya emoji) + "Finance Junction follow karo".
+4. Preview PNG dekho, theek karo, final MP4, freezedetect check, MP4 < 20 MB.
+5. `SOURCES.md` + `caption.txt` (pehli line hook, data bullets, comment sawaal, "Not investment advice. Sources: ...", 8–10 hashtags) reel folder mein.
+6. Commit + push. Phir **Instagram par seedha post** (user ne har reel ke liye approval hata diya hai):
+   `cd videos && python3 engine/ig_post.py <videos/... mp4 path> <caption.txt> --publish`. Error 2207076 aaye to 2 min baad ek baar retry.
+7. `videos/daily/LOG.md` mein ek line (slot, reel, IG link, voice/silent, dikkat). Commit + push.
+8. Final message Hinglish mein: kaunsi reel, IG link, koi dikkat.
+
+## Kabhi mat karo
+- OpenAI / ChatGPT / Gemini ya koi aur paid AI API (images, voice, transcription). Sab visuals code se (NEWS CITY, mascot). Sirf ElevenLabs voice allowed.
+- Guaranteed return, buy/sell advice, target price ki salah, "market kal pakka girega/chadhega" jaisi prediction.
+- Bina source ka number. Asli bank/brand ka logo ya asli vyakti ki nakal.
+- Ek slot mein ek se zyada post. 100 posts/24h IG limit.
 
 ## Insights se seekh (23 Nov: weekly calendar reel = 5,887 views, 80 follows, 81 saves, 52 shares)
 - "Kal / aaj" mat bolo, **date bolo** (jaise "23 November 2026 ko"). Voice aur screen dono par.
@@ -27,11 +40,6 @@ Repo: `AkshayKhoyani/AkshayKhoyani`, branch `claude/finance-videos-pz24zv`.
 - **Pehle 2 sec mein sabse badi baat / suspense** (shuru ke 5–6 sec mein ~50% drop tha).
 - End mein **aasaan comment sawaal** ("1, 2 ya 3 comment karo"); comments 0 the.
 - Utility / save-worthy content (calendar, list, dates) sabse achha chalta hai.
-
-## Kabhi mat karo
-- Guaranteed return / "pakka paisa" jaisi baatein, kisi stock/fund ka naam leke buy/sell advice.
-- Bina source ka number.
-- Kisi asli bank/brand ka logo ya asli vyakti ki nakal.
 
 ## SOURCE RULES (user ki request, 23 Nov 2026), har content par lagu
 1. User ko dikhane se **pehle** poora verify karo. Pehle draft dikhaakar baad mein number badalna mana hai.
@@ -41,7 +49,6 @@ Repo: `AkshayKhoyani/AkshayKhoyani`, branch `claude/finance-videos-pz24zv`.
 5. Number ek baar **FINAL** mark ho gaya to badalna nahi. Agar galti mile to user ko saaf batao: "ye pehle galat tha, ye sahi hai, is source se".
 6. Jo verify na ho, woh script se bahar. ⚠️ wale numbers reel mein nahi jaate.
 
-## INSTAGRAM AUTO-POST (setup 27 Nov 2026)
-- Account: financejunction.in (IG id 17841415627923533). Token: system-user, never expires, proxy injects it for graph.facebook.com.
-- Post: commit + push the mp4, write caption to a .txt, then `python3 engine/ig_post.py <videos/...mp4> <caption.txt> --publish`.
-- Rule: **user ka OK milne ke baad hi --publish.** Bina OK sirf upload test (no --publish). Limit 100 posts/24h.
+## Instagram
+- Account: financejunction.in (IG id 17841415627923533). Token: system-user, never expires, proxy graph.facebook.com par inject karta hai.
+- Video URL jsDelivr se (commit SHA pinned), isliye post se pehle push zaroori.
