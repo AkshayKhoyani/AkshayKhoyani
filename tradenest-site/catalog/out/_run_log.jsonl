@@ -54,3 +54,15 @@
 {"slug": "kasuri-methi", "status": "done", "qa_failed": {}}
 {"slug": "karela-powder", "status": "done", "qa_failed": {"04-bulk.jpg": "Misspelled tagline text: \"COODNESS FROM NATURE\"; Misspelled tagline text: \"GOODNESE FROM NATURE\""}}
 {"slug": "lemon-peel-powder", "status": "done", "qa_failed": {}}
+{"slug": "dried-parsley-leaves", "status": "done", "qa_failed": {}}
+{"slug": "dried-bay-leaves", "status": "done", "qa_failed": {}}
+{"slug": "dehydrated-potato-powder", "status": "done", "qa_failed": {}}
+{"slug": "green-banana-powder", "status": "done", "qa_failed": {}}
+{"slug": "jamun-seed-powder", "status": "done", "qa_failed": {}}
+{"slug": "hibiscus-flower-powder", "status": "done", "qa_failed": {}}
+{"slug": "indian-gooseberry-powder", "status": "done", "qa_failed": {}}
+{"slug": "jatamansi-powder", "status": "done", "qa_failed": {"04-bulk.jpg": "gibberish or malformed text: 'GOODNEOS BROH NOYURE'; gibberish or malformed text: 'Finoly Mliied flout Powder'; gibberish or malformed text: 'Finoly Mliied Noot Powdr'; misspelled / malformed text: 'Pinely Milled Root Powder'; misspelled / malformed text: 'Finely Adhled Root Powder'"}}
+{"slug": "lemon-juice-powder", "status": "done", "qa_failed": {}}
+{"slug": "mango-alphonso-powder", "status": "done", "qa_failed": {}}
+{"slug": "mint-leaf-powder", "status": "done", "qa_failed": {}}
+{"slug": "karela-powder", "status": "done", "qa_failed": {}}
