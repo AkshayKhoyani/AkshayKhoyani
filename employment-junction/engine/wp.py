@@ -181,6 +181,12 @@ def main():
     req("POST", "/rankmath/v1/updateMeta", {"objectType": "post", "objectID": p["id"], "meta": {
         "rank_math_title": s["seo"]["title"], "rank_math_description": s["seo"]["description"],
         "rank_math_focus_keyword": s["seo"]["keyword"]}})
+    if p["status"] == "publish":
+        # IndexNow (Bing, Yandex, Seznam, Naver) via Rank Math – instant crawl request for the new/updated URL
+        try:
+            req("POST", "/rankmath/v1/in/submitUrls", {"urls": p["link"]})
+        except SystemExit as err:
+            print("IndexNow submit failed:", err)
     print(json.dumps({"id": p["id"], "status": p["status"], "link": p["link"], "media": media_id}))
 
 
