@@ -14,11 +14,11 @@ BRAND_RULES = (
     "BRAND: Use the exact 'Tradenest Naturals' logo from the reference image (green two-leaf icon above the word "
     "'Tradenest' in dark green and 'Naturals' in lighter green) with the small tagline 'GOODNESS FROM NATURE' under it. "
     "Keep the logo and tagline in English exactly as in the reference, spelled correctly. "
-    "ALL other visible text must be in Hindi (Devanagari script), spelled exactly as written in quotes below, crisp and legible, "
+    "ALL other visible text must be in English, spelled exactly as written in quotes below, crisp and legible, "
     "no extra words, no gibberish, no other languages. "
     "STYLE: premium Indian FMCG advertising photography like the reference: warm golden natural light, rustic wooden table, "
     "brass/wooden bowls, real ingredient props, shallow depth of field, rich but natural colours, elegant serif headline, "
-    "a handwritten-style Hindi accent line, round outline icon badges. Square 1:1 composition, everything inside the frame. "
+    "a handwritten-script English accent line, round outline icon badges. Square 1:1 composition, everything inside the frame. "
     "Do not show any certification logos, 'organic', '100%', health or medical claims, prices or weights other than those given."
 )
 
@@ -44,27 +44,27 @@ def edit(name, prompt):
 
 s = spec
 pouch = (f"a matte cream stand-up pouch with a {s['accent']} vertical accent band on the right, the Tradenest Naturals logo at the top, "
-         f"headline \"{s['hi_name']}\" in large elegant serif, sub-line \"{s['hi_sub']}\", and a round badge \"{s['hi_badge']}\"")
-jar = f"a clear PET jar with a {s['accent']} cap and a cream label showing the Tradenest Naturals logo and \"{s['hi_name']}\""
+         f"headline \"{s['name']}\" in large elegant serif, sub-line \"{s['sub']}\", and a round badge \"{s['badge']}\"")
+jar = f"a clear PET jar with a {s['accent']} cap and a cream label showing the Tradenest Naturals logo and \"{s['name']}\""
 
 scenes = {
     "01-hero-pouch.jpg": (f"Hero product shot. Centre: {pouch}. Beside it {jar}. In front a brass bowl heaped with {s['powder_look']}. "
-                          f"Props: {s['raw_props']}. Top-left handwritten Hindi accent line \"{s['hi_tagline']}\"."),
-    "02-banner.jpg": (f"Lifestyle advertising banner. Top-left the Tradenest Naturals logo. Left: large headline \"{s['hi_name']}\". "
+                          f"Props: {s['raw_props']}. Top-left handwritten-script accent line \"{s['tagline']}\"."),
+    "02-banner.jpg": (f"Lifestyle advertising banner. Top-left the Tradenest Naturals logo. Left: large headline \"{s['name']}\". "
                       f"Centre-right: {pouch}, with a wooden bowl of {s['powder_look']} and {s['raw_props']}. "
-                      f"Right column: 4 round outline icons with short Hindi labels: \"{s['hi_points'][0]}\", \"{s['hi_points'][1]}\", "
-                      f"\"{s['hi_points'][2]}\", \"{s['hi_points'][3]}\". Bottom row of 3 round badges: \"प्राकृतिक सामग्री\", "
-                      f"\"एक्सपोर्ट क्वालिटी\", \"प्रीमियम क्वालिटी\"."),
+                      f"Right column: 4 round outline icons with short labels: \"{s['points'][0]}\", \"{s['points'][1]}\", "
+                      f"\"{s['points'][2]}\", \"{s['points'][3]}\". Bottom row of 3 round badges: \"Natural Ingredients\", "
+                      f"\"Export Quality\", \"Premium Quality\"."),
     "03-closeup.jpg": (f"Macro close-up of a hand-carved wooden bowl filled with {s['powder_look']}, a wooden scoop with powder, "
                        f"{s['raw_props']} around it. Small Tradenest Naturals logo badge in the top-left corner. Bottom-left elegant label "
-                       f"\"{s['hi_name']}\" and under it \"{s['hi_texture']}\"."),
+                       f"\"{s['name']}\" and under it \"{s['texture']}\"."),
     "04-bulk.jpg": (f"Premium B2B bulk supply scene in a clean warehouse-style setting with warm light: a large 25 kg cream woven bulk bag "
-                    f"printed with the Tradenest Naturals logo and \"{s['hi_name']}\", next to two branded pouches ({pouch}) and two jars ({jar}), "
-                    f"a scoop of {s['powder_look']} in front. Headline at top: \"थोक और प्राइवेट लेबल सप्लाई\". Three round icon badges: "
-                    f"\"MOQ सिर्फ 5 किलो\", \"एक्सपोर्ट पैकिंग\", \"डॉक्यूमेंटेशन सपोर्ट\"."),
+                    f"printed with the Tradenest Naturals logo and \"{s['name']}\", next to two branded pouches ({pouch}) and two jars ({jar}), "
+                    f"a scoop of {s['powder_look']} in front. Headline at top: \"Bulk & Private Label Supply\". Three round icon badges: "
+                    f"\"MOQ Just 5 Kg\", \"Export Packing\", \"Documentation Support\"."),
     "05-uses.jpg": (f"Infographic-style advertisement on a warm cream textured background. Top-left Tradenest Naturals logo, headline "
-                    f"\"{s['hi_name']} के उपयोग\". Centre: {pouch}. Around it 6 rounded photo tiles each with a short Hindi caption: "
-                    + ", ".join(f"\"{u}\"" for u in s['hi_uses']) + ". Elegant, uncluttered, premium."),
+                    f"\"Applications of {s['name']}\". Centre: {pouch}. Around it 6 rounded photo tiles each with a short caption: "
+                    + ", ".join(f"\"{u}\"" for u in s['uses']) + ". Elegant, uncluttered, premium."),
 }
 
 with cf.ThreadPoolExecutor(5) as ex:

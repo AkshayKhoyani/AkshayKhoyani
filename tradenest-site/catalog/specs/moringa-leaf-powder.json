@@ -1,25 +1,37 @@
 {
   "slug": "moringa-leaf-powder",
   "en_name": "Moringa Leaf Powder",
-  "hi_name": "मोरिंगा लीफ पाउडर",
-  "hi_sub": "शुद्ध सहजन पत्ती पाउडर",
-  "hi_badge": "असली मोरिंगा पत्तियों से बना",
-  "hi_tagline": "प्रकृति की हरियाली, हर चम्मच में",
-  "hi_texture": "बारीक, चमकीला हरा पाउडर",
-  "hi_points": ["असली मोरिंगा पत्तियों से", "बारीक 80-100 मेश", "24 महीने शेल्फ लाइफ", "FSSAI लाइसेंस्ड"],
-  "hi_uses": ["स्मूदी और जूस", "कैप्सूल और सप्लीमेंट", "हर्बल चाय", "बेकरी और स्नैक्स", "सूप और ग्रेवी", "कॉस्मेटिक्स"],
+  "name": "Moringa Leaf Powder",
+  "sub": "Pure Drumstick Leaf Powder",
+  "badge": "Made from Real Moringa Leaves",
+  "tagline": "Nature's Green Goodness",
+  "texture": "Fine, Vibrant Green Powder",
+  "points": [
+    "Made from Real Moringa Leaves",
+    "Fine 80-100 Mesh",
+    "24 Months Shelf Life",
+    "FSSAI Licensed"
+  ],
+  "uses": [
+    "Smoothies & Juices",
+    "Capsules & Supplements",
+    "Herbal Teas",
+    "Bakery & Snacks",
+    "Soups & Sauces",
+    "Cosmetics"
+  ],
   "accent": "deep leaf-green",
   "powder_look": "vibrant bright-green fine moringa leaf powder",
   "raw_props": "fresh green moringa leaf sprigs and a few moringa drumstick pods",
   "specs": {
-    "प्रोसेसिंग (Processing)": "Dehydrated (शेड/लो-टेम्परेचर ड्राइड)",
-    "मेश साइज़ (Mesh)": "80 - 100 Mesh",
-    "नमी (Moisture)": "< 8.0%",
-    "शेल्फ लाइफ (Shelf Life)": "24 महीने",
-    "HS कोड": "12129990",
-    "न्यूनतम ऑर्डर (MOQ)": "5 Kg",
-    "मूल देश (Origin)": "भारत (India)",
-    "स्टोरेज": "ठंडी, सूखी जगह, सीधी धूप और नमी से दूर"
+    "Processing": "Dehydrated (low-temperature dried)",
+    "Mesh Size": "80 - 100 Mesh",
+    "Moisture": "< 8.0%",
+    "Shelf Life": "24 Months",
+    "HS Code": "12129990",
+    "MOQ": "5 Kg",
+    "Origin": "India",
+    "Storage": "Cool, dry place away from sunlight and moisture"
   },
   "website": "https://tradenestnaturals.com/products/premium-moringa-leaf-powder-manufacturers-exporters-tradenest-naturals/",
   "wp_id": 390
