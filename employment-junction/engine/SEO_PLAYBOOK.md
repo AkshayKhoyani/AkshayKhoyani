@@ -95,3 +95,7 @@ eligibility (one of: high school, associate degree, bachelor degree, professiona
 - `wp.py render()` outputs the premium layout: Quick Summary card (6 key tiles + Apply / Notification / WhatsApp buttons), styled tables (`.ejp-t`), icon H2s, Important Links buttons, share box. All CSS is one inline line (`PCSS`).
 - `featured.html` v2: bold thumbnail style – sunburst rays, yellow slash, NEW VACANCY / RESULT OUT sticker, big POSTS burst, APPLY NOW button, 3 white chips (last date red), mock-test badge, character with white outline.
 - `upgrade.py` converts older pages to this layout and re-renders their images from their own data.
+
+## Network (27 Nov 2026)
+- The cloud environment now has unrestricted internet. **Read the official notification / official website directly first** (curl or Playwright), then use aggregators only to cross-check. Some state portals (e.g. ojas.gujarat.gov.in) still refuse foreign servers – fall back to ≥2 secondary sources there.
+- Hostinger file access is available through the Hostinger connector in interactive sessions (account u311135737, site root public_html) for mu-plugins/theme files; scheduled runs must not change plugins/themes/settings.
