@@ -1,0 +1,183 @@
+{
+ "seed": 27,
+ "hook": [
+  [
+   "AGLE HAFTE 4 DHAMAKE 💣"
+  ],
+  [
+   "30 Nov → 9 Dec · SAVE KARO 📌",
+   "#ffffff",
+   "#0b2545"
+  ]
+ ],
+ "hookSub": "Pehla: 30 Nov ⏰",
+ "stops": [
+  {
+   "line": 1,
+   "gate": [
+    "IS HAFTE",
+    "27 NOV",
+    "NIFTY 25,607 📉",
+    "#f87171"
+   ],
+   "prop": {
+    "type": "chart",
+    "dir": "down"
+   },
+   "label": "RECAP",
+   "labelBg": "#b91c1c",
+   "hud": {
+    "value": "25,607",
+    "label": "Nifty · 27 Nov",
+    "color": "red"
+   },
+   "callouts": [
+    {
+     "text": "Brent crude: $97+ 🛢️",
+     "at": 0.45,
+     "color": "gold"
+    }
+   ]
+  },
+  {
+   "line": 2,
+   "gate": [
+    "SOM",
+    "30 NOV",
+    "INDIA GDP 📊",
+    "#4ade80"
+   ],
+   "prop": {
+    "type": "gdp"
+   },
+   "label": "INDIA GDP · Q2",
+   "labelBg": "#166534",
+   "hud": {
+    "value": "7%+",
+    "label": "Q2 GDP ummeed",
+    "color": "green"
+   },
+   "callouts": [
+    {
+     "text": "MoSPI release · 30 Nov",
+     "at": 0.25,
+     "color": "green"
+    }
+   ]
+  },
+  {
+   "line": 3,
+   "gate": [
+    "SOM",
+    "30 NOV",
+    "MSCI REJIG 🔄",
+    "#f4cf6a"
+   ],
+   "prop": {
+    "type": "msci",
+    "text": "MSCI"
+   },
+   "hud": {
+    "value": "4 entry",
+    "label": "MSCI India",
+    "color": "gold"
+   },
+   "callouts": [
+    {
+     "text": "LIC · Coforge · Adani Green · Meesho",
+     "at": 0.25,
+     "dx": 0,
+     "dy": -300
+    }
+   ]
+  },
+  {
+   "line": 4,
+   "gate": [
+    "SHUKRA",
+    "4 DEC",
+    "RBI POLICY 🏦",
+    "#93c5fd"
+   ],
+   "prop": {
+    "type": "bank"
+   },
+   "label": "RBI POLICY",
+   "hud": {
+    "value": "5.50%",
+    "label": "Repo abhi",
+    "color": "blue"
+   },
+   "callouts": [
+    {
+     "text": "CPI Oct: 6.09% 🔥",
+     "at": 0.45,
+     "color": "red"
+    }
+   ]
+  },
+  {
+   "line": 5,
+   "gate": [
+    "SHUKRA",
+    "4 DEC",
+    "US JOBS 🇺🇸",
+    "#93c5fd"
+   ],
+   "prop": {
+    "type": "jobs"
+   },
+   "label": "US JOBS",
+   "hud": {
+    "value": "9 Dec",
+    "label": "US Fed faisla",
+    "color": "blue"
+   },
+   "callouts": [
+    {
+     "text": "Jobs data: 4 Dec, ~7 PM IST",
+     "at": 0.2,
+     "color": "blue"
+    }
+   ]
+  }
+ ],
+ "mascot": [
+  {
+   "line": 0,
+   "mood": "shock"
+  },
+  {
+   "line": 1,
+   "mood": "worried"
+  },
+  {
+   "line": 2,
+   "mood": "point"
+  },
+  {
+   "line": 3,
+   "mood": "happy"
+  },
+  {
+   "line": 4,
+   "mood": "think"
+  },
+  {
+   "line": 5,
+   "mood": "point"
+  },
+  {
+   "line": 6,
+   "mood": "thumbs",
+   "to": 0.5
+  },
+  {
+   "line": 6,
+   "mood": "wave",
+   "at": 0.5
+  }
+ ],
+ "cta": "Follow karo 🔔",
+ "endNote": "Dates: MoSPI · RBI · MSCI · US BLS\nNot investment advice."
+}
