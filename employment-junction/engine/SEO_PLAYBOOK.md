@@ -72,3 +72,9 @@ eligibility (one of: high school, associate degree, bachelor degree, professiona
 - Characters: engineer, police, railway, teacher, medical, bank, office, defence, apprentice, student_result, admit_card, answer_key.
 - `wp.py` picks the character automatically from post type and title keywords (see `CHAR_RULES`); override with `"image": {"character": "police"}` in the spec. Accent colour follows the character (`THEME`), or set `"theme"`: gold / green / sky / rose / violet.
 - Keep the headline short (2 lines) so it does not run into the character; max 4 chips.
+
+## Hub pages & internal links (27 Nov 2026)
+- `hubs.py` builds and refreshes: qualification hubs (`/10th-pass-govt-jobs/` … `/post-graduate-govt-jobs/`), state hubs (`/<state>-govt-jobs-2026/`, `/central-govt-jobs/`),
+  a "Related Updates" box on every content page (same organisation: job ↔ admit card ↔ answer key ↔ result) and a Hindi summary on every job page.
+- Footer menu (id 162, location `footer`) links the six sections, the qualification hubs, the main state hubs and the legal pages.
+- Legal pages for AdSense: /privacy-policy/, /disclaimer/, /terms-and-conditions/.
