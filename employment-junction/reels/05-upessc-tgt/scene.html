@@ -1,0 +1,45 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>UPESSC TGT – 17,735 posts (code cast)</title>
+<style>html,body{margin:0;background:#071a3d}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/ej.js"></script>
+<script>
+// Facts (employmentjunction.in page / UPESSC Advt 07/2026): 17,735 Assistant Teacher (TGT) posts; graduation (50%) / PG (45%)
+// + B.Ed + upper-primary TET; min age 21 on 01.07.2026; pay ₹44,900–1,42,400 (Level 7); fee ₹1,000 Gen/OBC/EWS, ₹500 SC/ST, ₹300 PwD;
+// last date 28 Nov 2026 (extended), correction till 30 Nov; written exam 23 & 24 Dec 2026.
+// Layout rule: text & cards stay in the top half (y < 1000); characters stand in the lower half so faces are never covered.
+const { C, txt, pill, words, card, counter, check, person, bubble, commentCTA, endCard } = EJ;
+window.SCENES = [
+  { theme: 'scene_park', dur: 6.5, design: 6.5, draw(t) {
+    pill(t, 0.1, '🏫 UP TEACHER JOB 2026', 290, C.gold);
+    words(t, 0.4, 'UPESSC TGT Bharti', 420, { size: 86 });
+    counter(t, 0.9, 1.6, 17735, 540, 610, { size: 170 });
+    txt('POSTS', 540, 690, { size: 50, weight: 900, color: C.gold, alpha: Math.min(1, Math.max(0, t - 1.2)) });
+    person(t, 'naukri_bhaiya', 0.2, 540, 1880, 1.85, { talk: [[0.2, 6.4]], moods: [[0.3, 1.8, 'wave']] });
+  }},
+  { theme: 'scene_tuition', dur: 9, design: 9, draw(t) {
+    pill(t, 0.1, '🎓 ELIGIBILITY', 290, C.sky);
+    card(t, 0.4, 70, 360, 940, 250, { accent: C.gold, draw: (x, y) => { txt('Graduation / PG', x + 470, y + 90, { size: 54 }); txt('+ B.Ed + TET (6–8)', x + 470, y + 180, { size: 54, color: C.gold }); } });
+    card(t, 3.6, 70, 650, 450, 140, { draw: (x, y) => txt('Age: 21+', x + 225, y + 90, { size: 50 }) });
+    card(t, 5.0, 560, 650, 450, 140, { accent: C.sky, draw: (x, y) => txt('₹44,900+', x + 225, y + 90, { size: 54, color: C.gold }) });
+    person(t, 'teacher_sir', 0.1, 540, 1880, 1.85, { talk: [[0.1, 8.9]], moods: [[3.6, 5.0, 'point']] });
+  }},
+  { theme: 'scene_news_studio', dur: 8.5, design: 8.5, draw(t) {
+    pill(t, 0.1, '⚡ LAST DATE AAJ!', 290, C.gold);
+    card(t, 0.4, 70, 360, 940, 380, { draw: (x, y) => {
+      check(t, 0.8, x + 80, y + 85, 'Last Date: 28 Nov 2026', { size: 44 });
+      check(t, 2.6, x + 80, y + 190, 'Fee: ₹1,000 · SC/ST ₹500', { size: 44 });
+      check(t, 5.0, x + 80, y + 295, 'Exam: 23 & 24 Dec 2026', { size: 44 }); } });
+    person(t, 'anchor_rohan', 0.1, 540, 1880, 1.85, { talk: [[0.1, 8.4]] });
+  }},
+  { theme: 'scene_home', dur: 4.5, design: 4.5, draw(t) {
+    bubble(t, 0.4, 'Aaj aakhri din hai, beta!', 540, 700, { size: 50 });
+    person(t, 'mummy_ji', 0.1, 520, 1880, 1.85, { talk: [[0.1, 4.3]], moods: [[2.6, 4.5, 'point']] });
+  }},
+  { theme: 'scene_office', dur: 6.5, design: 6.5, noWatermark: true, draw(t) {
+    if (t < 4.6) { commentCTA(t, 0.05, 'TGT', 300); person(t, 'naukri_bhaiya', 0.2, 540, 1880, 1.85, { talk: [[0.1, 4.5]], moods: [[2.8, 4.6, 'thumbs']] }); }
+    else endCard(t, 4.6);
+  }}
+];
+EJ.start();
+</script></body></html>
