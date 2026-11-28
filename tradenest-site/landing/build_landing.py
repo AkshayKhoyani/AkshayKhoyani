@@ -48,6 +48,39 @@ MARKETS = {
    timezone="We answer emails and WhatsApp messages quickly and can schedule calls in Canadian morning or evening hours."),
 }
 
+MARKETS.update({
+ "uae": dict(
+   slug="bulk-food-ingredient-powder-supplier-uae-middle-east", country="UAE & Middle East", place="the UAE and the Middle East", people="Middle East",
+   title="Bulk Food Ingredient Powders Supplier for UAE & Middle East Importers",
+   seo_title="Food Ingredient Powders Supplier for UAE & Middle East | Tradenest",
+   desc="Spices, dehydrated, spray dried and herbal powders from India for importers, traders and food manufacturers in the UAE, Saudi Arabia, Qatar, Oman and Kuwait.",
+   buyers=["Spice and masala traders in Dubai, Sharjah and Riyadh", "Food and snack manufacturers", "Catering and HORECA suppliers", "Private label and supermarket brands", "Herbal and wellness importers", "Re-exporters supplying Africa and Central Asia"],
+   products=[("turmeric-powder-wholesale-price-80-mesh-bulk-turmeric-powder","Turmeric Powder"),("dehydrated-red-chilli-powder-manufacturer-and-exporter","Red Chilli Powder"),("coriander-powder-hs-code-09092200-bulk-ground-coriander","Coriander Powder"),("black-pepper-powder-wholesale-price-bulk-ground-black-pepper","Black Pepper Powder"),("onion-powder-price-per-kg-premium-dehydrated-onion-powder-manufacturer-india","Dehydrated Onion Powder"),("premium-spray-dried-garlic-powder-supplier-bulk-wholesale-solutions","Spray Dried Garlic Powder"),("premium-spray-dried-mango-alphonso-powder","Alphonso Mango Powder"),("premium-moringa-leaf-powder-manufacturers-exporters-tradenest-naturals","Moringa Leaf Powder")],
+   import_note="For shipments to the GCC, the importer usually handles product registration and customs clearance in the destination country. Tell us which documents your clearing agent needs and we will confirm what we can provide before you order.",
+   ship="We ship by sea freight to Jebel Ali, Dammam, Hamad, Sohar and other Gulf ports, and by air or courier for samples. Transit from India to the Gulf is short, which keeps freight costs low.",
+   timezone="India and the Gulf are only 1.5 to 2.5 hours apart, so we reply within your working day."),
+ "europe": dict(
+   slug="bulk-food-ingredient-powder-supplier-europe", country="Europe", place="Europe", people="European",
+   title="Bulk Food Ingredient Powders Supplier for European Importers",
+   seo_title="Food Ingredient Powders Supplier for Europe | Tradenest Naturals",
+   desc="Dehydrated, spray dried, spice and botanical powders from India for food manufacturers and importers in Germany, the Netherlands, France, Spain, Italy and across the EU.",
+   buyers=["Food and ingredient manufacturers", "Spice and seasoning blenders", "Natural food and supplement brands", "Private label and online brands", "Ethnic and world-food importers", "Ingredient distributors and traders"],
+   products=[("premium-moringa-leaf-powder-manufacturers-exporters-tradenest-naturals","Moringa Leaf Powder"),("ashwagandha-powder-price-per-kg-bulk-exporter-manufacturer","Ashwagandha Powder"),("turmeric-powder-wholesale-price-80-mesh-bulk-turmeric-powder","Turmeric Powder"),("premium-spray-dried-beetroot-powder","Spray Dried Beetroot Powder"),("tomato-powder-price-dehydrated-tomato-powder-supplier","Tomato Powder"),("onion-powder-price-per-kg-premium-dehydrated-onion-powder-manufacturer-india","Dehydrated Onion Powder"),("premium-spray-dried-strawberry-powder","Spray Dried Strawberry Powder"),("wholesale-wheat-grass-powder-premium-bulk-supply","Wheat Grass Powder")],
+   import_note="For shipments into the EU, the importer is responsible for meeting EU food law, including contaminant limits and any official controls at the border. Tell us what your quality team needs and we will confirm which documents and test reports can be arranged before you order.",
+   ship="We ship by sea freight to Rotterdam, Hamburg, Antwerp, Valencia, Genoa and other EU ports, and by air or courier for samples. Incoterms such as FOB or CIF can be quoted on request.",
+   timezone="India is 3.5 to 4.5 hours ahead of Central Europe, so we can reply and take calls within your working day."),
+ "australia": dict(
+   slug="bulk-food-ingredient-powder-supplier-australia", country="Australia & NZ", place="Australia and New Zealand", people="Australian and New Zealand",
+   title="Bulk Food Ingredient Powders Supplier for Australia & New Zealand",
+   seo_title="Food Ingredient Powders Supplier Australia & NZ | Tradenest",
+   desc="Dehydrated, spray dried, spice and herbal powders from India for food brands, manufacturers and importers in Australia and New Zealand. MOQ 5 Kg, samples on request.",
+   buyers=["Food and snack manufacturers", "Spice and seasoning brands", "Health food and supplement brands", "Private label and online brands", "Indian and Asian grocery importers", "Ingredient distributors"],
+   products=[("premium-moringa-leaf-powder-manufacturers-exporters-tradenest-naturals","Moringa Leaf Powder"),("turmeric-powder-wholesale-price-80-mesh-bulk-turmeric-powder","Turmeric Powder"),("ashwagandha-powder-price-per-kg-bulk-exporter-manufacturer","Ashwagandha Powder"),("chai-masala-powder-bulk-chai-masala-powder-supplier-india","Chai Masala Powder"),("premium-spray-dried-mango-alphonso-powder","Alphonso Mango Powder"),("premium-spray-dried-beetroot-powder","Spray Dried Beetroot Powder"),("dehydrated-potato-powder-supplier-bulk-potato-powder-80-mesh","Dehydrated Potato Powder"),("premium-spray-dried-garlic-powder-supplier-bulk-wholesale-solutions","Spray Dried Garlic Powder")],
+   import_note="Australia and New Zealand have strict biosecurity and imported food rules, and some plant products need import permits or treatment. The importer usually manages these checks, so please confirm requirements for your product with the Department of Agriculture (Australia) or MPI (New Zealand), and tell us which documents you need before you order.",
+   ship="We ship by sea freight to Sydney, Melbourne, Brisbane, Fremantle and Auckland, and by air or courier for samples. Incoterms such as FOB or CIF can be quoted on request.",
+   timezone="We answer emails and WhatsApp messages quickly and can schedule calls in your morning, which overlaps with our working day."),
+})
+
 def page(m):
     c = m["country"]; pl = m.get("place", c)
     cats = "".join(f"<li><strong>{a(C+s+'/', n)}</strong>: {w}.</li>" for s, n, w in CATS)
