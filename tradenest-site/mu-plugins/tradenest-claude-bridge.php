@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.5.1
+ * Version: 1.6.0
  *
  * @package Tradenest
  */
@@ -641,4 +641,38 @@ add_filter(
 	},
 	99,
 	4
+);
+
+// 20) Permanent redirects for old / merged product URLs (moved here from Yoast SEO Premium so no paid plugin is needed).
+function tn_bridge_redirect_map() {
+	return array(
+		'products/wholesale-potato-powder-dehydrated-potato-powder-80-mesh' => 'products/dehydrated-potato-powder-supplier-bulk-potato-powder-80-mesh',
+		'products/potato-powder-price-per-kg-dehydrated-potato-powder' => 'products/dehydrated-potato-powder-supplier-bulk-potato-powder-80-mesh',
+		'products/dehydrated-potato-powder-80-mesh-bulk-supplier-exporter' => 'products/dehydrated-potato-powder-supplier-bulk-potato-powder-80-mesh',
+		'products/dehydrated-potato-powder-supplier-bulk-potato-powder-from-india' => 'products/dehydrated-potato-powder-supplier-bulk-potato-powder-80-mesh',
+		'products/dehydrated-tomato-flakes-supplier-india-bulk-food-grade-tomato-flakes' => 'products/dehydrated-tomato-flakes-supplier-india-bulk-tomato-flakes',
+		'products/premium-moringa-powder-exporter-pure-organic-bulk-supply' => 'products/premium-moringa-leaf-powder-manufacturers-exporters-tradenest-naturals',
+		'products/spray-dried-muskmelon-powder' => 'products/premium-spray-dried-muskmelon-powder',
+		'products/dehydrated-basil-leaves-premium-dehydrated-basil-leaves-supplier-india' => 'products/bulk-dehydrated-basil-leaves-supplier-india-tradenest-naturals',
+		'products/dehydrated-parsley-leaves-supplier-and-exporter-from-india' => 'products/dehydrated-parsley-flakes-food-grade-dried-parsley-leaves',
+		'products/wholesale-wheat-grass-powder-premium-organic-bulk-supply' => 'products/wholesale-wheat-grass-powder-premium-bulk-supply',
+		'products/shatavari-powder-manufacturer-india-premium-organic-bulk-supplier' => 'products/shatavari-powder-manufacturer-india-premium-bulk-supplier',
+		'products/organic-ashwagandha-powder-price-per-kg-bulk-exporter-manufacturer' => 'products/ashwagandha-powder-price-per-kg-bulk-exporter-manufacturer',
+		'products/safed-musli-powder-exporter-premium-organic-bulk-supplier' => 'products/safed-musli-powder-exporter-premium-bulk-supplier',
+	);
+}
+add_action(
+	'template_redirect',
+	function () {
+		if ( ! is_404() ) {
+			return;
+		}
+		$path = trim( (string) wp_parse_url( isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '', PHP_URL_PATH ), '/' ); // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
+		$map  = tn_bridge_redirect_map();
+		if ( isset( $map[ $path ] ) ) {
+			wp_safe_redirect( home_url( '/' . $map[ $path ] . '/' ), 301, 'Tradenest' );
+			exit;
+		}
+	},
+	1
 );
