@@ -306,9 +306,27 @@
     ctx.restore();
   }
 
+  // ---------- Code-drawn cast (brand/cast2.js) ----------
+  // person(t, 'naukri_bhaiya', at, x, y, scale, { talk: [[a, b]], moods: [[a, b, 'wave']], flip })
+  // y = feet; scale 1 ~ 520 px tall. Mouth opens with the voice loudness while `talk` is active.
+  function person(t, who, at, x, y, sc, o = {}) {
+    const K = window.EJ_CAST2; if (!K) return;
+    const P = typeof who === 'string' ? K.CAST[who] : who; if (!P) return;
+    const p = easeOut(prog(t, at, at + 0.5)); if (p <= 0) return;
+    const talking = (o.talk || []).some(([a, b]) => t >= a && t <= b);
+    let lv = 0;
+    if (talking && window.AMP && window.AMP.data && window.AMP.data.length) lv = window.AMP.data[Math.min(window.AMP.data.length - 1, Math.floor((window.__T || 0) * window.AMP.fps))] || 0;
+    else if (talking) lv = 0.35 + 0.3 * Math.sin(t * 14);
+    const m = (o.moods || []).find(([a, b]) => t >= a && t < b);
+    const mood = m ? m[2] : talking ? 'talk' : 'idle';
+    ctx.save(); ctx.globalAlpha *= p; ctx.translate(0, (1 - p) * 40);
+    K.drawPerson(ctx, t, x, y, sc, P, mood, lv, o.flip);
+    ctx.restore();
+  }
+
   window.EJ = {
     W, H, C, ctx, clamp, prog, easeOut, easeInOut, easeBack, hash, FONT, rrect, txt, width, pop, words, pill,
-    card, counter, stamp, check, source, logo, officialLogo, watermark, endCard, commentCTA, cast, bubble, CAST,
+    card, counter, stamp, check, source, logo, officialLogo, watermark, endCard, commentCTA, cast, bubble, CAST, person,
     start() { const th = window.EJ_THEMES && window.EJ_THEMES[window.THEME]; if (th) Object.assign(C, th.pal); layout();
       window.BASE_THEME = window.THEME;
       const used = new Set([window.THEME, ...window.SCENES.map(s => s.theme)].filter(Boolean));

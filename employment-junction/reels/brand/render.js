@@ -54,6 +54,7 @@ const previewIdx = args.indexOf('--preview');
   let theme = process.env.THEME || '';
   try { theme = theme || JSON.parse(fs.readFileSync(path.join(dir, 'script.json'))).theme || ''; } catch (e) {}
   await page.addInitScript(fs.readFileSync(path.join(__dirname, 'themes.js'), 'utf8'));
+  await page.addInitScript(fs.readFileSync(path.join(__dirname, 'cast2.js'), 'utf8'));
   await page.addInitScript(th => { window.THEME = th; }, theme);
   // 3D scene backgrounds used by this reel (theme "scene_<key>" or per-scene `theme:` in scene.html)
   const sceneSrc = fs.readFileSync(path.join(dir, 'scene.html'), 'utf8') + ' ' + theme;

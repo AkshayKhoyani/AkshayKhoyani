@@ -23,7 +23,15 @@ CAST_VOICES = {
     "naukri_bhaiya": {"id": "0EEL8EaMIofhe5vDHp11", "fx": None},            # Alok - young male, conversational Hinglish
     "exam_didi": {"id": "UH2Uz5xXGm6QUNMd75r4", "fx": None},                # Sneha - female, Hindi
     "result_chacha": {"id": "Ngq4F8VGOOQ3s3Cqw3o4", "fx": "old"},           # Arpit - deep; pitched down + slower = elderly
-    "junction_bot": {"id": "3AMU7jXQuQa3oRvRqUmb", "fx": "robot"},          # Viraj + robotic vocoder
+    "junction_bot": {"id": "3AMU7jXQuQa3oRvRqUmb", "fx": "robot"},          # Viraj + robotic vocoder (retired)
+    "anchor_rohan": {"id": "3AMU7jXQuQa3oRvRqUmb", "fx": None},             # Viraj - young male, crisp news anchor
+    "mummy_ji": {"id": "YvwUqS6WZWUWfPi8ccH7", "fx": None},                 # Reva - mature female, warm
+    "daroga_ji": {"id": "Ngq4F8VGOOQ3s3Cqw3o4", "fx": None},                # Arpit - deep, authoritative
+    "fauji_bhai": {"id": "vIdhHAZdn1bGjKe1dFw8", "fx": None},               # Rudra - intense
+    "bank_babu": {"id": "0EEL8EaMIofhe5vDHp11", "fx": None},
+    "engineer_bhai": {"id": "7b9mYhmnp0y2qSH1FnBL", "fx": None},            # Bunty - upbeat
+    "nurse_didi": {"id": "UH2Uz5xXGm6QUNMd75r4", "fx": None},
+    "station_master": {"id": "Ngq4F8VGOOQ3s3Cqw3o4", "fx": None},
 }
 FX = {
     "old": "asetrate=44100*0.92,aresample=44100,atempo=1.0",
