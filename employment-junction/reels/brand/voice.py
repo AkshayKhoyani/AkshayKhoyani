@@ -1,6 +1,7 @@
 """ElevenLabs Hinglish voiceover for a reel, one clip per scene.
 
-Reads <reel>/script.json: {"voice_id", "speed", "design": [sec per scene], "lines": [text per scene]}
+Reads <reel>/script.json: {"voice_id", "speed", "design": [sec per scene], "lines": [text per scene],
+  optional per scene: "speakers": ["naukri_bhaiya", "exam_didi", ...]} -> each character speaks in its own voice (CAST_VOICES).
 Writes <reel>/vo/scene_<i>.mp3 (cached), <reel>/timeline.json, <reel>/voice.wav
 The API key is injected by the session's network proxy.
 Usage: python3 brand/voice.py <reel-dir>
@@ -17,10 +18,24 @@ SPEED = S.get("speed", 1.1)
 LEAD, TAIL = 0.3, 0.4
 
 
-def tts(text, out):
+# one voice per character (ElevenLabs). fx: post-processing that gives the character its colour.
+CAST_VOICES = {
+    "naukri_bhaiya": {"id": "0EEL8EaMIofhe5vDHp11", "fx": None},            # Alok - young male, conversational Hinglish
+    "exam_didi": {"id": "UH2Uz5xXGm6QUNMd75r4", "fx": None},                # Sneha - female, Hindi
+    "result_chacha": {"id": "Ngq4F8VGOOQ3s3Cqw3o4", "fx": "old"},           # Arpit - deep; pitched down + slower = elderly
+    "junction_bot": {"id": "3AMU7jXQuQa3oRvRqUmb", "fx": "robot"},          # Viraj + robotic vocoder
+}
+FX = {
+    "old": "asetrate=44100*0.92,aresample=44100,atempo=1.0",
+    "robot": "afftfilt=real='hypot(re,im)*sin(0)':imag='hypot(re,im)*cos(0)':win_size=512:overlap=0.75,"
+             "aecho=0.8:0.7:12:0.25,highpass=f=180,volume=1.4",
+}
+
+
+def tts(text, out, voice_id=None):
     body = json.dumps({"text": text, "model_id": "eleven_multilingual_v2",
                        "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.3, "use_speaker_boost": True}})
-    url = f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE_ID}?output_format=mp3_44100_128"
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id or VOICE_ID}?output_format=mp3_44100_128"
     code = subprocess.run(["curl", "-s", "-o", out, "-w", "%{http_code}", url, "-H", "xi-api-key: proxy-injected",
                            "-H", "Content-Type: application/json", "--data-binary", body],
                           capture_output=True, text=True, check=True).stdout
@@ -39,12 +54,16 @@ clips, durs, starts, t = [], [], [], 0.0
 for i, line in enumerate(S["lines"]):
     mp3 = os.path.join(DIR, "vo", f"scene_{i}.mp3")
     txtf = os.path.join(DIR, "vo", f"scene_{i}.txt")
-    if not os.path.exists(mp3) or not os.path.exists(txtf) or open(txtf).read() != line:
-        print("generating scene", i)
-        tts(line, mp3)
-        open(txtf, "w").write(line)
+    who = (S.get("speakers") or [None] * len(S["lines"]))[i]
+    cv = CAST_VOICES.get(who, {"id": None, "fx": None})
+    key = f"{cv['id']}|{line}"
+    if not os.path.exists(mp3) or not os.path.exists(txtf) or open(txtf).read() != key:
+        print("generating scene", i, who or "default")
+        tts(line, mp3, cv["id"])
+        open(txtf, "w").write(key)
     fast = os.path.join(DIR, "vo", f"scene_{i}_fast.wav")
-    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-af", f"atempo={SPEED}", fast], check=True)
+    af = f"atempo={SPEED}" + ("," + FX[cv["fx"]] if cv["fx"] else "")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-af", af, fast], check=True)
     d = duration(fast)
     lead = 0.15 if i == 0 else LEAD
     scene_len = max(S["design"][i], lead + d + TAIL)

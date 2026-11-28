@@ -214,10 +214,11 @@
   window.renderFrame = T => {
     window.__T = T;
     ctx.setTransform(1, 0, 0, 1, 0, 0);
-    background(T);
     const sc = window.SCENES;
     let i = sc.length - 1;
     for (let k = 0; k < sc.length; k++) if (T < starts[k] + sc[k].dur) { i = k; break; }
+    window.THEME = sc[i].theme || window.BASE_THEME || window.THEME;  // per-scene 3D background (e.g. park -> class -> studio)
+    background(T - starts[i]);
     const t = T - starts[i], d = sc[i].dur;
     // zoom/fade transition in and out
     const inP = easeOut(prog(t, 0, 0.35)), outP = i < sc.length - 1 ? easeInOut(prog(t, d - 0.3, d)) : 0;
@@ -309,7 +310,12 @@
     W, H, C, ctx, clamp, prog, easeOut, easeInOut, easeBack, hash, FONT, rrect, txt, width, pop, words, pill,
     card, counter, stamp, check, source, logo, officialLogo, watermark, endCard, commentCTA, cast, bubble, CAST,
     start() { const th = window.EJ_THEMES && window.EJ_THEMES[window.THEME]; if (th) Object.assign(C, th.pal); layout();
-      const bgLoad = th && th.img && window.BG_SRC && window.BG_SRC[th.img] ? new Promise(res => { const im = new Image(); im.onload = () => { th._im = im; res(); }; im.onerror = res; im.src = window.BG_SRC[th.img]; }) : Promise.resolve();
+      window.BASE_THEME = window.THEME;
+      const used = new Set([window.THEME, ...window.SCENES.map(s => s.theme)].filter(Boolean));
+      const bgLoad = Promise.all([...used].map(k => { const tt = window.EJ_THEMES && window.EJ_THEMES[k];
+        if (!tt || !tt.img || !window.BG_SRC || !window.BG_SRC[tt.img]) return Promise.resolve();
+        return new Promise(res => { const im = new Image(); im.onload = () => { tt._im = im; res(); }; im.onerror = res; im.src = window.BG_SRC[tt.img]; }); }));
+      if (!th) { const first = window.SCENES.find(s => s.theme); const ft = first && window.EJ_THEMES[first.theme]; if (ft) Object.assign(C, ft.pal); }
       window.ready = Promise.all([document.fonts.ready, loadCast(), bgLoad]).then(() => window.renderFrame(0)); }
   };
 })();

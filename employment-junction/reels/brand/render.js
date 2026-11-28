@@ -55,10 +55,12 @@ const previewIdx = args.indexOf('--preview');
   try { theme = theme || JSON.parse(fs.readFileSync(path.join(dir, 'script.json'))).theme || ''; } catch (e) {}
   await page.addInitScript(fs.readFileSync(path.join(__dirname, 'themes.js'), 'utf8'));
   await page.addInitScript(th => { window.THEME = th; }, theme);
-  if (theme.startsWith('scene_')) {  // 3D scene background image for this theme
-    const bgf = path.join(__dirname, 'backgrounds', theme.slice(6) + '.jpg');
-    if (fs.existsSync(bgf)) await page.addInitScript(b => { window.BG_SRC = b; }, { [theme.slice(6)]: 'data:image/jpeg;base64,' + fs.readFileSync(bgf).toString('base64') });
-  }
+  // 3D scene backgrounds used by this reel (theme "scene_<key>" or per-scene `theme:` in scene.html)
+  const sceneSrc = fs.readFileSync(path.join(dir, 'scene.html'), 'utf8') + ' ' + theme;
+  const bgDir = path.join(__dirname, 'backgrounds'), bgs = {};
+  for (const f of fs.existsSync(bgDir) ? fs.readdirSync(bgDir) : []) { const k = f.replace(/\.jpg$/, '');
+    if (sceneSrc.includes('scene_' + k)) bgs[k] = 'data:image/jpeg;base64,' + fs.readFileSync(path.join(bgDir, f)).toString('base64'); }
+  await page.addInitScript(b => { window.BG_SRC = b; }, bgs);
   await page.addInitScript(s => { window.CAST_SRC = s; }, castSrc);
   await page.goto('file://' + path.join(dir, 'scene.html'));
   await page.evaluate(() => window.ready);
