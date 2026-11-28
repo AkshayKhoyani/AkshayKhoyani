@@ -37,7 +37,7 @@ Har run sirf apne slot ki EK reel banata hai. **Din mein sirf 2 reels** (slot A 
 - Ek slot mein ek se zyada post. 100 posts/24h IG limit.
 
 ## Insights se seekh
-- 27 Nov raat 9:37 PM: NEWS CITY + Junction Bhai weekly reel ("Agle hafte 4 dhamake") = 3 ghante mein 115 likes, followers 242 → 302. Yahi format (dates list + cartoon + save karo) sabse best.
+- 27 Nov raat 9:37 PM: NEWS CITY + Junction Bhai weekly reel ("Agle hafte 4 dhamake") = 3 ghante mein 115 likes; 12 ghante mein 268 likes, followers 242 → 435 (+80%). VIRAL. Yahi format (dates list + cartoon + save karo) sabse best.
 
 ### 23 Nov: weekly calendar reel = 5,887 views, 80 follows, 81 saves, 52 shares
 - "Kal / aaj" mat bolo, **date bolo** (jaise "23 November 2026 ko"). Voice aur screen dono par.
