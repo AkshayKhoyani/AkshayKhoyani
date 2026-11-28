@@ -30,6 +30,15 @@ Har run sirf apne slot ki EK reel banata hai. **Din mein sirf 2 reels** (slot A 
 7. `videos/daily/LOG.md` mein ek line (slot, reel, IG link, voice/silent, dikkat). Commit + push.
 8. Final message Hinglish mein: kaunsi reel, IG link, koi dikkat.
 
+
+## ElevenLabs SAFETY (28 Nov 2026: ElevenLabs ne "Fraudulent, predatory" warning email bheja)
+Wajah ka andaaza: skit ki line "₹1 lakh se har mahine ₹40,000" jaisi paisa-guna-karne wali baat, jo automated filter ko scam/get-rich-quick jaisi lagi.
+Repeat violation par account suspend ho sakta hai, isliye VOICE (TTS) text mein ye KABHI mat daalo:
+- Paisa double/guna karne, pakka/fixed munafa, "har mahine ₹X kamao" jaise daave. Numbers zaroori hon to "maan lo / example" ke saath, aur bade claims sirf SCREEN par likho, voice mein nahi.
+- Scammer ki zubaan: "OTP batao", "paise bhejo", "account band ho jayega", dhamki, kisi ko dhokha dene ke steps. Scam reels mein voice sirf narrator / victim / Junction Bhai ki ho; scammer ki baatein screen par text bubble mein.
+- Loan/udhaar se darana ya kisi ko pressure dena.
+Shak ho to line ko neutral, educational tone mein likho ("Business mein paisa ghoomta kaise hai?").
+
 ## Kabhi mat karo
 - OpenAI / ChatGPT / Gemini ya koi aur paid AI API (images, voice, transcription). Sab visuals code se (NEWS CITY, mascot). Sirf ElevenLabs voice allowed.
 - Guaranteed return, buy/sell advice, target price ki salah, "market kal pakka girega/chadhega" jaisi prediction.
