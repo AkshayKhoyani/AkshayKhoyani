@@ -21,7 +21,31 @@ coloured = ~neutral_light
 coloured = ndimage.binary_opening(coloured, iterations=2)   # drop checker edge noise
 mask = (a > 24) | coloured
 mask = ndimage.binary_closing(mask, iterations=4)
-mask = ndimage.binary_fill_holes(mask)                       # phone screens, glasses etc. stay opaque
+# fill enclosed holes only when they are part of the character (phone screen, glasses);
+# gaps between arm and body show the background (white/grey checker) -> keep them transparent
+filled = ndimage.binary_fill_holes(mask)
+holes, nh = ndimage.label(filled & ~mask)
+if nh:
+    lum = rgb.mean(2)
+    white, grey = neutral_light & (lum >= 251), neutral_light & (lum >= 235) & (lum < 251)
+    wf = ndimage.mean(white, holes, range(1, nh + 1))
+    gf = ndimage.mean(grey, holes, range(1, nh + 1))
+    for i, (w_, g_) in enumerate(zip(wf, gf), 1):
+        # Canva's baked checkerboard = white AND light-grey squares; anything else (phone screen…) belongs to the character
+        if not (w_ > 0.15 and g_ > 0.15):
+            mask |= holes == i
+# flat pure-white patches inside the outline = background seen through a gap (e.g. inside a saluting arm)
+lum2 = rgb.mean(2)
+flat = neutral_light & (lum2 >= 250)
+fl, nf = ndimage.label(flat)
+WHITE_OUTFIT = {"station_master", "nurse_didi", "bank_babu", "result_chacha"}  # white clothes: don't punch flat-white patches
+if nf and name not in WHITE_OUTFIT:
+    areas = ndimage.sum(flat, fl, range(1, nf + 1))
+    means = ndimage.mean(lum2, fl, range(1, nf + 1))
+    for i, (ar, mu) in enumerate(zip(areas, means), 1):
+        if ar > 600 and mu >= 253.5:
+            mask &= ~ndimage.binary_dilation(fl == i, iterations=2)
+mask &= ~(neutral_light & ~ndimage.binary_erosion(mask, iterations=6) & (a < 128))  # trim checker fringe at edges
 lab, n = ndimage.label(mask)
 if n > 1:                                                     # keep the character, drop stray specks
     sizes = ndimage.sum(mask, lab, range(1, n + 1))
