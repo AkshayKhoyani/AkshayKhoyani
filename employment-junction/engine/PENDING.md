@@ -26,3 +26,8 @@ When an item is done, delete its row.
 - Verify the exam blueprints against official notifications (only IBPS PO/Clerk confirmed from the official PDF): mock/data/blueprints.json.
 - Add more bank questions per topic (each GS topic has 30; full mocks reuse them across sets) and a "Current Affairs" monthly bank.
 - Mock-test marketing: share cards / Instagram posts per exam mock, WhatsApp share text, "Daily Quiz" page.
+
+## Reels base (paused until the owner picks a theme)
+- Owner is choosing a theme from reels/brand/theme-previews/THEMES_15.jpg (15 themes in reels/brand/themes.js).
+- Lip-sync fix in progress: natural "m1" mouth frames generated in Canva (media ids: Naukri Bhaiya MAHcMedLvLk, Exam Didi MAHcMR3Yoo8, Result Chacha MAHcMZlgZlE). Export each (create-design + export PNG) to engine/assets/cast_src/<name>__m1.png and run `python3 engine/frames.py`. Smoothing (min 3-frame hold) + tone-matched patches already in render.js / frames.py.
+- Then re-render the demo (scratchpad castdemo) to confirm, before any real reel.
