@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.4.0
+ * Version: 1.4.1
  *
  * @package Tradenest
  */
@@ -204,12 +204,27 @@ add_filter(
 	'acf/load_value',
 	function ( $value, $post_id, $field ) {
 		if ( isset( $field['name'] ) && in_array( $field['name'], array( 'tn_hero_image', 'tn_hero_product_name' ), true ) ) {
-			return '';
+			return null;
 		}
 		return $value;
 	},
 	99,
 	3
+);
+// ACF formats an empty image field as false (in its type=image formatter), which the theme would print as an empty
+// src. The name-specific filters run last, so return null there and the theme falls back to the featured product.
+foreach ( array( 'tn_hero_image', 'tn_hero_product_name' ) as $tn_bridge_hero_field ) {
+	add_filter( 'acf/format_value/name=' . $tn_bridge_hero_field, '__return_null', 999 );
+}
+add_action(
+	'wp_footer',
+	function () {
+		if ( ! is_front_page() ) {
+			return;
+		}
+		echo '<script id="tn-bridge-hero-guard">(function(){var i=document.querySelector("img[data-hero-img]");if(!i||i.getAttribute("src")){return;}var c=i.closest("[data-hero-rotate]");try{var r=JSON.parse(c.getAttribute("data-hero-rotate"));if(r&&r[0]){i.src=r[0].img;}}catch(e){}}());</script>' . "\n";
+	},
+	5
 );
 
 // 11) Accessibility (Lighthouse): readable contrast for small grey/footer text, names for icon-only links and unlabeled fields.
