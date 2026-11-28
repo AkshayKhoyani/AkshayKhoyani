@@ -1,0 +1,52 @@
+{
+ "css": ".tn-export-strip{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin-top:18px}.tn-mk-label{font-size:11px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#1B4332;margin-right:4px}.tn-mk{font-size:12.5px;font-weight:600;color:#1B4332;background:#fff;border:1px solid #d6e7dc;border-radius:999px;padding:6px 12px;text-decoration:none;transition:all .2s}.tn-mk:hover{background:#1B4332;color:#fff;border-color:#1B4332}.tn-mk-all{background:#1B4332;color:#fff;border-color:#1B4332}header[role=banner]>div:first-child{letter-spacing:.02em}.tn-product-item>*{transition:transform .25s ease,box-shadow .25s ease}.tn-product-item>*:hover{transform:translateY(-4px);box-shadow:0 18px 40px -18px rgba(15,56,44,.35)}header[role=banner]>div:first-child span:empty{display:none}",
+ "replace": {
+  "🌿 Premium Quality Ingredients": "FSSAI Licensed &amp;middot; IEC Registered",
+  "📦 Bulk Orders": "MOQ 5 Kg",
+  "🌎 Export Ready Solutions": "Ships Worldwide",
+  "🌍 Serving Global B2B Buyers": "",
+  "📞 WhatsApp": "WhatsApp +91 92651 28276",
+  "✉ export@tradenestnaturals.com": "export@tradenestnaturals.com",
+  "<span>Export Documentation</span></div>\n\t\t\t\t\t\t\t</div>": "<span>Export Documentation</span></div>\n\t\t\t\t\t\t\t</div><div class=\"tn-export-strip\"><span class=\"tn-mk-label\">Exporting to</span><a class=\"tn-mk\" href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-usa/\">USA</a><a class=\"tn-mk\" href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-canada/\">Canada</a><a class=\"tn-mk\" href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-uk/\">UK</a><a class=\"tn-mk\" href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-europe/\">Europe</a><a class=\"tn-mk\" href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-uae-middle-east/\">UAE & Gulf</a><a class=\"tn-mk\" href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-australia/\">Australia & NZ</a><a class=\"tn-mk tn-mk-all\" href=\"https://tradenestnaturals.com/export-markets/\">All markets &rarr;</a></div>",
+  "<span>India • USA • Canada • Europe • Australia • Middle East • UAE</span>": "<span><a href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-usa/\" class=\"hover:text-white\">USA</a> &middot; <a href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-canada/\" class=\"hover:text-white\">Canada</a> &middot; <a href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-uk/\" class=\"hover:text-white\">UK</a> &middot; <a href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-europe/\" class=\"hover:text-white\">Europe</a> &middot; <a href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-uae-middle-east/\" class=\"hover:text-white\">UAE & Gulf</a> &middot; <a href=\"https://tradenestnaturals.com/bulk-food-ingredient-powder-supplier-australia/\" class=\"hover:text-white\">Australia & NZ</a></span>",
+  "🏭 OEM &amp;amp; Private Label": "OEM &amp;amp; Private Label"
+ },
+ "lang_pages": {
+  "1404": "es",
+  "1405": "fr",
+  "1406": "de",
+  "1407": "ar"
+ },
+ "hreflang": [
+  {
+   "en": "https://tradenestnaturals.com/",
+   "es": "https://tradenestnaturals.com/es/",
+   "fr": "https://tradenestnaturals.com/fr/",
+   "de": "https://tradenestnaturals.com/de/",
+   "ar": "https://tradenestnaturals.com/ar/"
+  }
+ ],
+ "translator": {
+  "languages": [
+   "en",
+   "es",
+   "fr",
+   "de",
+   "ar",
+   "pt",
+   "it",
+   "nl",
+   "ru",
+   "zh-CN",
+   "ja",
+   "tr"
+  ],
+  "position": "left"
+ },
+ "redirects": {
+  "proveedor-polvos-deshidratados-india": "es",
+  "fournisseur-poudres-deshydratees-inde": "fr",
+  "lieferant-getrocknete-pulver-indien": "de",
+  "supplier-dehydrated-powders-india-arabic": "ar"
+ }
+}
