@@ -37,9 +37,9 @@ def tokens(text):
     return out
 
 
-def tts(text, mp3, align):
+def tts(text, mp3, align, voice=None):
     body = json.dumps({"text": text, "model_id": MODEL, "voice_settings": VSET})
-    url = f"https://api.elevenlabs.io/v1/text-to-speech/{VOICE}/with-timestamps?output_format=mp3_44100_128"
+    url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice or VOICE}/with-timestamps?output_format=mp3_44100_128"
     r = subprocess.run(["curl", "-s", "-w", "\n%{http_code}", url, "-H", "xi-api-key: proxy-injected",
                         "-H", "Content-Type: application/json", "--data-binary", body],
                        capture_output=True, text=True, check=True).stdout
@@ -85,10 +85,11 @@ for i, L in enumerate(S["lines"]):
     text = " ".join(t for t, _ in toks)
     mp3, al = os.path.join(d, "vo", f"line_{i}.mp3"), os.path.join(d, "vo", f"line_{i}.json")
     cached = os.path.join(d, "vo", f"line_{i}.txt")
-    if not (os.path.exists(mp3) and os.path.exists(al) and os.path.exists(cached) and open(cached).read() == MODEL + VOICE + text):
+    lv = L.get("voice", VOICE)  # per-line voice (dialogue reels)
+    if not (os.path.exists(mp3) and os.path.exists(al) and os.path.exists(cached) and open(cached).read() == MODEL + lv + text):
         print("generating line", i)
-        tts(text, mp3, al)
-        open(cached, "w").write(MODEL + VOICE + text)
+        tts(text, mp3, al, lv)
+        open(cached, "w").write(MODEL + lv + text)
     fast = os.path.join(d, "vo", f"line_{i}_fast.wav")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-af", f"atempo={SPEED}", fast], check=True)
     dur = duration(fast)
@@ -112,7 +113,7 @@ for i, L in enumerate(S["lines"]):
             words.append({"w": part, "s": round(start + ps, 3), "e": round(start + s + (e - s) * acc / tot, 3)})
         pos = b + 1
     length = max(dur, L.get("min", 0))
-    lines.append({"start": round(start, 3), "end": round(start + length, 3), "audio": round(dur, 3), "words": words})
+    lines.append({"start": round(start, 3), "end": round(start + length, 3), "audio": round(dur, 3), "words": words, "who": L.get("who", "")})
     clips.append((fast, start))
     cursor = start + length + GAP
 
