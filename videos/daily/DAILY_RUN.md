@@ -45,6 +45,14 @@ Shak ho to line ko neutral, educational tone mein likho ("Business mein paisa gh
 - Bina source ka number. Asli bank/brand ka logo ya asli vyakti ki nakal.
 - Ek slot mein ek se zyada post. 100 posts/24h IG limit.
 
+## AUDIENCE DATA (Instagram insights, 28 Nov 2026, 598 followers)
+- Umar: 35–44 = 40%, 25–34 = 33%, 45–54 = 16%, 18–24 = sirf 5%. Gender: purush 71%, mahila 7%, unknown 22%.
+- Shehar: Mumbai 15%, Surat 12%, Delhi 8%, Ahmedabad 7%, Bengaluru 6%, Indore, Pune, Jaipur. (Gujarat ~19%)
+- Matlab: 25–44 saal ke kamaane wale purush, investors/traders/business owners. Content inke liye: market dates, RBI/tax/GDP ka asar, business ke paise ki baatein. College/teen wale topics nahi.
+- Reel data: weekly "dates" reels = 34,288 views (460 saves, 485 shares) aur 9,683 views; baaki market news ~2.2–2.8k views; evergreen (SIP/scam/F&O) 274–761 views.
+  Avg watch time ~20 sec (dates reels), 11–16 sec (baaki). Sabse zaroori baat pehle 10 sec mein.
+- Har Sunday: `media?fields=...` + `/{id}/insights?metric=views,reach,saved,shares,ig_reels_avg_watch_time` aur `follower_demographics` dekh kar LOG.md mein 3 line likho.
+
 ## Insights se seekh
 - 27 Nov raat 9:37 PM: NEWS CITY + Junction Bhai weekly reel ("Agle hafte 4 dhamake") = 3 ghante mein 115 likes; 12 ghante mein 268 likes, followers 242 → 435 (+80%). VIRAL. Yahi format (dates list + cartoon + save karo) sabse best.
 
