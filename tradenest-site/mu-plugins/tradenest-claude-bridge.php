@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.8.0
+ * Version: 1.8.1
  *
  * @package Tradenest
  */
@@ -17,7 +17,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  * Certifications the business actually holds. Shown wherever the theme lists certifications.
  */
 function tn_bridge_real_certifications() {
-	return array( 'FSSAI Licensed', 'IEC Registered', 'Export Documentation Support' );
+	return array( 'FSSAI Registered', 'IEC Registered', 'Export Documentation Support' );
 }
 
 /**
@@ -401,10 +401,10 @@ function tn_bridge_filter_html( $html ) {
 	$map  = array(
 		'Our standard MOQ for international bulk orders is 500 Kg per product line item.' => 'Our MOQ is just 5 Kg per product, so you can trial an ingredient before scaling up.',
 		'Yes! We provide 100g - 250g lab testing samples with complete COA documents to verified food manufacturers, procurement heads, and importers worldwide.' => 'Yes. We send 100g - 250g samples with a product specification sheet to food manufacturers, procurement teams and importers worldwide.',
-		'Our processes follow strict quality control protocols, hygienic stainless-steel batch handling, moisture testing, and comprehensive Certificate of Analysis (COA) verification.' => 'Tradenest Naturals is an FSSAI licensed food business. Every batch is processed hygienically and checked against the agreed specification, and third-party lab testing can be arranged on request.',
+		'Our processes follow strict quality control protocols, hygienic stainless-steel batch handling, moisture testing, and comprehensive Certificate of Analysis (COA) verification.' => 'Tradenest Naturals is an FSSAI registered food business. Every batch is processed hygienically and checked against the agreed specification, and third-party lab testing can be arranged on request.',
 		'Our private label facility packs into' => 'For private label we pack into',
 		'Get proforma pricing, free 250g lab testing samples, and batch COA datasheets.' => 'Get proforma pricing, free samples and product specification sheets.',
-		'Batch Tested &amp; Laboratory Verified' => 'FSSAI Licensed &middot; IEC Registered',
+		'Batch Tested &amp; Laboratory Verified' => 'FSSAI Registered &middot; IEC Registered',
 		'100% Pure Sourcing' => 'Natural Ingredients',
 		'100% Pure Spray Dried &amp; Dehydrated Ingredients' => 'Spray Dried &amp; Dehydrated Ingredients',
 		'500 Kg (Trial Batch)' => '5 - 100 Kg (Trial Order)',
@@ -420,7 +420,7 @@ function tn_bridge_filter_html( $html ) {
 		'Batch COA & spec sheets attached' => 'Spec sheet shared with every quote',
 		'Verified food manufacturers receive COA datasheets and complimentary 250g lab testing samples.' => 'Food manufacturers and importers receive product specification sheets and free 100g - 250g samples.',
 		'Dispatch 250g Free Sample &amp; Lab COA' => 'Send me a free sample &amp; spec sheet',
-		'Manufacturer and exporter of spray-dried powders, dehydrated vegetables, and natural extracts. Reliable bulk ingredient partner for international food brands.' => 'Manufacturer and exporter of spray dried, dehydrated, spice and herbal powders from India. MOQ just 5 Kg, private label packing and worldwide shipping for food brands, manufacturers and importers.',
+		'Manufacturer and exporter of spray-dried powders, dehydrated vegetables, and natural extracts. Reliable bulk ingredient partner for international food brands.' => 'Supplier and exporter of spray dried, dehydrated, spice and herbal powders from India, with in-house manufacturing of dehydrated vegetables. MOQ just 5 Kg, private label packing and worldwide shipping.',
 		'dehydrated vegetable powders, spray dried fruit powders, botanical extracts, and custom spice blends.' => 'dehydrated vegetable powders, spray dried fruit powders, herbal powders, spices and seasoning blends.',
 		'View All 12 Categories' => 'View All Categories',
 		'offering spray dried powders, dehydrated vegetables, botanical extracts, and custom B2B formulations.' => 'offering spray dried powders, dehydrated vegetables, spices, herbal powders and private label supply from Surat, India.',
@@ -482,11 +482,18 @@ add_action(
 			'image'           => $images,
 			'description'     => wp_strip_all_tags( get_the_excerpt( $id ) ),
 			'brand'           => array( '@type' => 'Brand', 'name' => 'Tradenest Naturals' ),
-			'manufacturer'    => array( '@type' => 'Organization', 'name' => 'Tradenest Naturals', 'url' => home_url( '/' ) ),
 			'countryOfOrigin' => array( '@type' => 'Country', 'name' => 'India' ),
 		);
 		if ( $terms && ! is_wp_error( $terms ) ) {
 			$data['category'] = $terms[0]->name;
+			// Manufacturer claim only for dehydrated vegetable products (FSSAI registration scope); others are supplied.
+			$veg = array( 'dehydrated-onion-products', 'dehydrated-onion-powder', 'dehydrated-vegetable-powders-flakes' );
+			foreach ( $terms as $t ) {
+				if ( in_array( $t->slug, $veg, true ) ) {
+					$data['manufacturer'] = array( '@type' => 'Organization', 'name' => 'Tradenest Naturals', 'url' => home_url( '/' ) );
+					break;
+				}
+			}
 		}
 		if ( $props ) {
 			$data['additionalProperty'] = $props;
@@ -863,7 +870,7 @@ function tn_bridge_product_html( $html ) {
 	}
 	// Trust badges + language links under the title.
 	$b = array(
-		array( '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/>', 'FSSAI Licensed' ),
+		array( '<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="M9 12l2 2 4-4"/>', 'FSSAI Registered' ),
 		array( '<circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/>', 'IEC Registered Exporter' ),
 		array( '<path d="M21 8l-9-5-9 5v8l9 5 9-5z"/><path d="M3 8l9 5 9-5M12 13v8"/>', 'MOQ 5 Kg' ),
 		array( '<path d="M20 12v10H4V12M2 7h20v5H2zM12 22V7M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7zM12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"/>', 'Free Samples' ),

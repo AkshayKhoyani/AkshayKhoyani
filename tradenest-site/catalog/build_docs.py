@@ -51,7 +51,7 @@ tr:nth-child(odd) td{{background:#fffaf0}}
 .foot{{position:absolute;left:0;right:0;bottom:0;background:var(--g);color:#fff;font-size:21px;text-align:center;padding:16px}}
 .thumb{{position:absolute;right:60px;top:170px;width:170px;height:170px;border-radius:50%;object-fit:cover;border:6px solid #fff;box-shadow:0 8px 24px #0003}}
 </style></head><body><div class="wrap">
-<div class="top"><img src="{LOGO}"><div class="badge">FSSAI Licensed<small>IEC Registered Exporter</small></div></div>
+<div class="top"><img src="{LOGO}"><div class="badge">FSSAI Registered<small>IEC Registered Exporter</small></div></div>
 <div class="hand" style="font-size:34px;margin-top:8px">Technical Specifications</div>
 <h1 class="serif">{E(spec['name'])}</h1><div class="sub">{E(spec['sub'])}</div>
 <img class="thumb" src="{IMG['close']}">
@@ -105,7 +105,7 @@ table.spec td:last-child{{color:var(--g);font-weight:700}}
   <div style="font-size:17px;margin:1mm 0 3mm">{E(spec['sub'])} &nbsp;|&nbsp; Product Brochure</div>
   {''.join(f'<span class="chip">{E(h)}</span>' for h in content['highlights'][:4])}
  </div>
- <div class="ft">FSSAI Licensed Manufacturer &nbsp;•&nbsp; IEC Registered Exporter &nbsp;•&nbsp; {contact_line}</div>
+ <div class="ft">FSSAI Reg. No. 20726031007380 &nbsp;•&nbsp; IEC 5216916130 &nbsp;•&nbsp; {contact_line}</div>
 </div>
 
 <div class="page"><div class="pad">
@@ -141,7 +141,7 @@ table.spec td:last-child{{color:var(--g);font-weight:700}}
  <div class="hdr"><img src="{LOGO}"><span>FAQ &amp; CONTACT</span></div>
  <h2>Frequently Asked Questions</h2>
  {faqs}
- <div class="trust"><div>FSSAI Licensed</div><div>IEC Registered</div><div>MOQ 5 Kg</div><div>OEM / Private Label</div></div>
+ <div class="trust"><div>FSSAI Registered</div><div>IEC Registered</div><div>MOQ 5 Kg</div><div>OEM / Private Label</div></div>
  <div class="cta">
   <div class="hand" style="color:#F4D9A0;font-size:20px">Let's grow together</div>
   <h3>Request a Bulk Quote &amp; Samples</h3>
