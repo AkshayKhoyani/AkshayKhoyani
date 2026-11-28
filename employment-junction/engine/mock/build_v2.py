@@ -227,8 +227,8 @@ FAMILY_ART = [  # (regex on exam name, character, theme, hub group)
 def art(name):
     for rx, ch, th, grp in FAMILY_ART:
         if re.search(rx, name, re.I):
-            return "cast_exam_didi", th, grp
-    return "cast_exam_didi", "violet", "Other Exams"
+            return ch, th, grp
+    return "student_result", "gold", "Other Exams"
 
 
 def catalog():
@@ -283,7 +283,7 @@ def catalog():
                 continue
             d = Drawer("topic-" + t)
             sel = d.take([t], min(30, len(qs)), random.Random(seed_of(t)))
-            items.append({"kind": "topic", "group": "Topic-wise", "slug": f"{slugify(t)}-mock-test", "label": f"{t} – all govt exams", "char": "cast_exam_didi",
+            items.append({"kind": "topic", "group": "Topic-wise", "slug": f"{slugify(t)}-mock-test", "label": f"{t} – all govt exams", "char": "student_result",
                           "theme": "gold", "title": f"{t} Mock Test – Topic-wise Practice", "sections": [(t, sel)], "minutes": max(10, round(len(sel) * .7)),
                           "pos": 1, "neg": 0.25, "extra": ""})
         for t in sorted(gen2.TOPIC_GENS):
@@ -297,7 +297,7 @@ def catalog():
                                                                           "Approximation", "Quadratic Equations", "Pipes & Cistern", "LCM & HCF")
             sec = "Quantitative Aptitude" if maths else "Reasoning"
             items.append({"kind": "topic", "group": "Topic-wise", "slug": f"{slugify(t)}-questions-mock-test", "label": f"{sec}: {t}",
-                          "char": "cast_exam_didi", "theme": "sky" if maths else "violet",
+                          "char": "admit_card" if maths else "answer_key", "theme": "sky" if maths else "violet",
                           "title": f"{t} Questions – {sec} Mock Test (SSC, Railway, Bank)", "sections": [(t, qs)], "minutes": 20, "pos": 1, "neg": 0.25, "extra": ""})
     if "state" in ONLY:
         for t, qs in sorted(POOL.items()):
@@ -306,7 +306,7 @@ def catalog():
             state = t[:-3]
             sel = Drawer("state-" + t).take([t] + (GUJ if state == "Gujarat" else []), min(30, len(qs)), random.Random(seed_of(t)))
             items.append({"kind": "state", "group": "State GK", "slug": f"{slugify(state)}-gk-mock-test", "label": f"{state} state exams (Police, PSC, SSB)",
-                          "char": "cast_exam_didi", "theme": "green", "title": f"{state} GK Mock Test – State Exams Practice", "sections": [(f"{state} GK", sel)],
+                          "char": "police", "theme": "green", "title": f"{state} GK Mock Test – State Exams Practice", "sections": [(f"{state} GK", sel)],
                           "minutes": max(10, round(len(sel) * .7)), "pos": 1, "neg": 0.25, "extra": ""})
     return items
 

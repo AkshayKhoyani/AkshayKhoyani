@@ -169,11 +169,10 @@ CHAR_RULES = [
     (("bank", "sbi", "ibps", "rbi", "nabard", "po ", "clerk", "exim", "sidbi"), "bank"),
 ]
 # Brand cast (engine/assets/CHARACTERS.md): Naukri Bhaiya (jobs), Exam Didi (prep), Result Chacha (results), Junction Bot (alerts)
-TYPE_CHAR = {"ej_result": "cast_result_chacha", "ej_answer_key": "cast_result_chacha", "ej_admit_card": "cast_junction_bot",
-             "ej_syllabus": "cast_exam_didi", "ej_schedule": "cast_exam_didi", "ej_test": "cast_exam_didi"}
-# job category -> brand-cast character (falls back to the older character if the cast file is missing)
-CAST_FOR = {"engineer": "cast_engineer_bhai", "apprentice": "cast_engineer_bhai", "police": "cast_daroga_ji", "defence": "cast_fauji_bhai",
-            "railway": "cast_station_master", "teacher": "cast_exam_didi", "medical": "cast_nurse_didi", "bank": "cast_bank_babu"}
+# Website images use the original 3D AI characters (assets/characters/<name>.webp). The brand cast (cast_*) and the
+# code-drawn cast are for reels only — owner decision 28 Nov 2026.
+TYPE_CHAR = {"ej_result": "student_result", "ej_admit_card": "admit_card", "ej_answer_key": "answer_key", "ej_syllabus": "admit_card"}
+CAST_FOR = {}  # job category -> reel-only cast: not used on website images
 BRAND_CAST = {"jobs": "cast_naukri_bhaiya", "prep": "cast_exam_didi", "results": "cast_result_chacha", "alerts": "cast_junction_bot"}
 THEME = {"student_result": "green", "admit_card": "sky", "answer_key": "violet", "medical": "rose", "defence": "green", "police": "red",
          "railway": "sky", "bank": "green", "teacher": "violet", "engineer": "gold", "apprentice": "gold", "office": "gold",
@@ -199,7 +198,7 @@ def pick_character(s):
             for c in (CAST_FOR.get(ch), ch):
                 if c and os.path.exists(os.path.join(CHAR_DIR, c + ".webp")):
                     return c
-    return BRAND_CAST["jobs"] if os.path.exists(os.path.join(CHAR_DIR, BRAND_CAST["jobs"] + ".webp")) else "office"
+    return "office"
 
 
 def featured_image(s, path):
