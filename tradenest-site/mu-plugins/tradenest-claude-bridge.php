@@ -405,6 +405,16 @@ function tn_bridge_filter_html( $html ) {
 		'Batch COA & spec sheets attached' => 'Spec sheet shared with every quote',
 		'Verified food manufacturers receive COA datasheets and complimentary 250g lab testing samples.' => 'Food manufacturers and importers receive product specification sheets and free 100g - 250g samples.',
 		'Dispatch 250g Free Sample &amp; Lab COA' => 'Send me a free sample &amp; spec sheet',
+		'Manufacturer and exporter of spray-dried powders, dehydrated vegetables, and natural extracts. Reliable bulk ingredient partner for international food brands.' => 'Manufacturer and exporter of spray dried, dehydrated, spice and herbal powders from India. MOQ just 5 Kg, private label packing and worldwide shipping for food brands, manufacturers and importers.',
+		'dehydrated vegetable powders, spray dried fruit powders, botanical extracts, and custom spice blends.' => 'dehydrated vegetable powders, spray dried fruit powders, herbal powders, spices and seasoning blends.',
+		'View All 12 Categories' => 'View All Categories',
+		'offering spray dried powders, dehydrated vegetables, botanical extracts, and custom B2B formulations.' => 'offering spray dried powders, dehydrated vegetables, spices, herbal powders and private label supply from Surat, India.',
+		'>0 Items<' => '>Coming soon<',
+		'Custom formulations engineered to integrate seamlessly into high-speed industrial processing lines.' => 'Ingredients specified to suit how each industry uses them, from seasoning lines to capsule filling.',
+		'Botanical extracts, herbal capsules &amp; functional blends' => 'Herbal powders for capsules, teas &amp; functional blends',
+		'Dedicated capability and quality assurance for food manufacturers, wholesalers, and exporters worldwide.' => 'What food manufacturers, brands and importers get when they buy from us.',
+		'Quality is at the center of everything we do. From sourcing raw materials to final packaging, we focus on consistency, hygiene and customer satisfaction.' => 'From raw material to final packing, every batch is processed hygienically and checked against the specification agreed with you.',
+		'Dehydrated Onion powder' => 'Dehydrated Onion Powder',
 	);
 	$html = strtr( $html, $map );
 	// Yield calculator (meant for flakes/granules; misleading on powders).
