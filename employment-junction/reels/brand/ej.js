@@ -50,7 +50,10 @@
       x += widths[i] + sp;
     });
   }
-  function pill(t, at, s, y, bg, fg = '#071a3d', size = 38) {
+  const autoFg = bg => { const m = /^#([0-9a-f]{6})$/i.exec(bg || ''); if (!m) return '#071a3d';
+    const n = parseInt(m[1], 16), l = (0.299 * (n >> 16) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255; return l > 0.6 ? '#071a3d' : '#ffffff'; };
+  function pill(t, at, s, y, bg, fg, size = 38) {
+    fg = fg || autoFg(bg);
     const p = easeBack(prog(t, at, at + 0.4)); if (p <= 0) return;
     ctx.save(); ctx.translate(540, y); ctx.scale(p, p);
     const w = width(s, size) + 64;
@@ -161,6 +164,8 @@
 
   // ---------- Background ----------
   function background(t) {
+    const th = window.EJ_THEMES && window.EJ_THEMES[window.THEME];
+    if (th) { th.bg(ctx, t); return; }
     const g = ctx.createLinearGradient(0, 0, 0, H);
     g.addColorStop(0, '#0a2352'); g.addColorStop(0.55, C.navy); g.addColorStop(1, '#030b1c');
     ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
@@ -186,6 +191,8 @@
     ctx.fillStyle = '#138808'; ctx.fillRect(2 * W / 3, H - 14, W / 3, 14);
   }
   function vignette() {
+    const th = window.EJ_THEMES && window.EJ_THEMES[window.THEME];
+    if (th && !th.dark) return;
     const v = ctx.createRadialGradient(540, 960, 500, 540, 960, 1200);
     v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,0.5)');
     ctx.fillStyle = v; ctx.fillRect(0, 0, W, H);
@@ -216,14 +223,14 @@
     const inP = easeOut(prog(t, 0, 0.35)), outP = i < sc.length - 1 ? easeInOut(prog(t, d - 0.3, d)) : 0;
     ctx.save();
     ctx.globalAlpha = inP * (1 - outP);
-    const z = 1 + (1 - inP) * 0.06 - outP * 0.05;
+    const z = 1 + (1 - inP) * 0.015 - outP * 0.01;  // calm crossfade (professional)
     ctx.translate(540, 960); ctx.scale(z, z); ctx.translate(-540, -960);
     // stretch the scene's designed choreography to the actual (voice-driven) length
     const tt = t * sc[i].design / d;
     sc[i].draw(tt, t / d, T, d);
     ctx.restore();
     // white flash at cuts
-    const flash = Math.max(0, 1 - t / 0.18) * (i > 0 ? 0.35 : 0);
+    const flash = 0;  // no white flash at cuts
     if (flash > 0) { ctx.fillStyle = `rgba(255,255,255,${flash})`; ctx.fillRect(0, 0, W, H); }
     vignette();
     if (!sc[i].noWatermark) watermark();
@@ -246,10 +253,10 @@
   function castFrame(t, name, o, talking) {
     const pose = (o.pose || []).find(([a, b]) => t >= a && t <= b);
     if (pose && CAST[name + '__' + pose[2]]) return CAST[name + '__' + pose[2]];
-    if (talking && window.AMP && window.AMP.data.length) {
-      const v = window.AMP.data[Math.min(window.AMP.data.length - 1, Math.floor((window.__T || 0) * window.AMP.fps))] || 0;
-      if (v > 0.38 && CAST[name + '__m2']) return CAST[name + '__m2'];
-      if (v < 0.12 && CAST[name + '__m0']) return CAST[name + '__m0'];
+    if (talking && window.AMP && window.AMP.mouth && window.AMP.mouth.length) {
+      const m = window.AMP.mouth[Math.min(window.AMP.mouth.length - 1, Math.floor((window.__T || 0) * window.AMP.fps))] || 0;
+      const pick = m === 0 ? ['__m0', '__base'] : m === 1 ? ['__m1', '__base'] : ['__m2', '__m1', '__base'];
+      for (const k of pick) if (CAST[name + k]) return CAST[name + k];
     }
     return CAST[name + '__base'] || CAST[name];
   }
@@ -257,25 +264,22 @@
   function cast(t, name, at, x, y, h, o = {}) {
     const talkingNow = (o.talk || []).some(([a, b]) => t >= a && t <= b);
     const im = castFrame(t, name, o, talkingNow); if (!im) return;
-    const p = easeBack(prog(t, at, at + 0.55));
+    // professional: a calm fade + short slide in, then the character stands still (only mouth / hands change)
+    const p = easeOut(prog(t, at, at + 0.5));
     if (p <= 0) return;
     const w = h * im.width / im.height;
-    const off = (1 - p) * (o.from === 'left' ? -700 : o.from === 'right' ? 700 : 0);
-    const offY = o.from === 'bottom' || !o.from ? (1 - p) * 500 : 0;
-    const breathe = Math.sin(t * 2.4) * 0.012;
+    const off = (1 - p) * (o.from === 'left' ? -90 : o.from === 'right' ? 90 : 0);
+    const offY = o.from === 'bottom' || !o.from ? (1 - p) * 40 : 0;
     const talking = talkingNow;
-    const bob = talking ? Math.abs(Math.sin(t * 11)) * 6 : 0;  // lip-sync does the talking now; keep a light bob
-    const tilt = talking ? Math.sin(t * 5.5) * 0.025 : Math.sin(t * 1.3) * 0.01;
     ctx.save();
-    ctx.globalAlpha *= clamp(p * 1.4);
-    ctx.translate(x + off, y + offY - bob);
-    ctx.rotate(tilt);
-    ctx.scale((o.flip ? -1 : 1) * (1 + breathe * 0.5), 1 + breathe);
+    ctx.globalAlpha *= p;
+    ctx.translate(x + off, y + offY);
+    ctx.scale(o.flip ? -1 : 1, 1);
     // soft ground shadow
-    ctx.fillStyle = 'rgba(0,0,0,0.35)';
-    ctx.beginPath(); ctx.ellipse(0, -6, w * 0.32, 22, 0, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = 'rgba(0,0,0,0.28)';
+    ctx.beginPath(); ctx.ellipse(0, -6, w * 0.30, 18, 0, 0, Math.PI * 2); ctx.fill();
     // white outline glow (sticker look), then the character
-    ctx.shadowColor = 'rgba(255,255,255,0.9)'; ctx.shadowBlur = 18;
+    ctx.shadowColor = 'rgba(0,0,0,0.35)'; ctx.shadowBlur = 30; ctx.shadowOffsetY = 10;  // soft studio shadow, no sticker outline
     ctx.drawImage(im, -w / 2, -h, w, h);
     // Junction Bot: a glowing screen-mouth that opens with the voice (only on the base pose, where the screen is known)
     const sm = window.CAST_META && window.CAST_META[name] && window.CAST_META[name].screen_mouth;
@@ -304,6 +308,6 @@
   window.EJ = {
     W, H, C, ctx, clamp, prog, easeOut, easeInOut, easeBack, hash, FONT, rrect, txt, width, pop, words, pill,
     card, counter, stamp, check, source, logo, officialLogo, watermark, endCard, commentCTA, cast, bubble, CAST,
-    start() { layout(); window.ready = Promise.all([document.fonts.ready, loadCast()]).then(() => window.renderFrame(0)); }
+    start() { const th = window.EJ_THEMES && window.EJ_THEMES[window.THEME]; if (th) Object.assign(C, th.pal); layout(); window.ready = Promise.all([document.fonts.ready, loadCast()]).then(() => window.renderFrame(0)); }
   };
 })();

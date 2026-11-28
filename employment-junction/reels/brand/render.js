@@ -37,10 +37,24 @@ const previewIdx = args.indexOf('--preview');
       const mx = Math.max(...amp.slice().sort((x, y) => x - y).slice(-Math.ceil(amp.length * 0.05))) || 1; amp = amp.map(v => Math.min(1, v / mx));
     }
   }
-  await page.addInitScript(a => { window.AMP = { fps: 30, data: a }; }, amp);
+  // smooth the loudness and turn it into mouth shapes that each hold >= 3 frames (no single-frame flicker)
+  const sm = amp.map((_, i) => (amp[Math.max(0, i - 1)] + amp[i] + amp[Math.min(amp.length - 1, i + 1)]) / 3);
+  const mouth = []; let cur = 0, held = 99, pend = 0, pendN = 0;
+  for (const v of sm) {
+    const want = v < 0.10 ? 0 : v < 0.55 ? 1 : 2;
+    pendN = want === pend ? pendN + 1 : 1; pend = want;
+    if (want !== cur && held >= 3 && (want !== 0 || pendN >= 3)) { cur = want; held = 0; }
+    held++; mouth.push(cur);
+  }
+  await page.addInitScript(a => { window.AMP = { fps: 30, data: a.sm, mouth: a.mouth }; }, { sm, mouth });
   const metaP = path.join(animDir, 'meta.json');
   await page.addInitScript(m => { window.CAST_META = m; }, fs.existsSync(metaP) ? JSON.parse(fs.readFileSync(metaP)) : {});
   castSrc.logo = 'data:image/webp;base64,' + fs.readFileSync(path.join(castDir, '..', 'logo.webp')).toString('base64');
+  // theme: script.json "theme" or THEME env (see brand/themes.js)
+  let theme = process.env.THEME || '';
+  try { theme = theme || JSON.parse(fs.readFileSync(path.join(dir, 'script.json'))).theme || ''; } catch (e) {}
+  await page.addInitScript(fs.readFileSync(path.join(__dirname, 'themes.js'), 'utf8'));
+  await page.addInitScript(th => { window.THEME = th; }, theme);
   await page.addInitScript(s => { window.CAST_SRC = s; }, castSrc);
   await page.goto('file://' + path.join(dir, 'scene.html'));
   await page.evaluate(() => window.ready);

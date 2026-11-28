@@ -62,7 +62,13 @@ def mouth_frame(base, var, name):
         sizes = ndimage.sum(m, lab, range(1, n + 1))
         m = lab == (1 + int(np.argmax(sizes)))            # the mouth = biggest changed blob in the face
     m = ndimage.binary_dilation(ndimage.binary_fill_holes(m), iterations=10)
-    soft = Image.fromarray((m * 255).astype("uint8")).filter(ImageFilter.GaussianBlur(6))
+    # tone-match: shift the variant's colours so the skin around the mouth matches the base (no visible patch)
+    ring = ndimage.binary_dilation(m, iterations=26) & ~ndimage.binary_dilation(m, iterations=8) & (np.asarray(base.split()[-1]) > 200)
+    if ring.sum() > 50:
+        shift = (A[ring] - B[ring]).mean(0)
+        Bc = np.clip(B + shift, 0, 255).astype("uint8")
+        var = Image.fromarray(np.dstack([Bc, np.asarray(var.split()[-1])]))
+    soft = Image.fromarray((m * 255).astype("uint8")).filter(ImageFilter.GaussianBlur(10))
     out = base.copy()
     patch = var.copy(); patch.putalpha(Image.fromarray(np.minimum(np.asarray(soft), np.asarray(base.split()[-1]))))  # inside the base outline; var colours are kept even where its cut-out punched a hole
     out.alpha_composite(patch)
