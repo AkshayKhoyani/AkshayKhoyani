@@ -673,6 +673,12 @@ add_action(
 		}
 		$path = trim( (string) wp_parse_url( isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '', PHP_URL_PATH ), '/' ); // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
 		$map  = tn_bridge_redirect_map();
+		$more = function_exists( 'tn_bridge_config' ) ? tn_bridge_config( 'redirects', array() ) : array();
+		if ( is_array( $more ) ) {
+			foreach ( $more as $from => $to ) {
+				$map[ trim( (string) $from, '/' ) ] = trim( (string) $to, '/' );
+			}
+		}
 		if ( isset( $map[ $path ] ) ) {
 			wp_safe_redirect( home_url( '/' . $map[ $path ] . '/' ), 301, 'Tradenest' );
 			exit;

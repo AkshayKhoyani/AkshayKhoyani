@@ -7,7 +7,7 @@ ADDR = "Ashirwad Embro Park-1, Plot No. 1, 4th Floor, Saniya Hemad, Surat, Gujar
 CATS = ["spray-dried-fruit-powders", "spray-dried-vegetable-powders", "dehydrated-vegetable-powders-flakes", "dehydrated-herbs-leaves", "spices-masala-powders", "herbal-ayurvedic-powders", "superfood-green-powders"]
 
 L = {
-"es": dict(slug="proveedor-polvos-deshidratados-india", title="Proveedor de Polvos Deshidratados y Atomizados de la India",
+"es": dict(slug="es", title="Proveedor de Polvos Deshidratados y Atomizados de la India",
   seo="Proveedor de Polvos Deshidratados y Especias de India | Tradenest",
   desc="Fabricante y exportador indio de polvos deshidratados, atomizados, especias y hierbas. MOQ 5 Kg, muestras, marca blanca y envíos a España y Latinoamérica.",
   intro="<strong>Tradenest Naturals</strong> es un fabricante y exportador de Surat, India, de polvos deshidratados, polvos atomizados (spray dried), especias y polvos de hierbas. Suministramos a fabricantes de alimentos, marcas, importadores y distribuidores de España y Latinoamérica, desde un pedido de prueba de 5 Kg hasta contenedores completos.",
@@ -18,7 +18,7 @@ L = {
   how="Cómo hacer un pedido", steps=["Envíe el producto, la cantidad, la malla o grado, el envase y el puerto de destino.", "Le enviamos precio, ficha técnica y, si lo desea, una muestra.", "Confirme el pedido; procesamos, envasamos y etiquetamos según su requisito.", "Despachamos por mar o aire y compartimos los documentos del envío."],
   note="Las fichas de producto de nuestra web están en inglés. Puede escribirnos en español o en inglés.",
   cta="Solicite una cotización", contact="Escríbanos a <a href=\"mailto:export@tradenestnaturals.com\">export@tradenestnaturals.com</a> o por WhatsApp al <a href=\"" + WA + "\">+91 92651 28276</a>, o use nuestra <a href=\"" + S + "/contact/\">página de contacto</a>."),
-"fr": dict(slug="fournisseur-poudres-deshydratees-inde", title="Fournisseur de Poudres Déshydratées et Atomisées d'Inde",
+"fr": dict(slug="fr", title="Fournisseur de Poudres Déshydratées et Atomisées d'Inde",
   seo="Fournisseur de Poudres Déshydratées et Épices d'Inde | Tradenest",
   desc="Fabricant et exportateur indien de poudres déshydratées, atomisées, épices et plantes. MOQ 5 Kg, échantillons, marque privée et expédition vers la France et l'Afrique.",
   intro="<strong>Tradenest Naturals</strong> est un fabricant et exportateur basé à Surat, en Inde, de poudres déshydratées, de poudres atomisées (spray dried), d'épices et de poudres de plantes. Nous approvisionnons les industriels de l'agroalimentaire, les marques, les importateurs et les distributeurs en France, en Belgique, au Canada francophone et en Afrique, d'une commande d'essai de 5 Kg jusqu'au conteneur complet.",
@@ -29,7 +29,7 @@ L = {
   how="Comment commander", steps=["Envoyez le produit, la quantité, la granulométrie, l'emballage et le port de destination.", "Nous vous envoyons le prix, la fiche technique et, si vous le souhaitez, un échantillon.", "Confirmez la commande ; nous transformons, emballons et étiquetons selon vos besoins.", "Nous expédions par mer ou par avion et partageons les documents d'expédition."],
   note="Les fiches produits de notre site sont en anglais. Vous pouvez nous écrire en français ou en anglais.",
   cta="Demandez un devis", contact="Écrivez-nous à <a href=\"mailto:export@tradenestnaturals.com\">export@tradenestnaturals.com</a> ou sur WhatsApp au <a href=\"" + WA + "\">+91 92651 28276</a>, ou utilisez notre <a href=\"" + S + "/contact/\">page de contact</a>."),
-"de": dict(slug="lieferant-getrocknete-pulver-indien", title="Lieferant für getrocknete und sprühgetrocknete Pulver aus Indien",
+"de": dict(slug="de", title="Lieferant für getrocknete und sprühgetrocknete Pulver aus Indien",
   seo="Lieferant für getrocknete Pulver und Gewürze aus Indien | Tradenest",
   desc="Indischer Hersteller und Exporteur von getrockneten und sprühgetrockneten Pulvern, Gewürzen und Kräutern. MOQ 5 Kg, Muster, Private Label, Versand nach Europa.",
   intro="<strong>Tradenest Naturals</strong> ist ein Hersteller und Exporteur aus Surat, Indien, für getrocknete Pulver, sprühgetrocknete Pulver, Gewürze und Kräuterpulver. Wir beliefern Lebensmittelhersteller, Marken, Importeure und Händler in Deutschland, Österreich und der Schweiz, von einer Probebestellung über 5 Kg bis zum vollen Container.",
@@ -40,7 +40,7 @@ L = {
   how="So bestellen Sie", steps=["Senden Sie uns Produkt, Menge, Körnung, Verpackung und Zielhafen.", "Wir senden Ihnen Preis, Datenblatt und auf Wunsch ein Muster.", "Bestätigen Sie die Bestellung; wir verarbeiten, verpacken und etikettieren nach Ihren Vorgaben.", "Wir versenden per See- oder Luftfracht und teilen die Versanddokumente."],
   note="Die Produktseiten unserer Website sind auf Englisch. Sie können uns auf Deutsch oder Englisch schreiben.",
   cta="Angebot anfordern", contact="Schreiben Sie an <a href=\"mailto:export@tradenestnaturals.com\">export@tradenestnaturals.com</a> oder per WhatsApp an <a href=\"" + WA + "\">+91 92651 28276</a>, oder nutzen Sie unsere <a href=\"" + S + "/contact/\">Kontaktseite</a>."),
-"ar": dict(slug="supplier-dehydrated-powders-india-arabic", title="مورد المساحيق المجففة والمجففة بالرذاذ من الهند",
+"ar": dict(slug="ar", title="مورد المساحيق المجففة والمجففة بالرذاذ من الهند",
   seo="مورد المساحيق المجففة والتوابل من الهند | Tradenest Naturals",
   desc="مصنع ومصدر هندي للمساحيق المجففة والمجففة بالرذاذ والتوابل والأعشاب. الحد الأدنى للطلب 5 كجم، عينات، علامة خاصة، شحن إلى الخليج والشرق الأوسط.",
   intro="<strong>Tradenest Naturals</strong> شركة مصنعة ومصدرة من مدينة سورات في الهند، متخصصة في المساحيق المجففة، والمساحيق المجففة بالرذاذ، والتوابل، ومساحيق الأعشاب. نورّد لمصانع الأغذية والعلامات التجارية والمستوردين والموزعين في الإمارات والسعودية وقطر وعُمان والكويت وسائر الشرق الأوسط، من طلب تجريبي بوزن 5 كجم حتى الحاويات الكاملة.",
