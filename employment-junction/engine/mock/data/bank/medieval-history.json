@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Who founded the Slave (Mamluk) dynasty of the Delhi Sultanate?",
+  "o": [
+   "Qutb-ud-din Aibak",
+   "Iltutmish",
+   "Balban",
+   "Muhammad Ghori"
+  ],
+  "a": 0,
+  "e": "Qutb-ud-din Aibak, a slave of Muhammad Ghori, founded the dynasty in 1206.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "Who was the first and only woman ruler of the Delhi Sultanate?",
+  "o": [
+   "Nur Jahan",
+   "Chand Bibi",
+   "Razia Sultan",
+   "Rani Durgavati"
+  ],
+  "a": 2,
+  "e": "Razia, daughter of Iltutmish, ruled Delhi from 1236 to 1240.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "The First Battle of Panipat (1526) was fought between:",
+  "o": [
+   "Humayun and Sher Shah",
+   "Akbar and Hemu",
+   "Babur and Ibrahim Lodi",
+   "Babur and Rana Sanga"
+  ],
+  "a": 2,
+  "e": "Babur defeated Ibrahim Lodi and founded Mughal rule in India.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "Who founded the Mughal Empire in India?",
+  "o": [
+   "Humayun",
+   "Akbar",
+   "Babur",
+   "Timur"
+  ],
+  "a": 2,
+  "e": "Babur founded the Mughal Empire after his victory at Panipat in 1526.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "Which Mughal emperor started 'Din-i-Ilahi'?",
+  "o": [
+   "Jahangir",
+   "Shah Jahan",
+   "Aurangzeb",
+   "Akbar"
+  ],
+  "a": 3,
+  "e": "Akbar started Din-i-Ilahi in 1582 as a blend of ideas from many faiths.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "The Buland Darwaza at Fatehpur Sikri was built by:",
+  "o": [
+   "Shah Jahan",
+   "Jahangir",
+   "Humayun",
+   "Akbar"
+  ],
+  "a": 3,
+  "e": "Akbar built it to celebrate his victory in Gujarat.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "The Vijayanagara Empire was founded by:",
+  "o": [
+   "Krishnadeva Raya",
+   "Deva Raya II",
+   "Harihara and Bukka",
+   "Rama Raya"
+  ],
+  "a": 2,
+  "e": "Brothers Harihara and Bukka founded Vijayanagara in 1336 (Sangama dynasty).",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "Who was the founder of Sikhism?",
+  "o": [
+   "Guru Nanak Dev",
+   "Guru Gobind Singh",
+   "Guru Arjan Dev",
+   "Guru Tegh Bahadur"
+  ],
+  "a": 0,
+  "e": "Guru Nanak Dev (1469-1539) was the first Sikh Guru.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "The Khalsa Panth was founded in 1699 by:",
+  "o": [
+   "Guru Nanak Dev",
+   "Guru Arjan Dev",
+   "Guru Hargobind",
+   "Guru Gobind Singh"
+  ],
+  "a": 3,
+  "e": "Guru Gobind Singh, the tenth Guru, founded the Khalsa at Anandpur Sahib.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "The Second Battle of Panipat (1556) was fought between Akbar's forces and:",
+  "o": [
+   "Ibrahim Lodi",
+   "Hemu",
+   "Rana Sanga",
+   "Sher Shah Suri"
+  ],
+  "a": 1,
+  "e": "Akbar's army, led by Bairam Khan, defeated Hemu in 1556.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "'Ain-i-Akbari' was written by:",
+  "o": [
+   "Faizi",
+   "Badauni",
+   "Birbal",
+   "Abul Fazl"
+  ],
+  "a": 3,
+  "e": "Abul Fazl wrote Ain-i-Akbari as part of the Akbarnama.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "The famous Peacock Throne was made for which Mughal emperor?",
+  "o": [
+   "Shah Jahan",
+   "Akbar",
+   "Jahangir",
+   "Aurangzeb"
+  ],
+  "a": 0,
+  "e": "Shah Jahan had the jewelled Peacock Throne made; Nadir Shah carried it away in 1739.",
+  "topic": "Medieval History",
+  "level": "easy"
+ },
+ {
+  "q": "The construction of Qutub Minar was completed by:",
+  "o": [
+   "Iltutmish",
+   "Qutb-ud-din Aibak",
+   "Alauddin Khalji",
+   "Balban"
+  ],
+  "a": 0,
+  "e": "Aibak began the Qutub Minar and his successor Iltutmish completed it.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "Shivaji was crowned Chhatrapati in 1674 at:",
+  "o": [
+   "Pune",
+   "Sinhagad",
+   "Pratapgad",
+   "Raigad"
+  ],
+  "a": 3,
+  "e": "Shivaji's coronation took place at Raigad fort in 1674.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "Which Sultan introduced token currency of copper and brass coins?",
+  "o": [
+   "Alauddin Khalji",
+   "Muhammad bin Tughlaq",
+   "Firoz Shah Tughlaq",
+   "Balban"
+  ],
+  "a": 1,
+  "e": "Muhammad bin Tughlaq issued token coins, but the plan failed due to forgery.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "Which Sultan shifted his capital from Delhi to Daulatabad (Devagiri)?",
+  "o": [
+   "Firoz Shah Tughlaq",
+   "Iltutmish",
+   "Sikandar Lodi",
+   "Muhammad bin Tughlaq"
+  ],
+  "a": 3,
+  "e": "In 1327, Muhammad bin Tughlaq moved the capital to Daulatabad.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "In which year was the Battle of Haldighati fought?",
+  "o": [
+   "1526",
+   "1527",
+   "1556",
+   "1576"
+  ],
+  "a": 3,
+  "e": "Maharana Pratap fought Akbar's army led by Man Singh at Haldighati in 1576.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "The Battle of Chausa (1539) was fought between:",
+  "o": [
+   "Sher Shah Suri and Humayun",
+   "Babur and Rana Sanga",
+   "Akbar and Hemu",
+   "Humayun and Bahadur Shah of Gujarat"
+  ],
+  "a": 0,
+  "e": "Sher Shah defeated Humayun at Chausa in 1539 and again at Kannauj in 1540.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "Who introduced the Mansabdari system in the Mughal administration?",
+  "o": [
+   "Babur",
+   "Sher Shah Suri",
+   "Akbar",
+   "Shah Jahan"
+  ],
+  "a": 2,
+  "e": "Akbar ranked officials by mansab (rank) that fixed their pay and troops.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "The Brihadeeswara Temple at Thanjavur was built by:",
+  "o": [
+   "Rajendra Chola I",
+   "Karikala",
+   "Rajaraja Chola I",
+   "Kulottunga I"
+  ],
+  "a": 2,
+  "e": "Rajaraja I built the Brihadeeswara (Rajarajeshwaram) temple around 1010 AD.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "Moroccan traveller Ibn Battuta visited India during the reign of:",
+  "o": [
+   "Alauddin Khalji",
+   "Akbar",
+   "Muhammad bin Tughlaq",
+   "Firoz Shah Tughlaq"
+  ],
+  "a": 2,
+  "e": "Ibn Battuta served as Qazi of Delhi under Muhammad bin Tughlaq and wrote 'Rihla'.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "The Third Battle of Panipat (1761) was fought between the Marathas and:",
+  "o": [
+   "Nadir Shah",
+   "The Mughals",
+   "The British",
+   "Ahmad Shah Abdali"
+  ],
+  "a": 3,
+  "e": "Ahmad Shah Abdali of Afghanistan defeated the Marathas in 1761.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "Saint Kabir, a disciple of Ramananda, was by profession a:",
+  "o": [
+   "Potter",
+   "Tailor",
+   "Weaver",
+   "Goldsmith"
+  ],
+  "a": 2,
+  "e": "Kabir was brought up in a family of weavers in Varanasi.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "Khwaja Moinuddin of Ajmer belonged to which Sufi order?",
+  "o": [
+   "Suhrawardi",
+   "Chishti",
+   "Naqshbandi",
+   "Qadiri"
+  ],
+  "a": 1,
+  "e": "Khwaja Moinuddin Chishti brought the Chishti order to India.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "Who was Akbar's finance minister known for land revenue reforms?",
+  "o": [
+   "Raja Todar Mal",
+   "Birbal",
+   "Raja Man Singh",
+   "Abul Fazl"
+  ],
+  "a": 0,
+  "e": "Todar Mal developed the Zabti (Dahsala) system of land revenue.",
+  "topic": "Medieval History",
+  "level": "medium"
+ },
+ {
+  "q": "Nadir Shah invaded India in 1739 during the reign of which Mughal emperor?",
+  "o": [
+   "Muhammad Shah",
+   "Aurangzeb",
+   "Bahadur Shah I",
+   "Shah Alam II"
+  ],
+  "a": 0,
+  "e": "Nadir Shah sacked Delhi in 1739 when Muhammad Shah 'Rangila' was emperor.",
+  "topic": "Medieval History",
+  "level": "hard"
+ },
+ {
+  "q": "Krishnadeva Raya of Vijayanagara belonged to which dynasty?",
+  "o": [
+   "Sangama",
+   "Tuluva",
+   "Saluva",
+   "Aravidu"
+  ],
+  "a": 1,
+  "e": "Krishnadeva Raya (1509-1529) was the greatest ruler of the Tuluva dynasty.",
+  "topic": "Medieval History",
+  "level": "hard"
+ },
+ {
+  "q": "The title 'Gangaikonda Chola' is associated with:",
+  "o": [
+   "Rajaraja Chola I",
+   "Rajendra Chola I",
+   "Parantaka I",
+   "Vijayalaya"
+  ],
+  "a": 1,
+  "e": "Rajendra I took this title after his army reached the Ganga and founded Gangaikonda Cholapuram.",
+  "topic": "Medieval History",
+  "level": "hard"
+ },
+ {
+  "q": "Which Delhi Sultan is credited with organising the 'Iqta' system as an institution?",
+  "o": [
+   "Balban",
+   "Iltutmish",
+   "Qutb-ud-din Aibak",
+   "Alauddin Khalji"
+  ],
+  "a": 1,
+  "e": "Iltutmish made the Iqta (land assignment in place of salary) a regular system.",
+  "topic": "Medieval History",
+  "level": "hard"
+ },
+ {
+  "q": "Which Sultan introduced the Persian customs of 'Sijda' and 'Paibos' at court?",
+  "o": [
+   "Iltutmish",
+   "Alauddin Khalji",
+   "Firoz Shah Tughlaq",
+   "Balban"
+  ],
+  "a": 3,
+  "e": "Balban stressed royal dignity and introduced Sijda (prostration) and Paibos (kissing the feet).",
+  "topic": "Medieval History",
+  "level": "hard"
+ }
+]

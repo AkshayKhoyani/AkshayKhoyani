@@ -1,0 +1,1120 @@
+{
+ "exam": "Odisha Civil Services (OCS) Preliminary Examination 2024",
+ "paper": "General Studies Paper-I - Test Booklet Series A (held 12.10.2025)",
+ "year": 2025,
+ "board": "Odisha Public Service Commission (OPSC)",
+ "state": "Odisha",
+ "lang": "en",
+ "source_paper": "https://www.opsc.gov.in/Public/Pages/Question_Ans_Paper.aspx (Odisha Civil Services > Advt. No. 07 of 2024-25 > Preliminary Examination > Paper - I)",
+ "source_key": "https://www.opsc.gov.in/Public/Pages/View_Content.aspx?id=8ucZZ0qxTEidPUFJsbJ1Eg== (Results: OCS 2024 Cut-off Marks & Final Answer Keys of Preliminary Examination, 03.06.2026)",
+ "duration_min": 120,
+ "marks_per_q": 2,
+ "negative": 0.67,
+ "questions": [
+  {
+   "q": "Which one among the following does not match properly the Noble Prize category with its 2024 laureate?",
+   "o": [
+    "Peace - Narges Mohammadi",
+    "Literature - Han Kang",
+    "Economics - Daron Acemoglu, Simon Johnson & James Robinson",
+    "Physics - John Hopfield & Geoffrey Hinton"
+   ],
+   "a": 0,
+   "e": "The 2024 Peace Prize went to Nihon Hidankyo; Narges Mohammadi won the Peace Prize in 2023, so option A is mismatched.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Who made history as the first Black man to win the Oscar for Best Costume Design at the 97th edition of the Academy Awards?",
+   "o": [
+    "Paul Tazewell",
+    "Olivier Persin",
+    "Emilia Pérez",
+    "Sean Baker"
+   ],
+   "a": 0,
+   "e": "Paul Tazewell won Best Costume Design for 'Wicked' at the 97th Oscars (2025), the first Black man to do so.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Arrange the following texts in their chronological order of composition : a) Brihalaranyaka upanishad b) Manusmriti c) Arthashastra d) Milinda Panha",
+   "o": [
+    "a-b-c-d",
+    "b-c-a-d",
+    "c-a-b-d",
+    "a-c-b-d"
+   ],
+   "a": 3,
+   "e": "Brihadaranyaka Upanishad (later Vedic) precedes Arthashastra (Mauryan), then Manusmriti and the Milinda Panha.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Consider the following statements about India’s Nationally Determined Contributions (NDCs): 1) India has committed to reduce the emissions intensity of its GDP by 45% by 2030 from 2005 levels. 2) India aims to achieve about 50% cumulative electric power 7 installed capacity from non-fossil fuel sources by 2030. 3) India’s updated NDC is linked to the Panchamrit announcement made at COP26. Which of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "e": "All three are features of India's updated NDC (2022), which formalised the Panchamrit pledges made at COP26.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Who has been appointed as India's new Deputy National security Adviser as of August 2025?",
+   "o": [
+    "Rajinder Khanna",
+    "T. V. Ravichandran",
+    "Anish Dayal Singh",
+    "Pankaj Kumar Singh"
+   ],
+   "a": 2,
+   "e": "Former IPS officer Anish Dayal Singh was appointed Deputy NSA in 2025.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Match the following : Day United Nations Events a) 3 March 1) World Wildlife Day b) 7 April 2) World Health Day c) 3May 3) World Press Freedom day d) 20 June 4) World Refugee day Select the correct answer from the codes given below :",
+   "o": [
+    "a-1 b-2 c-3 d-4",
+    "a-2 b-3 c-4 d-1",
+    "a-1 b-3 c-4 d-2",
+    "a-3 b-2 c-1 d-4"
+   ],
+   "a": 0,
+   "e": "World Wildlife Day 3 March, World Health Day 7 April, World Press Freedom Day 3 May, World Refugee Day 20 June.",
+   "section": "General Studies",
+   "topic": "Important Days"
+  },
+  {
+   "q": "What was the official theme of the 38th National Games?",
+   "o": [
+    "Fit India",
+    "Sustainable Olympics",
+    "Green Games",
+    "Eco-Sports Initiative"
+   ],
+   "a": 2,
+   "e": "The 38th National Games in Uttarakhand (2025) were themed as 'Green Games'.",
+   "section": "General Studies",
+   "topic": "Sports"
+  },
+  {
+   "q": "Match List - I (Colonial Policies/events) with List - II (Impact on Odisha) and select from Code:\na) Permanent Settlement (1793)  1. Aggravated economic distress of Odisha peasants\nb) British Reorganization after Maratha defeat  2. Led to the inclusion of Odia speaking tracts under different presidencies\nc) Imposition of Bengali  3. Caused resentment and fueled Odia linguistic identity movement\nd) Slavery Abolition (1843)  4. Enacted by Lord Ellenborough in Odisha\ne) Simon Commission  5. Petitioned by Krushna Chandra Gajapati for separate province",
+   "o": [
+    "a-1, b-2, c-3, d-4, e-5",
+    "a-2, b-1, c-3, d-4, e-5",
+    "a-4, b-5, c-1, d-3, e-2",
+    "a-5, b-3, c-4, d-2, e-1"
+   ],
+   "a": 0,
+   "e": "Each colonial policy matches its listed impact in order: a-1, b-2, c-3, d-4, e-5.",
+   "section": "State GK",
+   "topic": "Odisha History"
+  },
+  {
+   "q": "Who were the first to issue gold coins in India?",
+   "o": [
+    "Kushans",
+    "Sakas",
+    "Parthians",
+    "Indo Greeks"
+   ],
+   "a": 0,
+   "e": "The Kushans were the first to issue gold coins in India on a large scale.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "The Department of Social Justice and Empowerment (DoSJE) recently signed an MoU with which organisation to enhance public awareness about social justice schemes?",
+   "o": [
+    "Ministry of Defence",
+    "National Human Rights Commission (NHRC)",
+    "National Legal Services Authority (NALSA)",
+    "Central Vigilance Commission"
+   ],
+   "a": 2,
+   "e": "The DoSJE signed an MoU with NALSA to spread legal and scheme awareness among marginalised groups.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Match the initiative with its year of launch:\na) Ayushman Bharat  1) 2006\nb) National Skill Development Mission  2) 2018\nc) MGNREGS  3) 2015\nd) Pradhan Mantri Jan Dhan Yojana  4) 2014",
+   "o": [
+    "a-2, b-3, c-1, d-4",
+    "a-4, b-1, c-2, d-3",
+    "a-3, b-2, c-4, d-1",
+    "a-1, b-4, c-3, d-2"
+   ],
+   "a": 0,
+   "e": "MGNREGS 2006, PMJDY 2014, National Skill Development Mission 2015 and Ayushman Bharat 2018.",
+   "section": "General Studies",
+   "topic": "Government Schemes"
+  },
+  {
+   "q": "Match the following Rajput rulers with their notable battles or events:\na) Rana Sanga  1) Battle of Haldighati\nb) Maharana Pratap  2) Battle of Khanwa\nc) Rao Chandra Sen  3) Struggle against Akbar\nd) Raja Man Singh  4) Conquest of Odisha",
+   "o": [
+    "a-2, b-1, c-3, d-4",
+    "a-1, b-3, c-2, d-4",
+    "a-3, b-2, c-4, d-1",
+    "a-4, b-2, c-1, d-3"
+   ],
+   "a": 0,
+   "e": "Rana Sanga fought at Khanwa, Pratap at Haldighati, Rao Chandrasen resisted Akbar and Man Singh conquered Odisha.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "Which one of the following Article of Indian constitution provides that the law declared by the Supreme Court shall be binding on all courts within the territory of India?",
+   "o": [
+    "Article 131",
+    "Article 141",
+    "Article 144",
+    "Article 145"
+   ],
+   "a": 1,
+   "e": "Article 141 makes the law declared by the Supreme Court binding on all courts in India.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which of the following statements about G-20 is NOT correct?",
+   "o": [
+    "The G20 was established in 1999.",
+    "USA hosted the first G20 Summit of leaders in 2008.",
+    "The presidency of the G20 rotates every year among member countries.",
+    "Chile is a member of G20."
+   ],
+   "a": 3,
+   "e": "Chile is not a G20 member; the G20 formed in 1999 and its first leaders' summit was in Washington in 2008.",
+   "section": "General Studies",
+   "topic": "International Organisations"
+  },
+  {
+   "q": "The foundational ideology of the Hindustan Socialist Republican Association was inspired by :",
+   "o": [
+    "Italian nationalist movement and the works of Mazzini",
+    "Leninist Communism and the Russian Revolution",
+    "American War of Independence and George Washington",
+    "Irish freedom struggle and Sinn Fein Movement"
+   ],
+   "a": 1,
+   "e": "The HSRA (1928) adopted socialism, drawing inspiration from the Russian Revolution.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Which of the following fundamental rights is available only to Indian citizens and not to foreigners?",
+   "o": [
+    "Right to Equality before Law (Article 14)",
+    "Freedom of Speech and Expression (Article 19)",
+    "Protection in respect of conviction for offences (Article 20)",
+    "Right to Life and Personal Liberty (Article 21)"
+   ],
+   "a": 1,
+   "e": "Article 19 freedoms are available only to citizens; Articles 14, 20 and 21 apply to foreigners too.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "As per the Global Hunger Index 2023, India ranks at which position globally?",
+   "o": [
+    "105",
+    "107",
+    "111",
+    "115"
+   ],
+   "a": 2,
+   "e": "India was ranked 111th of 125 countries in the Global Hunger Index 2023.",
+   "section": "General Studies",
+   "topic": "Indices"
+  },
+  {
+   "q": "Which of the following statements about the Chenab Rail Bridge is correct?\n1) It is a Cable-stayed bridge.\n2) The Chenab Rail Bridge is taller than the Eiffel Tower.\n3) It is a part of the Golden Quadrilateral Railway Project.\n4) It is the world's highest Railway arch bridge.\nSelect the correct answer from the codes given below:",
+   "o": [
+    "1 and 3",
+    "3 only",
+    "1 only",
+    "2 and 4"
+   ],
+   "a": 3,
+   "e": "The Chenab bridge is a steel arch bridge, the world's highest rail arch bridge and taller than the Eiffel Tower; it is part of the USBRL project.",
+   "section": "General Studies",
+   "topic": "Infrastructure"
+  },
+  {
+   "q": "Which of the following pairs is correctly matched regarding Schedules of the Indian Constitution?",
+   "o": [
+    "6th Schedule - Languages recognized by the Constitution",
+    "7th Schedule - Division of powers between Union and States",
+    "8th Schedule - Land Reforms and Ceiling on Landholdings",
+    "9th Schedule - Tribal Areas of Assam, Meghalaya, Tripura, Mizoram"
+   ],
+   "a": 1,
+   "e": "The 7th Schedule contains the Union, State and Concurrent Lists dividing powers.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which category under the IUCN Classification is not directly recognized in the Indian Wildlife (Protection) Act, 1972?",
+   "o": [
+    "Critically Endangered",
+    "Vulnerable",
+    "Endemic",
+    "Extinct in the Wild"
+   ],
+   "a": 3,
+   "e": "The Wildlife (Protection) Act uses schedules, not IUCN categories; 'Extinct in the Wild' has no direct counterpart in it.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Acetylsalicylic acid is known as:",
+   "o": [
+    "Oil of wintergreen",
+    "Aspirin",
+    "Ibuprofen",
+    "Paracetamol"
+   ],
+   "a": 1,
+   "e": "Acetylsalicylic acid is aspirin.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Match List - I (Name) with List - II (Activities) and select from Code:\na) Madhusudan Das  1) Leader of Khurda Rebellion\nb) Buxi Jagabandhu  2) Founder of Utkal Sammilani\nc) Fakir Mohan Senapati  3) Pioneer of Modern Odia literature\nd) Krushna Chandra Gajapati  4) Played key role in Odisha's separate province formation",
+   "o": [
+    "a-1, b-2, c-3, d-4",
+    "a-2, b-1, c-3, d-4",
+    "a-4, b-2, c-1, d-3",
+    "a-1, b-3, c-4, d-2"
+   ],
+   "a": 1,
+   "e": "Madhusudan Das founded Utkal Sammilani, Buxi Jagabandhu led the Khurda (Paika) rebellion, Fakir Mohan pioneered modern Odia prose and Krushna Chandra Gajapati helped create Odisha province.",
+   "section": "State GK",
+   "topic": "Odisha History"
+  },
+  {
+   "q": "What does NISAR stand for?",
+   "o": [
+    "NASA-ISRO- Space and Aeronautics Research",
+    "NASA-ISRO Synthetic Aperture Radar",
+    "National Indian Space and Aeronautics Radar",
+    "NASA International Satellite for Advanced Research"
+   ],
+   "a": 1,
+   "e": "NISAR is the NASA-ISRO Synthetic Aperture Radar earth observation satellite.",
+   "section": "General Studies",
+   "topic": "Science & Technology"
+  },
+  {
+   "q": "Consider the contributions and challenges of the Services Sector in India: 1. The Services sector is the largest contributor to India’s GDP and has been the primary driver of economic growth in recent decades. 2. Despite its large share in GDP, the services sector’s share in total employment is significantly lower than that of agriculture. 3. The growth in services has often been termed “jobless growth” in the formal sector, leading to a rise in informal service sector’s employment. 4. Digitalization and the rise of the IT/ITeS sector have further solidified India’s position as a global service hub, but the benefits are not uniformly distributed across the workforce. Which of the above statements are correct?",
+   "o": [
+    "1,2 and 3 only",
+    "1,3 and 4 only",
+    "2,3 and 4 only",
+    "All of the above"
+   ],
+   "a": 3,
+   "e": "All four statements on the size, employment gap, jobless growth and uneven IT gains of India's service sector are correct.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Match List - I (Leader) with List - II (Organisation) and select the correct answer using the code given below:\na) M. C. Raja  1) All India Depressed Classes League\nb) Jagjivan Ram  2) All India Depressed Classes Congress\nc) B.R. Ambedkar  3) All India Depressed Classes Association\nd) Mahatma Gandhi  4) All India Harijan Sangh",
+   "o": [
+    "a-3, b-2, c-4, d-1",
+    "a-3, b-1, c-2, d-4",
+    "a-1, b-3, c-2, d-4",
+    "a-4, b-2, c-1, d-3"
+   ],
+   "a": 1,
+   "e": "M.C. Raja - Depressed Classes Association, Jagjivan Ram - Depressed Classes League, Ambedkar - Depressed Classes Congress, Gandhi - Harijan Sevak Sangh.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "The Ganjam Plates of Madhava Raja II of the Shailodbhava dynasty provide valuable information about which aspect of early Medieval Odisha's history?",
+   "o": [
+    "The genealogy and territorial extent of the Shailodbhava rulers.",
+    "The maritime trade networks of the Shailodbhavas with South east Asia",
+    "The construction of the Mukteshvara temple at Bhubaneswar",
+    "The diplomatic relations between the Shailodbhavas and the Gupta Empire"
+   ],
+   "a": 0,
+   "e": "The Ganjam copper plates of Madhavaraja II record the genealogy and territorial extent of the Shailodbhavas.",
+   "section": "State GK",
+   "topic": "Odisha History"
+  },
+  {
+   "q": "Which of the following statements about the Asia Cup cricket tournament is NOT correct. 1) The Asia Cup is a cricket tournament played among the Asian group of nations. 2) The Asia Cup is organised by the Asian Cricket Council. 3) The Asia Cup was first held in the year 1984. 4) The first Asia Cup cricket tournament was played in Colombo, Sri Lanka. Select the correct answer from the codes given below :",
+   "o": [
+    "1 and 2",
+    "2 and 3",
+    "3 and 1",
+    "4 only"
+   ],
+   "a": 3,
+   "e": "The first Asia Cup (1984) was held in Sharjah, UAE, not Colombo, so statement 4 is wrong.",
+   "section": "General Studies",
+   "topic": "Sports"
+  },
+  {
+   "q": "Which of the following statements is/ are correct about the Rajya Sabha? 1. It is a permanent body and cannot be dissolved. 2. One-third of its members retire every two years. 3. The Vice President of India is the ex-officio Chairperson of the Rajya Sabha. 4. It can be dissolved by the President during National Emergency.",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 3 only",
+    "2 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 1,
+   "e": "The Rajya Sabha is permanent, one-third retire every two years and the Vice-President chairs it; it can never be dissolved.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Who fought the Battle of Talikota?",
+   "o": [
+    "Harihara I",
+    "Devaraya II",
+    "Krishna Deva Raya",
+    "Rama Raya"
+   ],
+   "a": 3,
+   "e": "Vijayanagara under Aliya Rama Raya fought the Deccan Sultanates at Talikota in 1565.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "The National Disaster Management Authority (NDMA) functions under :",
+   "o": [
+    "Ministry of Environment, Forest and Climate Change",
+    "Ministry of Home Affairs",
+    "Cabinet Secretariat",
+    "Prime Minister's Office (PMO)"
+   ],
+   "a": 1,
+   "e": "The NDMA, chaired by the Prime Minister, functions under the Ministry of Home Affairs.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "India’s first OECM (Other Effective area-based Conservation Measure) recognition was awarded for which reason?",
+   "o": [
+    "Ex-situ conservation of orchids",
+    "Sacred groves with endemic fauna",
+    "Biodiversity management in community forests",
+    "Coral reef mapping"
+   ],
+   "a": 2,
+   "e": "India's first OECM recognition was for community-managed biodiversity in forests, as listed in the official key.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Who commissioned the construction of the rock-cut Jain Monasteries on Udayagiri Hills?",
+   "o": [
+    "Ashoka",
+    "Chandra Gupta Maurya",
+    "Kharavela",
+    "Bindusara"
+   ],
+   "a": 2,
+   "e": "The Jain rock-cut caves of Udayagiri-Khandagiri were commissioned by Kalinga king Kharavela.",
+   "section": "State GK",
+   "topic": "Odisha History"
+  },
+  {
+   "q": "Which of the following statements about Tropical Evergreen Forests in India are NOT correct? 1. They are confined only to the Eastern Ghats of India 2. The trees shed their leaves simultaneously during the dry summer season. 3. They are found in regions receiving rainfall above 200 cm. 4. Ebony, mahogany, and rosewood are common species.",
+   "o": [
+    "3 and 4 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 4 only"
+   ],
+   "a": 1,
+   "e": "Evergreen forests occur in the Western Ghats, NE and islands, not only the Eastern Ghats, and they do not shed leaves together; so 1 and 2 are wrong.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "What is the Surya Heliophysics Foundation Model?",
+   "o": [
+    "A planetary rover",
+    "An AI model to forecast solar activity",
+    "An Earth observation satellite",
+    "A spacecraft"
+   ],
+   "a": 1,
+   "e": "Surya is a NASA-IBM AI foundation model trained on solar data to forecast solar activity.",
+   "section": "General Studies",
+   "topic": "Science & Technology"
+  },
+  {
+   "q": "Consider the following statements concerning India’s Multidimensional Poverty Index (MPI): 1. India's MPI uses health, education and standard of living as dimensions, aligning with the global MPI methodology. 2. The MPI is published by NITI Aayog using data primarily from the National Family Health Survey (NFHS). 3. The Global MPI is released annually by the United Nations Development Programme (UNDP) and the Oxford Poverty and Human Development Initiative (OPHI). 4. India’s MPI includes indicators such as nutrition, school attendance and access to clean cooking fuel, among others. Which of the above statements are correct?",
+   "o": [
+    "1 and 2 only",
+    "1, 2 and 4 only",
+    "2 and 3 only",
+    "All of the above"
+   ],
+   "a": 3,
+   "e": "All four statements on India's MPI (NITI Aayog, NFHS data) and the Global MPI (UNDP-OPHI) are correct.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "The \"One Health\" approach in public policy refers to :",
+   "o": [
+    "Integrating traditional and modern health systems",
+    "Linking human, animal and environmental health to prevent pandemics",
+    "Making public and private hospitals work jointly",
+    "Telemedicine expansion to rural areas"
+   ],
+   "a": 1,
+   "e": "One Health links human, animal and environmental health to prevent zoonotic disease outbreaks.",
+   "section": "General Studies",
+   "topic": "Health"
+  },
+  {
+   "q": "Which of the following statements about the Odisha Integrated Irrigation Project for Climate Resilient Agriculture (OIIPCRA) is NOT correct? 1. OIIPCRA is jointly funded by the Government of Odisha and the World Bank. 2. The project aims to improve irrigation infrastructure and promote climate-resilient farming practices in selected districts. 3. It primarily focuses on large-scale dam construction to increase irrigation potential in coastal Odisha. 4. The project supports farmer training, capacity building and the introduction of climate-smart agricultural technologies.",
+   "o": [
+    "1 only",
+    "2 only",
+    "3 only",
+    "4 only"
+   ],
+   "a": 2,
+   "e": "OIIPCRA focuses on reviving minor irrigation tanks and climate-resilient farming, not large dam construction.",
+   "section": "State GK",
+   "topic": "Odisha Economy"
+  },
+  {
+   "q": "Who is the author of the book Baidehisha Bilasa\"?",
+   "o": [
+    "Hari Charan Deva",
+    "Sisu Sankar Das",
+    "Upendra Bhanja",
+    "Harihar Kabi"
+   ],
+   "a": 2,
+   "e": "Baidehisha Bilasa is the celebrated kavya of Kabi Samrat Upendra Bhanja.",
+   "section": "State GK",
+   "topic": "Odia Literature"
+  },
+  {
+   "q": "Which of the following statements about Biosphere Reserves in India are NOT correct? 1. Great Nicobar is one of the designated biosphere reserves. 2. Nilgiri Biosphere Reserve is spread over Karnataka, Kerala, and Tamil Nadu. 3. There are no biosphere reserves in the Himalayan region. 4. Sundarbans Biosphere Reserve is a UNESCO World Heritage Site.",
+   "o": [
+    "3 only",
+    "1 and 3 only",
+    "1, 2 and 4 only",
+    "3 and 4 only"
+   ],
+   "a": 3,
+   "e": "There are Himalayan biosphere reserves (e.g. Nanda Devi, Cold Desert), and the Sundarbans WHS listing is for the national park, so 3 and 4 are not correct.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "The Mission Karmayogi launched by the Government of India is aimed at:",
+   "o": [
+    "Skill development for unemployed youth",
+    "Capacity building and competency development of civil servants",
+    "Leadership training for Panchayati Raj officials",
+    "Military training for disaster response"
+   ],
+   "a": 1,
+   "e": "Mission Karmayogi (2020) is a capacity-building programme for civil servants.",
+   "section": "General Studies",
+   "topic": "Governance"
+  },
+  {
+   "q": "In India, the ‘Threatened Species Recovery Programme’ under NBAP targets species that are:",
+   "o": [
+    "Locally extinct but globally common",
+    "Keystone species across agro-ecological zones",
+    "Species with narrow geographic range and declining population",
+    "Genetically engineered but endangered"
+   ],
+   "a": 2,
+   "e": "Recovery programmes target species with narrow ranges and declining populations.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Which Mughal Emperor appointed the first separate Subahdar of Odisha, and in which year did Odisha became a separate Subah?",
+   "o": [
+    "Akbar, 1593",
+    "Aurangzeb, 1658",
+    "Shahjahan, 1628",
+    "Jahangir, 1607"
+   ],
+   "a": 3,
+   "e": "Odisha was made a separate subah during Jahangir's reign in 1607.",
+   "section": "State GK",
+   "topic": "Odisha History"
+  },
+  {
+   "q": "Match these summits to their host cities:\na) G7 (2025)  1) Kananaskis\nb) NATO (2025)  2) The Hague\nc) SCO (2024)  3) Islamabad\nd) G20 Summit (2025)  4) Johannesburg",
+   "o": [
+    "a-1 b-2 c-3 d-4",
+    "a-2 b-3 c-4 d-1",
+    "a-1 b-3 c-4 d-2",
+    "a-3 b-2 c-1 d-4"
+   ],
+   "a": 0,
+   "e": "G7 2025 Kananaskis, NATO 2025 The Hague, SCO Heads of Government 2024 Islamabad and G20 2025 Johannesburg.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "The El Nino phenomenon is associated with :",
+   "o": [
+    "Weakening of monsoon in India",
+    "Strengthening of monsoon in India",
+    "No effect on the monsoon in India",
+    "Only winter rains in India"
+   ],
+   "a": 0,
+   "e": "El Nino warms the eastern Pacific and generally weakens the Indian monsoon.",
+   "section": "General Studies",
+   "topic": "Climatology"
+  },
+  {
+   "q": "Which country did India defeat in both men's and women's Kho Kho World Cup 2025 finals?",
+   "o": [
+    "Bangladesh",
+    "Sri Lanka",
+    "Nepal",
+    "Pakistan"
+   ],
+   "a": 2,
+   "e": "India beat Nepal in both the men's and women's finals of the first Kho Kho World Cup in 2025.",
+   "section": "General Studies",
+   "topic": "Sports"
+  },
+  {
+   "q": "Match the following Authors (List - I) with Books (List - II):\n1) A.L. Basham  a) India as a secular state\n2) Donald E. Smith  b) The wonder that was India\n3) Rudolph & Rudolph  c) Government and politics of India\n4) W.H. Morris Jones  d) In pursuit of Lakshmi",
+   "o": [
+    "1-b, 2-a, 3-d, 4-c",
+    "1-a, 2-c, 3-b, 4-d",
+    "1-d, 2-b, 3-a, 4-c",
+    "1-d, 2-c, 3-b, 4-a"
+   ],
+   "a": 0,
+   "e": "Basham - The Wonder That Was India; Smith - India as a Secular State; Rudolphs - In Pursuit of Lakshmi; Morris-Jones - Government and Politics of India.",
+   "section": "General Studies",
+   "topic": "Books & Authors"
+  },
+  {
+   "q": "The 15\" Finance Commission recommended a health grant architecture focusing on",
+   "o": [
+    "Health cess consolidation into GST",
+    "States’ debt takeover by Centre",
+    "Universal health premium",
+    "Urban/rural health infrastructure and primary health care strengthening"
+   ],
+   "a": 3,
+   "e": "The 15th Finance Commission recommended health grants for urban/rural health infrastructure and primary health care.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "The Chola navy was known for its expedition against :",
+   "o": [
+    "Cambodia and Laos",
+    "Vietnam",
+    "Indonesia and Sri Lanka",
+    "Maldives"
+   ],
+   "a": 2,
+   "e": "Rajendra Chola's navy is famous for expeditions to Srivijaya (Indonesia/Malaya) and Sri Lanka.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "The PM Gati Shakti - National Logistics Policy targets :",
+   "o": [
+    "Achieving net-zero carbon emissions in urban transport",
+    "Integrating road, rail, port, and airport infrastructure for faster goods movement",
+    "Promoting bullet train corridors",
+    "Increasing domestic shipbuilding industry"
+   ],
+   "a": 1,
+   "e": "PM Gati Shakti integrates planning of road, rail, port and airport infrastructure for seamless logistics.",
+   "section": "General Studies",
+   "topic": "Infrastructure"
+  },
+  {
+   "q": "What differentiates India’s Long-Term Low Emission Development Strategy (LT-LEDS) from the NAPCC?",
+   "o": [
+    "It targets only renewable energy",
+    "It provides sector-specific deep decarbonization roadmaps",
+    "It replaces all earlier missions",
+    "It excludes forestry"
+   ],
+   "a": 1,
+   "e": "India's LT-LEDS (2022) sets sector-wise low-carbon development pathways, unlike the mission-based NAPCC.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Mustard Gas is :",
+   "o": [
+    "Uranium hexafluoride",
+    "Dichlorodiphenyltrichloroethane",
+    "2,2'-dichlorodiethylsulfide",
+    "Diethylsulphoxide"
+   ],
+   "a": 2,
+   "e": "Mustard gas is bis(2-chloroethyl) sulphide, i.e. 2,2'-dichlorodiethyl sulphide.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Read the following statements and choose the correct alternative in respect of settlement geography of the world Statement-1: In humid tropical regions, rural settlements often take the form of compact villages. Statement-2: Isolated farmsteads are more common in the densely populated rice-growing regions of Asia. Statement-3: Physical barriers like mountains and deserts can lead to clustered settlements in limited habitable pockets. Statement-4: Settlement morphology is linked to agricultural systems and land ownership patterns.",
+   "o": [
+    "Statements 1, 2 and 3 are correct, and Statement 4 is incorrect.",
+    "Statements 1, 3 and 4 are correct, and Statement 2 is incorrect.",
+    "Statements 2, 3 and 4 are correct, and Statement 1 is incorrect.",
+    "Statement 3 is correct, and Statements 1, 2 and 4 are incorrect."
+   ],
+   "a": 1,
+   "e": "Densely populated Asian rice regions have clustered villages, not isolated farmsteads, so statement 2 is wrong.",
+   "section": "General Studies",
+   "topic": "Human Geography"
+  },
+  {
+   "q": "The basic foundation of global economic governance in the post - second World War was laid by various institutional frameworks. Which of the following combinations is correct? a) IMF, World Bank, GATT b) IMF, World Bank, Asian Development Bank c) World Bank, GATT, BRICS d) Asian Development Bank, IMF, IBRD",
+   "o": [
+    "a and b",
+    "a, b and c",
+    "a, c and d",
+    "a, b, c and d"
+   ],
+   "a": 0,
+   "e": "The official key accepts combinations a and b.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "With respect to inflation in the Indian context, consider the following statements: 1. Retail inflation, measured by the Consumer Price Index (CPI), is the primary metric used by the Reserve Bank of India (RBI) for monetary policy formulation. 2. Core inflation includes volatile components like food and fuel prices, providing a more stable measure of underlying inflationary pressures. 3. Supply-side factors, such as monsoons affecting agricultural output and global crude oil prices, play a significant role in India’s inflation dynamics. 4. Headline inflation refers to the total inflation in an economy, including volatile components such as food and energy prices. Which of the above statements are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1,3 and 4 only",
+    "2,3 and 4 only",
+    "All of the above"
+   ],
+   "a": 1,
+   "e": "Core inflation excludes food and fuel, so statement 2 is wrong; the rest are correct.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "A Committee was constituted to formulate fundamental duties after emergency in 1976. It was headed by which of the following personalities?",
+   "o": [
+    "VC Shukla",
+    "DK Barooah",
+    "Sardar Swaran Singh",
+    "Sanjeeva Reddy"
+   ],
+   "a": 2,
+   "e": "The Swaran Singh Committee (1976) recommended adding Fundamental Duties.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Wave like character of an electron is proved by:",
+   "o": [
+    "The ionization of an atom",
+    "The flow of electrons in a metal wire",
+    "The deflection of an electron beam by electrical plates",
+    "The diffraction pattern of electrons scattered from a crystalline solid"
+   ],
+   "a": 3,
+   "e": "Electron diffraction by crystals (Davisson-Germer) proved the wave nature of electrons.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The 2025 Cambodia - Thailand border conflict was primarily triggered by:",
+   "o": [
+    "Disputes on Oil and gas resources in the Gulf of Thailand.",
+    "Historical disputes over Preah Vihear Temple and the surrounding territory.",
+    "Disputes on Mekong River water-sharing.",
+    "Trade War."
+   ],
+   "a": 1,
+   "e": "The 2025 Cambodia-Thailand clashes stemmed from long-standing disputes over the Preah Vihear temple area.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "The term seamless web with reference to the interconnectedness of different parts of Indian Constitution was used by which of the following authors?",
+   "o": [
+    "Granville Austin",
+    "K.C. Wheare",
+    "Donald Smith",
+    "A.V. Dicey"
+   ],
+   "a": 0,
+   "e": "Granville Austin described the Indian Constitution as a 'seamless web'.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Who was the founder of the Lingayat sect?",
+   "o": [
+    "Appar",
+    "Basava",
+    "Bijjala",
+    "Abhinava"
+   ],
+   "a": 1,
+   "e": "Basavanna (12th century) founded the Lingayat (Virashaiva) movement.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "Tarkunde Report is related to which of the following?",
+   "o": [
+    "Electoral Reforms",
+    "Centre State Relations",
+    "Economic Reforms",
+    "Educational Reforms"
+   ],
+   "a": 0,
+   "e": "The Tarkunde Committee (1974-75) dealt with electoral reforms.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "The CAMPA funds are prioritized for activities that involve:",
+   "o": [
+    "Mining clearance proposals",
+    "Community-managed wind farms",
+    "Compensatory afforestation and eco-restoration",
+    "River-interlinking project evaluations"
+   ],
+   "a": 2,
+   "e": "CAMPA funds are meant for compensatory afforestation and ecosystem restoration.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "The Dyarchical system of government was introduced by which of the following measures?",
+   "o": [
+    "Government of India Act, 1909",
+    "Government of India Resolution 1918",
+    "Government of India Act, 1919",
+    "Government of India Act, 1935"
+   ],
+   "a": 2,
+   "e": "The Government of India Act 1919 introduced dyarchy in the provinces.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Which of the following is a non-reducing sugar :",
+   "o": [
+    "Glucose",
+    "Maltose",
+    "Sucrose",
+    "Fructose"
+   ],
+   "a": 2,
+   "e": "In sucrose both anomeric carbons are bonded, so it is a non-reducing sugar.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which of the following statements about World Cultural Realms are NOT correct? 1. Occidental Realm : Includes Western Europe, North America, Australia, and New Zealand; shares Greco-Roman heritage, Christianity and industrial development. 2. Indic Realm : Centered in India; shaped by Hinduism, Buddhism and related cultural traditions. 3. Islamic Realm : Restricted solely to the Arabian Peninsula, excluding North Africa and Southeast Asia. 4. Sino-Japanese Realm : Comprises China, Japan, Korea, and Vietnam; influenced by Confucianism, Buddhism, and Taoism. 5. Sub-Saharan African Realm: Unified by Bantu linguistic roots and indigenous beliefs, with significant Islamic and Christian presence.",
+   "o": [
+    "1 and 3 only",
+    "2 and 4 only",
+    "3 only",
+    "1, 3 and 5"
+   ],
+   "a": 2,
+   "e": "The Islamic realm extends across North Africa and parts of Asia, so statement 3 is false.",
+   "section": "General Studies",
+   "topic": "Human Geography"
+  },
+  {
+   "q": "Arrange the following committees in a chronological order : a) N.N. Vohra Committee b) Rajinder Sachar Committee c) D.S. Kothari Committee d) Raja. J. Chelliah Committee Choose the correct answer :",
+   "o": [
+    "a, b, c and d",
+    "c, d, a and b",
+    "b, a, c and d",
+    "a, c, b and d"
+   ],
+   "a": 1,
+   "e": "Kothari (1964), Chelliah (1991), Vohra (1993), Sachar (2005): c, d, a, b.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which of the followings is not a dye:",
+   "o": [
+    "Alizarin",
+    "Fluorescein",
+    "Phenolphthalein",
+    "Anthranilic acid"
+   ],
+   "a": 3,
+   "e": "Alizarin, fluorescein and phenolphthalein are dyes/indicators; anthranilic acid is not a dye.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Consider the following statements regarding the Odisha Industrial Infrastructure Development Corporation (IDCO) : 1. IDCO was established as a statutory corporation by the Government of Odisha in 1981. 2. It serves as the nodal agency for providing industrial infrastructure and land for industrial and infrastructure projects across the state. 3. The corporation’s objectives include the development of industrial estates, IT parks and other industrial complexes. 4. IDCO’s functions do not include land acquisition or the creation of a land bank for major and mega projects. 5. The corporation facilitates private-sector participation and provides project construction services. Which of the statements given above is NOT correct?",
+   "o": [
+    "2 only",
+    "4 only",
+    "1 and 3 only",
+    "3 and 5 only"
+   ],
+   "a": 1,
+   "e": "IDCO does acquire land and maintain a land bank for projects, so statement 4 is not correct.",
+   "section": "State GK",
+   "topic": "Odisha Economy"
+  },
+  {
+   "q": "Under which Mughal Emperor was the office of Muhtasib (Censor of Public Morals) instituted in Odisha?",
+   "o": [
+    "Shahjahan",
+    "Aurangzeb",
+    "Jahangir",
+    "Humayun"
+   ],
+   "a": 1,
+   "e": "The office of Muhtasib (censor of morals) was introduced under Aurangzeb.",
+   "section": "State GK",
+   "topic": "Odisha History"
+  },
+  {
+   "q": "Who was the first Leader to Move a resolution in the Central Legislative Assembly demanding the Unification of all Odia speaking tracts into a separate province?",
+   "o": [
+    "Madhusudan Das",
+    "Gopa bandhu Das",
+    "Hare Krushna Mahatab",
+    "Nil Kantha Das"
+   ],
+   "a": 3,
+   "e": "Pandit Nilakantha Das moved the resolution in the Central Legislative Assembly for uniting Odia-speaking tracts.",
+   "section": "State GK",
+   "topic": "Odisha History"
+  },
+  {
+   "q": "Consider the following statements : 1. The Inter-State Council (ISC) was set up under Article 263 of the Constitution. 2. Punchhi Commission recommended the establishment of the Inter-State Council. 3. The Union Home Minister is the Chairman of the Inter-State Council. 4. It discusses matters of common interests and suggests policies for better coordination. Choose the correct codes :",
+   "o": [
+    "1 and 4",
+    "1, 3 and 4",
+    "2, 3 and 1",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "e": "The ISC is under Article 263 and discusses common interests; it was recommended by the Sarkaria Commission and is chaired by the PM.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which climate initiative specifically supports Himalayan glacial monitoring?",
+   "o": [
+    "ICAP",
+    "National Mission on Sustaining the Himalayan Ecosystem",
+    "State REDD+ Programme",
+    "Bharat Clean Energy Mission"
+   ],
+   "a": 1,
+   "e": "The National Mission for Sustaining the Himalayan Ecosystem (NAPCC) supports glacier monitoring.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Which of the following statements about the global industrial pattern is NOT correct? 1. Japan, Germany, and the USA are leaders in automobile production. 2. India and Bangladesh are major centres for textile and garment industries. 3. South Korea and Taiwan are known for shipbuilding and heavy machinery. 4. Canada and Australia are primarily known for heavy industry rather than resource-based industries.",
+   "o": [
+    "2 and 3 only",
+    "1 and 2 only",
+    "3 and 1 only",
+    "4 only"
+   ],
+   "a": 3,
+   "e": "Canada and Australia are known mainly for resource-based industries, so statement 4 is wrong.",
+   "section": "General Studies",
+   "topic": "Economic Geography"
+  },
+  {
+   "q": "Which of the following was the first major administrative measure taken by the Congress Ministry formed in Odisha under Hare Krushna Mahatab on 23 April 1946?",
+   "o": [
+    "Abolition of Zamindari Settlements",
+    "Release of political prisoners",
+    "Repeal of salt laws in Coastal Odisha",
+    "Introduction of Compulsory primary education"
+   ],
+   "a": 1,
+   "e": "The Mahatab ministry's first major step in 1946 was releasing political prisoners.",
+   "section": "State GK",
+   "topic": "Odisha History"
+  },
+  {
+   "q": "Which of the following best defines the concept of Pareto Optimality?",
+   "o": [
+    "A situation where everyone is equally well - off",
+    "A situation where no one can be made better off without making someone else worse off",
+    "A situation where total wealth is maximized",
+    "A situation where the government redistributes resources equally"
+   ],
+   "a": 1,
+   "e": "Pareto optimality is a state where no one can be made better off without making someone else worse off.",
+   "section": "General Studies",
+   "topic": "Economics"
+  },
+  {
+   "q": "Consider the following statements regarding Sustainable Development Goals (SDGs) and their indicators: 1. The 2030 Agenda for Sustainable Development, adopted by all United Nations Member States in 2015, comprises 17 SDGs and 169 targets. 2. SDG 1 targets poverty ending in all its forms everywhere, using indicators like the proportion of people living below the national poverty line. 3. The “leave no one behind” principle is central to the SDGs, emphasizing disaggregated data collection to identify vulnerable groups. 4. Sustainable Consumption and Production (SCP) is primarily addressed under SDG 14, focusing on efficient resource use and reducing waste. Which of the above statements are correct?",
+   "o": [
+    "1, 2 and 3 only",
+    "1, 3 and 4 only",
+    "2, 3 and 4 only",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "Statements 1-3 are correct; sustainable consumption and production is SDG 12, not SDG 14.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Section 4 of the RTI Act states that the obligations of public authorities to maintain records and publish information within days from the enactment of the Act.",
+   "o": [
+    "120",
+    "30",
+    "110",
+    "10"
+   ],
+   "a": 0,
+   "e": "Section 4 of the RTI Act required suo motu disclosures within 120 days of its enactment.",
+   "section": "General Studies",
+   "topic": "Governance"
+  },
+  {
+   "q": "Consider the following statements about the Ramsar sites in India: 1. A Ramsar site is declared based on its ecological importance and biodiversity richness. 2. Chilika Lake was the first Indian site to be added to the Ramsar list. 3. As of 2023, India has more than 75 Ramsar sites. Which of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "e": "Ramsar sites are chosen for ecological importance; Chilika (with Keoladeo) was India's first in 1981, and India passed 75 sites by 2023.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "The writ of Mandamus is issued:",
+   "o": [
+    "To release a person from illegal detention",
+    "To transfer a case from a lower court to a higher court",
+    "To compel a public official to perform a public duty",
+    "To question the legality of a person holding a public office"
+   ],
+   "a": 2,
+   "e": "Mandamus ('we command') compels a public authority to perform its legal duty.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Consider the following statements about Samudrayaan Mission; 1) The development of the Samudrayaan Mission will enhance India's capability in Nuclear Submarine Development 2) Samudrayaan Mission aims to develop a self-propelled manned Submersible. 3) Samudrayaan Mission aims to explore deep oceans up to 6000 meters. 4) Samudrayaan Mission aims to boost marine tourism. Select the correct answer from the codes given below ;",
+   "o": [
+    "1 only",
+    "2 and 3",
+    "1 and 4 only",
+    "4 only"
+   ],
+   "a": 1,
+   "e": "Samudrayaan will use the manned submersible Matsya-6000 to reach 6000 m depth; it is not about nuclear submarines or tourism.",
+   "section": "General Studies",
+   "topic": "Science & Technology"
+  },
+  {
+   "q": "Which of the following statements regarding India’s aquaculture policies is/are correct? 1. The Pradhan Mantri Matsya Sampada Yojana (PMMSY) aims to enhance fish production and boost exports. 2. The Coastal Aquaculture Authority regulates aquaculture activities in brackish water and coastal areas. 3. The National Fisheries Development Board (NFDB) is responsible for promoting modern aquaculture practices. 4. The FAO’s Code of Conduct for Responsible Fisheries is legally binding in India.",
+   "o": [
+    "1, 2 and 3 only",
+    "1 and 4 only",
+    "2 and 4 only",
+    "1, 3 and 4 only"
+   ],
+   "a": 0,
+   "e": "PMMSY, CAA and NFDB statements are correct; the FAO Code of Conduct is voluntary, not legally binding.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "What is the time limit provided for making a complaint under the Prevention of Sexual Harassment of Women at Workplace Act, 2013 (POSH)?",
+   "o": [
+    "14 days",
+    "One month",
+    "Two months",
+    "Three months"
+   ],
+   "a": 3,
+   "e": "Under the POSH Act a complaint must be filed within three months of the incident.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Consider the following statements about endemic species in India: 1. Endemic species are restricted to a specific geographical location. 2. The Nilgiri Tahr is endemic to the Western Ghats. 3. Endemic species always fall under the IUCN Critically Endangered category. Which of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 0,
+   "e": "Endemic species are range-restricted and the Nilgiri tahr is endemic to the Western Ghats; endemic does not mean critically endangered.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "The Union Public Service Commission (UPSC) is mentioned in which part of the Indian Constitution?",
+   "o": [
+    "Part VII",
+    "Part XIII",
+    "Part XIV",
+    "Part IX"
+   ],
+   "a": 2,
+   "e": "Part XIV (Articles 315-323) deals with the UPSC and state PSCs.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Consider the following statements about delimitation and its implications in India: 1. Delimitation is the process of redrawing boundaries of Lok Sabha and state assembly constituencies to represent changes in population. 2. The Delimitation Commission is appointed by the President of India and its orders have the force of law and cannot be challenged in any court. 3. The primary objective of delimitation is to ensure that all constituencies have roughly equal populations, thereby upholding the principle of \"one person, one vote.\" 4. The current delimitation exercise is based on the 2001 Census, with the next one mandated after the first census following 2026. Which of the above statements are correct?",
+   "o": [
+    "1,2 and 3 only",
+    "1,3 and 4 only",
+    "2,3 and 4 only",
+    "All of the above"
+   ],
+   "a": 1,
+   "e": "Per the official key, statements 1, 3 and 4 are correct.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which British Governor - General of India formally annexed Odisha into the British empire?",
+   "o": [
+    "Warren Hastings",
+    "Lord Cornwallis",
+    "Lord Wellesley",
+    "Lord Dalhousie"
+   ],
+   "a": 2,
+   "e": "Odisha was conquered from the Marathas in 1803 during Lord Wellesley's tenure.",
+   "section": "State GK",
+   "topic": "Odisha History"
+  }
+ ]
+}

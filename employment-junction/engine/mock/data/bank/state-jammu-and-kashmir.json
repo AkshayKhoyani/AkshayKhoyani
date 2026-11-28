@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Dal Lake, famous for houseboats and shikaras, is in:",
+  "o": [
+   "Gulmarg",
+   "Jammu",
+   "Pahalgam",
+   "Srinagar"
+  ],
+  "a": 3,
+  "e": "Dal Lake is the jewel of Srinagar.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "easy"
+ },
+ {
+  "q": "The Amarnath cave shrine is famous for its naturally formed ice lingam of:",
+  "o": [
+   "Lord Vishnu",
+   "Lord Shiva",
+   "Goddess Durga",
+   "Lord Ganesha"
+  ],
+  "a": 1,
+  "e": "The ice Shivalinga at the Amarnath cave draws pilgrims in summer.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "easy"
+ },
+ {
+  "q": "The Mata Vaishno Devi shrine is located in which hills?",
+  "o": [
+   "Trikuta",
+   "Pir Panjal",
+   "Zanskar",
+   "Dhauladhar"
+  ],
+  "a": 0,
+  "e": "Vaishno Devi shrine is in the Trikuta hills near Katra.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "easy"
+ },
+ {
+  "q": "Srinagar city is situated on the banks of which river?",
+  "o": [
+   "Chenab",
+   "Indus",
+   "Jhelum",
+   "Tawi"
+  ],
+  "a": 2,
+  "e": "The Jhelum flows through Srinagar.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "easy"
+ },
+ {
+  "q": "Pashmina shawls of Kashmir are made from the fine wool of the:",
+  "o": [
+   "Angora rabbit",
+   "Yak",
+   "Changthangi goat",
+   "Merino sheep"
+  ],
+  "a": 2,
+  "e": "Pashmina comes from the undercoat of the Changthangi goat.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "easy"
+ },
+ {
+  "q": "Gulmarg in Jammu & Kashmir is best known as a destination for:",
+  "o": [
+   "Skiing",
+   "Desert safaris",
+   "Scuba diving",
+   "River rafting on the Ganga"
+  ],
+  "a": 0,
+  "e": "Gulmarg is India's leading ski resort.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "easy"
+ },
+ {
+  "q": "Under the traditional 'Darbar Move', the government of J&K worked from Srinagar in summer and from which city in winter?",
+  "o": [
+   "Anantnag",
+   "Jammu",
+   "Leh",
+   "Kathua"
+  ],
+  "a": 1,
+  "e": "Srinagar was the summer capital and Jammu the winter capital.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "easy"
+ },
+ {
+  "q": "Which tree, with leaves turning red and gold in autumn, is a symbol of Kashmir?",
+  "o": [
+   "Deodar",
+   "Chinar",
+   "Teak",
+   "Sal"
+  ],
+  "a": 1,
+  "e": "The Chinar is iconic of the Kashmir valley.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "easy"
+ },
+ {
+  "q": "Jammu & Kashmir was reorganised into a Union Territory with effect from:",
+  "o": [
+   "26 January 2020",
+   "15 August 2019",
+   "31 October 2019",
+   "5 August 2019"
+  ],
+  "a": 2,
+  "e": "The J&K Reorganisation Act, 2019 came into force on 31 October 2019.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "medium"
+ },
+ {
+  "q": "The Shalimar Bagh of Srinagar was laid out by which Mughal emperor?",
+  "o": [
+   "Jahangir",
+   "Aurangzeb",
+   "Shah Jahan",
+   "Akbar"
+  ],
+  "a": 0,
+  "e": "Jahangir built Shalimar Bagh for Nur Jahan in 1619.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "medium"
+ },
+ {
+  "q": "The 'Rajatarangini', a historical chronicle of Kashmir, was written by:",
+  "o": [
+   "Kalhana",
+   "Somadeva",
+   "Bilhana",
+   "Jonaraja"
+  ],
+  "a": 0,
+  "e": "Kalhana wrote the Rajatarangini in Sanskrit in the 12th century.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "medium"
+ },
+ {
+  "q": "Lal Ded (Lalleshwari), a 14th-century mystic, is famous for her verses called:",
+  "o": [
+   "Abhangs",
+   "Dohas",
+   "Vakhs",
+   "Vachanas"
+  ],
+  "a": 2,
+  "e": "Lal Ded's mystical Kashmiri poems are known as Vakhs.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "medium"
+ },
+ {
+  "q": "Dachigam National Park near Srinagar is famous for the:",
+  "o": [
+   "Snow leopard",
+   "Red panda",
+   "One-horned rhino",
+   "Hangul (Kashmir stag)"
+  ],
+  "a": 3,
+  "e": "Dachigam is the last stronghold of the endangered Hangul.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "medium"
+ },
+ {
+  "q": "Wular Lake, one of the largest freshwater lakes of India, is fed by:",
+  "o": [
+   "Chenab",
+   "Indus",
+   "Ravi",
+   "Jhelum"
+  ],
+  "a": 3,
+  "e": "The Jhelum flows into and out of Wular Lake in Bandipora district.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "medium"
+ },
+ {
+  "q": "The Baglihar hydroelectric project is built on which river?",
+  "o": [
+   "Chenab",
+   "Tawi",
+   "Jhelum",
+   "Ravi"
+  ],
+  "a": 0,
+  "e": "Baglihar Dam is on the Chenab in Ramban district.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "medium"
+ },
+ {
+  "q": "The Zoji La pass connects the Kashmir valley with:",
+  "o": [
+   "Jammu",
+   "Himachal Pradesh",
+   "Kishtwar",
+   "Ladakh"
+  ],
+  "a": 3,
+  "e": "Zoji La links Sonamarg in Kashmir to Dras in Ladakh.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "medium"
+ },
+ {
+  "q": "Dogri, included in the Eighth Schedule in 2003, is chiefly spoken in which region?",
+  "o": [
+   "Ladakh",
+   "Jammu",
+   "Kashmir valley",
+   "Gurez"
+  ],
+  "a": 1,
+  "e": "Dogri is the main language of the Jammu region.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "medium"
+ },
+ {
+  "q": "Rouf is a traditional folk dance of Kashmir mainly performed by:",
+  "o": [
+   "Boatmen on Dal Lake",
+   "Men with swords",
+   "Masked monks",
+   "Women"
+  ],
+  "a": 3,
+  "e": "Rouf is performed by women in rows, especially during Eid and spring.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "hard"
+ },
+ {
+  "q": "The Martand Sun Temple near Anantnag was built by which Karkota ruler?",
+  "o": [
+   "Ashoka",
+   "Avantivarman",
+   "Lalitaditya Muktapida",
+   "Zain-ul-Abidin"
+  ],
+  "a": 2,
+  "e": "Lalitaditya Muktapida built the Martand Sun Temple in the 8th century.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "hard"
+ },
+ {
+  "q": "The Shankaracharya Temple in Srinagar stands on which hill?",
+  "o": [
+   "Banihal",
+   "Takht-e-Sulaiman",
+   "Trikuta",
+   "Hari Parbat"
+  ],
+  "a": 1,
+  "e": "The Shankaracharya Temple is on the Takht-e-Sulaiman hill overlooking Dal Lake.",
+  "topic": "Jammu & Kashmir GK",
+  "state": "Jammu & Kashmir",
+  "level": "hard"
+ }
+]

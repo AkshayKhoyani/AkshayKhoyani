@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Which poet is honoured as the 'Adi Kavi' (first poet) of Gujarati literature?",
+  "o": [
+   "Narsinh Mehta",
+   "Premanand",
+   "Akho",
+   "Dayaram"
+  ],
+  "a": 0,
+  "e": "Narsinh Mehta, the 15th-century bhakti poet of Junagadh, is regarded as the Adi Kavi of Gujarati.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "The bhajan 'Vaishnav Jan To Tene Kahiye', a favourite of Gandhiji, was composed by:",
+  "o": [
+   "Mirabai",
+   "Narsinh Mehta",
+   "Dayaram",
+   "Narmad"
+  ],
+  "a": 1,
+  "e": "This bhajan describing a true devotee was written by Narsinh Mehta.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Garba is mainly performed during which festival?",
+  "o": [
+   "Diwali",
+   "Holi",
+   "Janmashtami",
+   "Navratri"
+  ],
+  "a": 3,
+  "e": "Garba is danced in circles around a lamp or image of the Goddess during the nine nights of Navratri.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Uttarayan, Gujarat's famous kite-flying festival, falls on the day of:",
+  "o": [
+   "Vasant Panchami",
+   "Makar Sankranti",
+   "Holi",
+   "Akshaya Tritiya"
+  ],
+  "a": 1,
+  "e": "Uttarayan coincides with Makar Sankranti (usually 14 January), when the sun begins its northward journey.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Which temple in Gujarat is regarded as the first of the twelve Jyotirlingas?",
+  "o": [
+   "Somnath",
+   "Nageshwar",
+   "Dwarkadhish",
+   "Bhavnath"
+  ],
+  "a": 0,
+  "e": "Somnath on the Saurashtra coast is traditionally counted first among the twelve Jyotirlingas.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "The main temple of Dwarkadhish at Dwarka is also known as:",
+  "o": [
+   "Ranchhodraiji Mandir",
+   "Rukmini Mandir",
+   "Bhid Bhanjan Mandir",
+   "Jagat Mandir"
+  ],
+  "a": 3,
+  "e": "The principal shrine of Lord Krishna as Dwarkadhish at Dwarka is called Jagat Mandir.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Ambaji, one of the major Shakti Peeths, is located in which district?",
+  "o": [
+   "Panchmahal",
+   "Banaskantha",
+   "Sabarkantha",
+   "Kheda"
+  ],
+  "a": 1,
+  "e": "Ambaji temple is in Danta taluka of Banaskantha district.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "The Patola, a double-ikat silk saree, is traditionally woven at:",
+  "o": [
+   "Surat",
+   "Jamnagar",
+   "Patan",
+   "Bhuj"
+  ],
+  "a": 2,
+  "e": "Patan's Salvi families are famous for the double-ikat Patola.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "The Tarnetar fair is held near which temple?",
+  "o": [
+   "Trinetreshwar Mahadev",
+   "Somnath Mahadev",
+   "Bhavnath Mahadev",
+   "Hatkeshwar Mahadev"
+  ],
+  "a": 0,
+  "e": "The Tarnetar fair is held at the Trinetreshwar Mahadev temple in Surendranagar district in the month of Bhadrapad.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The Bhavnath fair at the foot of Girnar is held on the occasion of:",
+  "o": [
+   "Kartik Purnima",
+   "Navratri",
+   "Janmashtami",
+   "Mahashivratri"
+  ],
+  "a": 3,
+  "e": "Sadhus and pilgrims gather at Bhavnath Mahadev, Junagadh, for the Mahashivratri fair.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The Vautha fair, well known for donkey and camel trading, is held in which district?",
+  "o": [
+   "Kutch",
+   "Surendranagar",
+   "Ahmedabad",
+   "Banaskantha"
+  ],
+  "a": 2,
+  "e": "Vautha, in Dholka taluka of Ahmedabad district, hosts the fair on Kartik Purnima at a meeting point of several rivers.",
+  "topic": "Gujarat Culture",
+  "level": "hard"
+ },
+ {
+  "q": "The Sun Temple at Modhera was built during the reign of which ruler?",
+  "o": [
+   "Bhimdev I",
+   "Siddhraj Jaysinh",
+   "Kumarpal",
+   "Vanraj Chavda"
+  ],
+  "a": 0,
+  "e": "The Modhera Sun Temple in Mehsana district dates to 1026-27 CE, in the reign of Solanki king Bhimdev I.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The Adalaj stepwell near Gandhinagar is associated with which queen?",
+  "o": [
+   "Rani Rudabai",
+   "Rani Udayamati",
+   "Rani Minaldevi",
+   "Rani Sipri"
+  ],
+  "a": 0,
+  "e": "Adalaj Vav was completed in 1499 by Queen Rudabai, wife of the Vaghela chief Veer Singh.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The Jain temple complex of Palitana is located on which hill?",
+  "o": [
+   "Girnar",
+   "Taranga",
+   "Pavagadh",
+   "Shatrunjaya"
+  ],
+  "a": 3,
+  "e": "Palitana in Bhavnagar district has hundreds of Jain temples on the Shatrunjaya hill.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "In which town of Kheda district is the famous Ranchhodraiji temple located?",
+  "o": [
+   "Shamlaji",
+   "Chotila",
+   "Dakor",
+   "Bahucharaji"
+  ],
+  "a": 2,
+  "e": "The Ranchhodraiji (Krishna) temple at Dakor in Kheda district draws large crowds, especially on full-moon days.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Siddi Dhamal dance is performed by the Siddi community, whose ancestors came from:",
+  "o": [
+   "Persia",
+   "Africa",
+   "Central Asia",
+   "Tibet"
+  ],
+  "a": 1,
+  "e": "The Siddis of Gujarat, settled mainly around Jambur near Gir, trace their roots to East Africa.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Tippani, a folk dance in which women beat the floor with long wooden poles, belongs to which area?",
+  "o": [
+   "Dang",
+   "Chorwad (Saurashtra coast)",
+   "Kutch",
+   "Panchmahal"
+  ],
+  "a": 1,
+  "e": "Tippani grew out of the work of women labourers of the Chorwad area who pounded floors with poles while singing.",
+  "topic": "Gujarat Culture",
+  "level": "hard"
+ },
+ {
+  "q": "Asait Thakar is regarded as the father of which traditional folk theatre form of Gujarat?",
+  "o": [
+   "Garba",
+   "Bhavai",
+   "Tippani",
+   "Dayro"
+  ],
+  "a": 1,
+  "e": "Asait Thakar (14th century) is credited with creating the Bhavai folk theatre and its many 'vesh' (plays).",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Rogan art, painting with castor-oil-based paint on cloth, is mainly practised today at:",
+  "o": [
+   "Nirona village, Kutch",
+   "Ajrakhpur, Kutch",
+   "Chhota Udepur",
+   "Sankheda"
+  ],
+  "a": 0,
+  "e": "Rogan painting survives mainly with a few artisan families of Nirona in Kutch.",
+  "topic": "Gujarat Culture",
+  "level": "hard"
+ },
+ {
+  "q": "Who was the first Gujarati writer to receive the Jnanpith Award?",
+  "o": [
+   "Pannalal Patel",
+   "Rajendra Shah",
+   "Raghuveer Chaudhari",
+   "Umashankar Joshi"
+  ],
+  "a": 3,
+  "e": "Umashankar Joshi received the Jnanpith Award in 1967 for his poetry collection 'Nishith'.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The famous four-part Gujarati novel 'Saraswatichandra' was written by:",
+  "o": [
+   "K. M. Munshi",
+   "Pannalal Patel",
+   "Govardhanram Tripathi",
+   "Narmad"
+  ],
+  "a": 2,
+  "e": "Govardhanram Tripathi wrote 'Saraswatichandra' in four parts between 1887 and 1901.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The poem 'Jay Jay Garavi Gujarat' was written by:",
+  "o": [
+   "Dalpatram",
+   "Narmad",
+   "Zaverchand Meghani",
+   "Kalapi"
+  ],
+  "a": 1,
+  "e": "Narmad (Narmadashankar Dave) wrote 'Jay Jay Garavi Gujarat', a celebrated song of Gujarati pride.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Which poet was given the title 'Rashtriya Shayar' by Mahatma Gandhi?",
+  "o": [
+   "Narmad",
+   "Zaverchand Meghani",
+   "Umashankar Joshi",
+   "Sundaram"
+  ],
+  "a": 1,
+  "e": "Gandhiji called Zaverchand Meghani 'Rashtriya Shayar' for his patriotic songs.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The poet Kalapi, author of 'Kalapi no Kekarav', was the ruler of which princely state?",
+  "o": [
+   "Bhavnagar",
+   "Gondal",
+   "Lathi",
+   "Wadhwan"
+  ],
+  "a": 2,
+  "e": "Kalapi was Sursinhji Gohil, the prince of Lathi in Saurashtra.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Which Gujarati poet is famous for 'Akhyans' such as 'Sudama Charit' and 'Okhaharan'?",
+  "o": [
+   "Premanand",
+   "Akho",
+   "Narsinh Mehta",
+   "Dayaram"
+  ],
+  "a": 0,
+  "e": "Premanand (17th century), the master of the Akhyan form, wrote 'Sudama Charit', 'Okhaharan' and 'Nalakhyan'.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Which work is regarded as the first original novel in Gujarati?",
+  "o": [
+   "Saraswatichandra",
+   "Patan ni Prabhuta",
+   "Manvini Bhavai",
+   "Karan Ghelo"
+  ],
+  "a": 3,
+  "e": "Nandshankar Mehta's 'Karan Ghelo' (1866) is considered the first Gujarati novel.",
+  "topic": "Gujarat Culture",
+  "level": "hard"
+ },
+ {
+  "q": "The Gujarati Sahitya Parishad was founded in 1905 at the initiative of:",
+  "o": [
+   "Narmad",
+   "Govardhanram Tripathi",
+   "Ranjitram Mehta",
+   "K. M. Munshi"
+  ],
+  "a": 2,
+  "e": "Ranjitram Vavabhai Mehta took the initiative; the Ranjitram Suvarna Chandrak is named after him.",
+  "topic": "Gujarat Culture",
+  "level": "hard"
+ },
+ {
+  "q": "Which writer of 'Patan ni Prabhuta' also founded the Bharatiya Vidya Bhavan?",
+  "o": [
+   "Ramanlal Desai",
+   "Dhumketu",
+   "Pannalal Patel",
+   "K. M. Munshi"
+  ],
+  "a": 3,
+  "e": "Kanaiyalal Maneklal Munshi wrote historical novels on Patan and founded Bharatiya Vidya Bhavan in 1938.",
+  "topic": "Gujarat Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The Rann Utsav, a festival of the white salt desert, is held in which district?",
+  "o": [
+   "Banaskantha",
+   "Bhavnagar",
+   "Kutch",
+   "Dang"
+  ],
+  "a": 2,
+  "e": "The Rann Utsav is held in winter near Dhordo on the white Rann of Kutch.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Pavagadh hill is famous for the temple of which goddess?",
+  "o": [
+   "Mahakali",
+   "Ambaji",
+   "Bahuchar Mata",
+   "Chamunda"
+  ],
+  "a": 0,
+  "e": "The Mahakali temple stands atop Pavagadh in Panchmahal district.",
+  "topic": "Gujarat Culture",
+  "level": "easy"
+ }
+]

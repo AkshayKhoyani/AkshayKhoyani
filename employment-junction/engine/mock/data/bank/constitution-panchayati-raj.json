@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Panchayati Raj institutions were given constitutional status by which Constitutional Amendment?",
+  "o": [
+   "73rd Amendment",
+   "74th Amendment",
+   "42nd Amendment",
+   "86th Amendment"
+  ],
+  "a": 0,
+  "e": "The 73rd Amendment Act, 1992 added Part IX on Panchayats to the Constitution.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "National Panchayati Raj Day is observed every year on:",
+  "o": [
+   "24 April",
+   "2 October",
+   "26 November",
+   "15 August"
+  ],
+  "a": 0,
+  "e": "It marks 24 April 1993, the day the 73rd Amendment came into force.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "Provisions relating to Panchayats are contained in which Part of the Constitution?",
+  "o": [
+   "Part IX-A",
+   "Part IV",
+   "Part IX",
+   "Part XI"
+  ],
+  "a": 2,
+  "e": "Part IX (Articles 243 to 243-O) deals with Panchayats; Part IX-A deals with Municipalities.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "How many subjects are listed in the Eleventh Schedule for Panchayats?",
+  "o": [
+   "18",
+   "22",
+   "12",
+   "29"
+  ],
+  "a": 3,
+  "e": "The Eleventh Schedule, added by the 73rd Amendment, lists 29 subjects; the Twelfth Schedule for municipalities lists 18.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "Which Article of the Directive Principles directs the State to organise village panchayats?",
+  "o": [
+   "Article 44",
+   "Article 40",
+   "Article 48",
+   "Article 51"
+  ],
+  "a": 1,
+  "e": "Article 40 asks the State to organise village panchayats as units of self-government.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "Under Article 243, the Gram Sabha consists of:",
+  "o": [
+   "Only the elected members of the Gram Panchayat",
+   "The Sarpanch and the Talati",
+   "All persons registered in the electoral rolls of the village within the panchayat area",
+   "All residents above 21 years of age"
+  ],
+  "a": 2,
+  "e": "Article 243(b) defines the Gram Sabha as the body of persons on the electoral roll of the village.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "What is the minimum age to contest an election to a Panchayat?",
+  "o": [
+   "18 years",
+   "25 years",
+   "21 years",
+   "30 years"
+  ],
+  "a": 2,
+  "e": "Article 243F makes a person qualified if eligible for the State Legislature, but sets 21 years as the minimum age for Panchayats.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "What is the normal term of a Panchayat under the Constitution?",
+  "o": [
+   "Four years",
+   "Five years",
+   "Six years",
+   "Three years"
+  ],
+  "a": 1,
+  "e": "Article 243E fixes a term of five years from the date of its first meeting.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "If a Panchayat is dissolved before completing its term, fresh elections must be completed within:",
+  "o": [
+   "Six months",
+   "Three months",
+   "One year",
+   "Two years"
+  ],
+  "a": 0,
+  "e": "Article 243E(3) requires elections within six months of dissolution.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "hard"
+ },
+ {
+  "q": "Elections to Panchayats are conducted by the:",
+  "o": [
+   "State Election Commission",
+   "Election Commission of India",
+   "District Collector",
+   "State Public Service Commission"
+  ],
+  "a": 0,
+  "e": "Article 243K vests superintendence of Panchayat elections in the State Election Commission.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "The State Finance Commission that reviews the finances of Panchayats is constituted under which Article?",
+  "o": [
+   "Article 243K",
+   "Article 243-I",
+   "Article 280",
+   "Article 243G"
+  ],
+  "a": 1,
+  "e": "Article 243-I requires the Governor to constitute a Finance Commission every five years; Article 280 is for the Union Finance Commission.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "hard"
+ },
+ {
+  "q": "The Constitution reserves not less than what proportion of seats in Panchayats for women?",
+  "o": [
+   "One-fourth",
+   "One-fifth",
+   "One-third",
+   "Two-thirds"
+  ],
+  "a": 2,
+  "e": "Article 243D reserves at least one-third of seats (and chairperson posts) for women; states may provide more.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "The Balwantrai Mehta Committee (1957) recommended a:",
+  "o": [
+   "Three-tier Panchayati Raj system",
+   "Two-tier Panchayati Raj system",
+   "Single-tier village council",
+   "Four-tier system"
+  ],
+  "a": 0,
+  "e": "It recommended Gram Panchayat, Panchayat Samiti and Zila Parishad, called 'democratic decentralisation'.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "Balwantrai Mehta, after whom the Panchayati Raj committee is named, later became:",
+  "o": [
+   "The first Chief Minister of Gujarat",
+   "The first Governor of Gujarat",
+   "The Union Minister of Rural Development",
+   "The second Chief Minister of Gujarat"
+  ],
+  "a": 3,
+  "e": "Balwantrai Mehta succeeded Dr. Jivraj Mehta as Gujarat's second Chief Minister in 1963.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "Panchayati Raj was first inaugurated on 2 October 1959 at Nagaur, Rajasthan, by:",
+  "o": [
+   "Dr. Rajendra Prasad",
+   "Jawaharlal Nehru",
+   "Lal Bahadur Shastri",
+   "Balwantrai Mehta"
+  ],
+  "a": 1,
+  "e": "Prime Minister Nehru inaugurated the first Panchayati Raj system at Nagaur.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "The Ashok Mehta Committee (1977) recommended a:",
+  "o": [
+   "Three-tier Panchayati Raj system",
+   "Two-tier Panchayati Raj system",
+   "Abolition of Panchayats",
+   "Single-tier system at block level"
+  ],
+  "a": 1,
+  "e": "It proposed Zila Parishad at district level and Mandal Panchayat below it.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "The PESA Act, 1996 extends the provisions of Part IX of the Constitution to:",
+  "o": [
+   "Tribal areas under the Sixth Schedule",
+   "Union Territories without legislatures",
+   "Municipal areas",
+   "Scheduled Areas under the Fifth Schedule"
+  ],
+  "a": 3,
+  "e": "The Panchayats (Extension to Scheduled Areas) Act, 1996 covers Fifth Schedule areas with special powers for Gram Sabhas.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "hard"
+ },
+ {
+  "q": "Panchayats in Gujarat are at present governed by which law?",
+  "o": [
+   "Gujarat Municipalities Act, 1963",
+   "Bombay Provincial Municipal Corporations Act, 1949",
+   "Gujarat Panchayats Act, 1993",
+   "Bombay Land Revenue Code, 1879"
+  ],
+  "a": 2,
+  "e": "The Gujarat Panchayats Act, 1993 was enacted to bring the state law in line with the 73rd Amendment.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "hard"
+ },
+ {
+  "q": "Who acts as the secretary of a Gram Panchayat in Gujarat?",
+  "o": [
+   "Taluka Development Officer",
+   "District Development Officer",
+   "Mamlatdar",
+   "Talati-cum-Mantri"
+  ],
+  "a": 3,
+  "e": "The Talati-cum-Mantri keeps the records and works as secretary of the Gram Panchayat.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "Who is the chief executive officer of a Jilla (District) Panchayat in Gujarat?",
+  "o": [
+   "District Development Officer (DDO)",
+   "District Collector",
+   "Taluka Development Officer (TDO)",
+   "Mamlatdar"
+  ],
+  "a": 0,
+  "e": "The DDO heads the administration of the Jilla Panchayat.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "The administration of a Taluka Panchayat in Gujarat is headed by the:",
+  "o": [
+   "Mamlatdar",
+   "Talati-cum-Mantri",
+   "Prant Officer",
+   "Taluka Development Officer (TDO)"
+  ],
+  "a": 3,
+  "e": "The TDO is the executive head of the Taluka Panchayat; the Mamlatdar handles revenue work.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "Gujarat's 'Samras Gram Panchayat' scheme gives incentives to villages that:",
+  "o": [
+   "Achieve full literacy",
+   "Elect their Gram Panchayat unanimously, without a contest",
+   "Have no pending court cases",
+   "Are located in tribal areas"
+  ],
+  "a": 1,
+  "e": "The Samras scheme rewards villages that choose their panchayat by consensus to promote harmony.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "In Gujarat, the Upa-Sarpanch (Deputy Sarpanch) is elected by:",
+  "o": [
+   "The members of the Gram Panchayat from among themselves",
+   "All voters of the village directly",
+   "The Taluka Development Officer",
+   "The District Development Officer"
+  ],
+  "a": 0,
+  "e": "The Sarpanch is directly elected, while the Upa-Sarpanch is chosen by the elected members.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "Who presides over the meetings of a Gram Panchayat?",
+  "o": [
+   "Talati-cum-Mantri",
+   "Sarpanch",
+   "Taluka Development Officer",
+   "Gram Sevak"
+  ],
+  "a": 1,
+  "e": "The Sarpanch is the elected head and presides over Gram Panchayat meetings.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "The Constitution of India was adopted by the Constituent Assembly on:",
+  "o": [
+   "26 January 1950",
+   "15 August 1947",
+   "26 November 1949",
+   "9 December 1946"
+  ],
+  "a": 2,
+  "e": "It was adopted on 26 November 1949 and came fully into force on 26 January 1950.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "The Right to Education was made a Fundamental Right under which Article?",
+  "o": [
+   "Article 45",
+   "Article 21A",
+   "Article 51A",
+   "Article 29"
+  ],
+  "a": 1,
+  "e": "The 86th Amendment, 2002 inserted Article 21A for free and compulsory education of children aged 6-14.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "Fundamental Duties were added to the Constitution on the recommendation of which committee?",
+  "o": [
+   "Sarkaria Commission",
+   "Balwantrai Mehta Committee",
+   "Swaran Singh Committee",
+   "Ashok Mehta Committee"
+  ],
+  "a": 2,
+  "e": "The 42nd Amendment, 1976 added Article 51A following the Swaran Singh Committee's recommendation.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "Which Article did Dr. B. R. Ambedkar call the 'heart and soul' of the Constitution?",
+  "o": [
+   "Article 14",
+   "Article 19",
+   "Article 21",
+   "Article 32"
+  ],
+  "a": 3,
+  "e": "Article 32 gives the right to move the Supreme Court for enforcement of Fundamental Rights.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "easy"
+ },
+ {
+  "q": "The words 'Socialist' and 'Secular' were added to the Preamble by which Amendment?",
+  "o": [
+   "42nd Amendment, 1976",
+   "44th Amendment, 1978",
+   "1st Amendment, 1951",
+   "73rd Amendment, 1992"
+  ],
+  "a": 0,
+  "e": "The 42nd Amendment added 'Socialist', 'Secular' and 'Integrity' to the Preamble.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "medium"
+ },
+ {
+  "q": "Under Article 243G, who endows Panchayats with powers and authority to function as institutions of self-government?",
+  "o": [
+   "Parliament",
+   "The President",
+   "The Gram Sabha",
+   "The State Legislature"
+  ],
+  "a": 3,
+  "e": "Article 243G says the Legislature of a State may, by law, endow Panchayats with such powers.",
+  "topic": "Constitution & Panchayati Raj",
+  "level": "hard"
+ }
+]

@@ -1,0 +1,1432 @@
+{
+ "exam": "JKSSB Wildlife Guard Written Examination",
+ "paper": "OMR Written Test - Test Booklet Series A (held 08.03.2026)",
+ "year": 2026,
+ "board": "Jammu & Kashmir Services Selection Board (JKSSB)",
+ "state": "Jammu & Kashmir",
+ "lang": "en",
+ "source_paper": "https://jkssb.nic.in/Pdf/wildlifeGuard.pdf",
+ "source_key": "https://jkssb.nic.in/Pdf/Final_Answer_Key_Wildlife_Guard_08032026_28042026.pdf (changes) + https://jkssb.nic.in/Pdf/PROV_ANSKEY_08032026.pdf (provisional, unchanged items)",
+ "duration_min": 120,
+ "marks_per_q": 1,
+ "negative": 0.25,
+ "questions": [
+  {
+   "q": "At a doctor's clinic, 8% of patients with liver disease are alcoholics. 6% of all patients are alcoholics, and 12% have liver disease. What's the probability a patient has liver disease if they are alcoholic?",
+   "o": [
+    "0.16",
+    "0.44",
+    "0.016",
+    "0.22"
+   ],
+   "a": 0,
+   "e": "P(liver disease | alcoholic) = 0.08 × 0.12 / 0.06 = 0.16 (Bayes' theorem).",
+   "section": "Maths",
+   "topic": "Probability"
+  },
+  {
+   "q": "Two fair dice are rolled. What is the probability that the sum of the numbers rolled is either 7 or 11?",
+   "o": [
+    "1/5",
+    "5/3",
+    "3/7",
+    "2/9"
+   ],
+   "a": 3,
+   "e": "Sum 7 has 6 outcomes and sum 11 has 2, so 8/36 = 2/9.",
+   "section": "Maths",
+   "topic": "Probability"
+  },
+  {
+   "q": "The ratio between two numbers is 2 : 11. If the difference between the numbers is 81 find the smaller number.",
+   "o": [
+    "19",
+    "18",
+    "27",
+    "16"
+   ],
+   "a": 1,
+   "e": "11x − 2x = 81 gives x = 9, so the smaller number is 18.",
+   "section": "Maths",
+   "topic": "Ratio"
+  },
+  {
+   "q": "The product of two numbers is 10 more than 5 times the sum times the sum. Find the numbers if the numbers are in a ratio 5 : 6.",
+   "o": [
+    "10&12",
+    "12&18",
+    "22&09",
+    "25&29"
+   ],
+   "a": 0,
+   "e": "With numbers 5x and 6x: 30x² = 5(11x) + 10 gives x = 2, so the numbers are 10 and 12.",
+   "section": "Maths",
+   "topic": "Algebra"
+  },
+  {
+   "q": "A factory has 400 workers, with men and women in a 5:3 ratio. 87.5% of all workers are regular. If 92% of the male employees are regular, what percentage of the female employees are regular?",
+   "o": [
+    "72%",
+    "79.15%",
+    "80%",
+    "81.55%"
+   ],
+   "a": 2,
+   "e": "Men 250, women 150; regular = 350, regular men = 230, so regular women = 120 = 80% of 150.",
+   "section": "Maths",
+   "topic": "Percentage"
+  },
+  {
+   "q": "The ages of A and B are in the ratio 5:7. Five years ago, their ages were in the ratio 5:8. The respective present ages (in years) are",
+   "o": [
+    "22 & 36",
+    "15&21",
+    "25&42",
+    "10&13"
+   ],
+   "a": 1,
+   "e": "(5x − 5)/(7x − 5) = 5/8 gives x = 3, so the ages are 15 and 21.",
+   "section": "Maths",
+   "topic": "Ages"
+  },
+  {
+   "q": "Two numbers are in the ratio 4 : 5. If their HCF is 16, then the sum of these two numbers is",
+   "o": [
+    "144",
+    "124",
+    "165",
+    "157"
+   ],
+   "a": 0,
+   "e": "The numbers are 4 × 16 = 64 and 5 × 16 = 80; sum = 144.",
+   "section": "Maths",
+   "topic": "HCF & LCM"
+  },
+  {
+   "q": "The HCF of two numbers is 74 and their LCM is 12210. If one of the numbers is 1110, what is the sum of the two numbers?",
+   "o": [
+    "1268",
+    "1924",
+    "1944",
+    "1428"
+   ],
+   "a": 1,
+   "e": "Other number = 74 × 12210 / 1110 = 814; sum = 1110 + 814 = 1924.",
+   "section": "Maths",
+   "topic": "HCF & LCM"
+  },
+  {
+   "q": "In an examination, 54% of the candidates passed in science and 42% failed in mathematics. If 32% failed in both subjects, what percentage passed in both subjects?",
+   "o": [
+    "56%",
+    "48%",
+    "32%",
+    "44%"
+   ],
+   "a": 3,
+   "e": "Failed in at least one = 46 + 42 − 32 = 56%, so passed in both = 44%.",
+   "section": "Maths",
+   "topic": "Sets"
+  },
+  {
+   "q": "The HCF and LCM of two numbers are 33 and 4719 respectively. When the first number is divided by 3, the quotient is 121, find the other number?",
+   "o": [
+    "424",
+    "433",
+    "469",
+    "429"
+   ],
+   "a": 3,
+   "e": "First number = 3 × 121 = 363; other = 33 × 4719 / 363 = 429.",
+   "section": "Maths",
+   "topic": "HCF & LCM"
+  },
+  {
+   "q": "A's income is to B's income as 5:7. A saves Rs. 4,000, and B saves Rs. 5,000. If A's spending is two-thirds of B's spending, what's the combined income of A and B?",
+   "o": [
+    "Rs. 22,200/-",
+    "Rs. 24,000/-",
+    "Rs. 22,800/-",
+    "Rs. 46,800/-"
+   ],
+   "a": 1,
+   "e": "Spending: 5x − 4000 = (2/3)(7x − 5000) gives x = 2000; total income = 12x = ₹24,000.",
+   "section": "Maths",
+   "topic": "Ratio"
+  },
+  {
+   "q": "A 900 km trip takes 11 hours. If 2/5 of the distance is covered at 60 km/h, what speed is needed for the rest of the trip?",
+   "o": [
+    "108",
+    "77",
+    "81",
+    "93"
+   ],
+   "a": 0,
+   "e": "360 km at 60 km/h takes 6 h; the remaining 540 km in 5 h needs 108 km/h.",
+   "section": "Maths",
+   "topic": "Speed"
+  },
+  {
+   "q": "A person covered 42 kilometers in 5 hours, using both walking and cycling. Walking speed was 6 km/h, and cycling speed was 10 km/h. What distance did they cover by walking?",
+   "o": [
+    "12km",
+    "1.2km",
+    "37km",
+    "3.9km"
+   ],
+   "a": 0,
+   "e": "w/6 + (42 − w)/10 = 5 gives w = 12 km walked.",
+   "section": "Maths",
+   "topic": "Speed"
+  },
+  {
+   "q": "A man completes a certain journey by a car. If he covered 30% of the distance at the speed of 20kmph. 60% of the distance at 40km/h and the remaining of the distance at 10 kmph, his average speed is",
+   "o": [
+    "25km/h",
+    "22km/h",
+    "12km/h",
+    "31km/h"
+   ],
+   "a": 0,
+   "e": "Taking 100 km: time = 30/20 + 60/40 + 10/10 = 4 h, so average speed = 25 km/h.",
+   "section": "Maths",
+   "topic": "Average Speed"
+  },
+  {
+   "q": "A man covers half of his journey at 6 km/h and the remaining half at 3 km/h. His average speed is",
+   "o": [
+    "4km/h",
+    "4.5km/h",
+    "5.22km/h",
+    "4.87km/h"
+   ],
+   "a": 0,
+   "e": "For equal halves, average = 2 × 6 × 3 / (6 + 3) = 4 km/h.",
+   "section": "Maths",
+   "topic": "Average Speed"
+  },
+  {
+   "q": "The average age of 3 students is 21 years. If the ratio of their ages is x : y : z, find the value with which y is related. It is known that x : y=1:2 andy:z=1:3.",
+   "o": [
+    "13",
+    "14",
+    "21",
+    "7"
+   ],
+   "a": 1,
+   "e": "x : y : z = 1 : 2 : 6 and total age = 63, so y = 63 × 2/9 = 14.",
+   "section": "Maths",
+   "topic": "Ratio"
+  },
+  {
+   "q": "A and B together can complete a work in 3 days. They start together but after 2 days, B left the work. If the work is completed after two more days, B alone could do the work in",
+   "o": [
+    "12days",
+    "4.2 days",
+    "6days",
+    "3.33 days"
+   ],
+   "a": 2,
+   "e": "In 2 days A+B finish 2/3; A does 1/3 in 2 days (A = 6 days), so B = 1/3 − 1/6 = 1/6, i.e. 6 days.",
+   "section": "Maths",
+   "topic": "Time & Work"
+  },
+  {
+   "q": "To complete a work, A takes 50% more time than B. If together they take 18 days to complete the work, how much time shall B take to do it?",
+   "o": [
+    "30days",
+    "25 days",
+    "18days",
+    "42days"
+   ],
+   "a": 0,
+   "e": "If B takes x days, A takes 1.5x: 1/x + 1/1.5x = 1/18 gives x = 30 days.",
+   "section": "Maths",
+   "topic": "Time & Work"
+  },
+  {
+   "q": "Tickets numbered 1 to 20 are mixed up and then a ticket is drawn at random. What is the probability that the ticket drawn has a number which is a multiple of 3 or 5?",
+   "o": [
+    "1/2",
+    "5/3",
+    "5/8",
+    "9/20"
+   ],
+   "a": 3,
+   "e": "Multiples of 3 or 5 from 1-20: 3,5,6,9,10,12,15,18,20 = 9, so 9/20.",
+   "section": "Maths",
+   "topic": "Probability"
+  },
+  {
+   "q": "In a lottery, there are 10 prizes and 25 blanks. A lottery is drawn at random. What is the probability of getting a prize?",
+   "o": [
+    "1/11",
+    "2/15",
+    "2/7",
+    "1/14"
+   ],
+   "a": 2,
+   "e": "P(prize) = 10/(10 + 25) = 2/7.",
+   "section": "Maths",
+   "topic": "Probability"
+  },
+  {
+   "q": "A class of 40 students took a test, and the average score was calculated to be 45. However, there were errors in recording some scores: 25 was mistakenly recorded as 35 twice, and 38 was mistakenly recorded as 32 once. What is the correct average score of the class?",
+   "o": [
+    "44.65",
+    "38",
+    "48.27",
+    "49.80"
+   ],
+   "a": 0,
+   "e": "Recorded total 1800 is too high by 20 − 6 = 14; correct average = 1786/40 = 44.65.",
+   "section": "Maths",
+   "topic": "Average"
+  },
+  {
+   "q": "A cricketer has a batting average of 50 runs over 40 innings. The difference between his highest and lowest scores is 172 runs. If the highest and lowest scores are removed, the average of the remaining 38 innings is 48. What was the cricketer's highest score?",
+   "o": [
+    "114",
+    "131",
+    "125",
+    "174"
+   ],
+   "a": 3,
+   "e": "H + L = 2000 − 1824 = 176 and H − L = 172, so H = 174.",
+   "section": "Maths",
+   "topic": "Average"
+  },
+  {
+   "q": "A shooting team of eight members had a competition. The top scorer got 85 points. If that person had scored 92 points, the team's average score would have been 84. What was the team's total score?",
+   "o": [
+    "679",
+    "665",
+    "666",
+    "657"
+   ],
+   "a": 1,
+   "e": "With 92 the total would be 84 × 8 = 672; the actual total is 7 less, 665.",
+   "section": "Maths",
+   "topic": "Average"
+  },
+  {
+   "q": "What will be the radius of the circle (in cm) for which the circumference and the area are numerically equal?",
+   "o": [
+    "2",
+    "4.2",
+    "4.5",
+    "2.1"
+   ],
+   "a": 0,
+   "e": "2πr = πr² gives r = 2 cm.",
+   "section": "Maths",
+   "topic": "Mensuration"
+  },
+  {
+   "q": "A bird travels: 40 km north, then 50 km east, then 110 km north, and finally 50 km west. What is the bird's final position relative to its starting point?",
+   "o": [
+    "50km South",
+    "150kmNorth",
+    "50km East",
+    "120 South"
+   ],
+   "a": 1,
+   "e": "East and west moves cancel; 40 + 110 = 150 km north of start.",
+   "section": "Reasoning",
+   "topic": "Direction"
+  },
+  {
+   "q": "Select the number from among the given options that can replace the question mark (?) in the following series. 16, 33, 100, 401, ?",
+   "o": [
+    "525",
+    "1291",
+    "1331",
+    "2006"
+   ],
+   "a": 3,
+   "e": "Pattern ×2+1, ×3+1, ×4+1, ×5+1: 401 × 5 + 1 = 2006.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "Float: Sink :: Boat : ?",
+   "o": [
+    "Ship",
+    "Aeroplane",
+    "Submarine",
+    "Jeep"
+   ],
+   "a": 2,
+   "e": "A boat floats while a submarine sinks (submerges).",
+   "section": "Reasoning",
+   "topic": "Analogy"
+  },
+  {
+   "q": "Aman starts from point A, walks 20 km East to reach point B. He then turns North and walks 15 km to reach point C. Next, he turns West and walks 8 km to reach point D. Finally, he turns South and walks 15 km to reach point E. What is the distance and direction of point E from point A?",
+   "o": [
+    "3km East",
+    "12kmSouth",
+    "3kmNorth",
+    "12km East"
+   ],
+   "a": 3,
+   "e": "North and south cancel; east 20 − 8 = 12 km, so E is 12 km east of A.",
+   "section": "Reasoning",
+   "topic": "Direction"
+  },
+  {
+   "q": "A truck moves: North 36 km, West 9 km, South 50 km, and then East 9 km. What is the truck's final position relative to its starting point?",
+   "o": [
+    "14km South",
+    "14km West",
+    "14kmNorth",
+    "14km East"
+   ],
+   "a": 0,
+   "e": "Net 50 − 36 = 14 km south; east-west cancels.",
+   "section": "Reasoning",
+   "topic": "Direction"
+  },
+  {
+   "q": "Asthma : Lungs :: Conjunctivitis : ?",
+   "o": [
+    "Bones",
+    "Teeth",
+    "Eyes",
+    "Skin"
+   ],
+   "a": 2,
+   "e": "Asthma affects the lungs; conjunctivitis affects the eyes.",
+   "section": "Reasoning",
+   "topic": "Analogy"
+  },
+  {
+   "q": "Select the number from among the given options that can replace the question mark (?) in the following series. 28, 32, 41, 57,?",
+   "o": [
+    "28",
+    "82",
+    "156",
+    "981"
+   ],
+   "a": 1,
+   "e": "Differences are 2², 3², 4², 5²: 57 + 25 = 82.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "In a certain code FIRE is coded as DGPC. What will be the last letter of the coded word for SHOT.",
+   "o": [
+    "Q",
+    "R",
+    "S",
+    "T"
+   ],
+   "a": 1,
+   "e": "Each letter moves back by 2 (F→D, I→G...), so T → R.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "If SUMMER is coded RUNNER, the code for WINTER is",
+   "o": [
+    "SBVGTY",
+    "VIOUER",
+    "WALKER",
+    "KNNHYT"
+   ],
+   "a": 1,
+   "e": "Shifts −1, 0, +1, +1, 0, 0 on SUMMER→RUNNER applied to WINTER give VIOUER.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "In a code language, if PEN is written as 17717, then how will CAP be written in the same language?",
+   "o": [
+    "2319",
+    "4319",
+    "4111",
+    "1119"
+   ],
+   "a": 1,
+   "e": "Letter positions plus 1, 2, 3: P16+1, E5+2, N14+3 = 17-7-17; C3+1, A1+2, P16+3 = 4-3-19.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "If letters A-Z are assigned odd numbers (A=1, B=3, etc.), what is the numerical value of the word HONEY?",
+   "o": [
+    "132725747",
+    "152927947",
+    "152927949",
+    "132725745"
+   ],
+   "a": 2,
+   "e": "Value = 2n − 1: H15, O29, N27, E9, Y49 → 152927949.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "If \"TAPE\" is coded as \"SUZBOQDF\" in a specific system, how would \"MOCK\" be coded using the same system?",
+   "o": [
+    "LOPQBCKL",
+    "MOPQDELM",
+    "KNNPBEBL",
+    "LNNPBDJL"
+   ],
+   "a": 3,
+   "e": "Each letter becomes its previous and next letters: M→LN, O→NP, C→BD, K→JL.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "In the following question below are given some statements followed by some conclusions. Taking the given statements to be true even if they seem to be at variance from commonly known facts, read all the conclusions and then decide which of the given conclusion logically follows the given statements. Statements: All dogs are cats. No cat is a bird. Conclusions: I. Some dogs are birds. II. No dog is a bird.",
+   "o": [
+    "Only Conclusion I follows",
+    "Only Conclusion II follows",
+    "Both Conclusion I and II follows",
+    "Neither Conclusion I nor II follows"
+   ],
+   "a": 1,
+   "e": "All dogs are cats and no cat is a bird, so no dog is a bird.",
+   "section": "Reasoning",
+   "topic": "Syllogism"
+  },
+  {
+   "q": "Read the given statements and conclusions carefully. Assuming that the information given in the statements is true, even if it appears to be at variance with commonly | known facts, decide which of the given conclusions logically follow(s) from the statements. Statements: All dogs are mammals. No mammal is a reptile. All snakes are reptiles. Conclusions: I. No dog is a snake. II. Some snakes are not mammals. III. Some dogs may be snakes.",
+   "o": [
+    "Only Conclusion I follows",
+    "Only Conclusion I and II follows",
+    "Only Conclusion II and III follows",
+    "Neither Conclusion I, II nor III follows"
+   ],
+   "a": 1,
+   "e": "Dogs are mammals and no mammal is a reptile, so no dog is a snake, and snakes (reptiles) are not mammals.",
+   "section": "Reasoning",
+   "topic": "Syllogism"
+  },
+  {
+   "q": "In a certain code language, 'MOHAN' is coded as 39-45-24-3-42 and 'KABIR' is coded as 33-3-6-27-54. How will 'RAGHU' be coded in that language?",
+   "o": [
+    "54-2-21-16-42",
+    "36-2-14-24-42",
+    "54-3-21-24-63",
+    "36-3-14-16-63"
+   ],
+   "a": 2,
+   "e": "Each letter = 3 × its position (A = 3): R54, A3, G21, H24, U63.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "A and B are brothers. C and D are sisters. A's son is D's brother. How is B related to C?",
+   "o": [
+    "Father",
+    "Son",
+    "Uncle",
+    "Brother"
+   ],
+   "a": 2,
+   "e": "D's brother is A's son, so C and D are A's daughters; A's brother B is their uncle.",
+   "section": "Reasoning",
+   "topic": "Blood Relations"
+  },
+  {
+   "q": "Introducing a lady, a man said, \"Her mother is the only daughter of my mother-in-law.\" What is the man to the lady?",
+   "o": [
+    "Father",
+    "Son",
+    "Uncle",
+    "Brother"
+   ],
+   "a": 0,
+   "e": "The only daughter of his mother-in-law is his wife, so the lady is his daughter.",
+   "section": "Reasoning",
+   "topic": "Blood Relations"
+  },
+  {
+   "q": "A family consists of six people: P, Q, R, S, T, and U. T's brother is married to P. U is T's mother. Q is the daughter of S and P, and also the granddaughter of R. What is the relationship between R and T?",
+   "o": [
+    "Father",
+    "Son",
+    "Uncle",
+    "Brother"
+   ],
+   "a": 0,
+   "e": "Q's father S is T's brother and Q is R's granddaughter, so R is the father of S and T.",
+   "section": "Reasoning",
+   "topic": "Blood Relations"
+  },
+  {
+   "q": "A is the mother of B. B is the sister of C. C is married to D. E is the son of D. How is A related to E?",
+   "o": [
+    "Sister",
+    "Grandmother",
+    "Daughter",
+    "Mother"
+   ],
+   "a": 1,
+   "e": "E is the son of C (B's sibling), so A is E's grandmother.",
+   "section": "Reasoning",
+   "topic": "Blood Relations"
+  },
+  {
+   "q": "What will come at the place of question mark? 1, 9, 25, 49, ?, 121.",
+   "o": [
+    "100",
+    "91",
+    "64",
+    "81"
+   ],
+   "a": 3,
+   "e": "Squares of odd numbers: 1, 3², 5², 7², 9² = 81, 11².",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "A series is given, with one number missing. Choose the number that will complete the series. 7, 21, 63, ?, 567, 1701",
+   "o": [
+    "189",
+    "136",
+    "177",
+    "191"
+   ],
+   "a": 0,
+   "e": "Each term is ×3: 63 × 3 = 189.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "Select the number that can replace the question mark (?) in the following series. 2, 9, 28, 65, ?",
+   "o": [
+    "130",
+    "100",
+    "110",
+    "126"
+   ],
+   "a": 3,
+   "e": "Terms are n³ + 1: 5³ + 1 = 126.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "What number should come next in the following series? 10, 11, 15, 24, 40, ?",
+   "o": [
+    "65",
+    "60",
+    "35",
+    "50"
+   ],
+   "a": 0,
+   "e": "Differences are 1, 4, 9, 16, 25: 40 + 25 = 65.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "What will come at the place of question mark? 4, 7, 12, 19, 28, ?",
+   "o": [
+    "49",
+    "36",
+    "30",
+    "39"
+   ],
+   "a": 3,
+   "e": "Differences 3, 5, 7, 9, 11: 28 + 11 = 39.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "I walk 30 metres in North-West direction from my house and then 30 metres in South-West direction. After this I walk 30 metres in South-East direction. Now, I turn to my house, in what direction am I going?",
+   "o": [
+    "North-East",
+    "North-West",
+    "South-East",
+    "South-West"
+   ],
+   "a": 0,
+   "e": "NW and SE legs cancel, leaving him 30 m south-west of home, so he walks north-east to return.",
+   "section": "Reasoning",
+   "topic": "Direction"
+  },
+  {
+   "q": "Passage: Wildlife across the world is facing increasing risks due to human activities and environmental changes. Rapid deforestation, expansion of agricultural land, urbanization, and climate change have significantly reduced natural habitats, forcing many species into smaller and more fragmented areas. As a result, incidents of human-wildlife conflict have become more frequent, posing threats to both animals and local communities. In response to these challenges, governments and conservation organizations have implemented various measures to protect wildlife. The establishment of national parks, wildlife sanctuaries, and biosphere reserves aims to conserve critical habitats. Anti-poaching laws have been strengthened, and the use of technology such as camera traps and satellite tracking has improved the monitoring of endangered species. Awareness campaigns have also been launched to involve local communities in conservation efforts. Despite these initiatives, wildlife conservation continues to face limitations. Insufficient funding, weak enforcement of laws, and a lack of coordination among agencies often reduce the effectiveness of conservation programs. Moreover, conservation efforts that overlook the livelihood needs of local populations can lead to resistance and non-cooperation. The way forward lies in adopting an integrated approach that balances ecological protection with human development. Promoting community-based conservation, restoring degraded habitats, and encouraging sustainable land-use practices are essential steps. Long-term success will depend on political commitment, scientific research, and active public participation to ensure that wildlife conservation remains both effective and inclusive.\n\nQuestion: What is the main reason for the increasing risk to wildlife mentioned in the passage?",
+   "o": [
+    "Natural disasters alone",
+    "Human activities and environmental changes",
+    "Lack of scientific research alone",
+    "Increase in wildlife population"
+   ],
+   "a": 1,
+   "e": "The passage opens by blaming human activities and environmental changes.",
+   "section": "English",
+   "topic": "Reading Comprehension"
+  },
+  {
+   "q": "Passage: Wildlife across the world is facing increasing risks due to human activities and environmental changes. Rapid deforestation, expansion of agricultural land, urbanization, and climate change have significantly reduced natural habitats, forcing many species into smaller and more fragmented areas. As a result, incidents of human-wildlife conflict have become more frequent, posing threats to both animals and local communities. In response to these challenges, governments and conservation organizations have implemented various measures to protect wildlife. The establishment of national parks, wildlife sanctuaries, and biosphere reserves aims to conserve critical habitats. Anti-poaching laws have been strengthened, and the use of technology such as camera traps and satellite tracking has improved the monitoring of endangered species. Awareness campaigns have also been launched to involve local communities in conservation efforts. Despite these initiatives, wildlife conservation continues to face limitations. Insufficient funding, weak enforcement of laws, and a lack of coordination among agencies often reduce the effectiveness of conservation programs. Moreover, conservation efforts that overlook the livelihood needs of local populations can lead to resistance and non-cooperation. The way forward lies in adopting an integrated approach that balances ecological protection with human development. Promoting community-based conservation, restoring degraded habitats, and encouraging sustainable land-use practices are essential steps. Long-term success will depend on political commitment, scientific research, and active public participation to ensure that wildlife conservation remains both effective and inclusive.\n\nQuestion: Which step has NOT been mentioned as a conservation measure?",
+   "o": [
+    "Creation of wildlife sanctuaries",
+    "Strengthening anti-poaching laws",
+    "Use of technology for monitoring",
+    "Relocation of all forest-dwelling communities"
+   ],
+   "a": 3,
+   "e": "Relocation of forest-dwelling communities is never mentioned as a measure.",
+   "section": "English",
+   "topic": "Reading Comprehension"
+  },
+  {
+   "q": "Passage: Wildlife across the world is facing increasing risks due to human activities and environmental changes. Rapid deforestation, expansion of agricultural land, urbanization, and climate change have significantly reduced natural habitats, forcing many species into smaller and more fragmented areas. As a result, incidents of human-wildlife conflict have become more frequent, posing threats to both animals and local communities. In response to these challenges, governments and conservation organizations have implemented various measures to protect wildlife. The establishment of national parks, wildlife sanctuaries, and biosphere reserves aims to conserve critical habitats. Anti-poaching laws have been strengthened, and the use of technology such as camera traps and satellite tracking has improved the monitoring of endangered species. Awareness campaigns have also been launched to involve local communities in conservation efforts. Despite these initiatives, wildlife conservation continues to face limitations. Insufficient funding, weak enforcement of laws, and a lack of coordination among agencies often reduce the effectiveness of conservation programs. Moreover, conservation efforts that overlook the livelihood needs of local populations can lead to resistance and non-cooperation. The way forward lies in adopting an integrated approach that balances ecological protection with human development. Promoting community-based conservation, restoring degraded habitats, and encouraging sustainable land-use practices are essential steps. Long-term success will depend on political commitment, scientific research, and active public participation to ensure that wildlife conservation remains both effective and inclusive.\n\nQuestion: The \"integrated approach\" mentioned in the passage refers to:",
+   "o": [
+    "Focusing only on wildlife protection",
+    "Replacing conservation laws with voluntary action",
+    "Combining ecological conservation with human development",
+    "Giving priority to industrial growth"
+   ],
+   "a": 2,
+   "e": "The integrated approach balances ecological protection with human development.",
+   "section": "English",
+   "topic": "Reading Comprehension"
+  },
+  {
+   "q": "Fill in the blanks with the most appropriate articles. During the ceremony, ___ eulogy was read to celebrate the life of ___ humble person.",
+   "o": [
+    "a, a",
+    "an, the",
+    "a, an",
+    "an, a"
+   ],
+   "a": 0,
+   "e": "'Eulogy' begins with a 'yu' consonant sound and 'humble' with a consonant, so 'a, a'.",
+   "section": "English",
+   "topic": "Articles"
+  },
+  {
+   "q": "Fill in the blanks with the most appropriate articles. No one imagined that such ___ heinous crime could occur inside ___ victim's house.",
+   "o": [
+    "a, a",
+    "the, an",
+    "a, an",
+    "a, the"
+   ],
+   "a": 3,
+   "e": "'A heinous crime' (h pronounced) and 'the victim's house' (specific).",
+   "section": "English",
+   "topic": "Articles"
+  },
+  {
+   "q": "Fill in the blanks with the most appropriate articles. ___ story of this movie revolves around ___ one-eyed man who overcomes many challenges.",
+   "o": [
+    "The, No article",
+    "The, a",
+    "The, the",
+    "No article, the"
+   ],
+   "a": 1,
+   "e": "'The story' is specific; 'one-eyed' begins with a 'w' sound, so 'a one-eyed man'.",
+   "section": "English",
+   "topic": "Articles"
+  },
+  {
+   "q": "Select the most appropriate synonym of the given word. Fecund",
+   "o": [
+    "Sterile",
+    "Prolific",
+    "Barren",
+    "Scanty"
+   ],
+   "a": 1,
+   "e": "Fecund means fertile or productive, i.e. prolific.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "Select the most appropriate synonym of the given word. Prodigal",
+   "o": [
+    "Extravagant",
+    "Frugal",
+    "Penurious",
+    "Parsimonious"
+   ],
+   "a": 0,
+   "e": "Prodigal means wastefully extravagant.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "Select the most appropriate antonym of the given word. Prudence",
+   "o": [
+    "Brashness",
+    "Circumspection",
+    "Gingerliness",
+    "Colloquialism"
+   ],
+   "a": 0,
+   "e": "Prudence is caution; brashness (rash boldness) is its opposite.",
+   "section": "English",
+   "topic": "Antonyms"
+  },
+  {
+   "q": "Select the most appropriate antonym of the given word. Benign",
+   "o": [
+    "Anodyne",
+    "Salubrious",
+    "Pernicious",
+    "Innocuous"
+   ],
+   "a": 2,
+   "e": "Benign means harmless; pernicious means harmful.",
+   "section": "English",
+   "topic": "Antonyms"
+  },
+  {
+   "q": "Fill in the blanks with suitable prepositions. He has a deep aversion ___ hypocrisy.",
+   "o": [
+    "For",
+    "with",
+    "To",
+    "against"
+   ],
+   "a": 2,
+   "e": "'Aversion to' is the correct collocation.",
+   "section": "English",
+   "topic": "Prepositions"
+  },
+  {
+   "q": "Fill in the blanks with suitable prepositions. She is adept ___ solving complex mathematical problems.",
+   "o": [
+    "on",
+    "at",
+    "with",
+    "for"
+   ],
+   "a": 1,
+   "e": "One is 'adept at' something.",
+   "section": "English",
+   "topic": "Prepositions"
+  },
+  {
+   "q": "Fill in the blanks with suitable prepositions. The manager was accused ___ negligence in handling the project.",
+   "o": [
+    "for",
+    "with",
+    "of",
+    "about"
+   ],
+   "a": 2,
+   "e": "One is 'accused of' an offence.",
+   "section": "English",
+   "topic": "Prepositions"
+  },
+  {
+   "q": "Which of the following sentences contains an inchoative verb?",
+   "o": [
+    "She runs every morning.",
+    "The sky darkened suddenly.",
+    "He wrote a letter.",
+    "Boys are playing football."
+   ],
+   "a": 1,
+   "e": "An inchoative verb shows a change of state without a stated agent: 'The sky darkened'.",
+   "section": "English",
+   "topic": "Verbs"
+  },
+  {
+   "q": "Fill in the blank: As the night advanced, the air ___ cooler.",
+   "o": [
+    "grow",
+    "grew",
+    "grown",
+    "grows"
+   ],
+   "a": 1,
+   "e": "The past 'advanced' requires the past form 'grew'.",
+   "section": "English",
+   "topic": "Tenses"
+  },
+  {
+   "q": "Which form of verb is used in the sentence below? The apparatus functioned as it was originally designed to do, but only after repeated trials.",
+   "o": [
+    "Transitive Verb",
+    "Intransitive Verb",
+    "Linking Verb",
+    "Auxiliary Verb"
+   ],
+   "a": 1,
+   "e": "'Functioned' takes no object here, so it is intransitive.",
+   "section": "English",
+   "topic": "Verbs"
+  },
+  {
+   "q": "In which sentence is the determiner wrongly used?",
+   "o": [
+    "Despite checking each record carefully, the auditor could not detect the financial discrepancy.",
+    "Fortunately, she has some relatives who are always ready to support her in times of need.",
+    "Not much students were aware of the sudden change in schedule.",
+    "Those students participated in the debate competition"
+   ],
+   "a": 2,
+   "e": "'Much' is used with uncountable nouns; 'students' needs 'many'.",
+   "section": "English",
+   "topic": "Determiners"
+  },
+  {
+   "q": "Which of the following sentences contains a Possessive Determiner?",
+   "o": [
+    "Several of the proposed solutions were rejected due to impracticality.",
+    "Every solution has advantages and disadvantages, but some are more feasible than others.",
+    "Few students understood the complexity of such philosophical arguments.",
+    "They were proud of their achievements in the international competition."
+   ],
+   "a": 3,
+   "e": "'Their' is a possessive determiner.",
+   "section": "English",
+   "topic": "Determiners"
+  },
+  {
+   "q": "Select the correct spelling of the word meaning \"A person who talks through his or her hat.\"",
+   "o": [
+    "Perpilocutionist",
+    "Perorationalist",
+    "Perlocutionist",
+    "Prelocutionist"
+   ],
+   "a": 0,
+   "e": "A perpilocutionist is one who talks through his or her hat.",
+   "section": "English",
+   "topic": "Spelling"
+  },
+  {
+   "q": "Select the correctly spelt word:",
+   "o": [
+    "Sacrilegious",
+    "Sacreligious",
+    "Sacriligious",
+    "Sacrilegius"
+   ],
+   "a": 0,
+   "e": "The correct spelling is 'sacrilegious'.",
+   "section": "English",
+   "topic": "Spelling"
+  },
+  {
+   "q": "Match the word with its synonym:\ni. Ricochet  a. Carom\nii. Melancholy  b. Heart-rending\niii. Poignant  c. Dejected\niv. Subterfuge  d. Ploy",
+   "o": [
+    "i-a, ii-b, iii-c, iv-d",
+    "i-b, ii-a, iii-c, iv-d",
+    "i-b, ii-c, iii-a, iv-d",
+    "i-a, ii-c, iii-b, iv-d"
+   ],
+   "a": 3,
+   "e": "Ricochet-carom, melancholy-dejected, poignant-heart-rending, subterfuge-ploy.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "Given below are four scattered segments of a sentence. Indicate the correct sequence that correctly assembles the segments and completes the sentence.\nP. sustainable economic growth\nQ. collaborative efforts among\nR. can only be achieved through\nS. government agencies and private enterprises",
+   "o": [
+    "P-R-Q-S",
+    "R-Q-S-P",
+    "R-S-Q-P",
+    "Q-R-S-P"
+   ],
+   "a": 0,
+   "e": "'Sustainable economic growth can only be achieved through collaborative efforts among government agencies and private enterprises' = P-R-Q-S.",
+   "section": "English",
+   "topic": "Sentence Rearrangement"
+  },
+  {
+   "q": "Which of the following sentences is grammatically correct?",
+   "o": [
+    "Neither of the proposals submitted by the committee members were found satisfactory.",
+    "Hardly had the meeting begun when the power cut disrupted the proceedings.",
+    "Each of the participants have expressed their concerns regarding the policy changes.",
+    "The data collected from various sources indicated that the results are inconclusive."
+   ],
+   "a": 1,
+   "e": "'Hardly ... when' with past perfect inversion is correct; the others have agreement errors.",
+   "section": "English",
+   "topic": "Grammar"
+  },
+  {
+   "q": "Select the most appropriate option that can substitute the underlined segment in the given sentence. The committee was divided in its opinion, and the chairman's remarks only add fuel in the fire.",
+   "o": [
+    "added fuel into the fire",
+    "added fuel to the fire",
+    "add fuels into the fire",
+    "add fuel to the fire"
+   ],
+   "a": 1,
+   "e": "The idiom is 'add fuel to the fire', and past tense matches 'was divided'.",
+   "section": "English",
+   "topic": "Idioms"
+  },
+  {
+   "q": "Which Indian athlete set a new National Indoor Record to win the gold medal in the Men's Heptathlon at the Asian Indoor Athletics Championships 2026 in China?",
+   "o": [
+    "Tajinderpal Singh Toor",
+    "Jeswin Aldrin",
+    "Tejaswin Shankar",
+    "Vaibhav Sooryavanshi"
+   ],
+   "a": 2,
+   "e": "Tejaswin Shankar set a national indoor record winning heptathlon gold at the 2026 Asian Indoor Championships.",
+   "section": "General Knowledge",
+   "topic": "Sports"
+  },
+  {
+   "q": "The Services team defeated which state in the finals to become the champion of the 79th National Football Championship for the Santosh Trophy 2025-26?",
+   "o": [
+    "Kerala",
+    "Maharashtra",
+    "Assam",
+    "Karnataka"
+   ],
+   "a": 0,
+   "e": "Services beat Kerala in the final of the 79th Santosh Trophy, per the official key.",
+   "section": "General Knowledge",
+   "topic": "Sports"
+  },
+  {
+   "q": "Match List-I (Buddhist Council) with List-II (venue/locations):\ni. First Council  a. Vaishali\nii. Second Council  b. Rajgriha\niii. Third Council  c. Patliputra\niv. Fourth Council  d. Kashmir",
+   "o": [
+    "i-a, ii-b, iii-c, iv-d",
+    "i-b, ii-a, iii-c, iv-d",
+    "i-b, ii-c, iii-a, iv-d",
+    "i-a, ii-c, iii-b, iv-d"
+   ],
+   "a": 1,
+   "e": "Councils: Rajgriha (1st), Vaishali (2nd), Pataliputra (3rd), Kashmir (4th).",
+   "section": "General Knowledge",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Consider the following statements regarding the Permanent Settlement (1793):\nI. It was introduced by Lord Hastings in Bengal and Bihar.\nII. The Zamindars were made the owners of the land, but their rights were subject to the \"Sunset Law.\"\nIII. The share of the Government was fixed at 1/6 of the total produce.\nWhich of the above statements are correct?",
+   "o": [
+    "II only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "a": 0,
+   "e": "Only II is correct: Cornwallis (not Hastings) introduced it and revenue was fixed at 10/11 of rent, not 1/6.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Match List-I (Organisation) with List-II (Founder):\ni. Tattvabodhini Sabha  a. Raja Ram Mohan Roy\nii. Prarthana Samaj  b. Debendranath Tagore\niii. Satyashodhak Samaj  c. Jyotiba Phule\niv. Atmiya Sabha  d. Atmaram Pandurang",
+   "o": [
+    "i-b, ii-a, iii-c, iv-d",
+    "i-a, ii-b, iii-c, iv-d",
+    "i-b, ii-d, iii-c, iv-a",
+    "i-a, ii-d, iii-c, iv-b"
+   ],
+   "a": 2,
+   "e": "Tattvabodhini - Debendranath Tagore; Prarthana Samaj - Atmaram Pandurang; Satyashodhak - Phule; Atmiya Sabha - Ram Mohan Roy.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Consider the following statements regarding the \"Western Ghats\" and \"Eastern Ghats\": I. The Western Ghats are a continuous chain of mountains that can be crossed only through specific passes, whereas the Eastern Ghats are highly dissected by east-flowing rivers. II. Deciduous forests are more dominant in the Western Ghats, while the Eastern Ghats are characterized primarily by Tropical Evergreen forests. III. The Great Escarpment of the Western Ghats acts as a primary water divide between the Arabian Sea and the Bay of Bengal. Choose the correct statements:",
+   "o": [
+    "I only",
+    "I and II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "a": 2,
+   "e": "I and III are correct; Western Ghats are dominated by evergreen forests, not the Eastern Ghats.",
+   "section": "General Knowledge",
+   "topic": "Geography"
+  },
+  {
+   "q": "Identify the correct pairs of states with their legislative capitals.\nI. Maharashtra: Nagpur (summer), Mumbai (winter)\nII. Himachal Pradesh: Shimla (summer), Dharamshala (winter)\nIII. Uttarakhand: Gairsain (summer), Dehradun (winter)",
+   "o": [
+    "Only II",
+    "I and II only",
+    "II and III only",
+    "All of the above"
+   ],
+   "a": 2,
+   "e": "HP (Shimla/Dharamshala) and Uttarakhand (Gairsain/Dehradun) are right; Nagpur is Maharashtra's winter capital.",
+   "section": "General Knowledge",
+   "topic": "Polity"
+  },
+  {
+   "q": "In the context of physics, why do we use a Convex Mirror as a rear-view mirror in vehicles?\nI. It always forms an erect and diminished image.\nII. It has a wider field of view as it is curved outwards.\nIII. It forms a real image of the objects behind.",
+   "o": [
+    "II only",
+    "I and II only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "a": 1,
+   "e": "A convex mirror gives an erect, diminished, virtual image with a wide field of view.",
+   "section": "General Knowledge",
+   "topic": "Physics"
+  },
+  {
+   "q": "Match List-I (Glands) with List-II (respective functions):\ni. Hypothalamus  a. Metabolism regulation\nii. Thymus  b. Regulates sleep patterns\niii. Thyroid  c. Large in infants, shrinks with age; trains T-cells\niv. Pineal gland  d. Controls the Pituitary",
+   "o": [
+    "i-d, ii-a, iii-b, iv-c",
+    "i-d, ii-a, iii-c, iv-b",
+    "i-d, ii-c, iii-a, iv-b",
+    "i-d, ii-b, iii-a, iv-c"
+   ],
+   "a": 2,
+   "e": "Hypothalamus controls the pituitary, thymus trains T-cells, thyroid regulates metabolism, pineal regulates sleep.",
+   "section": "General Knowledge",
+   "topic": "Biology"
+  },
+  {
+   "q": "In the context of sanitation, \"Greywater\" primarily refers to wastewater generated from:",
+   "o": [
+    "Rainwater collected from rooftops",
+    "Industrial effluents discharged from factories",
+    "Bathrooms, kitchens, and laundry activities, excluding toilets",
+    "Treated sewage water ready for potable reuse"
+   ],
+   "a": 2,
+   "e": "Greywater is wastewater from baths, kitchens and laundry, excluding toilet waste.",
+   "section": "General Knowledge",
+   "topic": "Environment"
+  },
+  {
+   "q": "Under the \"Universal Immunization Programme (UIP)\" in India, which vaccine is given strictly at birth to protect against tuberculosis?",
+   "o": [
+    "OPV (Oral Polio Vaccine)",
+    "Rotavirus Vaccine",
+    "Human Papillomavirus Vaccine (HPV)",
+    "BCG (Bacillus Calmette-Guerin)"
+   ],
+   "a": 3,
+   "e": "BCG vaccine against tuberculosis is given at birth under UIP.",
+   "section": "General Knowledge",
+   "topic": "Health"
+  },
+  {
+   "q": "The Chenab River is a tributary of which river system?",
+   "o": [
+    "Ganga",
+    "Yamuna",
+    "Brahmaputra",
+    "Indus"
+   ],
+   "a": 3,
+   "e": "The Chenab is a tributary of the Indus river system.",
+   "section": "State GK",
+   "topic": "J&K Geography"
+  },
+  {
+   "q": "Consider the following statements about 'Dumhal' in the Indian territory of Jammu and Kashmir. I. It is one of the folk dance forms of the Wattal tribe of the region. II. Only males can perform this dance on specific occasions and at set locations. III. Dance is performed wearing long, colourful robes and tall, conical caps, studded with beads and shells. IV. The performers move in a ritual manner and dig a banner (flag) into the ground before performing the dance. Which of the above statements are correct?",
+   "o": [
+    "I and II only",
+    "II and III only",
+    "I, II and IV only",
+    "All of the above"
+   ],
+   "a": 3,
+   "e": "Dumhal is a male folk dance of the Wattal tribe with robes, conical caps and a banner ritual.",
+   "section": "State GK",
+   "topic": "J&K Culture"
+  },
+  {
+   "q": "Which famous Persian chronicle records the medieval history of Kashmir?",
+   "o": [
+    "Rajtarangini",
+    "Nilmat Purana",
+    "Baharistan-i-shahi",
+    "Rajadarshani"
+   ],
+   "a": 2,
+   "e": "Baharistan-i-Shahi is a Persian chronicle of medieval Kashmir.",
+   "section": "State GK",
+   "topic": "J&K History"
+  },
+  {
+   "q": "Which of the following statements about the Peer Kho Cave Temple is/are correct?\nI. A historic cave temple located near Jammu city was constructed by the first Dogra ruler, Maharaja Gulab Singh.\nII. The lingam is located inside a small cave embellished with a white marble rectangular platform.\nIII. The cave is also known as the Jamavant Guffa, as the bear hero of Ramayana is believed to have meditated in Guffa.",
+   "o": [
+    "I only",
+    "I and II only",
+    "II and III only",
+    "All of the above"
+   ],
+   "a": 2,
+   "e": "The Peer Kho cave has a lingam and is linked with Jamwant; its construction is not attributed to Gulab Singh.",
+   "section": "State GK",
+   "topic": "J&K Culture"
+  },
+  {
+   "q": "Match List-I (Authors) with List-II (Books):\ni. Diwan Kirpa Ram  a. Rajtarangini\nii. Abhinavgupta  b. Gulabnama\niii. Jonaraja  c. Dvitiya Rajtarangini\niv. Kalhana  d. Tantraloka",
+   "o": [
+    "i-d, ii-b, iii-c, iv-a",
+    "i-c, ii-d, iii-b, iv-a",
+    "i-b, ii-d, iii-c, iv-a",
+    "i-d, ii-c, iii-b, iv-a"
+   ],
+   "a": 2,
+   "e": "Diwan Kirpa Ram - Gulabnama; Abhinavgupta - Tantraloka; Jonaraja - Dvitiya Rajatarangini; Kalhana - Rajatarangini.",
+   "section": "State GK",
+   "topic": "J&K Literature"
+  },
+  {
+   "q": "Which of the following is the capital of the union territory of Dadra and Nagar Haveli and Daman and Diu?",
+   "o": [
+    "Silvassa",
+    "Daman",
+    "Mahe",
+    "None of the above"
+   ],
+   "a": 1,
+   "e": "Daman is the capital of the merged UT of Dadra and Nagar Haveli and Daman and Diu.",
+   "section": "General Knowledge",
+   "topic": "Polity"
+  },
+  {
+   "q": "Match List-I (Sacred Groves) with List-II (States):\ni. Law Lyngdoh  a. Meghalaya\nii. Sarpa Kavu  b. Kerala\niii. Devban  c. Himachal Pradesh\niv. Gumpa Forest  d. Arunachal Pradesh",
+   "o": [
+    "i-b, ii-a, iii-d, iv-c",
+    "i-d, ii-b, iii-c, iv-a",
+    "i-a, ii-d, iii-c, iv-b",
+    "i-a, ii-b, iii-c, iv-d"
+   ],
+   "a": 3,
+   "e": "Law Lyngdoh - Meghalaya, Sarpa Kavu - Kerala, Devban - Himachal, Gumpa forests - Arunachal.",
+   "section": "Environment & Forestry",
+   "topic": "Sacred Groves"
+  },
+  {
+   "q": "Which type of forest typically occurs in regions with annual rainfall of 70-100 cm, where trees shed their leaves completely during the dry season, giving the forest a grassland-like appearance?",
+   "o": [
+    "Thorn forests",
+    "Littoral swamps",
+    "Dry deciduous forests",
+    "Montane forest"
+   ],
+   "a": 2,
+   "e": "Dry deciduous forests grow in 70-100 cm rainfall areas and shed leaves completely in the dry season.",
+   "section": "Environment & Forestry",
+   "topic": "Forests"
+  },
+  {
+   "q": "According to the Indian State of the Forest Report (2023), which State/UT has the highest proportion of forest cover relative to its total geographical area?",
+   "o": [
+    "Lakshadweep",
+    "Mizoram",
+    "Andaman and Nicobar Islands",
+    "None of the above"
+   ],
+   "a": 0,
+   "e": "ISFR 2023 shows Lakshadweep with the highest forest cover as a share of area.",
+   "section": "Environment & Forestry",
+   "topic": "Forests"
+  },
+  {
+   "q": "Under the Biodiversity Hotspots classification by Conservation International, a region must meet which of the following conditions to qualify?\nI. It must have 30% or less of its original natural vegetation.\nII. It must have at least 1,500 vascular plants as endemics.\nIII. It must be located in a tropical area only.",
+   "o": [
+    "I only",
+    "II only",
+    "I and II only",
+    "All of the above"
+   ],
+   "a": 2,
+   "e": "A hotspot needs at least 1,500 endemic vascular plants and to have lost 70% of original vegetation; it need not be tropical.",
+   "section": "Environment & Forestry",
+   "topic": "Biodiversity"
+  },
+  {
+   "q": "Which of the following pairs of Biodiversity Heritage Sites (Biological Diversity Act, 2002) are correctly matched with their respective states?",
+   "o": [
+    "Unakoti - Tripura",
+    "Ambaragudda- Kerala",
+    "Asramam- Tamil Nadu",
+    "Ameenpur Lake - Odisha"
+   ],
+   "a": 0,
+   "e": "Unakoti in Tripura is a Biodiversity Heritage Site; the other pairs are mismatched.",
+   "section": "Environment & Forestry",
+   "topic": "Biodiversity"
+  },
+  {
+   "q": "A researcher is studying the varying concentrations of \"Curcumin\" in Curcuma longa (Turmeric) plants growing across different altitudes in the Shivalik hills. This is an assessment of:",
+   "o": [
+    "Species diversity",
+    "Genetic Diversity",
+    "Ecosystem Diversity",
+    "Global Diversity"
+   ],
+   "a": 1,
+   "e": "Variation of a chemical trait within one species is genetic diversity.",
+   "section": "Environment & Forestry",
+   "topic": "Biodiversity"
+  },
+  {
+   "q": "A species whose presence or absence significantly has a disproportionately large impact on the structure and function of an entire community is known as a:",
+   "o": [
+    "Pioneer Species",
+    "Indicator Species",
+    "Keystone Species",
+    "Endemic Species"
+   ],
+   "a": 2,
+   "e": "A keystone species has an impact far larger than its abundance.",
+   "section": "Environment & Forestry",
+   "topic": "Ecology"
+  },
+  {
+   "q": "Which of the following explains the meaning of IUCN Green Status to species?",
+   "o": [
+    "complements the Red List by assessing species recovery",
+    "measures the level of species extinction in green forests",
+    "measures the threat to wildlife having green colour",
+    "measures the recovery of wetlands"
+   ],
+   "a": 0,
+   "e": "The IUCN Green Status complements the Red List by measuring species recovery.",
+   "section": "Environment & Forestry",
+   "topic": "Conservation"
+  },
+  {
+   "q": "Which of the following species in Jammu & Kashmir is currently classified as \"Critically Endangered\" on the IUCN Red List?",
+   "o": [
+    "Himalayan Bear",
+    "Snow leopard",
+    "Hangul",
+    "Monal"
+   ],
+   "a": 2,
+   "e": "The Hangul (Kashmir stag) is listed as Critically Endangered.",
+   "section": "Environment & Forestry",
+   "topic": "Wildlife"
+  },
+  {
+   "q": "If a species is listed in \"Appendix I\" of the Convention on International Trade in Endangered Species of Wild Fauna and Flora (CITES), it means:",
+   "o": [
+    "The species is only protected within the borders of India",
+    "Trade is permitted for commercial purposes with permission",
+    "International trade of species is completely prohibited",
+    "Trade is generally prohibited except for non-commercial purposes"
+   ],
+   "a": 3,
+   "e": "CITES Appendix I bans commercial trade; non-commercial trade (e.g. research) may be allowed.",
+   "section": "Environment & Forestry",
+   "topic": "Conservation"
+  },
+  {
+   "q": "Which of the following Biosphere Reserves in India are NOT recognised by UNESCO under its Man and Biosphere program?",
+   "o": [
+    "Cold Desert Biosphere Reserve",
+    "Nokrek Biosphere Reserve",
+    "Panchmarhi Biosphere Reserve",
+    "Manas Biosphere Reserve"
+   ],
+   "a": 3,
+   "e": "Manas Biosphere Reserve is not part of UNESCO's MAB network.",
+   "section": "Environment & Forestry",
+   "topic": "Biosphere Reserves"
+  },
+  {
+   "q": "Consider the following statements regarding the legal framework for Forest and Wildlife conservation in India:\nI. Under the Wildlife Protection Act (WPA), 1972, the \"Chief Wildlife Warden\" is the statutory authority empowered to control, manage, and maintain all Protected Areas within a State or Union Territory.\nII. The state's obligation to protect the Hangul is derived from the constitutional Article 51A(g).\nChoose the correct statements:",
+   "o": [
+    "I only",
+    "II only",
+    "Both of the above",
+    "Neither of the above"
+   ],
+   "a": 0,
+   "e": "The Chief Wildlife Warden is the statutory authority under the WPA; Article 51A(g) is a citizens' duty, not a state obligation.",
+   "section": "Environment & Forestry",
+   "topic": "Wildlife Law"
+  },
+  {
+   "q": "Which of the following Acts provide framework for the designation of \"Critical Wildlife Habitats\"?\nI. Forest Conservation Act, 1980\nII. Biological Diversity Act, 2002\nIII. Scheduled Tribes and Other Traditional Forest Dwellers (Recognition of Forest Rights) Act, 2006",
+   "o": [
+    "Only II",
+    "Only III",
+    "Only I and II",
+    "All of the above"
+   ],
+   "a": 1,
+   "e": "Critical Wildlife Habitats are defined under the Forest Rights Act, 2006.",
+   "section": "Environment & Forestry",
+   "topic": "Wildlife Law"
+  },
+  {
+   "q": "With reference to Tiger Conservation in India as of 2025-26, consider the following statements: I. International Tiger Day is celebrated every year on 29th July to raise awareness about tiger conservation globally. II. India is home to more than 70% of the world's wild tiger population. III. The initial phase of Project Tiger included the Ranthambore Tiger Reserve among 9 tiger reserves. IV. The Prime Minister is the chairman of the National Tiger Conservation Authority (NTCA). Choose the correct statements:",
+   "o": [
+    "I, II and III only",
+    "II, III and IV only",
+    "I, II and IV only",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "Statements I-III are correct; the NTCA is chaired by the Environment Minister, not the PM.",
+   "section": "Environment & Forestry",
+   "topic": "Wildlife"
+  },
+  {
+   "q": "Which of the following species is NOT included under the International Big Cats Alliance, launched in the year 2023?",
+   "o": [
+    "Jaguar",
+    "Puma",
+    "Snow leopard",
+    "Himalayan Wolf"
+   ],
+   "a": 3,
+   "e": "The IBCA covers seven big cats; the Himalayan wolf is not one.",
+   "section": "Environment & Forestry",
+   "topic": "Wildlife"
+  },
+  {
+   "q": "Consider the following statements about the Tiger reserves in India:\nI. Karnataka has the highest number of tigers as per the latest Tiger Census.\nII. Nagarjunsagar-Srisailam in Andhra Pradesh is the largest Tiger Reserve in India by area.\nIII. Guru-Ghasidas-Tamor Pingla is located in the state of Telangana.\nIdentify the INCORRECT statements:",
+   "o": [
+    "II only",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "a": 2,
+   "e": "Madhya Pradesh has the most tigers and Guru Ghasidas-Tamor Pingla is in Chhattisgarh, so I and III are incorrect.",
+   "section": "Environment & Forestry",
+   "topic": "Wildlife"
+  },
+  {
+   "q": "Which of the following mechanisms explains the increase in soil erosion after deforestation?\nI. Reduction in interception of rainfall by the tree canopy\nII. Decrease in the infiltration rate of water into the soil\nIII. Increase in evapotranspiration\nIV. Loss of soil-binding root networks",
+   "o": [
+    "I and IV only",
+    "II and III only",
+    "I, II and IV only",
+    "I, II, III and IV"
+   ],
+   "a": 2,
+   "e": "Less canopy interception, lower infiltration and loss of roots raise erosion; evapotranspiration actually falls.",
+   "section": "Environment & Forestry",
+   "topic": "Soil Conservation"
+  },
+  {
+   "q": "How does deforestation affect the water cycle (Hydrology)?",
+   "o": [
+    "Decreases surface runoff",
+    "Decreases evapotranspiration",
+    "Increases rainfall",
+    "Increases groundwater levels"
+   ],
+   "a": 1,
+   "e": "Removing trees reduces evapotranspiration and increases runoff.",
+   "section": "Environment & Forestry",
+   "topic": "Hydrology"
+  },
+  {
+   "q": "Choose the correct statements about the National Action Plan to Combat Desertification- I. The National Action Plan to Combat Desertification, 2023, was prepared, aiming for the restoration of 26 million hectares of degraded land by 2030. II. It was launched under the UN Convention on Biological Diversity (UNCBD). III. It also aims to create an additional carbon sink of 2.5 - 3 billion tonnes of carbon dioxide equivalent by 2030 through additional forest and tree cover.",
+   "o": [
+    "I only",
+    "II only",
+    "I and II only",
+    "I and III only"
+   ],
+   "a": 3,
+   "e": "The plan targets 26 Mha restoration and a 2.5-3 bn t CO2e sink by 2030 under the UNCCD, not the CBD.",
+   "section": "Environment & Forestry",
+   "topic": "Desertification"
+  }
+ ]
+}

@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Choose the synonym of ABUNDANT.",
+  "o": [
+   "Scarce",
+   "Tiny",
+   "Plentiful",
+   "Rare"
+  ],
+  "a": 2,
+  "e": "Abundant means existing in large quantities, i.e. plentiful.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "Choose the synonym of CANDID.",
+  "o": [
+   "Secretive",
+   "Frank",
+   "Cunning",
+   "Timid"
+  ],
+  "a": 1,
+  "e": "Candid means open and honest in speech, i.e. frank.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "Choose the synonym of METICULOUS.",
+  "o": [
+   "Careless",
+   "Painstaking",
+   "Hasty",
+   "Indifferent"
+  ],
+  "a": 1,
+  "e": "Meticulous means showing great attention to detail, i.e. painstaking.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "Choose the synonym of OBSEQUIOUS.",
+  "o": [
+   "Servile",
+   "Arrogant",
+   "Obscure",
+   "Rebellious"
+  ],
+  "a": 0,
+  "e": "Obsequious means excessively eager to please or obey, i.e. servile.",
+  "topic": "English Vocabulary",
+  "level": "hard"
+ },
+ {
+  "q": "Choose the synonym of EPHEMERAL.",
+  "o": [
+   "Eternal",
+   "Ancient",
+   "Heavenly",
+   "Short-lived"
+  ],
+  "a": 3,
+  "e": "Ephemeral means lasting for a very short time.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "Choose the antonym of ANCIENT.",
+  "o": [
+   "Modern",
+   "Old",
+   "Antique",
+   "Aged"
+  ],
+  "a": 0,
+  "e": "Ancient means very old; its opposite is modern.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "Choose the antonym of GENEROUS.",
+  "o": [
+   "Stingy",
+   "Liberal",
+   "Kind",
+   "Charitable"
+  ],
+  "a": 0,
+  "e": "Generous means giving freely; stingy means unwilling to give.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "Choose the antonym of OPTIMISTIC.",
+  "o": [
+   "Hopeful",
+   "Cheerful",
+   "Pessimistic",
+   "Confident"
+  ],
+  "a": 2,
+  "e": "An optimist expects good outcomes; a pessimist expects the worst.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "Choose the antonym of TRANSPARENT.",
+  "o": [
+   "Clear",
+   "Obvious",
+   "Opaque",
+   "Lucid"
+  ],
+  "a": 2,
+  "e": "Transparent lets light pass through; opaque does not.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "Choose the antonym of AFFLUENT.",
+  "o": [
+   "Wealthy",
+   "Prosperous",
+   "Impoverished",
+   "Influential"
+  ],
+  "a": 2,
+  "e": "Affluent means wealthy; impoverished means very poor.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "Choose the antonym of GARRULOUS.",
+  "o": [
+   "Taciturn",
+   "Talkative",
+   "Loquacious",
+   "Verbose"
+  ],
+  "a": 0,
+  "e": "Garrulous means excessively talkative; taciturn means habitually silent.",
+  "topic": "English Vocabulary",
+  "level": "hard"
+ },
+ {
+  "q": "Choose the antonym of DILIGENT.",
+  "o": [
+   "Hardworking",
+   "Careful",
+   "Sincere",
+   "Lazy"
+  ],
+  "a": 3,
+  "e": "Diligent means hardworking and careful; its opposite is lazy.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "One-word substitute: A person who does not believe in the existence of God.",
+  "o": [
+   "Theist",
+   "Atheist",
+   "Agnostic",
+   "Pagan"
+  ],
+  "a": 1,
+  "e": "An atheist denies God's existence; an agnostic holds that it cannot be known.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "One-word substitute: A person who can speak two languages.",
+  "o": [
+   "Monolingual",
+   "Polyglot",
+   "Linguist",
+   "Bilingual"
+  ],
+  "a": 3,
+  "e": "Bilingual means able to speak two languages; a polyglot knows many.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "One-word substitute: A place where birds are kept.",
+  "o": [
+   "Apiary",
+   "Aquarium",
+   "Aviary",
+   "Kennel"
+  ],
+  "a": 2,
+  "e": "An aviary houses birds; an apiary is for bees.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "One-word substitute: Government by the people, through elected representatives.",
+  "o": [
+   "Autocracy",
+   "Monarchy",
+   "Oligarchy",
+   "Democracy"
+  ],
+  "a": 3,
+  "e": "Democracy is rule by the people, usually through elected representatives.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "One-word substitute: A speech made without any preparation.",
+  "o": [
+   "Soliloquy",
+   "Monologue",
+   "Eulogy",
+   "Extempore"
+  ],
+  "a": 3,
+  "e": "An extempore speech is delivered without preparation.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "One-word substitute: An abnormal fear of heights.",
+  "o": [
+   "Claustrophobia",
+   "Acrophobia",
+   "Hydrophobia",
+   "Agoraphobia"
+  ],
+  "a": 1,
+  "e": "Acrophobia is the fear of heights; claustrophobia is the fear of closed spaces.",
+  "topic": "English Vocabulary",
+  "level": "hard"
+ },
+ {
+  "q": "One-word substitute: One who walks in sleep.",
+  "o": [
+   "Insomniac",
+   "Pedestrian",
+   "Somnambulist",
+   "Hypnotist"
+  ],
+  "a": 2,
+  "e": "A somnambulist is a sleepwalker; an insomniac cannot sleep.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "One-word substitute: A person who does not eat meat, fish or eggs.",
+  "o": [
+   "Vegetarian",
+   "Carnivore",
+   "Cannibal",
+   "Omnivore"
+  ],
+  "a": 0,
+  "e": "A vegetarian avoids meat and lives on plant-based food.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "What does the idiom 'a piece of cake' mean?",
+  "o": [
+   "Something very easy",
+   "Something tasty",
+   "A small share",
+   "A costly item"
+  ],
+  "a": 0,
+  "e": "'A piece of cake' describes a task that is very easy to do.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "What does the idiom 'to bury the hatchet' mean?",
+  "o": [
+   "To make peace",
+   "To hide a weapon",
+   "To start a quarrel",
+   "To plan secretly"
+  ],
+  "a": 0,
+  "e": "To bury the hatchet is to end a quarrel and become friendly again.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "What does the idiom 'to burn the midnight oil' mean?",
+  "o": [
+   "To work or study late into the night",
+   "To waste fuel",
+   "To set something on fire",
+   "To go to bed early"
+  ],
+  "a": 0,
+  "e": "It means to stay up late working or studying.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "What does the idiom 'once in a blue moon' mean?",
+  "o": [
+   "Every month",
+   "Very rarely",
+   "Only at night",
+   "Very regularly"
+  ],
+  "a": 1,
+  "e": "'Once in a blue moon' means something that happens very seldom.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "What does the idiom 'to beat about the bush' mean?",
+  "o": [
+   "To search the bushes",
+   "To defeat an enemy",
+   "To avoid coming to the main point",
+   "To work hard in the fields"
+  ],
+  "a": 2,
+  "e": "To beat about the bush is to talk around a subject without getting to the point.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "What does the idiom 'a white elephant' mean?",
+  "o": [
+   "A rare and sacred animal",
+   "A great honour",
+   "A very peaceful person",
+   "A possession that is costly to maintain but of little use"
+  ],
+  "a": 3,
+  "e": "A white elephant is something expensive to keep whose usefulness does not justify the cost.",
+  "topic": "English Vocabulary",
+  "level": "hard"
+ },
+ {
+  "q": "Choose the correctly spelt word.",
+  "o": [
+   "Neccessary",
+   "Necessary",
+   "Necesary",
+   "Neccesary"
+  ],
+  "a": 1,
+  "e": "'Necessary' has one 'c' and double 's'.",
+  "topic": "English Vocabulary",
+  "level": "easy"
+ },
+ {
+  "q": "Choose the correctly spelt word.",
+  "o": [
+   "Accomodation",
+   "Accommodation",
+   "Acommodation",
+   "Accommodasion"
+  ],
+  "a": 1,
+  "e": "'Accommodation' has double 'c' and double 'm'.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "Choose the correctly spelt word.",
+  "o": [
+   "Seperate",
+   "Separate",
+   "Separete",
+   "Seperete"
+  ],
+  "a": 1,
+  "e": "The correct spelling is 'separate', with 'a' after 'p'.",
+  "topic": "English Vocabulary",
+  "level": "medium"
+ },
+ {
+  "q": "Choose the correctly spelt word.",
+  "o": [
+   "Entrepreneaur",
+   "Enterpreneur",
+   "Entreprenuer",
+   "Entrepreneur"
+  ],
+  "a": 3,
+  "e": "The correct spelling is 'entrepreneur', from French, ending in '-eur'.",
+  "topic": "English Vocabulary",
+  "level": "hard"
+ }
+]

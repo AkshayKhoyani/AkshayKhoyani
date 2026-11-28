@@ -1,0 +1,44 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>DSSSB – sample reel (code cast)</title>
+<style>html,body{margin:0;background:#071a3d}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/ej.js"></script>
+<script>
+// Facts (official DSSSB Advt 06/2026): 1,260 posts = 1,075 MTS + 185 JE (Electrical); MTS 10th pass; JE diploma/degree;
+// age 18–27; fee ₹100 (Gen/OBC/EWS), nil for women/SC/ST/PwBD/ESM; last date 11 Dec 2026.
+// Layout rule: text & cards stay in the top half (y < 1000); characters stand in the lower half so faces are never covered.
+const { C, txt, pill, words, card, counter, check, person, bubble, commentCTA, endCard } = EJ;
+window.SCENES = [
+  { theme: 'scene_park', dur: 6.5, design: 6.5, draw(t) {
+    pill(t, 0.1, '🏛️ DELHI GOVT JOB 2026', 290, C.gold);
+    words(t, 0.4, 'DSSSB Recruitment', 420, { size: 86 });
+    counter(t, 0.9, 1.4, 1260, 540, 610, { size: 170 });
+    txt('POSTS', 540, 690, { size: 50, weight: 900, color: C.gold, alpha: Math.min(1, Math.max(0, t - 1.2)) });
+    person(t, 'naukri_bhaiya', 0.2, 540, 1880, 1.85, { talk: [[0.2, 6.4]], moods: [[0.3, 1.8, 'wave']] });
+  }},
+  { theme: 'scene_tuition', dur: 8.5, design: 8.5, draw(t) {
+    pill(t, 0.1, '🎓 ELIGIBILITY', 290, C.sky);
+    card(t, 0.4, 70, 360, 450, 250, { accent: C.gold, draw: (x, y) => { txt('MTS · 1,075', x + 230, y + 90, { size: 48 }); txt('10th Pass', x + 230, y + 180, { size: 54, color: C.gold }); } });
+    card(t, 1.6, 560, 360, 450, 250, { accent: C.sky, draw: (x, y) => { txt('JE (Elect.) · 185', x + 225, y + 90, { size: 44 }); txt('Diploma / Degree', x + 225, y + 180, { size: 44, color: C.sky }); } });
+    card(t, 4.2, 240, 650, 600, 120, { draw: (x, y) => txt('Age: 18 – 27 saal', x + 300, y + 80, { size: 50 }) });
+    person(t, 'exam_didi', 0.1, 540, 1880, 1.85, { talk: [[0.1, 8.4]], moods: [[3.6, 5.0, 'point']] });
+  }},
+  { theme: 'scene_news_studio', dur: 8, design: 8, draw(t) {
+    pill(t, 0.1, '⚡ FEE & LAST DATE', 290, C.gold);
+    card(t, 0.4, 70, 360, 940, 380, { draw: (x, y) => {
+      check(t, 0.8, x + 80, y + 85, 'Fee: ₹100 (Gen/OBC/EWS)', { size: 44 });
+      check(t, 2.0, x + 80, y + 190, 'Women, SC, ST: FREE', { size: 44 });
+      check(t, 3.6, x + 80, y + 295, 'Last Date: 11 Dec 2026', { size: 44 }); } });
+    person(t, 'anchor_rohan', 0.1, 540, 1880, 1.85, { talk: [[0.1, 7.9]] });
+  }},
+  { theme: 'scene_home', dur: 4.5, design: 4.5, draw(t) {
+    bubble(t, 0.4, 'Aaj hi form bhar le, beta!', 540, 700, { size: 50 });
+    person(t, 'mummy_ji', 0.1, 520, 1880, 1.85, { talk: [[0.1, 4.3]], moods: [[2.6, 4.5, 'point']] });
+  }},
+  { theme: 'scene_office', dur: 6.5, design: 6.5, noWatermark: true, draw(t) {
+    if (t < 4.6) { commentCTA(t, 0.05, 'DSSSB', 300); person(t, 'naukri_bhaiya', 0.2, 540, 1880, 1.85, { talk: [[0.1, 4.5]], moods: [[2.8, 4.6, 'thumbs']] }); }
+    else endCard(t, 4.6);
+  }}
+];
+EJ.start();
+</script></body></html>

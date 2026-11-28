@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Who first excavated Harappa in 1921?",
+  "o": [
+   "Daya Ram Sahni",
+   "R. D. Banerji",
+   "John Marshall",
+   "Mortimer Wheeler"
+  ],
+  "a": 0,
+  "e": "Daya Ram Sahni excavated Harappa in 1921; R. D. Banerji excavated Mohenjo-daro in 1922.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "The 'Great Bath' of the Indus Valley Civilisation was found at:",
+  "o": [
+   "Harappa",
+   "Lothal",
+   "Kalibangan",
+   "Mohenjo-daro"
+  ],
+  "a": 3,
+  "e": "The Great Bath is the best-known structure found at Mohenjo-daro.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "Which Harappan site is famous for its dockyard?",
+  "o": [
+   "Dholavira",
+   "Ropar",
+   "Lothal",
+   "Banawali"
+  ],
+  "a": 2,
+  "e": "Lothal in Gujarat had a dockyard, showing sea trade.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the oldest of the four Vedas?",
+  "o": [
+   "Rigveda",
+   "Samaveda",
+   "Yajurveda",
+   "Atharvaveda"
+  ],
+  "a": 0,
+  "e": "The Rigveda is the oldest Veda and a collection of hymns.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "Gautama Buddha was born at:",
+  "o": [
+   "Lumbini",
+   "Bodh Gaya",
+   "Sarnath",
+   "Kushinagar"
+  ],
+  "a": 0,
+  "e": "Buddha was born at Lumbini, in present-day Nepal.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "Where did Gautama Buddha deliver his first sermon?",
+  "o": [
+   "Bodh Gaya",
+   "Sarnath",
+   "Lumbini",
+   "Kushinagar"
+  ],
+  "a": 1,
+  "e": "The first sermon at Sarnath is called Dharmachakra Pravartana.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "Who was the 24th and last Tirthankara of Jainism?",
+  "o": [
+   "Rishabhanatha",
+   "Parshvanatha",
+   "Mahavira",
+   "Neminatha"
+  ],
+  "a": 2,
+  "e": "Vardhamana Mahavira was the 24th Tirthankara; Parshvanatha was the 23rd.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "Who founded the Maurya Empire?",
+  "o": [
+   "Bindusara",
+   "Ashoka",
+   "Bimbisara",
+   "Chandragupta Maurya"
+  ],
+  "a": 3,
+  "e": "Chandragupta Maurya founded the empire with the help of Chanakya.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "Ashoka adopted Buddhism after which war?",
+  "o": [
+   "War of Hydaspes",
+   "War with Magadha",
+   "War with the Shakas",
+   "Kalinga War"
+  ],
+  "a": 3,
+  "e": "The bloodshed of the Kalinga War led Ashoka to adopt Buddhism and Dhamma.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "The 'Arthashastra' is attributed to:",
+  "o": [
+   "Megasthenes",
+   "Kautilya",
+   "Kalidasa",
+   "Banabhatta"
+  ],
+  "a": 1,
+  "e": "Kautilya (Chanakya) is credited with the Arthashastra, a text on statecraft.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "'Indica', an account of Mauryan India, was written by:",
+  "o": [
+   "Fa-Hien",
+   "Megasthenes",
+   "Hiuen Tsang",
+   "Ptolemy"
+  ],
+  "a": 1,
+  "e": "Megasthenes, a Greek envoy at Chandragupta Maurya's court, wrote Indica.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "Which ruler is called the 'Napoleon of India' because of his conquests?",
+  "o": [
+   "Chandragupta II",
+   "Samudragupta",
+   "Ashoka",
+   "Harshavardhana"
+  ],
+  "a": 1,
+  "e": "Historian V. A. Smith called Samudragupta the 'Napoleon of India'.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "The 'Tripitakas' are sacred texts of which religion?",
+  "o": [
+   "Buddhism",
+   "Jainism",
+   "Zoroastrianism",
+   "Sikhism"
+  ],
+  "a": 0,
+  "e": "The Tripitaka (three baskets) is the Buddhist canon.",
+  "topic": "Ancient History",
+  "level": "easy"
+ },
+ {
+  "q": "The Gayatri Mantra is found in which Veda?",
+  "o": [
+   "Samaveda",
+   "Rigveda",
+   "Yajurveda",
+   "Atharvaveda"
+  ],
+  "a": 1,
+  "e": "The Gayatri Mantra, addressed to Savitr, is in the third Mandala of the Rigveda.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "Which Chinese pilgrim visited India during the reign of Chandragupta II?",
+  "o": [
+   "Fa-Hien",
+   "Hiuen Tsang",
+   "I-Tsing",
+   "Megasthenes"
+  ],
+  "a": 0,
+  "e": "Fa-Hien came to India in the early 5th century during Chandragupta II's rule.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "Hiuen Tsang visited India during the reign of:",
+  "o": [
+   "Chandragupta II",
+   "Ashoka",
+   "Kanishka",
+   "Harshavardhana"
+  ],
+  "a": 3,
+  "e": "Hiuen Tsang stayed in India in the 7th century, in Harsha's time.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "The Fourth Buddhist Council was held under the patronage of:",
+  "o": [
+   "Kanishka",
+   "Ashoka",
+   "Ajatashatru",
+   "Kalashoka"
+  ],
+  "a": 0,
+  "e": "The Fourth Council was held in Kashmir under Kushan king Kanishka.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "What was the capital of the Kushan ruler Kanishka?",
+  "o": [
+   "Pataliputra",
+   "Kannauj",
+   "Purushapura",
+   "Vatapi"
+  ],
+  "a": 2,
+  "e": "Purushapura (modern Peshawar) was Kanishka's capital.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "The Allahabad Pillar inscription (Prayag Prashasti) composed by Harisena praises:",
+  "o": [
+   "Chandragupta II",
+   "Ashoka",
+   "Skandagupta",
+   "Samudragupta"
+  ],
+  "a": 3,
+  "e": "Court poet Harisena composed it to describe Samudragupta's conquests.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "The poet Kalidasa is traditionally associated with the court of:",
+  "o": [
+   "Chandragupta II",
+   "Samudragupta",
+   "Harshavardhana",
+   "Kanishka"
+  ],
+  "a": 0,
+  "e": "Kalidasa is regarded as one of the 'Navaratnas' of Chandragupta II Vikramaditya.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "Sangam literature was composed in which language?",
+  "o": [
+   "Telugu",
+   "Kannada",
+   "Tamil",
+   "Malayalam"
+  ],
+  "a": 2,
+  "e": "Sangam literature is the earliest Tamil literature.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "Who first deciphered the Brahmi script of Ashoka's inscriptions in 1837?",
+  "o": [
+   "Alexander Cunningham",
+   "William Jones",
+   "John Marshall",
+   "James Prinsep"
+  ],
+  "a": 3,
+  "e": "James Prinsep deciphered Brahmi, allowing Ashoka's edicts to be read.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "Which statement about the script of the Harappan civilisation is correct?",
+  "o": [
+   "It was deciphered by James Prinsep",
+   "It is the same as the Brahmi script",
+   "It was written in Greek letters",
+   "It has not been deciphered yet"
+  ],
+  "a": 3,
+  "e": "The Indus script is still undeciphered, so much about the civilisation is unknown.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "Megasthenes came to India as the ambassador of:",
+  "o": [
+   "Seleucus Nicator",
+   "Alexander",
+   "Darius I",
+   "Antiochus II"
+  ],
+  "a": 0,
+  "e": "Seleucus Nicator sent Megasthenes to the court of Chandragupta Maurya.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "Alexander fought the Battle of the Hydaspes (Jhelum) in 326 BC against:",
+  "o": [
+   "Ambhi",
+   "Dhana Nanda",
+   "Chandragupta Maurya",
+   "Porus"
+  ],
+  "a": 3,
+  "e": "King Porus fought Alexander on the banks of the Hydaspes (Jhelum).",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "Where did Mahavira attain nirvana (death)?",
+  "o": [
+   "Kundagrama",
+   "Pavapuri",
+   "Vaishali",
+   "Shravanabelagola"
+  ],
+  "a": 1,
+  "e": "Mahavira died at Pavapuri (Pawapuri) near Rajgir in Bihar.",
+  "topic": "Ancient History",
+  "level": "medium"
+ },
+ {
+  "q": "The list of sixteen Mahajanapadas is found in which Buddhist text?",
+  "o": [
+   "Digha Nikaya",
+   "Jataka tales",
+   "Anguttara Nikaya",
+   "Vinaya Pitaka"
+  ],
+  "a": 2,
+  "e": "The Anguttara Nikaya lists the 16 Mahajanapadas such as Magadha, Kosala and Avanti.",
+  "topic": "Ancient History",
+  "level": "hard"
+ },
+ {
+  "q": "Chalukya king Pulakeshin II defeated Harshavardhana on the banks of which river?",
+  "o": [
+   "Godavari",
+   "Krishna",
+   "Narmada",
+   "Tungabhadra"
+  ],
+  "a": 2,
+  "e": "The Aihole inscription records Pulakeshin II stopping Harsha at the Narmada.",
+  "topic": "Ancient History",
+  "level": "hard"
+ },
+ {
+  "q": "The Iron Pillar at Mehrauli (Delhi) bears an inscription of a king named Chandra, generally identified with:",
+  "o": [
+   "Ashoka",
+   "Kanishka",
+   "Chandragupta II",
+   "Harshavardhana"
+  ],
+  "a": 2,
+  "e": "The rust-resistant Iron Pillar is a Gupta-period work linked to Chandragupta II.",
+  "topic": "Ancient History",
+  "level": "hard"
+ },
+ {
+  "q": "Who wrote the Sanskrit play 'Mudrarakshasa'?",
+  "o": [
+   "Kalidasa",
+   "Vishakhadatta",
+   "Bhasa",
+   "Shudraka"
+  ],
+  "a": 1,
+  "e": "Vishakhadatta's Mudrarakshasa tells how Chanakya helped Chandragupta Maurya win power.",
+  "topic": "Ancient History",
+  "level": "hard"
+ }
+]

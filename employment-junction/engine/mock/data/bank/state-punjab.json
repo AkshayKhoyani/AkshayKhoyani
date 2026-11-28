@@ -1,0 +1,282 @@
+[
+ {
+  "q": "The Harmandir Sahib (Golden Temple) is located in which city?",
+  "o": [
+   "Amritsar",
+   "Ludhiana",
+   "Jalandhar",
+   "Patiala"
+  ],
+  "a": 0,
+  "e": "The Golden Temple, the holiest Sikh gurdwara, is in Amritsar.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "easy"
+ },
+ {
+  "q": "Bhangra, an energetic harvest dance, originated in:",
+  "o": [
+   "Uttarakhand",
+   "Haryana",
+   "Rajasthan",
+   "Punjab"
+  ],
+  "a": 3,
+  "e": "Bhangra is the famous folk dance of Punjab associated with the harvest festival Baisakhi.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "easy"
+ },
+ {
+  "q": "The Jallianwala Bagh massacre took place in Amritsar on:",
+  "o": [
+   "13 April 1920",
+   "13 April 1919",
+   "1 August 1920",
+   "6 April 1919"
+  ],
+  "a": 1,
+  "e": "General Dyer ordered firing on a peaceful gathering at Jallianwala Bagh on Baisakhi, 13 April 1919.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "easy"
+ },
+ {
+  "q": "The name 'Punjab' literally means:",
+  "o": [
+   "Land of five rivers",
+   "Land of wheat",
+   "Land of the brave",
+   "Land of five kings"
+  ],
+  "a": 0,
+  "e": "Punjab comes from Persian 'panj' (five) and 'ab' (water/rivers).",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "easy"
+ },
+ {
+  "q": "Which Sikh ruler was popularly known as 'Sher-e-Punjab'?",
+  "o": [
+   "Maharaja Duleep Singh",
+   "Hari Singh Nalwa",
+   "Maharaja Ranjit Singh",
+   "Banda Singh Bahadur"
+  ],
+  "a": 2,
+  "e": "Maharaja Ranjit Singh, founder of the Sikh Empire, was called the Lion of Punjab.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "easy"
+ },
+ {
+  "q": "Phulkari, meaning 'flower work', is a traditional craft of Punjab involving:",
+  "o": [
+   "Wood carving",
+   "Pottery",
+   "Metal casting",
+   "Embroidery"
+  ],
+  "a": 3,
+  "e": "Phulkari is embroidery done with silk floss on coarse cotton cloth.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "easy"
+ },
+ {
+  "q": "The daily beating retreat ceremony near Amritsar is held at which border post?",
+  "o": [
+   "Fazilka",
+   "Dera Baba Nanak",
+   "Attari-Wagah",
+   "Hussainiwala"
+  ],
+  "a": 2,
+  "e": "The Attari-Wagah border ceremony near Amritsar is a well-known daily event.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "easy"
+ },
+ {
+  "q": "The city of Chandigarh was planned and designed by which architect?",
+  "o": [
+   "Laurie Baker",
+   "Le Corbusier",
+   "Edwin Lutyens",
+   "Charles Correa"
+  ],
+  "a": 1,
+  "e": "Swiss-French architect Le Corbusier designed Chandigarh in the 1950s.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "easy"
+ },
+ {
+  "q": "The Khalsa Panth was founded by Guru Gobind Singh on Baisakhi 1699 at:",
+  "o": [
+   "Amritsar",
+   "Talwandi Sabo",
+   "Anandpur Sahib",
+   "Kartarpur"
+  ],
+  "a": 2,
+  "e": "Guru Gobind Singh created the Khalsa at Anandpur Sahib in 1699.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "medium"
+ },
+ {
+  "q": "The Harike Wetland in Punjab is formed at the confluence of which two rivers?",
+  "o": [
+   "Sutlej and Ghaggar",
+   "Beas and Sutlej",
+   "Ravi and Chenab",
+   "Ravi and Beas"
+  ],
+  "a": 1,
+  "e": "Harike, a Ramsar site, lies where the Beas joins the Sutlej.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "medium"
+ },
+ {
+  "q": "Udham Singh, born in Sunam, avenged the Jallianwala Bagh massacre by assassinating:",
+  "o": [
+   "William Curzon Wyllie",
+   "Lord Chelmsford",
+   "Reginald Dyer",
+   "Michael O'Dwyer"
+  ],
+  "a": 3,
+  "e": "In 1940 Udham Singh shot Michael O'Dwyer, the Lt. Governor of Punjab at the time of the massacre.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "medium"
+ },
+ {
+  "q": "The Gurmukhi script is traditionally credited to the standardisation work of which Sikh Guru?",
+  "o": [
+   "Guru Angad Dev",
+   "Guru Tegh Bahadur",
+   "Guru Arjan Dev",
+   "Guru Nanak Dev"
+  ],
+  "a": 0,
+  "e": "Guru Angad Dev, the second Guru, is credited with standardising the Gurmukhi script.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "medium"
+ },
+ {
+  "q": "The Adi Granth was compiled in 1604 by which Guru?",
+  "o": [
+   "Guru Ram Das",
+   "Guru Har Rai",
+   "Guru Arjan Dev",
+   "Guru Gobind Singh"
+  ],
+  "a": 2,
+  "e": "Guru Arjan Dev compiled the Adi Granth and installed it in the Harmandir Sahib in 1604.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "medium"
+ },
+ {
+  "q": "Giddha is a folk dance of Punjab performed mainly by:",
+  "o": [
+   "Temple priests",
+   "Women",
+   "Men only",
+   "Children"
+  ],
+  "a": 1,
+  "e": "Giddha is a women's folk dance accompanied by boliyan (couplets).",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "medium"
+ },
+ {
+  "q": "The present Punjabi-speaking state of Punjab was formed by reorganisation in:",
+  "o": [
+   "1972",
+   "1950",
+   "1966",
+   "1956"
+  ],
+  "a": 2,
+  "e": "The Punjab Reorganisation Act created present Punjab and Haryana on 1 November 1966.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "medium"
+ },
+ {
+  "q": "Hola Mohalla, a festival of martial displays held a day after Holi, was started by Guru Gobind Singh at:",
+  "o": [
+   "Anandpur Sahib",
+   "Fatehgarh Sahib",
+   "Goindwal Sahib",
+   "Muktsar"
+  ],
+  "a": 0,
+  "e": "Hola Mohalla is celebrated with great fervour at Anandpur Sahib.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "medium"
+ },
+ {
+  "q": "What is the state animal of Punjab?",
+  "o": [
+   "Indian leopard",
+   "Nilgai",
+   "Sambar",
+   "Blackbuck"
+  ],
+  "a": 3,
+  "e": "The blackbuck (Krishna Mriga) is the state animal of Punjab.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "medium"
+ },
+ {
+  "q": "The Ranjit Sagar (Thein) Dam is built on which river?",
+  "o": [
+   "Ravi",
+   "Beas",
+   "Sutlej",
+   "Chenab"
+  ],
+  "a": 0,
+  "e": "The Ranjit Sagar Dam on the Ravi is in Pathankot district.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "hard"
+ },
+ {
+  "q": "What is the state bird of Punjab?",
+  "o": [
+   "House sparrow",
+   "Baaz (Northern goshawk)",
+   "Black francolin",
+   "Indian peafowl"
+  ],
+  "a": 1,
+  "e": "The Baaz, associated with Guru Gobind Singh, is the state bird of Punjab.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "hard"
+ },
+ {
+  "q": "The classic Punjabi poetic version of the romance 'Heer Ranjha' was written by:",
+  "o": [
+   "Shah Hussain",
+   "Baba Farid",
+   "Bulleh Shah",
+   "Waris Shah"
+  ],
+  "a": 3,
+  "e": "Waris Shah composed the celebrated 'Heer' in 1766.",
+  "topic": "Punjab GK",
+  "state": "Punjab",
+  "level": "hard"
+ }
+]

@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Which hill town of Himachal Pradesh served as the summer capital of British India?",
+  "o": [
+   "Shimla",
+   "Manali",
+   "Dharamshala",
+   "Dalhousie"
+  ],
+  "a": 0,
+  "e": "Shimla was the summer capital of British India from 1864.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "Kullu Dussehra, a week-long festival that begins on Vijayadashami, is held in which valley?",
+  "o": [
+   "Kangra",
+   "Kullu",
+   "Spiti",
+   "Chamba"
+  ],
+  "a": 1,
+  "e": "Kullu Dussehra at Dhalpur maidan begins on Vijayadashami and gathers village deities.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "The Rohtang Pass connects the Kullu valley with which valley?",
+  "o": [
+   "Kangra",
+   "Parvati",
+   "Lahaul",
+   "Kinnaur"
+  ],
+  "a": 2,
+  "e": "Rohtang Pass links Kullu (Manali) to the Lahaul valley; the Atal Tunnel runs beneath it.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "The Bhakra Dam, which forms the Gobind Sagar reservoir, is built on which river?",
+  "o": [
+   "Beas",
+   "Ravi",
+   "Chenab",
+   "Sutlej"
+  ],
+  "a": 3,
+  "e": "Bhakra Dam on the Sutlej is in Bilaspur district, Himachal Pradesh.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "Kangra painting is a celebrated school of which tradition of miniature art?",
+  "o": [
+   "Deccani",
+   "Rajput (Mewar)",
+   "Pahari",
+   "Mughal"
+  ],
+  "a": 2,
+  "e": "Kangra painting is a major school of Pahari miniature painting.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "Nati, recognised as one of the largest folk dances, is a traditional dance of:",
+  "o": [
+   "Himachal Pradesh",
+   "Jammu & Kashmir",
+   "Sikkim",
+   "Uttarakhand"
+  ],
+  "a": 0,
+  "e": "Nati is the popular group folk dance of Himachal Pradesh, especially Kullu.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "McLeod Ganj near Dharamshala is best known as the home of:",
+  "o": [
+   "India's oldest tea estate",
+   "The Tibetan government-in-exile",
+   "The Indian Military Academy",
+   "The Shivalik fossil park"
+  ],
+  "a": 1,
+  "e": "The Dalai Lama and the Central Tibetan Administration are based at McLeod Ganj, Dharamshala.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "Which hill railway of Himachal Pradesh is part of the UNESCO 'Mountain Railways of India'?",
+  "o": [
+   "Nilgiri Mountain Railway",
+   "Matheran Hill Railway",
+   "Kalka-Shimla Railway",
+   "Pathankot-Jogindernagar Railway"
+  ],
+  "a": 2,
+  "e": "The Kalka-Shimla Railway was added to the UNESCO Mountain Railways listing in 2008.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "easy"
+ },
+ {
+  "q": "Himachal Pradesh became a full-fledged state on:",
+  "o": [
+   "15 April 1948",
+   "1 November 1966",
+   "26 January 1950",
+   "25 January 1971"
+  ],
+  "a": 3,
+  "e": "Himachal Pradesh attained full statehood on 25 January 1971 as the 18th state.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "The Great Himalayan National Park, a UNESCO World Heritage Site, is in which district?",
+  "o": [
+   "Shimla",
+   "Kinnaur",
+   "Chamba",
+   "Kullu"
+  ],
+  "a": 3,
+  "e": "The Great Himalayan National Park in Kullu district was inscribed by UNESCO in 2014.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "Key Monastery, a famous Tibetan Buddhist monastery, is in which valley of Himachal Pradesh?",
+  "o": [
+   "Chamba",
+   "Kangra",
+   "Spiti",
+   "Kullu"
+  ],
+  "a": 2,
+  "e": "Key (Kye) Gompa stands on a hill in the Spiti valley in Lahaul-Spiti district.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "What is the state animal of Himachal Pradesh?",
+  "o": [
+   "Musk deer",
+   "Snow leopard",
+   "Ibex",
+   "Himalayan black bear"
+  ],
+  "a": 1,
+  "e": "The snow leopard is the state animal of Himachal Pradesh.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "The Pong Dam, which forms the Maharana Pratap Sagar, is built on which river?",
+  "o": [
+   "Sutlej",
+   "Yamuna",
+   "Beas",
+   "Ravi"
+  ],
+  "a": 2,
+  "e": "Pong Dam on the Beas is in Kangra district; its reservoir is a Ramsar site.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "The Chamba Rumal of Himachal Pradesh is a famous example of:",
+  "o": [
+   "Bamboo weaving",
+   "Embroidery",
+   "Leather painting",
+   "Walnut wood carving"
+  ],
+  "a": 1,
+  "e": "Chamba Rumal is a hand-embroidered handkerchief-like cloth depicting Pahari themes.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "The Jwalamukhi temple, known for its natural eternal flames, is in which district?",
+  "o": [
+   "Kangra",
+   "Hamirpur",
+   "Mandi",
+   "Una"
+  ],
+  "a": 0,
+  "e": "Jwalamukhi temple in Kangra district worships a goddess manifested as natural gas flames.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "Through which pass does the Sutlej river enter India from Tibet?",
+  "o": [
+   "Baralacha La",
+   "Rohtang Pass",
+   "Kunzum Pass",
+   "Shipki La"
+  ],
+  "a": 3,
+  "e": "The Sutlej enters India through Shipki La in Kinnaur district.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "Renuka, the largest natural lake of Himachal Pradesh, is in which district?",
+  "o": [
+   "Sirmaur",
+   "Kangra",
+   "Mandi",
+   "Solan"
+  ],
+  "a": 0,
+  "e": "Renuka lake is in Sirmaur district and is associated with the legend of sage Jamadagni's wife.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "medium"
+ },
+ {
+  "q": "What is the state bird of Himachal Pradesh?",
+  "o": [
+   "Western tragopan",
+   "Koklass pheasant",
+   "Cheer pheasant",
+   "Himalayan monal"
+  ],
+  "a": 0,
+  "e": "The western tragopan (Jujurana) replaced the monal as state bird in 2007.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "hard"
+ },
+ {
+  "q": "The Minjar Fair, marking the monsoon with offerings of maize silk tassels, is held at:",
+  "o": [
+   "Kullu",
+   "Mandi",
+   "Rampur",
+   "Chamba"
+  ],
+  "a": 3,
+  "e": "The Minjar Mela is held at Chamba, ending with the immersion of minjar in the Ravi.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "hard"
+ },
+ {
+  "q": "The monolithic rock-cut Masroor temples, sometimes compared with Ellora, are in which district?",
+  "o": [
+   "Kinnaur",
+   "Kangra",
+   "Solan",
+   "Shimla"
+  ],
+  "a": 1,
+  "e": "The Masroor rock-cut temples (8th century) are in Kangra district.",
+  "topic": "Himachal Pradesh GK",
+  "state": "Himachal Pradesh",
+  "level": "hard"
+ }
+]

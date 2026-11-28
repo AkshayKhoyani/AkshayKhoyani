@@ -1,0 +1,1313 @@
+{
+ "exam": "UPSC NDA & NA (II)",
+ "paper": "General Ability Test, Series A (English items 6-31 that need no passage, and Part B General Knowledge)",
+ "year": 2025,
+ "board": "UPSC",
+ "source_paper": "https://www.upsc.gov.in/uploads/2026/07/QP-NDANA-II-25-GENERAL-ABILITY-TEST-150925.pdf",
+ "source_key": "https://www.upsc.gov.in/uploads/2026/05/NDA-Answer-Key2-E_repaired.pdf",
+ "duration_min": 100,
+ "marks_per_q": 4,
+ "negative": 1.33,
+ "questions": [
+  {
+   "q": "Convert from direct into indirect speech.\nAyushi said to the group, \"We have had enough of suffering today. It is time to march forward.\"",
+   "o": [
+    "Ayushi told the group that they had had enough of suffering that day and it was time to march forward",
+    "Ayushi asked the group that they had had enough of suffering this day and it was time to march forward",
+    "Ayushi told the group that they had enough of suffering and that it is time to march forward",
+    "Ayushi told the group that we had had enough of suffering this day and it was time to march forward"
+   ],
+   "a": 0,
+   "e": "In reported speech 'we' becomes 'they', 'have had' becomes 'had had', 'today' becomes 'that day' and 'is' becomes 'was'.",
+   "section": "English",
+   "topic": "Narration"
+  },
+  {
+   "q": "Convert from direct speech into indirect speech.\n\"Where were you last week?\" Alok asked Sheela.",
+   "o": [
+    "Alok told Sheela where she had been the week before",
+    "Alok asked Sheela where she had been the week before",
+    "Alok asked Sheela where she was the week before",
+    "Alok asked Sheela where she had been the last week"
+   ],
+   "a": 1,
+   "e": "A question is reported with 'asked', past simple 'were' shifts to past perfect 'had been', and 'last week' becomes 'the week before'.",
+   "section": "English",
+   "topic": "Narration"
+  },
+  {
+   "q": "Convert the following sentence from active voice into passive voice.\nThe king who the people loved built the castle five centuries ago.",
+   "o": [
+    "The castle was built five centuries ago by the king who was loved by the people",
+    "The castle was built five centuries ago by the king who loved the people",
+    "The castle built five centuries ago by the king loved by the people",
+    "The castle was built five centuries ago by the people who were loved by the king"
+   ],
+   "a": 0,
+   "e": "The object 'the castle' becomes the subject, and the relative clause also turns passive: 'who was loved by the people'.",
+   "section": "English",
+   "topic": "Voice"
+  },
+  {
+   "q": "Select the option that most appropriately describes the meanings of the given pair of words: Seldom and Often",
+   "o": [
+    "Seldom means hardly ever and often means time and again",
+    "Seldom means time and again and often means hardly ever",
+    "Seldom means never and often means not at all",
+    "Seldom means frequently and often means time and again"
+   ],
+   "a": 0,
+   "e": "Seldom means hardly ever; often means time and again (frequently).",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Select the option that most appropriately describes the meanings of the given pair of words: Overcome and Succeed",
+   "o": [
+    "Overcome means triumph over and succeed means to achieve something",
+    "Overcome means achieve something and succeed means to triumph over",
+    "Overcome means to be successful and succeed means to achieve something",
+    "Overcome means winning and succeed means to rise above"
+   ],
+   "a": 0,
+   "e": "To overcome is to triumph over a difficulty; to succeed is to achieve something.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Select the option that most appropriately describes the meanings of the given pair of words: Emancipate and Empower",
+   "o": [
+    "Emancipate means authorize and empower means liberate",
+    "Emancipate means liberate and empower means authorise",
+    "Emancipate means liberal and empower means authorisation",
+    "Emancipate means freedom and empower means encounter"
+   ],
+   "a": 1,
+   "e": "Emancipate means to set free (liberate); empower means to give authority or power.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Select the word nearest in meaning to 'dodgy' as used in the sentence:\nThe dodgy behaviour of the leader led to her fall.",
+   "o": [
+    "principled",
+    "dubious",
+    "dishonest",
+    "painful"
+   ],
+   "a": 2,
+   "e": "'Dodgy' means dishonest or unreliable.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "Select the word nearest in meaning to 'inclement' as used in the sentence:\nPeople have been advised not to venture into sea as the weather is likely to be inclement.",
+   "o": [
+    "squally",
+    "calm",
+    "pleasant",
+    "indigent"
+   ],
+   "a": 0,
+   "e": "'Inclement' weather is rough and stormy, closest to 'squally'.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "Directions: The first (S1) and last (S6) sentences of a passage are given. Arrange the middle sentences P, Q, R and S in the proper order.\nS1. Sufism is an English word coined in the Nineteenth Century.\nP. Historians have understood this term in several ways.\nQ. According to some scholars, it is derived from suf, meaning wool.\nR. Others derive it from safa, meaning purity.\nS. The word used for Sufism in Islamic texts is tasawwuf.\nS6. It may also have been suffa, the platform outside a place of Islamic worship.",
+   "o": [
+    "QRSP",
+    "SPQR",
+    "PQSR",
+    "RPSQ"
+   ],
+   "a": 1,
+   "e": "S gives the Islamic term, P says historians read it in many ways, Q and R give the suf and safa origins, and S6 adds suffa.",
+   "section": "English",
+   "topic": "Sentence Arrangement"
+  },
+  {
+   "q": "Directions: The first (S1) and last (S6) sentences of a passage are given. Arrange the middle sentences P, Q, R and S in the proper order.\nS1. Al-Biruni was born in 973, in Khwarizm in present-day Uzbekistan.\nP. In 1017, when Sultan Mahmud invaded Khwarizm, he took several scholars back to his capital, Ghazni: Al-Biruni was one among them.\nQ. He was well versed in several languages: Syriac, Arabic, Persian, Hebrew and Sanskrit.\nR. Khwarizm was an important centre of learning, and Al-Biruni received the best education available at the time.\nS. However he did not know Greek, although he was familiar with the works of Plato and other Greek philosophers.\nS6. He arrived in Ghazni as a hostage, but gradually developed a liking for the city.",
+   "o": [
+    "QSRP",
+    "RQSP",
+    "PQSR",
+    "RPSQ"
+   ],
+   "a": 1,
+   "e": "R (education in Khwarizm) leads to Q (languages), S (but no Greek), then P (taken to Ghazni in 1017), which links to S6.",
+   "section": "English",
+   "topic": "Sentence Arrangement"
+  },
+  {
+   "q": "Directions: The first (S1) and last (S6) sentences of a passage are given. Arrange the middle sentences P, Q, R and S in the proper order.\nS1. Vijayanagara or 'city of victory' was the name of both a city and an empire.\nP. In its heyday it stretched from the river Krishna in the north to the extreme south of the Indian peninsula.\nQ. Although it fell into ruin in the seventeenth-eighteenth centuries, it continued to live in the memories of the people who inhabited the Krishna-Tungabhadra doab.\nR. In 1565 the city was sacked and subsequently deserted.\nS. The Empire was founded in the fourteenth century.\nS6. They remembered it as Hampi, a name derived from that of the local mother goddess, Pampadevi.",
+   "o": [
+    "SPRQ",
+    "SQPR",
+    "PQSR",
+    "PQRS"
+   ],
+   "a": 0,
+   "e": "Founded in the 14th century (S), its extent (P), sacked in 1565 (R), and remembered in memory (Q) leads to S6 about Hampi.",
+   "section": "English",
+   "topic": "Sentence Arrangement"
+  },
+  {
+   "q": "Directions: The first (S1) and last (S6) sentences of a passage are given. Arrange the middle sentences P, Q, R and S in the proper order.\nS1. Liberalisation and globalisation freed India's economy from the low GDP trap that had impeded India's progress.\nP. India's 3 per cent rate of growth and a set of emergent circumstances led to a balance of payment crisis in the early 1990s.\nQ. Ease of business was ensured, and the requirement for import licences and production quotas were removed.\nR. Apart from these measures India also took a loan from the IMF to tide over the crisis, but after 1993, India has not taken another loan from the IMF.\nS. In a landmark budget in 1991, responding to the emergent crisis, India delicenced many industries and liberalised its economic policies.\nS6. Today India has transformed into one of the largest economies of the world.",
+   "o": [
+    "QSRP",
+    "SQPR",
+    "RQSP",
+    "PSQR"
+   ],
+   "a": 3,
+   "e": "Low growth caused the crisis (P), the 1991 budget responded (S), ease of business followed (Q), and the IMF loan (R) completes it.",
+   "section": "English",
+   "topic": "Sentence Arrangement"
+  },
+  {
+   "q": "Fill in the blank with the most appropriate word or phrase:\nI can't be bothered to tell him what I think; ________ he would not listen to me.",
+   "o": [
+    "meanwhile",
+    "in any case",
+    "in the meantime",
+    "somehow"
+   ],
+   "a": 1,
+   "e": "'In any case' means whatever happens, fitting 'he would not listen anyway'.",
+   "section": "English",
+   "topic": "Connectors"
+  },
+  {
+   "q": "Fill in the blank with the most appropriate word or phrase:\n________, have you been to the local library yet?",
+   "o": [
+    "Sort of",
+    "Frankly",
+    "All the same",
+    "Incidentally"
+   ],
+   "a": 3,
+   "e": "'Incidentally' introduces a new, by-the-way question.",
+   "section": "English",
+   "topic": "Connectors"
+  },
+  {
+   "q": "Fill in the blank with the most appropriate word or phrase:\n________, women are healthier and are living longer than ever before: indeed on an average, they can expect to live five years longer than men.",
+   "o": [
+    "To a large extent",
+    "As regards",
+    "As far as",
+    "Turning now"
+   ],
+   "a": 0,
+   "e": "'To a large extent' fits a broad general claim about women's health and lifespan.",
+   "section": "English",
+   "topic": "Connectors"
+  },
+  {
+   "q": "Fill in the blank with the most appropriate word or phrase:\nThe difference is that I have been fortunate to find a career that I love and, ________, I am getting paid reasonably for it.",
+   "o": [
+    "briefly",
+    "broadly speaking",
+    "what is more",
+    "in conclusion"
+   ],
+   "a": 2,
+   "e": "'What is more' adds an extra positive point.",
+   "section": "English",
+   "topic": "Connectors"
+  },
+  {
+   "q": "Fill in the blank with the most appropriate word or phrase:\n________, the Government of India has followed the policy of trying to improve relations with its neighbours.",
+   "o": [
+    "Particular",
+    "Knowingly",
+    "Otherwise",
+    "In general"
+   ],
+   "a": 3,
+   "e": "'In general' introduces an overall policy trend.",
+   "section": "English",
+   "topic": "Connectors"
+  },
+  {
+   "q": "The focal length of a concave lens is 0.5 m. The power of the lens is",
+   "o": [
+    "+0.5 D",
+    "−0.5 D",
+    "+2.0 D",
+    "−2.0 D"
+   ],
+   "a": 3,
+   "e": "Power P = 1/f; for a concave lens f = -0.5 m, so P = -2.0 D.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The rule to determine the direction of a force experienced by a straight current carrying conductor placed in a magnetic field which is perpendicular to it is",
+   "o": [
+    "Right-hand thumb rule",
+    "Fleming's left-hand rule",
+    "Fleming's right-hand rule",
+    "Hund's rule"
+   ],
+   "a": 1,
+   "e": "Fleming's left-hand rule gives the direction of force on a current-carrying conductor in a magnetic field.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which one of the following statements for second law of motion is NOT correct?",
+   "o": [
+    "The net force on a body is proportional to that body's acceleration",
+    "The net force on a body is in the same direction as the acceleration",
+    "The time rate of change of momentum is equal to force",
+    "The net force on a body is proportional to that body's momentum"
+   ],
+   "a": 3,
+   "e": "Newton's second law says net force is proportional to acceleration (rate of change of momentum), not to momentum itself.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The temperature of a body increases from 310 K to 340 K. The temperature increase in degree Celsius is",
+   "o": [
+    "20 °C",
+    "30 °C",
+    "37 °C",
+    "67 °C"
+   ],
+   "a": 1,
+   "e": "A rise of 30 K is the same as a rise of 30 °C, since both scales have equal-sized degrees.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which one of the following statements for the work done by gravity on a body is NOT correct?",
+   "o": [
+    "Work done is independent of the path followed by the body",
+    "Work done depends only on the vertical distance separating the initial and the final position of the body",
+    "Work done depends on the path followed by the body",
+    "Work done is zero if the body is displaced horizontally to the force of gravity"
+   ],
+   "a": 2,
+   "e": "Gravity is a conservative force, so its work depends only on the start and end heights, not on the path.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which one among the following statements is correct?",
+   "o": [
+    "Pressure has magnitude as well as direction",
+    "As we go deeper in a liquid, the pressure decreases",
+    "Action and reaction forces act on the same object",
+    "Pascal and N/m² represent the same unit"
+   ],
+   "a": 3,
+   "e": "1 pascal = 1 N/m²; pressure is a scalar, it increases with depth, and action-reaction act on different bodies.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "In a Telescope, compared to the eyepiece lens the objective lens has",
+   "o": [
+    "larger focal length and larger aperture",
+    "larger focal length and smaller aperture",
+    "smaller focal length and larger aperture",
+    "smaller focal length and smaller aperture"
+   ],
+   "a": 0,
+   "e": "A telescope's objective has a large focal length and a large aperture to gather more light.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The energy, E, of a photon can be expressed as E = hf where f is the frequency and h is Planck's constant. The dimensions of h are the same as that of",
+   "o": [
+    "linear momentum",
+    "angular momentum",
+    "displacement",
+    "torque"
+   ],
+   "a": 1,
+   "e": "h = E/f has units J·s, the same dimensions as angular momentum.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The work done by the force acting on an object is zero if the displacement of the object",
+   "o": [
+    "is in the opposite direction of the direction of force",
+    "is in the same direction of the direction of force",
+    "is in perpendicular direction of the direction of force",
+    "none of above"
+   ],
+   "a": 2,
+   "e": "Work = Fd cos θ, which is zero when the displacement is perpendicular to the force.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The magnetic field inside a current carrying very long solenoid is",
+   "o": [
+    "Uniform",
+    "Non-uniform",
+    "Zero",
+    "Highest at mid-point"
+   ],
+   "a": 0,
+   "e": "Inside a long solenoid the magnetic field is nearly uniform.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which one of the following instruments can be used to measure -250°C temperature?",
+   "o": [
+    "By using a mercury based thermometer",
+    "By using an alcohol based thermometer",
+    "By using a clinical thermometer",
+    "By using thermocouple based thermometer"
+   ],
+   "a": 3,
+   "e": "Mercury and alcohol freeze well above -250 °C, so a thermocouple thermometer is used for such low temperatures.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The quantity of heat needed to change unit mass of a substance from liquid to vapour without changing the temperature, is called",
+   "o": [
+    "specific heat",
+    "specific latent heat",
+    "thermal capacity",
+    "heat energy"
+   ],
+   "a": 1,
+   "e": "Heat needed to change unit mass from liquid to vapour at constant temperature is the specific latent heat (of vaporisation).",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The temperature at which \"vapour pressure of the liquid in an open vessel becomes equal to the atmospheric pressure\" is called",
+   "o": [
+    "Melting point",
+    "Boiling point",
+    "Liquid point",
+    "None of the above"
+   ],
+   "a": 1,
+   "e": "A liquid boils when its vapour pressure equals the atmospheric pressure.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which one of the following statements about surface tension is correct?",
+   "o": [
+    "It increases when temperature increases",
+    "It decreases when temperature increases",
+    "It will remain same with increase or decrease of temperature",
+    "It will always decrease with increase or decrease of temperature"
+   ],
+   "a": 0,
+   "e": "Surface tension decreases as temperature increases.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "A body sinks in water when",
+   "o": [
+    "density of water is greater than density of body",
+    "density of water is less than density of body",
+    "density of water is equal to density of body",
+    "the body is heavy"
+   ],
+   "a": 1,
+   "e": "A body sinks when its density is greater than that of water.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Why a fielder in the ground gradually pulls his hands backward while catching a fast moving cricket ball?",
+   "o": [
+    "To reduce the acceleration of the ball",
+    "To increase the acceleration of the ball",
+    "To increase the velocity of the ball",
+    "None of above"
+   ],
+   "a": 0,
+   "e": "Pulling the hands back increases the stopping time, which lowers the ball's deceleration and the force on the hands.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Bottom of a tank containing water appears to be raised. It is due to",
+   "o": [
+    "Reflection of light",
+    "Refraction of light",
+    "Interference of light",
+    "Diffraction of light"
+   ],
+   "a": 1,
+   "e": "Light bends (refracts) when it leaves water, so the bottom looks raised.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "SONAR stands for",
+   "o": [
+    "Sonographic Natural Ranging",
+    "Simple Operational Navigation Ranging",
+    "Sound Navigation and Ranging",
+    "Simple Operational Natural Ranging"
+   ],
+   "a": 2,
+   "e": "SONAR stands for Sound Navigation and Ranging.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which one of the following radiations has longer wavelength?",
+   "o": [
+    "X-rays",
+    "Ultraviolet",
+    "Micro Wave",
+    "Infra-red"
+   ],
+   "a": 2,
+   "e": "Among these, microwaves have the longest wavelength.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "A person can see nearby objects clearly but cannot see distant objects distinctly. The person is suffering from",
+   "o": [
+    "Hypermetropia",
+    "Presbyopia",
+    "Myopia",
+    "None of above"
+   ],
+   "a": 2,
+   "e": "Seeing near objects clearly but not distant ones is myopia (short-sightedness).",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "The energy is always conserved for a system which is",
+   "o": [
+    "isolated only",
+    "non-isolated only",
+    "both isolated and non-isolated",
+    "none of above"
+   ],
+   "a": 0,
+   "e": "Total energy is conserved only for an isolated system, which exchanges no energy with its surroundings.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Suppose a ball of mass M is thrown upwards from a point A and it reaches up to the highest point B and returns back to point A. Which one among the following is correct?",
+   "o": [
+    "Kinetic Energy at A = Potential Energy at B",
+    "Kinetic Energy at A = Potential Energy at A",
+    "Kinetic Energy at B = Potential Energy at B",
+    "Kinetic Energy at B = Kinetic Energy at A"
+   ],
+   "a": 0,
+   "e": "With no air resistance, all kinetic energy at A becomes potential energy at the top point B.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Who among the following presided over the first session of All India Kisan Sabha in Lucknow in April 1936?",
+   "o": [
+    "Sahajananda Saraswati",
+    "R.G. Ranga",
+    "Ram Manohar Lohia",
+    "Jayaprakash Narayan"
+   ],
+   "a": 0,
+   "e": "Swami Sahajanand Saraswati presided over the first All India Kisan Sabha session at Lucknow in 1936.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Who among the following founded the 'Self-Respect Movement'?",
+   "o": [
+    "Jyotiba Phule",
+    "Swami Vivekananda",
+    "E. V. Ramaswami Naicker",
+    "Dr. B. R. Ambedkar"
+   ],
+   "a": 2,
+   "e": "E.V. Ramaswami Naicker (Periyar) started the Self-Respect Movement in 1925.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Chola inscriptions mention several categories of lands. Which one of the following was meant for the maintenance of school?",
+   "o": [
+    "Tirunamattukkani",
+    "Shalabhoga",
+    "Vellanvagai",
+    "Pallichhandam"
+   ],
+   "a": 1,
+   "e": "In Chola inscriptions, shalabhoga was land given to maintain a school.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "In the Harappan Civilization, traces of canals have been found at",
+   "o": [
+    "Banawali",
+    "Lothal",
+    "Shortughai",
+    "Dholavira"
+   ],
+   "a": 2,
+   "e": "Traces of canals of the Harappan period were found at Shortughai in Afghanistan.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Arrange the following foreign travellers to India in chronological order, beginning with the earliest :\n1. Peter Mundy\n2. Antonio Monserrate\n3. Afanasii Nikitich Nikitin\n4. Ibn Battuta\nSelect the answer using the code given below :",
+   "o": [
+    "2-1-4-3",
+    "2-3-4-1",
+    "4-3-2-1",
+    "3-4-1-2"
+   ],
+   "a": 2,
+   "e": "Ibn Battuta (14th c.), Nikitin (15th c.), Monserrate (16th c.) and Peter Mundy (17th c.) give the order 4-3-2-1.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "With which of the following was the Bretton Woods System NOT associated",
+   "o": [
+    "International Monetary Fund",
+    "Economic recovery after the Second World War",
+    "International Bank for Reconstruction and Development",
+    "Establishment of a monetary system based on floating exchange rate"
+   ],
+   "a": 3,
+   "e": "Bretton Woods set up the IMF and World Bank with fixed exchange rates, not floating rates.",
+   "section": "General Studies",
+   "topic": "World History"
+  },
+  {
+   "q": "The Ramacharita, an example of dvyasrya-kavya, telling two stories simultaneously, was written by",
+   "o": [
+    "Subandhu",
+    "Bhatti",
+    "Sandhyakara",
+    "Kamban"
+   ],
+   "a": 2,
+   "e": "Sandhyakara Nandi wrote the Ramacharita, which tells the stories of Rama and the Pala king Ramapala together.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Which of the following Acts established the Board of Control to guide and control the work of the Court of Directors and the Government of India?",
+   "o": [
+    "Regulating Act of 1773",
+    "Pitt's India Act of 1784",
+    "Charter Act of 1793",
+    "Charter Act of 1813"
+   ],
+   "a": 1,
+   "e": "Pitt's India Act, 1784 created the Board of Control over the Company's Court of Directors.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Who among the following Sikh Gurus laid the foundation of the Khalsa Panth?",
+   "o": [
+    "Guru Nanak",
+    "Guru Arjan",
+    "Guru Hargobind",
+    "Guru Gobind Singh"
+   ],
+   "a": 3,
+   "e": "Guru Gobind Singh founded the Khalsa in 1699.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "Which one among the following plans is also known as Mahalanobis Plan?",
+   "o": [
+    "First Five Year Plan",
+    "Second Five Year Plan",
+    "Third Five Year Plan",
+    "Sixth Five Year Plan"
+   ],
+   "a": 1,
+   "e": "The Second Five Year Plan (1956-61) was based on the Mahalanobis model.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Which of the following were the years of Annual Plans?",
+   "o": [
+    "1956-1957",
+    "1966-1969",
+    "1975-1976",
+    "1992-1993"
+   ],
+   "a": 1,
+   "e": "Annual Plans were run from 1966 to 1969 (plan holiday) after the Third Plan.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Consider the following statements about BRICS Summits :\n1. The first BRICS Summit was held in Brazil\n2. BRICS Summits were held in New Delhi on three occasions\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 3,
+   "e": "The first BRICS summit was in Russia (2009), and New Delhi has not hosted three summits, so both statements are wrong.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Which of the following rights under the Constitution of India is/are Fundamental Right(s)?\n1. Right to work\n2. Right to privacy\n3. Right to free and compulsory education in the age bracket of six to eighteen years\nSelect the answer using the code given below :",
+   "o": [
+    "1 and 2",
+    "2 and 3",
+    "2 only",
+    "3 only"
+   ],
+   "a": 2,
+   "e": "Privacy is a Fundamental Right (Puttaswamy, 2017); free education is for ages 6-14, and right to work is a Directive Principle.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which one of the following committees is NOT associated with decentralization of Panchayati Raj institutions in India?",
+   "o": [
+    "Balwant Rai Mehta Committee",
+    "Ashok Mehta Committee",
+    "L.M. Singhvi Committee",
+    "Abhijit Sen Committee"
+   ],
+   "a": 3,
+   "e": "Balwant Rai Mehta, Ashok Mehta and L.M. Singhvi committees dealt with Panchayati Raj; Abhijit Sen committee dealt with food prices.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "The reaction that occurs on passing carbon dioxide gas through lime water is",
+   "o": [
+    "CaCO3 + H2O + CO2 → Ca(HCO3)2",
+    "Ca(OH)2 + CO2 → CaCO3 + H2O",
+    "CaO + CO2 → CaCO3",
+    "CaCl2 + H2O + CO2 → CaCO3 + 2HCl"
+   ],
+   "a": 1,
+   "e": "CO2 turns lime water milky: Ca(OH)2 + CO2 → CaCO3 + H2O.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following statements is NOT correct?",
+   "o": [
+    "Water of crystallization is the fixed number of water molecules present in one formula unit of a salt",
+    "The molecular formula of Plaster of Paris is CaSO4·2H2O",
+    "Washing soda is used for removing the permanent hardness of water",
+    "The atmosphere of Venus is made up of thick white and yellow clouds of sulphuric acid"
+   ],
+   "a": 1,
+   "e": "Plaster of Paris is CaSO4·½H2O; CaSO4·2H2O is gypsum.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following type of medicines is used for treating indigestion?",
+   "o": [
+    "Analgesic",
+    "Antiseptic",
+    "Antibiotic",
+    "Antacid"
+   ],
+   "a": 3,
+   "e": "Antacids neutralise excess stomach acid and treat indigestion.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following is NOT a chemical change?",
+   "o": [
+    "Burning of coal",
+    "Rusting of metal",
+    "Melting of ice",
+    "Reaction of acid with base"
+   ],
+   "a": 2,
+   "e": "Melting of ice changes only the state, so it is a physical change.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following statements is NOT correct?",
+   "o": [
+    "The interconversion of states of matter is a physical change",
+    "During burning of a candle, both chemical and physical changes take place",
+    "During a physical change, the chemical composition of molecules changes",
+    "Rusting of iron is a chemical change"
+   ],
+   "a": 2,
+   "e": "In a physical change the chemical composition of molecules does not change.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following is NOT a heterogeneous mixture?",
+   "o": [
+    "Sulphur in carbon disulphide",
+    "Mixture of sugar and salt crystals",
+    "Sandy water",
+    "Sulphur in water"
+   ],
+   "a": 0,
+   "e": "Sulphur dissolves in carbon disulphide to form a uniform (homogeneous) solution.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "In the following redox reaction, which compound is acting as a reducing agent?\nN2H4 + 2H2O2 → N2 + 4H2O",
+   "o": [
+    "H2O2",
+    "N2H4",
+    "N2",
+    "H2O"
+   ],
+   "a": 1,
+   "e": "N2H4 loses hydrogen and is oxidised to N2, so it is the reducing agent.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following is considered to be the purest source of water?",
+   "o": [
+    "River water",
+    "Sea water",
+    "Well water",
+    "Rain water"
+   ],
+   "a": 3,
+   "e": "Rain water is formed by natural distillation, so it is the purest natural source.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following salts is responsible for temporary hardness of water?",
+   "o": [
+    "Sulphates of calcium",
+    "Chlorides of magnesium",
+    "Bicarbonates of magnesium",
+    "Sulphates of magnesium"
+   ],
+   "a": 2,
+   "e": "Temporary hardness is caused by bicarbonates of calcium and magnesium.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following is an endothermic reaction?",
+   "o": [
+    "CH4 (g) + 2O2 (g) → CO2 (g) + 2H2O (g)",
+    "C6H12O6 (aq) + 6O2 (g) → 6CO2 (g) + 6H2O (l)",
+    "N2 (g) + 3H2 (g) → 2NH3 (g)",
+    "2Pb(NO3)2 (s) → 2PbO (s) + 4NO2 (g) + O2 (g)"
+   ],
+   "a": 3,
+   "e": "Thermal decomposition of lead nitrate needs heat, so it is endothermic.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following is known as 'water gas'?",
+   "o": [
+    "H2O + CO2",
+    "NH3",
+    "H2 + N2",
+    "CO + H2"
+   ],
+   "a": 3,
+   "e": "Water gas is a mixture of carbon monoxide and hydrogen.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following statements is NOT correct?",
+   "o": [
+    "Diamond is hard due to extended covalent bonding in it",
+    "Fullerene is composed of five and six membered rings",
+    "Diamond is a good conductor of electricity",
+    "Graphite is used as a lubricant"
+   ],
+   "a": 2,
+   "e": "Diamond has no free electrons, so it is a poor conductor of electricity.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Consider the following statements with reference to Feldspar mineral :\n1. Half of the earth's crust is composed of feldspar\n2. It has light cream to salmon pink colour\n3. Magnesium is a common element in all types of feldspar\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "e": "Feldspar makes up about half of the crust and is light cream to salmon pink; silicon and oxygen, not magnesium, are common to all feldspars.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following statements is/are correct?\n1. Oceanic trenches are very significant in the study of plate movements\n2. Oceanic trenches are associated with active volcanoes and strong earthquakes\nSelect the answer using the code given below :",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "e": "Ocean trenches mark subduction zones, so they help study plate movement and have volcanoes and strong earthquakes.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following statements with reference to shadow zones in an event of an earthquake is/are correct?\n1. Zone between 105° and 145° from epicentre was identified as the shadow zone for both P-waves and S-waves\n2. The shadow zone of P-waves is much larger than that of the S-waves\nSelect the answer using the code given below :",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "e": "105°-145° is the shadow zone for both P and S waves, but the S-wave shadow zone is much larger than the P-wave zone.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which one among the following volcanic island chains is NOT associated with mid-oceanic ridge?",
+   "o": [
+    "Azores Islands",
+    "Ascension Islands",
+    "Hawaiian Islands",
+    "Tristan da Cunha"
+   ],
+   "a": 2,
+   "e": "The Hawaiian Islands formed over a hotspot, not at a mid-ocean ridge.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following statements with reference to sea waves :\n1. The height of waves is determined by wind speed, wind duration, and fetch\n2. The energy of a wave is proportional to the square of its height\n3. Waves retain most of their energy as they travel across the deep ocean\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 3,
+   "e": "Wave height depends on wind speed, duration and fetch; wave energy varies with height squared; waves lose little energy in deep water.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following statements with reference to soil forming processes is/are correct?\n1. Translocation, enrichment, removal and transformation are different classes of soil forming processes\n2. In translocation, fine particles are transported downward by eluviation and accumulate in lower horizons by illuviation\nSelect the answer using the code given below :",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "e": "Soil processes include translocation, enrichment, removal and transformation; fine particles move down by eluviation and collect below by illuviation.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following statements with reference to structure of the Earth's atmosphere :\n1. Thickness of the troposphere is greatest at the equator\n2. The air temperature of the tropopause is highest above the poles\n3. The temperature in troposphere decreases at the rate of 1°F for every 165 m of height\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "e": "The troposphere is thickest at the equator and the tropopause is warmer over the poles; temperature falls about 1 °C (not 1 °F) per 165 m.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following are the factors that cause variation in the amount of insolation on the Earth?\n1. Rotation of the earth on its axis\n2. Length of the day\n3. Distribution of land and water on the earth\nSelect the answer using the code given below :",
+   "o": [
+    "1 only",
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 2 and 3"
+   ],
+   "a": 1,
+   "e": "Insolation varies with Earth's rotation (tilt) and length of day; land-water distribution affects heating, not incoming insolation.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following conditions favourable for the formation and intensification of Tropical Storms :\n1. Presence of the Coriolis force\n2. Upper divergence above the sea level system\n3. High variations in the vertical wind speed\nWhich of the conditions given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "1 and 2",
+    "2 and 3"
+   ],
+   "a": 2,
+   "e": "Tropical storms need Coriolis force and upper-level divergence; strong vertical wind shear prevents them.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following factors influence the ocean currents?\n1. Coriolis force\n2. Gravity\n3. Heating by solar energy\n4. Wind\nSelect the answer using the code given below :",
+   "o": [
+    "1 and 4 only",
+    "2 and 3 only",
+    "1, 2 and 3 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "e": "Ocean currents are driven by solar heating, wind, gravity and the Coriolis force.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following is/are warm ocean current(s)?\n1. Alaska Current\n2. Agulhas Current\n3. Falkland Current\n4. West Australian Current\nSelect the answer using the code given below :",
+   "o": [
+    "1 only",
+    "1 and 2",
+    "3 and 4",
+    "4 only"
+   ],
+   "a": 1,
+   "e": "The Alaska and Agulhas currents are warm; the Falkland and West Australian currents are cold.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "State of Assam shares borders with how many other countries and Indian states respectively?",
+   "o": [
+    "2 countries and 6 Indian states respectively",
+    "2 countries and 7 Indian states respectively",
+    "3 countries and 7 Indian states respectively",
+    "3 countries and 6 Indian states respectively"
+   ],
+   "a": 1,
+   "e": "Assam borders Bhutan and Bangladesh and seven states: Arunachal, Nagaland, Manipur, Mizoram, Tripura, Meghalaya and West Bengal.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Laterite soil in India is rich in which of the following?\n1. Calcium\n2. Nitrogen\n3. Phosphate\n4. Potash\nSelect the answer using the code given below :",
+   "o": [
+    "1 only",
+    "1 and 2",
+    "3 and 4",
+    "4 only"
+   ],
+   "a": 3,
+   "e": "As per NCERT, laterite soils are rich in iron oxide and potash but poor in nitrogen, phosphate and calcium.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which of the following statements with reference to crops cultivated in India is/are correct?\n1. Bajra grows well in sandy and shallow black soils, whereas red and shallow black soil is suited for Ragi\n2. Bajra is predominantly grown in states like Rajasthan, Uttar Pradesh and Maharashtra, while Ragi is mainly cultivated in Karnataka, Tamil Nadu and Himachal Pradesh\nSelect the answer using the code given below :",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 2,
+   "e": "Bajra suits sandy and shallow black soils (Rajasthan, UP, Maharashtra) and ragi suits red and shallow black soils (Karnataka, Tamil Nadu, Himachal).",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which one among the following is NOT a beneficiary state from the Vindhyachal Power Plant of the NTPC?",
+   "o": [
+    "Gujarat",
+    "Goa",
+    "Maharashtra",
+    "Uttar Pradesh"
+   ],
+   "a": 3,
+   "e": "Vindhyachal (MP) supplies the western region states like Gujarat, Maharashtra and Goa, not Uttar Pradesh.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "The book 'The Origin of Species by Means of Natural Selection' was authored by",
+   "o": [
+    "Charles Darwin",
+    "Carolus Linnaeus",
+    "Barbara McClintock",
+    "Copernicus"
+   ],
+   "a": 0,
+   "e": "Charles Darwin wrote 'On the Origin of Species' in 1859.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "The headquarters of World Meteorological Organization (WMO) is located at",
+   "o": [
+    "Switzerland",
+    "Scotland",
+    "South Africa",
+    "Italy"
+   ],
+   "a": 0,
+   "e": "The World Meteorological Organization is headquartered in Geneva, Switzerland.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "The optimum pH at which the enzymes pepsin and trypsin of the human alimentary canal works are",
+   "o": [
+    "pH 2.0 and 7.9, respectively",
+    "pH 4.5 and 3.5, respectively",
+    "pH 9.5 and 4.5, respectively",
+    "pH 7.0 and 8.0, respectively"
+   ],
+   "a": 0,
+   "e": "Pepsin works best in the acidic stomach (about pH 2) and trypsin in the alkaline intestine (about pH 8).",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "The amount of air breathed in and out during a normal respiration by human lungs is referred to as",
+   "o": [
+    "Vital capacity",
+    "Tidal volume",
+    "Inspiratory volume",
+    "Total lung capacity"
+   ],
+   "a": 1,
+   "e": "Air breathed in or out in one normal breath is the tidal volume (about 500 mL).",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which one among the following statements about arteries and veins in humans is NOT correct?",
+   "o": [
+    "Arteries carry blood away from heart while veins bring blood towards the heart",
+    "Pulmonary arteries always carry oxygenated blood while Pulmonary veins always carry deoxygenated blood",
+    "Arteries have thicker and more elastic walls compared to veins in general",
+    "Arteries do not have valves but veins do have valves"
+   ],
+   "a": 1,
+   "e": "Pulmonary arteries carry deoxygenated blood to the lungs and pulmonary veins carry oxygenated blood back.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Identify the functions that are controlled by the hind brain of human being",
+   "o": [
+    "Involuntary actions such as blood pressure, salivation vomiting etc.",
+    "Controlling the regions receiving sensory impulses from receptors",
+    "Controlling the movement of voluntary muscles",
+    "Sensation of hunger or being full"
+   ],
+   "a": 0,
+   "e": "The medulla in the hindbrain controls involuntary actions like blood pressure, salivation and vomiting.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Iodized salt is a vital part of our diet as it is essential for the synthesis of",
+   "o": [
+    "Estrogen",
+    "Thyroxin",
+    "Insulin",
+    "Adrenalin"
+   ],
+   "a": 1,
+   "e": "Iodine is needed to make the thyroid hormone thyroxine.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "The menstrual cycle in females is controlled by hormones that are secreted by",
+   "o": [
+    "Ovary and lacrimal gland",
+    "Ovary and sebaceous gland",
+    "Ovary and pituitary gland",
+    "Prostate and pituitary gland"
+   ],
+   "a": 2,
+   "e": "The menstrual cycle is controlled by pituitary (FSH, LH) and ovarian (estrogen, progesterone) hormones.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which one of the following blood cells type secrete large number of antibodies during an immune response of the body?",
+   "o": [
+    "Neutrophils",
+    "Eosinophils",
+    "Lymphocytes",
+    "Monocytes"
+   ],
+   "a": 2,
+   "e": "B-lymphocytes (plasma cells) produce antibodies.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which of the following organelles have their own DNA and ribosomes?",
+   "o": [
+    "Endoplasmic reticulum and Golgi bodies",
+    "Mitochondria and Chloroplast",
+    "Endoplasmic reticulum and cytoskeleton",
+    "Cell wall and nucleolus"
+   ],
+   "a": 1,
+   "e": "Mitochondria and chloroplasts have their own DNA and ribosomes.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "What is the nickname of the National Men's Hockey Team of Australia?",
+   "o": [
+    "The Kangaroos",
+    "The Boomers",
+    "The Dolphins",
+    "The Kookaburras"
+   ],
+   "a": 3,
+   "e": "Australia's men's hockey team is called the Kookaburras.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Which one of the following organisations has completed 150 years of service to the nation in the year 2025?",
+   "o": [
+    "Botanical Survey of India",
+    "Survey of India",
+    "India Meteorological Department",
+    "Press Trust of India"
+   ],
+   "a": 2,
+   "e": "The India Meteorological Department, set up in 1875, completed 150 years in 2025.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Which of the following statements about 'Jalvahak' is/are correct?\n1. It is a newly commissioned naval ship inducted into Indian Navy\n2. It is a major policy for cargo promotion unveiled by the Government of India Select the answer using the code given below :",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 1,
+   "e": "Jalvahak is a cargo promotion scheme for inland waterways launched in 2024, not a naval ship.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "How many rural districts does Mahatma Gandhi National Rural Employment Guarantee Act cover as on 2024-25?",
+   "o": [
+    "600",
+    "740",
+    "700",
+    "680"
+   ],
+   "a": 1,
+   "e": "As per the official key, MGNREGA covered about 740 rural districts in 2024-25.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Under which one of the following initiatives does the NITI Aayog support interested States to establish a State Institution for Transformation (SIT)?",
+   "o": [
+    "NITI for States Platform",
+    "Bharat Ke Badhte Kadam",
+    "State Support Mission",
+    "Aspirational Block Programme"
+   ],
+   "a": 2,
+   "e": "NITI Aayog's State Support Mission helps states set up a State Institution for Transformation.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Which one of the following Indian States account for the maximum deposits of Bauxite and Chromite?",
+   "o": [
+    "Andhra Pradesh",
+    "Madhya Pradesh",
+    "Jharkhand",
+    "Odisha"
+   ],
+   "a": 3,
+   "e": "Odisha has India's largest reserves of both bauxite and chromite.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following statements with regard to National Technology Day :\n1. It commemorates the momentous events of 11th May 1998, when India conducted successful nuclear tests under Operation Shakti\n2. The official theme for National Technology Day 2025 is \"School | to Startups — Igniting Young Minds to Innovate'\nWhich of the statements given above is/are correct?",
+   "o": [
+    "1 only",
+    "2 only",
+    "Both 1 and 2",
+    "Neither 1 nor 2"
+   ],
+   "a": 0,
+   "e": "National Technology Day (11 May) marks the 1998 Pokhran tests (Operation Shakti); the quoted theme is not the official 2025 theme.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Which of the following were added in India as Ramsar Site in the year 2025?\n1. Sakkarakottai Bird Sanctuary\n2. Udhwa Lake\n3. Rudrasagar Lake\n4. Bakhira Wildlife Sanctuary\nSelect the answer using the code given below :",
+   "o": [
+    "1 and 4",
+    "2 and 3 only",
+    "1 and 2 only",
+    "1, 2 and 3"
+   ],
+   "a": 2,
+   "e": "Sakkarakottai Bird Sanctuary (Tamil Nadu) and Udhwa Lake (Jharkhand) were added as Ramsar sites in 2025.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Consider the following statements about Cricket player Virat Kohli :\n1. He is the only captain to have scored seven double centuries in Test Cricket\n2. He is the only Indian cricketer with most centuries as a captain\n3. He is the first Indian captain to achieve twin centuries on captaincy debut\n4. He holds the record for the most double centuries by an Indian in Test Cricket\nWhich of the statements given above are correct?",
+   "o": [
+    "1 and 2 only",
+    "2 and 3 only",
+    "1, 3 and 4 only",
+    "1, 2, 3 and 4"
+   ],
+   "a": 3,
+   "e": "Kohli has seven Test double hundreds (most by an Indian and all as captain), the most centuries by an Indian captain, and twin tons on captaincy debut at Adelaide, 2014.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Ethereum, Tether, Solana and Cardano are all forms of",
+   "o": [
+    "Crypto currency",
+    "Artificial Intelligence(AI) Startups",
+    "Humanoid Robots",
+    "Medical apps"
+   ],
+   "a": 0,
+   "e": "Ethereum, Tether, Solana and Cardano are all cryptocurrencies.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  }
+ ]
+}

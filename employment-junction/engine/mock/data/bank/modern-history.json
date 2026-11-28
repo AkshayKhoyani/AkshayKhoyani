@@ -1,0 +1,392 @@
+[
+ {
+  "q": "The Battle of Plassey was fought in:",
+  "o": [
+   "1757",
+   "1761",
+   "1764",
+   "1857"
+  ],
+  "a": 0,
+  "e": "Robert Clive defeated Siraj-ud-Daulah at Plassey in 1757.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "The Indian National Congress was founded in:",
+  "o": [
+   "1857",
+   "1885",
+   "1905",
+   "1906"
+  ],
+  "a": 1,
+  "e": "The INC was founded in December 1885 at Bombay.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "Who was the first President of the Indian National Congress?",
+  "o": [
+   "Dadabhai Naoroji",
+   "A. O. Hume",
+   "W. C. Bonnerjee",
+   "Surendranath Banerjee"
+  ],
+  "a": 2,
+  "e": "W. C. Bonnerjee presided over the first session in Bombay in 1885.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "Which Viceroy announced the Partition of Bengal in 1905?",
+  "o": [
+   "Lord Minto",
+   "Lord Dalhousie",
+   "Lord Curzon",
+   "Lord Ripon"
+  ],
+  "a": 2,
+  "e": "Lord Curzon partitioned Bengal in 1905; it was annulled in 1911.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "The All India Muslim League was founded in:",
+  "o": [
+   "1905",
+   "1906",
+   "1916",
+   "1920"
+  ],
+  "a": 1,
+  "e": "The Muslim League was founded at Dhaka in 1906.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "Who gave the slogan 'Swaraj is my birthright and I shall have it'?",
+  "o": [
+   "Bal Gangadhar Tilak",
+   "Lala Lajpat Rai",
+   "Gopal Krishna Gokhale",
+   "Bipin Chandra Pal"
+  ],
+  "a": 0,
+  "e": "Bal Gangadhar Tilak gave this famous slogan.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "Gandhiji called off the Non-Cooperation Movement after the:",
+  "o": [
+   "Jallianwala Bagh massacre",
+   "Chauri Chaura incident",
+   "Kakori conspiracy",
+   "Arrival of the Simon Commission"
+  ],
+  "a": 1,
+  "e": "Violence at Chauri Chaura in February 1922 led Gandhiji to withdraw the movement.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "The Brahmo Samaj was founded by:",
+  "o": [
+   "Raja Ram Mohan Roy",
+   "Swami Dayanand Saraswati",
+   "Swami Vivekananda",
+   "Keshab Chandra Sen"
+  ],
+  "a": 0,
+  "e": "Raja Ram Mohan Roy founded the Brahmo Sabha (later Brahmo Samaj) in 1828.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "Who founded the Arya Samaj?",
+  "o": [
+   "Raja Ram Mohan Roy",
+   "Swami Vivekananda",
+   "Jyotiba Phule",
+   "Swami Dayanand Saraswati"
+  ],
+  "a": 3,
+  "e": "Swami Dayanand founded the Arya Samaj in 1875 and gave the call 'Back to the Vedas'.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "The 'Doctrine of Lapse' is associated with:",
+  "o": [
+   "Lord Dalhousie",
+   "Lord Wellesley",
+   "Lord Cornwallis",
+   "Lord Canning"
+  ],
+  "a": 0,
+  "e": "Under Dalhousie's Doctrine of Lapse, states without a natural heir were annexed.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "The Permanent Settlement of Bengal (1793) was introduced by:",
+  "o": [
+   "Lord Wellesley",
+   "Warren Hastings",
+   "Lord Dalhousie",
+   "Lord Cornwallis"
+  ],
+  "a": 3,
+  "e": "Cornwallis fixed land revenue permanently with the zamindars in 1793.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "In which year did Mahatma Gandhi return to India from South Africa?",
+  "o": [
+   "1909",
+   "1915",
+   "1917",
+   "1920"
+  ],
+  "a": 1,
+  "e": "Gandhiji returned to India on 9 January 1915.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "The Revolt of 1857 began on 10 May 1857 at:",
+  "o": [
+   "Meerut",
+   "Delhi",
+   "Kanpur",
+   "Lucknow"
+  ],
+  "a": 0,
+  "e": "Sepoys at Meerut revolted on 10 May 1857 and marched to Delhi.",
+  "topic": "Modern History",
+  "level": "easy"
+ },
+ {
+  "q": "The 'Subsidiary Alliance' system was introduced by:",
+  "o": [
+   "Lord Dalhousie",
+   "Lord Wellesley",
+   "Lord Cornwallis",
+   "Lord Hastings"
+  ],
+  "a": 1,
+  "e": "Lord Wellesley (1798-1805) used the Subsidiary Alliance to bring Indian states under British control.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "The Champaran Satyagraha of 1917 was related to:",
+  "o": [
+   "Indigo cultivators",
+   "Mill workers",
+   "Salt tax",
+   "Land revenue in Gujarat"
+  ],
+  "a": 0,
+  "e": "Gandhiji led the Champaran movement in Bihar against forced indigo cultivation.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "The Purna Swaraj resolution was passed at the 1929 Lahore session presided over by:",
+  "o": [
+   "Mahatma Gandhi",
+   "Motilal Nehru",
+   "Jawaharlal Nehru",
+   "Sardar Patel"
+  ],
+  "a": 2,
+  "e": "Nehru presided over the Lahore session that declared complete independence as the goal.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "The women's regiment of the Azad Hind Fauj was named after:",
+  "o": [
+   "Rani Durgavati",
+   "Ahilyabai Holkar",
+   "Rani Chennamma",
+   "Rani Lakshmibai"
+  ],
+  "a": 3,
+  "e": "Subhas Chandra Bose formed the Rani of Jhansi Regiment, led by Captain Lakshmi Sahgal.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "Where was the headquarters of the Ghadar Party, set up in 1913?",
+  "o": [
+   "London",
+   "Singapore",
+   "San Francisco",
+   "Kabul"
+  ],
+  "a": 2,
+  "e": "The Ghadar Party, led by Lala Har Dayal and Sohan Singh Bhakna, was based in San Francisco.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "The 'Communal Award' of 1932 was announced by British Prime Minister:",
+  "o": [
+   "Winston Churchill",
+   "Clement Attlee",
+   "Ramsay MacDonald",
+   "Stanley Baldwin"
+  ],
+  "a": 2,
+  "e": "Ramsay MacDonald announced separate electorates for minorities and depressed classes in 1932.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "The Poona Pact of 1932 was signed between:",
+  "o": [
+   "Mahatma Gandhi and M. A. Jinnah",
+   "Mahatma Gandhi and B. R. Ambedkar",
+   "Jawaharlal Nehru and B. R. Ambedkar",
+   "Mahatma Gandhi and Lord Irwin"
+  ],
+  "a": 1,
+  "e": "The Poona Pact gave reserved seats to depressed classes in place of separate electorates.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "In which year was the Gandhi-Irwin Pact signed?",
+  "o": [
+   "1929",
+   "1930",
+   "1931",
+   "1932"
+  ],
+  "a": 2,
+  "e": "The Gandhi-Irwin Pact was signed in March 1931, ending the first phase of Civil Disobedience.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "Who was the first Governor-General of Bengal?",
+  "o": [
+   "Lord Cornwallis",
+   "Robert Clive",
+   "Lord William Bentinck",
+   "Warren Hastings"
+  ],
+  "a": 3,
+  "e": "Warren Hastings became Governor-General of Bengal under the Regulating Act of 1773.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "Who led the Revolt of 1857 at Lucknow?",
+  "o": [
+   "Rani Lakshmibai",
+   "Begum Hazrat Mahal",
+   "Nana Saheb",
+   "Kunwar Singh"
+  ],
+  "a": 1,
+  "e": "Begum Hazrat Mahal of Awadh led the revolt at Lucknow.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "The Satyashodhak Samaj was founded in 1873 by:",
+  "o": [
+   "B. R. Ambedkar",
+   "Jyotirao Phule",
+   "Sree Narayana Guru",
+   "E. V. Ramasamy Periyar"
+  ],
+  "a": 1,
+  "e": "Jyotirao Phule founded it to fight caste discrimination.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "The Indian Councils Act of 1909 is popularly known as:",
+  "o": [
+   "Montagu-Chelmsford Reforms",
+   "Morley-Minto Reforms",
+   "Cripps Proposals",
+   "Wavell Plan"
+  ],
+  "a": 1,
+  "e": "The 1909 Act introduced separate electorates for Muslims and is called the Morley-Minto Reforms.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "Dyarchy in the provinces was introduced by which Act?",
+  "o": [
+   "Government of India Act, 1935",
+   "Indian Councils Act, 1909",
+   "Government of India Act, 1858",
+   "Government of India Act, 1919"
+  ],
+  "a": 3,
+  "e": "The 1919 Act divided provincial subjects into 'reserved' and 'transferred'.",
+  "topic": "Modern History",
+  "level": "medium"
+ },
+ {
+  "q": "Who headed the Cabinet Mission that came to India in 1946?",
+  "o": [
+   "Sir Stafford Cripps",
+   "A. V. Alexander",
+   "Lord Wavell",
+   "Lord Pethick-Lawrence"
+  ],
+  "a": 3,
+  "e": "Pethick-Lawrence led the mission; Cripps and A. V. Alexander were its other members.",
+  "topic": "Modern History",
+  "level": "hard"
+ },
+ {
+  "q": "The Ilbert Bill controversy took place during the viceroyalty of:",
+  "o": [
+   "Lord Lytton",
+   "Lord Curzon",
+   "Lord Dufferin",
+   "Lord Ripon"
+  ],
+  "a": 3,
+  "e": "The Ilbert Bill (1883) allowed Indian judges to try Europeans, which Europeans opposed.",
+  "topic": "Modern History",
+  "level": "hard"
+ },
+ {
+  "q": "The Vernacular Press Act of 1878 was passed during the time of:",
+  "o": [
+   "Lord Ripon",
+   "Lord Canning",
+   "Lord Lytton",
+   "Lord Curzon"
+  ],
+  "a": 2,
+  "e": "Lord Lytton passed it to curb Indian-language newspapers; Ripon repealed it in 1882.",
+  "topic": "Modern History",
+  "level": "hard"
+ },
+ {
+  "q": "Who became the first Governor-General of India under the Charter Act of 1833?",
+  "o": [
+   "Lord William Bentinck",
+   "Warren Hastings",
+   "Lord Canning",
+   "Lord Dalhousie"
+  ],
+  "a": 0,
+  "e": "The Charter Act of 1833 made the Governor-General of Bengal the Governor-General of India; Bentinck was the first.",
+  "topic": "Modern History",
+  "level": "hard"
+ }
+]

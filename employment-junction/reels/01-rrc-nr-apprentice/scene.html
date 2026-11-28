@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>RRC NR Apprentice Reel</title>
+<style>html,body{margin:0;background:#071a3d}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/ej.js"></script>
+<script>
+// Facts (verify against rrcnr.org notification RRC/NR/03/2026 before posting):
+//  4,651 Act Apprentice posts; Lucknow cluster 1,525, Delhi cluster 1,312
+//  10th (min 50%) + ITI in relevant trade; age 15–24 as on 11.12.2026 (relaxation as per rules)
+//  Merit-based, no written exam / interview; apply 11.11.2026 – 11.12.2026 (23:59)
+const { C, ctx, txt, pop, words, pill, card, counter, stamp, check, source, endCard, commentCTA, rrect, prog, easeOut, easeBack, clamp } = EJ;
+
+window.SCENES = [
+  // 0 — Hook
+  { dur: 4.5, draw(t) {
+    pill(t, 0.05, '🚂 RAILWAY BHARTI 2026', 330, C.gold);
+    words(t, 0.3, '10th + ITI PASS?', 620, { size: 110, colors: [C.gold, C.text, C.gold, C.text] });
+    words(t, 1.2, 'Bina exam ke', 800, { size: 90 });
+    words(t, 1.5, 'Railway job!', 920, { size: 110, colors: [C.sky, C.sky] });
+    stamp(t, 2.2, 'NO EXAM', 540, 1200, C.green, -0.12, 120);
+    // train
+    const x = -500 + easeOut(prog(t, 0.2, 3.5)) * 1300;
+    train(x, 1520);
+  }},
+  // 1 — Overview
+  { dur: 8, draw(t) {
+    pop(t, 0.1, 'RRC NORTHERN RAILWAY', 540, 330, { size: 58, color: C.gold });
+    pop(t, 0.35, 'Act Apprentice Recruitment', 540, 410, { size: 46, weight: 600, color: C.muted });
+    counter(t, 0.7, 1.6, 4651, 540, 700, { size: 250 });
+    pop(t, 1.6, 'TOTAL POSTS', 540, 830, { size: 54, weight: 800 });
+    card(t, 3.2, 90, 920, 430, 300, { from: 'left', accent: C.gold, draw: (x, y) => {
+      txt('Lucknow', x + 215, y + 90, { size: 46, weight: 700, color: C.muted });
+      txt('1,525', x + 215, y + 210, { size: 110, weight: 900 });
+    }});
+    card(t, 3.5, 560, 920, 430, 300, { from: 'right', accent: C.sky, draw: (x, y) => {
+      txt('Delhi', x + 215, y + 90, { size: 46, weight: 700, color: C.muted });
+      txt('1,312', x + 215, y + 210, { size: 110, weight: 900 });
+    }});
+    pop(t, 4.4, '+ baaki clusters / divisions', 540, 1320, { size: 44, weight: 600, color: C.muted });
+    source(t, 1, 'Notification: RRC/NR/03/2026');
+  }},
+  // 2 — Eligibility
+  { dur: 9, draw(t) {
+    pill(t, 0.05, 'KAUN APPLY KAR SAKTA HAI?', 330, C.sky);
+    card(t, 0.3, 70, 450, 940, 760, { draw: () => {} });
+    check(t, 0.7, 150, 570, '10th pass (min 50%)');
+    check(t, 1.9, 150, 720, 'ITI (related trade)');
+    check(t, 3.8, 150, 870, 'Age: 15 – 24 saal');
+    pop(t, 4.2, '(11.12.2026 ke hisaab se)', 214, 935, { size: 34, weight: 500, align: 'left', color: C.muted });
+    check(t, 5.6, 150, 1070, 'Reserved: niyam anusaar chhoot', { size: 44 });
+    const p = prog(t, 6.5, 7);
+    if (p > 0) txt('🎓 + 🔧 = 🚂', 540, 1430, { size: 110, alpha: p, scale: 0.8 + 0.2 * easeBack(p) });
+  }},
+  // 3 — Selection
+  { dur: 8, draw(t) {
+    pill(t, 0.05, 'SELECTION KAISE HOGA?', 330, C.gold);
+    card(t, 0.4, 90, 450, 430, 260, { from: 'left', draw: (x, y) => {
+      txt('📝', x + 215, y + 110, { size: 80 }); txt('Written Exam', x + 215, y + 200, { size: 42, weight: 700 });
+    }});
+    card(t, 0.9, 560, 450, 430, 260, { from: 'right', draw: (x, y) => {
+      txt('🎤', x + 215, y + 110, { size: 80 }); txt('Interview', x + 215, y + 200, { size: 42, weight: 700 });
+    }});
+    stamp(t, 1.3, 'NAHI', 305, 545, C.red, -0.2, 70);
+    stamp(t, 1.8, 'NAHI', 775, 545, C.red, 0.15, 70);
+    // arrow
+    const a = easeOut(prog(t, 3.0, 3.5));
+    if (a > 0) { ctx.save(); ctx.globalAlpha = a; ctx.fillStyle = C.gold;
+      ctx.beginPath(); ctx.moveTo(540 - 40, 780); ctx.lineTo(540 + 40, 780); ctx.lineTo(540 + 40, 780 + 60 * a);
+      ctx.lineTo(540 + 80, 780 + 60 * a); ctx.lineTo(540, 780 + 130 * a); ctx.lineTo(540 - 80, 780 + 60 * a); ctx.lineTo(540 - 40, 780 + 60 * a); ctx.fill(); ctx.restore(); }
+    card(t, 3.4, 140, 950, 800, 380, { bg: 'rgba(255,183,3,0.14)', border: C.gold, draw: (x, y) => {
+      txt('🏆 MERIT LIST', x + 400, y + 130, { size: 76, weight: 900, color: C.gold });
+      txt('10th + ITI ke marks se', x + 400, y + 240, { size: 50, weight: 700 });
+      txt('Merit expected: Feb 2027', x + 400, y + 320, { size: 36, weight: 500, color: C.muted });
+    }});
+  }},
+  // 4 — Dates
+  { dur: 7, draw(t) {
+    pill(t, 0.05, '📅 IMPORTANT DATES', 330, C.sky);
+    calendar(t, 0.4, 90, 470, 'APPLY START', '11', 'NOV 2026', C.green);
+    calendar(t, 1.8, 560, 470, 'LAST DATE', '11', 'DEC 2026', C.red, true);
+    words(t, 3.2, 'Last date ka wait mat karo!', 1260, { size: 64, colors: [C.text, C.text, C.gold, C.gold, C.text] });
+    const p = prog(t, 3.8, 4.3);
+    if (p > 0) txt('⏰', 540, 1480, { size: 140, alpha: p, scale: 1 + 0.08 * Math.sin(t * 14) });
+  }},
+  // 5 — How to apply
+  { dur: 8, draw(t) {
+    pill(t, 0.05, 'APPLY KAISE KAREIN?', 330, C.gold);
+    const steps = [['🌐', 'rrcnr.org par jaao'], ['📝', 'Register karke form bharo'], ['📎', 'Documents upload karo'], ['✅', 'Fee pay karke submit']];
+    steps.forEach(([ic, s], i) => card(t, 0.4 + i * 0.7, 90, 450 + i * 190, 900, 160, { from: 'left', accent: C.gold, draw: (x, y) => {
+      txt(String(i + 1), x + 80, y + 105, { size: 70, weight: 900, color: C.gold });
+      txt(ic, x + 175, y + 105, { size: 60 });
+      txt(s, x + 240, y + 100, { size: 44, weight: 700, align: 'left' });
+    }}));
+    card(t, 3.6, 90, 1250, 900, 190, { bg: 'rgba(239,68,68,0.12)', border: C.red, draw: (x, y) => {
+      txt('⚠️ Fee & trade-wise posts:', x + 450, y + 80, { size: 42, weight: 800 });
+      txt('official notification zaroor padhein', x + 450, y + 145, { size: 40, weight: 600, color: C.muted });
+    }});
+  }},
+  // 6 — Outro
+  { dur: 7.5, noWatermark: true, draw(t) {
+    commentCTA(t, 0.05, 'RAILWAY', 300);
+    endCard(t, 0.9);
+  }}
+];
+
+function train(x, y) {
+  ctx.save(); ctx.translate(x, y);
+  for (let k = 0; k < 3; k++) {
+    const ox = -k * 330;
+    rrect(ox, -120, 310, 180, 26); ctx.fillStyle = k === 0 ? C.saffron : '#1554c0'; ctx.fill();
+    ctx.fillStyle = 'rgba(255,255,255,0.85)';
+    for (let w = 0; w < 3; w++) { rrect(ox + 30 + w * 90, -90, 64, 60, 10); ctx.fill(); }
+    ctx.fillStyle = '#111827';
+    [60, 250].forEach(wx => { ctx.beginPath(); ctx.arc(ox + wx, 70, 30, 0, Math.PI * 2); ctx.fill(); });
+  }
+  ctx.restore();
+  ctx.fillStyle = 'rgba(255,255,255,0.25)'; ctx.fillRect(0, y + 104, 1080, 8);
+}
+function calendar(t, at, x, y, label, day, mon, col, pulse) {
+  card(t, at, x, y, 430, 560, { draw: (cx, cy) => {
+    rrect(cx, cy, 430, 130, 34); ctx.fillStyle = col; ctx.fill(); ctx.fillRect(cx, cy + 90, 430, 40);
+    txt(label, cx + 215, cy + 85, { size: 46, weight: 900, color: '#fff' });
+    const s = pulse ? 1 + 0.05 * Math.sin(t * 6) : 1;
+    txt(day, cx + 215, cy + 380, { size: 230, weight: 900, scale: s });
+    txt(mon, cx + 215, cy + 480, { size: 52, weight: 800, color: C.muted });
+  }});
+}
+EJ.start();
+</script>
+</body>
+</html>

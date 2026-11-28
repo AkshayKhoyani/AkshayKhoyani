@@ -1,0 +1,1250 @@
+{
+ "exam": "TNPSC Combined Civil Services Examination-IV (Group IV Services)",
+ "paper": "General English with General Studies - Part A General English (Q.1-100; Tamil-translation items omitted), held 12-07-2025",
+ "year": 2025,
+ "board": "Tamil Nadu Public Service Commission",
+ "state": "Tamil Nadu",
+ "lang": "en",
+ "source_paper": "https://www.tnpsc.gov.in/Tentative/Document/07_2025_GENEARAL_ENGLISH_GS.pdf",
+ "source_key": "https://www.tnpsc.gov.in/Document/Answerkeyfinalresult/07_2025_CCSE_IV_FINAL_ANSWER_KEY.pdf",
+ "duration_min": 180,
+ "marks_per_q": 1.5,
+ "negative": 0,
+ "questions": [
+  {
+   "q": "Direct to Indirect Speech :\nHe said to Mr. Y, “Mr. Z will leave for his native place tomorrow”.",
+   "o": [
+    "He told Mr. Y that Mr. Z will leave for his native place tomorrow",
+    "He told Mr. Y that Mr. Z left for his native place the next day",
+    "He told Mr. Y that Mr. Z would be leaving for his native place tomorrow",
+    "He told Mr. Y that Mr. Z would leave for his native place the next day"
+   ],
+   "a": 3,
+   "e": "In reported speech \"said to\" becomes \"told\", \"will\" becomes \"would\" and \"tomorrow\" becomes \"the next day\".",
+   "section": "English",
+   "topic": "Reported Speech"
+  },
+  {
+   "q": "The positive form of \"Ramesh is the strongest man in the village\" is",
+   "o": [
+    "Ramesh is a strong man in the village",
+    "Ramesh is a stronger man in the village",
+    "Ramesh is the stronger man in the village",
+    "No other man in the village is so strong as Ramesh"
+   ],
+   "a": 3,
+   "e": "A superlative becomes positive as \"No other ... is so/as strong as ...\".",
+   "section": "English",
+   "topic": "Degrees of Comparison"
+  },
+  {
+   "q": "Fill in with the correct phrase :\nThe airhostess instructed the passengers to fasten the seat belts during the ________.",
+   "o": [
+    "shut down",
+    "work out",
+    "take off",
+    "warm up"
+   ],
+   "a": 2,
+   "e": "Seat belts are fastened during the take-off of an aircraft.",
+   "section": "English",
+   "topic": "Phrasal Verbs"
+  },
+  {
+   "q": "Which of the following sentences have gerunds?\n(a) They began playing\n(b) They began to play\n(c) We prefer to take tea\n(d) We prefer taking tea",
+   "o": [
+    "(a), (b)",
+    "(b), (c)",
+    "(a), (c)",
+    "(a), (d)"
+   ],
+   "a": 3,
+   "e": "\"Playing\" and \"taking\" are -ing verb forms used as nouns (gerunds); the others are infinitives.",
+   "section": "English",
+   "topic": "Gerunds"
+  },
+  {
+   "q": "Fill in the blank with a suitable infinitive :\nHe is supposed ________ for his examinations now, but he is wasting his time relentlessly.",
+   "o": [
+    "have been studied",
+    "to be studying",
+    "to study",
+    "has been studied"
+   ],
+   "a": 1,
+   "e": "\"Now\" signals an ongoing action, so the continuous infinitive \"to be studying\" fits.",
+   "section": "English",
+   "topic": "Infinitives"
+  },
+  {
+   "q": "Fill in with the correct regular verb :\n“Both the officer and the worker ________ the affected areas”.",
+   "o": [
+    "forgot",
+    "visited",
+    "went",
+    "saw"
+   ],
+   "a": 1,
+   "e": "\"Visited\" is formed with -ed and is a regular verb; the others are irregular.",
+   "section": "English",
+   "topic": "Verbs"
+  },
+  {
+   "q": "Transform the following exclamatory sentence into an assertive sentence :\n“What a spectacular goal!”\n(a) Was it a spectacular goal?\n(b) The goal was spectacular\n(c) It was a spectacular goal.\n(d) Why the goal was spectacular?",
+   "o": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "a": 2,
+   "e": "The assertive form of \"What a spectacular goal!\" is \"It was a spectacular goal.\"",
+   "section": "English",
+   "topic": "Sentence Transformation"
+  },
+  {
+   "q": "The negative form of ‘The Mission is accomplished’ is",
+   "o": [
+    "The mission is not over",
+    "The mission is not finished",
+    "The mission is not completed",
+    "The mission is not accomplished"
+   ],
+   "a": 3,
+   "e": "Negating the sentence only adds \"not\" to the same verb: \"is not accomplished\".",
+   "section": "English",
+   "topic": "Sentence Transformation"
+  },
+  {
+   "q": "“Cannot you find me some place convenient for laying my eggs” – the statement form of this interrogative sentence is",
+   "o": [
+    "Provide me some convenient place for laying my eggs",
+    "Which is the convenient place for laying my eggs",
+    "This is the convenient place for laying my eggs",
+    "Search a convenient place for laying my eggs"
+   ],
+   "a": 3,
+   "e": "The official key takes the request as an imperative statement: \"Search a convenient place for laying my eggs\".",
+   "section": "English",
+   "topic": "Sentence Transformation"
+  },
+  {
+   "q": "Choose the correct type of sentence :\nYou leave today.",
+   "o": [
+    "Imperative",
+    "Interrogative",
+    "Declarative",
+    "Exclamatory"
+   ],
+   "a": 0,
+   "e": "The official key reads it as a command addressed to \"you\", i.e. an imperative sentence.",
+   "section": "English",
+   "topic": "Sentence Types"
+  },
+  {
+   "q": "Select correct active form for the sentence :\n“Our army has been defeated by the enemy”.",
+   "o": [
+    "The enemy was defeated our army",
+    "The enemy was defeated by our army",
+    "The enemy has defeated our army",
+    "The enemy had defeated our army"
+   ],
+   "a": 2,
+   "e": "The present perfect passive \"has been defeated\" becomes the present perfect active \"has defeated\".",
+   "section": "English",
+   "topic": "Voice"
+  },
+  {
+   "q": "Find out the correct tense form of the verb from the options given below :\nI got up early and ________ a shower.",
+   "o": [
+    "have",
+    "am having",
+    "had",
+    "was having"
+   ],
+   "a": 2,
+   "e": "Both actions are completed past actions joined by \"and\", so the simple past \"had\" matches \"got\".",
+   "section": "English",
+   "topic": "Tenses"
+  },
+  {
+   "q": "Which of the following British English words are correctly paired with the American English words?\n(1) Spanner – Wrench\n(2) Hoover – Nonsense\n(3) Bollocks – Vacuum\n(4) Hairslide – Barrette",
+   "o": [
+    "(1) and (2)",
+    "(1) and (4)",
+    "(2) and (3)",
+    "(3) and (4)"
+   ],
+   "a": 1,
+   "e": "Spanner = wrench and hairslide = barrette; hoover means vacuum and bollocks means nonsense, so (2) and (3) are swapped.",
+   "section": "English",
+   "topic": "British vs American English"
+  },
+  {
+   "q": "PDA stands for",
+   "o": [
+    "Personal Digital Assistant",
+    "Personal Development Agency",
+    "Personal Data Authority",
+    "Personal Data Array"
+   ],
+   "a": 0,
+   "e": "PDA is a Personal Digital Assistant, a handheld organiser device.",
+   "section": "English",
+   "topic": "Abbreviations"
+  },
+  {
+   "q": "Match the following :\n(a) Careful  1. Verb formed from a noun\n(b) Teach  2. Noun formed from a verb\n(c) Writer  3. Noun formed from an adjective\n(d) Kindness  4. Adjective formed from a verb",
+   "o": [
+    "(a)-1, (b)-2, (c)-4, (d)-3",
+    "(a)-3, (b)-1, (c)-2, (d)-4",
+    "(a)-4, (b)-1, (c)-2, (d)-3",
+    "(a)-2, (b)-1, (c)-3, (d)-4"
+   ],
+   "a": 2,
+   "e": "Writer is a noun from the verb write and kindness a noun from the adjective kind; the key pairs careful with 4 and teach with 1.",
+   "section": "English",
+   "topic": "Word Formation"
+  },
+  {
+   "q": "Choose the correct meaning of the given phrasal verb in the context of time :\nRun out",
+   "o": [
+    "Time given for something to be done",
+    "Insufficient time",
+    "Exceed the allotted time",
+    "Finish before the given time"
+   ],
+   "a": 2,
+   "e": "As per the key, \"run out (of time)\" here means going beyond the allotted time.",
+   "section": "English",
+   "topic": "Phrasal Verbs"
+  },
+  {
+   "q": "Match the following idioms in Column A with their meanings in Column B:\n(a) Fall out  1. to collapse\n(b) Fall for  2. to come into collision\n(c) Fall flat  3. yield to its charms\n(d) Fall foul of  4. to quarrel",
+   "o": [
+    "(a)-4, (b)-3, (c)-1, (d)-2",
+    "(a)-2, (b)-4, (c)-3, (d)-1",
+    "(a)-1, (b)-3, (c)-4, (d)-2",
+    "(a)-2, (b)-3, (c)-1, (d)-4"
+   ],
+   "a": 0,
+   "e": "Fall out = quarrel, fall for = be charmed by, fall flat = collapse/fail, fall foul of = come into conflict with.",
+   "section": "English",
+   "topic": "Idioms"
+  },
+  {
+   "q": "Find out the suitable word for the underlined collocation in the following sentence.\nIt rains cats and dogs.",
+   "o": [
+    "Strongly",
+    "Heavily",
+    "Speedily",
+    "Fast"
+   ],
+   "a": 1,
+   "e": "\"Raining cats and dogs\" means raining heavily.",
+   "section": "English",
+   "topic": "Idioms"
+  },
+  {
+   "q": "Read the passage and replace the underlined words with their antonyms given in the options.\nRam is a (1) robust person born to (2) affluent parents. His (3) odious behaviour and habits had an effect on his physical and mental (4) agility which made him to look (5) gaunt.\n(a) Pleasant (b) Awkwardness (c) Portly (d) Weak (e) Poor",
+   "o": [
+    "(1)-(c) (2)-(e) (3)-(a) (4)-(b) (5)-(d)",
+    "(1)-(a) (2)-(d) (3)-(c) (4)-(e) (5)-(b)",
+    "(1)-(d) (2)-(e) (3)-(a) (4)-(b) (5)-(c)",
+    "(1)-(b) (2)-(e) (3)-(c) (4)-(a) (5)-(d)"
+   ],
+   "a": 2,
+   "e": "Robust–weak, affluent–poor, odious–pleasant, agility–awkwardness, gaunt–portly.",
+   "section": "English",
+   "topic": "Antonyms"
+  },
+  {
+   "q": "Which of the following synonyms are incorrectly paired?\n(1) Gregarious – A person who walks unsteadily\n(2) Glutton – A person who eats too much\n(3) Groggy – A person who likes to be with others\n(4) Gourmet – A person who enjoys food",
+   "o": [
+    "(1) and (2)",
+    "(1) and (3)",
+    "(3) and (4)",
+    "(1) and (4)"
+   ],
+   "a": 1,
+   "e": "Gregarious means sociable and groggy means unsteady/dazed, so (1) and (3) are swapped.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "An interchange of two elements in a phrase or sentence from a more logical to a less logical relationship ________.",
+   "o": [
+    "Hypallage",
+    "Malapropism",
+    "Metaphor",
+    "Simile"
+   ],
+   "a": 0,
+   "e": "Hypallage (transferred epithet) shifts a word to an element it does not logically belong to, e.g. \"a sleepless night\".",
+   "section": "English",
+   "topic": "Figures of Speech"
+  },
+  {
+   "q": "Text : E-governance can empower citizens to participate in climate action by providing platforms for feed back, collaboration and reporting environmental concerns.\nQuestion : How can e-governance enhance citizen engagement in climate change initiatives?\n(a) Providing online forums for citizens to share ideas.\n(b) Enabling citizens to report illegal dumping or pollution incidents.\n(c) Offering online tools for citizens to calculate their carbon foot print.\n(d) Replacing all traditional in-person meetings with online surveys.",
+   "o": [
+    "Only (c)",
+    "(a), (b) and (c)",
+    "Only (d)",
+    "All of the above"
+   ],
+   "a": 1,
+   "e": "Forums, reporting and carbon tools all add participation; replacing all in-person meetings is not implied by the text.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Maria always carries an umbrella in her bag. Today, despite clear skies, she brought her umbrella to work.\nWhat can be inferred about Maria?",
+   "o": [
+    "Maria forgot to check the weather forecast",
+    "Maria is superstitious about umbrellas",
+    "Maria expects it to rain later",
+    "Maria doesn't like sunny days"
+   ],
+   "a": 2,
+   "e": "The most reasonable inference from carrying an umbrella on a clear day is that she expects rain later.",
+   "section": "English",
+   "topic": "Inference"
+  },
+  {
+   "q": "Rearrange the jumbled sentences :\n(a) Taking a few steps back, the fox jumped and just missed the hanging grapes.\n(b) Finally, giving up, the fox turned up his nose and said “They are probably sour anyway” and proceeded to walk away.\n(c) One afternoon a fox was walking through the forest and spotted a bunch of grapes hanging from over a lofty branch.\n(d) Again the fox took a few paces back and tried to reach them but still failed.\n(e) “Just the thing to quench my thirst”, he thought.",
+   "o": [
+    "(b) (a) (d) (c) (e)",
+    "(c) (e) (a) (d) (b)",
+    "(a) (c) (b) (d) (e)",
+    "(b) (c) (e) (d) (a)"
+   ],
+   "a": 1,
+   "e": "The story begins with the fox spotting grapes (c), his thought (e), first attempt (a), second attempt (d), then giving up (b).",
+   "section": "English",
+   "topic": "Sentence Rearrangement"
+  },
+  {
+   "q": "What type of letter is used to request information about a product or service?\n(a) Inquiry letter\n(b) Sales letter\n(c) Personal letter\n(d) Resignation letter",
+   "o": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "a": 0,
+   "e": "A letter seeking details about a product or service is an inquiry (enquiry) letter.",
+   "section": "English",
+   "topic": "Letter Writing"
+  },
+  {
+   "q": "Scenario : A government agency is updating its website to include downloadable forms. They want to ensure the instructions for completing the forms are clear and professional.\nQuestion : Which of the following instruction best reflects the principles of official correspondence?\n(a) Just fill this out and send it in, no big deal.\n(b) You gotta put your info here, then sign there and you are good to go.\n(c) Please complete all sections of the form using legible hand writing or typed text. Submit the completed form along with the required supporting documentation.\n(d) Write your name and address, then do the rest however you want.",
+   "o": [
+    "(a) and (d)",
+    "only (c)",
+    "(b) and (d)",
+    "only (d)"
+   ],
+   "a": 1,
+   "e": "Only (c) is formal, clear and complete; the others are casual or vague.",
+   "section": "English",
+   "topic": "Official Correspondence"
+  },
+  {
+   "q": "Find the suitable words :\nThe ________ clouds signaled an approaching storm.",
+   "o": [
+    "Heavy",
+    "Menacing",
+    "Impurity",
+    "Dark"
+   ],
+   "a": 1,
+   "e": "Per the key, \"menacing\" (threatening) best conveys clouds that signal a storm.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Scenario : Ms. Priyanka is seeking assistance and information regarding services for differently-abled individuals in the state. Match Ms. Priyanka's needs with the appropriate department.\n(a) She needs to obtain a disability certificate and access related benefits  1. Department of social welfare and women empowerment\n(b) She seeks information about educational scholarships and vocational training programs for her differently-abled child  2. Directorate for welfare of the Differently-abled\n(c) She wants to report accessibility issues in public buildings and transport  3. Department of labour and employment\n(d) She is looking for information on self-employment schemes and financial assistance for differently-abled entrepreneurs  4. Department of municipal administration and water supply",
+   "o": [
+    "(a)-1, (b)-2, (c)-4, (d)-3",
+    "(a)-2, (b)-1, (c)-4, (d)-3",
+    "(a)-3, (b)-4, (c)-1, (d)-2",
+    "(a)-4, (b)-2, (c)-3, (d)-1"
+   ],
+   "a": 1,
+   "e": "Disability certificates come from the Differently-abled welfare directorate, scholarships from social welfare, public-building access from municipal administration and self-employment from labour & employment.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Fill in the blanks :\n________ refer to a situation where borrowing money from banks, and other financial institutions becomes difficult, often due to rising interest rates on a general economic downturn",
+   "o": [
+    "Credit squeeze",
+    "Credit transfer",
+    "Credit control",
+    "Credit creation"
+   ],
+   "a": 0,
+   "e": "A credit squeeze (credit crunch) is when loans become hard to get.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "The process of hiring and managing employees is called",
+   "o": [
+    "Technical Management",
+    "Performance Management",
+    "Human Resources Management",
+    "Evaluation Committee"
+   ],
+   "a": 2,
+   "e": "Recruiting and managing people is Human Resources Management.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Passage : Smart home technologies aim to simplify daily life. They offer increased convenience and efficiency. User-friendly interfaces are essential for widespread adoption. The goal is to empower individuals through technology.\nQuestion : Which of the following statements best describe the author's purpose in the passage?\n(a) to criticize the complexity of smart home technologies\n(b) to highlight the benefits of smart home technologies\n(c) to emphasize the importance of user-friendly interfaces\n(d) to advocate for the empowerment of individuals through technology",
+   "o": [
+    "(b), (a), (d)",
+    "(b), (c), (d)",
+    "(a), (c), (d)",
+    "(a), (b), (c)"
+   ],
+   "a": 1,
+   "e": "The passage praises benefits, stresses user-friendly design and aims at empowerment; it does not criticise.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Passage : A solar eclipse happens when the moon blocks the sun. This causes temporary darkness. It requires the Sun, Moon and Earth to align. The result is a shadow on Earth.\nQuestion : Which of the following statements accurately define or explain terms from the passage?\n(a) A solar eclipse is when the Earth blocks the Sun.\n(b) A solar eclipse is when the Moon blocks the Sun.\n(c) Alignment of the Sun, Moon and Earth is required\n(d) A shadow on Earth is a result of a solar eclipse",
+   "o": [
+    "(b), (a), (d)",
+    "(b), (c), (d)",
+    "(a), (c), (d)",
+    "(d), (b), (a), (c)"
+   ],
+   "a": 1,
+   "e": "The passage says the Moon blocks the Sun, alignment is needed and a shadow falls on Earth; (a) contradicts it.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Complete the following sentence, choosing the appropriate word from the options given.\nI can ________ the presence of something rotten in the room.",
+   "o": [
+    "Nose out",
+    "Nestle up",
+    "Nail somebody down",
+    "Nuzzle up"
+   ],
+   "a": 0,
+   "e": "\"Nose out\" means to detect or discover, as if by smell.",
+   "section": "English",
+   "topic": "Phrasal Verbs"
+  },
+  {
+   "q": "Match the words in Column A with their suitable synonyms in Column B :\n(a) dissonance  1. abnormality\n(b) esoteric  2. mockery\n(c) lampoon  3. abstruse\n(d) idiosyncrasy  4. discord",
+   "o": [
+    "(a)-1, (b)-2, (c)-3, (d)-4",
+    "(a)-4, (b)-3, (c)-2, (d)-1",
+    "(a)-3, (b)-2, (c)-1, (d)-4",
+    "(a)-2, (b)-1, (c)-4, (d)-3"
+   ],
+   "a": 1,
+   "e": "Dissonance = discord, esoteric = abstruse, lampoon = mockery, idiosyncrasy = peculiarity/abnormality.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "In the given dialogue, some questions are underlined. Identify their type and mark ‘A’ if it is a strong question and ‘B’ if it is a weak question.\nAnu : Dear friends, how can we celebrate women's day? (Q1)\nMalar : Please clarify. Where and how are we going to celebrate? (Q2)\nAnu : It must be celebrated in a grand manner.\nMalar : Shall we identify the venue? (Q3)\nAnu : JKM Palace.\nMalar : Will it be available? (Q4)\nAnu : Yes.",
+   "o": [
+    "A A B B",
+    "A B B A",
+    "A B A B",
+    "B B A B"
+   ],
+   "a": 0,
+   "e": "Open \"how/where\" questions invite discussion (strong); yes/no questions like \"Shall we...?\" and \"Will it...?\" are weak.",
+   "section": "English",
+   "topic": "Spoken English"
+  },
+  {
+   "q": "Passage : A new social media platform gained rapid popularity among teenagers. Concerns arose about data privacy and the spread of misinformation. Despite these issues, the platform provided a space for creative expression and fostered online communities.\nQuestion : Based on the above scenario, which of the following statements are most likely to be true?\n(a) The platform is universally considered harmful.\n(b) The platform has both positive and negative impacts.\n(c) The platform is primarily used for educational purposes.\n(d) There are significant concerns about the platform's ethical implications.",
+   "o": [
+    "both (a) and (b)",
+    "both (b) and (d)",
+    "both (a) and (d)",
+    "both (b) and (c)"
+   ],
+   "a": 1,
+   "e": "The passage mentions both benefits and privacy/misinformation concerns, supporting (b) and (d).",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Passage : The city's rapid expansion led to increased traffic congestion and air pollution. Public transport systems were overwhelmed, and green spaces were replaced by concrete structures for the growing population. Residents complained of rising stress levels and a loss of community feeling.\nQuestion : Based on the given passage, which of the following statements are most likely to be true?\n(a) The city is focused on preserving its historical landmarks.\n(b) The city is experiencing negative consequences of unchecked growth.\n(c) Residents are actively involved in urban planning decisions.\n(d) The city's infrastructure is struggling to keep pace with its population.",
+   "o": [
+    "both (a) and (b)",
+    "both (a) and (d)",
+    "both (b) and (d)",
+    "both (b) and (c)"
+   ],
+   "a": 2,
+   "e": "Congestion, pollution and overwhelmed transport point to unchecked growth and strained infrastructure.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Passage : The advent of remote work changed employment. Seamless collaboration rose with technology, Flexibility increased, yet isolation concerns grew.\nQuestion : Which of the following statements accurately reflect the meaning of the underlined word(s) as used in the passage?\n(a) ‘advent’ means the gradual decline of\n(b) ‘seamless’ means smooth and without interruption\n(c) ‘flexibility’ refers to the ability to adapt\n(d) ‘isolation’ means the state of being alone",
+   "o": [
+    "(a), (b), (c), (d)",
+    "(b) and (c)",
+    "(b), (c), (d)",
+    "only (d)"
+   ],
+   "a": 2,
+   "e": "Advent means arrival, not decline; the other three meanings are correct.",
+   "section": "English",
+   "topic": "Vocabulary in Context"
+  },
+  {
+   "q": "Passage : The relentless surge in global temperatures paints a stark picture of our planet's future. Melting glaciers, raging wildfires and unprecedented floods serve as grim reminders of the escalating crisis. A sense of urgency pervades scientific reports, echoing the desperate need for immediate and decisive action. The window of opportunity to mitigate the catastrophic effects of climate change is rapidly closing, leaving behind a legacy of irreversible damage.\nQuestion : Which of the following words and phrases contribute to the mood of the passage?",
+   "o": [
+    "Relentless surge",
+    "Paints a stark picture",
+    "Legacy of irreversible damage",
+    "Balanced and calm"
+   ],
+   "a": 0,
+   "e": "Per the key, \"relentless surge\" sets the urgent, alarming mood right from the opening.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Which of the following statements are incorrect?\n(1) The play, “The Tempest” was written between 1610 and 1611.\n(2) “The Tempest” was not based on any actual incident.\n(3) Shakespeare had penned 10 sonnets.\n(4) Prospero dismissed Ariel from his service before he left the island.",
+   "o": [
+    "(2) and (3) are incorrect",
+    "(1) and (4) are incorrect",
+    "Only (2) is incorrect",
+    "(1) and (3) are incorrect"
+   ],
+   "a": 0,
+   "e": "The Tempest drew on the real 1609 Sea Venture shipwreck, and Shakespeare wrote 154 sonnets, so (2) and (3) are wrong.",
+   "section": "English",
+   "topic": "English Literature"
+  },
+  {
+   "q": "Match the categories in Column A with the words in Column B :\n(a) Abbreviations  1. Bat, Bat\n(b) Acronyms  2. Aloud, Allowed\n(c) Homonyms  3. WHO, PAN\n(d) Homophones  4. ATM, CEO",
+   "o": [
+    "(a)-3, (b)-4, (c)-2, (d)-1",
+    "(a)-4, (b)-3, (c)-1, (d)-2",
+    "(a)-2, (b)-1, (c)-4, (d)-3",
+    "(a)-1, (b)-2, (c)-3, (d)-4"
+   ],
+   "a": 1,
+   "e": "ATM and CEO are read letter by letter (abbreviations), WHO and PAN are pronounced as words (acronyms), bat/bat is a homonym and aloud/allowed are homophones.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Which are the following statements are true about “Sir. C.V. Raman”?\n(1) Sir. C.V. Raman was an Indian physicist.\n(2) Sir. C.V. Raman was honoured with the Bharat Ratna Award.\n(3) Sir. C.V. Raman's birthday is celebrated as “National Science Day”.",
+   "o": [
+    "(1) only",
+    "(1) and (3) only",
+    "(1) and (2) only",
+    "(2) and (3) only"
+   ],
+   "a": 2,
+   "e": "National Science Day (28 Feb) marks the discovery of the Raman effect, not his birthday (7 Nov).",
+   "section": "English",
+   "topic": "General English"
+  },
+  {
+   "q": "Choose the correct option :\nWhat did the young seagull do, when his parents beckoned to him?\n(1) He began to swoop\n(2) He screamed with fright and attempted to rise again\n(3) He answered with another scream\n(4) He sank his feet into the green sea",
+   "o": [
+    "(1) and (2)",
+    "(2) only",
+    "(1) and (3)",
+    "(2) and (4)"
+   ],
+   "a": 3,
+   "e": "Per the key (Liam O'Flaherty's \"His First Flight\"), the seagull screamed in fright and later his feet sank into the sea.",
+   "section": "English",
+   "topic": "English Prose"
+  },
+  {
+   "q": "Identify the figure of speech in the following poetic line :\n‘They growl at the rain and they growl at the sun’.",
+   "o": [
+    "Epithet",
+    "Contrast",
+    "Anaphora",
+    "Oxymoron"
+   ],
+   "a": 2,
+   "e": "Repeating \"they growl at\" at the start of successive phrases is anaphora.",
+   "section": "English",
+   "topic": "Figures of Speech"
+  },
+  {
+   "q": "Which is the largest planet in the Solar system?",
+   "o": [
+    "Mars",
+    "Saturn",
+    "Uranus",
+    "Jupiter"
+   ],
+   "a": 3,
+   "e": "Jupiter is the largest planet in the Solar System.",
+   "section": "English",
+   "topic": "General English"
+  },
+  {
+   "q": "Choose the correct ‘Synonym’ by matching Column ‘A’ and Column ‘B’ :\n(a) strife  1. futile\n(b) endure  2. disagreement\n(c) vain  3. undergo\n(d) accents  4. emphasise",
+   "o": [
+    "(a)-1, (b)-2, (c)-3, (d)-4",
+    "(a)-3, (b)-1, (c)-4, (d)-2",
+    "(a)-2, (b)-3, (c)-1, (d)-4",
+    "(a)-4, (b)-2, (c)-1, (d)-3"
+   ],
+   "a": 2,
+   "e": "Strife = disagreement, endure = undergo, vain = futile, accents = emphasise.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "Identify the figure of speech employed in the following lines.\nBorn of despair with a sudden spring.",
+   "o": [
+    "Anaphora",
+    "Alliteration",
+    "Assonance",
+    "Consonance"
+   ],
+   "a": 1,
+   "e": "Repetition of the initial \"s\" sound in \"sudden spring\" is alliteration.",
+   "section": "English",
+   "topic": "Figures of Speech"
+  },
+  {
+   "q": "Choose the correct answers.\nR.L. Stevenson's famous works are ________.\n(i) Treasure Island\n(ii) ‘The Lamb’ and ‘The Tiger’\n(iii) Kidnapped\n(iv) The Jungle Book",
+   "o": [
+    "(ii) only",
+    "(ii) and (iii) only",
+    "(i) and (iii) only",
+    "(i) and (iv) only"
+   ],
+   "a": 2,
+   "e": "Stevenson wrote Treasure Island and Kidnapped; the poems are Blake's and The Jungle Book is Kipling's.",
+   "section": "English",
+   "topic": "English Literature"
+  },
+  {
+   "q": "Choose the suitable answer :\nIf a writer uses a word or phrase in a special way, he/she can write it in\n(a) Parentheses\n(b) Quotation marks\n(c) Square brackets\n(d) Dash",
+   "o": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "a": 1,
+   "e": "Quotation marks (scare quotes) flag a word used in a special or ironic sense.",
+   "section": "English",
+   "topic": "Punctuation"
+  },
+  {
+   "q": "Which of the following sentences is a correct synthesis using an appropriate conjunctive adverb?\nSentence 1 : The assignment was due last week.\nSentence 2 : We did not submit it on time.\n(a) The assignment was due last week; consequently, we did not submit it on time\n(b) The assignment was due last week, so we did not submit it on time\n(c) The assignment was due last week, because we did not submit it on time\n(d) The assignment was due last week and we did not submit it on time",
+   "o": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "a": 0,
+   "e": "\"Consequently\" is a conjunctive adverb, correctly preceded by a semicolon; \"so\", \"because\" and \"and\" are conjunctions.",
+   "section": "English",
+   "topic": "Synthesis"
+  },
+  {
+   "q": "Identify the Complex Sentence :",
+   "o": [
+    "He was tired and so he could not walk",
+    "He was too tired to walk",
+    "He was so tired that he could not walk",
+    "Being tired, he could not walk"
+   ],
+   "a": 2,
+   "e": "\"So tired that he could not walk\" has a main clause plus a subordinate \"that\" clause, making it complex.",
+   "section": "English",
+   "topic": "Sentence Types"
+  },
+  {
+   "q": "Which of the following statement has the correct question tag?\n(a) I needn't play, needn't I?\n(b) Let's play, shall we?\n(c) I am older than you, am I?\n(d) He was asleep, did he?",
+   "o": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "a": 1,
+   "e": "\"Let's\" always takes \"shall we?\"; the others should be \"need I?\", \"aren't I?\" and \"wasn't he?\".",
+   "section": "English",
+   "topic": "Question Tags"
+  },
+  {
+   "q": "Identify the correct option for the given question :\nA participle is a/an ________ formed from a verb.",
+   "o": [
+    "Adjective",
+    "Adverb",
+    "Noun",
+    "Preposition"
+   ],
+   "a": 0,
+   "e": "A participle is a verbal adjective, e.g. \"a running tap\".",
+   "section": "English",
+   "topic": "Participles"
+  },
+  {
+   "q": "Which of the following sentences uses both a main verb and an auxiliary verb?\n(a) She dances beautifully\n(b) They are singing\n(c) She reads fast\n(d) Students eat dinner together.",
+   "o": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "a": 1,
+   "e": "In \"are singing\", \"are\" is the auxiliary and \"singing\" the main verb.",
+   "section": "English",
+   "topic": "Verbs"
+  },
+  {
+   "q": "Choose the correct appreciative statement for the following imperative :\n“Take time to review your work”.",
+   "o": [
+    "Reviewing your work is essential",
+    "Make sure you review your work thoroughly",
+    "It's important to review your work",
+    "I value the effort you put into reviewing your work"
+   ],
+   "a": 3,
+   "e": "Only option D expresses appreciation; the others restate the instruction.",
+   "section": "English",
+   "topic": "Sentence Transformation"
+  },
+  {
+   "q": "The interrogative form of ‘Shut the door’ is",
+   "o": [
+    "Who will shut the door?",
+    "Who shut the door?",
+    "How the door will shut?",
+    "You shut the door."
+   ],
+   "a": 0,
+   "e": "The command is turned into a question about the future action: \"Who will shut the door?\"",
+   "section": "English",
+   "topic": "Sentence Transformation"
+  },
+  {
+   "q": "The imperative form of the following statement ‘I am lonely’ is",
+   "o": [
+    "Have pity on my loneliness",
+    "I am lonely",
+    "I have no company",
+    "I have no friends"
+   ],
+   "a": 0,
+   "e": "The imperative turns the statement into a request: \"Have pity on my loneliness\".",
+   "section": "English",
+   "topic": "Sentence Transformation"
+  },
+  {
+   "q": "What an ugly picture! is an",
+   "o": [
+    "Exclamatory sentence",
+    "Assertive sentence",
+    "Negative sentence",
+    "Interrogative sentence"
+   ],
+   "a": 0,
+   "e": "A \"What a/an ...!\" construction expressing strong feeling is exclamatory.",
+   "section": "English",
+   "topic": "Sentence Types"
+  },
+  {
+   "q": "‘Don't be angry with us God’ - is an ________ sentence.",
+   "o": [
+    "Affirmative",
+    "Imperative",
+    "Interrogative",
+    "Exclamatory"
+   ],
+   "a": 1,
+   "e": "A negative request beginning \"Don't ...\" is an imperative sentence.",
+   "section": "English",
+   "topic": "Sentence Types"
+  },
+  {
+   "q": "Which of the following does not exhibit subject – Verb Agreement?",
+   "o": [
+    "I wonder if either of the boys were present",
+    "Much of what you say is correct",
+    "The pool and lotus is a beautiful building",
+    "He is one of those men who hate smoking"
+   ],
+   "a": 0,
+   "e": "\"Either of the boys\" is singular and needs \"was\", so A breaks agreement.",
+   "section": "English",
+   "topic": "Subject-Verb Agreement"
+  },
+  {
+   "q": "Which of the following sentences uses the conjunctions to connect the clauses correctly?",
+   "o": [
+    "Although it was raining but we decided to go for a walk",
+    "She wanted to go for the concert yet she had to finish her homework fast",
+    "He studied hard for the exam so because he wanted to achieve a high score",
+    "Neither the Manager nor the employees was aware of the changes in policy"
+   ],
+   "a": 1,
+   "e": "\"Yet\" correctly joins two contrasting clauses; A and C use double conjunctions and D has an agreement error.",
+   "section": "English",
+   "topic": "Conjunctions"
+  },
+  {
+   "q": "Identify the figure of speech of the following phrase.\nHe has just got some new wheel.",
+   "o": [
+    "Paradox",
+    "Personification",
+    "Synecdoche",
+    "Imagery"
+   ],
+   "a": 2,
+   "e": "Using a part (\"wheels\") for the whole (a car) is synecdoche.",
+   "section": "English",
+   "topic": "Figures of Speech"
+  },
+  {
+   "q": "Which of the following is an action-based and sport related compound word that involves movement?\n(a) Foot print\n(b) Skateboard\n(c) Back pack\n(d) Lifeguard",
+   "o": [
+    "Only (c)",
+    "Only (b)",
+    "Both (a) and (b)",
+    "Only (d)"
+   ],
+   "a": 1,
+   "e": "\"Skateboard\" (skate + board) names sports equipment used in motion.",
+   "section": "English",
+   "topic": "Compound Words"
+  },
+  {
+   "q": "Choose the correct plurals given in the options and fill in the blanks.\n(1) The __(1)__ is for more people to work part-time in the future.\n(2) We are having __(2)__ casserole tonight.\n(3) Smoking is not allowed on the __(3)__\n(4) We discussed the success __(4)__ together\nOptions (A / B / C / D):\n(1) Prognosis / Prognoses / Prognosus / Prognos\n(2) Tuna / Tunas / Tunae / Tunii\n(3) Premisis / Premisus / Premises / Premisas\n(4) Criterion / Criteria / Criterius / Criterian",
+   "o": [
+    "(1)–B (2)–B (3)–A (4)–A",
+    "(1)–A (2)–C (3)–B (4)–A",
+    "(1)–C (2)–A (3)–A (4)–B",
+    "(1)–A (2)–A (3)–C (4)–B"
+   ],
+   "a": 3,
+   "e": "\"The prognosis is\" (singular), tuna (uncountable as food), premises (always plural for a building) and criteria (plural).",
+   "section": "English",
+   "topic": "Plurals"
+  },
+  {
+   "q": "Which of the following word is incorrect in the context of the sentence?\n“After the team's success, the coach felt a great sense of ________ for his player's performance”.",
+   "o": [
+    "Exhilaration",
+    "Exultation",
+    "Exasperation",
+    "Ecstasy"
+   ],
+   "a": 2,
+   "e": "Exasperation means irritation, which contradicts the joy of success.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Fill in the blanks with correct spelling.\n“The restaurant offers a wide variety of delicious ________”.",
+   "o": [
+    "Victuals",
+    "Victuls",
+    "Victuels",
+    "Vistuals"
+   ],
+   "a": 0,
+   "e": "\"Victuals\" (pronounced \"vittles\") means food and provisions.",
+   "section": "English",
+   "topic": "Spelling"
+  },
+  {
+   "q": "Sathyan knew he had ________ the trail sometime ago, but couldn't remember exactly when he had ________ it.\n(a) Passed\n(b) Past\n(c) Pause\n(d) Paws",
+   "o": [
+    "(a) and (a)",
+    "(b) and (a)",
+    "(b) and (b)",
+    "(d) and (c)"
+   ],
+   "a": 0,
+   "e": "Both blanks need the past participle of the verb \"pass\", i.e. \"passed\"; \"past\" is not a verb form.",
+   "section": "English",
+   "topic": "Homophones"
+  },
+  {
+   "q": "What is the plural form of ‘Cactus’ in English? (Not the Latin Form)",
+   "o": [
+    "Cactuse",
+    "Cactuses",
+    "Cacts",
+    "Cactose"
+   ],
+   "a": 1,
+   "e": "The English plural is \"cactuses\"; the Latin plural is \"cacti\".",
+   "section": "English",
+   "topic": "Plurals"
+  },
+  {
+   "q": "Match the one word substitute in Column A with a suitable explanation in Column B and select the correct answer from the code given below :\n(a) Amnesia  1. A study of disease\n(b) Insomnia  2. A continuous talker\n(c) Loquacious  3. Loss of sleep\n(d) Pathology  4. Loss of memory",
+   "o": [
+    "(a)-3, (b)-4, (c)-1, (d)-2",
+    "(a)-4, (b)-3, (c)-2, (d)-1",
+    "(a)-1, (b)-4, (c)-3, (d)-2",
+    "(a)-1, (b)-2, (c)-4, (d)-3"
+   ],
+   "a": 1,
+   "e": "Amnesia = memory loss, insomnia = sleeplessness, loquacious = talkative, pathology = study of disease.",
+   "section": "English",
+   "topic": "One Word Substitution"
+  },
+  {
+   "q": "Fill in the blank with suitable word.\nI ________ my puppy in the ________",
+   "o": [
+    "bathe, mug",
+    "wash, bucket",
+    "bathe, tub",
+    "bath, tub"
+   ],
+   "a": 2,
+   "e": "\"Bathe\" is the verb, and a pet is bathed in a tub.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "A student wishes to suggest an improvement to the college library resources. The best way to phrase the request to the librarian is :\n(a) The library has no good books\n(b) You should buy more books\n(c) The library is terrible\n(d) I've noticed that the library's collection lacks recent publication in the field of Artificial Intelligence. Would it be possible to expand the collection with my researched-list of latest publications",
+   "o": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+   ],
+   "a": 3,
+   "e": "Option (d) is polite, specific and constructive.",
+   "section": "English",
+   "topic": "Formal Communication"
+  },
+  {
+   "q": "In the following sentence ordering, the first (S1) and the sixth (S6) sentences of a passage are already provided. The middle four sentences are shuffled up; they are labelled P Q R and S. Rearrange these four sentences and choose the correct order\nS1 : Once, a renowned writer, decided to unravel the secrets of an ancient manuscript.\nP : This however, exposed that the writer had intentionally modified a few passages, leaving room for multiple interpretations.\nQ : Apparently, the discovery sparked a heated debate among experts.\nR : The manuscript, filled with enigmatic knowledge, had perplexed generations of researchers.\nS : Moreover, the writer delved deeper to unravel the cryptic meaning and symbols.\nS6 : Eventually, the writer's quest for knowledge resonates with the multiple interpretations of experts.",
+   "o": [
+    "S1, S, R, Q, P, S6",
+    "S1, P, Q, S, R, S6",
+    "S1, P, R, Q, S, S6",
+    "S1, R, S, P, Q, S6"
+   ],
+   "a": 3,
+   "e": "R describes the manuscript, S shows deeper study, P gives the finding and Q the resulting debate.",
+   "section": "English",
+   "topic": "Sentence Rearrangement"
+  },
+  {
+   "q": "Write a letter to the editor of a journal about the stagnant rain water issue in your area. Write the format of the letter.\n(a) Salutation\n(b) Date\n(c) Receiver's address\n(d) Signature\n(e) Sender's address\n(f) Subject\n(g) Body of the letter\n(h) Complementary close",
+   "o": [
+    "(f), (g), (h), (d), (a), (c), (b), (e)",
+    "(e), (b), (c), (a), (f), (g), (h), (d)",
+    "(d), (h), (g), (c), (a), (f), (b), (e)",
+    "(a), (e), (b), (c), (g), (d), (h), (f)"
+   ],
+   "a": 1,
+   "e": "Per the key: sender's address, date, receiver's address, salutation, subject, body, complimentary close, signature.",
+   "section": "English",
+   "topic": "Letter Writing"
+  },
+  {
+   "q": "Scenario : A citizen has sent an email to a government agency requesting information about a public program. The agency's policy is to respond with official letters.\nQuestion : Which of the following actions best demonstrates adherence to official correspondence procedures?\n(a) Replying to the email with a brief, formal response.\n(b) Calling the citizen to provide the information over the phone.\n(c) Drafting a formal letter on letter head, including all necessary elements and mailing it to the citizen.\n(d) Forwarding the citizen's email to another department without a response",
+   "o": [
+    "(d) only",
+    "(c) only",
+    "(a) and (c)",
+    "(b) only"
+   ],
+   "a": 2,
+   "e": "A brief formal acknowledgement plus a proper letter on letterhead both follow official procedure.",
+   "section": "English",
+   "topic": "Official Correspondence"
+  },
+  {
+   "q": "Money set aside by a legislative body for some government expenditure is a/an ________.",
+   "o": [
+    "Appropriation",
+    "Bipartisan",
+    "Budget",
+    "Amalgamation"
+   ],
+   "a": 0,
+   "e": "An appropriation is money a legislature sanctions for a specific purpose.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Scenario : A citizen has contacted a Government office seeking clarification on a new policy. Match the general term used by the citizen with the appropriate official term the citizen should use.\n(a) Can you tell me how to fix this form?  1. Is there a procedure to appeal this decision?\n(b) I need to get a copy of my records  2. What are the regulations for this program?\n(c) What are the rules for this program?  3. Can you tell me how to rectify this form?\n(d) Is there a way to appeal this decision?  4. I need to obtain a copy of my records",
+   "o": [
+    "(a)-2, (b)-1, (c)-3, (d)-4",
+    "(a)-1, (b)-2, (c)-4, (d)-3",
+    "(a)-4, (b)-3, (c)-1, (d)-2",
+    "(a)-3, (b)-4, (c)-2, (d)-1"
+   ],
+   "a": 3,
+   "e": "Fix→rectify, get→obtain, rules→regulations, way to appeal→procedure to appeal.",
+   "section": "English",
+   "topic": "Official Correspondence"
+  },
+  {
+   "q": "The term “Compliance” means ________.",
+   "o": [
+    "Adhering to laws, regulations and policies",
+    "Adhering the violations",
+    "Denial",
+    "Adhering the differences"
+   ],
+   "a": 0,
+   "e": "Compliance means conforming to laws, rules and policies.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Match the term in Column A with its correct definition in Column B :\n(a) Appropriation  1. a system of government where decisions are made by state officials\n(b) Bureaucracy  2. a person employed in the public sector\n(c) Jurisdiction  3. the official power to make legal decisions and judgments\n(d) Public servant  4. money set aside for a specific purpose",
+   "o": [
+    "(a)-1, (b)-2, (c)-4, (d)-3",
+    "(a)-4, (b)-1, (c)-3, (d)-2",
+    "(a)-3, (b)-4, (c)-2, (d)-1",
+    "(a)-2, (b)-3, (c)-4, (d)-1"
+   ],
+   "a": 1,
+   "e": "Appropriation = earmarked money, bureaucracy = rule by officials, jurisdiction = legal authority, public servant = public-sector employee.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Passage : E-governance reduces physical paper work. Online data storage enhances security. This facilitates faster service delivery. Increased digital literacy is essential for widespread adoption.\nQuestion : Which of the following conclusions can be drawn from the passage?\n(a) E-governance increases physical paper work\n(b) Online data storage improves security.\n(c) Increased digital literacy is crucial for e-governance success.\n(d) E-governance slow down service delivery",
+   "o": [
+    "(a), (b)",
+    "(b), (d)",
+    "(b), (c)",
+    "(a), (d)"
+   ],
+   "a": 2,
+   "e": "The passage states that online storage improves security and digital literacy is essential; (a) and (d) contradict it.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Passage : NASSCOM and similar global associations both represent tech sectors. NASSCOM focuses on India, others on regional or international markets. Both advocate the growth of the industry. NASSCOM's influence is primarily within India, others have a broader reach.\nQuestion : Which of the following statements accurately compare NASSCOM and similar associations as described in the passage?\n(a) NASSCOM and global associations represent different sectors\n(b) NASSCOM and global associations represent tech sectors\n(c) NASSCOM's influence is primarily within India\n(d) Global associations have limited reach",
+   "o": [
+    "(a) and (d)",
+    "(b) and (c)",
+    "(c) and (a)",
+    "(d) and (b)"
+   ],
+   "a": 1,
+   "e": "Both represent tech sectors and NASSCOM's influence is mainly in India; the others have broader, not limited, reach.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Complete the sentence below, choosing the suitable pair from the given options :\nThe ________ are insufficient to implement the new education policy in rural areas.",
+   "o": [
+    "Wash out",
+    "Ways and Vows",
+    "Ways and Means",
+    "Built in system"
+   ],
+   "a": 2,
+   "e": "\"Ways and means\" refers to the resources and methods (especially funds) to carry something out.",
+   "section": "English",
+   "topic": "Idioms"
+  },
+  {
+   "q": "Passage : The bustling market place was a symphony of sounds and smells, vendors called out their wares, a mix of spices filled the air and the chatter of customers created a lively hum. Colourful textiles hung from stalls and fresh produce was piled high.\nMatch the various aspects of a market place in Column A, with their purpose in Column B :\n(a) Vendors calling out their wares  1. creates a lively hum\n(b) Spices filling the air with their smell  2. appeals to the sense of sight\n(c) Chatter of customers  3. appeals to the sense of smell\n(d) Colourful textiles hanging from stalls  4. indicates commerce and trade",
+   "o": [
+    "(a)-1, (b)-4, (c)-3, (d)-2",
+    "(a)-4, (b)-3, (c)-1, (d)-2",
+    "(a)-2, (b)-1, (c)-4, (d)-3",
+    "(a)-3, (b)-1, (c)-2, (d)-4"
+   ],
+   "a": 1,
+   "e": "Vendors show trade, spices appeal to smell, chatter creates the hum and textiles appeal to sight.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "The Vibrant city streets were alive with the sounds of laughter and music as people celebrated the annual festival. Colourful decorations adorned the buildings and food stalls offered a variety of delicious treats from different cultures.\nWhich question is most suitable based on the given passage?",
+   "o": [
+    "What colours were chosen for the decorations in the city?",
+    "What time do the fireworks start?",
+    "What is the name of the annual festival being celebrated?",
+    "What type of food is being sold at the food stalls in the festival?"
+   ],
+   "a": 3,
+   "e": "Only the food question can be answered from the passage (treats from different cultures).",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Which of the following questions cannot be categorised under the type “weak questions”?\n(1) Are you sure you are okay?\n(2) What is your biggest weakness?\n(3) Ever had a crush?\n(4) Does she have a qualifying degree for this job?\n(5) How will you repay your loan, without a job?",
+   "o": [
+    "(1) and (3)",
+    "(2) and (5)",
+    "(3) and (5)",
+    "(2) and (4)"
+   ],
+   "a": 1,
+   "e": "Open \"What/How\" questions are strong questions; the yes/no questions are weak.",
+   "section": "English",
+   "topic": "Spoken English"
+  },
+  {
+   "q": "The ocean is a vast mysterious place, home to countless species of marine life. From colourful coral reefs to deep sea creatures, the underwater world is full of wonders waiting to be explored. As we learn more about the ocean, it becomes clear that protecting this vital eco system is essential for the health of our planet.\nWhich question is related to the given passage?",
+   "o": [
+    "What type of boats are commonly used for fishing in the ocean?",
+    "Why is protecting the ocean ecosystem vital for the health of our planet?",
+    "What is the name of the deepest part of the ocean?",
+    "Which ocean is known for having most shipwrecks?"
+   ],
+   "a": 1,
+   "e": "The passage ends by stressing why protecting the ocean ecosystem matters; the other questions are outside it.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "A small town of Brooksville is famous for its annual harvest festival, which celebrates the local farming community. The festival features pumpkin carving contests, hayrides and a petting zoo.\nWhich of the following activities is ‘NOT mentioned’ as part of the festival?",
+   "o": [
+    "Pumpkin carving contests",
+    "Hayrides",
+    "A talent show",
+    "A petting zoo"
+   ],
+   "a": 2,
+   "e": "A talent show is not listed among the festival features.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Read the passage and answer: Vitamin C is an essential ingredient for human beings. It is required for the synthesis of intercellular cement “collagen” which is responsible for keeping various cells of the human body together. As an oxidant, it acts like a cop in the body, apprehending the rowdy molecules called free radicals. The richest source of Vitamin C is amla. The other sources are lemon, orange, papaya, pineapple, cabbage, cauliflower, green peas and tomato. While cooking above 70°C Vitamin C gets destroyed.\nVitamin C is important for us because it is,",
+   "o": [
+    "Required for intercellular cement collagen",
+    "Required for everyday activity",
+    "Required for digestion",
+    "Required for metabolism"
+   ],
+   "a": 0,
+   "e": "The passage says Vitamin C is needed to synthesise collagen, the intercellular cement.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Read the passage and answer: Vitamin C is an essential ingredient for human beings. It is required for the synthesis of intercellular cement “collagen” which is responsible for keeping various cells of the human body together. As an oxidant, it acts like a cop in the body, apprehending the rowdy molecules called free radicals. The richest source of Vitamin C is amla. The other sources are lemon, orange, papaya, pineapple, cabbage, cauliflower, green peas and tomato. While cooking above 70°C Vitamin C gets destroyed.\nWhat does the word ‘Cop’ mean in the given context?",
+   "o": [
+    "Doctor",
+    "Nurse",
+    "Nutritionist",
+    "Police"
+   ],
+   "a": 3,
+   "e": "\"Cop\" is slang for police, matching \"apprehending the rowdy molecules\".",
+   "section": "English",
+   "topic": "Vocabulary in Context"
+  },
+  {
+   "q": "Read the passage and answer: Vitamin C is an essential ingredient for human beings. It is required for the synthesis of intercellular cement “collagen” which is responsible for keeping various cells of the human body together. As an oxidant, it acts like a cop in the body, apprehending the rowdy molecules called free radicals. The richest source of Vitamin C is amla. The other sources are lemon, orange, papaya, pineapple, cabbage, cauliflower, green peas and tomato. While cooking above 70°C Vitamin C gets destroyed.\nWhat is amla rich in?",
+   "o": [
+    "Vitamin A",
+    "Vitamin B",
+    "Vitamin C",
+    "Vitamin D"
+   ],
+   "a": 2,
+   "e": "The passage calls amla the richest source of Vitamin C.",
+   "section": "English",
+   "topic": "Comprehension"
+  },
+  {
+   "q": "Fill in the blanks using the suitable words given in the options.\nThe old man had been suffering with a severe nervous disorder. He __(1)__ in pain and __(2)__. However __(3)__ while walking. On seeing his old friend he was __(4)__ and __(5)__ him with hope to get some help.\n(1) tottered over (2) startled (3) grunted (4) approached (5) stumbled",
+   "o": [
+    "(5), (3), (2), (1), (4)",
+    "(2), (5), (3), (4), (1)",
+    "(3), (5), (1), (4), (2)",
+    "(3), (1), (5), (2), (4)"
+   ],
+   "a": 3,
+   "e": "He grunted in pain and tottered over, stumbled while walking, was startled on seeing his friend and approached him.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Which of the following statements are true about ‘Turtles’?\n(1) Sea Turtles live their life entirely in the ocean.\n(2) There are six species of turtles in the world.\n(3) Turtles come ashore to lay eggs.",
+   "o": [
+    "(1) only",
+    "(2) and (3) only",
+    "(1) and (3) only",
+    "(1) and (2) only"
+   ],
+   "a": 2,
+   "e": "Per the key, sea turtles spend practically their whole lives at sea, with females coming ashore only to nest; there are seven sea-turtle species, not six.",
+   "section": "English",
+   "topic": "General English"
+  },
+  {
+   "q": "Fill in the blanks using the words given in the options.\nSachin often tried to ________ the mannerisms of his favourite players. He wanted to ________ cricket seriously. He had to take the remarks in his ________. On the whole, he could admire Achrekar Sir's ________.\n(1) Pursue (2) Emulate (3) Farsightedness (4) Stride",
+   "o": [
+    "(1), (2), (4), (3)",
+    "(2), (1), (4), (3)",
+    "(3), (2), (1), (4)",
+    "(4), (2), (1), (3)"
+   ],
+   "a": 1,
+   "e": "Emulate the mannerisms, pursue cricket, take remarks in his stride, admire his farsightedness.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "Choose the right matches among these :\n(1) Leechal Shoes – A.P.J. Abdul Kalam\n(2) Blee Watch – Nupura Kirloskar\n(3) IGEST – Anil Prabhakar\n(4) Light Weight Prosthetic Shoes – Krispian Lawrence",
+   "o": [
+    "(1) and (3) are correct",
+    "(1) and (2) are correct",
+    "(2) and (3) are correct",
+    "(3) and (4) are correct"
+   ],
+   "a": 2,
+   "e": "Blee watch (for the hearing-impaired) is by Nupura Kirloskar and IGEST by Anil Prabhakar; Lechal shoes are by Krispian Lawrence and the light prosthetic (calipers) by Kalam.",
+   "section": "English",
+   "topic": "General English"
+  },
+  {
+   "q": "Identify the figure of speech in the poetic lines given below :\nDown in the hill sat the little doggie Nell\nThere she dillied and she dallied all\nDay, Day, Day :",
+   "o": [
+    "Assonance",
+    "Consonance",
+    "Alliteration",
+    "Anaphora"
+   ],
+   "a": 1,
+   "e": "Repetition of the \"l\" and \"d\" consonant sounds within words (Nell, dillied, dallied, all) is consonance.",
+   "section": "English",
+   "topic": "Figures of Speech"
+  },
+  {
+   "q": "Identify the figure of speech in the lines given below :\nNo time to see, when woods we pass,\nWhere squirrels hide their nuts in grass.\nNo time to see, in broad daylight,\nStreams full of stars, like skies at night,\nNo time to turn at Beauty's glance,",
+   "o": [
+    "Consonance",
+    "Assonance",
+    "Anaphora",
+    "Personification"
+   ],
+   "a": 2,
+   "e": "Lines repeatedly begin with \"No time to\", which is anaphora.",
+   "section": "English",
+   "topic": "Figures of Speech"
+  }
+ ]
+}

@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Bharatanatyam, one of India's oldest classical dances, originated in:",
+  "o": [
+   "Kerala",
+   "Odisha",
+   "Tamil Nadu",
+   "Karnataka"
+  ],
+  "a": 2,
+  "e": "Bharatanatyam developed in the temples of Tamil Nadu.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "easy"
+ },
+ {
+  "q": "Pongal, the harvest festival of Tamil Nadu, is celebrated in the Tamil month of:",
+  "o": [
+   "Thai",
+   "Aadi",
+   "Karthigai",
+   "Chithirai"
+  ],
+  "a": 0,
+  "e": "Pongal is celebrated at the start of the month of Thai (mid-January).",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "easy"
+ },
+ {
+  "q": "The Meenakshi Amman Temple is located in which city?",
+  "o": [
+   "Tiruchirappalli",
+   "Thanjavur",
+   "Kanchipuram",
+   "Madurai"
+  ],
+  "a": 3,
+  "e": "The Meenakshi Amman Temple stands on the banks of the Vaigai in Madurai.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "easy"
+ },
+ {
+  "q": "The Shore Temple at Mamallapuram was built by which dynasty?",
+  "o": [
+   "Cholas",
+   "Cheras",
+   "Pandyas",
+   "Pallavas"
+  ],
+  "a": 3,
+  "e": "The Shore Temple (8th century) was built under the Pallava king Narasimhavarman II (Rajasimha).",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "easy"
+ },
+ {
+  "q": "Which town of Tamil Nadu is famous for its silk sarees?",
+  "o": [
+   "Coimbatore",
+   "Erode",
+   "Kanchipuram",
+   "Salem"
+  ],
+  "a": 2,
+  "e": "Kanchipuram silk sarees are GI-tagged and world-renowned.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "easy"
+ },
+ {
+  "q": "The Thirukkural, a classic Tamil work on ethics, was written by:",
+  "o": [
+   "Ilango Adigal",
+   "Thiruvalluvar",
+   "Avvaiyar",
+   "Kambar"
+  ],
+  "a": 1,
+  "e": "Thiruvalluvar composed the Thirukkural of 1,330 couplets.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "easy"
+ },
+ {
+  "q": "Jallikattu, a traditional bull-taming sport of Tamil Nadu, is held during:",
+  "o": [
+   "Karthigai Deepam",
+   "Pongal",
+   "Onam",
+   "Deepavali"
+  ],
+  "a": 1,
+  "e": "Jallikattu is played as part of the Pongal celebrations, especially Mattu Pongal.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "easy"
+ },
+ {
+  "q": "The Ramanathaswamy Temple at Rameswaram is located on which island?",
+  "o": [
+   "Kachchatheevu",
+   "Pamban Island",
+   "Krusadai Island",
+   "Hare Island"
+  ],
+  "a": 1,
+  "e": "Rameswaram town and its temple are on Pamban Island.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "easy"
+ },
+ {
+  "q": "The Brihadeeswarar Temple at Thanjavur was built by which Chola ruler?",
+  "o": [
+   "Rajaraja Chola I",
+   "Rajendra Chola I",
+   "Karikala Chola",
+   "Kulothunga Chola I"
+  ],
+  "a": 0,
+  "e": "Rajaraja Chola I completed the Brihadeeswarar Temple around 1010 CE.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "medium"
+ },
+ {
+  "q": "Madras State was renamed Tamil Nadu in which year?",
+  "o": [
+   "1969",
+   "1972",
+   "1956",
+   "1960"
+  ],
+  "a": 0,
+  "e": "Madras State was renamed Tamil Nadu on 14 January 1969.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "medium"
+ },
+ {
+  "q": "Which language was the first to be declared a classical language of India, in 2004?",
+  "o": [
+   "Telugu",
+   "Sanskrit",
+   "Kannada",
+   "Tamil"
+  ],
+  "a": 3,
+  "e": "Tamil was declared India's first classical language in 2004.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "medium"
+ },
+ {
+  "q": "The Mettur Dam, which forms the Stanley Reservoir, is built across:",
+  "o": [
+   "Vaigai",
+   "Kaveri",
+   "Thamirabarani",
+   "Palar"
+  ],
+  "a": 1,
+  "e": "Mettur Dam on the Kaveri is in Salem district.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "medium"
+ },
+ {
+  "q": "Doddabetta, the highest peak of Tamil Nadu, is in which hill range?",
+  "o": [
+   "Javadi",
+   "Anaimalai",
+   "Nilgiris",
+   "Palani"
+  ],
+  "a": 2,
+  "e": "Doddabetta (2,637 m) is in the Nilgiri Hills near Ooty.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "medium"
+ },
+ {
+  "q": "Mudumalai National Park and Tiger Reserve is located in which district?",
+  "o": [
+   "Coimbatore",
+   "Theni",
+   "Nilgiris",
+   "Dindigul"
+  ],
+  "a": 2,
+  "e": "Mudumalai lies in the Nilgiris district at the Kerala-Karnataka tri-junction.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "medium"
+ },
+ {
+  "q": "The Gulf of Mannar Marine National Park lies between India and:",
+  "o": [
+   "Sri Lanka",
+   "Andaman Islands",
+   "Myanmar",
+   "Maldives"
+  ],
+  "a": 0,
+  "e": "The Gulf of Mannar separates Tamil Nadu from Sri Lanka and hosts a marine national park.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "medium"
+ },
+ {
+  "q": "Which Tamil poet and freedom fighter is known as 'Mahakavi'?",
+  "o": [
+   "Subramania Bharati",
+   "Namakkal Kavignar",
+   "Kambar",
+   "Bharathidasan"
+  ],
+  "a": 0,
+  "e": "Subramania Bharati, a nationalist poet, is called Mahakavi Bharathiyar.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "medium"
+ },
+ {
+  "q": "What is the state animal of Tamil Nadu?",
+  "o": [
+   "Indian elephant",
+   "Gaur",
+   "Nilgiri tahr",
+   "Bengal tiger"
+  ],
+  "a": 2,
+  "e": "The Nilgiri tahr is the state animal of Tamil Nadu.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "medium"
+ },
+ {
+  "q": "V. O. Chidambaram Pillai, called 'Kappalottiya Tamizhan', founded in 1906 the:",
+  "o": [
+   "Justice Party",
+   "Swadeshi Steam Navigation Company",
+   "Madras Mahajana Sabha",
+   "Self-Respect Movement"
+  ],
+  "a": 1,
+  "e": "VOC started the Swadeshi Steam Navigation Company at Thoothukudi to challenge British shipping.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "hard"
+ },
+ {
+  "q": "What is the state bird of Tamil Nadu?",
+  "o": [
+   "Peacock",
+   "Great hornbill",
+   "Indian roller",
+   "Emerald dove"
+  ],
+  "a": 3,
+  "e": "The emerald dove is the state bird of Tamil Nadu.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "hard"
+ },
+ {
+  "q": "The ancient Tamil Sangams (literary academies) are traditionally associated with which dynasty's capital?",
+  "o": [
+   "Pallavas (Kanchi)",
+   "Cholas (Uraiyur)",
+   "Cheras (Vanji)",
+   "Pandyas (Madurai)"
+  ],
+  "a": 3,
+  "e": "Tradition places the Sangams under Pandya patronage, the third at Madurai.",
+  "topic": "Tamil Nadu GK",
+  "state": "Tamil Nadu",
+  "level": "hard"
+ }
+]

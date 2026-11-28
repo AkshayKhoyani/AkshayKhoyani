@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Chhattisgarh came into existence as a separate state on:",
+  "o": [
+   "1 November 1956",
+   "1 November 2000",
+   "15 November 2000",
+   "9 November 2000"
+  ],
+  "a": 1,
+  "e": "Chhattisgarh was carved out of Madhya Pradesh on 1 November 2000.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "easy"
+ },
+ {
+  "q": "Chitrakote Falls, called the 'Niagara of India', is on which river?",
+  "o": [
+   "Hasdeo",
+   "Sabari",
+   "Mahanadi",
+   "Indravati"
+  ],
+  "a": 3,
+  "e": "Chitrakote Falls on the Indravati is near Jagdalpur in Bastar.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "easy"
+ },
+ {
+  "q": "Bastar Dussehra is unique because it lasts about 75 days and is devoted to:",
+  "o": [
+   "Lord Jagannath",
+   "Lord Ganesha",
+   "Goddess Danteshwari",
+   "Lord Rama"
+  ],
+  "a": 2,
+  "e": "Bastar Dussehra honours the tribal deity Danteshwari rather than Rama's victory.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "easy"
+ },
+ {
+  "q": "What is the state bird of Chhattisgarh?",
+  "o": [
+   "Sarus crane",
+   "Indian roller",
+   "Koel",
+   "Hill myna"
+  ],
+  "a": 3,
+  "e": "The common hill myna (Pahadi Maina) is the state bird of Chhattisgarh.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "easy"
+ },
+ {
+  "q": "Chhattisgarh is popularly known as the 'Rice Bowl of ____'.",
+  "o": [
+   "India",
+   "Bengal",
+   "Southeast Asia",
+   "The Deccan"
+  ],
+  "a": 0,
+  "e": "Chhattisgarh's extensive paddy cultivation earned it the title 'Rice Bowl of India'.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "easy"
+ },
+ {
+  "q": "The Bhilai Steel Plant was set up with the collaboration of which country?",
+  "o": [
+   "United Kingdom",
+   "Japan",
+   "Soviet Union",
+   "West Germany"
+  ],
+  "a": 2,
+  "e": "Bhilai Steel Plant was established with Soviet assistance in 1955-59.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "easy"
+ },
+ {
+  "q": "Teejan Bai is a famous exponent of which folk narrative art of Chhattisgarh?",
+  "o": [
+   "Pandavani",
+   "Raut Nacha",
+   "Suwa",
+   "Nacha"
+  ],
+  "a": 0,
+  "e": "Teejan Bai is renowned for Pandavani, the musical narration of the Mahabharata.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "easy"
+ },
+ {
+  "q": "What is the main regional language of Chhattisgarh, declared an official language of the state?",
+  "o": [
+   "Maithili",
+   "Chhattisgarhi",
+   "Bundeli",
+   "Halbi"
+  ],
+  "a": 1,
+  "e": "Chhattisgarhi was recognised as an official language of the state in 2007.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "easy"
+ },
+ {
+  "q": "Panthi, a devotional dance, is associated with which community of Chhattisgarh?",
+  "o": [
+   "Gond",
+   "Baiga",
+   "Muria",
+   "Satnami"
+  ],
+  "a": 3,
+  "e": "Panthi is performed by the Satnami community in honour of Guru Ghasidas.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "medium"
+ },
+ {
+  "q": "Guru Ghasidas, a 19th-century social reformer of Chhattisgarh, founded which sect?",
+  "o": [
+   "Satnami Panth",
+   "Brahmo Samaj",
+   "Kabir Panth",
+   "Arya Samaj"
+  ],
+  "a": 0,
+  "e": "Guru Ghasidas founded the Satnami Panth preaching equality and truth (Satnam).",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "medium"
+ },
+ {
+  "q": "Kanger Valley National Park, known for limestone caves like Kotumsar, is in:",
+  "o": [
+   "Raigarh",
+   "Surguja",
+   "Bastar",
+   "Bilaspur"
+  ],
+  "a": 2,
+  "e": "Kanger Valley National Park lies near Jagdalpur in Bastar district.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "medium"
+ },
+ {
+  "q": "What is the state animal of Chhattisgarh?",
+  "o": [
+   "Tiger",
+   "Wild water buffalo",
+   "Gaur",
+   "Blackbuck"
+  ],
+  "a": 1,
+  "e": "The wild water buffalo (Van Bhainsa) is Chhattisgarh's state animal.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "medium"
+ },
+ {
+  "q": "Which temple is popularly called the 'Khajuraho of Chhattisgarh'?",
+  "o": [
+   "Lakshmana temple, Sirpur",
+   "Bhoramdeo",
+   "Mahamaya",
+   "Danteshwari"
+  ],
+  "a": 1,
+  "e": "Bhoramdeo temple in Kabirdham (Kawardha) district resembles Khajuraho's style.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "medium"
+ },
+ {
+  "q": "Dhokra, a craft practised in Bastar, is a type of:",
+  "o": [
+   "Terracotta painting",
+   "Lost-wax metal casting",
+   "Silk embroidery",
+   "Bamboo weaving"
+  ],
+  "a": 1,
+  "e": "Dhokra is non-ferrous metal casting using the lost-wax technique.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "medium"
+ },
+ {
+  "q": "The Hasdeo Bango (Minimata) Dam is built on which river?",
+  "o": [
+   "Mahanadi",
+   "Shivnath",
+   "Hasdeo",
+   "Indravati"
+  ],
+  "a": 2,
+  "e": "Hasdeo Bango Dam is on the Hasdeo, a tributary of the Mahanadi, in Korba district.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "medium"
+ },
+ {
+  "q": "Rajim, called the 'Prayag of Chhattisgarh', is at the confluence of the Mahanadi with which rivers?",
+  "o": [
+   "Shivnath and Hasdeo",
+   "Arpa and Maniyari",
+   "Indravati and Sabari",
+   "Pairi and Sondur"
+  ],
+  "a": 3,
+  "e": "Rajim lies where the Mahanadi, Pairi and Sondur meet; the Rajim Kumbh is held there.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "medium"
+ },
+ {
+  "q": "The Ghotul, a traditional youth dormitory, is an institution of which tribe of Bastar?",
+  "o": [
+   "Bhil",
+   "Santhal",
+   "Khasi",
+   "Muria"
+  ],
+  "a": 3,
+  "e": "The Ghotul is the village youth dormitory of the Muria Gonds of Bastar.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "medium"
+ },
+ {
+  "q": "The brick-built Lakshmana temple, one of India's finest early brick temples, is at:",
+  "o": [
+   "Ratanpur",
+   "Arang",
+   "Sirpur",
+   "Malhar"
+  ],
+  "a": 2,
+  "e": "The 7th-century Lakshmana temple at Sirpur is built of brick.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "hard"
+ },
+ {
+  "q": "The Mahanadi river originates near which place in Chhattisgarh?",
+  "o": [
+   "Sihawa",
+   "Chilpi",
+   "Amarkantak",
+   "Mainpat"
+  ],
+  "a": 0,
+  "e": "The Mahanadi rises in the Sihawa hills of Dhamtari district.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "hard"
+ },
+ {
+  "q": "Indravati National Park, a tiger reserve of Chhattisgarh, is in which district?",
+  "o": [
+   "Bijapur",
+   "Kanker",
+   "Balrampur",
+   "Kondagaon"
+  ],
+  "a": 0,
+  "e": "Indravati National Park lies in Bijapur district along the Indravati river.",
+  "topic": "Chhattisgarh GK",
+  "state": "Chhattisgarh",
+  "level": "hard"
+ }
+]

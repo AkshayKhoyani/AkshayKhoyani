@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Bharatanatyam is a classical dance form of:",
+  "o": [
+   "Kerala",
+   "Karnataka",
+   "Andhra Pradesh",
+   "Tamil Nadu"
+  ],
+  "a": 3,
+  "e": "Bharatanatyam developed in the temples of Tamil Nadu.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Kathakali is a classical dance-drama of:",
+  "o": [
+   "Tamil Nadu",
+   "Kerala",
+   "Odisha",
+   "Manipur"
+  ],
+  "a": 1,
+  "e": "Kathakali from Kerala is known for its colourful make-up and costumes.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Kuchipudi classical dance originated in:",
+  "o": [
+   "Kerala",
+   "Odisha",
+   "Assam",
+   "Andhra Pradesh"
+  ],
+  "a": 3,
+  "e": "Kuchipudi is named after a village in Krishna district of Andhra Pradesh.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Bihu is the main festival of:",
+  "o": [
+   "Punjab",
+   "Assam",
+   "Kerala",
+   "Gujarat"
+  ],
+  "a": 1,
+  "e": "Bihu is celebrated in Assam; Rongali Bihu marks the Assamese New Year.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Pongal is a harvest festival mainly celebrated in:",
+  "o": [
+   "Punjab",
+   "West Bengal",
+   "Maharashtra",
+   "Tamil Nadu"
+  ],
+  "a": 3,
+  "e": "Pongal is a four-day harvest festival of Tamil Nadu.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "The Ajanta Caves are located in:",
+  "o": [
+   "Madhya Pradesh",
+   "Karnataka",
+   "Odisha",
+   "Maharashtra"
+  ],
+  "a": 3,
+  "e": "The Buddhist Ajanta Caves near Aurangabad (Chhatrapati Sambhajinagar) are famous for murals.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "The Sun Temple of Konark is in:",
+  "o": [
+   "Gujarat",
+   "Odisha",
+   "West Bengal",
+   "Andhra Pradesh"
+  ],
+  "a": 1,
+  "e": "The Konark Sun Temple in Odisha is shaped like a giant chariot.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "The Khajuraho group of temples is in:",
+  "o": [
+   "Uttar Pradesh",
+   "Madhya Pradesh",
+   "Rajasthan",
+   "Bihar"
+  ],
+  "a": 1,
+  "e": "Khajuraho temples, built by the Chandelas, are in Madhya Pradesh.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Madhubani painting is associated with:",
+  "o": [
+   "Bihar",
+   "Rajasthan",
+   "Odisha",
+   "Gujarat"
+  ],
+  "a": 0,
+  "e": "Madhubani (Mithila) painting comes from the Mithila region of Bihar.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Garba is a popular folk dance of:",
+  "o": [
+   "Gujarat",
+   "Punjab",
+   "Rajasthan",
+   "Assam"
+  ],
+  "a": 0,
+  "e": "Garba is performed in Gujarat, especially during Navratri.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Ustad Bismillah Khan is famous for playing the:",
+  "o": [
+   "Sitar",
+   "Shehnai",
+   "Tabla",
+   "Sarod"
+  ],
+  "a": 1,
+  "e": "Bharat Ratna Bismillah Khan made the shehnai popular worldwide.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Ghoomar is a traditional folk dance of:",
+  "o": [
+   "Gujarat",
+   "Haryana",
+   "Rajasthan",
+   "Uttar Pradesh"
+  ],
+  "a": 2,
+  "e": "Ghoomar is performed by women in Rajasthan with swirling movements.",
+  "topic": "Art & Culture",
+  "level": "easy"
+ },
+ {
+  "q": "Warli painting is a tribal art form of:",
+  "o": [
+   "Odisha",
+   "Jharkhand",
+   "Maharashtra",
+   "Bihar"
+  ],
+  "a": 2,
+  "e": "Warli art by the Warli tribe of Maharashtra uses simple white figures.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Sattriya classical dance belongs to:",
+  "o": [
+   "Manipur",
+   "Odisha",
+   "West Bengal",
+   "Assam"
+  ],
+  "a": 3,
+  "e": "Sattriya was introduced by Srimanta Sankardeva in the Vaishnava monasteries (sattras) of Assam.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The Hornbill Festival is celebrated in:",
+  "o": [
+   "Mizoram",
+   "Meghalaya",
+   "Nagaland",
+   "Arunachal Pradesh"
+  ],
+  "a": 2,
+  "e": "The Hornbill Festival in Nagaland showcases Naga tribal culture every December.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The rock-cut rathas (Pancha Rathas) of Mahabalipuram were built by the:",
+  "o": [
+   "Pallavas",
+   "Cholas",
+   "Chalukyas",
+   "Pandyas"
+  ],
+  "a": 0,
+  "e": "The Pallavas built the monuments of Mahabalipuram in the 7th-8th centuries.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Hampi, a UNESCO World Heritage Site, was the capital of:",
+  "o": [
+   "Chola Empire",
+   "Bahmani Sultanate",
+   "Rashtrakuta Empire",
+   "Vijayanagara Empire"
+  ],
+  "a": 3,
+  "e": "Hampi in Karnataka was the capital of the Vijayanagara Empire.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Pt. Hariprasad Chaurasia is a renowned player of:",
+  "o": [
+   "Santoor",
+   "Sitar",
+   "Violin",
+   "Flute"
+  ],
+  "a": 3,
+  "e": "Hariprasad Chaurasia is a master of the bansuri (bamboo flute).",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Pattachitra, a cloth-based scroll painting, is mainly associated with:",
+  "o": [
+   "Punjab",
+   "Gujarat",
+   "Odisha",
+   "Himachal Pradesh"
+  ],
+  "a": 2,
+  "e": "Pattachitra of Odisha often shows stories of Lord Jagannath.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Kalamkari, a hand-painted or block-printed textile art, is mainly associated with:",
+  "o": [
+   "Andhra Pradesh",
+   "Rajasthan",
+   "Assam",
+   "Punjab"
+  ],
+  "a": 0,
+  "e": "Kalamkari ('pen work') is famous in Srikalahasti and Machilipatnam in Andhra Pradesh.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Saint Tyagaraja is associated with which form of music?",
+  "o": [
+   "Hindustani music",
+   "Sufi music",
+   "Rabindra Sangeet",
+   "Carnatic music"
+  ],
+  "a": 3,
+  "e": "Tyagaraja is one of the Trinity of Carnatic music.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Lavani is a popular folk dance form of:",
+  "o": [
+   "Kerala",
+   "Punjab",
+   "Maharashtra",
+   "Assam"
+  ],
+  "a": 2,
+  "e": "Lavani is performed to the beat of the dholki in Maharashtra.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Gandhara art shows a strong influence of:",
+  "o": [
+   "Chinese art",
+   "Persian miniature art",
+   "Greek (Hellenistic) art",
+   "Egyptian art"
+  ],
+  "a": 2,
+  "e": "Gandhara art blended Indian Buddhist themes with Greco-Roman styles.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The marble Dilwara Jain temples are located at:",
+  "o": [
+   "Palitana",
+   "Mount Abu",
+   "Shravanabelagola",
+   "Ranakpur"
+  ],
+  "a": 1,
+  "e": "The Dilwara temples are at Mount Abu in Rajasthan.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The Great Stupa of Sanchi is in which state?",
+  "o": [
+   "Madhya Pradesh",
+   "Bihar",
+   "Uttar Pradesh",
+   "Maharashtra"
+  ],
+  "a": 0,
+  "e": "The Sanchi Stupa, first built under Ashoka, is near Bhopal in Madhya Pradesh.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "Yakshagana, a traditional theatre form, belongs to:",
+  "o": [
+   "Karnataka",
+   "Kerala",
+   "Tamil Nadu",
+   "Goa"
+  ],
+  "a": 0,
+  "e": "Yakshagana combines dance, music and dialogue in coastal Karnataka.",
+  "topic": "Art & Culture",
+  "level": "medium"
+ },
+ {
+  "q": "The Konark Sun Temple was built by which ruler?",
+  "o": [
+   "Anantavarman Chodaganga",
+   "Rajaraja Chola I",
+   "Narasimhadeva I",
+   "Kharavela"
+  ],
+  "a": 2,
+  "e": "Eastern Ganga king Narasimhadeva I built it in the 13th century.",
+  "topic": "Art & Culture",
+  "level": "hard"
+ },
+ {
+  "q": "The Kailasa temple at Ellora was built under which dynasty?",
+  "o": [
+   "Rashtrakuta",
+   "Chalukya",
+   "Pallava",
+   "Satavahana"
+  ],
+  "a": 0,
+  "e": "Rashtrakuta king Krishna I had the Kailasa temple carved from a single rock.",
+  "topic": "Art & Culture",
+  "level": "hard"
+ },
+ {
+  "q": "The stepwell 'Rani ki Vav', a UNESCO World Heritage Site, is in:",
+  "o": [
+   "Jaipur, Rajasthan",
+   "Patan, Gujarat",
+   "Hampi, Karnataka",
+   "Gwalior, Madhya Pradesh"
+  ],
+  "a": 1,
+  "e": "Rani ki Vav in Patan was built in the 11th century in memory of Solanki king Bhima I.",
+  "topic": "Art & Culture",
+  "level": "hard"
+ },
+ {
+  "q": "The Lucknow gharana is a well-known school of which art?",
+  "o": [
+   "Bharatanatyam dance",
+   "Odissi dance",
+   "Kathak dance",
+   "Kuchipudi dance"
+  ],
+  "a": 2,
+  "e": "Kathak has three main gharanas: Lucknow, Jaipur and Banaras.",
+  "topic": "Art & Culture",
+  "level": "hard"
+ }
+]

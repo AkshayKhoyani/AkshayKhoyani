@@ -1,0 +1,47 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Free Mock Test – Brand Cast Reel</title>
+<style>html,body{margin:0;background:#071a3d}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/ej.js"></script>
+<script>
+// Facts: employmentjunction.in/free-mock-test/ – 151 v2 tests (66 full-length exam mocks, 61 topic-wise, 24 state GK) + 22 quick tests;
+// official pattern + syllabus-wise topics; timer, instant score, solutions, no login, free; previous-year papers with official answer keys.
+const { C, ctx, txt, pop, words, pill, card, counter, stamp, check, endCard, commentCTA, cast, bubble } = EJ;
+window.SCENES = [
+  { dur: 5, draw(t) {
+    pill(t, 0.05, '🎯 SARKARI EXAM TAIYARI', 300, C.gold);
+    words(t, 0.4, 'FREE MOCK', 520, { size: 130, colors: [C.gold, C.text] });
+    words(t, 0.8, 'TEST 2026', 660, { size: 130, colors: [C.text, C.sky] });
+    cast(t, 'naukri_bhaiya', 0.6, 560, 1880, 1080, { from: 'bottom', talk: [[0.8, 4.6]] });
+    bubble(t, 1.4, 'Namaste dosto!\nTaiyari kar rahe ho?', 700, 770, { tail: 'left' });
+  }},
+  { dur: 8, draw(t) {
+    cast(t, 'exam_didi', 0.1, 270, 1880, 1000, { from: 'left', talk: [[0.3, 7.5]] });
+    pop(t, 0.3, 'Exam Didi kehti hain:', 700, 330, { size: 46, color: C.muted });
+    counter(t, 0.6, 1.4, 150, 700, 560, { size: 210, suffix: '+' });
+    pop(t, 1.4, 'FREE MOCK TESTS', 700, 680, { size: 56 });
+    ['SSC', 'Railway', 'Bank', 'Police', 'CTET', 'UPSC'].forEach((s, i) => pill(t, 2.2 + i * 0.35, s, 800 + i * 95, [C.gold, C.sky, C.green, C.red, C.saffron, C.blue][i], i === 3 || i === 5 ? '#fff' : '#071a3d', 40));
+    stamp(t, 5, 'SYLLABUS-WISE', 700, 1460, C.green, -0.08, 70);
+  }},
+  { dur: 7.5, draw(t) {
+    cast(t, 'junction_bot', 0.1, 790, 1860, 820, { from: 'right', talk: [[0.3, 7]] });
+    pill(t, 0.05, '⚡ FEATURES', 330, C.sky);
+    card(t, 0.3, 60, 450, 620, 760, {});
+    check(t, 0.7, 110, 570, 'Timer ⏱');
+    check(t, 1.5, 110, 700, 'Instant Score');
+    check(t, 2.3, 110, 830, 'Full Solutions');
+    check(t, 3.1, 110, 960, 'No Login');
+    check(t, 3.9, 110, 1090, '100% FREE', { color: C.green2 });
+    bubble(t, 4.6, 'Beep! Bilkul free!', 790, 940, { tail: 'right', size: 40 });
+  }},
+  { dur: 7, draw(t) {
+    cast(t, 'result_chacha', 0.1, 620, 1880, 1050, { from: 'bottom', talk: [[0.3, 6.6]] });
+    pill(t, 0.05, '📄 PREVIOUS YEAR PAPERS', 330, C.gold);
+    words(t, 0.5, 'Official Answer Key', 480, { size: 78, colors: [C.text, C.gold, C.gold] });
+    words(t, 1.1, 'ke saath', 580, { size: 64 });
+    bubble(t, 2.4, 'Test do, score dekho,\nselection pakka beta!', 470, 860, { tail: 'right', size: 42 });
+  }},
+  { dur: 7, noWatermark: true, draw(t) { commentCTA(t, 0.05, 'MOCK', 300); cast(t, 'naukri_bhaiya', 0.5, 280, 1880, 600, { from: 'left' }); cast(t, 'junction_bot', 0.6, 540, 1880, 420, { from: 'bottom' }); cast(t, 'exam_didi', 0.7, 810, 1880, 600, { from: 'right' }); endCard(t, 0.9); }}
+];
+EJ.start();
+</script></body></html>

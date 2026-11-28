@@ -1,0 +1,1081 @@
+{
+ "exam": "Kerala PSC Degree Level Preliminary Examination (SI of Police, Excise Inspector, Assistant, Special Branch Assistant etc.)",
+ "paper": "Question Paper Code 048/2026, Booklet A (English medium), held 16-May-2026",
+ "year": 2026,
+ "board": "Kerala Public Service Commission",
+ "state": "Kerala",
+ "lang": "en",
+ "source_paper": "https://www.keralapsc.gov.in/sites/default/files/2026-05/048-2026-A.pdf",
+ "source_key": "https://www.keralapsc.gov.in/sites/default/files/2026-06/finalkey.pdf",
+ "duration_min": 75,
+ "marks_per_q": 1,
+ "negative": 0.33,
+ "questions": [
+  {
+   "q": "Which of the following statements is/are true regarding the Portuguese Power in Kerala?\n(i) The first printing presses in Kerala were established by the Portuguese.\n(ii) Vasco Da Gama died at Cochin in 1524 and his body was inferred temporarily in the Church there.\n(iii) De Almeida was the last Portuguese Viceroy in India.",
+   "o": [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "All of the above ((i), (ii) and (iii))"
+   ],
+   "a": 0,
+   "e": "The Portuguese set up the first printing presses in Kerala and Vasco da Gama died at Kochi in 1524 (buried first at St. Francis Church); Almeida was the first, not the last, Viceroy.",
+   "section": "State GK",
+   "topic": "Kerala History"
+  },
+  {
+   "q": "Name the person who composed ‘Adibhasha’, a work in the field of linguistics :\n(i) Vaikunta Swamikal\n(ii) Chattampi Swamikal\n(iii) Kumaran Asan",
+   "o": [
+    "Only (i)",
+    "Only (ii)",
+    "Only (iii)",
+    "None of the above"
+   ],
+   "a": 1,
+   "e": "Adibhasha, a work on the origin of language, was written by Chattampi Swamikal.",
+   "section": "State GK",
+   "topic": "Kerala Renaissance"
+  },
+  {
+   "q": "Choose the correct statements from among the following :\n(i) De Lannoy was appointed as Commander-in-Chief of the Travancore forces by Marthanda Varma.\n(ii) The Pandarampattam Proclamation of 1865 was issued during the reign of Ayilyam Thirunal.\n(iii) C.P. Ramaswamy Iyyer was the Dewan of Travancore when the Temple entry Proclamation was made in 1936.",
+   "o": [
+    "(i) only",
+    "(i) and (ii) only",
+    "(ii) and (iii) only",
+    "All of the above ((i), (ii) and (iii))"
+   ],
+   "a": 3,
+   "e": "De Lannoy commanded Marthanda Varma's army, the 1865 Pandarappattam proclamation came under Ayilyam Thirunal, and C.P. Ramaswamy Iyer was Dewan at the 1936 Temple Entry Proclamation, so all three are correct.",
+   "section": "State GK",
+   "topic": "Kerala History"
+  },
+  {
+   "q": "Who among the following were included in the First Jesuit Mission that visited Akbar’s court in 1580?\n(1) Francis Xavier\n(2) Rudolf Aquaviva\n(3) St. Augustine\n(4) Antony Monseratte",
+   "o": [
+    "(1) and (2)",
+    "(2) and (3)",
+    "(2) and (4)",
+    "(3) and (4)"
+   ],
+   "a": 2,
+   "e": "The first Jesuit mission (1580) to Akbar's court comprised Rudolf Aquaviva and Antony Monserrate; Francis Xavier had died decades earlier.",
+   "section": "History",
+   "topic": "Medieval India"
+  },
+  {
+   "q": "In the Interim Government of 1946 who was assigned the Portfolio of Education?",
+   "o": [
+    "C. Rajagopalachari",
+    "Dr. Rajendra Prasad",
+    "Liaqat Ali Khan",
+    "Dr. John Mathai"
+   ],
+   "a": 0,
+   "e": "In the 1946 Interim Government C. Rajagopalachari held Education (and Arts), while Rajendra Prasad held Food & Agriculture.",
+   "section": "History",
+   "topic": "Modern India"
+  },
+  {
+   "q": "Eka Movement of 1922 happened in :",
+   "o": [
+    "Orissa",
+    "U.P.",
+    "NWFP",
+    "Bengal"
+   ],
+   "a": 1,
+   "e": "The Eka (unity) peasant movement of 1921-22 arose in Hardoi, Bahraich and nearby districts of the United Provinces (U.P.).",
+   "section": "History",
+   "topic": "Modern India"
+  },
+  {
+   "q": "Who formulated the detailed National Scheme for Basic Education known as Nai Talim under Gandhiji’s Wardha Scheme (1937)?",
+   "o": [
+    "Acharya Vinoba Bhave",
+    "J.C. Kumarappa",
+    "E.M. Aryanayakam",
+    "Dr. Zakir Hussain"
+   ],
+   "a": 3,
+   "e": "The committee that drafted the detailed Basic Education (Nai Talim) scheme after the 1937 Wardha conference was chaired by Dr. Zakir Hussain.",
+   "section": "History",
+   "topic": "Modern India"
+  },
+  {
+   "q": "A famous historical-scientific work Ṭabaqāt al-Umam was written by :",
+   "o": [
+    "Ibn Khaldūn",
+    "Al-Mas‘ūdī",
+    "Qadi Ṣā ‘id al-Andalusī",
+    "Al-Bīrūnī"
+   ],
+   "a": 2,
+   "e": "Tabaqat al-Umam (Categories of Nations), an early history of science, was written by Sa'id al-Andalusi, a qadi of Toledo.",
+   "section": "History",
+   "topic": "World History"
+  },
+  {
+   "q": "Which event is regarded as a major factor in the unification of Germany in the Nineteenth Century?",
+   "o": [
+    "The Franco-Prussian War",
+    "The Paris Commune",
+    "The Congress of Vienna",
+    "The Crimean War"
+   ],
+   "a": 0,
+   "e": "Prussia's victory in the Franco-Prussian War (1870-71) led directly to the proclamation of the German Empire in 1871.",
+   "section": "History",
+   "topic": "World History"
+  },
+  {
+   "q": "The Paris Commune was established in :",
+   "o": [
+    "1878",
+    "1871",
+    "1971",
+    "1918"
+   ],
+   "a": 1,
+   "e": "The Paris Commune, a revolutionary government of Paris, was set up in March 1871 after the Franco-Prussian War.",
+   "section": "History",
+   "topic": "World History"
+  },
+  {
+   "q": "The inner core of the earth is composed of :",
+   "o": [
+    "Sial",
+    "Sima",
+    "Nife",
+    "Nial"
+   ],
+   "a": 2,
+   "e": "The inner core is made mainly of nickel (Ni) and iron (Fe), hence the term NIFE.",
+   "section": "Geography",
+   "topic": "Earth Interior"
+  },
+  {
+   "q": "Which among the following gases induces global warming?",
+   "o": [
+    "Methane",
+    "Argon",
+    "Krypton",
+    "Oxygen"
+   ],
+   "a": 0,
+   "e": "Methane is a potent greenhouse gas; argon, krypton and oxygen do not trap heat significantly.",
+   "section": "Geography",
+   "topic": "Environment"
+  },
+  {
+   "q": "In a topographic map relief features are represented by :",
+   "o": [
+    "Isobars",
+    "Isohyets",
+    "Isohalines",
+    "Contours"
+   ],
+   "a": 3,
+   "e": "Contour lines join points of equal elevation and show relief on topographic maps.",
+   "section": "Geography",
+   "topic": "Maps"
+  },
+  {
+   "q": "The headquarters of Eastern Railway is :",
+   "o": [
+    "Guwahati",
+    "Bhubaneswar",
+    "Dispur",
+    "Kolkata"
+   ],
+   "a": 3,
+   "e": "Eastern Railway zone is headquartered at Kolkata.",
+   "section": "Geography",
+   "topic": "Indian Railways"
+  },
+  {
+   "q": "Lion Tailed Macacque is a protected species in :",
+   "o": [
+    "Silent Valley National Park",
+    "Agasthyamalai Biosphere Reserve",
+    "Eravikulam National Park",
+    "Chinnar Wild Life Sanctuary"
+   ],
+   "a": 0,
+   "e": "Silent Valley National Park was protected largely to save the habitat of the endangered lion-tailed macaque.",
+   "section": "State GK",
+   "topic": "Kerala Geography"
+  },
+  {
+   "q": "Atmanirbhar Bharath aims to :",
+   "o": [
+    "Reduce import dependency",
+    "Emphasis faster technology adoption in industrial sector",
+    "Strengthen the agriculture and allied sectors",
+    "All the above"
+   ],
+   "a": 3,
+   "e": "Atmanirbhar Bharat aims at self-reliance across sectors: cutting imports, faster technology adoption and stronger agriculture, so all apply.",
+   "section": "Economy",
+   "topic": "Government Schemes"
+  },
+  {
+   "q": "Which measure of money stock represents highest form of liquidity?",
+   "o": [
+    "M1",
+    "M3",
+    "M2",
+    "Both (A) and (C)"
+   ],
+   "a": 0,
+   "e": "M1 (currency + demand deposits) is the narrowest and most liquid measure of money supply.",
+   "section": "Economy",
+   "topic": "Money & Banking"
+  },
+  {
+   "q": "The excess of fiscal deficit over the payment of interest is called :",
+   "o": [
+    "Budget deficit",
+    "Revenue deficit",
+    "Primary deficit",
+    "Monetised deficit"
+   ],
+   "a": 2,
+   "e": "Primary deficit = fiscal deficit minus interest payments.",
+   "section": "Economy",
+   "topic": "Public Finance"
+  },
+  {
+   "q": "The second five year plan based on Mahalanobis model emphasized that :",
+   "o": [
+    "All the sectors of the economy should be given equal importance",
+    "The focus should be on agricultural sector",
+    "The focus should be on the growth of heavy Industries",
+    "Both (B) and (C)"
+   ],
+   "a": 2,
+   "e": "The Second Plan (1956-61), based on the Mahalanobis model, stressed rapid growth of heavy and basic industries.",
+   "section": "Economy",
+   "topic": "Planning"
+  },
+  {
+   "q": "Which role of the executive involves converting legislative intent into operational policy?",
+   "o": [
+    "Political leadership",
+    "Policy execution",
+    "Judicial supervision",
+    "Constitutional interpretation"
+   ],
+   "a": 1,
+   "e": "Policy execution is the executive function of turning laws passed by the legislature into working programmes.",
+   "section": "Polity",
+   "topic": "Executive"
+  },
+  {
+   "q": "Which feature of the Right to Information framework most strengthens citizen oversight of public authorities?",
+   "o": [
+    "Mandatory proactive disclosure of key information",
+    "Exclusive judicial handling of information requests",
+    "Complete exemption of administrative records",
+    "Prior government approval before filing applications"
+   ],
+   "a": 0,
+   "e": "Section 4 of the RTI Act obliges authorities to proactively disclose key information, enabling citizens to scrutinise them.",
+   "section": "Polity",
+   "topic": "Right to Information"
+  },
+  {
+   "q": "Which human rights organisation primarily monitors compliance with international human rights treaties?",
+   "o": [
+    "International Labour Organization",
+    "International Court of Justice",
+    "World Health Organization",
+    "United Nations Human Rights Council"
+   ],
+   "a": 3,
+   "e": "The UN Human Rights Council (with its review mechanisms) monitors states' compliance with human rights obligations.",
+   "section": "Polity",
+   "topic": "Human Rights"
+  },
+  {
+   "q": "Consumer protection laws aim to primarily correct which market failure?",
+   "o": [
+    "Inflation",
+    "Monopoly control",
+    "Information asymmetry",
+    "Public expenditure inefficiency"
+   ],
+   "a": 2,
+   "e": "Consumers usually know less than sellers about products; consumer laws correct this information asymmetry.",
+   "section": "Economy",
+   "topic": "Consumer Protection"
+  },
+  {
+   "q": "Why is independence of the Judiciary crucial for protection of fundamental rights?",
+   "o": [
+    "It ensures faster justice",
+    "It prevents executive interference",
+    "It enhances legislative authority",
+    "It centralises constitutional power"
+   ],
+   "a": 1,
+   "e": "An independent judiciary can enforce fundamental rights without pressure or interference from the executive.",
+   "section": "Polity",
+   "topic": "Judiciary"
+  },
+  {
+   "q": "The Kerala State Budget 2026-27 introduced a monthly grant of Rs. 1,000 to which administrative body from November 2025?",
+   "o": [
+    "Grama Panchayats",
+    "Kudumbasree Area Development Societies (ADS)",
+    "Block Samitis",
+    "District Planning Committees"
+   ],
+   "a": 1,
+   "e": "As per the official key, the Kerala Budget 2026-27 announced a Rs. 1,000 monthly grant for Kudumbashree Area Development Societies.",
+   "section": "Current Affairs",
+   "topic": "Kerala Budget"
+  },
+  {
+   "q": "Who was appointed as the Mines Secretary of India in September 2025?",
+   "o": [
+    "Srinivas Injeti",
+    "Piyush Goyal",
+    "Harshavardhan Chitale",
+    "Bhupender Gupta"
+   ],
+   "a": 1,
+   "e": "Piyush Goyal, an IAS officer (not the Union Minister), was named Secretary, Ministry of Mines in September 2025.",
+   "section": "Current Affairs",
+   "topic": "Appointments"
+  },
+  {
+   "q": "Which Indian cricketer was inducted into the ICC Cricket Hall of Fame in June 2025?",
+   "o": [
+    "Virat Kohli",
+    "Mahendra Singh Dhoni",
+    "Rohit Sharma",
+    "Shikhar Dhawan"
+   ],
+   "a": 1,
+   "e": "M.S. Dhoni was inducted into the ICC Hall of Fame in June 2025.",
+   "section": "Current Affairs",
+   "topic": "Sports"
+  },
+  {
+   "q": "Which ancient port city in Kerala, known for its extensive maritime trade with the Roman and Greek Civilizations, is the focus of a major ongoing heritage project?",
+   "o": [
+    "Tyndis",
+    "Muziris",
+    "Nelcynda",
+    "Barace"
+   ],
+   "a": 1,
+   "e": "Muziris, the ancient port near Kodungallur that traded with Rome and Greece, is the focus of the Muziris Heritage Project.",
+   "section": "State GK",
+   "topic": "Kerala Heritage"
+  },
+  {
+   "q": "Who has won the state award for Best Film Song writing the most times?",
+   "o": [
+    "P. Bhaskaran",
+    "O.N.V. Kurup",
+    "Vayalar Rama Varma",
+    "Kaithapram Damodaran Namboothiri"
+   ],
+   "a": 1,
+   "e": "O.N.V. Kurup won the Kerala State Film Award for the best lyricist the most times.",
+   "section": "State GK",
+   "topic": "Malayalam Cinema"
+  },
+  {
+   "q": "Who is the architect of the Bhakranangal Dam, which was started during the second five year plan?",
+   "o": [
+    "Indira Gandhi",
+    "Devilal",
+    "Kunversen Guptha",
+    "Lal Bahadoor Sasthri"
+   ],
+   "a": 2,
+   "e": "As per the official key, Kanwar Sain Gupta is credited as the architect of the Bhakra-Nangal project.",
+   "section": "History",
+   "topic": "Post-independence India"
+  },
+  {
+   "q": "In Basketball, shooting is required to score goals. Shooting is __________.",
+   "o": [
+    "a tactic",
+    "a skill",
+    "a style",
+    "a strategy"
+   ],
+   "a": 1,
+   "e": "Shooting the ball in basketball is a fundamental skill, not a tactic or strategy.",
+   "section": "Current Affairs",
+   "topic": "Sports"
+  },
+  {
+   "q": "Who was the first Indian tennis player to win an Olympic medal in tennis?",
+   "o": [
+    "Leander Paes",
+    "Rohan Bopanna",
+    "Mahesh Bhupathi",
+    "Sumit Nagal"
+   ],
+   "a": 0,
+   "e": "Leander Paes won bronze in men's singles at the 1996 Atlanta Olympics, India's first Olympic tennis medal.",
+   "section": "Current Affairs",
+   "topic": "Sports"
+  },
+  {
+   "q": "Identify the date designated as Kerala Sports Day :",
+   "o": [
+    "October 13",
+    "November 15",
+    "September 13",
+    "October 31"
+   ],
+   "a": 0,
+   "e": "Kerala celebrates Sports Day on 13 October, the birthday of Col. G.V. Raja.",
+   "section": "State GK",
+   "topic": "Kerala Sports"
+  },
+  {
+   "q": "Which of the following statements is/are correct regarding the historical novels of C.V. Raman Pillai?\n(i) ‘Dharmaraja’ and ‘Ramarajabahadur’ are historical novels featuring Karthika Thirunal Rama Varma as the reigning King of Travancore.\n(ii) The novel ‘Ramarajabahadur’ primarily depicts the internal conspiracy of the descendants of ‘Ettuveettil Pillamar’ against the King.\n(iii) Raja Kesavadas is a central character in both ‘Dharmaraja’ and its sequel ‘Ramarajabahadur’.",
+   "o": [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "All of the above ((i), (ii) and (iii))"
+   ],
+   "a": 3,
+   "e": "The official key accepts all three statements about C.V. Raman Pillai's historical novels Dharmaraja and Ramarajabahadur.",
+   "section": "State GK",
+   "topic": "Malayalam Literature"
+  },
+  {
+   "q": "Which is the correct statement?\n(i) George Varghese is the one who writes under the pen name Kakkanadan.\n(ii) P. Kunjananthan Nair’s pen name is Thikkodiyan.\n(iii) E.J. Philip is Kovilan.",
+   "o": [
+    "(i) and (ii) are correct",
+    "All are correct",
+    "(ii) and (iii) are correct",
+    "(i) and (iii) are correct"
+   ],
+   "a": 0,
+   "e": "Kakkanadan is George Varghese and Thikkodiyan is P. Kunjananthan Nair; Kovilan was V.V. Ayyappan, not E.J. Philip.",
+   "section": "State GK",
+   "topic": "Malayalam Literature"
+  },
+  {
+   "q": "Who is the script writer of the first Malayalam sound film?",
+   "o": [
+    "Muthukulam Raghavan Pillai",
+    "Uroob",
+    "S L Puram Sadanandan",
+    "J C Daniel"
+   ],
+   "a": 0,
+   "e": "Balan (1938), the first Malayalam talkie, had its script written by Muthukulam Raghavan Pillai.",
+   "section": "State GK",
+   "topic": "Malayalam Cinema"
+  },
+  {
+   "q": "Which of the following is a cave temple?",
+   "o": [
+    "Thiruvanjikkulam Temple",
+    "Thiruvegappura Temple",
+    "Kallil Temple",
+    "Thodikkalam Temple"
+   ],
+   "a": 2,
+   "e": "Kallil Temple near Perumbavoor is a rock-cut cave temple associated with Jainism.",
+   "section": "State GK",
+   "topic": "Kerala Culture"
+  },
+  {
+   "q": "Who is the first Dalit Malayali woman to get a Degree Education in India?",
+   "o": [
+    "Dakshayani Velayudhan",
+    "Bhargavi Thankappan",
+    "V. Janamma",
+    "K.V. Kali"
+   ],
+   "a": 0,
+   "e": "Dakshayani Velayudhan was the first Dalit woman graduate from Kerala and later a Constituent Assembly member.",
+   "section": "State GK",
+   "topic": "Kerala Renaissance"
+  },
+  {
+   "q": "Match the following memory types with their correct usage :\nA. DRAM  1. Cache Memory\nB. SRAM  2. Main Memory\nC. BIOS  3. Stored permanently in ROM\nD. Registers  4. CPU’s working memory",
+   "o": [
+    "A–1, B–2, C–3, D–4",
+    "A–2, B–1, C–3¸ D–4",
+    "A–2, B–3, C–1, D–4",
+    "A–1, B–3, C–2, D–4"
+   ],
+   "a": 1,
+   "e": "DRAM serves as main memory, SRAM as cache, BIOS is stored in ROM, and registers are the CPU's working memory.",
+   "section": "Computer",
+   "topic": "Memory"
+  },
+  {
+   "q": "Which network device is used to connect networks that follow different communication protocols?",
+   "o": [
+    "Switch",
+    "Bridge",
+    "Router",
+    "Gateway"
+   ],
+   "a": 3,
+   "e": "A gateway translates between networks that use different protocols.",
+   "section": "Computer",
+   "topic": "Networking"
+  },
+  {
+   "q": "A cyber criminal creates a fake website resembling a bank’s portal to collect login credentials. This activity best represents :",
+   "o": [
+    "Hacking",
+    "Identity theft",
+    "Phishing",
+    "Cyber stalking"
+   ],
+   "a": 2,
+   "e": "A fake website made to steal login details is phishing.",
+   "section": "Computer",
+   "topic": "Cyber Security"
+  },
+  {
+   "q": "Multitasking in an operating system is mainly achieved through :",
+   "o": [
+    "Virtual memory",
+    "Process scheduling",
+    "File compression",
+    "Spooling"
+   ],
+   "a": 1,
+   "e": "The OS achieves multitasking by scheduling processes to share CPU time.",
+   "section": "Computer",
+   "topic": "Operating System"
+  },
+  {
+   "q": "The clarity of an image on a computer monitor depends on :\n(i) Screen resolution\n(ii) Dot pitch\n(iii) Refresh rate",
+   "o": [
+    "(i) and (ii) only",
+    "(ii) and (iii) only",
+    "(i) and (iii) only",
+    "(i), (ii) and (iii)"
+   ],
+   "a": 3,
+   "e": "Display clarity depends on resolution, dot pitch and refresh rate together.",
+   "section": "Computer",
+   "topic": "Hardware"
+  },
+  {
+   "q": "Which of the following supports the idea that science is a dynamic process?",
+   "o": [
+    "Scientific laws are permanent",
+    "Scientific theories never change",
+    "Science is based on belief",
+    "New discoveries can modify existing explanation"
+   ],
+   "a": 3,
+   "e": "Science is dynamic because new evidence can revise existing explanations.",
+   "section": "Science & Technology",
+   "topic": "Nature of Science"
+  },
+  {
+   "q": "Which of the following statement is/are correct about the National STI observatory proposed under STIP 2020?\n(i) It will act as a central repository of STI related data.\n(ii) It will support evidence-based policy making.\n(iii) It will function as funding agency for scientific research.",
+   "o": [
+    "Only (i) and (ii)",
+    "Only (ii) and (iii)",
+    "Only (i) and (iii)",
+    "All the above ((i), (ii) and (iii))"
+   ],
+   "a": 0,
+   "e": "STIP 2020's National STI Observatory is meant as a data repository to support evidence-based policy, not as a funding agency.",
+   "section": "Science & Technology",
+   "topic": "Science Policy"
+  },
+  {
+   "q": "India’s National Green Hydrogen mission aims to :",
+   "o": [
+    "Promote Blue hydrogen imports",
+    "Increase coal-based hydrogen production",
+    "Develop India as a global hub for green hydrogen",
+    "Replace renewable energy targets"
+   ],
+   "a": 2,
+   "e": "The National Green Hydrogen Mission aims to make India a global hub for production, use and export of green hydrogen.",
+   "section": "Science & Technology",
+   "topic": "Energy"
+  },
+  {
+   "q": "Which of the following statement is/are correct about primary health care?\n(i) Public health care promotes equitable distribution of health services.\n(ii) Public health depends on specialized hospital care.\n(iii) Community participation is a key principle of public health care.",
+   "o": [
+    "Only (i)",
+    "Only (i) and (iii)",
+    "Only (ii) and (iii)",
+    "All the above ((i), (ii) and (iii))"
+   ],
+   "a": 1,
+   "e": "Primary/public health care stresses equitable access and community participation, not specialised hospital care.",
+   "section": "Science & Technology",
+   "topic": "Health"
+  },
+  {
+   "q": "The product of a four-digit number 1A4B and a single digit number B is 8A2B. What is the value of the digit A?",
+   "o": [
+    "4",
+    "5",
+    "6",
+    "7"
+   ],
+   "a": 3,
+   "e": "B×B must end in B, so B is 1, 5 or 6; testing gives 1745 × 5 = 8725, so A = 7.",
+   "section": "Maths",
+   "topic": "Number System"
+  },
+  {
+   "q": "A student scored 30% in an exam. He needs 10% more of his marks to pass the exam. What is the pass percentage?",
+   "o": [
+    "33%",
+    "35%",
+    "40%",
+    "50%"
+   ],
+   "a": 0,
+   "e": "Pass mark = 30% + 10% of 30% = 30% + 3% = 33%.",
+   "section": "Maths",
+   "topic": "Percentage"
+  },
+  {
+   "q": "A person invested a certain amount at a rate 8% simple interest for 2 years. If he invested the same amount compounded annually for 2 years, then the difference between the interest amounts would be 5% of the invested amount. Find the rate of compound interest.",
+   "o": [
+    "8.5%",
+    "10%",
+    "10.6%",
+    "12%"
+   ],
+   "a": 1,
+   "e": "SI for 2 years at 8% = 16%; CI must be 16% + 5% = 21%, and (1+r)² = 1.21 gives r = 10%.",
+   "section": "Maths",
+   "topic": "Interest"
+  },
+  {
+   "q": "Marks obtained in English and Science exams are in the ratio 3 : 2 and Science and History are in the ratio 3 : 5. Find the highest mark, if the average mark is 25.",
+   "o": [
+    "15",
+    "30",
+    "35",
+    "45"
+   ],
+   "a": 1,
+   "e": "E:S:H = 9:6:10; total 25 parts equal 75 marks (average 25 × 3), so each part is 3 and the highest is 30.",
+   "section": "Maths",
+   "topic": "Ratio"
+  },
+  {
+   "q": "If 6th term of an arithmetic progression is 12, what is the sum of 1st 11 terms of that AP?",
+   "o": [
+    "123",
+    "132",
+    "231",
+    "Data inadequate"
+   ],
+   "a": 1,
+   "e": "Sum of first 11 terms = 11 × middle (6th) term = 11 × 12 = 132.",
+   "section": "Maths",
+   "topic": "Progressions"
+  },
+  {
+   "q": "A wooden article is made by scooping out hemisphere of radius r from each end of a solid cylinder with radius r and height h . What is the surface area of the article?",
+   "o": [
+    "2πrh + 4πr²",
+    "2πrh − 4πr²",
+    "2πrh − 2πr²",
+    "2πrh + 2πr²"
+   ],
+   "a": 0,
+   "e": "The article's surface is the curved cylinder 2πrh plus two hemispherical inner surfaces 2 × 2πr² = 4πr².",
+   "section": "Maths",
+   "topic": "Mensuration"
+  },
+  {
+   "q": "A can construct the basement of building in 20 days. B can do the same work in 30 days and C can do the work in 60 days. How many days required to construct the basement if A, B and C worked together?",
+   "o": [
+    "13",
+    "11",
+    "12",
+    "10"
+   ],
+   "a": 3,
+   "e": "Combined rate = 1/20 + 1/30 + 1/60 = 6/60 = 1/10, so 10 days.",
+   "section": "Maths",
+   "topic": "Time & Work"
+  },
+  {
+   "q": "A car travels 120 km with speed 80 km/h, next 110 km at 110 km/h and final 90 km at 60 km/h. What is the average speed of the car?",
+   "o": [
+    "85 km/h",
+    "82.5 km/h",
+    "80 km/h",
+    "90 km/h"
+   ],
+   "a": 2,
+   "e": "Total distance 320 km; time = 1.5 + 1 + 1.5 = 4 h; average speed = 80 km/h.",
+   "section": "Maths",
+   "topic": "Speed & Distance"
+  },
+  {
+   "q": "AB, DE, HI, MN, ____",
+   "o": [
+    "OP",
+    "QR",
+    "ST",
+    "UV"
+   ],
+   "a": 2,
+   "e": "The gap between pairs grows by one letter each time (skip 1, 2, 3, 4), so after MN skip OPQR to get ST.",
+   "section": "Reasoning",
+   "topic": "Letter Series"
+  },
+  {
+   "q": "A girl starts from point A, walks 4 m East, 3 m North, 4 m West and 3 m South. Where is she now?",
+   "o": [
+    "4 m East of A",
+    "At A",
+    "3 m North of A",
+    "1 m South of A"
+   ],
+   "a": 1,
+   "e": "East 4 then West 4 cancel, North 3 then South 3 cancel, so she is back at A.",
+   "section": "Reasoning",
+   "topic": "Direction"
+  },
+  {
+   "q": "Book : Knowledge : : Food : ?",
+   "o": [
+    "Hunger",
+    "Energy",
+    "Taste",
+    "Health"
+   ],
+   "a": 1,
+   "e": "A book provides knowledge just as food provides energy.",
+   "section": "Reasoning",
+   "topic": "Analogy"
+  },
+  {
+   "q": "D is the brother A, D is the son of C, B is C’s father. What is A of B?",
+   "o": [
+    "Grand Father",
+    "Grandson",
+    "Grand Daughter",
+    "None of these"
+   ],
+   "a": 3,
+   "e": "A is a child of C and grandchild of B, but A's gender is not given, so none of the options can be fixed.",
+   "section": "Reasoning",
+   "topic": "Blood Relations"
+  },
+  {
+   "q": "A direction pole was on the crossing. Due to an accident, the pole turned in such a manner that the pointer which was showing East started showing South. Based on the new pointer Ramesh went to the West. In what direction was he actually travelling?",
+   "o": [
+    "South",
+    "East",
+    "West",
+    "North"
+   ],
+   "a": 3,
+   "e": "East now points South, so every label is turned 90° clockwise; the pointer marked West actually points North.",
+   "section": "Reasoning",
+   "topic": "Direction"
+  },
+  {
+   "q": "If 15th August 2026 was Monday, what day of the week was on 25th December 2026?",
+   "o": [
+    "Tuesday",
+    "Sunday",
+    "Wednesday",
+    "Thursday"
+   ],
+   "a": 1,
+   "e": "From 15 Aug to 25 Dec is 132 days = 18 weeks + 6 days; Monday + 6 days = Sunday.",
+   "section": "Reasoning",
+   "topic": "Calendar"
+  },
+  {
+   "q": "112, 115, 125, 140, ?",
+   "o": [
+    "165",
+    "168",
+    "167",
+    "166"
+   ],
+   "a": 3,
+   "e": "Differences are 3, 10, 15, 26 (2²−1, 3²+1, 4²−1, 5²+1), so the next term is 140 + 26 = 166.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "Identify the type of sentence : Please forward the signed agreement before the deadline.",
+   "o": [
+    "Assertive",
+    "Imperative",
+    "Interrogative",
+    "Exclamatory"
+   ],
+   "a": 1,
+   "e": "A sentence giving a request or command is imperative.",
+   "section": "English",
+   "topic": "Sentence Types"
+  },
+  {
+   "q": "Choose the correct article : She submitted __________ detailed proposal for curriculum reform.",
+   "o": [
+    "a",
+    "an",
+    "the",
+    "no article"
+   ],
+   "a": 0,
+   "e": "\"Detailed\" begins with a consonant sound, so the article is \"a\".",
+   "section": "English",
+   "topic": "Articles"
+  },
+  {
+   "q": "Choose the correct verb form : Every member of the review committee __________ required to sign the attendance sheet.",
+   "o": [
+    "are",
+    "were",
+    "is",
+    "have"
+   ],
+   "a": 2,
+   "e": "\"Every member\" is singular and takes the singular verb \"is\".",
+   "section": "English",
+   "topic": "Subject-Verb Agreement"
+  },
+  {
+   "q": "Choose the correct question tag : Most candidates attended the orientation session, __________?",
+   "o": [
+    "did they",
+    "didn’t they",
+    "do they",
+    "don’t they"
+   ],
+   "a": 1,
+   "e": "A positive past-tense statement takes a negative tag: \"didn't they?\"",
+   "section": "English",
+   "topic": "Question Tags"
+  },
+  {
+   "q": "Identify the correct sentence :",
+   "o": [
+    "The officer avoided to answer the query directly.",
+    "The officer avoided answer the query directly.",
+    "The officer avoided answering the query directly.",
+    "The officer avoided for answering the query directly."
+   ],
+   "a": 2,
+   "e": "The verb \"avoid\" is followed by a gerund: \"avoided answering\".",
+   "section": "English",
+   "topic": "Gerunds"
+  },
+  {
+   "q": "Fill in the blank with the suitable tense of the verb in brackets : I __________ to a movie yesterday.",
+   "o": [
+    "went",
+    "had gone",
+    "am going",
+    "had been going"
+   ],
+   "a": 0,
+   "e": "\"Yesterday\" marks a completed past action, so simple past \"went\" is used.",
+   "section": "English",
+   "topic": "Tenses"
+  },
+  {
+   "q": "Choose the correct option : If it rained, we __________ postpone the match.",
+   "o": [
+    "will",
+    "shall",
+    "would",
+    "will have"
+   ],
+   "a": 2,
+   "e": "A second conditional (If + past) takes \"would\" in the main clause.",
+   "section": "English",
+   "topic": "Conditionals"
+  },
+  {
+   "q": "Choose a suitable preposition to fill the blank : This text is usually prescribed __________ the undergraduate level.",
+   "o": [
+    "in",
+    "at",
+    "by",
+    "upon"
+   ],
+   "a": 1,
+   "e": "We say \"at the undergraduate level\".",
+   "section": "English",
+   "topic": "Prepositions"
+  },
+  {
+   "q": "Which degree of comparison does the adjective “good” denote in this sentence? “This watch is not as good as that one.”",
+   "o": [
+    "Positive",
+    "Comparative",
+    "Superlative",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "\"As good as\" uses the positive degree of the adjective.",
+   "section": "English",
+   "topic": "Degrees of Comparison"
+  },
+  {
+   "q": "Complete the sentence choosing the suitable word : No sooner did I get into the bus, __________ it began to rain.",
+   "o": [
+    "though",
+    "that",
+    "then",
+    "than"
+   ],
+   "a": 3,
+   "e": "\"No sooner\" is always paired with \"than\".",
+   "section": "English",
+   "topic": "Conjunctions"
+  },
+  {
+   "q": "Pick out the antonym of the underlined word : The thief ’s response was impulsive rather than thoughtful.",
+   "o": [
+    "sudden",
+    "deliberate",
+    "hasty",
+    "emotional"
+   ],
+   "a": 1,
+   "e": "Impulsive means acting without thought; its opposite is deliberate.",
+   "section": "English",
+   "topic": "Antonyms"
+  },
+  {
+   "q": "Fill up using the appropriate word from the brackets : A __________ of lions was sitting on the rock.",
+   "o": [
+    "herd",
+    "pride",
+    "troop",
+    "flock"
+   ],
+   "a": 1,
+   "e": "A group of lions is called a pride.",
+   "section": "English",
+   "topic": "Collective Nouns"
+  },
+  {
+   "q": "Fill up the blank with the correct phrasal verb. The teacher asked the students to __________ the assignment before Friday.",
+   "o": [
+    "hand in",
+    "look after",
+    "turn up",
+    "put off"
+   ],
+   "a": 0,
+   "e": "\"Hand in\" means to submit work.",
+   "section": "English",
+   "topic": "Phrasal Verbs"
+  },
+  {
+   "q": "Replace the word underlined with its synonym. The student was diligent in his studies.",
+   "o": [
+    "careless",
+    "lazy",
+    "hard working",
+    "slow"
+   ],
+   "a": 2,
+   "e": "Diligent means hard-working.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "Pick out the correct prefix to get the opposite of the word organize.",
+   "o": [
+    "mis",
+    "un",
+    "dis",
+    "non"
+   ],
+   "a": 2,
+   "e": "The opposite of organize is disorganize, formed with the prefix \"dis\".",
+   "section": "English",
+   "topic": "Prefixes"
+  },
+  {
+   "q": "Which word means “having practical knowledge or skill”?",
+   "o": [
+    "Ingenious",
+    "Ingenuous",
+    "Intelligent",
+    "Ignorant"
+   ],
+   "a": 0,
+   "e": "As per the official key, \"ingenious\" (clever and inventive, skilled at practical contrivance) is accepted.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "What does the idiom ‘To bell the cat” mean?",
+   "o": [
+    "To warn others of danger",
+    "To undertake a risky task for the common good",
+    "To act foolishly",
+    "To make a loud complaint"
+   ],
+   "a": 1,
+   "e": "To bell the cat means to take on a dangerous task for the benefit of everyone.",
+   "section": "English",
+   "topic": "Idioms"
+  },
+  {
+   "q": "What is the expansion of “UNESCO”?",
+   "o": [
+    "United Nations Educational, Scientific and Cultural Organization",
+    "United Nations Economic and Social Council Organization",
+    "Universal Network of Education, Science and Culture Organization",
+    "United Nations Environmental and Scientific Council Organization"
+   ],
+   "a": 0,
+   "e": "UNESCO stands for United Nations Educational, Scientific and Cultural Organization.",
+   "section": "English",
+   "topic": "Abbreviations"
+  },
+  {
+   "q": "What is the one-word substitute for “One who walks in sleep”?",
+   "o": [
+    "Insomniac",
+    "Somnambulist",
+    "Dreamer",
+    "Nocturnal"
+   ],
+   "a": 1,
+   "e": "A sleepwalker is a somnambulist.",
+   "section": "English",
+   "topic": "One Word Substitution"
+  },
+  {
+   "q": "What does “vox populi’’ mean?",
+   "o": [
+    "Voice of the judge",
+    "Voice of the people / public opinion",
+    "Voice of law",
+    "Secret voice"
+   ],
+   "a": 1,
+   "e": "Vox populi is Latin for \"voice of the people\".",
+   "section": "English",
+   "topic": "Foreign Phrases"
+  }
+ ]
+}

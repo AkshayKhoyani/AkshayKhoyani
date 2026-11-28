@@ -1,0 +1,1237 @@
+{
+ "exam": "Kerala PSC Accountant / Junior Accountant / Accounts Clerk etc.",
+ "paper": "Question Paper Code 41/2026, Booklet A (English medium), held 25-Apr-2026",
+ "year": 2026,
+ "board": "Kerala Public Service Commission",
+ "state": "Kerala",
+ "lang": "en",
+ "source_paper": "https://www.keralapsc.gov.in/sites/default/files/2026-04/041-2026-A.pdf",
+ "source_key": "https://www.keralapsc.gov.in/sites/default/files/2026-06/accountant_final_key.pdf",
+ "duration_min": 90,
+ "marks_per_q": 1,
+ "negative": 0.33,
+ "questions": [
+  {
+   "q": "The following statements are related to provisions in partnership Act and Companies Act as to formation and functioning of Partnership Business. Which of the following are incorrect in respect of partnership business?\nI. Rule 10 of companies (incorporation) Rules 2014 specifies that maximum number of persons that can be admitted to partnership as member is limited to 50.\nII. Minor can be admitted to partnership, but loss of minor to be borne by other major partners in Profit Sharing Ratio.\nIII. Section 4 of Indian partnership Act 1932 insist upon sharing of losses.\nIV. A formal or written agreement is needed to create a partnership.",
+   "o": [
+    "Only I & III",
+    "Only III & IV",
+    "Only I, III & IV",
+    "II & IV only"
+   ],
+   "a": 1,
+   "e": "The partner limit (50) comes from the Companies Rules and a minor cannot bear losses; but s.4 does not require loss-sharing and a partnership can be oral, so III and IV are incorrect.",
+   "section": "Accountancy",
+   "topic": "Partnership"
+  },
+  {
+   "q": "On admission of new partner, after revaluation of assets and liabilities, the balance in Profit or Loss in the Revaluation Account (Profit & loss adjustment account) is transferred to capital account of partners. Which among the following describe best the accounting treatment as to transfer of balance in Revaluation Account?",
+   "o": [
+    "Capital Accounts of all partners in New Profit Sharing Ratio",
+    "Capital Accounts of Old Partners in Sacrificing Ratio",
+    "Capital Accounts of Old Partners in Old Profit-Sharing Ratio",
+    "Capital Accounts of Old partners in New Profit Sharing Ratio"
+   ],
+   "a": 2,
+   "e": "Revaluation profit or loss belongs to the old partners and is shared in their old profit-sharing ratio.",
+   "section": "Accountancy",
+   "topic": "Partnership"
+  },
+  {
+   "q": "From the following information from the books of Accounts of XYZ Bros, calculate gross profit to be transferred to profit and loss account:\nStock (1.1.2024) Rs. 1,00,000; Net sales Rs. 4,70,000; Purchases Rs. 2,70,000; Returns Outwards Rs. 10,000; Returns Inwards Rs. 15,000; Trade Expenses Rs. 5,000; Free samples (goods) Rs. 2,000; Stock (31.12.2024) Rs. 1,20,000",
+   "o": [
+    "Gross Profit Rs. 2,32,000",
+    "Gross Profit Rs. 2,35,000",
+    "Gross Profit Rs. 2,37,000",
+    "Gross Profit Rs. 2,27,000"
+   ],
+   "a": 0,
+   "e": "COGS = 1,00,000 + (2,70,000 − 10,000 − 2,000 samples) − 1,20,000 = 2,38,000; GP = 4,70,000 − 2,38,000 = 2,32,000, since trade expenses go to P&L.",
+   "section": "Accountancy",
+   "topic": "Final Accounts"
+  },
+  {
+   "q": "X, Y and Z are partners in a business, sharing profits and losses in the ratio of 2:2:1. Mr. Z retires by selling his share to the business for a sum of Rs. 600 which is paid by X and Y, Rs. 480 and 120 respectively. Find out new Profit-sharing ratio of X and Y.",
+   "o": [
+    "2:3",
+    "4:1",
+    "14:11",
+    "None of the above"
+   ],
+   "a": 2,
+   "e": "X buys 4/5 of Z's 1/5 share and Y 1/5 of it: X = 2/5 + 4/25 = 14/25 and Y = 2/5 + 1/25 = 11/25, i.e. 14:11.",
+   "section": "Accountancy",
+   "topic": "Partnership"
+  },
+  {
+   "q": "You are given with facts related to Maximum Possible Loss method of distribution of cash during the dissolution of partnership. Which of the following is (are) incorrect?\nI. This method assumes that at every stage of realisation of assets, remaining unrealized assets are worthless\nII. At every stage, loss can be ascertained, and the loss is distributed among the partners in profit sharing ratio\nIII. Maximum possible loss is ascertained after payment to creditors (External liabilities) and partner loans (if any) comparing total capital owned to the partners and cash available after settling liabilities and loans\nIV. If a partner’s share of loss exceeds their capital balance, they are considered insolvent and their deficiency is allocated to all the partners.",
+   "o": [
+    "I only",
+    "II Only",
+    "III Only",
+    "IV Only"
+   ],
+   "a": 3,
+   "e": "Under the maximum possible loss method the deficiency of an insolvent partner is borne by the solvent partners (Garner v Murray), not by all partners, so IV is incorrect.",
+   "section": "Accountancy",
+   "topic": "Dissolution"
+  },
+  {
+   "q": "While preparing financial statements of Joint stock companies, it shall disclose notes to accounts. Out of the following combinations of classification of Assets or Liabilities, which one combination includes an item that is not part of Notes to Accounts of financial statements of a joint stock company?",
+   "o": [
+    "Short Term Borrowings – Long Term Loans and Advances – Inventories – Trade Receivables",
+    "Current Investments – Short Term Provisions – Other Long-term Liabilities – Short Term Borrowings",
+    "Capital Reserves – Long Term Borrowings – Tangible Assets – Other Non-Current assets",
+    "Short Term Loans and Advance – Contingent Liabilities and Commitments – Current Investments"
+   ],
+   "a": 2,
+   "e": "Contingent liabilities and commitments appear as a separate disclosure, not as a classified item of assets or liabilities like the others.",
+   "section": "Accountancy",
+   "topic": "Company Accounts"
+  },
+  {
+   "q": "You are required to calculate the cost price of unsold stock in the consignment accounts.\nGoods consigned: 100 Units @ Rs. 30 per unit; Expenses incurred by consignor: Rs. 100.\nExpenses incurred by consignee: Unloading charges Rs. 100, Carriage inwards Rs. 50, Selling expenses Rs. 35, Office expenses Rs. 25.\nGoods sold by consignee: 80 units. The unsold stock can be sold at Rs. 35 per unit.",
+   "o": [
+    "Rs. 660",
+    "Rs. 650",
+    "Rs. 620",
+    "Rs. 610"
+   ],
+   "a": 1,
+   "e": "Cost of 20 unsold units = (3,000 + 100 + 100 + 50) × 20/100 = 650; selling and office expenses are not added.",
+   "section": "Accountancy",
+   "topic": "Consignment"
+  },
+  {
+   "q": "X Ltd. has issued 10,000 irredeemable debentures of Rs.100 each carrying an interest rate of 14%, at a discount of 5%. The cost of issue is 2%, and the applicable tax rate is 50%. What is the cost of’ debt before tax?",
+   "o": [
+    "15.05%",
+    "12.25%",
+    "10%",
+    "7.52%"
+   ],
+   "a": 0,
+   "e": "Pre-tax Kd = 14 / (100 − 5 − 2) = 14/93 = 15.05%.",
+   "section": "Financial Management",
+   "topic": "Cost of Capital"
+  },
+  {
+   "q": "XY Ltd. has issued 20,000 fully paid equity shares with a face value of Rs. 100 each. The current market price of each share is Rs. 160, and the company has declared a dividend of Rs. 8 per share. What is the cost of equity capital?",
+   "o": [
+    "8%",
+    "7%",
+    "10%",
+    "5%"
+   ],
+   "a": 3,
+   "e": "Ke = D/P = 8/160 = 5%.",
+   "section": "Financial Management",
+   "topic": "Cost of Capital"
+  },
+  {
+   "q": "ABC Company reports sales of Rs. 25,00,000, with variable costs of Rs. 15,00,000 and fixed costs of Rs. 5,00,000. The company also has debt amounting to Rs. 12,50,000, carrying an interest rate of 8%. What is the value of the combined leverage?",
+   "o": [
+    "1.5",
+    "2.5",
+    "3",
+    "4.5"
+   ],
+   "a": 1,
+   "e": "Contribution 10 lakh, EBIT 5 lakh, EBT = 5 − 1 = 4 lakh; combined leverage = 10/4 = 2.5.",
+   "section": "Financial Management",
+   "topic": "Leverage"
+  },
+  {
+   "q": "A Ltd. earns Rs. 10 per share. The company has a capitalization rate of 20% and earns a return on investment of 25%. Using Walter’s Model, calculate the price per share.",
+   "o": [
+    "Rs. 62.50",
+    "Rs. 34.25",
+    "Rs. 27.00",
+    "Rs. 85.00"
+   ],
+   "a": 0,
+   "e": "With no dividend, Walter price = (r/k × E)/k = (0.25/0.20 × 10)/0.20 = 62.50.",
+   "section": "Financial Management",
+   "topic": "Dividend Policy"
+  },
+  {
+   "q": "Which of the following is not an assumption underlying the Modigliani-Miller (MM) capital structure theory?",
+   "o": [
+    "The entire earnings are paid out as dividends and there are no corporate taxes",
+    "All firms are classified into homogeneous risk categories",
+    "Investors share homogeneous expectations",
+    "Capital markets are imperfect"
+   ],
+   "a": 3,
+   "e": "MM theory assumes perfect capital markets; \"imperfect markets\" is not one of its assumptions.",
+   "section": "Financial Management",
+   "topic": "Capital Structure"
+  },
+  {
+   "q": "Determine the Economic Order Quantity (EOQ) using the following data:\nAnnual consumption of raw materials: 10,000 kg; Cost of placing one order: Rs. 25; Cost per kg of raw material: Rs. 2; Storage cost: 4% of the average inventory value",
+   "o": [
+    "4,000 kg",
+    "2,000 kg",
+    "2,500 kg",
+    "7,500 kg"
+   ],
+   "a": 2,
+   "e": "Carrying cost = 4% of 2 = 0.08; EOQ = √(2 × 10000 × 25 / 0.08) = 2,500 kg.",
+   "section": "Financial Management",
+   "topic": "Inventory"
+  },
+  {
+   "q": "Which inventory management technique categorizes items based on their annual consumption value?",
+   "o": [
+    "LIFO",
+    "FIFO",
+    "ABC analysis",
+    "JIT"
+   ],
+   "a": 2,
+   "e": "ABC analysis classifies inventory by annual consumption value.",
+   "section": "Cost Accounting",
+   "topic": "Inventory Control"
+  },
+  {
+   "q": "Which of the following is considered a dividend irrelevance theory?",
+   "o": [
+    "Walter Model",
+    "Gordon Model",
+    "M.M. Hypothesis",
+    "Lintner’s Model"
+   ],
+   "a": 2,
+   "e": "The Modigliani-Miller hypothesis holds that dividend policy does not affect firm value.",
+   "section": "Financial Management",
+   "topic": "Dividend Policy"
+  },
+  {
+   "q": "In the Miller-Orr Model of cash management :",
+   "o": [
+    "The lower limit, upper limit and return point of cash balances are established",
+    "Only the upper limit and return point are set",
+    "Only the lower limit and return point are set",
+    "None of these parameters are determined"
+   ],
+   "a": 0,
+   "e": "Miller-Orr sets a lower limit, an upper limit and a return point for cash balances.",
+   "section": "Financial Management",
+   "topic": "Cash Management"
+  },
+  {
+   "q": "Financial leverage refers to :",
+   "o": [
+    "Utilization of fixed operating costs in production",
+    "Use of debt to finance the firm’s capital structure",
+    "Reliance on retained earnings for funding",
+    "Dependence on short-term borrowings for operations"
+   ],
+   "a": 1,
+   "e": "Financial leverage is the use of fixed-charge debt in the capital structure.",
+   "section": "Financial Management",
+   "topic": "Leverage"
+  },
+  {
+   "q": "Which of the following best describes the main purpose of cost accounting?",
+   "o": [
+    "To report financial performance to shareholders",
+    "To determine selling prices based on market conditions",
+    "To calculate income tax liability",
+    "To ascertain the cost of production and assist in cost control"
+   ],
+   "a": 3,
+   "e": "Cost accounting ascertains costs and helps control them.",
+   "section": "Cost Accounting",
+   "topic": "Basics"
+  },
+  {
+   "q": "From the following, identify the one that is not a method of pricing material issues.",
+   "o": [
+    "EOQ",
+    "LIFO",
+    "FIFO",
+    "Weighted Average Cost"
+   ],
+   "a": 0,
+   "e": "EOQ decides how much to order; it is not a method of pricing issues like FIFO, LIFO or weighted average.",
+   "section": "Cost Accounting",
+   "topic": "Materials"
+  },
+  {
+   "q": "Match the following wage systems with their features : Wage systems Features\n(i) Time Rate System (a) Bonus increases as time saved increases\n(ii) Piece Rate System (b) Fixed rate per hour worked\n(iii) Halsey Plan (c) Bonus based on proportion of time saved\n(iv) Rowan Plan (d) Payment based on units produced",
+   "o": [
+    "(i) – b, (ii) – d, (iii) – a, (iv) – c",
+    "(i) – a, (ii) – c, (iii) – d, (iv) – b",
+    "(i) – b, (ii) – c, (iii) – d, (iv) – a",
+    "(i) – d, (ii) – b, (iii) – a, (iv) – c"
+   ],
+   "a": 0,
+   "e": "Time rate pays per hour, piece rate per unit, Halsey gives a bonus that grows with time saved, and Rowan a bonus proportional to time saved.",
+   "section": "Cost Accounting",
+   "topic": "Labour"
+  },
+  {
+   "q": "Consider the following statements regarding overhead absorption and choose the correct statement.",
+   "o": [
+    "Under-absorption of overheads occurs when absorbed overheads are more than the actual overheads.",
+    "Over-absorption of overheads occurs when actual overheads are less than absorbed overheads.",
+    "Labour Hour Rate is suitable when production is capital-intensive.",
+    "Machine Hour Rate is suitable when production is labour-intensive."
+   ],
+   "a": 1,
+   "e": "Over-absorption means absorbed overheads exceed the actual overheads.",
+   "section": "Cost Accounting",
+   "topic": "Overheads"
+  },
+  {
+   "q": "From the following statements, identify the correct statement/s about Marginal Costing :\nI. Fixed costs are treated as product costs.\nII. Total cost is considered for decision making.\nIII. Contribution is considered for decision making.",
+   "o": [
+    "Only I and II",
+    "Only II and III",
+    "Only III",
+    "All of the Above"
+   ],
+   "a": 2,
+   "e": "Marginal costing treats fixed costs as period costs and uses contribution for decisions.",
+   "section": "Cost Accounting",
+   "topic": "Marginal Costing"
+  },
+  {
+   "q": "A company has a fixed cost of Rs. 1,00,000, variable cost per unit Rs. 20 and selling price per unit Rs. 40. What is the breakeven point in units?",
+   "o": [
+    "4,000",
+    "2,500",
+    "6,000",
+    "5,000"
+   ],
+   "a": 3,
+   "e": "BEP = 1,00,000 / (40 − 20) = 5,000 units.",
+   "section": "Cost Accounting",
+   "topic": "Break-even"
+  },
+  {
+   "q": "Which of the following are causes of material usage variance?\n(i) Poor quality of materials\n(ii) Inefficient use of materials\n(iii) Incorrect standard set\n(iv) Delayed payment to suppliers",
+   "o": [
+    "Only (i), (ii) and (iii)",
+    "Only (i), (iii) and (iv)",
+    "Only (i) and (iv)",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "Usage variance comes from poor materials, wastage or wrong standards, not from delayed payments.",
+   "section": "Cost Accounting",
+   "topic": "Variance Analysis"
+  },
+  {
+   "q": "Which of the following is not true as regards a Bin Card?",
+   "o": [
+    "It is a record of stores kept in the storehouse",
+    "Contains only the quantity of materials",
+    "Prepared by the Cost Accounting Department",
+    "Prepared for each item of material separately"
+   ],
+   "a": 2,
+   "e": "A bin card is kept by the storekeeper, not the costing department.",
+   "section": "Cost Accounting",
+   "topic": "Materials"
+  },
+  {
+   "q": "Consider the following statements :\n(i) Normal loss is debited to the costing profit and loss account.\n(ii) Idle time is always controllable\n(iii) Fixed costs remain unchanged in total within the relevant range\n(iv) Marginal cost includes both variable and fixed costs Which of the statement/s are correct?",
+   "o": [
+    "Only (i) and (ii)",
+    "Only (iii)",
+    "Only (ii) and (iv)",
+    "Only (iii) and (iv)"
+   ],
+   "a": 1,
+   "e": "Only (iii) is right: normal loss is absorbed by good units, idle time is not always controllable, and marginal cost excludes fixed cost.",
+   "section": "Cost Accounting",
+   "topic": "Basics"
+  },
+  {
+   "q": "You are given the following data: Sales Rs. 1,00,000; P/V Ratio 25%; Fixed Expenses Rs. 15,000. How much will be the profit?",
+   "o": [
+    "Rs. 6,000",
+    "Rs. 15,000",
+    "Rs. 10,000",
+    "Rs. 5,000"
+   ],
+   "a": 2,
+   "e": "Contribution = 25% of 1,00,000 = 25,000; profit = 25,000 − 15,000 = 10,000.",
+   "section": "Cost Accounting",
+   "topic": "Marginal Costing"
+  },
+  {
+   "q": "In which style of leadership, the leaders does not believe in the use of power unless it is absolutely essential?",
+   "o": [
+    "Democratic style",
+    "Autocratic style",
+    "Laissez faire style",
+    "Authoritarian style"
+   ],
+   "a": 2,
+   "e": "As per the key, the laissez-faire leader uses power minimally and leaves decisions to subordinates.",
+   "section": "Management",
+   "topic": "Leadership"
+  },
+  {
+   "q": "A company is in need of a detailed plan for its new project ‘construction of a shopping Mall’ what type of plan is it?",
+   "o": [
+    "policy",
+    "programme",
+    "schedule",
+    "none of these"
+   ],
+   "a": 1,
+   "e": "A detailed single-use plan for a specific project like a mall is a programme.",
+   "section": "Management",
+   "topic": "Planning"
+  },
+  {
+   "q": "The type of organizational structure which promotes flexibility and initiative:",
+   "o": [
+    "Divisional structure",
+    "Functional structure",
+    "Administrative structure",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "A divisional structure gives each unit autonomy, encouraging flexibility and initiative.",
+   "section": "Management",
+   "topic": "Organisation"
+  },
+  {
+   "q": "The test which is conducted to measure existing skills of an individual:",
+   "o": [
+    "Aptitude test",
+    "Pre-test",
+    "Skill-test",
+    "Trade test"
+   ],
+   "a": 3,
+   "e": "A trade test measures the existing skill and proficiency of a candidate.",
+   "section": "Management",
+   "topic": "Staffing"
+  },
+  {
+   "q": "One among the following is not a feature of directing :",
+   "o": [
+    "It initiates action",
+    "It is a one time activity",
+    "It takes place at every level of management",
+    "It is a continuous process"
+   ],
+   "a": 1,
+   "e": "Directing is continuous at all levels, not a one-time activity.",
+   "section": "Management",
+   "topic": "Directing"
+  },
+  {
+   "q": "The need for coordination arises due to :",
+   "o": [
+    "Division of work",
+    "Unity of command",
+    "Centralisation",
+    "Less number of employees"
+   ],
+   "a": 0,
+   "e": "Dividing work into specialised departments creates the need to coordinate them.",
+   "section": "Management",
+   "topic": "Coordination"
+  },
+  {
+   "q": "An example of non verbal communication :",
+   "o": [
+    "Email",
+    "Facial expression",
+    "Phone call",
+    "Video conferencing"
+   ],
+   "a": 1,
+   "e": "Facial expressions convey meaning without words.",
+   "section": "Management",
+   "topic": "Communication"
+  },
+  {
+   "q": "The classical school of management thought emphasises :",
+   "o": [
+    "Human relations and motivation",
+    "Informal organisation",
+    "Behavioural psychology",
+    "Scientific analysis of work"
+   ],
+   "a": 3,
+   "e": "Classical (scientific) management stresses systematic analysis of work.",
+   "section": "Management",
+   "topic": "Management Thought"
+  },
+  {
+   "q": "According to Herzberg, which of the following is a hygiene factor?",
+   "o": [
+    "Achievement",
+    "Recognition",
+    "Working conditions",
+    "Personal growth"
+   ],
+   "a": 2,
+   "e": "Herzberg classes working conditions as a hygiene factor; achievement, recognition and growth are motivators.",
+   "section": "Management",
+   "topic": "Motivation"
+  },
+  {
+   "q": "Which among the following best describes the essence of management?",
+   "o": [
+    "Planning for profits",
+    "Organising capital",
+    "Achieving coordination among resources",
+    "Recruiting employees"
+   ],
+   "a": 2,
+   "e": "Coordination is called the essence of management.",
+   "section": "Management",
+   "topic": "Nature of Management"
+  },
+  {
+   "q": "The percentage change in the quantity demanded of tea to the percentage change in the price of coffee is termed as :",
+   "o": [
+    "Price elasticity of demand",
+    "Income elasticity of demand",
+    "Cross elasticity of demand",
+    "Advertisement elasticity of demand"
+   ],
+   "a": 2,
+   "e": "Response of demand for one good to the price of another is cross elasticity.",
+   "section": "Economics",
+   "topic": "Elasticity"
+  },
+  {
+   "q": "The demand for Giffen goods will increase with :",
+   "o": [
+    "Decrease in price",
+    "Increase in price",
+    "Increase in the price of substitute goods",
+    "None of the above"
+   ],
+   "a": 1,
+   "e": "For Giffen goods quantity demanded rises when price rises.",
+   "section": "Economics",
+   "topic": "Demand"
+  },
+  {
+   "q": "Short-run production function is explained by:",
+   "o": [
+    "Law of demand",
+    "Law of returns to scale",
+    "Elasticity of demand",
+    "Law of variable proportion"
+   ],
+   "a": 3,
+   "e": "In the short run some inputs are fixed, so the law of variable proportions applies.",
+   "section": "Economics",
+   "topic": "Production"
+  },
+  {
+   "q": "The term ‘Isoquant’ in production theory refers to :",
+   "o": [
+    "A curve that shows the minimum cost of producing a given level of output",
+    "A curve that shows the maximum output that can be produced with a given level of input",
+    "A curve that shows the relationship between input prices and output",
+    "A curve which represents the different combinations of inputs producing a particular quantity of output"
+   ],
+   "a": 3,
+   "e": "An isoquant shows input combinations that yield the same output.",
+   "section": "Economics",
+   "topic": "Production"
+  },
+  {
+   "q": "The mathematical form of Cobb-Douglas production function is Y = A·K^α·L^(1−α). What do L & K represent?",
+   "o": [
+    "Land and capital",
+    "Labour and knowledge",
+    "Labour and capital",
+    "Land and knowledge"
+   ],
+   "a": 2,
+   "e": "In the Cobb-Douglas function, K is capital and L is labour.",
+   "section": "Economics",
+   "topic": "Production"
+  },
+  {
+   "q": "If demand increases without any corresponding increase in supply, then:",
+   "o": [
+    "There will be increase in equilibrium price",
+    "There will be decrease in equilibrium price",
+    "No change in equilibrium price",
+    "None of the above"
+   ],
+   "a": 0,
+   "e": "A rightward demand shift with unchanged supply raises the equilibrium price.",
+   "section": "Economics",
+   "topic": "Market Equilibrium"
+  },
+  {
+   "q": "Variables that change after real output changes are called :",
+   "o": [
+    "Leading indicators",
+    "Lagging indicators",
+    "Co-incident indicators",
+    "None of the above"
+   ],
+   "a": 1,
+   "e": "Lagging indicators change after the economy has changed.",
+   "section": "Economics",
+   "topic": "Business Cycles"
+  },
+  {
+   "q": "Which of the following policies might a government implement to counteract a recession?",
+   "o": [
+    "Increase taxes",
+    "Decrease taxes",
+    "Increase interest rates",
+    "Decrease interest rates"
+   ],
+   "a": 1,
+   "e": "Per the official key, cutting taxes (expansionary fiscal policy) counters a recession.",
+   "section": "Economics",
+   "topic": "Fiscal Policy"
+  },
+  {
+   "q": "Returns to scale refers to the relationship between:",
+   "o": [
+    "Input prices and output prices",
+    "The scale of input usage and the resulting level of output",
+    "The scale of output and the cost of production",
+    "Variable inputs and fixed inputs"
+   ],
+   "a": 1,
+   "e": "Returns to scale relate a proportional change in all inputs to the change in output.",
+   "section": "Economics",
+   "topic": "Production"
+  },
+  {
+   "q": "‘Monetary Policy’ is :",
+   "o": [
+    "Government measures to influence the economy through spending and taxation",
+    "The central bank’s actions to control the money supply and interest rates",
+    "The strategies used by firms to increase market share",
+    "None of the above"
+   ],
+   "a": 1,
+   "e": "Monetary policy is the central bank's control of money supply and interest rates.",
+   "section": "Economics",
+   "topic": "Monetary Policy"
+  },
+  {
+   "q": "‘A company can sue and be sued’ means :",
+   "o": [
+    "The company and its owners are considered the same for all legal purpose",
+    "The company’s liabilities are always the personal responsibility of its owners",
+    "A Company has Perpetual succession",
+    "A Company has separate legal entity"
+   ],
+   "a": 3,
+   "e": "Being able to sue and be sued in its own name reflects the company's separate legal entity.",
+   "section": "Company Law",
+   "topic": "Company Features"
+  },
+  {
+   "q": "Who is the primary monitoring authority of Companies Act in India?",
+   "o": [
+    "Institute of Chartered Accounts of India",
+    "Ministry of Corporate Affairs",
+    "Reserve Bank of India",
+    "Institute of Company Secretaries of India"
+   ],
+   "a": 1,
+   "e": "The Ministry of Corporate Affairs administers the Companies Act.",
+   "section": "Company Law",
+   "topic": "Regulators"
+  },
+  {
+   "q": "Which of the following is not a feature of One Person Company (OPC)?",
+   "o": [
+    "The owner’s liability is unlimited",
+    "It can be formed either as a company limited by shares or a company limited by guarantee; or an unlimited liability company.",
+    "A nominee must be appointed to succeed the Owner",
+    "It should have minimum one director"
+   ],
+   "a": 0,
+   "e": "An OPC has limited liability, so \"unlimited liability\" is not its feature.",
+   "section": "Company Law",
+   "topic": "One Person Company"
+  },
+  {
+   "q": "DIN in Company Law stands for :",
+   "o": [
+    "Designated Identification Number",
+    "Director Investor Number",
+    "Designated Investor Number",
+    "Director Identification Number"
+   ],
+   "a": 3,
+   "e": "DIN stands for Director Identification Number.",
+   "section": "Company Law",
+   "topic": "Directors"
+  },
+  {
+   "q": "In a general meeting of ABC Ltd, a matter has to be passed by special resolution. Out of 50 members present, 10 hesitate to vote, 10 vote against resolution and 30 in favour of the resolution. As the Chairman of the meeting what you to do?",
+   "o": [
+    "Can pass the special resolution",
+    "Can’t pass the special resolution",
+    "Postpone the matter to the next meeting",
+    "None of the above"
+   ],
+   "a": 0,
+   "e": "A special resolution needs votes in favour of at least three times the votes against: 30 ≥ 3 × 10, so it passes.",
+   "section": "Company Law",
+   "topic": "Meetings"
+  },
+  {
+   "q": "Which of the following statements relating to the disclosure of the financial statements of listed Companies is correct?",
+   "o": [
+    "Financial statements will be available to the shareholders on request.",
+    "Financial statements should be kept confidential.",
+    "Financial statements are only required to be submitted at the time of liquidation.",
+    "Financial statements must be filed with the Registrar of Companies and made available on the company’s website."
+   ],
+   "a": 3,
+   "e": "Listed companies file financial statements with the RoC and place them on their website.",
+   "section": "Company Law",
+   "topic": "Disclosure"
+  },
+  {
+   "q": "Which of the following statements are correct in case of winding up of Company by National Company Law Tribunal?\n(i) Company became insolvent and not able to pay off its debts.\n(ii) The company has acted against the interests of sovereignty and integrity of India.\n(iii) An application has been made by the ROC or any other person authorised by the central government by a notification under the 2013 Act.\n(iv) The affairs of the company have been conducted in a fraudulent manner.",
+   "o": [
+    "(i),(ii) & (iii)",
+    "(ii),(iii) & (iv)",
+    "(i),(ii),(iii) & (iv)",
+    "(i),(iii) & (iv)"
+   ],
+   "a": 1,
+   "e": "Under s.271, NCLT winding up covers acts against sovereignty, an application by RoC/authorised person, and fraudulent conduct of affairs.",
+   "section": "Company Law",
+   "topic": "Winding up"
+  },
+  {
+   "q": "According to the Companies Act, 2013, what is the minimum number of directors required to form an Audit Committee in a listed company?",
+   "o": [
+    "2 Directors",
+    "3 Directors",
+    "4 Directors",
+    "5 Directors"
+   ],
+   "a": 1,
+   "e": "An audit committee needs at least three directors, a majority of them independent.",
+   "section": "Company Law",
+   "topic": "Audit Committee"
+  },
+  {
+   "q": "Under Companies Act 2013, dormant Company means :",
+   "o": [
+    "A company that is currently active but has a pending litigation.",
+    "A company registered under the Act, for a future project and has no significant accounting transaction.",
+    "A Company registered under the Act which has no active members.",
+    "None of the above."
+   ],
+   "a": 1,
+   "e": "Under s.455 a dormant company is one formed for a future project with no significant accounting transactions.",
+   "section": "Company Law",
+   "topic": "Dormant Company"
+  },
+  {
+   "q": "Identify the major Function of Primary Market :",
+   "o": [
+    "Provide market for existing share holders",
+    "Ensure liquidity for investors",
+    "None of these",
+    "Helps the companies to raise capital"
+   ],
+   "a": 3,
+   "e": "The primary market lets companies raise fresh capital.",
+   "section": "Capital Market",
+   "topic": "Primary Market"
+  },
+  {
+   "q": "Type of investors NOT permitted to invest in Indian Capital Market :",
+   "o": [
+    "Foreign Portfolio Investors (FPI’s)",
+    "Minors through Guardian",
+    "Person of Indian Origin (PIO)",
+    "None of these"
+   ],
+   "a": 3,
+   "e": "FPIs, minors through guardians and PIOs can all invest, so none is barred.",
+   "section": "Capital Market",
+   "topic": "Investors"
+  },
+  {
+   "q": "Which of the following is NOT a method of floatation of Capital?",
+   "o": [
+    "Public Issue through Prospectus",
+    "Private Placements",
+    "Acquisition of shares of other companies",
+    "Follow on public offer"
+   ],
+   "a": 2,
+   "e": "Buying shares of other companies is an investment, not a way of raising capital.",
+   "section": "Capital Market",
+   "topic": "Floatation"
+  },
+  {
+   "q": "The regulatory authority while listing of Securities in Indian Stock Market :",
+   "o": [
+    "Stock Exchanges",
+    "SEBI",
+    "RBI",
+    "Ministry of Corporate Affairs"
+   ],
+   "a": 1,
+   "e": "SEBI regulates the listing of securities.",
+   "section": "Capital Market",
+   "topic": "Regulation"
+  },
+  {
+   "q": "What is Price Band in book building process?",
+   "o": [
+    "Minimum and maximum price of the issue",
+    "The price range within which investor can bid",
+    "The price range within which shares will be listed in the Stock Exchanges",
+    "The average price of the issue"
+   ],
+   "a": 1,
+   "e": "The price band is the range within which investors may bid.",
+   "section": "Capital Market",
+   "topic": "Book Building"
+  },
+  {
+   "q": "Which of the following is NOT a Capital Market Instrument?",
+   "o": [
+    "Equity Shares",
+    "ETF",
+    "Repurchase Agreement",
+    "Derivatives"
+   ],
+   "a": 2,
+   "e": "A repo is a money-market instrument, not a capital-market one.",
+   "section": "Capital Market",
+   "topic": "Instruments"
+  },
+  {
+   "q": "Which of the following statement rightly explain FPO?",
+   "o": [
+    "Issue of shares to the public for the first time",
+    "An existing company issuing shares to the public",
+    "A listed company issuing shares to the public for the first time",
+    "A listed company issuing shares to the existing or new investors after IPO."
+   ],
+   "a": 3,
+   "e": "A follow-on public offer is a further issue by an already listed company.",
+   "section": "Capital Market",
+   "topic": "FPO"
+  },
+  {
+   "q": "Which of the following is NOT true in relation to IPO?",
+   "o": [
+    "A private company after issuing IPO becomes a Public Company",
+    "A Government company cannot go for IPO",
+    "It dilutes the existing shareholder’s rights",
+    "After IPO company will be listed in atleast one Stock Exchange"
+   ],
+   "a": 1,
+   "e": "Government companies can and do make IPOs (e.g. LIC), so B is false.",
+   "section": "Capital Market",
+   "topic": "IPO"
+  },
+  {
+   "q": "Which of the following statements is/are correct Income Tax in India?\n(i) The amount of income tax is calculated on total income.\n(ii) The amount of income tax is calculated on gross total income\n(iii) Income tax is progressive in nature\n(iv) Income tax is regressive in nature",
+   "o": [
+    "All are correct",
+    "Only (i) & (iii)",
+    "Only (ii) & (iv)",
+    "Only (i) & (ii)"
+   ],
+   "a": 1,
+   "e": "Tax is computed on total income and is progressive, with higher slabs at higher incomes.",
+   "section": "Taxation",
+   "topic": "Income Tax Basics"
+  },
+  {
+   "q": "Identify the previous year in the following case. An assessee was appointed on 1st July 2024 as lecturer in a college on probation. He was confirmed on 30th June 2025 :",
+   "o": [
+    "The previous year shall be from 1st April 2024 to 31st March 2025.",
+    "The previous year shall be from 1st April 2025 to 30th June 2025",
+    "The previous year shall be from 1st July 2024 to 31st March 2025",
+    "No previous year applicable to the case."
+   ],
+   "a": 2,
+   "e": "For a new source of income, the previous year runs from its start (1 July 2024) to 31 March 2025.",
+   "section": "Taxation",
+   "topic": "Previous Year"
+  },
+  {
+   "q": "Which of the following income is/are assessed to tax in the same year in which the income is earned?\n(i) Income of a person leaving India\n(ii) Transfer of property to avoid tax\n(iii) Income from agriculture business\n(iv) Income of a non- resident from shipping business",
+   "o": [
+    "All are correct",
+    "All except (ii) are correct",
+    "Only (i) & (iii) are correct",
+    "All except (iii) are correct"
+   ],
+   "a": 3,
+   "e": "Income of persons leaving India, transfers made to avoid tax and non-resident shipping income are assessed in the same year; agricultural income is not.",
+   "section": "Taxation",
+   "topic": "Assessment"
+  },
+  {
+   "q": "Which of the following is/are basic conditions for an individual is said to be a resident in any previous year?\n(i) He has been in India in the previous year for a period of 60 days.\n(ii) He has been in India in the previous year for a period of 90 days\n(iii) He has been in India in the previous year for a period of 182 days or more\n(iv) He has been in India for atleast 365 days during the four years preceding the previous year and is in India for atleast 60 days during the previous year",
+   "o": [
+    "Only (iii) & (iv)",
+    "Only (i) & (iii)",
+    "Only (iii)",
+    "Only (i) & (ii)"
+   ],
+   "a": 0,
+   "e": "An individual is resident if he stays 182 days or more, or 60 days in the year plus 365 days in the preceding four years.",
+   "section": "Taxation",
+   "topic": "Residential Status"
+  },
+  {
+   "q": "Compute residential status in the following case. Mr. Mohan. an Indian citizen, serving in a company in New York comes to India every year for five months.",
+   "o": [
+    "Ordinarily resident",
+    "Not ordinarily resident",
+    "Non- resident",
+    "Cannot be determined"
+   ],
+   "a": 2,
+   "e": "An Indian citizen employed abroad who visits for about 150 days fails the 182-day test (the 60-day rule does not apply to him), so he is a non-resident.",
+   "section": "Taxation",
+   "topic": "Residential Status"
+  },
+  {
+   "q": "Which of the following income is/are totally exempted from computation of Income Tax?\n(i) Share of income of a partner in the firm computed by dividing taxable profit of the firm in the profit - sharing ratio\n(ii) Any sum received by an individual as a member of – HUF out of the income of the family.\n(iii) Income received by a non - resident by way of royalty on lease of an aircraft.\n(iv) Amount received under a life insurance policy which is issued on or before 31st March 2003",
+   "o": [
+    "All are exempted",
+    "Only (i), (ii) & (iv)",
+    "Only (i), (iii) & (iv)",
+    "None are exempted"
+   ],
+   "a": 1,
+   "e": "A partner's share of firm profit, receipts from HUF income and old LIC policy proceeds are exempt; aircraft lease royalty to a non-resident is taxable.",
+   "section": "Taxation",
+   "topic": "Exemptions"
+  },
+  {
+   "q": "Which of the following statements is/are correct to the computation of taxable income under the salaries of an individual?\n(i) Section 13 of the Income Tax Act 1961 specifies income which are taxable under this head\n(ii) Salary received by a partner from the partnership firm is chargeable under this head\n(iii) Dearness allowance and over time allowances are fully taxable under this head\n(iv) Value of the residential accommodation provided at site shall not be included in the salary income of the employee",
+   "o": [
+    "Only (i) & (iii)",
+    "Only (ii), (iii) & (iv)",
+    "Only (iii) & (iv)",
+    "Only (i), (ii) & (iv)"
+   ],
+   "a": 2,
+   "e": "DA and overtime are fully taxable, and rent-free accommodation at a remote site is exempt; s.17 (not s.13) defines salary, and partner salary is business income.",
+   "section": "Taxation",
+   "topic": "Salaries"
+  },
+  {
+   "q": "What will be the annual value of house property in the following case?\nExpected rent Rs. 90,000; House let out @ Rs. 10,000 per month; House tax paid by the owner Rs. 9,000 (10% of municipal value); House remained vacant for 4 months.",
+   "o": [
+    "Rs. 81,000",
+    "Rs. 71,000",
+    "Rs. 80,000",
+    "Rs. 99,000"
+   ],
+   "a": 1,
+   "e": "GAV = actual rent 80,000 (8 months, lower due to vacancy); less municipal tax 9,000 gives 71,000.",
+   "section": "Taxation",
+   "topic": "House Property"
+  },
+  {
+   "q": "Which of the following statements is / are correct to the Goods and Services Tax?\n(i) The Centre and the States simultaneously levying tax on a common base\n(ii) Alcoholic liquor for human consumption is outside the realm of GST\n(iii) GST came in to force on 1st July 2017\n(iv) The exchange of currency from one form to another form is not considered as service under GST system",
+   "o": [
+    "Only (ii), (iii) & (iv)",
+    "Only (i), (ii) & (iv)",
+    "Only (iii) & (iv)",
+    "Only (i), (ii) & (iii)"
+   ],
+   "a": 3,
+   "e": "GST is levied concurrently by Centre and States, excludes alcoholic liquor, and started on 1 July 2017.",
+   "section": "Taxation",
+   "topic": "GST"
+  },
+  {
+   "q": "Match the following :\n1. CGST (i) Collected by both Centre and State\n2. SGST (ii) Collected by the State\n3. IGST (iii) Intra-state transaction with in Union territory\n4. UTGST (iv) Collected by the Centre\n(v) Inter-state transaction and imports",
+   "o": [
+    "1 – (i), 2 – (ii), 3 – (v), 4 – (iii)",
+    "1 – (iv), 2 – (v), 3 – (i), 4 – (ii)",
+    "1 – (iv), 2 – (ii), 3 – (v), 4 – (iii)",
+    "1 – (i), 2 – (iv), 3 – (ii), 4 – (iii)"
+   ],
+   "a": 2,
+   "e": "CGST goes to the Centre, SGST to the State, IGST applies to inter-state supplies and imports, and UTGST to intra-UT supplies.",
+   "section": "Taxation",
+   "topic": "GST"
+  },
+  {
+   "q": "Which are the elements of consumer’s black box for response to marketing stimuli are concerned?\n(i) Buyer’s characteristics influence.\n(ii) Buyer’s decision-making process.\n(iii) Buyer’s environmental influence.\n(iv) None of the above",
+   "o": [
+    "(i) only",
+    "(i) & (ii) only",
+    "(ii) & (iii) only",
+    "(iv) only"
+   ],
+   "a": 1,
+   "e": "The buyer's black box consists of buyer characteristics and the buyer decision process.",
+   "section": "Marketing",
+   "topic": "Consumer Behaviour"
+  },
+  {
+   "q": "Integrating ethnic themes and cross-cultural perspectives within a brand’s main stream marketing, appealing to consumer similarities across sub cultural segments rather than differences is known as :\n(i) Brand Positioning\n(ii) Total Market strategy\n(iii) Target marketing.\n(iv) Market segmentation",
+   "o": [
+    "(ii) only",
+    "(i) only",
+    "(iv) only",
+    "(iii) only"
+   ],
+   "a": 0,
+   "e": "Total market strategy blends ethnic themes into mainstream marketing, appealing to similarities across subcultures.",
+   "section": "Marketing",
+   "topic": "Marketing Strategy"
+  },
+  {
+   "q": "Which of the following statement is/are correct for Complex buying behaviour?\n(i) Consumer buying behaviour in situations characterised by high consumer involvement in a purchase and significant perceived differences among brands.\n(ii) Consumer buying behaviour in situations characterised by high consumer involvement but few perceived differences among brands.\n(iii) Consumer buying behaviour in situations characterised by low consumer involvement but few significant perceived brand differences.\n(iv) Consumer buying behaviour in situations characterised by low consumer involvement but no perceived brand differences.",
+   "o": [
+    "(ii) only",
+    "(i) only",
+    "(iv) only",
+    "(iii) only"
+   ],
+   "a": 1,
+   "e": "Complex buying behaviour involves high involvement and significant differences among brands.",
+   "section": "Marketing",
+   "topic": "Consumer Behaviour"
+  },
+  {
+   "q": "The stage of consumer buying decision making process in which consumer takes further action after purchase, based on their satisfaction or dissatisfaction is known as :\n(i) Alternative Evaluation\n(ii) Information search.\n(iii) Post Purchase behaviour.\n(iv) Purchase decision.",
+   "o": [
+    "(i) & (ii) only",
+    "(iii) only",
+    "(iii) & (iv) only",
+    "(iv) only"
+   ],
+   "a": 1,
+   "e": "Action taken after purchase based on satisfaction is post-purchase behaviour.",
+   "section": "Marketing",
+   "topic": "Consumer Behaviour"
+  },
+  {
+   "q": "Among the following what are the Key aspects of Product of Positioning?\n(i) Differentiation\n(ii) Target Audience\n(iii) Value proposition\n(iv) Consistent Messaging.",
+   "o": [
+    "(i) & (ii) only",
+    "(ii) & (iii) only",
+    "(iii) & (iv) only",
+    "all the above"
+   ],
+   "a": 3,
+   "e": "Positioning rests on differentiation, target audience, value proposition and consistent messaging.",
+   "section": "Marketing",
+   "topic": "Positioning"
+  },
+  {
+   "q": "Forming segments of consumers who have similar needs and buying behaviours even though they are located in different countries.\n(i) Demographic segmentation.\n(ii) Behavioural segmentation.\n(iii) Psychographic segmentation.\n(iv) Cross market segmentation.",
+   "o": [
+    "(ii) only",
+    "(iv) only",
+    "(i) only",
+    "(iii) only"
+   ],
+   "a": 1,
+   "e": "Grouping similar buyers across countries is inter-market (cross-market) segmentation.",
+   "section": "Marketing",
+   "topic": "Segmentation"
+  },
+  {
+   "q": "A consumer product that the consumer in the process of selecting and purchasing usually compares on such attributes as suitability, quality, price and style is known as:\n(i) Convenience Product\n(ii) Shopping Products\n(iii) Speciality Products\n(iv) Unsought Product",
+   "o": [
+    "(iii) only",
+    "(ii) & (iii) only",
+    "(ii) only",
+    "(iv) only"
+   ],
+   "a": 2,
+   "e": "Shopping products are compared on suitability, quality, price and style before purchase.",
+   "section": "Marketing",
+   "topic": "Product Classification"
+  },
+  {
+   "q": "Which of the following statements is/are correct for Product portfolio?\n(i) Group of Products that are closely related and sold to the same customer group.\n(ii) The set of all Product lines and items that a particular seller offers for sale.\n(iii) The total count of individual items within those product lines.\n(iv) All of the above.",
+   "o": [
+    "(iii) only",
+    "(ii) only",
+    "(iv) only",
+    "(i) & (ii) only"
+   ],
+   "a": 1,
+   "e": "The product portfolio (mix) is the set of all product lines and items a seller offers.",
+   "section": "Marketing",
+   "topic": "Product Mix"
+  },
+  {
+   "q": "A review of the sales, cost and profit projections for a new product to find out whether these factors satisfy the company’s objectives is known as :\n(i) Concept Testing.\n(ii) Marketing Strategy development.\n(iii) Business analysis.\n(iv) Idea screening.",
+   "o": [
+    "(i) & (ii) only",
+    "(ii) & (iii) only",
+    "(iii) only",
+    "(iv) only"
+   ],
+   "a": 2,
+   "e": "Business analysis reviews sales, cost and profit projections for a new product.",
+   "section": "Marketing",
+   "topic": "New Product Development"
+  },
+  {
+   "q": "A temporary period of unusually high sales driven by consumer enthusiasm and immediate product or brand popularity is known as :\n(i) Fashion\n(ii) Fad\n(iii) Style\n(iv) Growth",
+   "o": [
+    "(ii) only",
+    "(i) only",
+    "(iii) only",
+    "(iv) only"
+   ],
+   "a": 0,
+   "e": "A fad is a short burst of unusually high popularity.",
+   "section": "Marketing",
+   "topic": "Product Life Cycle"
+  },
+  {
+   "q": "Which of the following statements are correct about internal check?\n(i) It is a form of division of labour among employees of the firm.\n(ii) Ensuring that the accounting system produces reliable information is one of its objectives.\n(iii) It is a critical appraisal of how to function various operations of an organisation.\n(iv) It should adhere the idea of giving each employee a fair amount of work so that they can act independently.",
+   "o": [
+    "(i), (ii) and (iii)",
+    "(i), (ii) and (iv)",
+    "(i) (iii) and (iv)",
+    "All the above"
+   ],
+   "a": 1,
+   "e": "Internal check divides work so one person's work is checked by another, ensuring reliability; option B is as per the key.",
+   "section": "Auditing",
+   "topic": "Internal Check"
+  },
+  {
+   "q": "Which of the following statements is/are not correct about internal audit?\n(i) It is carried out continuously by the paid employees of an organisation.\n(ii) It is an analysis of daily transactions in which one person’s work is evaluated independently by another.\n(iii) One of its objects is to improve the performance of the organisation.\n(iv) It covers the verification of accounting matters only.",
+   "o": [
+    "Only (i) and (iv)",
+    "Only (ii) and (iii)",
+    "Only (iv)",
+    "Only (ii) and (iv)"
+   ],
+   "a": 3,
+   "e": "Statement (ii) describes internal check, and internal audit is not limited to accounting matters.",
+   "section": "Auditing",
+   "topic": "Internal Audit"
+  },
+  {
+   "q": "Which of the following statements are true about audit programme?\n(i) It outlines the procedure that must be followed for the verification of each item in the financial statements.\n(ii) It acts as a manual for arranging and distributing the work and checking against the possibility of omissions.\n(iii) It outlines the approximate amount of time needed to finish each audit task.\n(iv) It helps the auditor to know about the status of work done by his/her assistants.",
+   "o": [
+    "Only (i) and (ii)",
+    "(i), (ii) and (iii)",
+    "(i), (iii) and (iv)",
+    "All the statements"
+   ],
+   "a": 3,
+   "e": "An audit programme lists procedures, allocates work, estimates time and tracks progress, so all are true.",
+   "section": "Auditing",
+   "topic": "Audit Programme"
+  },
+  {
+   "q": "Which of the following statements are true regarding audit control?\n(i) It makes the final review easier prior to the signing of the audit report.\n(ii) It is carried out to ensure that the audit plan is followed throughout the actual audit.\n(iii) It simplifies the allocation of audit work among varied audit clerks with varied grades.\n(iv) It aims to update the audit programme based on fresh insights provided by audit assistants.",
+   "o": [
+    "Only (i) and (ii)",
+    "Only (i) and (iii)",
+    "Only (ii) and (iv)",
+    "Only (ii) and (iii)"
+   ],
+   "a": 3,
+   "e": "Per the key, audit control ensures the plan is followed and the programme is updated from assistants' inputs.",
+   "section": "Auditing",
+   "topic": "Audit Control"
+  },
+  {
+   "q": "Which among the following statements are correct regarding audit note book?\n(i) It is a written record of the queries asked and answers provided.\n(ii) The Chief auditor is incharge of maintaining audit note book.\n(iii) It records the mistakes and errors found in the books of accounts maintained by the client.\n(iv) It displays the dates of commencement and completion of the audit.",
+   "o": [
+    "(i), (ii) and (iii)",
+    "(i), (ii) and (iv)",
+    "(i), (iii) and (iv)",
+    "All the statements"
+   ],
+   "a": 2,
+   "e": "The audit note book records queries, errors found and audit dates; it is kept by the audit staff, not the chief auditor.",
+   "section": "Auditing",
+   "topic": "Audit Note Book"
+  },
+  {
+   "q": "Which among the following statements are correct regarding vouching?\n(i) It refers to the comparison of entries in the books of accounts with supporting documentation.\n(ii) It is the process that allows transactions to be verified for accuracy and authenticity.\n(iii) It indicates the inspection of documentary evidences by an auditor to substantiate a transaction.\n(iv) It helps to ensure that no entries have been omitted in the books of accounts.",
+   "o": [
+    "All the statements",
+    "(i), (ii) and (iii)",
+    "(i), (ii) and (iv)",
+    "Only (i) and (ii)"
+   ],
+   "a": 0,
+   "e": "Vouching checks entries against documentary evidence to verify authenticity, all four as per the key.",
+   "section": "Auditing",
+   "topic": "Vouching"
+  },
+  {
+   "q": "Which among the following statements is/are wrong regarding the objects of internal check?\n(i) To quickly identify a mistake or fraud.\n(ii) To avoid misappropriation of goods or cash.\n(iii) To help in finalising audit report without much delay.\n(iv) To exercise moral pressure over the staff members.",
+   "o": [
+    "(ii) and (iii)",
+    "(ii), (iii) and (iv)",
+    "Only (iii)",
+    "Only (iv)"
+   ],
+   "a": 2,
+   "e": "Finalising the audit report quickly is not an object of internal check.",
+   "section": "Auditing",
+   "topic": "Internal Check"
+  },
+  {
+   "q": "Which among the following statements is/are wrong?\n(i) While an audit encompasses not only an assessment of a company’s financial statements but also an enquiry into other pertinent issued related to the purpose for which it is conducted, an investigation merely entails a review of company’s financial statements.\n(ii) An investigation last for several years, but an audit is related to six months or a year.\n(iii) In case of joint stock companies, audit is mandatory as per law while investigation is not a statutory obligation.",
+   "o": [
+    "(i)",
+    "(ii)",
+    "(iii)",
+    "All the statements"
+   ],
+   "a": 0,
+   "e": "Statement (i) reverses the roles: an investigation, not an audit, goes beyond the accounts into specific matters.",
+   "section": "Auditing",
+   "topic": "Investigation"
+  },
+  {
+   "q": "Which among the following statements is/are true regarding the purpose/s served by audit working papers?\n(i) To help the auditor in identifying the operational weaknesses of the internal check system.\n(ii) To assist the auditor in forming an opinion regarding the audit clerks efficiency.\n(iii) Audit clerks receive training on how to summarise their own work through the preparation of audit working papers\n(iv) Audit working papers serve as a guide to the auditor for audits of the same client in the subsequent years.",
+   "o": [
+    "(i), (ii) and (iv)",
+    "(ii), (iii) and (iv)",
+    "(iii) only",
+    "All the statements"
+   ],
+   "a": 3,
+   "e": "Working papers serve all four purposes: weakness detection, evaluating staff, training and guidance for later audits.",
+   "section": "Auditing",
+   "topic": "Working Papers"
+  },
+  {
+   "q": "Which among the following is the most appropriate word to denote the practice of not entering cash received immediately in the cash book and entering it only when a similar amount is received from another debtor?",
+   "o": [
+    "Misappropriation",
+    "Teeming and Lading",
+    "Misuse",
+    "None of these"
+   ],
+   "a": 1,
+   "e": "Teeming and lading is covering cash taken from one debtor with later receipts from another.",
+   "section": "Auditing",
+   "topic": "Frauds"
+  }
+ ]
+}

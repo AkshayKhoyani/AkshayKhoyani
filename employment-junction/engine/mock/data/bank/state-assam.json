@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Kaziranga National Park in Assam is world-famous for the:",
+  "o": [
+   "Asiatic lion",
+   "Nilgiri tahr",
+   "Snow leopard",
+   "One-horned rhinoceros"
+  ],
+  "a": 3,
+  "e": "Kaziranga holds the largest population of the Indian one-horned rhino.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "easy"
+ },
+ {
+  "q": "Rongali (Bohag) Bihu of Assam marks the:",
+  "o": [
+   "Worship of rivers",
+   "Harvest of tea",
+   "Assamese New Year in spring",
+   "End of the monsoon"
+  ],
+  "a": 2,
+  "e": "Bohag or Rongali Bihu in mid-April celebrates the Assamese New Year.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "easy"
+ },
+ {
+  "q": "Majuli, one of the largest river islands in the world, lies in which river?",
+  "o": [
+   "Brahmaputra",
+   "Teesta",
+   "Subansiri",
+   "Barak"
+  ],
+  "a": 0,
+  "e": "Majuli is a large river island in the Brahmaputra and a centre of Satriya culture.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "easy"
+ },
+ {
+  "q": "The Kamakhya Temple, a major Shakti peetha, stands on Nilachal Hill in:",
+  "o": [
+   "Guwahati",
+   "Dibrugarh",
+   "Tezpur",
+   "Jorhat"
+  ],
+  "a": 0,
+  "e": "Kamakhya temple on Nilachal Hill in Guwahati hosts the Ambubachi Mela.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "easy"
+ },
+ {
+  "q": "Muga silk, known as golden silk, is a speciality of:",
+  "o": [
+   "Karnataka",
+   "Assam",
+   "Kerala",
+   "Bihar"
+  ],
+  "a": 1,
+  "e": "Muga silk with its natural golden sheen is unique to Assam and is GI-tagged.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "easy"
+ },
+ {
+  "q": "What is the state animal of Assam?",
+  "o": [
+   "Clouded leopard",
+   "Asian elephant",
+   "One-horned rhinoceros",
+   "Hoolock gibbon"
+  ],
+  "a": 2,
+  "e": "The Indian one-horned rhinoceros is Assam's state animal.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "easy"
+ },
+ {
+  "q": "Pragjyotishpur is the ancient name of which city of Assam?",
+  "o": [
+   "Guwahati",
+   "Sivasagar",
+   "Nagaon",
+   "Silchar"
+  ],
+  "a": 0,
+  "e": "Ancient Pragjyotishpura, capital of Kamarupa, is identified with Guwahati.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "easy"
+ },
+ {
+  "q": "What is the capital of Assam?",
+  "o": [
+   "Jorhat",
+   "Shillong",
+   "Dispur",
+   "Tezpur"
+  ],
+  "a": 2,
+  "e": "Dispur, a locality of Guwahati, is the capital of Assam; Shillong was the capital earlier.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "easy"
+ },
+ {
+  "q": "Sattriya, a classical dance of India, was introduced by:",
+  "o": [
+   "Srimanta Sankardeva",
+   "Lakshminath Bezbaroa",
+   "Jyoti Prasad Agarwala",
+   "Azan Fakir"
+  ],
+  "a": 0,
+  "e": "Srimanta Sankardeva created Sattriya in the 15th-16th century as part of the Vaishnava movement.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "medium"
+ },
+ {
+  "q": "Manas National Park, a UNESCO World Heritage Site, borders which country?",
+  "o": [
+   "Nepal",
+   "Bhutan",
+   "Myanmar",
+   "Bangladesh"
+  ],
+  "a": 1,
+  "e": "Manas lies along the Bhutan border and is contiguous with Bhutan's Royal Manas National Park.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "medium"
+ },
+ {
+  "q": "In the Battle of Saraighat (1671), the Ahom army under Lachit Borphukan defeated the:",
+  "o": [
+   "Burmese",
+   "Mughals",
+   "Koch",
+   "British"
+  ],
+  "a": 1,
+  "e": "Lachit Borphukan defeated the Mughal force under Ram Singh at Saraighat on the Brahmaputra.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "medium"
+ },
+ {
+  "q": "The Ahom kingdom of Assam was founded in 1228 by:",
+  "o": [
+   "Rudra Singha",
+   "Sukaphaa",
+   "Gadadhar Singha",
+   "Swargadeo Pratap Singha"
+  ],
+  "a": 1,
+  "e": "Chaolung Sukaphaa, a Tai prince, founded the Ahom kingdom in 1228.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "medium"
+ },
+ {
+  "q": "Digboi in Assam is famous for:",
+  "o": [
+   "The largest silk market",
+   "A Harappan site",
+   "India's first tea garden",
+   "India's oldest operating oil refinery"
+  ],
+  "a": 3,
+  "e": "The Digboi refinery, commissioned in 1901, is among the oldest operating refineries in the world.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "medium"
+ },
+ {
+  "q": "The Moidams, royal burial mounds of the Ahoms inscribed as a World Heritage Site, are at:",
+  "o": [
+   "Hajo",
+   "Sivasagar town",
+   "Majuli",
+   "Charaideo"
+  ],
+  "a": 3,
+  "e": "The Moidams of Charaideo became a UNESCO World Heritage Site in 2024.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "medium"
+ },
+ {
+  "q": "Which Assamese singer-composer was known as 'Sudhakantha'?",
+  "o": [
+   "Bhupen Hazarika",
+   "Bishnu Prasad Rabha",
+   "Jyoti Prasad Agarwala",
+   "Zubeen Garg"
+  ],
+  "a": 0,
+  "e": "Bhupen Hazarika, the Bharat Ratna awardee, was called Sudhakantha (nectar-voiced).",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "medium"
+ },
+ {
+  "q": "Sualkuchi in Assam is well known as a centre of:",
+  "o": [
+   "Bell-metal craft",
+   "Brass work",
+   "Tea processing",
+   "Silk weaving"
+  ],
+  "a": 3,
+  "e": "Sualkuchi is called the 'Manchester of Assam' for its silk weaving.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "medium"
+ },
+ {
+  "q": "The Assam state song 'O Mur Apunar Desh' was written by:",
+  "o": [
+   "Bhupen Hazarika",
+   "Lakshminath Bezbaroa",
+   "Srimanta Sankardeva",
+   "Hem Barua"
+  ],
+  "a": 1,
+  "e": "Lakshminath Bezbaroa wrote 'O Mur Apunar Desh', the state song of Assam.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "medium"
+ },
+ {
+  "q": "By which treaty did Assam pass into British control after the First Anglo-Burmese War?",
+  "o": [
+   "Treaty of Salbai (1782)",
+   "Treaty of Gandamak (1879)",
+   "Treaty of Yandabo (1826)",
+   "Treaty of Sagauli (1816)"
+  ],
+  "a": 2,
+  "e": "The Treaty of Yandabo (1826) ended the First Anglo-Burmese War and Burma ceded Assam.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "hard"
+ },
+ {
+  "q": "What is the state bird of Assam?",
+  "o": [
+   "Great hornbill",
+   "Greater adjutant stork",
+   "White-winged wood duck",
+   "Bengal florican"
+  ],
+  "a": 2,
+  "e": "The endangered white-winged wood duck (Deo hans) is Assam's state bird.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "hard"
+ },
+ {
+  "q": "The Tocklai Tea Research Institute, among the oldest tea research stations in the world, is in:",
+  "o": [
+   "Tinsukia",
+   "Dibrugarh",
+   "Tezpur",
+   "Jorhat"
+  ],
+  "a": 3,
+  "e": "Tocklai Tea Research Institute was established at Jorhat in 1911.",
+  "topic": "Assam GK",
+  "state": "Assam",
+  "level": "hard"
+ }
+]

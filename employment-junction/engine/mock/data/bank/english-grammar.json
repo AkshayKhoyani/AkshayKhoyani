@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Fill in the blank: She ____ to school every day.",
+  "o": [
+   "go",
+   "goes",
+   "going",
+   "gone"
+  ],
+  "a": 1,
+  "e": "A singular third-person subject in the simple present takes the verb with -s/-es: 'goes'.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Fill in the blank: Look! It ____ heavily outside.",
+  "o": [
+   "is raining",
+   "rains",
+   "rained",
+   "has rain"
+  ],
+  "a": 0,
+  "e": "'Look!' shows an action happening now, so the present continuous 'is raining' is used.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Fill in the blank: By the time we reached the station, the train ____.",
+  "o": [
+   "has left",
+   "leaves",
+   "had left",
+   "was leaving"
+  ],
+  "a": 2,
+  "e": "Of two past actions, the earlier one takes the past perfect: the train had left before we reached.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Fill in the blank: If it rains tomorrow, we ____ the match.",
+  "o": [
+   "would cancel",
+   "cancelled",
+   "had cancelled",
+   "will cancel"
+  ],
+  "a": 3,
+  "e": "A real future condition (first conditional) uses the simple present in the if-clause and 'will' + verb in the main clause.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Fill in the blank: He ____ in this company since 2015.",
+  "o": [
+   "is working",
+   "works",
+   "has been working",
+   "was working"
+  ],
+  "a": 2,
+  "e": "An action that began in the past and is still continuing, with 'since', takes the present perfect continuous.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Choose the correct article: She is ____ honest woman.",
+  "o": [
+   "a",
+   "the",
+   "an",
+   "no article"
+  ],
+  "a": 2,
+  "e": "'Honest' begins with a vowel sound (the 'h' is silent), so 'an' is used.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Choose the correct article: ____ Ganga is a sacred river of India.",
+  "o": [
+   "The",
+   "A",
+   "An",
+   "No article"
+  ],
+  "a": 0,
+  "e": "The definite article is used before the names of rivers.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Choose the correct article: He is ____ university professor.",
+  "o": [
+   "an",
+   "a",
+   "the",
+   "no article"
+  ],
+  "a": 1,
+  "e": "'University' begins with a consonant 'yu' sound, so 'a' is used.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Fill in the blanks: ____ rich should help ____ poor.",
+  "o": [
+   "The, the",
+   "A, a",
+   "No article, the",
+   "The, a"
+  ],
+  "a": 0,
+  "e": "'The' + adjective denotes a whole class of people: 'the rich', 'the poor'.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Fill in the blank: He has been ill ____ Monday.",
+  "o": [
+   "for",
+   "from",
+   "since",
+   "by"
+  ],
+  "a": 2,
+  "e": "'Since' is used with a point of time in the perfect tense; 'for' is used with a period of time.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Fill in the blank: The train arrived exactly at its scheduled time; it was ____ time.",
+  "o": [
+   "in",
+   "at",
+   "by",
+   "on"
+  ],
+  "a": 3,
+  "e": "'On time' means at the scheduled time; 'in time' means early enough.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Fill in the blank: The heavy rain prevented us ____ going out.",
+  "o": [
+   "to",
+   "against",
+   "of",
+   "from"
+  ],
+  "a": 3,
+  "e": "The verb 'prevent' is followed by 'from' + -ing form.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Change into passive voice: Ram writes a letter.",
+  "o": [
+   "A letter was written by Ram.",
+   "A letter is written by Ram.",
+   "A letter has been written by Ram.",
+   "A letter is being written by Ram."
+  ],
+  "a": 1,
+  "e": "Simple present active becomes 'is/are + past participle' in the passive.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Change into passive voice: They are building a new bridge.",
+  "o": [
+   "A new bridge is built by them.",
+   "A new bridge is being built by them.",
+   "A new bridge has been built by them.",
+   "A new bridge was being built by them."
+  ],
+  "a": 1,
+  "e": "Present continuous active becomes 'is/are being + past participle' in the passive.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Change into passive voice: Who taught you English?",
+  "o": [
+   "By whom you were taught English?",
+   "Who was taught you English?",
+   "By whom are you taught English?",
+   "By whom were you taught English?"
+  ],
+  "a": 3,
+  "e": "'Who' becomes 'By whom', and the simple past takes 'were + past participle' with question order.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Change into passive voice: Let him do the work.",
+  "o": [
+   "Let the work is done by him.",
+   "The work let be done by him.",
+   "Let the work be done by him.",
+   "Let the work been done by him."
+  ],
+  "a": 2,
+  "e": "Imperatives with 'let' take the pattern 'Let + object + be + past participle'.",
+  "topic": "English Grammar",
+  "level": "hard"
+ },
+ {
+  "q": "Change into indirect speech: He said, \"I am tired.\"",
+  "o": [
+   "He said that he is tired.",
+   "He said that he was tired.",
+   "He said that I was tired.",
+   "He said that he had been tired."
+  ],
+  "a": 1,
+  "e": "With a past reporting verb, 'am' changes to 'was' and 'I' changes to 'he'.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Change into indirect speech: She said to me, \"Please help me.\"",
+  "o": [
+   "She told me that please help her.",
+   "She requested me that help her.",
+   "She asked to me to help her.",
+   "She requested me to help her."
+  ],
+  "a": 3,
+  "e": "A polite command is reported with 'requested' + object + to-infinitive; 'please' is dropped.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Change into indirect speech: The teacher said, \"The sun rises in the east.\"",
+  "o": [
+   "The teacher said that the sun rises in the east.",
+   "The teacher said that the sun rose in the east.",
+   "The teacher said that the sun had risen in the east.",
+   "The teacher said that the sun was rising in the east."
+  ],
+  "a": 0,
+  "e": "A universal truth keeps its present tense even when the reporting verb is in the past.",
+  "topic": "English Grammar",
+  "level": "hard"
+ },
+ {
+  "q": "Change into indirect speech: He said to me, \"Where do you live?\"",
+  "o": [
+   "He asked me where I lived.",
+   "He asked me where did I live.",
+   "He asked me where do I live.",
+   "He told me where I lived?"
+  ],
+  "a": 0,
+  "e": "In reported questions, the word order becomes that of a statement and the tense moves back: 'where I lived'.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Fill in the blank: Each of the boys ____ a prize.",
+  "o": [
+   "get",
+   "are getting",
+   "have got",
+   "gets"
+  ],
+  "a": 3,
+  "e": "'Each of' takes a singular verb.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Fill in the blank: Neither the teacher nor the students ____ present.",
+  "o": [
+   "were",
+   "was",
+   "is",
+   "has been"
+  ],
+  "a": 0,
+  "e": "With 'neither...nor', the verb agrees with the nearer subject, here the plural 'students'.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Fill in the blank: The quality of the mangoes ____ not good.",
+  "o": [
+   "were",
+   "was",
+   "are",
+   "have been"
+  ],
+  "a": 1,
+  "e": "The real subject is the singular noun 'quality', not 'mangoes'.",
+  "topic": "English Grammar",
+  "level": "medium"
+ },
+ {
+  "q": "Spot the error: One of my friend / is a doctor / in Surat. / No error",
+  "o": [
+   "One of my friend",
+   "is a doctor",
+   "in Surat",
+   "No error"
+  ],
+  "a": 0,
+  "e": "'One of' is followed by a plural noun: 'One of my friends'.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Spot the error: He did not went / to the market / yesterday. / No error",
+  "o": [
+   "He did not went",
+   "to the market",
+   "yesterday",
+   "No error"
+  ],
+  "a": 0,
+  "e": "After the auxiliary 'did', the base form is used: 'did not go'.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Spot the error: Hardly had he reached / the station / than the train left. / No error",
+  "o": [
+   "Hardly had he reached",
+   "the station",
+   "than the train left",
+   "No error"
+  ],
+  "a": 2,
+  "e": "'Hardly' is followed by 'when', not 'than': 'when the train left'.",
+  "topic": "English Grammar",
+  "level": "hard"
+ },
+ {
+  "q": "Spot the error: The furniture in this room / are very expensive / and old-fashioned. / No error",
+  "o": [
+   "The furniture in this room",
+   "are very expensive",
+   "and old-fashioned",
+   "No error"
+  ],
+  "a": 1,
+  "e": "'Furniture' is an uncountable noun and takes a singular verb: 'is very expensive'.",
+  "topic": "English Grammar",
+  "level": "hard"
+ },
+ {
+  "q": "Fill in the blank: Ravi is taller ____ his brother.",
+  "o": [
+   "than",
+   "then",
+   "from",
+   "to"
+  ],
+  "a": 0,
+  "e": "Comparative adjectives such as 'taller' are followed by 'than'.",
+  "topic": "English Grammar",
+  "level": "easy"
+ },
+ {
+  "q": "Fill in the blank: She is one of those women who ____ always ready to help.",
+  "o": [
+   "is",
+   "are",
+   "was",
+   "has been"
+  ],
+  "a": 1,
+  "e": "The relative pronoun 'who' refers to the plural 'women', so the verb is plural.",
+  "topic": "English Grammar",
+  "level": "hard"
+ },
+ {
+  "q": "Choose the correct question tag: He is a doctor, ____?",
+  "o": [
+   "is he",
+   "doesn't he",
+   "isn't he",
+   "wasn't he"
+  ],
+  "a": 2,
+  "e": "A positive statement with 'is' takes the negative tag 'isn't he?'.",
+  "topic": "English Grammar",
+  "level": "easy"
+ }
+]

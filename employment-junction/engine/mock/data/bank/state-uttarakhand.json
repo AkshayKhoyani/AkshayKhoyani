@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Uttarakhand was carved out of Uttar Pradesh as a separate state on:",
+  "o": [
+   "15 November 2000",
+   "1 November 2000",
+   "25 January 1971",
+   "9 November 2000"
+  ],
+  "a": 3,
+  "e": "Uttarakhand (then Uttaranchal) was formed on 9 November 2000.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "easy"
+ },
+ {
+  "q": "Jim Corbett National Park, India's first national park, was established in 1936 under the name:",
+  "o": [
+   "Kumaon National Park",
+   "Hailey National Park",
+   "Ramganga National Park",
+   "Rajaji National Park"
+  ],
+  "a": 1,
+  "e": "It was set up as Hailey National Park in 1936 and later renamed after Jim Corbett.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "easy"
+ },
+ {
+  "q": "The Tehri Dam, one of the tallest dams in India, is built on which river?",
+  "o": [
+   "Sharda",
+   "Bhagirathi",
+   "Alaknanda",
+   "Yamuna"
+  ],
+  "a": 1,
+  "e": "Tehri Dam stands on the Bhagirathi in Tehri Garhwal district.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "easy"
+ },
+ {
+  "q": "The Bhagirathi river originates from which glacier?",
+  "o": [
+   "Milam",
+   "Gangotri",
+   "Pindari",
+   "Satopanth"
+  ],
+  "a": 1,
+  "e": "The Bhagirathi emerges at Gaumukh, the snout of the Gangotri glacier.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "easy"
+ },
+ {
+  "q": "Which of the following is NOT one of the Char Dham of Uttarakhand?",
+  "o": [
+   "Yamunotri",
+   "Kedarnath",
+   "Dwarka",
+   "Badrinath"
+  ],
+  "a": 2,
+  "e": "Uttarakhand's Char Dham are Yamunotri, Gangotri, Kedarnath and Badrinath; Dwarka is in Gujarat.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "easy"
+ },
+ {
+  "q": "The Chipko Movement of the 1970s, in which villagers hugged trees to stop felling, began in the Garhwal Himalayas of present-day:",
+  "o": [
+   "Karnataka",
+   "Uttarakhand",
+   "Himachal Pradesh",
+   "Sikkim"
+  ],
+  "a": 1,
+  "e": "The Chipko Movement began in the Garhwal region in the 1970s with leaders like Gaura Devi and Sunderlal Bahuguna.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the highest peak lying wholly within Uttarakhand?",
+  "o": [
+   "Trishul",
+   "Bandarpunch",
+   "Kamet",
+   "Nanda Devi"
+  ],
+  "a": 3,
+  "e": "Nanda Devi (7,816 m) is the highest peak of Uttarakhand.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "easy"
+ },
+ {
+  "q": "Har-ki-Pauri, a major ghat where the Kumbh Mela is held, is in:",
+  "o": [
+   "Uttarkashi",
+   "Rishikesh",
+   "Haridwar",
+   "Devprayag"
+  ],
+  "a": 2,
+  "e": "Har-ki-Pauri in Haridwar is one of the four venues of the Kumbh Mela.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "easy"
+ },
+ {
+  "q": "The Valley of Flowers National Park, a UNESCO World Heritage Site, is in which district?",
+  "o": [
+   "Chamoli",
+   "Uttarkashi",
+   "Pithoragarh",
+   "Rudraprayag"
+  ],
+  "a": 0,
+  "e": "The Valley of Flowers lies in Chamoli district along with Nanda Devi National Park.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "medium"
+ },
+ {
+  "q": "At Devprayag, the Bhagirathi meets which river to form the Ganga?",
+  "o": [
+   "Pindar",
+   "Mandakini",
+   "Alaknanda",
+   "Dhauliganga"
+  ],
+  "a": 2,
+  "e": "The Bhagirathi and Alaknanda unite at Devprayag to form the Ganga.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "medium"
+ },
+ {
+  "q": "What is the state animal of Uttarakhand?",
+  "o": [
+   "Red panda",
+   "Snow leopard",
+   "Alpine musk deer",
+   "Himalayan tahr"
+  ],
+  "a": 2,
+  "e": "The alpine musk deer (Kasturi mriga) is Uttarakhand's state animal.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "medium"
+ },
+ {
+  "q": "What is the state bird of Uttarakhand?",
+  "o": [
+   "Himalayan monal",
+   "Western tragopan",
+   "Kalij pheasant",
+   "Great hornbill"
+  ],
+  "a": 0,
+  "e": "The Himalayan monal is the state bird of Uttarakhand.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "medium"
+ },
+ {
+  "q": "Hemkund Sahib, a high-altitude Sikh shrine beside a glacial lake, is in which district?",
+  "o": [
+   "Chamoli",
+   "Tehri Garhwal",
+   "Nainital",
+   "Almora"
+  ],
+  "a": 0,
+  "e": "Hemkund Sahib is in Chamoli district near the Valley of Flowers.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "medium"
+ },
+ {
+  "q": "Rajaji National Park in Uttarakhand is named after:",
+  "o": [
+   "Raja Mahendra Pratap",
+   "C. Rajagopalachari",
+   "Raja Ram Mohan Roy",
+   "Rajendra Prasad"
+  ],
+  "a": 1,
+  "e": "Rajaji National Park honours C. Rajagopalachari, popularly called Rajaji.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "medium"
+ },
+ {
+  "q": "Roopkund in Uttarakhand is famous as:",
+  "o": [
+   "India's highest dam reservoir",
+   "A hot spring pilgrimage site",
+   "The source of the Yamuna",
+   "A glacial lake with ancient human skeletons"
+  ],
+  "a": 3,
+  "e": "Roopkund, the 'Skeleton Lake' in Chamoli, contains hundreds of ancient human remains.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "medium"
+ },
+ {
+  "q": "Tungnath, one of the Panch Kedar, is famous as:",
+  "o": [
+   "The seat of Adi Shankaracharya's math",
+   "The source of the Ganga",
+   "The highest Shiva temple in the world",
+   "A Buddhist monastery"
+  ],
+  "a": 2,
+  "e": "Tungnath in Rudraprayag district is regarded as the world's highest Shiva temple.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "medium"
+ },
+ {
+  "q": "Harela, a festival of sowing and greenery, is mainly celebrated in which region of Uttarakhand?",
+  "o": [
+   "Jaunsar",
+   "Terai",
+   "Bhabar",
+   "Kumaon"
+  ],
+  "a": 3,
+  "e": "Harela is a traditional Kumaoni festival celebrating the rainy season and greenery.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "medium"
+ },
+ {
+  "q": "Which language is the second official language of Uttarakhand?",
+  "o": [
+   "Sanskrit",
+   "Urdu",
+   "Garhwali",
+   "Punjabi"
+  ],
+  "a": 0,
+  "e": "In 2010 Uttarakhand became the first state to make Sanskrit its second official language.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "hard"
+ },
+ {
+  "q": "Choliya, performed with swords and shields at weddings, is a traditional dance of:",
+  "o": [
+   "Bastar",
+   "Coorg",
+   "Ladakh",
+   "Kumaon"
+  ],
+  "a": 3,
+  "e": "Choliya is a martial sword dance of the Kumaon region of Uttarakhand.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "hard"
+ },
+ {
+  "q": "Which place has been declared the summer capital of Uttarakhand?",
+  "o": [
+   "Gairsain",
+   "Nainital",
+   "Almora",
+   "Mussoorie"
+  ],
+  "a": 0,
+  "e": "Gairsain (Bhararisain) in Chamoli district was declared the summer capital in 2020.",
+  "topic": "Uttarakhand GK",
+  "state": "Uttarakhand",
+  "level": "hard"
+ }
+]

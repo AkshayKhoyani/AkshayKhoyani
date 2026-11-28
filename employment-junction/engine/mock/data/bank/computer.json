@@ -1,0 +1,392 @@
+[
+ {
+  "q": "What does CPU stand for?",
+  "o": [
+   "Central Processing Unit",
+   "Central Program Unit",
+   "Computer Processing Unit",
+   "Control Processing Unit"
+  ],
+  "a": 0,
+  "e": "The CPU is the Central Processing Unit, often called the brain of the computer.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "How many bits make one byte?",
+  "o": [
+   "4",
+   "8",
+   "16",
+   "32"
+  ],
+  "a": 1,
+  "e": "One byte is a group of 8 bits.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "Which of these is an input device?",
+  "o": [
+   "Keyboard",
+   "Monitor",
+   "Printer",
+   "Speaker"
+  ],
+  "a": 0,
+  "e": "A keyboard sends data into the computer; the others show or give output.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "Which memory loses its data when the power is switched off?",
+  "o": [
+   "ROM",
+   "Hard disk",
+   "RAM",
+   "Pen drive"
+  ],
+  "a": 2,
+  "e": "RAM is volatile memory, so its contents are lost without power.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "Which keyboard shortcut is commonly used to copy selected text?",
+  "o": [
+   "Ctrl + V",
+   "Ctrl + X",
+   "Ctrl + P",
+   "Ctrl + C"
+  ],
+  "a": 3,
+  "e": "Ctrl + C copies, Ctrl + X cuts and Ctrl + V pastes.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "What is the full form of URL?",
+  "o": [
+   "Universal Resource Link",
+   "Uniform Resource Locator",
+   "Uniform Retrieval Locator",
+   "Universal Routing Locator"
+  ],
+  "a": 1,
+  "e": "A URL is the address of a resource on the internet.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "Who is known as the 'Father of the Computer'?",
+  "o": [
+   "Alan Turing",
+   "John von Neumann",
+   "Charles Babbage",
+   "Bill Gates"
+  ],
+  "a": 2,
+  "e": "Charles Babbage designed the Analytical Engine, an early mechanical computer.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "Which of the following is an operating system?",
+  "o": [
+   "MS Excel",
+   "Adobe Photoshop",
+   "Linux",
+   "Mozilla Firefox"
+  ],
+  "a": 2,
+  "e": "Linux is an operating system; the others are application programs.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "Which file extension is used by default for a Microsoft Word document (2007 and later)?",
+  "o": [
+   ".xlsx",
+   ".docx",
+   ".pptx",
+   ".exe"
+  ],
+  "a": 1,
+  "e": ".docx is Word, .xlsx is Excel and .pptx is PowerPoint.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "What does HTML stand for?",
+  "o": [
+   "HighText Machine Language",
+   "HyperText Markup Language",
+   "HyperText Machine Language",
+   "Hyperlink Text Making Language"
+  ],
+  "a": 1,
+  "e": "HTML is the standard language used to create web pages.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "In most applications, the shortcut Ctrl + Z is used to:",
+  "o": [
+   "Save the file",
+   "Undo the last action",
+   "Close the window",
+   "Zoom in"
+  ],
+  "a": 1,
+  "e": "Ctrl + Z reverses (undoes) the last action.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "What does PDF stand for?",
+  "o": [
+   "Printable Document File",
+   "Personal Data Format",
+   "Portable Document Format",
+   "Public Document File"
+  ],
+  "a": 2,
+  "e": "PDF, developed by Adobe, keeps a document's layout the same on any device.",
+  "topic": "Computer",
+  "level": "easy"
+ },
+ {
+  "q": "1 kilobyte (KB) is equal to:",
+  "o": [
+   "1000 bits",
+   "1024 bits",
+   "100 bytes",
+   "1024 bytes"
+  ],
+  "a": 3,
+  "e": "In the binary system, 1 KB = 2¹⁰ = 1024 bytes.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "What is the binary equivalent of decimal number 10?",
+  "o": [
+   "1001",
+   "1010",
+   "1100",
+   "1110"
+  ],
+  "a": 1,
+  "e": "10 = 8 + 2, so in binary it is 1010.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "Which type of memory stores permanent start-up instructions that a normal user cannot change?",
+  "o": [
+   "ROM",
+   "RAM",
+   "Cache",
+   "Register"
+  ],
+  "a": 0,
+  "e": "ROM (Read Only Memory) is non-volatile and holds firmware such as BIOS.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "The World Wide Web (WWW) was invented by:",
+  "o": [
+   "Vint Cerf",
+   "Bill Gates",
+   "Steve Jobs",
+   "Tim Berners-Lee"
+  ],
+  "a": 3,
+  "e": "Tim Berners-Lee created the World Wide Web in 1989 at CERN.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "Which protocol is used for sending e-mail?",
+  "o": [
+   "FTP",
+   "HTTP",
+   "SMTP",
+   "POP3"
+  ],
+  "a": 2,
+  "e": "SMTP (Simple Mail Transfer Protocol) sends mail; POP3 and IMAP are used to receive it.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "An IPv4 address is made up of how many bits?",
+  "o": [
+   "16",
+   "32",
+   "64",
+   "128"
+  ],
+  "a": 1,
+  "e": "IPv4 addresses are 32 bits long; IPv6 addresses are 128 bits.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "In most web browsers, which key reloads (refreshes) the current page?",
+  "o": [
+   "F1",
+   "F2",
+   "F12",
+   "F5"
+  ],
+  "a": 3,
+  "e": "F5 refreshes the page; F1 usually opens Help.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "A network that covers a city is called a:",
+  "o": [
+   "LAN",
+   "PAN",
+   "WAN",
+   "MAN"
+  ],
+  "a": 3,
+  "e": "A Metropolitan Area Network (MAN) spans a city; a LAN covers a building and a WAN a country or more.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "A firewall in a computer network is mainly used for:",
+  "o": [
+   "Security against unauthorised access",
+   "Increasing internet speed",
+   "Cooling the processor",
+   "Printing documents"
+  ],
+  "a": 0,
+  "e": "A firewall filters network traffic to block unauthorised access.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "Among the following, which memory is the fastest?",
+  "o": [
+   "RAM",
+   "Hard disk",
+   "Pen drive",
+   "Cache memory"
+  ],
+  "a": 3,
+  "e": "Cache sits close to the CPU and is faster than RAM and storage devices.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "'Phishing' is a cyber attack in which:",
+  "o": [
+   "A virus copies itself to other files",
+   "Fake messages trick people into revealing personal data",
+   "A computer is overheated deliberately",
+   "Hardware is physically stolen"
+  ],
+  "a": 1,
+  "e": "Phishing uses fake e-mails or sites that look genuine to steal passwords and bank details.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "The hexadecimal number system has base:",
+  "o": [
+   "2",
+   "8",
+   "10",
+   "16"
+  ],
+  "a": 3,
+  "e": "Hexadecimal uses 16 symbols: 0-9 and A-F.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "What does a DNS server do?",
+  "o": [
+   "Stores e-mails permanently",
+   "Blocks viruses",
+   "Compresses files",
+   "Converts domain names into IP addresses"
+  ],
+  "a": 3,
+  "e": "DNS (Domain Name System) maps names like example.com to IP addresses.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "Which device converts digital signals into analog signals and vice versa?",
+  "o": [
+   "Router",
+   "Switch",
+   "Modem",
+   "Hub"
+  ],
+  "a": 2,
+  "e": "A modem (modulator-demodulator) lets computers send data over telephone or cable lines.",
+  "topic": "Computer",
+  "level": "medium"
+ },
+ {
+  "q": "How does a compiler differ from an interpreter?",
+  "o": [
+   "A compiler translates line by line, while an interpreter translates the whole program at once",
+   "A compiler translates the whole program at once, while an interpreter translates line by line",
+   "A compiler converts machine code into a high-level language",
+   "Both work the same way"
+  ],
+  "a": 1,
+  "e": "A compiler converts the full source program into machine code before running; an interpreter executes one statement at a time.",
+  "topic": "Computer",
+  "level": "hard"
+ },
+ {
+  "q": "Integrated Circuits (ICs) were the main technology of which generation of computers?",
+  "o": [
+   "First generation",
+   "Third generation",
+   "Second generation",
+   "Fifth generation"
+  ],
+  "a": 1,
+  "e": "1st generation used vacuum tubes, 2nd transistors and 3rd integrated circuits.",
+  "topic": "Computer",
+  "level": "hard"
+ },
+ {
+  "q": "How many layers are there in the OSI reference model?",
+  "o": [
+   "4",
+   "5",
+   "6",
+   "7"
+  ],
+  "a": 3,
+  "e": "The OSI model has 7 layers, from Physical to Application.",
+  "topic": "Computer",
+  "level": "hard"
+ },
+ {
+  "q": "Which of the following is a non-impact printer?",
+  "o": [
+   "Dot matrix printer",
+   "Laser printer",
+   "Daisy wheel printer",
+   "Line printer"
+  ],
+  "a": 1,
+  "e": "Laser and inkjet printers do not strike the paper, so they are non-impact printers.",
+  "topic": "Computer",
+  "level": "hard"
+ }
+]

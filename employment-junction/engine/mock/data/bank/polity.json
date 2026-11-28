@@ -1,0 +1,392 @@
+[
+ {
+  "q": "On which date was the Constitution of India adopted by the Constituent Assembly?",
+  "o": [
+   "26 January 1950",
+   "26 November 1949",
+   "15 August 1947",
+   "9 December 1946"
+  ],
+  "a": 1,
+  "e": "The Constitution was adopted on 26 November 1949 and came into force on 26 January 1950.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "Who was the Chairman of the Drafting Committee of the Constituent Assembly?",
+  "o": [
+   "Dr. B. R. Ambedkar",
+   "Dr. Rajendra Prasad",
+   "Jawaharlal Nehru",
+   "B. N. Rau"
+  ],
+  "a": 0,
+  "e": "Dr. B. R. Ambedkar chaired the Drafting Committee; B. N. Rau was the Constitutional Advisor.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "The Fundamental Duties of citizens are listed in which Part of the Constitution?",
+  "o": [
+   "Part III",
+   "Part IV",
+   "Part IV-A",
+   "Part V"
+  ],
+  "a": 2,
+  "e": "Fundamental Duties are in Part IV-A (Article 51A), added by the 42nd Amendment.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "Which Article gives the Right to Constitutional Remedies, allowing citizens to move the Supreme Court?",
+  "o": [
+   "Article 19",
+   "Article 32",
+   "Article 21",
+   "Article 14"
+  ],
+  "a": 1,
+  "e": "Article 32 lets a person approach the Supreme Court directly to enforce Fundamental Rights.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "What is the minimum age required to be elected President of India?",
+  "o": [
+   "35 years",
+   "25 years",
+   "30 years",
+   "40 years"
+  ],
+  "a": 0,
+  "e": "Article 58 requires a presidential candidate to have completed 35 years of age.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "Who is the ex-officio Chairman of the Rajya Sabha?",
+  "o": [
+   "President of India",
+   "Vice-President of India",
+   "Speaker of Lok Sabha",
+   "Prime Minister"
+  ],
+  "a": 1,
+  "e": "Under Article 64, the Vice-President is the ex-officio Chairman of the Rajya Sabha.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "Fundamental Rights are contained in which Part of the Indian Constitution?",
+  "o": [
+   "Part III",
+   "Part II",
+   "Part IV",
+   "Part V"
+  ],
+  "a": 0,
+  "e": "Part III (Articles 12 to 35) deals with Fundamental Rights.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "The words 'Socialist' and 'Secular' were added to the Preamble by which Amendment?",
+  "o": [
+   "44th Amendment, 1978",
+   "52nd Amendment, 1985",
+   "42nd Amendment, 1976",
+   "73rd Amendment, 1992"
+  ],
+  "a": 2,
+  "e": "The 42nd Amendment (1976) added Socialist, Secular and Integrity to the Preamble.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "Who is the Supreme Commander of the Indian Armed Forces?",
+  "o": [
+   "The Prime Minister",
+   "The President",
+   "The Defence Minister",
+   "The Chief of Defence Staff"
+  ],
+  "a": 1,
+  "e": "Article 53 vests the supreme command of the defence forces in the President.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "Article 17 of the Constitution deals with:",
+  "o": [
+   "Equality before law",
+   "Abolition of untouchability",
+   "Abolition of titles",
+   "Freedom of speech"
+  ],
+  "a": 1,
+  "e": "Article 17 abolishes untouchability and forbids its practice in any form.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "Which Constitutional Amendment gave constitutional status to Panchayati Raj institutions?",
+  "o": [
+   "73rd Amendment",
+   "74th Amendment",
+   "61st Amendment",
+   "86th Amendment"
+  ],
+  "a": 0,
+  "e": "The 73rd Amendment (1992) added Part IX on Panchayats; the 74th dealt with municipalities.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "The Governor of a state is appointed by:",
+  "o": [
+   "The President",
+   "The Prime Minister",
+   "The Chief Minister",
+   "The Chief Justice of the High Court"
+  ],
+  "a": 0,
+  "e": "Under Article 155, the President appoints the Governor by warrant under his hand and seal.",
+  "topic": "Polity",
+  "level": "easy"
+ },
+ {
+  "q": "The idea of Directive Principles of State Policy was borrowed from the Constitution of:",
+  "o": [
+   "USA",
+   "United Kingdom",
+   "Ireland",
+   "Canada"
+  ],
+  "a": 2,
+  "e": "India borrowed the concept of DPSP from the Irish Constitution.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "Which Article of the Constitution defines a 'Money Bill'?",
+  "o": [
+   "Article 108",
+   "Article 112",
+   "Article 123",
+   "Article 110"
+  ],
+  "a": 3,
+  "e": "Article 110 defines a Money Bill; Article 112 is about the annual financial statement (Budget).",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "Who presides over a joint sitting of both Houses of Parliament?",
+  "o": [
+   "President of India",
+   "Vice-President of India",
+   "Speaker of Lok Sabha",
+   "Prime Minister"
+  ],
+  "a": 2,
+  "e": "Under Article 118(4), the Speaker of Lok Sabha presides over a joint sitting held under Article 108.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "A National Emergency can be proclaimed under which Article?",
+  "o": [
+   "Article 356",
+   "Article 360",
+   "Article 368",
+   "Article 352"
+  ],
+  "a": 3,
+  "e": "Article 352 deals with National Emergency; 356 is President's Rule and 360 is Financial Emergency.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "Right to Education (Article 21A) was inserted by which Amendment?",
+  "o": [
+   "42nd Amendment, 1976",
+   "86th Amendment, 2002",
+   "44th Amendment, 1978",
+   "73rd Amendment, 1992"
+  ],
+  "a": 1,
+  "e": "The 86th Amendment (2002) made free and compulsory education for children aged 6-14 a Fundamental Right.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "The provisions related to anti-defection are contained in which Schedule?",
+  "o": [
+   "Tenth Schedule",
+   "Eighth Schedule",
+   "Ninth Schedule",
+   "Eleventh Schedule"
+  ],
+  "a": 0,
+  "e": "The Tenth Schedule, added by the 52nd Amendment (1985), contains the anti-defection law.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "Right to Property was removed from the list of Fundamental Rights by the:",
+  "o": [
+   "42nd Amendment, 1976",
+   "24th Amendment, 1971",
+   "44th Amendment, 1978",
+   "52nd Amendment, 1985"
+  ],
+  "a": 2,
+  "e": "The 44th Amendment made property a legal right under Article 300A.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "Which writ is issued to free a person from illegal detention?",
+  "o": [
+   "Mandamus",
+   "Certiorari",
+   "Habeas Corpus",
+   "Quo Warranto"
+  ],
+  "a": 2,
+  "e": "Habeas Corpus means 'to have the body'; the court orders the detained person to be produced.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "Who administers the oath of office to the President of India?",
+  "o": [
+   "Vice-President of India",
+   "Speaker of Lok Sabha",
+   "Attorney General of India",
+   "Chief Justice of India"
+  ],
+  "a": 3,
+  "e": "Under Article 60, the Chief Justice of India administers the oath to the President.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "The Comptroller and Auditor General of India is provided for under which Article?",
+  "o": [
+   "Article 76",
+   "Article 124",
+   "Article 148",
+   "Article 280"
+  ],
+  "a": 2,
+  "e": "Article 148 provides for the CAG; Article 76 is for the Attorney General.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "What is the quorum required to hold a meeting of either House of Parliament?",
+  "o": [
+   "One-tenth of the total members",
+   "One-fourth of the total members",
+   "One-third of the total members",
+   "Half of the total members"
+  ],
+  "a": 0,
+  "e": "Article 100 fixes the quorum at one-tenth of the total number of members of the House.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "Who finally decides whether a Bill is a Money Bill or not?",
+  "o": [
+   "President of India",
+   "Finance Minister",
+   "Chairman of Rajya Sabha",
+   "Speaker of Lok Sabha"
+  ],
+  "a": 3,
+  "e": "Article 110(3) makes the Speaker's decision on a Money Bill final.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "The 12th Schedule, listing the functions of municipalities, was added by which Amendment?",
+  "o": [
+   "73rd Amendment",
+   "74th Amendment",
+   "52nd Amendment",
+   "61st Amendment"
+  ],
+  "a": 1,
+  "e": "The 74th Amendment (1992) added Part IX-A and the 12th Schedule with 18 subjects for municipalities.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "The voting age in India was reduced from 21 to 18 years by which Amendment?",
+  "o": [
+   "42nd Amendment",
+   "61st Amendment",
+   "52nd Amendment",
+   "73rd Amendment"
+  ],
+  "a": 1,
+  "e": "The 61st Amendment Act, 1988 lowered the voting age to 18 years.",
+  "topic": "Polity",
+  "level": "medium"
+ },
+ {
+  "q": "The 'basic structure' doctrine was laid down by the Supreme Court in which case?",
+  "o": [
+   "Kesavananda Bharati case",
+   "Golaknath case",
+   "Minerva Mills case",
+   "Maneka Gandhi case"
+  ],
+  "a": 0,
+  "e": "In Kesavananda Bharati (1973), the Court held that Parliament cannot alter the basic structure of the Constitution.",
+  "topic": "Polity",
+  "level": "hard"
+ },
+ {
+  "q": "Which Article empowers the President to establish an Inter-State Council?",
+  "o": [
+   "Article 262",
+   "Article 280",
+   "Article 324",
+   "Article 263"
+  ],
+  "a": 3,
+  "e": "Article 263 provides for an Inter-State Council; Article 262 deals with inter-state water disputes.",
+  "topic": "Polity",
+  "level": "hard"
+ },
+ {
+  "q": "Who chaired the Union Powers Committee of the Constituent Assembly?",
+  "o": [
+   "Sardar Vallabhbhai Patel",
+   "Dr. B. R. Ambedkar",
+   "Dr. Rajendra Prasad",
+   "Jawaharlal Nehru"
+  ],
+  "a": 3,
+  "e": "Nehru headed the Union Powers, Union Constitution and States Committees; Patel headed the Provincial Constitution Committee.",
+  "topic": "Polity",
+  "level": "hard"
+ },
+ {
+  "q": "Under Article 360, the President can proclaim:",
+  "o": [
+   "President's Rule in a state",
+   "National Emergency",
+   "Financial Emergency",
+   "Dissolution of Lok Sabha"
+  ],
+  "a": 2,
+  "e": "Article 360 deals with Financial Emergency, which has never been declared in India so far.",
+  "topic": "Polity",
+  "level": "hard"
+ }
+]

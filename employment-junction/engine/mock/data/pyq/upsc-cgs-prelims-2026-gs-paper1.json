@@ -1,0 +1,1547 @@
+{
+ "exam": "UPSC Combined Geo-Scientist (Preliminary)",
+ "paper": "Paper I - General Studies",
+ "year": 2026,
+ "board": "UPSC",
+ "source_paper": "https://www.upsc.gov.in/uploads/2026/05/QP_CGSPE26_GenStud_I_09022026.pdf",
+ "source_key": "https://www.upsc.gov.in/uploads/2026/11/CGSP-2026-AnsKey-GeneralStudiesPaper-I-041126.pdf",
+ "duration_min": 120,
+ "marks_per_q": 0.83,
+ "negative": 0.28,
+ "questions": [
+  {
+   "q": "The voting age in India was changed from 21 years to 18 years under which one of the following Constitutional Amendment Acts?",
+   "o": [
+    "The 43rd Amendment Act, 1977",
+    "The 48th Amendment Act, 1984",
+    "The 61st Amendment Act, 1989",
+    "The 69th Amendment Act, 1991"
+   ],
+   "a": 2,
+   "e": "The 61st Constitutional Amendment Act, 1989 lowered the voting age for Lok Sabha and Assembly elections from 21 to 18 years.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "The Preamble of the Constitution serves which of the following purposes?\nI. Source of power for the Legislature\nII. States the objectives which the Constitution seeks to establish and promote\nIII. Lays out provisions for economic liberty\nIV. States the source from which the Constitution derives its authority\nSelect the correct answer using the code given below.",
+   "o": [
+    "I and III",
+    "II and IV only",
+    "I, II and IV",
+    "II, III and IV"
+   ],
+   "a": 1,
+   "e": "The Preamble states the objectives of the Constitution and shows that its authority comes from the people of India; it is not a source of legislative power.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which of the following statements regarding the Constitution of India are correct?\nI. No part of the Constitution can be changed by an ordinary legislation unless so authorized.\nII. All parts of the Constitution can be amended including the basic features.\nIII. The Fundamental Rights can be amended under Article 368.\nSelect the answer using the code given below.",
+   "o": [
+    "I and III only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "a": 0,
+   "e": "Ordinary laws cannot change the Constitution unless it allows so, and Fundamental Rights can be amended under Article 368, but the basic structure cannot be destroyed.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Local Self-Government, in both rural and urban areas, falls under which of the following?",
+   "o": [
+    "The Union List",
+    "The Concurrent List",
+    "The State List",
+    "Both the Union List and the State List, in which the Centre has the final say"
+   ],
+   "a": 2,
+   "e": "Local government (panchayats and municipalities) is Entry 5 of the State List.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "The number of Judges in the Supreme Court can be increased by",
+   "o": [
+    "a constitutional amendment",
+    "the President of India",
+    "an Act of the Parliament",
+    "the decision taken by the Chief Justice of India in consultation with other Judges"
+   ],
+   "a": 2,
+   "e": "Article 124 lets Parliament fix the number of Supreme Court judges by an ordinary law.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which one of the following is the first State to universalize the pre-primary education formally?",
+   "o": [
+    "Kerala",
+    "West Bengal",
+    "Punjab",
+    "Karnataka"
+   ],
+   "a": 2,
+   "e": "Punjab became the first state to formally universalise pre-primary education by starting pre-primary classes in all government schools.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Who among the following holds his/her office at the pleasure of the President?",
+   "o": [
+    "The Chairman of a Public Service Commission",
+    "The Attorney General of India",
+    "The Speaker of the Lok Sabha",
+    "The Comptroller and Auditor General of India"
+   ],
+   "a": 1,
+   "e": "Under Article 76 the Attorney General holds office during the pleasure of the President.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Consider the following States :\nI. Andhra Pradesh\nII. Maharashtra\nIII. Karnataka\nIV. Telangana\nHow many of the above States have Bicameral Legislature?",
+   "o": [
+    "One",
+    "Two",
+    "Three",
+    "All four"
+   ],
+   "a": 3,
+   "e": "Andhra Pradesh, Maharashtra, Karnataka and Telangana all have a Legislative Council, so all four are bicameral.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which of the following statements with regard to Proclamation of Emergency are correct?\nI. It cannot be in operation unless approved by the resolution of both the Houses of the Parliament within one month.\nII. Proclamation is immune from judicial review.\nIII. Proclamation of Emergency may be made by the President of India at any time if the security of the country is threatened.\nIV. The President of India can issue a Proclamation of Revocation any time if the Lok Sabha passes a resolution.\nSelect the answer using the code given below.",
+   "o": [
+    "I and III only",
+    "II, III and IV",
+    "I, III and IV",
+    "I and IV only"
+   ],
+   "a": 2,
+   "e": "A National Emergency must be approved by both Houses within one month, can be proclaimed on threat to security, and must be revoked if Lok Sabha so resolves; it is not immune from judicial review.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "What is the full form of SIR introduced by the Election Commission of India?",
+   "o": [
+    "Special Inclusive Review",
+    "Selective Intensive Revision",
+    "Special Intensive Revision",
+    "Specific Internal Review"
+   ],
+   "a": 2,
+   "e": "SIR stands for Special Intensive Revision of electoral rolls by the Election Commission.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Which of the following statements is/are correct about the advisory jurisdiction of the Supreme Court of India?\nI. Article 143 of the Constitution of India lays down that the Supreme Court may be required to express its opinion.\nII. The Supreme Court's advisory opinion is binding on the President under Article 143 of the Constitution of India.\nSelect the answer using the code given below.",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 0,
+   "e": "Article 143 allows the President to seek the Supreme Court's opinion, but that advisory opinion is not binding on the President.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "The Anti-Arrack Movement was initiated in which one of the following States of India?",
+   "o": [
+    "Karnataka",
+    "Kerala",
+    "Andhra Pradesh",
+    "Uttar Pradesh"
+   ],
+   "a": 2,
+   "e": "The Anti-Arrack movement was started by rural women of Nellore district in Andhra Pradesh in the early 1990s.",
+   "section": "General Studies",
+   "topic": "Modern India"
+  },
+  {
+   "q": "Consider the following pairs :\nProvision — Borrowed from\nI. Centrifugal form of federalism : Canada\nII. Impeachment of the President : USA\nIII. Concept of the Concurrent List : USSR\nIV. The Fundamental Duties : Australia\nHow many of the pairs given above are correctly matched?",
+   "o": [
+    "One",
+    "Two",
+    "Three",
+    "All four"
+   ],
+   "a": 1,
+   "e": "A federation with a strong centre is from Canada and impeachment from the USA; the Concurrent List came from Australia and Fundamental Duties from the USSR, so two pairs match.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which of the following statements is/are correct regarding Right to Property under the Constitution of India?\nI. Right to Property was part of the Fundamental Rights.\nII. Right to Property is made a constitutional right under Article 300A.\nSelect the answer using the code given below.",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Right to Property was a Fundamental Right until the 44th Amendment (1978) made it a constitutional right under Article 300A.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "Which of the following Articles cannot be suspended during the Proclamation of National Emergency?",
+   "o": [
+    "Articles 20 and 21",
+    "Articles 30 and 32",
+    "Articles 14 and 15",
+    "Articles 18 and 19"
+   ],
+   "a": 0,
+   "e": "After the 44th Amendment, Articles 20 and 21 cannot be suspended even during a National Emergency.",
+   "section": "General Studies",
+   "topic": "Polity"
+  },
+  {
+   "q": "With reference to tropical thorn forests in India, which of the following statements is/are correct?\nI. They are found in regions with less than 50 cm of annual rainfall.\nII. They are found in parts of Jharkhand.\nIII. Khejri and Khair are important plant species of these forests.\nSelect the answer using the code given below.",
+   "o": [
+    "I only",
+    "I and II",
+    "II and III",
+    "I and III"
+   ],
+   "a": 3,
+   "e": "Tropical thorn forests grow where rainfall is below about 50 cm and include khejri, khair and babool; they are not typical of Jharkhand.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "With reference to 'water vapour in the atmosphere', which of the following statements is/are correct?\nI. It contributes to the stability and instability in the air.\nII. It acts like a blanket, allowing the Earth neither to become too cold nor too hot.\nSelect the answer using the code given below.",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Water vapour decides the stability or instability of air and, like a blanket, absorbs and re-radiates heat to keep the Earth's temperature moderate.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "With reference to 'conditions favourable for tropical cyclones', which of the following is/are correct?\nI. Small variations in the vertical wind speed\nII. Upper divergence above the sea level system\nSelect the answer using the code given below.",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Tropical cyclones need low vertical wind shear (small changes in wind speed with height) and upper-level divergence to grow.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "The Tropic of Cancer passes through how many States of India?",
+   "o": [
+    "Four",
+    "Five",
+    "Six",
+    "Eight"
+   ],
+   "a": 3,
+   "e": "The Tropic of Cancer passes through eight states: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, West Bengal, Tripura and Mizoram.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "The Earth in its initial phases of formation was a hot object with a thin layer of atmosphere comprising",
+   "o": [
+    "oxygen and nitrogen",
+    "hydrogen and helium",
+    "carbon dioxide and nitrogen",
+    "argon and methane"
+   ],
+   "a": 1,
+   "e": "The early Earth's thin primordial atmosphere was mainly hydrogen and helium, later lost to solar winds.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Which one of the following refers to 'the Big Splat'?",
+   "o": [
+    "Formation of the Moon",
+    "Formation of the Earth",
+    "Formation of the Sun",
+    "Formation of the Universe"
+   ],
+   "a": 0,
+   "e": "'Big Splat' is the giant-impact idea that the Moon formed after a Mars-sized body hit the early Earth.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "The International Date Line is made zigzag to avoid which one of the following island groups?",
+   "o": [
+    "Aleutian Islands",
+    "Bonin Islands",
+    "Solomon Islands",
+    "Cook Islands"
+   ],
+   "a": 0,
+   "e": "The International Date Line bends westward around the Aleutian Islands so that they share a date with Alaska.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following statements regarding earthquake :\nI. Tectonic earthquakes originate due to sliding of rocks along a fault plane.\nII. Volcanic earthquake is a special class of tectonic earthquake.\nIII. The intensity of an earthquake is measured by the Richter scale.\nWhich of the statements given above are correct?",
+   "o": [
+    "I and III only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "a": 1,
+   "e": "Tectonic quakes come from slipping along faults and volcanic quakes are a special type of tectonic quake; the Richter scale measures magnitude, not intensity.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following statements regarding metamorphic rocks :\nI. They undergo recrystallization and reorganization of the original minerals.\nII. Foliation and banding are associated with these rocks.\nIII. Gneissoid and syenite are examples of these rocks.\nWhich of the statements given above are correct?",
+   "o": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "a": 3,
+   "e": "Metamorphic rocks show recrystallisation and foliation or banding; syenite is an igneous rock, not metamorphic.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following statements :\nStatement-I :\nWeathering results in mechanical disintegration and chemical decomposition of rocks.\nStatement-II :\nWeathering is controlled by geologic and geomorphic processes but is independent of climatic factors.\nWhich one of the following is correct in respect of the above statements?",
+   "o": [
+    "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+    "Both Statement-I and Statement-II are correct but Statement-II does not explain Statement-I",
+    "Statement-I is correct but Statement-II is not correct",
+    "Statement-I is not correct but Statement-II is correct"
+   ],
+   "a": 2,
+   "e": "Weathering breaks rocks mechanically and chemically, and it depends strongly on climate (temperature and moisture), so Statement-II is wrong.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following statements regarding terrestrial radiation :\nI. Insolation received by the Earth is in shortwaves.\nII. The Earth's energy heats the atmosphere from below.\nIII. The shortwave radiation from the Earth is absorbed by the greenhouse gases.\nWhich of the statements given above are correct?",
+   "o": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "a": 0,
+   "e": "Insolation arrives as shortwaves and the Earth heats the air from below, but the Earth gives out longwave radiation, which greenhouse gases absorb.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following statements regarding South-West monsoons in India :\nI. The monsoons enter into West Bengal from a South-Westerly direction.\nII. The retreating South-West monsoons bring rain to the Eastern part of Peninsular India.\nIII. The Tamil Nadu coast remains dry during the South-West monsoons.\nWhich of the statements given above are correct?",
+   "o": [
+    "I and II only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "a": 2,
+   "e": "The Bay of Bengal branch enters West Bengal from the south-east, not the south-west; retreating monsoon rains the Tamil Nadu coast, which stays fairly dry in the south-west monsoon.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "According to the Ramsar Convention, which one of the following lakes is protected as waterfowl habitat?",
+   "o": [
+    "Chilika Lake",
+    "Pulicat Lake",
+    "Vembanad Lake",
+    "Kolleru Lake"
+   ],
+   "a": 0,
+   "e": "Chilika Lake in Odisha was among India's first Ramsar sites (1981), recognised as an important waterfowl habitat.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Which one of the following government schemes in India promotes organic farming?",
+   "o": [
+    "Paramparagat Krishi Vikas Yojana",
+    "PM Kisan Yojana",
+    "PM Krishi Sinchai Yojana",
+    "Krishi Bhagya Yojana"
+   ],
+   "a": 0,
+   "e": "Paramparagat Krishi Vikas Yojana (PKVY) promotes cluster-based organic farming.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Consider the following statements regarding salinity of oceans :\nI. The North Sea records low salinity because of its location in higher latitudes.\nII. The Baltic Sea records low salinity due to influx of river waters.\nIII. The Mediterranean Sea records higher salinity due to evaporation.\nIV. The Black Sea has high salinity due to lack of river water influx.\nWhich of the statements given above are correct?",
+   "o": [
+    "I and II",
+    "II and III",
+    "III and IV",
+    "I and IV"
+   ],
+   "a": 1,
+   "e": "The Baltic Sea is less salty because of river inflow and the Mediterranean is saltier because of high evaporation; the North Sea is fairly saline and the Black Sea has low salinity.",
+   "section": "General Studies",
+   "topic": "Geography"
+  },
+  {
+   "q": "Consider the following pairs :\nI. U-WIN : Digitizing vaccination records for pregnant women and children up to 14 years\nII. E-Sanjeevani : World's largest tele-medicine implementation in primary health care\nIII. Ayushman Bharat Digital Mission : Provides for compulsory participation of private hospitals in the scheme\nHow many of the pairs given above are correctly matched?",
+   "o": [
+    "One",
+    "Two",
+    "All three",
+    "None"
+   ],
+   "a": 0,
+   "e": "Only e-Sanjeevani is matched correctly: U-WIN covers children up to 16 years, and joining the Ayushman Bharat Digital Mission is voluntary.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Which of the following is/are considered to be part/parts of broad money measure but not part/parts of narrow money measure?\nI. Currency with the public\nII. Demand deposits with banks\nIII. Time deposits with banks\nSelect the correct answer using the code given below.",
+   "o": [
+    "II only",
+    "III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "a": 1,
+   "e": "Time deposits are in broad money (M3) but not in narrow money (M1), which has currency with the public and demand deposits.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "A bank generated savings credit of ₹1,600 crore in the first round from a savings deposit of ₹2,000 crore. What is the Cash Reserve Ratio fixed by the Central Bank?",
+   "o": [
+    "5%",
+    "10%",
+    "20%",
+    "25%"
+   ],
+   "a": 2,
+   "e": "Lending is 1,600 out of 2,000, so 400 (20%) is kept as reserves, giving a CRR of 20%.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "In the context of economy, the term 'capital goods' refers to",
+   "o": [
+    "any asset",
+    "any durable good that is owned for consumption of households",
+    "any asset that helps increase the income of households",
+    "durable assets which are used to produce goods and services"
+   ],
+   "a": 3,
+   "e": "Capital goods are durable assets such as machines that are used to produce other goods and services.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "With reference to distribution of employment in India for the year 2024-2025, consider the following statements :\nI. Self-employment is a major source of employment for men in rural areas.\nII. Casual wage work is a major source of employment for women.\nIII. Proportion of women engaged in self-employment in rural areas is more than that in urban areas.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "I only",
+    "I and III only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "a": 1,
+   "e": "PLFS data show self-employment is the main source of work for rural men, and a larger share of rural women than urban women are self-employed; for women, casual wage work is not the main source.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Consider the following statements about the SANKALP Scheme :\nI. It is a programme of the Ministry of Skill Development and Entrepreneurship with loan assistance from the World Bank.\nII. Quality assurance of skill development programmes is one of the result areas of this scheme.\nIII. Inclusion of the marginalized population is not an objective of this scheme.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "I only",
+    "I and II",
+    "II only",
+    "I and III"
+   ],
+   "a": 1,
+   "e": "SANKALP is a World Bank-supported skills programme of the Skill Development Ministry and focuses on quality assurance; including marginalised groups is one of its aims, so III is wrong.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "According to the World Bank Poverty and Equity Brief (October 2025), 46% of India's poor lived in which of the following States?",
+   "o": [
+    "Bihar, Uttar Pradesh, Madhya Pradesh",
+    "Uttar Pradesh, Maharashtra, Madhya Pradesh",
+    "Bihar, Madhya Pradesh, Maharashtra",
+    "Uttar Pradesh, Bihar, Maharashtra"
+   ],
+   "a": 3,
+   "e": "As per the official key, the World Bank brief names Uttar Pradesh, Bihar and Maharashtra as the states that together hold close to half of India's poor.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Consider the following statements regarding the Deendayal Antyodaya Yojana-National Rural Livelihoods Mission (DAY-NRLM) :\nI. It aims to reduce poverty by enabling poor households to access gainful self-employment and skilled wage employment opportunities.\nII. It assures that at least two members from each rural poor household would be brought under the Self-Help Groups (SHGs) network.\nIII. The programme leverages community resources to build institutions and promote livelihoods.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "I only",
+    "I and II",
+    "II and II",
+    "I and III"
+   ],
+   "a": 3,
+   "e": "DAY-NRLM aims to reduce poverty through self-employment and skilled wage jobs using community institutions; it brings at least one member (usually a woman) of each poor household into SHGs, not two.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "With reference to the Human Development Report (2023-2024), consider the following countries :\nI. Sri Lanka\nII. Myanmar\nIII. Nepal\nHow many of the above countries are performing better in terms of human development than India?",
+   "o": [
+    "One",
+    "Two",
+    "All three",
+    "None"
+   ],
+   "a": 0,
+   "e": "In HDR 2023-24 Sri Lanka ranks above India, while Myanmar and Nepal rank below it.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Consider the following statements about the Monthly Per Capita Expenditure (MPCE) in India :\nStatement-I :\nIt is often criticised for being an incomplete criterion for measuring poverty.\nStatement-II :\nIt does not differentiate between the very poor and the other poor (transient poor).\nStatement-III :\nIt takes expenditure on food and a few select items as proxy for income.\nWhich one of the following is correct in respect of the above statements?",
+   "o": [
+    "Both Statement-II and Statement-III are correct and both of them explain Statement-I",
+    "Both Statement-II and Statement-III are correct but only one of them explains Statement-I",
+    "Only one of Statement-II and Statement-III is correct and that explains Statement-I",
+    "Neither Statement-II nor Statement-III is correct"
+   ],
+   "a": 0,
+   "e": "MPCE is criticised as a poverty measure because it uses spending on food and a few items as a proxy for income and does not separate the very poor from other poor.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "Under the leadership of which Sanskritist/Epigraphist was the project of preparing the first critical edition of the epic Mahabharata started in 1919?",
+   "o": [
+    "Bhau Daji",
+    "V. S. Sukthankar",
+    "Rajendralal Mitra",
+    "R. G. Bhandarkar"
+   ],
+   "a": 1,
+   "e": "The critical edition of the Mahabharata at the Bhandarkar Oriental Research Institute, Pune began in 1919 under V. S. Sukthankar.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Which one of the following texts provides a detailed and connected account of Buddha's life?",
+   "o": [
+    "Lalitavistara",
+    "Baudhayana Dharmasutra",
+    "Mahavagga",
+    "Therigatha"
+   ],
+   "a": 0,
+   "e": "The Lalitavistara, a Sanskrit Buddhist text, gives a detailed and connected life story of the Buddha.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "A 150 CE inscription of Shaka ruler Rudradaman and a 5th century inscription, at the same place, of the time of Gupta king Skandagupta refer to which one of the following?",
+   "o": [
+    "King Ashoka's visit to the birth- place of Buddha",
+    "Construction of an ancient theatre",
+    "Construction of Rajsamand Lake",
+    "Construction and reconstruction of Sudarshana Lake"
+   ],
+   "a": 3,
+   "e": "The Junagadh rock inscriptions of Rudradaman and Skandagupta record the repair of the Sudarshana Lake.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "Consider the following statements about Ashoka's Dhamma :\nI. The theme of Ahimsa is an important aspect of Ashoka's Dhamma.\nII. The ceremony of Dhamma is in proper courtesy to slaves and servants.\nIII. Dhamma consisted of the promotion of Buddhism.\nWhich of the statements given above are correct?",
+   "o": [
+    "I and III only",
+    "II and III only",
+    "I and II only",
+    "I, II and III"
+   ],
+   "a": 2,
+   "e": "Ashoka's Dhamma stressed non-violence and good treatment of slaves and servants; it was a moral code, not promotion of Buddhism.",
+   "section": "General Studies",
+   "topic": "Ancient History"
+  },
+  {
+   "q": "The Bahamani kingdom and Vijayanagara empire clashed frequently over the territory of",
+   "o": [
+    "Madurai",
+    "Warangal",
+    "Malabar",
+    "Raichur Doab"
+   ],
+   "a": 3,
+   "e": "The fertile Raichur Doab between the Krishna and Tungabhadra rivers was the main point of conflict between Vijayanagara and the Bahmanis.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "Which of the following are the salient features of the Government of India Act, 1935?\nI. Provincial Autonomy\nII. Dyarchy at the Centre\nIII. Abolition of the India Council\nSelect the correct answer using the code given below.",
+   "o": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "a": 3,
+   "e": "The Government of India Act, 1935 brought provincial autonomy, proposed dyarchy at the Centre and abolished the Council of India.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "With reference to 8th August, 1942 in the Indian history, which one of the following statements is correct?",
+   "o": [
+    "The Congress Ministries resigned in seven provinces.",
+    "The Viceroy's Executive Council was expanded to include more Indians.",
+    "The Quit India Resolution was passed by the Congress.",
+    "Cripps proposed an Indian Union with full Dominion Status once the Second World War was over."
+   ],
+   "a": 2,
+   "e": "The Quit India Resolution was passed by the AICC at Bombay on 8 August 1942.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "When did the Dandi March begin and when did it end?",
+   "o": [
+    "26th January, 1930 and 6th April, 1930",
+    "12th March, 1930 and 6th April, 1930",
+    "26th January, 1930 and 12th April, 1930",
+    "12th March, 1930 and 12th April, 1930"
+   ],
+   "a": 1,
+   "e": "Gandhi began the Dandi March from Sabarmati on 12 March 1930 and broke the salt law at Dandi on 6 April 1930.",
+   "section": "General Studies",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Consider the following pairs :\nTraveller — Century/Centuries\nI. Marco Polo : Tenth and eleventh centuries\nII. Al-Biruni : Thirteenth century\nIII. Duarte Barbosa : Sixteenth century\nHow many of the pairs given above are correctly matched?",
+   "o": [
+    "None",
+    "One",
+    "Two",
+    "All three"
+   ],
+   "a": 1,
+   "e": "Only Duarte Barbosa (16th century) is correct; Marco Polo came in the 13th century and Al-Biruni in the 11th century.",
+   "section": "General Studies",
+   "topic": "Medieval History"
+  },
+  {
+   "q": "Which of the following white blood cells (WBCs) are found in the highest number in human blood?",
+   "o": [
+    "Basophils",
+    "Lymphocytes",
+    "Monocytes",
+    "Neutrophils"
+   ],
+   "a": 3,
+   "e": "Neutrophils are the most common white blood cells, about 60-65% of all WBCs.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which of the following statements about the process of respiration is/are correct?\nI. During inspiration, the diaphragm gets relaxed.\nII. During expiration, external intercostal muscles contract.\nIII. A healthy human adult breathes 12-16 times per minute at rest.\nSelect the answer using the code given below.",
+   "o": [
+    "I only",
+    "I and II",
+    "I and III",
+    "III only"
+   ],
+   "a": 3,
+   "e": "The diaphragm contracts during inspiration and internal intercostals act in forced expiration; a resting adult breathes 12-16 times a minute.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which part of the circulatory system is affected in coronary artery disease?",
+   "o": [
+    "Arteries supplying blood to lungs",
+    "Arteries supplying blood to kidneys",
+    "Arteries supplying blood to heart muscles",
+    "Arteries supplying blood to brain"
+   ],
+   "a": 2,
+   "e": "Coronary artery disease narrows the coronary arteries that supply blood to the heart muscle.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Consider the following statements :\nI. Blood of 'A' group has anti-B antibodies in plasma.\nII. Blood of 'AB' group has both 'A' and 'B' antigens in RBCs.\nIII. Blood of 'AB' group cannot be given to a person having 'A' blood group.\nIV. Blood of 'O' group does not possess any antibody in plasma.\nWhich of the statements given above are correct?",
+   "o": [
+    "II, III and IV",
+    "I, II and IV",
+    "I, III and IV",
+    "I, II and III"
+   ],
+   "a": 3,
+   "e": "Group A has anti-B antibodies, AB has both antigens and cannot be given to an A person; group O plasma has both anti-A and anti-B antibodies.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which one of the following is not the function of endoplasmic reticulum?",
+   "o": [
+    "Formation of cell membrane",
+    "Packaging of proteins and lipids",
+    "Synthesis of lipids",
+    "Synthesis of proteins"
+   ],
+   "a": 1,
+   "e": "Packaging of proteins and lipids is done by the Golgi apparatus, not the endoplasmic reticulum.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which one of the following structures is not found in case of asexual reproduction?",
+   "o": [
+    "Conidium",
+    "Gamete",
+    "Gemmule",
+    "Zoospore"
+   ],
+   "a": 1,
+   "e": "Gametes are formed for sexual reproduction; conidia, gemmules and zoospores are asexual structures.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which one of the following structures is not a part of vegetative propagation?",
+   "o": [
+    "Rhizome",
+    "Bulb",
+    "Tuber",
+    "Archegonium"
+   ],
+   "a": 3,
+   "e": "The archegonium is the female sex organ of bryophytes and pteridophytes; rhizome, bulb and tuber are used in vegetative propagation.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which of the following cells in the human digestive system is responsible for secretion of hydrochloric acid in the stomach?",
+   "o": [
+    "Parietal cell",
+    "Peptic cell",
+    "Goblet cell",
+    "Mucous neck cell"
+   ],
+   "a": 0,
+   "e": "Parietal (oxyntic) cells of the gastric glands secrete hydrochloric acid.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which one of the following is not a part of the fallopian tube of the female reproductive system of humans?",
+   "o": [
+    "Ampulla",
+    "Endometrium",
+    "Infundibulum",
+    "Isthmus"
+   ],
+   "a": 1,
+   "e": "The endometrium is the lining of the uterus; ampulla, infundibulum and isthmus are parts of the fallopian tube.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "Which of the following statements is/are correct for gynoecium of a flower?\nI. In syncarpous conditions, more than one pistil fuse together.\nII. The stigma serves as a landing platform for pollen grains.\nIII. Pistils are fused with stamens in all flowers.\nSelect the answer using the code given below.",
+   "o": [
+    "I and II only",
+    "I only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "a": 0,
+   "e": "In a syncarpous gynoecium the pistils are fused and the stigma receives pollen; pistils are not fused with stamens in all flowers.",
+   "section": "General Studies",
+   "topic": "Biology"
+  },
+  {
+   "q": "What is the molarity of NaOH in the solution prepared by dissolving its 4 g in 250 mL of solution? (The atomic mass of sodium is 23)",
+   "o": [
+    "0.04 M",
+    "0.4 M",
+    "4 M",
+    "40 M"
+   ],
+   "a": 1,
+   "e": "4 g NaOH = 0.1 mol (molar mass 40); 0.1 mol in 0.25 L gives 0.4 M.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "A solution is prepared by adding 4 g of a substance to 36 g of water. What is the mass percent of the solute?",
+   "o": [
+    "14.4%",
+    "10%",
+    "9%",
+    "1%"
+   ],
+   "a": 1,
+   "e": "Mass percent = 4/(4+36) x 100 = 10%.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "A tablespoon holds 0.5 mole of water.\nWhat is the number of molecules present in it?",
+   "o": [
+    "6.02 x 10^23",
+    "3.01 x 10^23",
+    "9",
+    "36"
+   ],
+   "a": 1,
+   "e": "0.5 mol x 6.022 x 10^23 = 3.01 x 10^23 molecules.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following characteristics is possessed by enantiomers?",
+   "o": [
+    "They have different melting points.",
+    "They have different solubilities.",
+    "They have different optical rotations.",
+    "They have different refractive indices."
+   ],
+   "a": 2,
+   "e": "Enantiomers have the same physical properties except that they rotate plane-polarised light in opposite directions.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Consider the following statements : The polar nature of water makes it\nI. a very good solvent for ionic compounds\nII. to act as an amphoteric substance\nIII. to form hydrates of different types\nWhich of the statements given above are correct?",
+   "o": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "a": 3,
+   "e": "Water's polarity makes it a good solvent for ionic compounds, lets it act as both acid and base, and helps it form different hydrates.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "The conversion of naphthalene into naphthalene vapours is called",
+   "o": [
+    "distillation",
+    "sublimation",
+    "crystallization",
+    "decomposition"
+   ],
+   "a": 1,
+   "e": "Naphthalene changes directly from solid to vapour, which is sublimation.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which of the following methods can be used for removing permanent hardness of water?\nI. Treatment with washing soda\nII. By ion exchange method\nIII. By addition of lime\nSelect the correct answer using the code given below.",
+   "o": [
+    "I and II",
+    "II only",
+    "I and III",
+    "I only"
+   ],
+   "a": 0,
+   "e": "Permanent hardness is removed by washing soda or ion exchange; adding lime (Clark's method) removes only temporary hardness.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which of the following are characteristics of aromatic compounds?\nI. They should be planar.\nII. They should follow (4n+2) π-electrons rule.\nIII. They should be cyclic.\nSelect the correct answer using the code given below.",
+   "o": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "a": 3,
+   "e": "Aromatic compounds must be cyclic and planar and have (4n+2) pi-electrons (Huckel's rule).",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "The adsorbent used in chromatographic techniques is",
+   "o": [
+    "mica",
+    "silica gel",
+    "clay",
+    "glass wool"
+   ],
+   "a": 1,
+   "e": "Silica gel (or alumina) is the common adsorbent in column and thin-layer chromatography.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Consider the following compounds :\nI. Anthracene\nII. Benzene\nIII. Cyclobutane\nIV. Toluene\nHow many of the above are aromatic compounds?",
+   "o": [
+    "One",
+    "Two",
+    "Three",
+    "All four"
+   ],
+   "a": 2,
+   "e": "Anthracene, benzene and toluene are aromatic; cyclobutane is a saturated alicyclic compound.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Which one of the following components is added to optical glass to cut off UV rays?",
+   "o": [
+    "Copper oxide",
+    "Cerium oxide",
+    "Manganese oxide",
+    "Cobalt oxide"
+   ],
+   "a": 1,
+   "e": "Cerium oxide is added to optical glass because it absorbs ultraviolet light.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Consider the following statements in respect of noble gases :\nI. They are p-block elements.\nII. They are highly active.\nIII. They have completely filled electronic configurations.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "III only",
+    "I and III only",
+    "I only",
+    "I, II and III"
+   ],
+   "a": 1,
+   "e": "Noble gases are p-block elements with completely filled shells, which makes them very unreactive.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "Consider the following statements regarding oxidation :\nI. There is loss of hydrogen. II. There is gain of oxygen.\nIII. There is gain of electrons.\nIV. Oxidation state increases.\nWhich of the statements given above are correct?",
+   "o": [
+    "I, II and III",
+    "I, III and IV",
+    "I, II and IV",
+    "II, III and IV"
+   ],
+   "a": 2,
+   "e": "Oxidation means loss of hydrogen, gain of oxygen, loss of electrons and a rise in oxidation state; gain of electrons is reduction.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "The manufacturing of Vanaspati Ghee from polyunsaturated vegetable oils involves which one of the following processes?",
+   "o": [
+    "Refining of oil",
+    "Oxidation of oil",
+    "Hydrogenation of oil",
+    "Reduction of oil"
+   ],
+   "a": 2,
+   "e": "Vanaspati ghee is made by hydrogenating vegetable oils with a nickel catalyst.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "The cleaning action of soap is characterized by which of the following?\nI. Emulsification\nII. Micelle formation around the oil droplet\nIII. Interaction of hydrophilic part of soap with oil\nIV. Interaction of hydrophobic part of soap with water\nSelect the correct answer using the code given below.",
+   "o": [
+    "II, III and IV only",
+    "I and II only",
+    "I, III and IV only",
+    "I, II, III and IV"
+   ],
+   "a": 1,
+   "e": "Soap cleans by emulsifying oil into micelles; its hydrophobic tail holds the oil and the hydrophilic head faces water, so III and IV are reversed.",
+   "section": "General Studies",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "A23a refers to",
+   "o": [
+    "an iceberg",
+    "an island",
+    "a ship",
+    "a ropeway"
+   ],
+   "a": 0,
+   "e": "A23a is one of the world's largest icebergs, which broke away from Antarctica's Filchner Ice Shelf.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Consider the following statements :\nI. Bahubali is the name of ISRO's Launch Vehicle.\nII. GSAT-7R is the heaviest communication satellite ever launched from India.\nIII. CMS-03 is a multiband communication satellite of ISRO.\nWhich of the statements given above are correct?",
+   "o": [
+    "I and II only",
+    "II and III only",
+    "I and III only",
+    "I, II and III"
+   ],
+   "a": 3,
+   "e": "LVM3 is nicknamed 'Bahubali', and in November 2025 it launched CMS-03 (GSAT-7R), a multiband communication satellite and the heaviest launched from India.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "The 22nd India-ASEAN Summit was held in October 2025 in",
+   "o": [
+    "Vientiane",
+    "Kuala Lumpur",
+    "Singapore",
+    "Bangkok"
+   ],
+   "a": 1,
+   "e": "The 22nd ASEAN-India Summit was held in Kuala Lumpur, Malaysia, in October 2025.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Consider the following pairs :\nLeader — Country\nI. Sanae Takaichi : Japan\nII. Catherine Connolly : Ireland\nIII. Rodrigo Paz Pereira : Cameroon\nIV. Paul Biya : Bolivia\nHow many of the pairs given above are correctly matched?",
+   "o": [
+    "One",
+    "Two",
+    "Three",
+    "All four"
+   ],
+   "a": 1,
+   "e": "Sanae Takaichi (Japan) and Catherine Connolly (Ireland) are correct; Rodrigo Paz leads Bolivia and Paul Biya leads Cameroon.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Consider the following countries :\nI. Ethiopia\nII. Nigeria\nIII. Egypt\nIV. UAE\nHow many of the above are full-time members of BRICS?",
+   "o": [
+    "One",
+    "Two",
+    "Three",
+    "All four"
+   ],
+   "a": 2,
+   "e": "Ethiopia, Egypt and the UAE are full BRICS members; Nigeria is only a partner country.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Philadelphi Corridor is located between",
+   "o": [
+    "Syria and Lebanon",
+    "Syria and Turkey",
+    "Gaza and Egypt",
+    "Jordan and Israel"
+   ],
+   "a": 2,
+   "e": "The Philadelphi Corridor is a narrow strip along the border between Gaza and Egypt.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Which one of the following countries is the newest member of NATO?",
+   "o": [
+    "Finland",
+    "Sweden",
+    "North Macedonia",
+    "Montenegro"
+   ],
+   "a": 1,
+   "e": "Sweden joined NATO in March 2024, after Finland (2023).",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "India's installed solar capacity in 2025 is close to",
+   "o": [
+    "70 GW",
+    "90 GW",
+    "130 GW",
+    "200 GW"
+   ],
+   "a": 2,
+   "e": "India's installed solar capacity crossed about 125-130 GW during 2025.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "Dholera and Sanand in Gujarat are in news for setting up",
+   "o": [
+    "solar panels",
+    "semiconductor units",
+    "electrical vehicles",
+    "wind turbines"
+   ],
+   "a": 1,
+   "e": "Dholera (Tata-PSMC fab) and Sanand (Micron, CG Power, Kaynes) are hubs for new semiconductor units.",
+   "section": "General Studies",
+   "topic": "Current Affairs"
+  },
+  {
+   "q": "The Directorate General of Foreign Trade (DGFT) is an attached office of which Ministry of the Government of India?",
+   "o": [
+    "The Ministry of Commerce and Industry",
+    "The Ministry of Finance",
+    "The Ministry of External Affairs",
+    "The Ministry of Corporate Affairs"
+   ],
+   "a": 0,
+   "e": "The DGFT is an attached office of the Ministry of Commerce and Industry.",
+   "section": "General Studies",
+   "topic": "Economy"
+  },
+  {
+   "q": "The United Nations Framework Convention on Climate Change (UNFCCC) was first signed during",
+   "o": [
+    "the Stockholm Conference on the Human Environment, 1972",
+    "the Montreal Protocol, 1987",
+    "the Rio Earth Summit, 1992",
+    "the Kyoto Protocol, 1997"
+   ],
+   "a": 2,
+   "e": "The UNFCCC was opened for signature at the Rio Earth Summit in 1992.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Low temperature and low precipitation produce which type of biome or forests?",
+   "o": [
+    "Tropical forests",
+    "Thorn scrubs",
+    "Savanna",
+    "Tundra"
+   ],
+   "a": 3,
+   "e": "Tundra biomes occur where both temperature and precipitation are low.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "A transition zone between two different ecological communities is known as",
+   "o": [
+    "ecocline",
+    "ecozone",
+    "ecotone",
+    "ecotype"
+   ],
+   "a": 2,
+   "e": "An ecotone is the transition zone where two ecological communities meet.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Two species that possess the same ecological niche cannot coexist indefinitely. This is known as the\nI. competitive exclusion principle\nII. Gause's principle of competitive exclusion\nIII. principle of character displacement\nIV. principle of self-assembly\nWhich of the above is/are correct?",
+   "o": [
+    "I and II",
+    "I and III",
+    "III and IV",
+    "I only"
+   ],
+   "a": 0,
+   "e": "Two species with the same niche cannot coexist for long; this is the competitive exclusion principle, also called Gause's principle.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Consider the following statements :\nStatement-I :\nThe leaves of deciduous forest trees produce brilliant colours in autumn.\nStatement-II :\nIn autumn season, leaves of deciduous forest trees stop producing green chlorophyll pigments.\nWhich one of the following is correct in respect of the above statements?",
+   "o": [
+    "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+    "Both Statement-I and Statement-II are correct but Statement-II does not explain Statement-I",
+    "Statement-I is correct but Statement-II is not correct",
+    "Statement-I is not correct but Statement-II is correct"
+   ],
+   "a": 0,
+   "e": "As chlorophyll production stops in autumn, other pigments such as carotenoids and anthocyanins show, giving bright colours.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "The measure of area of biologically productive land or sea required to produce food, material and energy for human population is known as",
+   "o": [
+    "Living Planet Index",
+    "ecological footprint",
+    "carbon footprint",
+    "carrying capacity"
+   ],
+   "a": 1,
+   "e": "Ecological footprint measures the productive land and sea area needed to supply what a population uses.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "In natural ecosystems, some of the output or output information may be fed back as input to control the functioning. Such system when occurs is called",
+   "o": [
+    "an isolated system",
+    "a cybernetic system",
+    "a linear system",
+    "a successional system"
+   ],
+   "a": 1,
+   "e": "An ecosystem that regulates itself through feedback of its output is called a cybernetic system.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Consider the following statements as regards to the protection of ozone layers :\nI. The Vienna Convention aims to protect the ozone layer.\nII. The Montreal Protocol is recognized as the most successful international environmental treaty.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "The Vienna Convention (1985) protects the ozone layer and its Montreal Protocol is widely called the most successful environmental treaty.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "The fundamental niche of a species refers to",
+   "o": [
+    "the actual range of conditions and resources the species occupies in the presence of competitors",
+    "the physical location within an ecosystem where the species lives",
+    "the unique role and position of the species in its ecosystem including all the biotic interactions",
+    "the full potential range of physical and biological conditions and resources the species could theoretically occupy"
+   ],
+   "a": 3,
+   "e": "The fundamental niche is the full range of conditions a species could use without competitors; the realised niche is the part it actually uses.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Biodiversity elements with actual or potential use should not be lost simply because we presently do not know their value. Which of the following statements best reflects/reflect the reason/reasons for the above statement?\nI. They may have values unused at present but once discovered could enhance the well-being of mankind.\nII. They may become useful in future due to changing circumstances.\nSelect the correct answer using the code given below.",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Biodiversity should be kept because it may have undiscovered uses and may become useful as conditions change.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Consider the following statements in respect of biodiversity hot spot :\nI. It is an area unusually rich in biodiversity.\nII. The flora and fauna are under a constant threat of overexploitation.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "A hotspot is unusually rich in species (often endemic) and faces serious threat of habitat loss and exploitation.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Consider the following statements :\nI. Keystone species is an organism that has a disproportionately large effect on its environment relative to its abundance.\nII. Sentinel species gives us an early warning of problems that could potentially affect other species.\nWhich of the statements given above is/are correct?",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Keystone species have a large effect compared with their numbers, and sentinel species give early warning of environmental danger.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Consider the following statements :\nStatement-I :\nTrophic relationship within ecological communities tends to be complex and web-like.\nStatement-II :\nMany consumers feed on more than one species and are fed upon by more than one species.\nWhich one of the following is correct in respect of the above statements?",
+   "o": [
+    "Both Statement-I and Statement-II are correct and Statement-II explains Statement-I",
+    "Both Statement-I and Statement-II are correct but Statement-II does not explain Statement-I",
+    "Statement-I is correct but Statement-II is not correct",
+    "Statement-I is not correct but Statement-II is correct"
+   ],
+   "a": 0,
+   "e": "Food webs are complex because most consumers eat many species and are eaten by many species.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "Consider the following :\nI. Methane digester\nII. Biodiesel\nIII. Natural compost\nHow many of the above are examples of clean technologies?",
+   "o": [
+    "One",
+    "Two",
+    "All three",
+    "None"
+   ],
+   "a": 2,
+   "e": "Biogas digesters, biodiesel and natural compost all lower pollution and waste, so all three count as clean technologies.",
+   "section": "General Studies",
+   "topic": "Environment"
+  },
+  {
+   "q": "For satellite communication, why are microwave links at 10-12 GHz preferred?",
+   "o": [
+    "Microwaves at such frequencies cannot penetrate clouds",
+    "Ionosphere reflects these waves strongly",
+    "This band lies in low attenuation atmospheric window",
+    "Microwaves at such frequencies do not require any antenna"
+   ],
+   "a": 2,
+   "e": "The 10-12 GHz band falls in an atmospheric window with low attenuation, so signals pass through the atmosphere well.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "A rigid body is placed on a horizontal table. When slightly disturbed, its centre of gravity moves horizontally without any rise or fall in its position.\nWhich one of the following correctly describes the state of the body?",
+   "o": [
+    "The body is in stable equilibrium.",
+    "The body is in unstable equilibrium.",
+    "The body is in neutral equilibrium.",
+    "The body's' state cannot be determined."
+   ],
+   "a": 2,
+   "e": "If the centre of gravity neither rises nor falls when the body is disturbed, the body is in neutral equilibrium.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "A sphere weighs 0.98 N on the Earth. It is brought on the Moon and is divided into 10 equal parts there. Which one among the following is the mass of each part on the Moon in SI unit? (The acceleration due to gravity on the surface of the Moon is one-sixth that of on the Earth)",
+   "o": [
+    "0.01",
+    "0.001",
+    "0.16",
+    "0.016"
+   ],
+   "a": 0,
+   "e": "Mass = 0.98/9.8 = 0.1 kg and does not change on the Moon; 0.1/10 = 0.01 kg per part.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The diameter of a sphere and the side of a cube are of equal length. Which one of the following is the correct ratio of their mass if both of them are made of the same material?",
+   "o": [
+    "π/6",
+    "4/3",
+    "π",
+    "π/3"
+   ],
+   "a": 0,
+   "e": "Sphere volume = (pi/6)d^3 and cube volume = d^3, so with the same density the mass ratio is pi/6.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "A compass needle made of paramagnetic alloy is used at a location where the angle of dip is π/3. When the alloy is slightly cooled below the room temperature, the needle's vertical deflection increases, even though the Earth's magnetic field remains unchanged. Which one of the following best explains this observation?",
+   "o": [
+    "Cooling increases the needle's moment of inertia making it more sensitive to vertical torque.",
+    "Paramagnetic susceptibility increases as temperature decreases.",
+    "The dip angle of the Earth's magnetic field increases when temperature drops.",
+    "Cooling decreases thermal agitation, converting the material effectively into a ferromagnet."
+   ],
+   "a": 1,
+   "e": "Paramagnetic susceptibility rises as temperature falls (Curie's law), so a cooled needle responds more strongly.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Consider the following magnetic materials at room temperature :\n1. Gadolinium oxide\n2. Bismuth\n3. Ruthenium\n4. Graphite\n5. Aluminium\n6. Nickel\nWhich of the following statements is/are correct in respect of the above magnetic materials?\nI. There are two diamagnetic materials.\nII. There are three paramagnetic materials.\nSelect the answer using the code given below.",
+   "o": [
+    "I only",
+    "II only",
+    "Both I and II",
+    "Neither I nor II"
+   ],
+   "a": 2,
+   "e": "Bismuth and graphite are diamagnetic; gadolinium oxide, ruthenium and aluminium are paramagnetic; nickel is ferromagnetic, so both statements are correct.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "A mercury barometer is placed in an elevator accelerating upwards with a constant acceleration (assume constant temperature and no air leaks). If h is the height of mercury column in the stationary elevator and H is the height of mercury column in the moving elevator, then which one of the following is correct?",
+   "o": [
+    "H > h",
+    "H = h",
+    "H < h",
+    "Nothing can be concluded due to insufficient data"
+   ],
+   "a": 2,
+   "e": "In an upward-accelerating lift the effective g increases, so a shorter mercury column balances the same air pressure (H < h).",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "A block of wood floats in water with 3/4th of its volume submerged. The same block floats in another fluid with 2/3rd of its volume submerged. What is the specific gravity of the fluid?",
+   "o": [
+    "3/4",
+    "4/3",
+    "9/8",
+    "8/9"
+   ],
+   "a": 2,
+   "e": "Density of wood = 3/4 of water's and also = 2/3 of the fluid's, so the fluid's specific gravity = (3/4)/(2/3) = 9/8.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Typically a Geiger-Müller tube is used to detect",
+   "o": [
+    "energetic alpha particles and beta particles only",
+    "beta particles and gamma rays only",
+    "energetic alpha particles and gamma rays only",
+    "energetic alpha particles, beta particles and gamma rays"
+   ],
+   "a": 3,
+   "e": "A Geiger-Muller tube detects any ionising radiation, including energetic alpha, beta particles and gamma rays.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "In which of the following cases, the centre of mass of a metallic rod is definitely not at its centre?\nI. The density of the metallic rod continuously decreases from left to right.\nII. The density of the metallic rod continually increases from left to right.\nIII. The density of the metallic rod decreases from left to right up to the centre and then increases.\nIV. The density of the metallic rod increases from left to right up to the centre and then decreases.\nSelect the correct answer using the code given below.",
+   "o": [
+    "I and III only",
+    "I and II only",
+    "II and IV only",
+    "I, II, III and IV"
+   ],
+   "a": 1,
+   "e": "If density keeps falling or keeps rising from one end, the centre of mass must shift off-centre; symmetric patterns (III, IV) can keep it at the centre.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "For the Newton's laws to hold true at the Earth's equator, if c is the value of correction to the gravitational acceleration (g) that should be subtracted from g, then which one of the following is correct?",
+   "o": [
+    "c = 0",
+    "0.01 < c < 0.02",
+    "0.02 < c < 0.03",
+    "c > 0.03"
+   ],
+   "a": 3,
+   "e": "At the equator the centrifugal correction is about omega^2 R = 0.034 m/s^2, which is more than 0.03.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which one of the following materials is strongly paramagnetic due to the presence of unpaired f-electrons and is widely used in MRI contrast agents?",
+   "o": [
+    "Lead",
+    "Gadolinium",
+    "Bismuth",
+    "Platinum"
+   ],
+   "a": 1,
+   "e": "Gadolinium has seven unpaired 4f electrons, so its compounds are strongly paramagnetic and used as MRI contrast agents.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "In which one of the following regions of electromagnetic spectrum, LASER is most difficult to achieve?",
+   "o": [
+    "Microwave",
+    "Infrared",
+    "Visible",
+    "Ultraviolet"
+   ],
+   "a": 3,
+   "e": "Population inversion becomes harder at shorter wavelengths, so among these lasing is hardest in the ultraviolet.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which one among the following is the primary reason of microwave heating of water?",
+   "o": [
+    "Microwaves ionize water molecules.",
+    "Water dipoles undergo rotational resonance at microwave frequencies.",
+    "Microwaves produce standing waves in solids and liquids.",
+    "Heating occurs due to induced currents only."
+   ],
+   "a": 1,
+   "e": "Microwaves make the polar water molecules rotate back and forth with the field, and this motion turns into heat.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "If the electric conductivity of the Earth's outer core is slightly decreased, then which one of the following is the most immediate effect?",
+   "o": [
+    "Stronger geomagnetic field",
+    "Weaker geomagnetic field",
+    "Reversal of magnetic field",
+    "Disappearance of declination"
+   ],
+   "a": 1,
+   "e": "The geodynamo needs a conducting liquid outer core; lower conductivity would weaken the geomagnetic field.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which of the following constants are necessarily included in defining the seven fundamental base units?",
+   "o": [
+    "c, G, h",
+    "e, c, alpha",
+    "e, c, h",
+    "NA, k, G"
+   ],
+   "a": 2,
+   "e": "In the 2019 SI redefinition, base units are fixed using constants such as the elementary charge e, speed of light c and Planck constant h.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "The temperature about which a hot solid object emits infrared radiation alone is",
+   "o": [
+    "up to 100 °C",
+    "up to 500 °C",
+    "up to 1500 °C",
+    "above 1500 °C"
+   ],
+   "a": 1,
+   "e": "A hot solid emits mostly infrared until about 500 degrees C; above that it begins to glow visibly (dull red).",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "A spacecraft is placed at a Lagrange point in our solar system where it is far away from the Sun. Which of the following this point could be?",
+   "o": [
+    "L1 only",
+    "L2 only",
+    "Either L1 or L2",
+    "Either L4 or L5"
+   ],
+   "a": 1,
+   "e": "L2 lies beyond the Earth on the side away from the Sun, so it is the one far from the Sun.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Which of the following fields could bring a deflection in an electron beam?",
+   "o": [
+    "Electric field only",
+    "Magnetic field only",
+    "Either electric field or magnetic field or both",
+    "Neither electric field nor magnetic field"
+   ],
+   "a": 2,
+   "e": "Electrons are charged, so an electric field, a magnetic field (when they move across it), or both can deflect them.",
+   "section": "General Studies",
+   "topic": "Physics"
+  },
+  {
+   "q": "Why is sunscreen lotion used while moving out during daytime in summer?",
+   "o": [
+    "To reduce the exposure to all harmful radiations present in sunlight",
+    "To reduce the exposure to harmful infrared radiations present in sunlight",
+    "To reduce the exposure to harmful ultraviolet radiations present in sunlight",
+    "To reflect the visible radiations by the body surface to glow"
+   ],
+   "a": 2,
+   "e": "Sunscreen blocks or absorbs harmful ultraviolet radiation in sunlight that causes sunburn and skin damage.",
+   "section": "General Studies",
+   "topic": "Physics"
+  }
+ ]
+}

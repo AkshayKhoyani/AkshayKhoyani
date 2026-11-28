@@ -1,0 +1,1120 @@
+{
+ "exam": "Assam Police Constable Combined Written Test (CWT-2025) Paper-II",
+ "paper": "Paper-II (GK, Current Affairs, Maths, English, Reasoning, Assam GK) - Booklet Code A",
+ "year": 2025,
+ "board": "State Level Police Recruitment Board (SLPRB), Assam",
+ "state": "Assam",
+ "lang": "en",
+ "source_paper": "https://slprbassam.in/pdf/Notice2025/14042025/Question-Booklet-Set-A-(CWT-2025-Paper-II).pdf",
+ "source_key": "https://slprbassam.in/pdf/Notice2025/14042025/Provisional-Ans-Key-Set-A%20-(CWT-2025-Paper-II).pdf",
+ "duration_min": 120,
+ "marks_per_q": 0.5,
+ "negative": 0,
+ "questions": [
+  {
+   "q": "Who received the Green Oscar (Whitley Gold Award), 2024?",
+   "o": [
+    "Raman Sukumar",
+    "Brindha Devi",
+    "Krishnamoorthy",
+    "Dr. Purnima Devi Barman"
+   ],
+   "a": 3,
+   "e": "Assamese wildlife biologist Dr. Purnima Devi Barman, known for saving the greater adjutant stork, won the 2024 Whitley Gold Award.",
+   "section": "Current Affairs",
+   "topic": "Awards"
+  },
+  {
+   "q": "Which organization released the Child Nutrition Report, 2024?",
+   "o": [
+    "WHO",
+    "UNICEF",
+    "UNDP",
+    "World Bank"
+   ],
+   "a": 1,
+   "e": "UNICEF published the Child Nutrition Report 2024 on child food poverty.",
+   "section": "Current Affairs",
+   "topic": "Reports"
+  },
+  {
+   "q": "In the World Press Freedom Index, 2024, what is India’s rank among 180 countries?",
+   "o": [
+    "159",
+    "152",
+    "150",
+    "161"
+   ],
+   "a": 0,
+   "e": "India ranked 159 out of 180 countries in the RSF World Press Freedom Index 2024.",
+   "section": "Current Affairs",
+   "topic": "Indices"
+  },
+  {
+   "q": "When is ‘National Cancer Awareness Day’ observed?",
+   "o": [
+    "November 9",
+    "November 7",
+    "November 5",
+    "November 3"
+   ],
+   "a": 1,
+   "e": "National Cancer Awareness Day is observed on 7 November, the birth anniversary of Marie Curie.",
+   "section": "General Knowledge",
+   "topic": "Important Days"
+  },
+  {
+   "q": "In which of the following districts is the ‘Jonbeel Mela’ held every year?",
+   "o": [
+    "Morigaon",
+    "Baksa",
+    "Chirang",
+    "Golaghat"
+   ],
+   "a": 0,
+   "e": "Jonbeel Mela, famous for barter trade, is held every year at Jagiroad in Morigaon district.",
+   "section": "State GK",
+   "topic": "Assam Culture"
+  },
+  {
+   "q": "‘Silpi Divas’ is celebrated on",
+   "o": [
+    "25th January",
+    "21st May",
+    "17th January",
+    "14th November"
+   ],
+   "a": 2,
+   "e": "Silpi Divas is observed on 17 January, the death anniversary of Rupkonwar Jyoti Prasad Agarwala.",
+   "section": "State GK",
+   "topic": "Assam Culture"
+  },
+  {
+   "q": "Where is the ‘Assam State Museum’ located?",
+   "o": [
+    "Guwahati",
+    "Sivasagar",
+    "Nagaon",
+    "Jorhat"
+   ],
+   "a": 0,
+   "e": "The Assam State Museum is located in Guwahati, near Dighalipukhuri.",
+   "section": "State GK",
+   "topic": "Assam Culture"
+  },
+  {
+   "q": "ASTC stands for",
+   "o": [
+    "Assam State Trading Corporation",
+    "Assam State Technology Commission",
+    "Assam State Transport Corporation",
+    "Assam State Travel Corporation"
+   ],
+   "a": 2,
+   "e": "ASTC is the Assam State Transport Corporation, the state's public bus operator.",
+   "section": "State GK",
+   "topic": "Assam GK"
+  },
+  {
+   "q": "Which of the following is not an inert gas?",
+   "o": [
+    "Argon",
+    "Helium",
+    "Neon",
+    "Nitrogen"
+   ],
+   "a": 3,
+   "e": "Argon, helium and neon are noble (inert) gases; nitrogen is a reactive group 15 element.",
+   "section": "General Knowledge",
+   "topic": "Chemistry"
+  },
+  {
+   "q": "The Peasant Uprising of Assam in 1894 took place at",
+   "o": [
+    "Gohpur",
+    "Yandaboo",
+    "Patharughat",
+    "Dhekiajuli"
+   ],
+   "a": 2,
+   "e": "The 1894 peasant uprising against increased land revenue saw British firing on farmers at Patharughat (Darrang).",
+   "section": "State GK",
+   "topic": "Assam History"
+  },
+  {
+   "q": "Who won the best player award in the ICC Men’s T20 World Cup, 2024?",
+   "o": [
+    "Suryakumar Yadav",
+    "Travis Head",
+    "Jasprit Bumrah",
+    "None of them"
+   ],
+   "a": 2,
+   "e": "Jasprit Bumrah was named Player of the Tournament at the 2024 ICC Men's T20 World Cup.",
+   "section": "Current Affairs",
+   "topic": "Sports"
+  },
+  {
+   "q": "Where will the 2034 FIFA World Cup be held?",
+   "o": [
+    "Spain",
+    "Saudi Arabia",
+    "Canada",
+    "None of these"
+   ],
+   "a": 1,
+   "e": "FIFA confirmed Saudi Arabia as host of the 2034 FIFA World Cup.",
+   "section": "Current Affairs",
+   "topic": "Sports"
+  },
+  {
+   "q": "Standard Missile–6 (SM–6) was developed by which country?",
+   "o": [
+    "USA",
+    "Japan",
+    "India",
+    "China"
+   ],
+   "a": 0,
+   "e": "The Standard Missile-6 (SM-6) was developed by Raytheon for the US Navy.",
+   "section": "Current Affairs",
+   "topic": "Defence"
+  },
+  {
+   "q": "PM-SURAJ Portal is implemented by which Ministry?",
+   "o": [
+    "The Ministry of Rural Development",
+    "The Ministry of New and Renewable Energy",
+    "The Ministry of Social Justice and Empowerment",
+    "The Ministry of Housing and Urban Affairs"
+   ],
+   "a": 2,
+   "e": "PM-SURAJ portal, for credit support to disadvantaged sections, is run by the Ministry of Social Justice and Empowerment.",
+   "section": "Current Affairs",
+   "topic": "Government Schemes"
+  },
+  {
+   "q": "Which player won the Orange Cap in IPL, 2024?",
+   "o": [
+    "Abhishek Sharma",
+    "Virat Kohli",
+    "Rinku Singh",
+    "None of them"
+   ],
+   "a": 1,
+   "e": "Virat Kohli won the Orange Cap in IPL 2024 with 741 runs.",
+   "section": "Current Affairs",
+   "topic": "Sports"
+  },
+  {
+   "q": "Which sector has received the highest allocation in the Budget for 2025–2026?",
+   "o": [
+    "Education",
+    "Rural Development",
+    "Indian Railways",
+    "Defence"
+   ],
+   "a": 3,
+   "e": "Defence received the largest sectoral allocation in the Union Budget 2025-26.",
+   "section": "Current Affairs",
+   "topic": "Economy"
+  },
+  {
+   "q": "Who is the current External Affairs Minister of India?",
+   "o": [
+    "Kiren Rijiju",
+    "Bhupender Yadav",
+    "Jagat Prakash Nadda",
+    "Dr. S. Jaishankar"
+   ],
+   "a": 3,
+   "e": "Dr. S. Jaishankar has been India's External Affairs Minister since 2019.",
+   "section": "Current Affairs",
+   "topic": "Polity"
+  },
+  {
+   "q": "Consider the following statements regarding the Z-Morh Tunnel (Sonamarg Tunnel) : 1. It is a part of Zojila Tunnel Project. 2. The 6.5 km long tunnel connects Gagangir and Sonamarg region in Jammu and Kashmir. 3. The project comes under the supervision of the National Highways Authority of India. Which of the statements given above is/are correct?",
+   "o": [
+    "1 and 2 only",
+    "1 only",
+    "2 and 3 only",
+    "2 only"
+   ],
+   "a": 0,
+   "e": "The 6.5 km Z-Morh tunnel links Gagangir and Sonamarg as part of the Zojila tunnel project; it was built under NHIDCL, not NHAI.",
+   "section": "Current Affairs",
+   "topic": "Infrastructure"
+  },
+  {
+   "q": "Which of the following is the first AI city in India?",
+   "o": [
+    "Kolkata",
+    "Lucknow",
+    "Delhi",
+    "Bengaluru"
+   ],
+   "a": 1,
+   "e": "Lucknow was promoted as India's first AI city under the IndiaAI mission.",
+   "section": "Current Affairs",
+   "topic": "Science & Technology"
+  },
+  {
+   "q": "Which tech company has launched ‘Copilot+’ PCs with AI-enhanced functionality and a unique ‘Recall’ feature?",
+   "o": [
+    "Alphabet",
+    "Apple",
+    "Acer",
+    "Microsoft"
+   ],
+   "a": 3,
+   "e": "Microsoft launched Copilot+ PCs in 2024 with the AI 'Recall' feature.",
+   "section": "Current Affairs",
+   "topic": "Science & Technology"
+  },
+  {
+   "q": "What is the minimum number to be added to 1289 so that it becomes a perfect square?",
+   "o": [
+    "1",
+    "7",
+    "13",
+    "16"
+   ],
+   "a": 1,
+   "e": "36² = 1296, so 1296 − 1289 = 7 must be added.",
+   "section": "Maths",
+   "topic": "Number System"
+  },
+  {
+   "q": "The base and height of a parallelogram are 5 cm and 3 cm respectively. Find the area of the parallelogram.",
+   "o": [
+    "30 cm²",
+    "15 cm²",
+    "7.5 cm²",
+    "15 cm"
+   ],
+   "a": 1,
+   "e": "Area of a parallelogram = base × height = 5 × 3 = 15 cm².",
+   "section": "Maths",
+   "topic": "Mensuration"
+  },
+  {
+   "q": "In how many years will a sum of money be doubled itself at a simple interest of 10% p.a.?",
+   "o": [
+    "2 years",
+    "5 years",
+    "10 years",
+    "20 years"
+   ],
+   "a": 2,
+   "e": "Doubling means interest equals principal: P = P × 10 × T / 100, so T = 10 years.",
+   "section": "Maths",
+   "topic": "Simple Interest"
+  },
+  {
+   "q": "A and B started a partnership business investing ₹10,000 and ₹6,400 respectively. After 5 months, A withdrew ₹3,000 and B added ₹600 to their investment. Being active partner, B gets 10% of the annual profit as salary. If the profit at the end of one year is ₹16,000, the share of profit of B will be",
+   "o": [
+    "₹6,480",
+    "₹7,920",
+    "₹8,080",
+    "None of these"
+   ],
+   "a": 2,
+   "e": "Capital-months A = 99000, B = 81000 (11 : 9). B gets ₹1,600 salary plus 9/20 of ₹14,400 = ₹6,480, total ₹8,080.",
+   "section": "Maths",
+   "topic": "Partnership"
+  },
+  {
+   "q": "Find the median of the following numbers : 32, 32, 34, 35, 35, 38, 42",
+   "o": [
+    "32",
+    "38",
+    "35",
+    "42"
+   ],
+   "a": 2,
+   "e": "For 7 ordered values the median is the 4th value, 35.",
+   "section": "Maths",
+   "topic": "Statistics"
+  },
+  {
+   "q": "The amount on compound interest of ₹100 for 2 years at the rate of 10% per annum is",
+   "o": [
+    "₹121",
+    "₹221",
+    "₹111.21",
+    "₹121.21"
+   ],
+   "a": 0,
+   "e": "Amount = 100 × 1.1² = ₹121.",
+   "section": "Maths",
+   "topic": "Compound Interest"
+  },
+  {
+   "q": "If the HCF and LCM of p and q are r and s respectively, then the LCM of p, q, r and s is (p, q ∈ natural numbers)",
+   "o": [
+    "pq",
+    "qr",
+    "sp",
+    "s"
+   ],
+   "a": 3,
+   "e": "r divides both p and q, and s is a multiple of both, so the LCM of p, q, r, s is s.",
+   "section": "Maths",
+   "topic": "HCF & LCM"
+  },
+  {
+   "q": "The sum of the odd consecutive numbers from 1 to 25 is",
+   "o": [
+    "325",
+    "200",
+    "169",
+    "89"
+   ],
+   "a": 2,
+   "e": "Odd numbers 1 to 25 are 13 terms; their sum = 13² = 169.",
+   "section": "Maths",
+   "topic": "Series"
+  },
+  {
+   "q": "Which one of the following statements is not true?",
+   "o": [
+    "Each even (positive) number is a natural number.",
+    "The smallest natural number is 1.",
+    "0 is a whole number.",
+    "Each natural number is an even number."
+   ],
+   "a": 3,
+   "e": "Natural numbers include odd numbers, so 'each natural number is even' is false.",
+   "section": "Maths",
+   "topic": "Number System"
+  },
+  {
+   "q": "If the price of an article is ₹200 and the rebate on it is 10%, then the customer has to pay for this article",
+   "o": [
+    "₹90",
+    "₹190",
+    "₹80",
+    "₹180"
+   ],
+   "a": 3,
+   "e": "10% of 200 = 20, so the customer pays ₹180.",
+   "section": "Maths",
+   "topic": "Discount"
+  },
+  {
+   "q": "If we divide ₹460 among 10 men, 16 women and 20 children equally, then the share of each one will be",
+   "o": [
+    "₹10",
+    "₹16",
+    "₹20",
+    "₹46"
+   ],
+   "a": 0,
+   "e": "There are 10 + 16 + 20 = 46 persons; 460 / 46 = ₹10 each.",
+   "section": "Maths",
+   "topic": "Division"
+  },
+  {
+   "q": "If 2^(2x + 1) ÷ 4 = 8, then the value of x is",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 1,
+   "e": "2^(2x+1) ÷ 2² = 2³ gives 2x − 1 = 3, so x = 2.",
+   "section": "Maths",
+   "topic": "Indices"
+  },
+  {
+   "q": "Two rational numbers a/b and c/d are equivalent if",
+   "o": [
+    "a + b = c + d",
+    "a × b = c × d",
+    "a × d = b × c",
+    "a + d = b + c"
+   ],
+   "a": 2,
+   "e": "a/b = c/d exactly when a × d = b × c (cross-multiplication).",
+   "section": "Maths",
+   "topic": "Rational Numbers"
+  },
+  {
+   "q": "If the base of a triangle is twice its altitude and the altitude is 2x unit, then the area of the triangle is",
+   "o": [
+    "8x² sq. unit",
+    "2x² sq. unit",
+    "x² sq. unit",
+    "4x² sq. unit"
+   ],
+   "a": 3,
+   "e": "Altitude 2x, base 4x; area = ½ × 4x × 2x = 4x² sq. units.",
+   "section": "Maths",
+   "topic": "Mensuration"
+  },
+  {
+   "q": "Which of the following cannot be the measures of three sides of a triangle?",
+   "o": [
+    "5 cm, 10 cm, 6 cm",
+    "14 cm, 7 cm, 8 cm",
+    "10 cm, 20 cm, 8 cm",
+    "30 cm, 20 cm, 12 cm"
+   ],
+   "a": 2,
+   "e": "10 + 8 = 18 < 20, so 10, 20, 8 cannot form a triangle.",
+   "section": "Maths",
+   "topic": "Geometry"
+  },
+  {
+   "q": "“The sum of two consecutive odd numbers is 48.” This statement can be expressed in equation as",
+   "o": [
+    "(x + 1) + (x + 2) = 48",
+    "x + (x + 1) = 48",
+    "x + (x + 2) = 48",
+    "(x - 1) + (x - 2) = 48"
+   ],
+   "a": 2,
+   "e": "Consecutive odd numbers differ by 2, so x + (x + 2) = 48.",
+   "section": "Maths",
+   "topic": "Algebra"
+  },
+  {
+   "q": "What is the distance between the x-axis and the line y + 2 = 0 ?",
+   "o": [
+    "2 units",
+    "3 units",
+    "4 units",
+    "1 unit"
+   ],
+   "a": 0,
+   "e": "y + 2 = 0 is the line y = −2, which is 2 units from the x-axis.",
+   "section": "Maths",
+   "topic": "Coordinate Geometry"
+  },
+  {
+   "q": "Choose the correct option to fill in the blank in the following sentence : “Can you tell me _____ the truth?”",
+   "o": [
+    "why did you not speak",
+    "that why did you not speak",
+    "why did not you speak",
+    "why you did not speak"
+   ],
+   "a": 3,
+   "e": "In an embedded (indirect) question the subject comes before the verb: 'why you did not speak'.",
+   "section": "English",
+   "topic": "Grammar"
+  },
+  {
+   "q": "Choose the correct option to fill in the blank in the following sentence : “The train _____ before we reached the station.”",
+   "o": [
+    "had left",
+    "left",
+    "has left",
+    "was going to leave"
+   ],
+   "a": 0,
+   "e": "The earlier of two past actions takes the past perfect: 'had left'.",
+   "section": "English",
+   "topic": "Tenses"
+  },
+  {
+   "q": "Choose the correct article to fill in the blank in the following sentence : “He is _____ MA in English.”",
+   "o": [
+    "a",
+    "an",
+    "the",
+    "No article is needed"
+   ],
+   "a": 1,
+   "e": "'MA' is pronounced 'em-ay', which begins with a vowel sound, so 'an' is used.",
+   "section": "English",
+   "topic": "Articles"
+  },
+  {
+   "q": "Choose the correct question tag to complete the following sentence : “She is going there, _____”",
+   "o": [
+    "isn’t she?",
+    "is she?",
+    "doesn’t she?",
+    "isn’t it?"
+   ],
+   "a": 0,
+   "e": "A positive statement with 'is' takes the negative tag 'isn't she?'.",
+   "section": "English",
+   "topic": "Question Tags"
+  },
+  {
+   "q": "Find the incorrectly spelt word.",
+   "o": [
+    "Conductor",
+    "Conductance",
+    "Condusive",
+    "Confusing"
+   ],
+   "a": 2,
+   "e": "The correct spelling is 'Conducive'.",
+   "section": "English",
+   "topic": "Spelling"
+  },
+  {
+   "q": "Choose the correct option to fill in the blank in the following sentence : “When I met Rajat in Mumbai, he _____ teaching English for four years.”",
+   "o": [
+    "is been",
+    "has been",
+    "have been",
+    "had been"
+   ],
+   "a": 3,
+   "e": "An action continuing up to a point in the past uses the past perfect: 'had been teaching'.",
+   "section": "English",
+   "topic": "Tenses"
+  },
+  {
+   "q": "Fill in the blank of the following sentence with correct option : “Assam has tremendous potential _____ investors in service sector.”",
+   "o": [
+    "of",
+    "in",
+    "at",
+    "for"
+   ],
+   "a": 3,
+   "e": "'Potential for' someone is the correct collocation.",
+   "section": "English",
+   "topic": "Prepositions"
+  },
+  {
+   "q": "Choose the correct passive form of the following sentence : “She is writing a letter.”",
+   "o": [
+    "A letter is written by her.",
+    "A letter has been written by her.",
+    "A letter is being written by her.",
+    "A letter is writing by her."
+   ],
+   "a": 2,
+   "e": "Present continuous passive is 'is being + past participle': 'A letter is being written by her.'",
+   "section": "English",
+   "topic": "Voice"
+  },
+  {
+   "q": "Choose the correct option to fill in the blank in the following sentence : “She is _____ than any other girl in the class.”",
+   "o": [
+    "tall",
+    "the tallest",
+    "more tall",
+    "taller"
+   ],
+   "a": 3,
+   "e": "'Than any other' needs the comparative degree: 'taller'.",
+   "section": "English",
+   "topic": "Degrees of Comparison"
+  },
+  {
+   "q": "Choose the correct indirect speech of the following : She said, “I have finished the work.”",
+   "o": [
+    "She said that she has finished the work.",
+    "She said that she would finish the work.",
+    "She said that she finished the work.",
+    "She said that she had finished the work."
+   ],
+   "a": 3,
+   "e": "Present perfect in direct speech changes to past perfect: 'she had finished the work'.",
+   "section": "English",
+   "topic": "Narration"
+  },
+  {
+   "q": "Choose the correct option to fill in the blank in the following sentence : “I asked him _____ so lazy.”",
+   "o": [
+    "that is why",
+    "why he was",
+    "that why he is",
+    "that why is he"
+   ],
+   "a": 1,
+   "e": "A reported question uses 'why' + subject + verb, with backshift: 'why he was so lazy'.",
+   "section": "English",
+   "topic": "Narration"
+  },
+  {
+   "q": "Choose the correct option to fill in the blank in the following sentence : “He always claims to be _____ everyone in his company.”",
+   "o": [
+    "superior than",
+    "superior to",
+    "superiority over",
+    "All of these"
+   ],
+   "a": 1,
+   "e": "'Superior' is followed by 'to', not 'than'.",
+   "section": "English",
+   "topic": "Prepositions"
+  },
+  {
+   "q": "Which of the following is incorrect ?",
+   "o": [
+    "A swarm of monkeys",
+    "A caravan of camels",
+    "A pack of wolves",
+    "A colony of rats"
+   ],
+   "a": 0,
+   "e": "Monkeys come in a 'troop' (swarm is used for bees/insects), so 'a swarm of monkeys' is incorrect.",
+   "section": "English",
+   "topic": "Collective Nouns"
+  },
+  {
+   "q": "Which of the following words is closest in meaning to the word ‘abundant’ ?",
+   "o": [
+    "Scarce",
+    "Difficult",
+    "Barren",
+    "Ample"
+   ],
+   "a": 3,
+   "e": "'Abundant' means plentiful, i.e. 'ample'.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "The phrase ‘stem the tide’ means",
+   "o": [
+    "save",
+    "stop",
+    "touch",
+    "spare"
+   ],
+   "a": 1,
+   "e": "'Stem the tide' means to stop or check the spread of something.",
+   "section": "English",
+   "topic": "Idioms"
+  },
+  {
+   "q": "The antonym of the word ‘callous’ is",
+   "o": [
+    "casual",
+    "sensitive",
+    "soulless",
+    "strict"
+   ],
+   "a": 1,
+   "e": "'Callous' means insensitive and cruel; its opposite is 'sensitive'.",
+   "section": "English",
+   "topic": "Antonyms"
+  },
+  {
+   "q": "Choose the odd word from the following.",
+   "o": [
+    "Agitated",
+    "Aggressive",
+    "Rowdy",
+    "Submissive"
+   ],
+   "a": 3,
+   "e": "Agitated, aggressive and rowdy describe unruly behaviour; 'submissive' is the opposite.",
+   "section": "English",
+   "topic": "Odd One Out"
+  },
+  {
+   "q": "“O my Luve’s like a red, red rose” is an example of a",
+   "o": [
+    "simile",
+    "metaphor",
+    "metonymy",
+    "personification"
+   ],
+   "a": 0,
+   "e": "The comparison uses 'like', which makes it a simile.",
+   "section": "English",
+   "topic": "Figures of Speech"
+  },
+  {
+   "q": "What is the meaning of ‘cost an arm and leg’ ?",
+   "o": [
+    "Very expensive",
+    "War damages",
+    "Total destruction",
+    "Medical surgery"
+   ],
+   "a": 0,
+   "e": "'Cost an arm and a leg' means to be very expensive.",
+   "section": "English",
+   "topic": "Idioms"
+  },
+  {
+   "q": "Choose the correct option to fill in the blank in the following sentence : “He was so hungry that he could _____ wait to wash his hands.”",
+   "o": [
+    "rarely",
+    "often",
+    "seldom",
+    "hardly"
+   ],
+   "a": 3,
+   "e": "'Could hardly wait' means he was too eager to wait.",
+   "section": "English",
+   "topic": "Vocabulary"
+  },
+  {
+   "q": "If 2 × 3 × 4 = 432, 5 × 6 × 7 = 765, 7 × 8 × 9 = 987, then 2 × 5 × 7 = ?",
+   "o": [
+    "572",
+    "752",
+    "725",
+    "257"
+   ],
+   "a": 1,
+   "e": "The digits are reversed: 2×3×4 → 432, so 2×5×7 → 752.",
+   "section": "Reasoning",
+   "topic": "Coding"
+  },
+  {
+   "q": "Fill in the blank : Doctor : Hospital : : Teacher : _____",
+   "o": [
+    "School",
+    "Field",
+    "Industry",
+    "Laboratory"
+   ],
+   "a": 0,
+   "e": "A doctor works in a hospital and a teacher works in a school.",
+   "section": "Reasoning",
+   "topic": "Analogy"
+  },
+  {
+   "q": "If in a certain code 5789 is written as GKPT and 2436 is written as ALUR, how will 24539 be written in that code?",
+   "o": [
+    "ALRUT",
+    "ALGUT",
+    "ALGTU",
+    "ALGRT"
+   ],
+   "a": 1,
+   "e": "From the codes 2→A, 4→L, 5→G, 3→U, 9→T, so 24539 = ALGUT.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "Select the correct mathematical signs to balance the given expression : 6 * 4 * 9 * 15",
+   "o": [
+    "−, ×, =",
+    "×, −, =",
+    "=, ×, −",
+    "−, =, ×"
+   ],
+   "a": 1,
+   "e": "6 × 4 − 9 = 15 balances the expression.",
+   "section": "Reasoning",
+   "topic": "Math Operations"
+  },
+  {
+   "q": "If POLICE is coded as QOMIDE, then DACOIT will be coded as",
+   "o": [
+    "EBDPJU",
+    "EADTOJ",
+    "EADOJT",
+    "EBDOJT"
+   ],
+   "a": 2,
+   "e": "Letters in odd positions move +1 and even positions stay: D→E, A, C→D, O, I→J, T gives EADOJT.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "Ramya’s school starts at 10 o’clock in the morning, and after school she attends swimming course at 4 o’clock in the afternoon. By how much degree does the hour hand move during this time?",
+   "o": [
+    "60°",
+    "120°",
+    "180°",
+    "135°"
+   ],
+   "a": 2,
+   "e": "From 10 to 4 is 6 hours; the hour hand moves 30° per hour, so 180°.",
+   "section": "Reasoning",
+   "topic": "Clock"
+  },
+  {
+   "q": "Select the related letters from the following : ABC : UVW : : DEF : _____",
+   "o": [
+    "XYZ",
+    "MNP",
+    "POR",
+    "GHR"
+   ],
+   "a": 0,
+   "e": "ABC is the 1st letter-group and UVW is shifted by 20 letters; DEF shifted by 20 gives XYZ.",
+   "section": "Reasoning",
+   "topic": "Analogy"
+  },
+  {
+   "q": "In the following series, select the missing number : 8, 24, 12, ?, 18, 54",
+   "o": [
+    "18",
+    "36",
+    "46",
+    "38"
+   ],
+   "a": 1,
+   "e": "Pattern ×3, ÷2: 8×3 = 24, ÷2 = 12, ×3 = 36, ÷2 = 18, ×3 = 54.",
+   "section": "Reasoning",
+   "topic": "Number Series"
+  },
+  {
+   "q": "The staple food crop of Assam is",
+   "o": [
+    "rice",
+    "wheat",
+    "pulses",
+    "jute"
+   ],
+   "a": 0,
+   "e": "Rice is the staple food crop of Assam and covers most of its cropped area.",
+   "section": "State GK",
+   "topic": "Assam Economy"
+  },
+  {
+   "q": "The Kamakhya Temple is situated at",
+   "o": [
+    "Nilachal Hills",
+    "Chitrachal Hills",
+    "Manikuta Hills",
+    "None of these"
+   ],
+   "a": 0,
+   "e": "The Kamakhya Temple stands on Nilachal Hill in Guwahati.",
+   "section": "State GK",
+   "topic": "Assam Culture"
+  },
+  {
+   "q": "Who was the last Swargadeo of Ahom Dynasty?",
+   "o": [
+    "Jayadhwaj Singha",
+    "Chakradhwaj Singha",
+    "Purandar Singha",
+    "Pramatta Singha"
+   ],
+   "a": 2,
+   "e": "Purandar Singha, the last Ahom ruler, was reinstated by the British in Upper Assam (1833-38).",
+   "section": "State GK",
+   "topic": "Ahom History"
+  },
+  {
+   "q": "‘Joy Daul’ was built in the memory of",
+   "o": [
+    "Joymoti Kunwari",
+    "Phuleswari Kunwari",
+    "Ambika Kunwari",
+    "Rani Gaidinliu"
+   ],
+   "a": 0,
+   "e": "Rudra Singha built the Joy Dol (1698) in memory of his mother Joymoti Kunwari.",
+   "section": "State GK",
+   "topic": "Ahom History"
+  },
+  {
+   "q": "Which of the following is not a district of Barak Valley?",
+   "o": [
+    "Shribhumi",
+    "Hailakandi",
+    "Cachar",
+    "Morigaon"
+   ],
+   "a": 3,
+   "e": "Barak Valley comprises Cachar, Hailakandi and Sribhumi (Karimganj); Morigaon is in the Brahmaputra Valley.",
+   "section": "State GK",
+   "topic": "Assam Geography"
+  },
+  {
+   "q": "Which of the following Kingdoms was finally annexed into the Ahom Kingdom by Swargadeo Rudra Singha?",
+   "o": [
+    "Kamata Kingdom",
+    "Dimasa-Kachari Kingdom",
+    "Dafala Kingdom",
+    "None of these"
+   ],
+   "a": 1,
+   "e": "Rudra Singha defeated the Dimasa-Kachari king Tamradhwaj and brought the kingdom under Ahom suzerainty.",
+   "section": "State GK",
+   "topic": "Ahom History"
+  },
+  {
+   "q": "Who was the first lady Chief Minister of Assam?",
+   "o": [
+    "Syeda Anwara Taimur",
+    "Sucheta Kripalani",
+    "Nandini Satpathy",
+    "Mehbooba Mufti"
+   ],
+   "a": 0,
+   "e": "Syeda Anwara Taimur (1980-81) was Assam's first woman Chief Minister.",
+   "section": "State GK",
+   "topic": "Assam Polity"
+  },
+  {
+   "q": "During whose reign was the Rang Ghar reconstructed using bricks and mortar?",
+   "o": [
+    "Swargadeo Jayadhwaj Singha",
+    "Swargadeo Purandar Singha",
+    "Swargadeo Gadadhar Singha",
+    "Swargadeo Pramatta Singha"
+   ],
+   "a": 3,
+   "e": "The Rang Ghar was rebuilt in brick and mortar during Pramatta Singha's reign (1744-51).",
+   "section": "State GK",
+   "topic": "Ahom History"
+  },
+  {
+   "q": "Where is the ‘Assam Kayaking and Canoeing Training Centre’ located?",
+   "o": [
+    "Deepor Beel, Guwahati",
+    "Pani Dihing Beel, Sivasagar",
+    "Maguri Beel, Tinsukia",
+    "Charan Beel, Morigaon"
+   ],
+   "a": 3,
+   "e": "The state Kayaking and Canoeing training centre is at Charan Beel in Morigaon.",
+   "section": "State GK",
+   "topic": "Assam Sports"
+  },
+  {
+   "q": "Where is the ‘Police Training College’ in Assam located?",
+   "o": [
+    "Nagaon",
+    "Dergaon",
+    "Dudhnoi",
+    "Digboi"
+   ],
+   "a": 1,
+   "e": "Assam Police Training College is located at Dergaon in Golaghat district.",
+   "section": "State GK",
+   "topic": "Assam GK"
+  },
+  {
+   "q": "Where is the ‘Garampani Sanctuary’ located?",
+   "o": [
+    "Diphu, Assam",
+    "Gangtok, Sikkim",
+    "Junagadh, Gujarat",
+    "Kohima, Nagaland"
+   ],
+   "a": 0,
+   "e": "Garampani Wildlife Sanctuary, known for hot springs, is near Diphu in Karbi Anglong.",
+   "section": "State GK",
+   "topic": "Assam Geography"
+  },
+  {
+   "q": "During whose reign did the Chinese pilgrim Hiuen Tsang visit Kamarupa?",
+   "o": [
+    "Bhutivarman",
+    "Harjaravarman",
+    "Ratnapala",
+    "Bhaskaravarman"
+   ],
+   "a": 3,
+   "e": "Hiuen Tsang visited Kamarupa around 642 CE during the reign of Bhaskaravarman.",
+   "section": "State GK",
+   "topic": "Kamarupa History"
+  },
+  {
+   "q": "The Asian Development Bank recently approved what amount of loan to increase renewable energy capacity and improve energy security in the State of Assam?",
+   "o": [
+    "$ 432.25 million",
+    "$ 430.25 million",
+    "$ 443.25 million",
+    "$ 434.25 million"
+   ],
+   "a": 3,
+   "e": "In 2024 the ADB approved a USD 434.25 million loan for Assam's renewable energy and power sector.",
+   "section": "Current Affairs",
+   "topic": "Economy"
+  },
+  {
+   "q": "Who among the following was hanged in the ‘Quit India Movement’ of 1942?",
+   "o": [
+    "Gomdhar Konwar",
+    "Maniram Dewan",
+    "Piyoli Phukan",
+    "Kushal Konwar"
+   ],
+   "a": 3,
+   "e": "Kushal Konwar was hanged in 1943 for the Sarupathar train sabotage during the Quit India Movement.",
+   "section": "State GK",
+   "topic": "Assam History"
+  },
+  {
+   "q": "Assam has international boundary with which two countries?",
+   "o": [
+    "Bhutan and Bangladesh",
+    "Bhutan and Myanmar",
+    "Bangladesh and Myanmar",
+    "Myanmar and China"
+   ],
+   "a": 0,
+   "e": "Assam shares international borders with Bhutan and Bangladesh.",
+   "section": "State GK",
+   "topic": "Assam Geography"
+  },
+  {
+   "q": "The largest river island in India is situated in",
+   "o": [
+    "Bihar",
+    "West Bengal",
+    "Odisha",
+    "Assam"
+   ],
+   "a": 3,
+   "e": "Majuli in the Brahmaputra, Assam, is India's largest river island.",
+   "section": "State GK",
+   "topic": "Assam Geography"
+  },
+  {
+   "q": "The only plateau in Assam is",
+   "o": [
+    "Deccan Plateau",
+    "Karbi Plateau",
+    "Meghalaya Plateau",
+    "Chota Nagpur Plateau"
+   ],
+   "a": 1,
+   "e": "The Karbi (Karbi-Meghalaya) Plateau is the only plateau region of Assam.",
+   "section": "State GK",
+   "topic": "Assam Geography"
+  },
+  {
+   "q": "Fathiyyah-i-Ibriyyah of Shihab-ud-din Talish is an important source to know about",
+   "o": [
+    "the Battle of Saraighat",
+    "the Treaty of Yandaboo",
+    "Mir Jumla’s Expedition",
+    "Moamoria Rebellion"
+   ],
+   "a": 2,
+   "e": "Shihabuddin Talish's Fathiyyah-i-Ibriyyah chronicles Mir Jumla's 1662-63 expedition to Assam.",
+   "section": "State GK",
+   "topic": "Medieval Assam"
+  },
+  {
+   "q": "Which of the following is the main pillar of Assam’s economy?",
+   "o": [
+    "Oil and Natural Gas",
+    "Tourism",
+    "Manufacturing",
+    "Agriculture"
+   ],
+   "a": 3,
+   "e": "Agriculture employs most of Assam's workforce and is the backbone of its economy.",
+   "section": "State GK",
+   "topic": "Assam Economy"
+  },
+  {
+   "q": "In which year was the fourth oil refinery of Assam started at Numaligarh?",
+   "o": [
+    "1919",
+    "1999",
+    "1991",
+    "1989"
+   ],
+   "a": 1,
+   "e": "Numaligarh Refinery, Assam's fourth refinery, started operations in 1999.",
+   "section": "State GK",
+   "topic": "Assam Economy"
+  }
+ ]
+}

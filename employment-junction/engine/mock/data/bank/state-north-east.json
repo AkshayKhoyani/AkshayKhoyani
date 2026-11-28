@@ -1,0 +1,282 @@
+[
+ {
+  "q": "Arunachal Pradesh: The Tawang Monastery, the largest monastery in India, belongs to which sect?",
+  "o": [
+   "Sakya",
+   "Gelug",
+   "Nyingma",
+   "Kagyu"
+  ],
+  "a": 1,
+  "e": "Tawang Monastery, founded in the 17th century, belongs to the Gelug school.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "easy"
+ },
+ {
+  "q": "Manipur: The Manipuri classical dance is chiefly based on themes of:",
+  "o": [
+   "The Ras Lila of Radha and Krishna",
+   "The Ramayana's battle scenes",
+   "Shiva's Tandava",
+   "Buddhist Jataka tales"
+  ],
+  "a": 0,
+  "e": "Manipuri dance centres on the Ras Lila depicting Radha, Krishna and the gopis.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "easy"
+ },
+ {
+  "q": "Manipur: Keibul Lamjao, the world's only floating national park, lies in which lake?",
+  "o": [
+   "Loktak",
+   "Tsomgo",
+   "Umiam",
+   "Dal"
+  ],
+  "a": 0,
+  "e": "Keibul Lamjao floats on phumdis in Loktak Lake.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "easy"
+ },
+ {
+  "q": "Meghalaya: Mawsynram, near Cherrapunji, is famous for being:",
+  "o": [
+   "A desert in the North-East",
+   "The coldest town in India",
+   "One of the wettest places on Earth",
+   "India's highest town"
+  ],
+  "a": 2,
+  "e": "Mawsynram in the Khasi Hills receives among the highest average rainfall in the world.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "easy"
+ },
+ {
+  "q": "Meghalaya: The 'living root bridges' of Meghalaya are made by the Khasi and Jaintia people from:",
+  "o": [
+   "Roots of rubber fig trees",
+   "Cane ropes",
+   "Bamboo poles",
+   "Stone slabs"
+  ],
+  "a": 0,
+  "e": "Living root bridges are grown by guiding aerial roots of Ficus elastica.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "easy"
+ },
+ {
+  "q": "Mizoram: Cheraw, performed by dancers stepping between clapping bamboo poles, is a famous dance of:",
+  "o": [
+   "Mizoram",
+   "Nagaland",
+   "Tripura",
+   "Sikkim"
+  ],
+  "a": 0,
+  "e": "Cheraw (bamboo dance) is the best-known traditional dance of Mizoram.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "easy"
+ },
+ {
+  "q": "Nagaland: The Hornbill Festival, held every December at Kisama, is a showcase of:",
+  "o": [
+   "Tea industry",
+   "River boat racing",
+   "Buddhist monastic dances",
+   "Naga tribal culture"
+  ],
+  "a": 3,
+  "e": "The Hornbill Festival celebrates the heritage of all Naga tribes.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "easy"
+ },
+ {
+  "q": "Sikkim: In which year did Sikkim become a state of India?",
+  "o": [
+   "1962",
+   "1987",
+   "1975",
+   "1947"
+  ],
+  "a": 2,
+  "e": "Sikkim became the 22nd state of India in 1975.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "easy"
+ },
+ {
+  "q": "Arunachal Pradesh: Ziro Valley is the homeland of which tribe, known for sustainable rice-fish farming?",
+  "o": [
+   "Apatani",
+   "Nyishi",
+   "Adi",
+   "Monpa"
+  ],
+  "a": 0,
+  "e": "The Apatani of Ziro practise wet rice cultivation combined with fish farming.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "medium"
+ },
+ {
+  "q": "Arunachal Pradesh: Namdapha National Park is notable for hosting four big cats: tiger, leopard, clouded leopard and:",
+  "o": [
+   "Asiatic lion",
+   "Caracal",
+   "Cheetah",
+   "Snow leopard"
+  ],
+  "a": 3,
+  "e": "Namdapha in Changlang district is the only park in India with all four of these big cats.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "medium"
+ },
+ {
+  "q": "Manipur: The Sangai, the state animal of Manipur, is a:",
+  "o": [
+   "Red panda",
+   "Brow-antlered deer",
+   "Wild goat",
+   "Clouded leopard"
+  ],
+  "a": 1,
+  "e": "The Sangai is an endangered brow-antlered deer found in Keibul Lamjao.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "medium"
+ },
+ {
+  "q": "Meghalaya: Wangala, a post-harvest festival honouring the sun god Saljong, is celebrated by the:",
+  "o": [
+   "Khasis",
+   "Jaintias",
+   "Garos",
+   "Mizos"
+  ],
+  "a": 2,
+  "e": "Wangala, known as the 'Hundred Drums Festival', is the main festival of the Garos.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "medium"
+ },
+ {
+  "q": "Nagaland: Nagaland became a state of India on:",
+  "o": [
+   "21 January 1972",
+   "20 February 1987",
+   "1 December 1963",
+   "16 May 1975"
+  ],
+  "a": 2,
+  "e": "Nagaland was inaugurated as the 16th state on 1 December 1963.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "medium"
+ },
+ {
+  "q": "Sikkim: Khangchendzonga National Park is India's first UNESCO World Heritage Site of which category?",
+  "o": [
+   "Natural only",
+   "Intangible heritage",
+   "Cultural only",
+   "Mixed (natural and cultural)"
+  ],
+  "a": 3,
+  "e": "Khangchendzonga National Park was inscribed in 2016 as India's first mixed heritage site.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "medium"
+ },
+ {
+  "q": "Sikkim: The Rumtek Monastery near Gangtok is the seat of which school of Tibetan Buddhism?",
+  "o": [
+   "Gelug",
+   "Nyingma",
+   "Karma Kagyu",
+   "Sakya"
+  ],
+  "a": 2,
+  "e": "Rumtek is the main seat of the Karma Kagyu lineage in exile.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "medium"
+ },
+ {
+  "q": "Tripura: The Ujjayanta Palace, a former royal palace, is located in:",
+  "o": [
+   "Dharmanagar",
+   "Agartala",
+   "Kailashahar",
+   "Udaipur (Tripura)"
+  ],
+  "a": 1,
+  "e": "Ujjayanta Palace in Agartala was built by Maharaja Radha Kishore Manikya around 1901.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "medium"
+ },
+ {
+  "q": "Tripura: The Neermahal water palace stands in which lake?",
+  "o": [
+   "Umiam",
+   "Rudrasagar",
+   "Dumboor",
+   "Loktak"
+  ],
+  "a": 1,
+  "e": "Neermahal was built by Maharaja Bir Bikram Kishore Manikya in Rudrasagar Lake.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "medium"
+ },
+ {
+  "q": "Meghalaya: Nongkrem, a five-day thanksgiving dance festival, is celebrated by the:",
+  "o": [
+   "Karbis",
+   "Khasis",
+   "Garos",
+   "Bodos"
+  ],
+  "a": 1,
+  "e": "The Nongkrem festival is held by the Khasi people at Smit near Shillong.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "hard"
+ },
+ {
+  "q": "Tripura: Unakoti is famous for its:",
+  "o": [
+   "Floating islands",
+   "Hot springs",
+   "Buddhist stupas of the Mauryan age",
+   "Giant rock-cut Shaiva sculptures"
+  ],
+  "a": 3,
+  "e": "Unakoti in north Tripura has huge rock-cut images, especially of Shiva.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "hard"
+ },
+ {
+  "q": "Which two states attained statehood on 20 February 1987?",
+  "o": [
+   "Goa and Mizoram",
+   "Nagaland and Manipur",
+   "Meghalaya and Tripura",
+   "Arunachal Pradesh and Mizoram"
+  ],
+  "a": 3,
+  "e": "Arunachal Pradesh and Mizoram became states on 20 February 1987; Goa followed on 30 May 1987.",
+  "topic": "North-East GK",
+  "state": "North-East",
+  "level": "hard"
+ }
+]

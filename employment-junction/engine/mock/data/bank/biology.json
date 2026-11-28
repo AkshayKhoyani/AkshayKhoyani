@@ -1,0 +1,392 @@
+[
+ {
+  "q": "Which cell organelle is called the 'powerhouse of the cell'?",
+  "o": [
+   "Ribosome",
+   "Golgi body",
+   "Mitochondria",
+   "Lysosome"
+  ],
+  "a": 2,
+  "e": "Mitochondria produce energy (ATP) through respiration.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "The normal body temperature of a healthy human is about:",
+  "o": [
+   "35 °C",
+   "39 °C",
+   "40 °C",
+   "37 °C"
+  ],
+  "a": 3,
+  "e": "Normal body temperature is about 37 °C (98.6 °F).",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "Deficiency of Vitamin D causes:",
+  "o": [
+   "Scurvy",
+   "Rickets",
+   "Beriberi",
+   "Night blindness"
+  ],
+  "a": 1,
+  "e": "Lack of Vitamin D weakens bones and causes rickets in children.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "Scurvy is caused by the deficiency of:",
+  "o": [
+   "Vitamin A",
+   "Vitamin B1",
+   "Vitamin K",
+   "Vitamin C"
+  ],
+  "a": 3,
+  "e": "Vitamin C deficiency causes scurvy, with bleeding gums.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "Which blood group is known as the universal donor?",
+  "o": [
+   "AB positive",
+   "A positive",
+   "B negative",
+   "O negative"
+  ],
+  "a": 3,
+  "e": "O negative red cells lack A, B and Rh antigens, so they can be given to most people.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "How many chambers does the human heart have?",
+  "o": [
+   "2",
+   "3",
+   "4",
+   "5"
+  ],
+  "a": 2,
+  "e": "The human heart has two atria and two ventricles.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "Photosynthesis takes place in which cell organelle?",
+  "o": [
+   "Mitochondria",
+   "Nucleus",
+   "Chloroplast",
+   "Vacuole"
+  ],
+  "a": 2,
+  "e": "Chloroplasts contain chlorophyll, which traps sunlight for photosynthesis.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "Malaria is caused by:",
+  "o": [
+   "A virus",
+   "A bacterium",
+   "Plasmodium",
+   "A fungus"
+  ],
+  "a": 2,
+  "e": "Malaria is caused by the protozoan Plasmodium and spread by female Anopheles mosquitoes.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "How many bones are there in an adult human body?",
+  "o": [
+   "206",
+   "208",
+   "212",
+   "300"
+  ],
+  "a": 0,
+  "e": "An adult human skeleton has 206 bones; a newborn has about 300.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "Insulin is produced by which organ?",
+  "o": [
+   "Pancreas",
+   "Liver",
+   "Kidney",
+   "Thyroid"
+  ],
+  "a": 0,
+  "e": "Beta cells in the islets of Langerhans of the pancreas make insulin.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the largest gland in the human body?",
+  "o": [
+   "Liver",
+   "Pancreas",
+   "Thyroid",
+   "Pituitary"
+  ],
+  "a": 0,
+  "e": "The liver is the largest gland in the human body.",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "Deficiency of iodine in the diet causes:",
+  "o": [
+   "Anaemia",
+   "Rickets",
+   "Goitre",
+   "Scurvy"
+  ],
+  "a": 2,
+  "e": "Iodine is needed for thyroid hormone; its lack enlarges the thyroid (goitre).",
+  "topic": "Biology",
+  "level": "easy"
+ },
+ {
+  "q": "Which is the smallest bone in the human body?",
+  "o": [
+   "Femur",
+   "Stapes",
+   "Malleus",
+   "Patella"
+  ],
+  "a": 1,
+  "e": "The stapes in the middle ear is the smallest bone; the femur is the longest.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "Haemoglobin contains which metal?",
+  "o": [
+   "Copper",
+   "Iron",
+   "Magnesium",
+   "Zinc"
+  ],
+  "a": 1,
+  "e": "Iron in haemoglobin binds oxygen in red blood cells.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "What is the structural and functional unit of the kidney?",
+  "o": [
+   "Neuron",
+   "Nephron",
+   "Alveolus",
+   "Villus"
+  ],
+  "a": 1,
+  "e": "Each kidney has about a million nephrons that filter blood.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "The ABO blood group system was discovered by:",
+  "o": [
+   "William Harvey",
+   "Karl Landsteiner",
+   "Louis Pasteur",
+   "Edward Jenner"
+  ],
+  "a": 1,
+  "e": "Karl Landsteiner discovered the ABO blood groups in 1901.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "Penicillin was discovered by:",
+  "o": [
+   "Alexander Fleming",
+   "Louis Pasteur",
+   "Robert Koch",
+   "Joseph Lister"
+  ],
+  "a": 0,
+  "e": "Alexander Fleming discovered penicillin from Penicillium mould in 1928.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "Typhoid is caused by a:",
+  "o": [
+   "Virus",
+   "Fungus",
+   "Protozoan",
+   "Bacterium"
+  ],
+  "a": 3,
+  "e": "Typhoid is caused by the bacterium Salmonella typhi.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "Which of these is a viral disease?",
+  "o": [
+   "Measles",
+   "Tuberculosis",
+   "Cholera",
+   "Typhoid"
+  ],
+  "a": 0,
+  "e": "Measles is caused by a virus; TB, cholera and typhoid are bacterial diseases.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "Which part is called the natural 'pacemaker' of the heart?",
+  "o": [
+   "Sino-atrial (SA) node",
+   "Atrio-ventricular (AV) node",
+   "Bundle of His",
+   "Purkinje fibres"
+  ],
+  "a": 0,
+  "e": "The SA node starts each heartbeat.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "The average lifespan of human red blood cells is about:",
+  "o": [
+   "30 days",
+   "60 days",
+   "120 days",
+   "365 days"
+  ],
+  "a": 2,
+  "e": "RBCs live about 120 days and are then destroyed mainly in the spleen and liver.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "Gregor Mendel, the father of genetics, did his experiments on:",
+  "o": [
+   "Garden pea",
+   "Fruit fly",
+   "Maize",
+   "Wheat"
+  ],
+  "a": 0,
+  "e": "Mendel studied inheritance in the garden pea (Pisum sativum).",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "Which plant hormone helps in the ripening of fruits?",
+  "o": [
+   "Ethylene",
+   "Auxin",
+   "Gibberellin",
+   "Cytokinin"
+  ],
+  "a": 0,
+  "e": "Ethylene is a gaseous hormone that speeds up fruit ripening.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "How many chromosomes are present in a normal human body (somatic) cell?",
+  "o": [
+   "23",
+   "44",
+   "46",
+   "48"
+  ],
+  "a": 2,
+  "e": "Human somatic cells have 46 chromosomes (23 pairs); gametes have 23.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "The enzyme present in human saliva is:",
+  "o": [
+   "Pepsin",
+   "Trypsin",
+   "Lipase",
+   "Salivary amylase (ptyalin)"
+  ],
+  "a": 3,
+  "e": "Salivary amylase starts the digestion of starch in the mouth.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "Which cell organelle is the site of protein synthesis?",
+  "o": [
+   "Lysosome",
+   "Ribosome",
+   "Centrosome",
+   "Vacuole"
+  ],
+  "a": 1,
+  "e": "Ribosomes join amino acids to make proteins.",
+  "topic": "Biology",
+  "level": "medium"
+ },
+ {
+  "q": "The Rh factor in blood is named after:",
+  "o": [
+   "A scientist named Rhodes",
+   "Red blood cells",
+   "The river Rhine",
+   "Rhesus monkey"
+  ],
+  "a": 3,
+  "e": "The Rh antigen was first found in Rhesus monkeys.",
+  "topic": "Biology",
+  "level": "hard"
+ },
+ {
+  "q": "Which part of the brain maintains balance and coordinates voluntary movements?",
+  "o": [
+   "Cerebellum",
+   "Cerebrum",
+   "Medulla oblongata",
+   "Hypothalamus"
+  ],
+  "a": 0,
+  "e": "The cerebellum controls posture, balance and fine movement.",
+  "topic": "Biology",
+  "level": "hard"
+ },
+ {
+  "q": "The study of fungi is called:",
+  "o": [
+   "Phycology",
+   "Virology",
+   "Bryology",
+   "Mycology"
+  ],
+  "a": 3,
+  "e": "Mycology is the study of fungi; phycology is the study of algae.",
+  "topic": "Biology",
+  "level": "hard"
+ },
+ {
+  "q": "The Krebs cycle (citric acid cycle) takes place in the:",
+  "o": [
+   "Cytoplasm",
+   "Mitochondrial matrix",
+   "Nucleus",
+   "Chloroplast"
+  ],
+  "a": 1,
+  "e": "Glycolysis occurs in the cytoplasm, while the Krebs cycle occurs in the mitochondrial matrix.",
+  "topic": "Biology",
+  "level": "hard"
+ }
+]

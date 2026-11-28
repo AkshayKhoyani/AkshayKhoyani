@@ -1,0 +1,834 @@
+{
+ "exam": "JKSSB Junior Assistant (Various Departments) Written Examination",
+ "paper": "OMR Written Test - Test Booklet Series A (held 19.04.2026)",
+ "year": 2026,
+ "board": "Jammu & Kashmir Services Selection Board (JKSSB)",
+ "state": "Jammu & Kashmir",
+ "lang": "en",
+ "source_paper": "https://jkssb.nic.in/Pdf/JuniorAssistant.pdf",
+ "source_key": "https://jkssb.nic.in/Pdf/FinalAnswerKeyJunior_Assistant_24062026.pdf (changes) + https://jkssb.nic.in/Pdf/PROV_ANS_KEY_19042026.pdf (provisional, unchanged items)",
+ "duration_min": 80,
+ "marks_per_q": 1,
+ "negative": 0.25,
+ "questions": [
+  {
+   "q": "The senator's apology was widely viewed as \"too little, too late\" after months of public outrage. The idiom \"too little, too late\" most precisely conveys that the apology:",
+   "o": [
+    "Was insincere and strategically calculated",
+    "Failed to address the full extent of the controversy",
+    "Was inadequate in both substance and timing to be effective",
+    "Was overshadowed by more pressing political developments"
+   ],
+   "a": 2,
+   "e": "'Too little, too late' means an action that is insufficient and comes after the moment it could have helped.",
+   "section": "English",
+   "topic": "Idioms"
+  },
+  {
+   "q": "The committee's proposal, though ambitious, was dismissed as \"a bridge too far\" by senior officials. In this context, \"a bridge too far\" suggests that the proposal was:",
+   "o": [
+    "Poorly structured and lacking practical detail",
+    "Conceptually sound but politically unpopular",
+    "Excessively ambitious beyond what was feasible or acceptable",
+    "Intentionally provocative to test institutional boundaries"
+   ],
+   "a": 2,
+   "e": "'A bridge too far' describes an ambition that goes beyond what is achievable or acceptable.",
+   "section": "English",
+   "topic": "Idioms"
+  },
+  {
+   "q": "The scholar was known for his perspicacious analysis of complex philosophical texts. Which option is the closest synonym of perspicacious as used here?",
+   "o": [
+    "Methodical",
+    "Astute",
+    "Meticulous",
+    "Circumspect"
+   ],
+   "a": 1,
+   "e": "Perspicacious means having keen insight; 'astute' is the closest synonym.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "The editor criticized the article for its prolix treatment of an otherwise simple topic. Which word is the most appropriate synonym of prolix in this context?",
+   "o": [
+    "Discursive",
+    "Redundant",
+    "Verbose",
+    "Diffuse"
+   ],
+   "a": 2,
+   "e": "Prolix means tediously lengthy, i.e. 'verbose'.",
+   "section": "English",
+   "topic": "Synonyms"
+  },
+  {
+   "q": "Her argument was praised for being cogent and logically compelling. Which option is the best antonym of cogent?",
+   "o": [
+    "Specious",
+    "Tentative",
+    "Ambiguous",
+    "Superficial"
+   ],
+   "a": 0,
+   "e": "Cogent means convincing; 'specious' (seemingly plausible but actually false) is its opposite.",
+   "section": "English",
+   "topic": "Antonyms"
+  },
+  {
+   "q": "Choose the option that correctly punctuates the sentence: The proposal which was submitted last week however requires further revision",
+   "o": [
+    "The proposal, which was submitted last week however, requires further revision.",
+    "The proposal which was submitted last week, however, requires further revision.",
+    "The proposal, which was submitted last week, however requires further revision.",
+    "The proposal, which was submitted last week, however, requires further revision."
+   ],
+   "a": 3,
+   "e": "The non-defining clause and the parenthetical 'however' must both be set off by commas.",
+   "section": "English",
+   "topic": "Punctuation"
+  },
+  {
+   "q": "Identify the type of clause in the sentence below: What the committee decided surprised everyone present. The clause \"What the committee decided\" is a:",
+   "o": [
+    "Noun clause functioning as the subject",
+    "Adjective clause modifying committee",
+    "Adverbial clause of result",
+    "Independent clause with an implied subject"
+   ],
+   "a": 0,
+   "e": "'What the committee decided' acts as the subject of 'surprised', so it is a noun clause.",
+   "section": "English",
+   "topic": "Clauses"
+  },
+  {
+   "q": "In which sentence is the word \"bank\" used as a homonym when compared to its use in the sentence below? She deposited the cheque at the bank.",
+   "o": [
+    "The pilot had to bank the aircraft sharply during the landing.",
+    "The children played on the bank of the river after school.",
+    "The bank approved the loan after a detailed review.",
+    "He works at a multinational bank in the city."
+   ],
+   "a": 1,
+   "e": "A river 'bank' has a different meaning from a financial bank but the same spelling and sound, a homonym; option A uses 'bank' as a verb.",
+   "section": "English",
+   "topic": "Homonyms"
+  },
+  {
+   "q": "Choose the sentence in which the correct homophone has been used.",
+   "o": [
+    "The principal asked the students to bare the consequences of their actions.",
+    "She decided to compliment the dress with a matching scarf.",
+    "The hikers were advised to pause the trail before nightfall.",
+    "He could not cite a single example to support his claim."
+   ],
+   "a": 3,
+   "e": "'Cite' (to quote as evidence) is correct; 'bare' should be 'bear', 'compliment' should be 'complement'.",
+   "section": "English",
+   "topic": "Homophones"
+  },
+  {
+   "q": "Choose the sentence in which the pronoun usage is grammatically correct.",
+   "o": [
+    "Each of the participants must submit their assignment by Friday.",
+    "Neither of the proposals achieved their intended objective.",
+    "Every applicant should bring his or her identification for verification.",
+    "The committee reached their decision after prolonged deliberation."
+   ],
+   "a": 2,
+   "e": "With 'every applicant' (singular) the formal singular 'his or her' agrees in number.",
+   "section": "English",
+   "topic": "Pronouns"
+  },
+  {
+   "q": "Choose the option that best expresses a logical deduction about a past event.",
+   "o": [
+    "She may finish the experiment before the deadline.",
+    "He should have informed the committee earlier.",
+    "They must have overlooked the crucial data.",
+    "You can submit the application online."
+   ],
+   "a": 2,
+   "e": "'Must have + past participle' expresses a confident deduction about the past.",
+   "section": "English",
+   "topic": "Modals"
+  },
+  {
+   "q": "Choose the option that correctly converts the following sentence into indirect speech: The professor said, \"I will review your thesis tomorrow.\"",
+   "o": [
+    "The professor said that he would review your thesis tomorrow.",
+    "The professor said that he will review your thesis the next day.",
+    "The professor said that he would review my thesis the next day.",
+    "The professor said that I would review your thesis the next day."
+   ],
+   "a": 2,
+   "e": "In reported speech 'I' → 'he', 'will' → 'would', 'your' → 'my' (speaker's addressee is the reporter) and 'tomorrow' → 'the next day'.",
+   "section": "English",
+   "topic": "Narration"
+  },
+  {
+   "q": "Choose the option that correctly complete the sentence: She is proficient __ French and German.",
+   "o": [
+    "in",
+    "at",
+    "on",
+    "with"
+   ],
+   "a": 0,
+   "e": "One is proficient 'in' a language or skill.",
+   "section": "English",
+   "topic": "Prepositions"
+  },
+  {
+   "q": "Choose the option that correctly converts the following sentence into the Passive voice: The committee will announce the results tomorrow.",
+   "o": [
+    "The results will be announced by the committee tomorrow.",
+    "The results are announced by the committee tomorrow.",
+    "The results will announce by the committee tomorrow.",
+    "The committee will be announced the results tomorrow."
+   ],
+   "a": 0,
+   "e": "Future simple passive = will be + past participle: 'The results will be announced by the committee tomorrow.'",
+   "section": "English",
+   "topic": "Voice"
+  },
+  {
+   "q": "If a number 45678x9231 is divisible by 3, then how many values are possible for x?",
+   "o": [
+    "1",
+    "2",
+    "3",
+    "4"
+   ],
+   "a": 3,
+   "e": "Digit sum without x is 45; 45 + x is divisible by 3 for x = 0, 3, 6, 9, i.e. 4 values.",
+   "section": "Maths",
+   "topic": "Divisibility"
+  },
+  {
+   "q": "The average of x numbers is 15. The average of y numbers is 20. The average of all x + y numbers is 18. Find the ratio x : y.",
+   "o": [
+    "1:2",
+    "2:1",
+    "2:3",
+    "3:2"
+   ],
+   "a": 2,
+   "e": "15x + 20y = 18(x + y) gives 2y = 3x, so x : y = 2 : 3.",
+   "section": "Maths",
+   "topic": "Average"
+  },
+  {
+   "q": "Find the Compound Ratio of a:b and c:d",
+   "o": [
+    "ac:bd",
+    "ab:cd",
+    "ad:bc",
+    "abc:bcd"
+   ],
+   "a": 0,
+   "e": "The compound ratio of a:b and c:d is the product of antecedents to consequents, ac : bd.",
+   "section": "Maths",
+   "topic": "Ratio"
+  },
+  {
+   "q": "A can complete a work in 15 days and B can complete a work in 25 days. If they start work together and B leaves 7 days before completion, then the work will be completed in how many days?",
+   "o": [
+    "16 days",
+    "14 days",
+    "12 days",
+    "10 days"
+   ],
+   "a": 2,
+   "e": "If total time is T: T/15 + (T − 7)/25 = 1, so 8T = 96 and T = 12 days.",
+   "section": "Maths",
+   "topic": "Time & Work"
+  },
+  {
+   "q": "Find the next term: A, D, I, P, Y, ?",
+   "o": [
+    "I",
+    "J",
+    "K",
+    "L"
+   ],
+   "a": 1,
+   "e": "Positions are 1, 4, 9, 16, 25 (squares); next is 36, i.e. 36 − 26 = 10 = J.",
+   "section": "Reasoning",
+   "topic": "Letter Series"
+  },
+  {
+   "q": "In a code language: letters are arranged in reverse order and each vowel is replaced by its position number in the alphabet. If BALLOON → N1515LL1B, find MONDAY.",
+   "o": [
+    "Y1DN15M",
+    "M1DN15Y",
+    "Y15DN1M",
+    "M15DN15Y"
+   ],
+   "a": 0,
+   "e": "MONDAY reversed is YADNOM; replacing A by 1 and O by 15 gives Y1DN15M.",
+   "section": "Reasoning",
+   "topic": "Coding-Decoding"
+  },
+  {
+   "q": "A man is facing east. He turns 135° clockwise, then 90° anticlockwise. Which direction is he facing now?",
+   "o": [
+    "South",
+    "South-East",
+    "South-West",
+    "East"
+   ],
+   "a": 1,
+   "e": "East + 135° clockwise = South-West; then 90° anticlockwise = South-East.",
+   "section": "Reasoning",
+   "topic": "Direction"
+  },
+  {
+   "q": "A man said, \"This girl is the daughter of my father's only son's wife.\" How is the girl related to him?",
+   "o": [
+    "Sister",
+    "Niece",
+    "Daughter",
+    "Mother"
+   ],
+   "a": 2,
+   "e": "His father's only son is the man himself; the daughter of his wife is his daughter.",
+   "section": "Reasoning",
+   "topic": "Blood Relations"
+  },
+  {
+   "q": "Given: P > Q > R, R < S < T, P > T. Which statement is always true?",
+   "o": [
+    "P = S",
+    "S < Q",
+    "Q > T",
+    "T > R"
+   ],
+   "a": 3,
+   "e": "From R < S < T, T > R is always true; the other relations cannot be fixed.",
+   "section": "Reasoning",
+   "topic": "Inequality"
+  },
+  {
+   "q": "Ram while going to school reduces his speed to 4/5th of his actual speed and reaches 15 minutes late. Find the actual time of Ram.",
+   "o": [
+    "45 minutes",
+    "60 minutes",
+    "30 minutes",
+    "75 minutes"
+   ],
+   "a": 1,
+   "e": "At 4/5 speed time becomes 5/4, so the extra 1/4 of usual time = 15 min; usual time = 60 minutes.",
+   "section": "Maths",
+   "topic": "Speed & Time"
+  },
+  {
+   "q": "Statement: \"The government plans to reduce the import duty on electronics.\"\nConclusions:\nI. Prices of electronics may fall.\nII. Domestic production of electronics will stop.",
+   "o": [
+    "Only I follows",
+    "Only II follows",
+    "Both follow",
+    "Neither follows"
+   ],
+   "a": 0,
+   "e": "Lower duty can make electronics cheaper (I follows); it does not imply domestic production will stop.",
+   "section": "Reasoning",
+   "topic": "Statement & Conclusion"
+  },
+  {
+   "q": "Statement: Some books are fiction. All fictional books are popular.\nConclusions:\nI. Some books are popular.\nII. All popular things are fiction.",
+   "o": [
+    "Only I follows",
+    "Only II follows",
+    "Both follow",
+    "Neither follows"
+   ],
+   "a": 0,
+   "e": "Some books are fiction and all fiction is popular, so some books are popular; the reverse of II does not follow.",
+   "section": "Reasoning",
+   "topic": "Syllogism"
+  },
+  {
+   "q": "Consider the following pairs (City - Respective Country):\nI. Maracaibo - Ukraine\nII. Tabriz - Venezuela\nIII. Nuuk - Greenland\nIV. Donetsk - Iran\nHow many of the pairs are correct?",
+   "o": [
+    "Only one pair",
+    "Only two pairs",
+    "Only three pairs",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "Only Nuuk-Greenland is right; Maracaibo is in Venezuela, Tabriz in Iran and Donetsk in Ukraine.",
+   "section": "General Knowledge",
+   "topic": "World Geography"
+  },
+  {
+   "q": "What are the key components of the recently launched Digital Agriculture Mission in India?\nI. Digital Public Infrastructure (DPI) for Agriculture, i.e. Agristack, Krishi Decision Support System, Comprehensive Soil Fertility, and Profile Maps.\nII. Digital General Crop Estimation Survey (DGCES).\nIII. Support for the Mahalanobis National Crop Forecasting Centre (MNCFC).\nIdentify the correct statements -",
+   "o": [
+    "I and III only",
+    "II and III only",
+    "I and II only",
+    "I, II and III only"
+   ],
+   "a": 3,
+   "e": "The Digital Agriculture Mission (2024) includes Agristack/Krishi DSS, the Digital General Crop Estimation Survey and support to MNCFC.",
+   "section": "General Knowledge",
+   "topic": "Government Schemes"
+  },
+  {
+   "q": "Match the following (Statues - Personalities Associated):\n1. Statue of Unity  i. Sardar Vallabhbhai Patel\n2. Statue of Oneness  ii. Adi Shankaracharya\n3. Statue of Equality  iii. Sri Ramanuja Acharya",
+   "o": [
+    "1-i, 2-ii, 3-iii",
+    "1-i, 2-iii, 3-ii",
+    "1-iii, 2-ii, 3-i",
+    "1-iii, 2-i, 3-ii"
+   ],
+   "a": 0,
+   "e": "Statue of Unity - Sardar Patel; Statue of Oneness - Adi Shankaracharya; Statue of Equality - Ramanujacharya.",
+   "section": "General Knowledge",
+   "topic": "Monuments"
+  },
+  {
+   "q": "Which of the following sites are included in the Tentative List of World Heritage Sites released by UNESCO?\nI. Khangchendzonga National Park\nII. Natural Heritage of Varkala\nIII. Naga Hill Ophiolite\nIV. Natural Heritage of Tirumala Hills\nV. Meghalayan Age Caves\nVI. Rock Shelters of Bhimbetka",
+   "o": [
+    "II, III, IV and VI only",
+    "I, IV, V and VI only",
+    "II, III, IV and V only",
+    "All of the above"
+   ],
+   "a": 2,
+   "e": "Varkala, Naga Hill Ophiolite, Tirumala Hills and Meghalayan Age caves were added to India's tentative list in 2025; Khangchendzonga and Bhimbetka are already inscribed sites.",
+   "section": "General Knowledge",
+   "topic": "Heritage"
+  },
+  {
+   "q": "Consider the following statements about the Tribal Freedom Fighters.\nI. Tilka Majhi mobilized the Pahadia tribe to which he belonged and raided the Company treasury.\nII. Sidhu and Kanhu Murmu from the Santhal community led the Santhal in the Hul rebellion.\nIII. Malati Mem of the Tea-garden community strictly opposed Mahatma Gandhi's satyagraha movement.\nWhich of the above statements are correct?",
+   "o": [
+    "I and II only",
+    "I and III only",
+    "All of the above",
+    "None of the above"
+   ],
+   "a": 0,
+   "e": "Tilka Majhi and the Santhal Hul leaders Sidhu-Kanhu were tribal rebels; Malati Mem supported, not opposed, Gandhi's movement.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "With reference to the Indian Freedom struggle, consider the following events:\nI. Poona Pact\nII. Lord Irwin's declaration\nIII. Second Round Table Conference\nArrange them in the correct chronological order:",
+   "o": [
+    "I-II-III",
+    "II-I-III",
+    "I-III-II",
+    "II-III-I"
+   ],
+   "a": 3,
+   "e": "Irwin's Declaration (1929), Second Round Table Conference (1931), Poona Pact (1932): II-III-I.",
+   "section": "General Knowledge",
+   "topic": "Modern History"
+  },
+  {
+   "q": "Match the following pairs (Hills - Related Regions):\n1. Nilgiri Hills  i. Part of the Satpura Range\n2. Anaimalai Hills  ii. Parallel to the Narmada Valley\n3. Mahadeo Hills  iii. Junction of Eastern and Western Ghats\n4. Vindhyan Range  iv. The Southern Part of the Western Ghats",
+   "o": [
+    "1-i, 2-ii, 3-iii, 4-iv",
+    "1-iii, 2-ii, 3-iv, 4-i",
+    "1-iii, 2-iv, 3-ii, 4-i",
+    "1-iii, 2-iv, 3-i, 4-ii"
+   ],
+   "a": 3,
+   "e": "Nilgiris lie at the Eastern-Western Ghats junction, Anaimalai in the southern Western Ghats, Mahadeo in the Satpura range and the Vindhyas parallel the Narmada.",
+   "section": "General Knowledge",
+   "topic": "Indian Geography"
+  },
+  {
+   "q": "The Ten-degree channel separates which two regions?",
+   "o": [
+    "Andaman Islands and Nicobar Islands",
+    "Minicoy and Lakshadweep",
+    "Nicobar and Indonesia",
+    "Andaman and Myanmar"
+   ],
+   "a": 0,
+   "e": "The Ten Degree Channel separates Little Andaman from Car Nicobar.",
+   "section": "General Knowledge",
+   "topic": "Indian Geography"
+  },
+  {
+   "q": "Consider the following statements regarding India's demographic trends:\nI. Demographic dividend refers to the economic growth potential arising from a declining dependency ratio, due to a rising working-age population.\nII. Demographic winter refers to the economic and social challenges arising from an increasing working-age population and decreasing old-age dependency.\nIII. India is expected to enjoy its demographic dividend till the mid-21st century, and its realization depends on education, skill development, health, and employment generation.\nWhich of the above statements are correct?",
+   "o": [
+    "I and III only",
+    "II and III only",
+    "I and II only",
+    "All of the above"
+   ],
+   "a": 0,
+   "e": "Statements I and III are correct; 'demographic winter' refers to a shrinking working-age population and rising old-age dependency.",
+   "section": "General Knowledge",
+   "topic": "Economy"
+  },
+  {
+   "q": "Consider the following pairs (Wetlands - States):\nI. Kolleru Lake - Tamil Nadu\nII. Tawa Reservoir - Madhya Pradesh\nIII. Nanjarayan Bird Sanctuary - Andhra Pradesh\nIV. Sultanpur National Park - Haryana\nHow many of the above pairs are correctly matched?",
+   "o": [
+    "One pair only",
+    "Two pairs only",
+    "Three pairs only",
+    "All of the above"
+   ],
+   "a": 1,
+   "e": "Tawa (MP) and Sultanpur (Haryana) are right; Kolleru is in Andhra Pradesh and Nanjarayan in Tamil Nadu.",
+   "section": "General Knowledge",
+   "topic": "Environment"
+  },
+  {
+   "q": "Which Koppen climate type is described by the following characteristics?\nI. Average monthly temperature rarely falls below 18°C.\nII. Annual rainfall exceeds 2000 mm, distributed evenly throughout the year.\nIII. Humid conditions support dense evergreen forests.",
+   "o": [
+    "Aw-Tropical savanna",
+    "Af- Tropical rainforest",
+    "Am-Tropical monsoon",
+    "BWh- Hot desert"
+   ],
+   "a": 1,
+   "e": "Af (tropical rainforest) has every month above 18°C and heavy rain spread through the year.",
+   "section": "General Knowledge",
+   "topic": "Climatology"
+  },
+  {
+   "q": "Which of the following statements about India's National Waterways are correct?\nI. National Waterway 2 (NW-2) is the Brahmaputra River stretch from Dhubri to Sadiya in Assam, covering about 891 km.\nII. National Waterway 3 (NW-3) is the West Coast Canal, which connects Kollam and Kottapuram in Kerala.\nIII. National Waterway 97 (NW-97) runs on the Zuari River, connecting Sanvordem Bridge to Marmugao Port.\nIV. National Waterway 111 (NW-111) is operational in the Sunderbans Region.",
+   "o": [
+    "I only",
+    "I and II only",
+    "I, II and III only",
+    "All of the above"
+   ],
+   "a": 1,
+   "e": "NW-2 (Dhubri-Sadiya) and NW-3 (Kollam-Kottapuram) are correct; NW-97 is the Sundarbans route and NW-111 is the Zuari river.",
+   "section": "General Knowledge",
+   "topic": "Indian Geography"
+  },
+  {
+   "q": "According to Kalhana's Rajtarangini, identify the correct sequential order of the following dynasties in the Jammu and Kashmir region.\nI. Gonanda dynasty\nII. Utpala dynasty\nIII. Karkota Dynasty\nIV. Lohara dynasty",
+   "o": [
+    "I-II-III-IV",
+    "I-II-IV-III",
+    "I-IV-III-II",
+    "I-III-II-IV"
+   ],
+   "a": 3,
+   "e": "Kalhana's chronicle places the Gonanda, Karkota, Utpala and Lohara dynasties in that order.",
+   "section": "State GK",
+   "topic": "J&K History"
+  },
+  {
+   "q": "Consider the following statements about Bahu Fort in Jammu.\nI. The ancient Bahu Fort in Jammu is believed to have been originally built by Raja Bahu Lochan about 3,000 years ago.\nII. It was refurbished by the Dogra rulers in the 19th century.\nIII. Just beneath the fort is the terraced Bagh-e-Bahu Garden laid in the style of Mughal gardens.\nWhich of the above statements are correct?",
+   "o": [
+    "I only",
+    "I and II only",
+    "II and III only",
+    "I, II and III"
+   ],
+   "a": 3,
+   "e": "Bahu Fort is attributed to Raja Bahu Lochan, was rebuilt by the Dogras, and the Mughal-style Bagh-e-Bahu lies below it.",
+   "section": "State GK",
+   "topic": "J&K Culture"
+  },
+  {
+   "q": "Which Kashmiri art form is described by the following lines?\nI. It is a traditional folk theatre style combination of play and dance.\nII. It differs from other forms as it features a single performer who performs, dances, and plays music.\nIII. It was mentioned by Kashmiri Sufi Saint, Sheikh Noor-ud-din Noorani (RA) in his verses and travel book of English writer, Sir Walter Lawrence.",
+   "o": [
+    "Rouf",
+    "Chakri",
+    "Bhand Pather",
+    "Hafiza Dance"
+   ],
+   "a": 2,
+   "e": "The official key identifies the described folk theatre form as Bhand Pather, Kashmir's traditional satirical folk theatre.",
+   "section": "State GK",
+   "topic": "J&K Culture"
+  },
+  {
+   "q": "Which of the following statements about Mughal Gardens in Kashmir are correct?\nI. Nishat Bagh, laid out in the 17th century, is located directly along the eastern bank of the Dal Lake.\nII. The two most important structures within the Shalimar Bagh are the Pink Pavilion, in the Diwan-i-Aam zone of the garden, and the Black Pavilion, located in the Diwan-i-Khas.\nIII. Achabal Bagh was also known as Sahebabad during the Mughal period, in memory of the Mughal Emperor Jahangir.",
+   "o": [
+    "I, II and III",
+    "I and II only",
+    "I and III only",
+    "II and III only"
+   ],
+   "a": 0,
+   "e": "All three statements about Nishat, Shalimar and Achabal Mughal gardens are accepted as correct in the official key.",
+   "section": "State GK",
+   "topic": "J&K Culture"
+  },
+  {
+   "q": "Which of the following statements about the geographic characteristics of the Jammu region are correct?\nI. Jammu city is situated on a series of uneven ridges of low heights in the Shivalik Hills.\nII. It is surrounded by the Ladakh range to the north, east, and southeast, while the Trikuta Range borders it in the northwest.",
+   "o": [
+    "I only",
+    "II only",
+    "Both of the above",
+    "Neither of the above"
+   ],
+   "a": 0,
+   "e": "Jammu city lies on low Shivalik ridges; statement II is wrong as it is not encircled by the Ladakh range.",
+   "section": "State GK",
+   "topic": "J&K Geography"
+  },
+  {
+   "q": "Dachigam National Park is located in which mountain range?",
+   "o": [
+    "Ladakh Range",
+    "Zanskar Range",
+    "Karakoram Range",
+    "Zabarwan Range"
+   ],
+   "a": 3,
+   "e": "Dachigam National Park lies in the Zabarwan range near Srinagar.",
+   "section": "State GK",
+   "topic": "J&K Geography"
+  },
+  {
+   "q": "A Census planned in J & K in early 2026 is aimed at conservation of which species?",
+   "o": [
+    "Markhor",
+    "Hangul",
+    "Snow Leopard",
+    "Himalayan Brown Bear"
+   ],
+   "a": 0,
+   "e": "Per the official key, the early-2026 census in J&K was for the Markhor, the wild goat found in the Pir Panjal (Kazinag) region.",
+   "section": "State GK",
+   "topic": "J&K Environment"
+  },
+  {
+   "q": "Which of the following rivers are tributaries of the river Chenab?\nI. Ujh river\nII. Tawi river\nIII. Poonch river\nIV. Neeru river",
+   "o": [
+    "I and II only",
+    "II and IV only",
+    "I, II and III only",
+    "II, III and IV only"
+   ],
+   "a": 1,
+   "e": "Tawi and Neeru join the Chenab; the Ujh drains to the Ravi and the Poonch river to the Jhelum.",
+   "section": "State GK",
+   "topic": "J&K Geography"
+  },
+  {
+   "q": "Which of the following is the fundamental operation performed by computers to carry out arithmetic computations in the ALU?",
+   "o": [
+    "Using transistors to store decimal values directly",
+    "Processing binary data through logic gate operations",
+    "Executing floating-point operations in software only",
+    "Running high-level programming instructions in the CPU"
+   ],
+   "a": 1,
+   "e": "The ALU performs arithmetic by processing binary data through logic gates.",
+   "section": "Computer",
+   "topic": "Computer Fundamentals"
+  },
+  {
+   "q": "Which of the following statements is correct regarding the relationship between instruction execution, memory hierarchy, and addressing modes in a typical von Neumann architecture computer system?",
+   "o": [
+    "Immediate addressing always speeds up execution by avoiding memory access.",
+    "A larger cache always improves performance, regardless of hit ratio.",
+    "Data hazards can occur in pipelined CPUs even with only register addressing.",
+    "Virtual memory removes the need for cache memory."
+   ],
+   "a": 2,
+   "e": "Pipelined CPUs can face data hazards when an instruction needs a register result not yet written, even without memory operands.",
+   "section": "Computer",
+   "topic": "Computer Architecture"
+  },
+  {
+   "q": "Which statement is correct concerning computer memory and data storage fundamentals?",
+   "o": [
+    "RAM is non-volatile memory and retains data without power",
+    "ROM allows both read and write operations during normal computer functioning.",
+    "Cache memory is faster than the Main memory and stores frequently accessed data.",
+    "CPU directly accesses secondary storage devices without involving the main memory."
+   ],
+   "a": 2,
+   "e": "Cache is faster than main memory and holds frequently used data; RAM is volatile and ROM is read-only.",
+   "section": "Computer",
+   "topic": "Memory"
+  },
+  {
+   "q": "Which statement is correct regarding CPU operation and instruction execution?",
+   "o": [
+    "The Program counter stores the address of the current instruction, executed by the CPU.",
+    "An interrupt is processed only after the completion of the entire program.",
+    "The instruction register stores the current instruction being decoded or executed.",
+    "All machine instructions require the same number of clock cycles to execute."
+   ],
+   "a": 2,
+   "e": "The instruction register holds the instruction being decoded/executed; the PC holds the address of the next instruction.",
+   "section": "Computer",
+   "topic": "CPU"
+  },
+  {
+   "q": "Which of the following statements is/are correct?\nI. Overflow in two's complement addition can be detected by examining only the carry out of the most significant bit.\nII. When converting an unsigned integer to a larger type, zero extension is used to preserve its value.\nIII. In Binary-Coded Decimal (BCD) representation, each decimal digit is encoded separately using four binary bits.\nIV. In a byte-addressable system, the effective address calculation is dependent on instruction length.",
+   "o": [
+    "Only IV is True",
+    "Only II and III are True",
+    "Only II and IV are True",
+    "Only III and IV are True"
+   ],
+   "a": 1,
+   "e": "Zero extension preserves unsigned values and BCD encodes each decimal digit in 4 bits; overflow detection needs both carries, so I is wrong.",
+   "section": "Computer",
+   "topic": "Data Representation"
+  },
+  {
+   "q": "Which of the following correctly classifies hardware and system software?",
+   "o": [
+    "Device Driver - Hardware; Keyboard - System Software",
+    "Compiler - Hardware; RAM - System Software",
+    "CPU- Hardware; Operating System - System Software",
+    "Adobe Scan - Hardware; Monitor - System Software"
+   ],
+   "a": 2,
+   "e": "The CPU is hardware and the operating system is system software.",
+   "section": "Computer",
+   "topic": "Software"
+  },
+  {
+   "q": "A computer has a quad-core CPU with a 2.4 GHz frequency, 16 GB RAM, and a 1TB SSD. A program that uses many threads and performs frequent disk operations is running very slowly and sometimes crashes. What is the most likely cause?",
+   "o": [
+    "Inefficient multithreading and high memory usage",
+    "Insufficient CPU core performance",
+    "Large SSD causing slow disk access",
+    "Slow processor frequency"
+   ],
+   "a": 0,
+   "e": "With adequate hardware, slowdowns and crashes in a thread-heavy program point to inefficient multithreading and high memory use.",
+   "section": "Computer",
+   "topic": "Computer Fundamentals"
+  },
+  {
+   "q": "Categorize the following devices as Input (I) and Output (O): i) Light Pen ii) Punch Card Reader iii) Plotter iv) Sound Card v) Digitizer Tablet vi) Drum Printer vii) Scanner",
+   "o": [
+    "Input: i), ii), v), vii); Output: iii), iv), v), vi)",
+    "Input: i), ii), v); Output: i), iii), iv), vi)",
+    "Input: ii), vi), vii); Output: i), iii), iv), vi)",
+    "Input: i), ii), v), vii); Output: iii), iv), vi)"
+   ],
+   "a": 3,
+   "e": "Light pen, punch card reader, digitizer and scanner are input; plotter, sound card and drum printer are output.",
+   "section": "Computer",
+   "topic": "Input/Output Devices"
+  },
+  {
+   "q": "In a system with multiple processes and resource types, which of the following is a valid method to recover from a deadlock?",
+   "o": [
+    "Decreasing the CPU priority of all processes",
+    "Preempt resources from one process and allocate to another",
+    "Increase the priority of all processes in the deadlock",
+    "Increase the priority of one of the processes in the deadlock"
+   ],
+   "a": 1,
+   "e": "Deadlock recovery can be done by pre-empting resources from one process and giving them to another.",
+   "section": "Computer",
+   "topic": "Operating System"
+  },
+  {
+   "q": "Consider a system using preemptive priority scheduling with multiple real-time and user-level processes. Priority inheritance protocol is implemented.\nI. Priority inversion can occur when a low-priority process holds a resource that a high-priority process needs.\nII. Under priority inheritance, the low-priority process temporarily inherits the higher priority to avoid blocking.\nIII. Priority inversion can be completely avoided if all processes are scheduled in a round-robin fashion.\nIV. Starvation may still occur for low-priority processes even with priority inheritance.\nWhich of the statements are correct?",
+   "o": [
+    "I and II only",
+    "II and III only",
+    "II and IV only",
+    "I, II and IV only"
+   ],
+   "a": 3,
+   "e": "I, II and IV are correct; round-robin scheduling does not fully eliminate priority inversion when resources are shared.",
+   "section": "Computer",
+   "topic": "Operating System"
+  },
+  {
+   "q": "Which of the following statements is true about MS Word?",
+   "o": [
+    "Using Section Breaks allows different headers and footers in the same document.",
+    "Using Page Break allows you to have different headers and footers in the same document.",
+    "Headers and footers cannot be changed once set in a document.",
+    "Headers and footers are automatically deleted when you close the document"
+   ],
+   "a": 0,
+   "e": "Section breaks let different parts of one document have different headers and footers.",
+   "section": "Computer",
+   "topic": "MS Word"
+  },
+  {
+   "q": "A company keeps sales data in column B and wants to categorise sales into three levels: \"High\" if sales ≥ 1000, \"Medium\" if sales ≥ 500 but < 1000, \"Low\" if sales < 500. A student writes the formula in cell C2 as: =IF(B2>=1000,\"High\",IF(B2>=500,\"Medium\",\"Low\")). Which of the following statements is/are correct?",
+   "o": [
+    "The formula will always give an error.",
+    "The formula will give an error if B2 is blank.",
+    "The formula will give an error for non-numeric values in B2.",
+    "The formula will work correctly for all numeric values in B2."
+   ],
+   "a": 3,
+   "e": "The nested IF checks ≥1000 then ≥500 and returns a label for every numeric value.",
+   "section": "Computer",
+   "topic": "MS Excel"
+  },
+  {
+   "q": "In Microsoft Excel, student scores are listed in column B (Math) and column C (Science). Which formula correctly counts the number of students who scored ≥ 80 in Math and ≥ 90 in Science?",
+   "o": [
+    "=COUNTIFS(B2:B10,\">=80\",C2:C10,\">=90\")",
+    "=SUMPRODUCT((B2:B10>=80), (C2:C10>=90))",
+    "=SUM(IF((B2:B10>=80), (C2:C10>=90),1,0))",
+    "None of these"
+   ],
+   "a": 0,
+   "e": "COUNTIFS counts rows meeting multiple criteria: =COUNTIFS(B2:B10,\">=80\",C2:C10,\">=90\").",
+   "section": "Computer",
+   "topic": "MS Excel"
+  },
+  {
+   "q": "Which of the following statements is correct about email functionality?",
+   "o": [
+    "Email filters/rules cannot automatically forward emails to another account without user intervention.",
+    "Digital signatures in email encrypt the message body so that only the recipient can read it.",
+    "POP3 protocol is used to download emails from the server to a local computer.",
+    "Using BCC ensures the sender and recipients cannot see each other."
+   ],
+   "a": 2,
+   "e": "POP3 downloads mail from the server to the local computer.",
+   "section": "Computer",
+   "topic": "Internet & Email"
+  },
+  {
+   "q": "In Microsoft PowerPoint, which of the following existing slide contents CANNOT be directly converted into SmartArt, without re-entering the data?",
+   "o": [
+    "A bulleted list",
+    "A table of data",
+    "A block of descriptive text",
+    "An indented text"
+   ],
+   "a": 1,
+   "e": "Text such as bullet lists can be converted to SmartArt, but a table cannot be converted directly.",
+   "section": "Computer",
+   "topic": "MS PowerPoint"
+  },
+  {
+   "q": "Which of the following statements about Internet routing and protocols is correct?",
+   "o": [
+    "BGP (Border Gateway Protocol) is used primarily for routing within a single local network.",
+    "ICMP is used to encrypt data packets over the Internet.",
+    "IPv6 adoption eliminates the need for NAT because it provides a vastly larger address space.",
+    "HTTP/3 relies on TCP for faster connections and multiplexing multiple streams."
+   ],
+   "a": 2,
+   "e": "IPv6's huge address space removes the need for address-sharing NAT.",
+   "section": "Computer",
+   "topic": "Networking"
+  },
+  {
+   "q": "In the context of cloud computing in an IaaS (Infrastructure as a Service) model, what is managed by the service provider?",
+   "o": [
+    "Networking hardware",
+    "Operating system",
+    "Hardware platform and operating system",
+    "Operating system and data"
+   ],
+   "a": 0,
+   "e": "In IaaS the provider manages the physical infrastructure such as networking hardware; the user manages the OS and data.",
+   "section": "Computer",
+   "topic": "Cloud Computing"
+  }
+ ]
+}
