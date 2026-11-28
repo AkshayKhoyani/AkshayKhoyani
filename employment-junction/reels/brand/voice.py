@@ -2,12 +2,15 @@
 
 Reads <reel>/script.json: {"voice_id", "speed", "design": [sec per scene], "lines": [text per scene],
   optional per scene: "speakers": ["naukri_bhaiya", "exam_didi", ...]} -> each character speaks in its own voice (CAST_VOICES).
+Skit format (recommended): "model": "eleven_v4" + emotion tags inside lines, e.g. "[shocked] क्या?! ..." / "[laughs]" / "[whispers]".
+  With an older model the [tags] are stripped so they are never read aloud.
 Writes <reel>/vo/scene_<i>.mp3 (cached), <reel>/timeline.json, <reel>/voice.wav
 The API key is injected by the session's network proxy.
 Usage: python3 brand/voice.py <reel-dir>
 """
 import json
 import os
+import re
 import subprocess
 import sys
 
@@ -15,7 +18,9 @@ DIR = os.path.abspath(sys.argv[1])
 S = json.load(open(os.path.join(DIR, "script.json")))
 VOICE_ID = S.get("voice_id", "cgSgspJ2msm6clMCkdW9")
 SPEED = S.get("speed", 1.1)
-LEAD, TAIL = 0.3, 0.4
+LEAD, TAIL = S.get("lead", 0.12), S.get("tail", 0.18)   # tight turns between speakers = no dead air
+MODEL = S.get("model", "eleven_multilingual_v2")
+TAGS_OK = MODEL.startswith(("eleven_v3", "eleven_v4"))
 
 
 # one voice per character (ElevenLabs). fx: post-processing that gives the character its colour.
@@ -61,8 +66,11 @@ FX = {
 
 
 def tts(text, out, voice_id=None):
-    body = json.dumps({"text": text, "model_id": "eleven_multilingual_v2",
-                       "voice_settings": {"stability": 0.45, "similarity_boost": 0.8, "style": 0.3, "use_speaker_boost": True}})
+    if not TAGS_OK:
+        text = re.sub(r"\[[a-z ]+\]\s*", "", text)
+    vs = S.get("voice_settings") or ({"stability": 0.5, "similarity_boost": 0.8} if TAGS_OK else
+                                     {"stability": 0.45, "similarity_boost": 0.8, "style": 0.3, "use_speaker_boost": True})
+    body = json.dumps({"text": text, "model_id": MODEL, "voice_settings": vs})
     url = f"https://api.elevenlabs.io/v1/text-to-speech/{voice_id or VOICE_ID}?output_format=mp3_44100_128"
     code = subprocess.run(["curl", "-s", "-o", out, "-w", "%{http_code}", url, "-H", "xi-api-key: proxy-injected",
                            "-H", "Content-Type: application/json", "--data-binary", body],
@@ -84,7 +92,7 @@ for i, line in enumerate(S["lines"]):
     txtf = os.path.join(DIR, "vo", f"scene_{i}.txt")
     who = (S.get("speakers") or [None] * len(S["lines"]))[i]
     cv = CAST_VOICES.get(who, {"id": None, "fx": None})
-    key = f"{cv['id']}|{line}"
+    key = f"{MODEL}|{cv['id']}|{line}"
     if not os.path.exists(mp3) or not os.path.exists(txtf) or open(txtf).read() != key:
         print("generating scene", i, who or "default")
         tts(line, mp3, cv["id"])
@@ -93,7 +101,7 @@ for i, line in enumerate(S["lines"]):
     af = f"atempo={SPEED}" + ("," + FX[cv["fx"]] if cv["fx"] else "")
     subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", mp3, "-af", af, fast], check=True)
     d = duration(fast)
-    lead = 0.15 if i == 0 else LEAD
+    lead = 0.05 if i == 0 else LEAD
     scene_len = max(S["design"][i], lead + d + TAIL)
     clips.append(fast); starts.append(round(t + lead, 3)); durs.append(round(scene_len, 3)); t += scene_len
 

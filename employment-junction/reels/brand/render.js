@@ -12,7 +12,7 @@ const out = args.find(a => a.endsWith('.mp4')) || path.join(dir, path.basename(d
 const previewIdx = args.indexOf('--preview');
 
 (async () => {
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({ args: ['--use-gl=angle', '--use-angle=swiftshader', '--enable-unsafe-swiftshader', '--ignore-gpu-blocklist'] });
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   const errors = [];
   page.on('pageerror', e => errors.push(e.message));
@@ -62,6 +62,8 @@ const previewIdx = args.indexOf('--preview');
   for (const f of fs.existsSync(bgDir) ? fs.readdirSync(bgDir) : []) { const k = f.replace(/\.jpg$/, '');
     if (sceneSrc.includes('scene_' + k)) bgs[k] = 'data:image/jpeg;base64,' + fs.readFileSync(path.join(bgDir, f)).toString('base64'); }
   await page.addInitScript(b => { window.BG_SRC = b; }, bgs);
+  // live clay 3D backdrops (theme "clay_<key>")
+  if (sceneSrc.includes('clay_')) for (const f of ['three.min.js', 'three-addons.js', 'clay3d.js']) await page.addInitScript(fs.readFileSync(path.join(__dirname, f), 'utf8'));
   await page.addInitScript(s => { window.CAST_SRC = s; }, castSrc);
   await page.goto('file://' + path.join(dir, 'scene.html'));
   await page.evaluate(() => window.ready);

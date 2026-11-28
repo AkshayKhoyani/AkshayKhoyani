@@ -131,4 +131,20 @@
         ctx.fillStyle = lin(ctx, [[0, 'rgba(3,8,20,0.82)'], [0.32, 'rgba(3,8,20,0.25)'], [0.62, 'rgba(3,8,20,0)'], [1, 'rgba(3,8,20,0.55)']]); ctx.fillRect(0, 0, W, H);
       } };
   });
+
+  // ---- live clay 3D backdrops (brand/clay3d.js, Three.js, rendered every frame, Finance-Junction style) ----
+  // job-matched worlds; text cards stay dark navy glass on top so they read on the pastel scene
+  const CLAY = { classroom: 'Classroom', exam_hall: 'Exam Hall', police_station: 'Police Station', railway: 'Railway Platform', bank: 'Bank Branch',
+    govt_office: 'Sarkari Karyalay', home: 'Ghar (living room)', street: 'Bazaar / Naukri Kendra', hospital: 'Hospital', army_camp: 'Army Camp' };
+  const clayCache = {};
+  Object.entries(CLAY).forEach(([k, name]) => {
+    window.EJ_THEMES['clay_' + k] = { name: name + ' (clay 3D)', dark: true, clay: k,
+      pal: { ...DARK, gold: '#fbbf24', sky: '#7dd3fc', card: 'rgba(11,26,58,0.80)', stroke: 'rgba(255,255,255,0.22)' },
+      bg(ctx, t) {
+        if (!window.EJ_CLAY) { ctx.fillStyle = '#fde7d2'; ctx.fillRect(0, 0, W, H); return; }
+        const s = clayCache[k] || (clayCache[k] = window.EJ_CLAY.make(k)); s.render(t);
+        ctx.drawImage(s.canvas, 0, 0, W, H);
+        ctx.fillStyle = lin(ctx, [[0, 'rgba(8,18,42,0.72)'], [0.3, 'rgba(8,18,42,0.30)'], [0.55, 'rgba(8,18,42,0)'], [0.85, 'rgba(8,18,42,0)'], [1, 'rgba(8,18,42,0.35)']]); ctx.fillRect(0, 0, W, H);
+      } };
+  });
 })();
