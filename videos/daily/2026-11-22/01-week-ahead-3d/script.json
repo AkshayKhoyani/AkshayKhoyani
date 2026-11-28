@@ -1,0 +1,14 @@
+{
+  "voice": "cgSgspJ2msm6clMCkdW9",
+  "speed": 1.14, "lead": 0.12, "gap": 0.22, "tail": 0.4,
+  "lines": [
+    {"text": "अगले_सात_दिन,|Agle_7_din, market में|mein भूचाल|bhoochaal ला_सकते_हैं!|la_sakte_hain! ये|Ye पाँच|5 dates अभी|abhi save कर_लो।|kar_lo.", "min": 3.6},
+    {"text": "सोमवार,|Somvaar, तेईस_नवंबर:|23_Nov: Nifty की|ki monthly F&O expiry, एक_दिन_पहले,|ek_din_pehle, क्योंकि|kyunki मंगलवार_को|Mangalvaar_ko market बंद_है।|band_hai."},
+    {"text": "मंगलवार,|Mangalvaar, चौबीस:|24: गुरु_नानक_जयंती,|Guru_Nanak_Jayanti, NSE और|aur BSE दोनों|dono बंद।|band."},
+    {"text": "बुधवार,|Budhvaar, पच्चीस:|25: अमेरिका_का|America_ka GDP और|aur PCE inflation data. Fed के|ke rate hike की|ki उम्मीद|ummeed पचानवे_परसेंट_से_ज़्यादा!|95%+! Data गरम|garam आया,|aaya, तो|toh gold, rupee और|aur FII flow, सब_पर|sab_par असर।|asar."},
+    {"text": "गुरुवार,|Guruvaar, छब्बीस:|26: Thanksgiving, US market बंद,|band, और|aur शुक्रवार_को|Shukravaar_ko आधा_दिन।|aadha_din."},
+    {"text": "और|Aur तीस_नवंबर:|30_Nov: India का|ka Q2 GDP! अंदाज़े|Andaaze सात_दशमलव_तीन_से_सात_दशमलव_आठ_परसेंट।|7.3–7.8%. साथ_में|Saath_mein MSCI rejig: LIC, Coforge, Adani_Green और|aur Meesho की|ki entry, करीब|kareeb दो_billion_dollar|$2_billion inflow का|ka अंदाज़ा।|andaaza.", "min": 9.0},
+    {"text": "और|Aur दो_से_चार_दिसंबर|2–4_Dec RBI policy! यानी|Yaani ये|ye हफ़्ता,|hafta, पूरी|poori तैयारी_का_है।|taiyaari_ka_hai."},
+    {"text": "Finance_Junction follow_करो,|follow_karo, ये|ye reel save_करो,|save_karo, क्योंकि...|kyunki...", "min": 3.2}
+  ]
+}

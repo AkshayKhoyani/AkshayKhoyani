@@ -1,0 +1,19 @@
+{
+ "slug": "fd-vs-equity-10-saal",
+ "sources": "FD 7% aur equity 12% sirf andaaza (tax se pehle). Guaranteed nahi.",
+ "scenes": [
+  {"type": "hook", "tag": "FD vs EQUITY", "lines": [["₹1 LAKH × 10 SAAL", "text"], ["FD ya Mutual Fund?", "gold"]], "emoji": "🤔",
+   "voice": "एक_लाख_रुपये,|₹1_lakh_rupaye, दस|10 साल|saal के_लिए:|ke_liye: FD में|mein डालें,|daalein, या|ya equity mutual fund में?|mein?"},
+  {"type": "chart", "title": "₹1 lakh ka safar 📈", "xlabel": "saal", "xticks": [[0, "0"], [5, "5"], [10, "10"]], "ymax": 3.4,
+   "series": [{"label": "Equity 12%*", "color": "green", "end": "₹3.11L",
+               "points": [1, 1.12, 1.254, 1.405, 1.574, 1.762, 1.974, 2.211, 2.476, 2.773, 3.106]},
+              {"label": "FD 7%", "color": "amber", "end": "₹1.97L",
+               "points": [1, 1.07, 1.145, 1.225, 1.311, 1.403, 1.501, 1.606, 1.718, 1.838, 1.967]}],
+   "voice": "FD सात|7 परसेंट|percent पर,|par, दस|10 साल|saal में|mein करीब|kareeb एक_दशमलव_सत्तानवे_लाख।|₹1.97_lakh. और|Aur equity बारह|12 परसेंट|percent मानो,|maano, तो|toh करीब|kareeb तीन_दशमलव_ग्यारह_लाख!|₹3.11_lakh!"},
+  {"type": "list", "title": "Par dhyan rakho 👇", "colors": ["green", "red", "gold"], "icons": ["🛡️", "🎢", "🎯"],
+   "items": [["FD = guaranteed, safe", "Paisa jaldi chahiye? FD"], ["Equity = risk, ups-downs", "12% pakka NAHI"], ["5+ saal ka goal?", "Thoda equity socho"]],
+   "voice": "पर|Par ध्यान|dhyan रखो:|rakho: FD guaranteed है,|hai, equity में|mein risk है,|hai, और|aur बारह|12 परसेंट|percent पक्का|pakka नहीं।|nahi. लंबे|Lambe goal के_लिए|ke_liye थोड़ा|thoda equity सोचो।|socho."},
+  {"type": "cta", "top": "Aap kya choose karoge? 👇",
+   "voice": "Finance_Junction follow_करो...|follow_karo... और|aur बताओ,|batao, आप|aap एक_लाख|₹1_lakh कहाँ|kahan डालोगे?|daaloge?"}
+ ]
+}

@@ -1,0 +1,124 @@
+# 25 Nov 2026 reels
+
+## 1. 25 Nov: market khulega, ye 5 cheezein dekho (01-5-cheezein-25-nov/25-nov-market-5-cheezein.mp4, 40s)
+Post: **aaj raat (24 Nov) 9 baje**
+**IG:**
+```
+25 NOV: MARKET KHULEGA 🔔 2 din ki khabar EK SAATH! Ye 5 cheezein dekh lo 👇 (#1 sabse badi)
+
+5️⃣ MSCI 💰 Coforge, LIC, Adani Green, Meesho index mein (30 Nov se). ~$2 bn aane ka andaaza (Nuvama)
+4️⃣ Stocks in focus 👀 IT · Banks (Somvaar −3.17%) · Tata Steel (−8%) & APL Apollo (−21%)
+3️⃣ Raat ki rally 🚀 Nvidia +31% · Nasdaq +6.5% · Taiwan +9% · Korea +6.3%
+2️⃣ Twist 😬 24 Nov ko US futures phir fisle, Nvidia premarket ~−6%
+1️⃣ SABSE BADI 🎯 25 Nov shaam 7 baje US inflation (PCE) data. Zyada aaya to Fed rate hike pakka (odds ~96%)
+
+25 Nov ko Nifty HARA khulega ya LAAL? Hara = 1, Laal = 2 comment karo 👇
+📌 Save karo · 🔁 Repost karo · 🔔 Follow @FinanceJunction
+
+Not investment advice. Data: 23–24 Nov 2026.
+```
+**Hashtags:** `#stockmarket #nifty #sensex #sharemarket #marketnews #nvidia #msci #fed #financejunction #stockmarketindia`
+**YT:** `25 Nov Market Khulega: Ye 5 Cheezein Dekho 🔔 (#1 Sabse Badi) #shorts`
+**Sources:** `01-5-cheezein-25-nov/SOURCES.md`
+
+---
+# Daily reels (scheduled run, 25 Nov 2026)
+Posting: **subah 9** SIP 25 vs 35 · **dopahar 1** CIBIL · **shaam 7** Endowment vs Term
+
+## 2. Endowment vs Term (02-endowment-vs-term/endowment-vs-term-insurance.mp4, 29s)
+**IG:**
+```
+Aapki policy = investment? GALAT! ❌ Return sirf ~4-5% 😬
+
+📉 Endowment: return ~4-5% saalana (andaaza), cover bhi chhota
+🛡️ Term plan: 30 saal umar, ₹1 crore cover ~₹10,000/saal (andaaza ₹8k-12k)
+
+✅ Smart tarika:
+• Suraksha ke liye term plan (cover ~10-15x income)
+• Bachat alag invest karo (SIP / PPF / FD)
+• Purani policy band karne se pehle surrender value dekho
+
+Aapke paas kya hai? Term = 1, Endowment = 2 comment karo 👇
+🔔 Follow @FinanceJunction
+
+Educational only. Premium umar/health par depend. Apne advisor se baat karein.
+```
+**Hashtags:** `#terminsurance #lifeinsurance #insurance #endowment #personalfinance #financejunction #moneytips #investing`
+**YT:** `Policy = Investment? GALAT! ❌ Term vs Endowment #shorts`
+
+## 3. SIP: 25 vs 35 umar (03-sip-25-vs-35/sip-25-vs-35.mp4, 26s)
+**IG:**
+```
+10 saal LATE SIP = ₹2.3 CRORE kam 😱
+
+₹5,000/mahina SIP, 60 saal tak, 12%* maan ke:
+🟢 25 se shuru: lagaya ₹21 lakh → ~₹3.25 crore
+🔴 35 se shuru: lagaya ₹15 lakh → ~₹95 lakh
+
+Farak lagane mein sirf ₹6 lakh, nateeja 3x+! Yahi compounding hai 🚀
+
+Aapne SIP kis umar mein shuru ki? Comment karo 👇
+📌 Save karo · 🔔 Follow @FinanceJunction
+
+*12% sirf andaaza, guaranteed nahi. Market risk hai. Tax/fees shamil nahi.
+```
+**Hashtags:** `#sip #mutualfunds #compounding #investing #personalfinance #financejunction #wealth #moneytips`
+**YT:** `10 Saal Late SIP = ₹2.3 Crore Kam 😱 #shorts`
+
+## 4. CIBIL 750+ (04-cibil-score/cibil-score-750.mp4, 28s)
+**IG:**
+```
+750+ CIBIL = SASTA LOAN? 🤔
+
+📊 Score 300 se 900 tak. 750+ ko zyadatar lenders achha maante hain
+✅ Fayda: jaldi approval, kam byaaj ka chance
+
+📈 Score kaise badhaye:
+⏰ EMI / bill time par
+💳 Card limit kam use karo
+🔍 Baar baar loan apply mat karo
+🚫 Purana card band mat karo
+
+🎁 RBI niyam: har credit bureau se saal mein 1 FREE full report
+
+Aapka score: 750+ = 1, kam = 2 comment karo 👇
+🔔 Follow @FinanceJunction
+
+Educational only.
+```
+**Hashtags:** `#cibil #cibilscore #creditscore #loan #creditcard #personalfinance #financejunction #moneytips`
+**YT:** `750+ CIBIL = Sasta Loan? 🤔 Score Kaise Badhaye #shorts`
+
+## 5. Mid-day carousel (05-midday-carousel/slide_1..8.png, 8 images, 4:5)
+Post: **abhi (dopahar)**, market band hone se pehle
+**IG:**
+```
+MARKET KI WAPSI 🚀 Somvaar ke crash ke baad Sensex ~1,900 pts upar, Nifty ~25,900! (25 Nov, intraday)
+
+👉 Swipe karo:
+📈 Kitna chadha
+🤔 4 badi wajah: FII kharidari, sasta crude, achhe Q2 results, crash ke baad bounce
+🏦💻 Banks aur IT aage
+🟢 HDFC Bank, Infosys, ICICI, Axis
+🔴 APL Apollo naye 52-week low par
+🌍 Dow pehli baar 50,000 paar, par Nasdaq aur Nvidia neeche
+⏰ Aaj shaam 7 baje US inflation data
+
+Aaj profit book kiya? Haan = 1, Na = 2 comment karo 👇
+📌 Save · 🔁 Share · 🔔 Follow @FinanceJunction
+
+Intraday data, din bhar badalta hai. Not investment advice.
+```
+**Hashtags:** `#stockmarket #sensex #nifty #sharemarket #marketupdate #banknifty #itstocks #stockmarketindia #financejunction #marketnews`
+**Sources:** `MIDDAY_DATA.md`
+
+### 5b. Har slide ka alag caption (story / alag post / alt text ke liye)
+1. 🚀 MARKET KI WAPSI! Somvaar ke crash ke baad Sensex ~1,900 pts upar, Nifty ~25,900 (25 Nov, intraday). Kyun? Kaun chadha? Aage kya? Swipe karo 👉 #sensex #nifty #stockmarket
+2. 📈 Kitna chadha? Sensex ~84,334 (▲1,898), Nifty ~25,900 (▲551). Khulte hi Sensex +1,384 tha. Din bhar level badalta rahega ⏰ #nifty50 #marketupdate
+3. 🤔 4 badi wajah: 💰 FII kharidari (Nov mein record $13.2 bn, Geojit analyst) · 🛢️ sasta crude, mazboot rupaya · 📊 achhe Q2 results (~27% kamai badhi) · 📉 crash ke baad bounce. Aapke hisaab se sabse badi wajah kaunsi? 👇 #fii #stockmarketindia
+4. 🏦💻 Rally ke hero: Nifty IT ~+2.4%, Private Banks ~+2.3%, Bank Nifty ~+1.9% (intraday). Aapke portfolio mein kaunsa sector hai? #banknifty #itstocks
+5. 🟢 Top gainers: HDFC Bank +3.5%, Infosys +3.4%, ICICI Bank +3.2%, Axis Bank 3%+. Khulte waqt TCS, Tech Mahindra, HCL bhi 4% tak upar. #hdfcbank #infosys #icicibank
+6. 🔴 Rally mein bhi neeche: APL Apollo Tubes naye 52-week low par (▼15–19.6%), Tata Steel deal ke baad bikwali jaari. Tata Steel, M&M, Titan, Sun Pharma bhi laggards. #aplapollo #tatasteel
+7. 🌍 US mein ulta-pulta (24 Nov): Dow pehli baar 50,000 paar (50,019) 🇺🇸, par Nasdaq −1.48%, Nvidia −5.9%. Asia mein tech girawat, phir bhi India upar 🇮🇳🟢 #dowjones #nvidia #globalmarkets
+8. ⏰ Aaj shaam 7 baje US inflation (PCE) + GDP data. Mahanadi Coalfields IPO ka allotment aaj, listing 27 Nov. Aaj profit book kiya? Haan = 1, Na = 2 comment karo 👇 🔔 Follow @FinanceJunction #ipo #fed
+(Sab intraday data, 25 Nov 2026. Not investment advice.)

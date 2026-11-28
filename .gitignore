@@ -1,0 +1,4 @@
+videos/**/music.wav
+videos/**/voice.wav
+videos/**/vo/*_fast.wav
+videos/engine/node_modules/

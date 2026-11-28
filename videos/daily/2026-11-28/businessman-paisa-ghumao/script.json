@@ -1,0 +1,54 @@
+{
+ "voice": "3AMU7jXQuQa3oRvRqUmb",
+ "model": "eleven_v4",
+ "voice_settings": {
+  "stability": 0.5,
+  "similarity_boost": 0.8
+ },
+ "speed": 1.22,
+ "lead": 0.08,
+ "gap": 0.12,
+ "tail": 1.5,
+ "lines": [
+  {
+   "who": "C",
+   "voice": "7b9mYhmnp0y2qSH1FnBL",
+   "text": "[shocked]| पाजी!|Paaji! एक_लाख_से|₹1_lakh_se हर_महीने|har_mahine चालीस_हज़ार?!|₹40,000?!"
+  },
+  {
+   "who": "P",
+   "text": "[laughs]| हाँ|Haan चिंटू!|Chintu! Business का|ka पहला_राज़:|pehla_raaz: पैसा_घुमाओ।|paisa_ghumao."
+  },
+  {
+   "who": "P",
+   "text": "एक_लाख_का|₹1_lakh_ka माल_लिया,|maal_liya, दस_परसेंट|10% मुनाफ़े_पे_बेचा,|munafe_pe_becha, दस_हज़ार।|₹10,000. महीने_में|Mahine_mein चार_बार_घुमाया?|4_baar_ghumaya? चालीस_हज़ार!|₹40,000!"
+  },
+  {
+   "who": "P",
+   "text": "दूसरा:|Doosra: supplier को|ko पैसा|paisa तीस_दिन_बाद,|30_din_baad, माल|maal दस_दिन_में_बिक_गया।|10_din_mein_bik_gaya. बीच_के_दिन,|Beech_ke_din, धंधा|dhandha supplier के_पैसे_से!|ke_paise_se!"
+  },
+  {
+   "who": "P",
+   "text": "तीसरा:|Teesra: मुनाफ़ा|munafa उड़ाओ_मत,|udao_mat, धंधे_में|dhande_mein वापस_लगाओ।|wapas_lagao. माल_बड़ा,|Maal_bada, तो|toh मुनाफ़ा_बड़ा!|munafa_bada!"
+  },
+  {
+   "who": "G",
+   "voice": "k0gtD0Bbpi6hL40jfHfm",
+   "text": "[whispers]| पर_माल_ना_बिका...|Par_maal_na_bika... तो_यही_उधार,|toh_yahi_udhaar, मैं_बन_जाऊँगा!|main_ban_jaunga!"
+  },
+  {
+   "who": "C",
+   "voice": "7b9mYhmnp0y2qSH1FnBL",
+   "text": "[scared]| आआह!|Aaah!"
+  },
+  {
+   "who": "P",
+   "text": "[calm]| इसीलिए|Isiliye हिसाब_पक्का,|hisaab_pakka, और|aur उधार|udhaar उतना_ही,|utna_hi, जितना_चुका_सको।|jitna_chuka_sako."
+  },
+  {
+   "who": "C",
+   "voice": "7b9mYhmnp0y2qSH1FnBL",
+   "text": "[excited]| कौनसा_राज़_बेस्ट?|Kaunsa_raaz_best? एक,|1, दो_या_तीन?|2_ya_3? Comment करो!|karo!"
+  }
+ ]
+}

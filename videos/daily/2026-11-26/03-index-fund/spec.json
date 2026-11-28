@@ -1,0 +1,86 @@
+{
+ "slug": "index-fund-kya-hai",
+ "sources": "SPIVA India Mid-Year 2025 (S&P Dow Jones Indices, via Cafemutual, Angel One): 10 saal (June 2025 tak) mein 73% large-cap active funds benchmark se peeche. Educational only, not advice.",
+ "scenes": [
+  {
+   "type": "hook",
+   "tag": "INDEX FUND",
+   "tagColor": "gold",
+   "lines": [
+    [
+     "73% fund managers",
+     "text"
+    ],
+    [
+     "HAAR GAYE 😳",
+     "red2"
+    ]
+   ],
+   "sub": "Sabse simple investment jo log ignore karte hain",
+   "voice": "दस_साल_में|10_saal_mein तिहत्तर_परसेंट|73% large-cap fund managers, index से|se हार_गए!|haar_gaye!"
+  },
+  {
+   "type": "stat",
+   "tag": "SPIVA INDIA",
+   "label": "10 saal mein benchmark se peeche",
+   "value": 73,
+   "suffix": "%",
+   "color": "red",
+   "note": "large-cap active funds (June 2025 tak)",
+   "noteColor": "muted",
+   "source": "S&P SPIVA India Mid-Year 2025",
+   "voice": "S&P की|ki SPIVA report: दस_साल|10_saal में|mein तिहत्तर|73 परसेंट|percent large-cap funds अपने|apne benchmark से|se पीछे।|peeche.",
+   "min": 6.6
+  },
+  {
+   "type": "formula",
+   "tag": "SIMPLE 🧮",
+   "title": "Index fund kya hai?",
+   "lines": [
+    "Nifty 50 = top 50 companies",
+    "Fund = wahi 50, wahi weight",
+    [
+     "Koi stock picking nahi ✅",
+     "gold"
+    ]
+   ],
+   "voice": "Index fund, बस|bas Nifty पचास|50 जैसी|jaisi index की|ki कॉपी|copy है।|hai. कोई|Koi stock picking नहीं।|nahi."
+  },
+  {
+   "type": "list",
+   "title": "Fayde 👍",
+   "colors": [
+    "green",
+    "blue",
+    "amber"
+   ],
+   "icons": [
+    "💸",
+    "🎯",
+    "⏳"
+   ],
+   "items": [
+    [
+     "Kharcha kam",
+     "Expense ratio active se kam"
+    ],
+    [
+     "Market jitna return",
+     "Na zyada, na kam"
+    ],
+    [
+     "Lambe samay ke liye",
+     "Market girta bhi hai, risk hai"
+    ]
+   ],
+   "voice": "फ़ायदा:|Fayda: खर्चा|kharcha कम,|kam, और|aur market जितना|jitna return. पर|Par risk है,|hai, लंबे_समय_के_लिए|lambe_samay_ke_liye सोचो।|socho."
+  },
+  {
+   "type": "cta",
+   "top": "Comment karo 👇",
+   "topSub": "Index fund hai? Haan = 1, Na = 2",
+   "disclaimer": "Not investment advice. Past performance future ki guarantee nahi.",
+   "voice": "आपके_पास|Aapke_paas index fund है?|hai? हाँ_एक,|Haan_1, ना_दो।|na_2. Finance_Junction follow_करो!|follow_karo!"
+  }
+ ]
+}

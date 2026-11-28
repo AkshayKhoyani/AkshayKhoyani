@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><style>html,body{margin:0;background:#000}</style></head>
+<body><script type="module">
+import { mascot } from '/engine/mascot.js';
+const out = document.createElement('canvas'); out.width = 1080; out.height = 1920; out.id = 'out'; document.body.appendChild(out);
+const ctx = out.getContext('2d');
+await document.fonts.load('900 40px Inter');
+const fj = { ctx, overlays: [] };
+const moods = ['wave','talk','point','shock','think','thumbs','happy','worried'];
+moods.forEach((m, i) => mascot(fj, { x: 180 + (i % 3) * 360, y: 560 + Math.floor(i / 3) * 620, scale: 0.95, appear: -1, moods: [{ t0: -1, t1: 99, mood: m }] }));
+await new Promise(r => setTimeout(r, 300));
+window.DUR = 4;
+window.renderFrame = t => { ctx.fillStyle = '#e8e5de'; ctx.fillRect(0, 0, 1080, 1920); ctx.font='700 34px Inter'; ctx.fillStyle='#111'; ctx.textAlign='center'; moods.forEach((m,i)=>ctx.fillText(m, 180 + (i % 3) * 360, 600 + Math.floor(i / 3) * 620)); fj.overlays.forEach(o => { ctx.save(); o(t); ctx.restore(); }); };
+renderFrame(0); window.READY = true;
+</script></body></html>

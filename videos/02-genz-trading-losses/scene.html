@@ -1,0 +1,280 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Gen Z Trading Losses Short</title>
+<style>html,body{margin:0;background:#0a0f1f}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/brand.js"></script>
+<script>
+// Facts used (cross-checked across multiple news reports):
+//  SEBI study, FY26: 88.5% of individual F&O traders under 30 made losses; 87.7% of all
+//  individual traders made losses; aggregate net loss Rs 91,685 crore; under-30 = 43% of
+//  individual traders; options = 92% of aggregate losses.
+//  ClearTax "How India Filed 2026" (AY 2026-27), self-filers reporting capital gains/losses:
+//  loss share 37% (<25), 29% (25-30), 21% (60+).
+const W = 1080, H = 1920;
+let DUR = 44;
+const C = {
+  green: '#22c55e', green2: '#4ade80', amber: '#f59e0b', red: '#ef4444', red2: '#f87171',
+  blue: '#60a5fa', text: '#f8fafc', muted: '#94a3b8',
+  card: 'rgba(255,255,255,0.06)', stroke: 'rgba(255,255,255,0.12)'
+};
+const ctx = document.getElementById('c').getContext('2d');
+
+// ---------- Helpers ----------
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const easeOut = x => 1 - Math.pow(1 - x, 3);
+const easeInOut = x => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const easeBack = x => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+function sceneA(t, a, b, f = 0.35) {
+  if (t < a || t > b) return 0;
+  return Math.min(clamp((t - a) / f), clamp((b - t) / f));
+}
+function txt(s, x, y, o = {}) {
+  const { size = 60, weight = 700, color = C.text, align = 'center', alpha = 1, scale = 1, dy = 0 } = o;
+  if (alpha <= 0) return;
+  ctx.save();
+  ctx.globalAlpha *= alpha;
+  ctx.translate(x, y + dy); ctx.scale(scale, scale);
+  ctx.font = `${weight} ${size}px Inter, "Noto Color Emoji", sans-serif`;
+  ctx.textAlign = align; ctx.textBaseline = 'alphabetic'; ctx.fillStyle = color;
+  ctx.fillText(s, 0, 0);
+  ctx.restore();
+}
+function pop(t, at, s, x, y, o = {}) {
+  const p = easeOut(prog(t, at, at + 0.45));
+  txt(s, x, y, { ...o, alpha: p * (o.alpha ?? 1), dy: (1 - p) * 40 });
+}
+function rrect(x, y, w, h, rad) {
+  rad = Math.min(rad, w / 2, h / 2);
+  ctx.beginPath();
+  ctx.moveTo(x + rad, y);
+  ctx.arcTo(x + w, y, x + w, y + h, rad); ctx.arcTo(x + w, y + h, x, y + h, rad);
+  ctx.arcTo(x, y + h, x, y, rad); ctx.arcTo(x, y, x + w, y, rad);
+  ctx.closePath();
+}
+function card(x, y, w, h, alpha = 1, accent) {
+  ctx.save(); ctx.globalAlpha *= alpha;
+  rrect(x, y, w, h, 32); ctx.fillStyle = C.card; ctx.fill();
+  ctx.strokeStyle = C.stroke; ctx.lineWidth = 2; ctx.stroke();
+  if (accent) { rrect(x, y, 12, h, 6); ctx.fillStyle = accent; ctx.fill(); }
+  ctx.restore();
+}
+function source(t, at, s) {
+  pop(t, at, s, 540, 1560, { size: 28, weight: 500, color: 'rgba(148,163,184,0.85)' });
+}
+function person(x, y, s, col, alpha = 1) {
+  ctx.save(); ctx.globalAlpha *= alpha; ctx.fillStyle = col;
+  ctx.beginPath(); ctx.arc(x, y - 34 * s, 26 * s, 0, Math.PI * 2); ctx.fill();
+  rrect(x - 40 * s, y, 80 * s, 90 * s, 34 * s); ctx.fill();
+  ctx.restore();
+}
+
+// ---------- Background ----------
+function background(t) {
+  const g = ctx.createLinearGradient(0, 0, 0, H);
+  g.addColorStop(0, '#0a0f1f'); g.addColorStop(1, '#151a30');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  const glow = (cx, cy, rad, col) => {
+    const rg = ctx.createRadialGradient(cx, cy, 0, cx, cy, rad);
+    rg.addColorStop(0, col); rg.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = rg; ctx.fillRect(0, 0, W, H);
+  };
+  glow(540 + Math.sin(t * 0.4) * 260, 520 + Math.cos(t * 0.3) * 120, 700, 'rgba(239,68,68,0.12)');
+  glow(540 + Math.cos(t * 0.35) * 300, 1500 + Math.sin(t * 0.25) * 140, 650, 'rgba(96,165,250,0.08)');
+  ctx.strokeStyle = 'rgba(255,255,255,0.03)'; ctx.lineWidth = 1;
+  const off = (t * 12) % 90;
+  for (let y = -90 + off; y < H; y += 90) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+  for (let x = 0; x < W; x += 90) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke(); }
+}
+
+// ---------- Scenes (design times) ----------
+function scene1(t) { // Hook 0 – 6
+  const a = sceneA(t, 0, 6, 0.2); if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  const s = easeBack(prog(t, 0.1, 0.6));
+  txt('10 mein se ~9', 540, 470, { size: 140, weight: 900, color: C.red2, scale: s, alpha: clamp(s) });
+  pop(t, 0.5, 'young traders', 540, 580, { size: 70, weight: 800 });
+  pop(t, 0.8, 'F&O mein paisa haar rahe hain 📉', 540, 670, { size: 56, weight: 700, color: C.muted });
+  // 10 people, 9 turn red
+  for (let i = 0; i < 10; i++) {
+    const row = Math.floor(i / 5), col = i % 5;
+    const x = 220 + col * 160, y = 860 + row * 240;
+    const appear = easeOut(prog(t, 1.0 + i * 0.06, 1.4 + i * 0.06));
+    const red = i < 9 ? prog(t, 2.0 + i * 0.18, 2.2 + i * 0.18) : 0;
+    const col_ = red > 0.5 ? C.red : (i === 9 && t > 3.8 ? C.green2 : '#64748b');
+    person(x, y, 1, col_, appear);
+  }
+  pop(t, 4.0, '88.5% under-30 F&O traders loss mein the', 540, 1390, { size: 44, weight: 700, color: C.text });
+  source(t, 4.2, 'Source: SEBI study, FY26');
+  ctx.restore();
+}
+
+function scene2(t) { // ClearTax age 6 – 14
+  const a = sceneA(t, 6, 14); if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  pop(t, 6.1, 'Umar ke hisaab se loss 👇', 540, 430, { size: 68, weight: 800 });
+  pop(t, 6.4, 'Capital gain/loss dikhane wale self-filers', 540, 500, { size: 36, weight: 500, color: C.muted });
+  const rows = [['25 se kam', 37, C.red, 6.9], ['25 – 30', 29, C.amber, 7.6], ['60+', 21, C.green, 8.3]];
+  rows.forEach(([label, pct, col, at], i) => {
+    const y = 640 + i * 250;
+    const p = easeOut(prog(t, at, at + 0.4));
+    const g = easeInOut(prog(t, at + 0.2, at + 1.2));
+    txt(label, 110, y, { size: 48, weight: 700, align: 'left', alpha: p });
+    ctx.save(); ctx.globalAlpha *= p;
+    rrect(110, y + 35, 860, 90, 45); ctx.fillStyle = 'rgba(255,255,255,0.07)'; ctx.fill();
+    const w = 860 * (pct / 40) * g;
+    if (w > 10) { rrect(110, y + 35, w, 90, 45); ctx.fillStyle = col; ctx.fill(); }
+    ctx.restore();
+    txt(`${Math.round(pct * g)}%`, 110 + Math.max(860 * (pct / 40) * g, 140) - 30, y + 100,
+      { size: 54, weight: 900, align: 'right', color: '#0b1020', alpha: p * clamp(g * 3) });
+  });
+  pop(t, 9.6, 'Sabse zyada loss sabse young investors ko 😬', 540, 1420, { size: 44, weight: 700, color: C.red2 });
+  source(t, 9.8, 'Source: ClearTax, How India Filed 2026 (AY 2026-27)');
+  ctx.restore();
+}
+
+function scene3(t) { // SEBI totals 14 – 22
+  const a = sceneA(t, 14, 22); if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  pop(t, 14.1, 'FY26 ka F&O hisaab 💸', 540, 400, { size: 68, weight: 800 });
+  const c = easeOut(prog(t, 14.5, 16.2));
+  txt('₹' + Math.round(91685 * c).toLocaleString('en-IN') + ' crore', 540, 560,
+    { size: 104, weight: 900, color: C.red2, alpha: prog(t, 14.4, 14.7) });
+  pop(t, 14.7, 'individual traders ka total nuksaan', 540, 635, { size: 42, weight: 600, color: C.muted });
+
+  const p1 = easeOut(prog(t, 16.3, 16.8));
+  card(110, 720, 860, 160, p1, C.red);
+  txt('Loss mein traders', 180, 815, { size: 42, weight: 600, color: C.muted, align: 'left', alpha: p1 });
+  txt('87.7%', 920, 825, { size: 72, weight: 900, color: C.red2, align: 'right', alpha: p1 });
+
+  // ring: 43% under 30
+  const rp = easeInOut(prog(t, 17.4, 18.6));
+  const ra = prog(t, 17.2, 17.5);
+  if (ra > 0) {
+    ctx.save(); ctx.globalAlpha *= ra;
+    const cx = 330, cy = 1160, R = 170;
+    ctx.lineWidth = 56; ctx.lineCap = 'butt';
+    ctx.strokeStyle = 'rgba(255,255,255,0.1)';
+    ctx.beginPath(); ctx.arc(cx, cy, R, 0, Math.PI * 2); ctx.stroke();
+    ctx.strokeStyle = C.blue;
+    ctx.beginPath(); ctx.arc(cx, cy, R, -Math.PI / 2, -Math.PI / 2 + Math.PI * 2 * 0.43 * rp); ctx.stroke();
+    txt(`${Math.round(43 * rp)}%`, cx, cy + 28, { size: 84, weight: 900, color: C.blue });
+    ctx.restore();
+    txt('traders ki umar', 560, 1110, { size: 46, weight: 600, color: C.muted, align: 'left', alpha: rp });
+    txt('30 se kam 👶', 560, 1190, { size: 64, weight: 900, align: 'left', alpha: rp });
+    txt('har 10 mein se 4+', 560, 1250, { size: 40, weight: 600, color: C.blue, align: 'left', alpha: rp });
+  }
+  source(t, 18.8, 'Source: SEBI study, FY26');
+  ctx.restore();
+}
+
+function scene4(t) { // Reasons 22 – 32
+  const a = sceneA(t, 22, 32); if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  pop(t, 22.1, 'Paisa kyun doob raha hai? 🤔', 540, 400, { size: 66, weight: 800 });
+  const rows = [
+    ['1', 'Options = lottery ticket 🎰', '92% nuksaan options se aaya', C.red, 22.8],
+    ['2', 'Overtrading 🔁', 'Har trade pe brokerage + charges', C.amber, 25.6],
+    ['3', 'Social media tips 📱', 'Quick money ka FOMO', C.blue, 28.4],
+  ];
+  rows.forEach(([n, head, sub, col, at], i) => {
+    const p = easeOut(prog(t, at, at + 0.5));
+    const y = 520 + i * 300, x = 110 + (1 - p) * 300;
+    ctx.save(); ctx.globalAlpha *= p;
+    card(x, y, 860, 250, 1, col);
+    ctx.fillStyle = col; ctx.beginPath(); ctx.arc(x + 110, y + 125, 52, 0, Math.PI * 2); ctx.fill();
+    txt(n, x + 110, y + 147, { size: 64, weight: 900, color: '#0b1020' });
+    txt(head, x + 195, y + 112, { size: 48, weight: 800, align: 'left' });
+    txt(sub, x + 195, y + 175, { size: 36, weight: 600, color: C.muted, align: 'left' });
+    ctx.restore();
+  });
+  ctx.restore();
+}
+
+function scene5(t) { // What to do 32 – 40
+  const a = sceneA(t, 32, 40); if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  pop(t, 32.1, 'Toh kya karein? ✅', 540, 420, { size: 74, weight: 800, color: C.green2 });
+  const items = [
+    ['Pehle seekho, phir kamao 📚', 32.8],
+    ['Wealth ke liye SIP / index funds 📈', 34.4],
+    ['Utna hi risk, jitna kho sako 🛡️', 36.4],
+  ];
+  items.forEach(([s, at], i) => {
+    const p = easeOut(prog(t, at, at + 0.45));
+    const y = 560 + i * 240;
+    card(110, y, 860, 190, p);
+    ctx.save(); ctx.globalAlpha *= p;
+    ctx.fillStyle = C.green; ctx.beginPath(); ctx.arc(200, y + 95, 44, 0, Math.PI * 2); ctx.fill();
+    const ck = easeOut(prog(t, at + 0.2, at + 0.6));
+    ctx.strokeStyle = '#0b1020'; ctx.lineWidth = 12; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.beginPath(); ctx.moveTo(180, y + 97);
+    if (ck < 0.4) ctx.lineTo(180 + 14 * ck / 0.4, y + 97 + 14 * ck / 0.4);
+    else { ctx.lineTo(194, y + 111); ctx.lineTo(194 + 28 * (ck - 0.4) / 0.6, y + 111 - 34 * (ck - 0.4) / 0.6); }
+    ctx.stroke();
+    ctx.restore();
+    txt(s, 275, y + 112, { size: 41, weight: 700, align: 'left', alpha: p });
+  });
+  ctx.restore();
+}
+
+function scene6(t) { // CTA 40 – 44 (Finance Junction end card)
+  const a = sceneA(t, 40, 44.5); if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  pop(t, 40.1, 'Us dost ko bhejo 📤', 540, 330, { size: 72, weight: 900 });
+  pop(t, 40.4, 'jo roz trading karta hai 😅', 540, 410, { size: 50, weight: 600, color: C.muted });
+  BRAND.endLogo(ctx, 540, 770, 480, prog(t, 40.7, 41.4), t);
+  const s = easeBack(prog(t, 41.3, 41.9)) * (1 + 0.04 * Math.sin(t * 6));
+  txt('Follow karo 🔔', 540, 1140, { size: 104, weight: 900, color: '#e0b23a', scale: s, alpha: clamp(s) });
+  pop(t, 41.8, 'Educational purpose only. Investment advice nahi hai.', 540, 1400, { size: 30, weight: 500, color: C.muted });
+  pop(t, 41.8, 'Derivatives trading mein high risk hota hai.', 540, 1442, { size: 30, weight: 500, color: C.muted });
+  pop(t, 42.0, 'Sources: SEBI study (FY26), ClearTax How India Filed 2026', 540, 1510, { size: 28, weight: 500, color: 'rgba(148,163,184,0.85)' });
+  ctx.restore();
+}
+
+function progressBar(t) {
+  ctx.fillStyle = 'rgba(255,255,255,0.1)'; ctx.fillRect(0, 0, W, 10);
+  ctx.fillStyle = C.red; ctx.fillRect(0, 0, W * clamp(t / DUR), 10);
+}
+
+// ---------- Timeline ----------
+const DESIGN = [[0, 6], [6, 14], [14, 22], [22, 32], [32, 40], [40, 44]];
+let ACTUAL = DESIGN.map(x => x.slice());
+window.setTimeline = durs => {
+  let s = 0;
+  ACTUAL = durs.map(d => { const r = [s, s + d]; s += d; return r; });
+  DUR = s; window.DUR = DUR;
+};
+function designTime(t) {
+  let i = ACTUAL.findIndex(([, b]) => t < b);
+  if (i < 0) i = ACTUAL.length - 1;
+  const [A, B] = ACTUAL[i], [a, b] = DESIGN[i];
+  return a + (t - A) * (b - a) / (B - A);
+}
+window.renderFrame = function (t) {
+  ctx.globalAlpha = 1;
+  const d = designTime(t);
+  background(t);
+  scene1(d); scene2(d); scene3(d); scene4(d); scene5(d); scene6(d);
+  BRAND.watermark(ctx, 0.9 * prog(d, 0.3, 0.8) * (1 - prog(d, 40, 40 + 0.3)));
+  progressBar(t);
+};
+window.DUR = DUR;
+window.ready = (async () => {
+  await window.BRAND.ready;
+  await Promise.all([
+    document.fonts.load('900 100px Inter'), document.fonts.load('800 100px Inter'),
+    document.fonts.load('700 100px Inter'), document.fonts.load('600 100px Inter'),
+    document.fonts.load('500 100px Inter'), document.fonts.load('100px "Noto Color Emoji"', '🤔📈'),
+  ]);
+  renderFrame(0);
+  return true;
+})();
+</script>
+</body>
+</html>

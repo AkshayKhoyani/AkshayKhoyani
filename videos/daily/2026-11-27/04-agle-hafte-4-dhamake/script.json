@@ -1,0 +1,37 @@
+{
+ "voice": "7b9mYhmnp0y2qSH1FnBL",
+ "model": "eleven_v4",
+ "voice_settings": {
+  "stability": 0.5,
+  "similarity_boost": 0.8
+ },
+ "speed": 1.2,
+ "lead": 0.1,
+ "gap": 0.15,
+ "tail": 0.6,
+ "lines": [
+  {
+   "text": "[excited]| अगले_हफ़्ते|Agle_hafte market में|mein चार|4 बड़े_धमाके!|bade_dhamake! पहला|Pehla तीस_नवंबर_को_ही।|30_November_ko_hi.",
+   "min": 3.4
+  },
+  {
+   "text": "[serious]| पहले|Pehle recap: इस_हफ़्ते|Is_hafte Nifty पच्चीस_हज़ार_छह_सौ_सात|25,607 पर|par बंद,|band, और|aur crude सत्तानवे_डॉलर_के_ऊपर।|$97_ke_upar."
+  },
+  {
+   "text": "धमाका_एक,|Dhamaka_1, तीस_नवंबर:|30_Nov: India का|ka Q2 GDP. उम्मीद:|Ummeed: सात_परसेंट_से_ऊपर।|7%_se_upar."
+  },
+  {
+   "text": "धमाका_दो:|Dhamaka_2: उसी_दिन|usi_din MSCI में|mein LIC, Coforge, Adani_Green और|aur Meesho की|ki entry."
+  },
+  {
+   "text": "[serious]| धमाका_तीन,|Dhamaka_3, चार_दिसंबर:|4_Dec: RBI policy. Repo पाँच_दशमलव_पाँच_परसेंट,|5.5%, और|aur SBI को|ko पच्चीस_basis_point|0.25% hike की_उम्मीद।|ki_ummeed."
+  },
+  {
+   "text": "धमाका_चार:|Dhamaka_4: उसी_शाम|usi_shaam अमेरिका_का|America_ka jobs report, और|aur नौ_दिसंबर_को|9_Dec_ko Fed का|ka फ़ैसला।|faisla."
+  },
+  {
+   "text": "[curious]| सबसे_बड़ा|Sabse_bada कौन?|kaun? एक,|1, दो,|2, तीन_या_चार?|3_ya_4? Comment करो,|karo, और|aur Finance_Junction follow_करो!|follow_karo!",
+   "min": 4.6
+  }
+ ]
+}

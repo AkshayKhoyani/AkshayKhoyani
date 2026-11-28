@@ -1,0 +1,19 @@
+{
+ "slug": "endowment-vs-term-insurance",
+ "sources": "Endowment IRR ~4-5% (PrimeInvestor, RupeeGuide analyses); term ₹1 cr cover ~₹8k-12k/saal at 30 (andaaza, insurer/health par depend). Educational only.",
+ "scenes": [
+  {"type": "hook", "tag": "INSURANCE", "tagColor": "red", "lines": [["Policy = Investment?", "text"], ["GALAT! ❌", "red2"]], "sub": "Return sirf ~4-5% 😬",
+   "voice": "आपकी|Aapki endowment policy|policy investment है?|hai? गलत!|GALAT! Return सिर्फ़|sirf चार_से_पाँच|4-5% परसेंट।|percent."},
+  {"type": "mythfact", "title": "Sach kya hai? 🤔", "myth": "Endowment = insurance + achha return", "fact": ["Return ~4-5% saalana (andaaza)", "Cover bhi chhota milta hai"],
+   "source": "PrimeInvestor, RupeeGuide (IRR analysis)",
+   "voice": "Endowment में|mein return करीब|kareeb चार_से_पाँच_परसेंट|4-5% saalana, और|aur cover भी|bhi छोटा।|chhota."},
+  {"type": "stat", "tag": "TERM PLAN 🛡️", "label": "₹1 crore cover, 30 saal umar", "value": 10000, "prefix": "~₹", "suffix": "/saal", "color": "green",
+   "note": "andaaza: ₹8k-12k, health par depend", "noteColor": "muted", "chips": ["Sirf protection", "Sabse sasta bada cover"],
+   "voice": "वहीं|Wahin term plan में,|mein, तीस_साल|30 saal की|ki umar पर|par एक_करोड़|₹1_crore का|ka cover करीब|kareeb दस_हज़ार|₹10,000 साल!|saal!"},
+  {"type": "list", "title": "Smart tarika ✅", "colors": ["green", "blue", "amber"], "icons": ["🛡️", "📈", "⚠️"],
+   "items": [["Term plan = suraksha", "Cover ~10-15x saalana income"], ["Bachat alag invest", "SIP / PPF / FD"], ["Purani policy?", "Band karne se pehle surrender value dekho"]],
+   "voice": "तो|Toh insurance के_लिए|ke_liye term, बचत|bachat अलग|alag invest करो।|karo. और|Aur पुरानी|purani policy बंद|band करने_से_पहले|karne_se_pehle surrender value देखो।|dekho."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aapke paas: Term = 1, Endowment = 2", "disclaimer": "Educational only. Apne advisor se baat karein.",
+   "voice": "आपके_पास|Aapke_paas term है_तो|hai_toh एक,|1, endowment तो|toh दो|2 comment करो।|karo. Finance_Junction follow_करो,|follow_karo, और|aur याद|yaad रखो:|rakho: policy investment नहीं!|nahi!"}
+ ]
+}

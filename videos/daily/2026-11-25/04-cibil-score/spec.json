@@ -1,0 +1,19 @@
+{
+ "slug": "cibil-score-750",
+ "sources": "Score range 300-900; 750+ ko zyadatar lenders achha maante hain (TransUnion CIBIL guidance via Piramal, Investkraft); RBI: har credit bureau se saal mein 1 free full report (CIBIL.com). Educational only.",
+ "scenes": [
+  {"type": "hook", "tag": "CIBIL", "tagColor": "blue", "lines": [["750+ CIBIL =", "text"], ["SASTA LOAN? 🤔", "gold"]], "sub": "Score 300 se 900 tak",
+   "voice": "सात_सौ_पचास|750 से_ऊपर|se_upar CIBIL, मतलब|matlab सस्ता|sasta loan? जानो|Jaano कैसे।|kaise."},
+  {"type": "stat", "tag": "SCORE", "label": "Zyadatar lenders ke liye achha", "value": 750, "suffix": "+", "color": "green",
+   "note": "Range: 300 se 900", "noteColor": "muted", "chips": ["Jaldi loan approval", "Kam byaaj ka chance"],
+   "voice": "CIBIL तीन_सौ|300 से|se नौ_सौ|900 तक|tak होता_है।|hota_hai. सात_सौ_पचास_से_ऊपर|750+ को|ko ज़्यादातर|zyadatar lenders अच्छा|achha मानते_हैं।|maante_hain."},
+  {"type": "list", "title": "Score kaise badhaye? 📈", "colors": ["green", "blue", "amber", "red"], "icons": ["⏰", "💳", "🔍", "🚫"],
+   "items": [["EMI / bill time par", "Ek bhi late nahi"], ["Card limit kam use", "Poori limit mat udao"], ["Kam loan enquiry", "Baar baar apply mat karo"], ["Purana card band nahi", "Lamba record achha"]],
+   "voice": "E_M_I|EMI समय_पर|time_par भरो,|bharo, card limit कम|kam use करो,|karo, बार_बार|baar_baar loan apply मत|mat करो,|karo, और|aur पुराना|purana card बंद|band मत|mat करो।|karo."},
+  {"type": "stat", "tag": "FREE 🎁", "label": "Har credit bureau se saal mein", "value": 1, "suffix": " FREE report", "color": "blue",
+   "note": "RBI ka niyam", "noteColor": "muted", "source": "RBI; CIBIL.com",
+   "voice": "और|Aur RBI के|ke नियम_से,|niyam_se, हर|har credit bureau से|se साल_में|saal_mein एक|ek report फ़्री!|free!"},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aapka score: 750+ = 1, kam = 2", "disclaimer": "Educational only.",
+   "voice": "आपका|Aapka score सात_सौ_पचास_से_ऊपर|750+ है_तो|hai_toh एक,|1, कम_तो|kam_toh दो|2 comment करो।|karo. Finance_Junction follow_करो!|follow_karo!"}
+ ]
+}

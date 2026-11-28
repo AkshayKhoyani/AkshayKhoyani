@@ -1,0 +1,13 @@
+{
+  "voice": "cgSgspJ2msm6clMCkdW9",
+  "speed": 1.12, "lead": 0.3, "gap": 0.35, "tail": 3.0,
+  "lines": [
+    {"text": "आप|Aap चाय|chai वाले|wale को|ko बीस_रुपये|₹20 UPI करते|karte हो,|ho, और|aur कुछ|kuch ही|hi seconds_में...|seconds_mein... डिंग!|Ding! पैसा|Paisa पहुँच|pahunch गया।|gaya.", "min": 5.5},
+    {"text": "पर|Par इस|is छोटे_से|chhote_se डिंग|'ding' के_पीछे,|ke_peeche, पूरा|poora एक|ek network काम|kaam करता|karta है।|hai. चलो|Chalo देखते_हैं!|dekhte_hain!"},
+    {"text": "सबसे_पहले,|Sabse_pehle, आपका|aapka UPI app payment request NPCI को|ko भेजता_है।|bhejta_hai. NPCI मतलब,|matlab, UPI का|ka central switch.", "min": 6.0},
+    {"text": "अब|Ab NPCI आपके|aapke bank से|se पूछता_है:|poochta_hai: PIN सही_है?|sahi_hai? Balance है?|hai? हाँ?|Haan? तो|Toh बीस_रुपये|₹20 debit!", "min": 6.0},
+    {"text": "फिर|Phir NPCI चाय_वाले_के|chai_wale_ke bank को|ko बोलता_है:|bolta_hai: बीस_रुपये|₹20 credit_करो!|credit_karo! और|Aur दोनों_को|dono_ko confirmation... डिंग!|ding!", "min": 6.5},
+    {"text": "और|Aur ये|ye सब,|sab, सिर्फ़|sirf October_दो_हज़ार_छब्बीस_में,|October_2026_mein, पच्चीस_दशमलव_सैंतालीस_billion|25.47_billion बार|baar हुआ!|hua! यानी|Yaani हर_दिन|har_din लगभग|lagbhag बयासी_करोड़|82_crore transactions!", "min": 7.0},
+    {"text": "Finance को|ko simple समझने_के_लिए,|samajhne_ke_liye, Finance_Junction को|ko follow_करो!|follow_karo!"}
+  ]
+}

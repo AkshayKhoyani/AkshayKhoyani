@@ -1,0 +1,11 @@
+{
+  "voice": "cgSgspJ2msm6clMCkdW9",
+  "speed": 1.15, "lead": 0.15, "gap": 0.2, "tail": 0.6,
+  "lines": [
+    {"text": "आपका|Aapka बीस_रुपये_का|₹20_ka UPI, seconds_में|seconds_mein कैसे|kaise पहुँचता_है?|pahunchta_hai? देखो!|Dekho!", "min": 3.6},
+    {"text": "App request भेजता_है|bhejta_hai NPCI को,|ko, यानी|yaani UPI का|ka central switch.", "min": 4.2},
+    {"text": "NPCI आपके_bank_से|aapke_bank_se PIN और|aur balance check करवाता_है,|karwata_hai, और|aur बीस_रुपये|₹20 debit!", "min": 4.6},
+    {"text": "फिर|Phir चाय_वाले_के|chai_wale_ke bank में|mein बीस_रुपये|₹20 credit... डिंग!|ding!", "min": 4.0},
+    {"text": "सिर्फ़|Sirf October_में,|October_mein, पच्चीस_दशमलव_सैंतालीस_billion|25.47_billion बार!|baar! Finance_Junction follow_करो,|follow_karo, और|aur अगली_बार|agli_baar सोचना...|sochna...", "min": 5.5}
+  ]
+}

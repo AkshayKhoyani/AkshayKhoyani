@@ -1,0 +1,17 @@
+{
+  "name": "fj-3d-engine",
+  "version": "1.0.0",
+  "description": "Finance Junction 3D explainer video engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fontsource/anton": "^5.3.0",
+    "@fontsource/kalam": "^5.3.0",
+    "three": "0.170.0"
+  }
+}

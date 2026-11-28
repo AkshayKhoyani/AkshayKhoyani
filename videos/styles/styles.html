@@ -1,0 +1,223 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>12 reel styles</title>
+<style>html,body{margin:0;background:#000}canvas{display:block}</style></head>
+<body><canvas id="c" width="1080" height="1920"></canvas>
+<script>
+// 12 reel style frames, SAME content: RBI policy 4 Dec 2026 + stock market.
+// Facts: repo 5.50% (Oct hike +25bps), CPI Oct 6.09%, Bank Nifty record ~62,000 (17 Nov),
+// 7 Oct reaction: Auto ~-1.4%, Realty ~-0.7%, Banks recovered; SBI expects +25bps; Fed 8-9 Dec.
+const W = 1080, H = 1920, c = document.getElementById('c'), x = c.getContext('2d');
+const F = (w, s, f = 'Inter') => `${w} ${s}px ${f}, "Noto Color Emoji", sans-serif`;
+const L = s => new Promise(r => { const i = new Image(); i.onload = () => r(i); i.src = s; });
+let IMG = {};
+function rr(X, Y, w, h, r) { r = Math.min(r, w / 2, h / 2); x.beginPath(); x.moveTo(X + r, Y); x.arcTo(X + w, Y, X + w, Y + h, r); x.arcTo(X + w, Y + h, X, Y + h, r); x.arcTo(X, Y + h, X, Y, r); x.arcTo(X, Y, X + w, Y, r); x.closePath(); }
+function T(s, X, Y, o = {}) {
+  const { size = 60, w = 800, c: col = '#fff', a = 'center', maxW = 1000, f = 'Inter', sh = 0, stroke = null, rot = 0, ls = 0 } = o;
+  x.save(); x.font = F(w, size, f); if (ls) x.letterSpacing = ls + 'px';
+  let k = 1; const mw = x.measureText(s).width; if (mw > maxW) k = maxW / mw;
+  x.translate(X, Y); x.rotate(rot); x.scale(k, k); x.textAlign = a; x.textBaseline = 'middle';
+  if (sh) { x.shadowColor = typeof sh === 'string' ? sh : 'rgba(0,0,0,0.6)'; x.shadowBlur = 30; }
+  if (stroke) { x.lineWidth = stroke[1]; x.strokeStyle = stroke[0]; x.strokeText(s, 0, 0); }
+  if (col) { x.fillStyle = col; x.fillText(s, 0, 0); }
+  x.restore();
+}
+function cover(img, dim = 0) { const s = Math.max(W / img.width, H / img.height); const w = img.width * s, h = img.height * s; x.drawImage(img, (W - w) / 2, (H - h) / 2, w, h); if (dim) { x.fillStyle = `rgba(0,0,0,${dim})`; x.fillRect(0, 0, W, H); } }
+function badge(dark = true) {
+  x.save(); rr(48, 56, 96, 96, 22); x.fillStyle = '#fff'; x.fill(); x.drawImage(IMG.logo, 250, 75, 755, 755, 58, 66, 76, 76); x.restore();
+  T('FINANCE JUNCTION', 166, 104, { size: 30, w: 900, a: 'left', c: dark ? '#f8fafc' : '#0b2545', ls: 2 });
+}
+function label(n, name) { // style tag at bottom
+  x.fillStyle = 'rgba(0,0,0,0.75)'; rr(40, 1790, 1000, 90, 20); x.fill();
+  T(`STYLE ${n}`, 80, 1835, { size: 34, w: 900, a: 'left', c: '#f4cf6a' });
+  T(name, 1040 - 30, 1835, { size: 38, w: 800, a: 'right', c: '#fff', maxW: 720 });
+}
+function chip(s, X, Y, bg, fg = '#0b1020', size = 38) {
+  x.font = F(800, size); const w = x.measureText(s).width + 56; rr(X - w / 2, Y - size * 0.85, w, size * 1.7, size * 0.85); x.fillStyle = bg; x.fill(); T(s, X, Y + 2, { size, w: 800, c: fg });
+}
+const S = {};
+// 1 ── Breaking News 3D Studio
+S[1] = () => {
+  cover(IMG.studio3d);
+  x.fillStyle = '#050b1c'; x.fillRect(0, 330, W, 1000);
+  const g = x.createLinearGradient(0, 330, 0, 1330); g.addColorStop(0, '#081634'); g.addColorStop(1, '#050b1c'); x.fillStyle = g; x.fillRect(0, 330, W, 1000);
+  x.strokeStyle = 'rgba(59,130,246,0.35)'; x.lineWidth = 2; for (let i = -10; i <= 10; i++) { x.beginPath(); x.moveTo(540 + i * 40, 1000); x.lineTo(540 + i * 220, 1330); x.stroke(); }
+  T('4 DEC 2026', 540, 460, { size: 110, w: 900 });
+  T('RBI KA FAISLA', 540, 590, { size: 120, w: 900, c: '#f4cf6a' });
+  x.save(); x.translate(540, 860); x.transform(1, -0.03, 0, 1, 0, 0); rr(-420, -170, 840, 340, 30); x.fillStyle = '#fff'; x.fill(); rr(-420, -170, 840, 90, 30); x.fillStyle = '#0b2545'; x.fill(); x.fillRect(-420, -110, 840, 30);
+  T('REPO RATE', 0, -122, { size: 44, w: 900 }); T('5.50% → ?', 0, 20, { size: 120, w: 900, c: '#0b2545' }); T('CPI 6.09% · seema se bahar', 0, 120, { size: 36, w: 700, c: '#475569' }); x.restore();
+  chip('🏦 Bank Nifty: record 62,000', 540, 1140, '#f4cf6a');
+  x.fillStyle = '#050b1c'; x.fillRect(0, 1330, W, 330);
+  rr(330, 1440, 420, 84, 18); x.fillStyle = 'rgba(15,18,28,0.92)'; x.fill(); T('RBI ka faisla 4 Dec...', 540, 1484, { size: 42, w: 700 });
+  chip('🔔 FOLLOW', 380, 1590, '#d4a62c'); chip('🔁 REPOST', 720, 1590, '#ffffff');
+  x.fillStyle = '#d4a62c'; x.fillRect(230, 1672, W - 230, 70); T('RBI 4 DEC · REPO 5.50% · CPI 6.09% · BANK NIFTY 62,000 · FED 9 DEC', 245, 1708, { size: 34, w: 800, a: 'left', c: '#0b1020', maxW: 2000 });
+  label(1, '3D Breaking News Studio');
+};
+// 2 ── Cinematic AI film
+S[2] = () => {
+  cover(IMG.cinematic, 0.15);
+  const g = x.createLinearGradient(0, 900, 0, H); g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(1, 'rgba(0,0,0,0.9)'); x.fillStyle = g; x.fillRect(0, 900, W, H - 900);
+  x.fillStyle = '#000'; x.fillRect(0, 0, W, 170); x.fillRect(0, 1750, W, 170);
+  badge();
+  x.fillStyle = '#d4a62c'; x.fillRect(440, 1250, 200, 3);
+  T('4 DECEMBER 2026', 540, 1320, { size: 46, w: 600, c: '#f4cf6a', ls: 14 });
+  T('Ek faisla.', 540, 1430, { size: 104, w: 300 });
+  T('Poora market.', 540, 1545, { size: 104, w: 800 });
+  T('RBI Monetary Policy · Repo 5.50%', 540, 1650, { size: 34, w: 500, c: 'rgba(255,255,255,0.8)', ls: 3 });
+  label(2, 'Cinematic AI Film');
+};
+// 3 ── Kinetic typography (minimal premium)
+S[3] = () => {
+  x.fillStyle = '#0d0d0f'; x.fillRect(0, 0, W, H);
+  x.strokeStyle = 'rgba(255,255,255,0.05)'; for (let i = 0; i < W; i += 60) { x.beginPath(); x.moveTo(i, 0); x.lineTo(i, H); x.stroke(); }
+  badge();
+  T('4.12', 60, 420, { size: 230, w: 900, a: 'left', c: null, stroke: ['#f4cf6a', 4] });
+  T('RBI', 60, 720, { size: 380, w: 900, a: 'left', c: '#ffffff' });
+  T('vs', 70, 930, { size: 120, w: 300, a: 'left', c: '#777' });
+  T('BANK', 60, 1110, { size: 230, w: 900, a: 'left', c: '#f4cf6a' });
+  T('NIFTY', 60, 1310, { size: 230, w: 900, a: 'left', c: null, stroke: ['#ffffff', 4] });
+  T('62,000 ↗', 1020, 1500, { size: 90, w: 800, a: 'right', c: '#22c55e' });
+  x.fillStyle = '#f4cf6a'; x.fillRect(60, 1600, 960, 6);
+  label(3, 'Kinetic Typography (minimal)');
+};
+// 4 ── Glass dashboard (fintech app)
+S[4] = () => {
+  x.fillStyle = '#0b1026'; x.fillRect(0, 0, W, H);
+  [[200, 400, '#6d28d9'], [900, 700, '#0ea5e9'], [400, 1400, '#d4a62c'], [950, 1600, '#db2777']].forEach(([a, b, col]) => { const g = x.createRadialGradient(a, b, 0, a, b, 600); g.addColorStop(0, col + 'aa'); g.addColorStop(1, 'rgba(0,0,0,0)'); x.fillStyle = g; x.fillRect(0, 0, W, H); });
+  badge();
+  const glass = (X, Y, w, h) => { x.save(); rr(X, Y, w, h, 40); x.fillStyle = 'rgba(255,255,255,0.12)'; x.fill(); x.strokeStyle = 'rgba(255,255,255,0.35)'; x.lineWidth = 2; x.stroke(); x.restore(); };
+  T('RBI Policy Tracker', 80, 260, { size: 64, w: 800, a: 'left' }); T('4 Dec 2026 · 10:00 AM', 80, 330, { size: 36, w: 500, a: 'left', c: 'rgba(255,255,255,0.75)' });
+  glass(70, 400, 455, 300); T('Repo rate', 110, 470, { size: 34, w: 600, a: 'left', c: 'rgba(255,255,255,0.8)' }); T('5.50%', 110, 580, { size: 96, w: 800, a: 'left' }); T('+0.25 (Oct)', 110, 660, { size: 32, w: 600, a: 'left', c: '#fca5a5' });
+  glass(555, 400, 455, 300); T('CPI (Oct)', 595, 470, { size: 34, w: 600, a: 'left', c: 'rgba(255,255,255,0.8)' }); T('6.09%', 595, 580, { size: 96, w: 800, a: 'left', c: '#fca5a5' }); T('> 6% band', 595, 660, { size: 32, w: 600, a: 'left', c: '#fca5a5' });
+  glass(70, 730, 940, 430); T('Bank Nifty', 110, 800, { size: 38, w: 600, a: 'left', c: 'rgba(255,255,255,0.8)' }); T('62,000+', 110, 900, { size: 100, w: 800, a: 'left' }); T('Record high · 17 Nov', 980, 810, { size: 30, w: 600, a: 'right', c: '#86efac' });
+  x.strokeStyle = '#86efac'; x.lineWidth = 8; x.beginPath(); [0, 0.1, 0.05, 0.25, 0.2, 0.45, 0.4, 0.7, 0.65, 0.95].forEach((v, i) => { const X = 110 + i * 95, Y = 1120 - v * 150; i ? x.lineTo(X, Y) : x.moveTo(X, Y); }); x.stroke();
+  glass(70, 1190, 940, 300); T('Faisle mein', 110, 1260, { size: 36, w: 600, a: 'left', c: 'rgba(255,255,255,0.8)' });
+  [['11', 'DIN'], ['04', 'GHANTE'], ['32', 'MIN']].forEach(([n, l], i) => { T(n, 230 + i * 310, 1380, { size: 110, w: 800 }); T(l, 230 + i * 310, 1455, { size: 28, w: 700, c: 'rgba(255,255,255,0.7)', ls: 4 }); });
+  label(4, 'Glass Dashboard (fintech app)');
+};
+// 5 ── Trading terminal
+S[5] = () => {
+  x.fillStyle = '#04060a'; x.fillRect(0, 0, W, H); badge();
+  const M = '"JetBrains Mono"';
+  const panel = (X, Y, w, h, t, col = '#22c55e') => { x.strokeStyle = col; x.lineWidth = 2; x.strokeRect(X, Y, w, h); x.fillStyle = col; x.fillRect(X, Y, w, 40); T(t, X + 14, Y + 21, { size: 24, w: 700, f: M, a: 'left', c: '#04060a' }); };
+  panel(50, 200, 980, 300, 'RBI/MPC  02-04 DEC 2026  // EVENT RISK: HIGH', '#ef4444');
+  T('> REPO   5.50%  → ??', 90, 300, { size: 54, w: 700, f: M, a: 'left', c: '#fca5a5' }); T('> CPI    6.09%  [> BAND]', 90, 380, { size: 54, w: 700, f: M, a: 'left', c: '#fde68a' }); T('> SBI    +25 bps (est.)', 90, 455, { size: 54, w: 700, f: M, a: 'left', c: '#a7f3d0' });
+  panel(50, 540, 980, 520, 'LAST HIKE  07-OCT-2026  // SECTOR REACTION');
+  [['NIFTY AUTO', -1.4, '#ef4444'], ['NIFTY REALTY', -0.7, '#ef4444'], ['BANKS (recovered)', 0.2, '#22c55e']].forEach(([n, v, col], i) => {
+    const Y = 650 + i * 140; T(n, 90, Y, { size: 40, w: 700, f: M, a: 'left', c: '#e5e7eb' });
+    x.fillStyle = col; const w = Math.abs(v) * 260; x.fillRect(v < 0 ? 760 - w : 760, Y + 30, w, 40);
+    T((v > 0 ? '+' : '') + v + '%', 990, Y, { size: 40, w: 700, f: M, a: 'right', c: col });
+  });
+  T('[ approx, multiple reports ]', 540, 1030, { size: 24, w: 500, f: M, c: 'rgba(255,255,255,0.4)' });
+  panel(50, 1100, 980, 300, 'WATCH  // BANKNIFTY', '#f59e0b');
+  T('62,000', 540, 1250, { size: 140, w: 800, f: M, c: '#22c55e' }); T('ALL-TIME HIGH', 540, 1350, { size: 36, w: 700, f: M, c: '#fde68a' });
+  label(5, 'Trading Terminal (pro traders)');
+};
+// 6 ── Editorial newspaper
+S[6] = () => {
+  x.fillStyle = '#f3ecdc'; x.fillRect(0, 0, W, H);
+  for (let i = 0; i < 4000; i++) { x.fillStyle = `rgba(0,0,0,${Math.random() * 0.04})`; x.fillRect(Math.random() * W, Math.random() * H, 2, 2); }
+  badge(false);
+  T('The Finance Junction Times', 540, 250, { size: 64, w: 900, f: 'Caladea', c: '#111' });
+  x.fillStyle = '#111'; x.fillRect(60, 300, 960, 4); x.fillRect(60, 312, 960, 1);
+  T('MONDAY, 23 NOVEMBER 2026 · MARKETS', 540, 345, { size: 26, w: 700, c: '#333', ls: 3 });
+  T('RBI phir', 540, 480, { size: 140, w: 900, f: 'Caladea', c: '#111' });
+  T('rate badhayega?', 540, 620, { size: 120, w: 900, f: 'Caladea', c: '#111' });
+  T('Record high par Bank Nifty, 6.09% inflation, aur 4 December ka faisla', 540, 720, { size: 36, w: 600, f: 'Caladea', c: '#333', maxW: 940 });
+  // halftone image block
+  x.fillStyle = '#ddd2bb'; x.fillRect(60, 790, 600, 560);
+  for (let yy = 800; yy < 1340; yy += 14) for (let xx = 70; xx < 650; xx += 14) { const d = Math.max(0, 1 - Math.hypot(xx - 360, yy - 1060) / 420); x.fillStyle = '#111'; x.beginPath(); x.arc(xx, yy, 1 + d * 5, 0, 7); x.fill(); }
+  for (let i = 0; i < 18; i++) { x.fillStyle = '#9a917f'; x.fillRect(690, 800 + i * 30, 330 - (i % 4) * 30, 12); }
+  T('Pichli baar: Auto -1.4%, Realty -0.7%', 60, 1400, { size: 34, w: 700, f: 'Caladea', a: 'left', c: '#111' });
+  for (let i = 0; i < 6; i++) { x.fillStyle = '#9a917f'; x.fillRect(60, 1450 + i * 30, 960 - (i % 3) * 120, 12); }
+  x.save(); x.translate(820, 1180); x.rotate(-0.2); x.strokeStyle = '#b91c1c'; x.lineWidth = 8; rr(-150, -60, 300, 120, 16); x.stroke(); T('4 DEC', 0, 4, { size: 70, w: 900, c: '#b91c1c' }); x.restore();
+  label(6, 'Editorial Newspaper');
+};
+// 7 ── Neon synthwave chart
+S[7] = () => {
+  const g = x.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#12002b'); g.addColorStop(1, '#000'); x.fillStyle = g; x.fillRect(0, 0, W, H);
+  x.strokeStyle = 'rgba(236,72,153,0.35)'; x.lineWidth = 2; for (let i = -12; i <= 12; i++) { x.beginPath(); x.moveTo(540 + i * 30, 1250); x.lineTo(540 + i * 220, H); x.stroke(); } for (let k = 0; k < 12; k++) { const y = 1250 + Math.pow(k / 11, 1.8) * 670; x.beginPath(); x.moveTo(0, y); x.lineTo(W, y); x.stroke(); }
+  const sun = x.createLinearGradient(0, 900, 0, 1250); sun.addColorStop(0, '#f472b6'); sun.addColorStop(1, '#f59e0b'); x.fillStyle = sun; x.beginPath(); x.arc(540, 1250, 300, Math.PI, 0); x.fill();
+  badge();
+  T('BANK NIFTY', 540, 330, { size: 90, w: 900, c: '#67e8f9', sh: '#22d3ee' });
+  T('62,000', 540, 500, { size: 210, w: 900, c: '#fff', sh: '#ec4899' });
+  x.save(); x.shadowColor = '#22d3ee'; x.shadowBlur = 30; x.strokeStyle = '#67e8f9'; x.lineWidth = 10; x.beginPath(); [0.1, 0.18, 0.15, 0.3, 0.26, 0.45, 0.4, 0.62, 0.58, 0.85].forEach((v, i) => { const X = 80 + i * 102, Y = 1150 - v * 450; i ? x.lineTo(X, Y) : x.moveTo(X, Y); }); x.stroke(); x.restore();
+  T('vs RBI · 4 DEC', 540, 1500, { size: 100, w: 900, c: '#fff', sh: '#ec4899' });
+  T('Record vs Rate hike?', 540, 1620, { size: 54, w: 700, c: '#f9a8d4' });
+  label(7, 'Neon Synthwave');
+};
+// 8 ── Whiteboard sketch
+S[8] = () => {
+  x.fillStyle = '#fbfbf8'; x.fillRect(0, 0, W, H); badge(false);
+  const wob = (pts, col, w = 7) => { x.strokeStyle = col; x.lineWidth = w; x.lineCap = 'round'; x.beginPath(); pts.forEach(([a, b], i) => { const j = () => (Math.random() - 0.5) * 4; i ? x.lineTo(a + j(), b + j()) : x.moveTo(a, b); }); x.stroke(); };
+  const box = (X, Y, w, h, col) => wob([[X, Y], [X + w, Y], [X + w, Y + h], [X, Y + h], [X, Y]], col);
+  T('RBI ka faisla = Market ka mood', 540, 260, { size: 60, w: 800, c: '#1d4ed8', rot: -0.02 });
+  box(330, 360, 420, 180, '#111'); T('Repo ↑ ?', 540, 455, { size: 80, w: 900, c: '#111' });
+  wob([[540, 560], [540, 700]], '#111'); wob([[515, 670], [540, 700], [565, 670]], '#111');
+  box(250, 720, 580, 170, '#dc2626'); T('Loan mehenge 💸', 540, 810, { size: 66, w: 800, c: '#dc2626' });
+  wob([[400, 910], [250, 1080]], '#111'); wob([[680, 910], [830, 1080]], '#111');
+  box(60, 1100, 420, 260, '#dc2626'); T('🚗 Auto', 270, 1190, { size: 64, w: 800, c: '#111' }); T('🏠 Realty', 270, 1290, { size: 64, w: 800, c: '#111' });
+  box(600, 1100, 420, 260, '#16a34a'); T('🏦 Banks', 810, 1190, { size: 64, w: 800, c: '#111' }); T('(Oct: recover)', 810, 1290, { size: 44, w: 700, c: '#16a34a' });
+  T('Oct: neeche ↓', 270, 1420, { size: 44, w: 700, c: '#dc2626' });
+  T('4 Dec ko kya hoga? 🤔', 540, 1580, { size: 70, w: 800, c: '#1d4ed8', rot: 0.02 });
+  label(8, 'Whiteboard Sketch Explainer');
+};
+// 9 ── Chat story
+S[9] = () => {
+  x.fillStyle = '#0b141a'; x.fillRect(0, 0, W, H);
+  x.fillStyle = '#1f2c34'; x.fillRect(0, 0, W, 230); badge();
+  x.fillStyle = '#d4a62c'; x.beginPath(); x.arc(110, 190, 0, 0, 7); x.fill();
+  T('Market Wale Dost 📈', 540, 190, { size: 44, w: 800 });
+  const msg = (s, me, Y, t) => { x.font = F(600, 42); const w = Math.min(x.measureText(s).width + 70, 860); const X = me ? 1020 - w : 60; rr(X, Y, w, 100, 28); x.fillStyle = me ? '#005c4b' : '#1f2c34'; x.fill(); T(s, X + 35, Y + 50, { size: 42, w: 600, a: 'left', maxW: 790 }); T(t, X + w - 20, Y + 84, { size: 22, w: 500, a: 'right', c: 'rgba(255,255,255,0.5)' }); };
+  msg('Bhai 4 Dec ko RBI kya karega? 😰', false, 320, '9:41');
+  msg('SBI kehta hai +0.25% 👀', true, 450, '9:42');
+  msg('Inflation 6.09%... seema se bahar 😬', false, 580, '9:42');
+  msg('Aur Bank Nifty record 62,000 pe 🚀', true, 710, '9:43');
+  msg('Pichli baar Auto, Realty gire the 📉', false, 840, '9:43');
+  msg('To is baar kya karein?? 🤯', false, 970, '9:44');
+  rr(60, 1100, 160, 90, 28); x.fillStyle = '#1f2c34'; x.fill(); [0, 1, 2].forEach(i => { x.fillStyle = '#8696a0'; x.beginPath(); x.arc(105 + i * 35, 1145, 10, 0, 7); x.fill(); });
+  chip('🔔 Follow for answer', 540, 1450, '#f4cf6a');
+  label(9, 'Chat Story (viral format)');
+};
+// 10 ── Mascot presenter
+S[10] = () => {
+  const g = x.createLinearGradient(0, 0, 0, H); g.addColorStop(0, '#0b2545'); g.addColorStop(1, '#050b1c'); x.fillStyle = g; x.fillRect(0, 0, W, H);
+  const m = IMG.mascot, s = 1300 / m.height; x.drawImage(m, 380, 520, m.width * s, 1300);
+  badge();
+  x.save(); rr(50, 260, 760, 330, 40); x.fillStyle = '#fff'; x.fill(); x.beginPath(); x.moveTo(620, 580); x.lineTo(720, 690); x.lineTo(700, 570); x.fill(); x.restore();
+  T('"4 December ko RBI', 430, 360, { size: 54, w: 900, c: '#0b2545', maxW: 700 });
+  T('ka faisla hai! Bank Nifty', 430, 440, { size: 54, w: 900, c: '#0b2545', maxW: 700 });
+  T('record pe... dhyan do! 👀"', 430, 520, { size: 54, w: 900, c: '#0b2545', maxW: 700 });
+  rr(50, 720, 400, 520, 30); x.fillStyle = 'rgba(255,255,255,0.1)'; x.fill(); x.strokeStyle = '#f4cf6a'; x.lineWidth = 3; x.stroke();
+  T('Repo', 250, 800, { size: 44, w: 700, c: '#cbd5e1' }); T('5.50%', 250, 890, { size: 96, w: 900 }); T('CPI', 250, 1010, { size: 44, w: 700, c: '#cbd5e1' }); T('6.09%', 250, 1100, { size: 96, w: 900, c: '#fca5a5' });
+  T('"Paisa Guru"', 760, 1730, { size: 44, w: 800, c: '#f4cf6a' });
+  label(10, 'Mascot Presenter (AI character)');
+};
+// 11 ── 3D isometric world
+S[11] = () => {
+  cover(IMG.iso3d);
+  x.fillStyle = 'rgba(5,11,28,0.25)'; x.fillRect(0, 0, W, H);
+  x.save(); rr(80, 300, 920, 200, 30); x.fillStyle = 'rgba(251,250,247,0.95)'; x.fill(); x.restore();
+  T('RBI · 4 DEC 2026', 540, 360, { size: 70, w: 900, c: '#0b2545' }); T('Repo 5.50% → ?', 540, 450, { size: 54, w: 800, c: '#b91c1c' });
+  x.fillStyle = 'rgba(5,11,28,0.92)'; x.fillRect(0, 1270, W, 500);
+  rr(60, 1300, 520, 96, 16); x.fillStyle = 'rgba(31,35,43,0.95)'; x.fill(); x.fillStyle = '#ef4444'; x.fillRect(82, 1322, 9, 52); T('5.50% → ?', 110, 1350, { size: 50, w: 700, a: 'left' }); T('repo', 560, 1350, { size: 28, w: 500, a: 'right', c: '#8b9099' });
+  rr(260, 1440, 560, 84, 16); x.fillStyle = 'rgba(31,35,43,0.95)'; x.fill(); T('Bank Nifty record par...', 540, 1484, { size: 42, w: 600 });
+  label(11, '3D World Explainer (camera fly-through)');
+};
+// 12 ── Split "Then vs Now"
+S[12] = () => {
+  x.fillStyle = '#0b1220'; x.fillRect(0, 0, W, 960); x.fillStyle = '#f8fafc'; x.fillRect(0, 960, W, 960); badge();
+  T('PICHLI BAAR · 7 OCT', 540, 260, { size: 56, w: 900, c: '#94a3b8', ls: 2 }); T('+0.25% hike', 540, 360, { size: 90, w: 900 });
+  [['Auto', -1.4], ['Realty', -0.7], ['Banks', 0.2]].forEach(([n, v], i) => { const X = 220 + i * 320, h = Math.abs(v) * 220; T(n, X, 880, { size: 44, w: 800, c: '#e2e8f0' }); x.fillStyle = v < 0 ? '#ef4444' : '#22c55e'; x.fillRect(X - 70, 820 - h, 140, h); T((v > 0 ? '+' : '') + v + '%', X, 800 - h - 30, { size: 44, w: 900, c: v < 0 ? '#fca5a5' : '#86efac' }); });
+  x.save(); x.translate(540, 960); x.rotate(-0.05); rr(-110, -70, 220, 140, 70); x.fillStyle = '#f4cf6a'; x.fill(); T('VS', 0, 4, { size: 80, w: 900, c: '#0b1020' }); x.restore();
+  T('AB · 4 DEC', 540, 1110, { size: 56, w: 900, c: '#64748b', ls: 2 }); T('Kya hoga?', 540, 1210, { size: 100, w: 900, c: '#0b1020' });
+  ['Auto', 'Realty', 'Banks'].forEach((n, i) => { const X = 220 + i * 320; x.strokeStyle = '#94a3b8'; x.setLineDash([12, 10]); x.lineWidth = 4; x.strokeRect(X - 70, 1330, 140, 260); x.setLineDash([]); T('?', X, 1460, { size: 110, w: 900, c: '#94a3b8' }); T(n, X, 1650, { size: 44, w: 800, c: '#0b1020' }); });
+  label(12, 'Then vs Now (split compare)');
+};
+window.draw = n => { x.setTransform(1, 0, 0, 1, 0, 0); x.clearRect(0, 0, W, H); S[n](); };
+window.ready = (async () => {
+  const [logo, cinematic, mascot, iso3d, studio3d] = await Promise.all(['../brand/logo-transparent.png', 'img/cinematic.png', 'img/mascot.png', 'img/iso3d.png', 'img/studio3d.png'].map(L));
+  IMG = { logo, cinematic, mascot, iso3d, studio3d };
+  await Promise.all(['900', '800', '700', '600', '500', '300'].map(w => document.fonts.load(`${w} 40px Inter`)));
+  await document.fonts.load('700 40px "JetBrains Mono"'); await document.fonts.load('900 40px Caladea'); await document.fonts.load('40px "Noto Color Emoji"', '📈🚗🏠🏦');
+})();
+</script></body></html>

@@ -1,0 +1,1 @@
+NPCI आपके bank से PIN और balance check करवाता है, और बीस रुपये debit!

@@ -1,0 +1,16 @@
+{
+  "voice": "7b9mYhmnp0y2qSH1FnBL",
+  "model": "eleven_v4",
+  "voice_settings": {"stability": 0.5, "similarity_boost": 0.8},
+  "speed": 1.13, "lead": 0.1, "gap": 0.15, "tail": 0.6,
+  "lines": [
+    {"text": "[shocked]| एक_दिन_में...|Ek_din_mein... पाँच_दशमलव_चौबीस_लाख_करोड़|₹5.24_lakh_crore साफ़!|SAAF! [dramatic]| तेईस_नवंबर_को|23_November_ko market इतना|itna क्यों|kyun गिरा?|gira?", "min": 4.8},
+    {"text": "[serious]| Sensex चौदह_सौ_चौरासी|1,484 points गिरा,|gira, Nifty पच्चीस_हज़ार_तीन_सौ_पचास|25,350 पर|par बंद।|band. Bank_Nifty सबसे_ज़्यादा,|sabse_zyada, तीन_परसेंट_से_ऊपर।|3%_se_upar."},
+    {"text": "[serious]| पहली_वजह:|Pehli_wajah: अमेरिका_में|America_mein AI stocks का|ka crash. Nasdaq पाँच_परसेंट|5% गिरा,|gira, Nvidia चौदह_परसेंट,|14%, और|aur आज|aaj Korea का|ka market भी|bhi पाँच_परसेंट_तक|5%_tak टूटा।|toota.", "min": 7.0},
+    {"text": "दूसरी:|Doosri: November में|mein Nifty दस_परसेंट|10% चढ़ा_था।|chadha_tha. [sighs]| लोग|Log मुनाफ़ा|munafa निकाल|nikaal रहे_हैं।|rahe_hain."},
+    {"text": "[concerned]| तीसरी:|Teesri: banks और|aur metal. Tata_Steel आठ_परसेंट|8% और|aur APL_Apollo इक्कीस_परसेंट|21% गिरे,|gire, दोनों_के|dono_ke बड़े|bade deal के_बाद।|ke_baad.", "min": 6.0},
+    {"text": "[curious]| पर|Par IT stocks... उल्टा|ulta चढ़े!|chadhe!"},
+    {"text": "अब|Ab नज़र:|nazar: पच्चीस_नवंबर_का|25_November_ka US data, और|aur चार_दिसंबर_की|4_December_ki RBI policy."},
+    {"text": "[calm]| घबराओ_मत,|Ghabrao_mat, समझो।|samjho. Comment करो,|karo, आपका|aapka portfolio कितना|kitna गिरा?|gira? Finance_Junction follow_करो!|follow_karo!", "min": 5.0}
+  ]
+}

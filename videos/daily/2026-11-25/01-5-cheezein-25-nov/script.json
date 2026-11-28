@@ -1,0 +1,40 @@
+{
+  "voice": "7b9mYhmnp0y2qSH1FnBL",
+  "model": "eleven_v4",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8
+  },
+  "speed": 1.24,
+  "lead": 0.1,
+  "gap": 0.15,
+  "tail": 0.6,
+  "lines": [
+    {
+      "text": "[dramatic]| पच्चीस_नवंबर:|25_November: दो_दिन_की|do_din_ki ख़बर|khabar एक_साथ!|ek_saath! पाँच|5 चीज़ें,|cheezein, नंबर_वन|number_1 सबसे_बड़ी।|sabse_badi.",
+      "min": 3.6
+    },
+    {
+      "text": "पाँच:|Paanch: Coforge, LIC, Adani_Green, Meesho, MSCI में।|mein. करीब|Kareeb दो_बिलियन_डॉलर|$2_billion का|ka अंदाज़ा।|andaaza."
+    },
+    {
+      "text": "चार:|Chaar: नज़र|Nazar रखो|rakho IT, banks, और|aur Tata_Steel पर।|par.",
+      "min": 3.4
+    },
+    {
+      "text": "[excited]| तीन:|Teen: Nvidia इकतीस|31% उड़ा,|uda, Nasdaq साढ़े_छह,|6.5%, Taiwan नौ_परसेंट!|9%!"
+    },
+    {
+      "text": "[concerned]| दो:|Do: पर|par चौबीस_नवंबर|24_November को|ko US futures फिर|phir फिसले।|fisle.",
+      "min": 3.4
+    },
+    {
+      "text": "[serious]| नंबर_वन:|Number_1: पच्चीस_नवंबर|25_Nov शाम_सात_बजे|shaam_7_baje US inflation data. ज़्यादा_आया,|Zyada_aaya, तो|toh rate hike पक्का।|pakka.",
+      "min": 4.6
+    },
+    {
+      "text": "Nifty हरा|hara या|ya लाल?|laal? हरा_एक,|Hara_1, लाल_दो|laal_2 comment करो,|karo, और|aur Finance_Junction follow_करो!|follow_karo!",
+      "min": 3.4
+    }
+  ]
+}

@@ -1,0 +1,350 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SIP Compounding Short</title>
+<style>html,body{margin:0;background:#0a0f1f}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/brand.js"></script>
+<script>
+// ---------- Config ----------
+const W = 1080, H = 1920;
+let DUR = 36;
+const C = {
+  green: '#22c55e', green2: '#4ade80', amber: '#f59e0b', text: '#f8fafc',
+  muted: '#94a3b8', card: 'rgba(255,255,255,0.06)', stroke: 'rgba(255,255,255,0.12)'
+};
+const P = 5000;              // monthly SIP
+const ANNUAL = 0.12;         // assumed annual return
+const r = ANNUAL / 12;
+const fv = m => m <= 0 ? 0 : P * ((Math.pow(1 + r, m) - 1) / r) * (1 + r);
+const FINAL = fv(240), INV = P * 240, GAIN = FINAL - INV;
+const V10 = fv(120), NEXT10 = FINAL - V10;
+
+const ctx = document.getElementById('c').getContext('2d');
+
+// ---------- Helpers ----------
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const easeOut = x => 1 - Math.pow(1 - x, 3);
+const easeInOut = x => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const easeBack = x => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+const inr = x => '₹' + Math.round(x).toLocaleString('en-IN');
+const lakh = x => '₹' + (x / 1e5).toFixed(1).replace(/\.0$/, '') + ' Lakh';
+
+// scene visibility with fade in/out
+function sceneA(t, a, b, f = 0.35) {
+  if (t < a || t > b) return 0;
+  return Math.min(clamp((t - a) / f), clamp((b - t) / f));
+}
+
+function txt(s, x, y, o = {}) {
+  const { size = 60, weight = 700, color = C.text, align = 'center', alpha = 1, scale = 1, dy = 0 } = o;
+  if (alpha <= 0) return;
+  ctx.save();
+  ctx.globalAlpha *= alpha;
+  ctx.translate(x, y + dy);
+  ctx.scale(scale, scale);
+  ctx.font = `${weight} ${size}px Inter, "Noto Color Emoji", sans-serif`;
+  ctx.textAlign = align;
+  ctx.textBaseline = 'alphabetic';
+  ctx.fillStyle = color;
+  ctx.fillText(s, 0, 0);
+  ctx.restore();
+}
+
+// text that fades + slides up starting at time `at`
+function pop(t, at, s, x, y, o = {}) {
+  const p = easeOut(prog(t, at, at + 0.45));
+  txt(s, x, y, { ...o, alpha: p * (o.alpha ?? 1), dy: (1 - p) * 40 });
+}
+
+function rrect(x, y, w, h, rad) {
+  ctx.beginPath();
+  ctx.moveTo(x + rad, y);
+  ctx.arcTo(x + w, y, x + w, y + h, rad);
+  ctx.arcTo(x + w, y + h, x, y + h, rad);
+  ctx.arcTo(x, y + h, x, y, rad);
+  ctx.arcTo(x, y, x + w, y, rad);
+  ctx.closePath();
+}
+
+function card(x, y, w, h, alpha = 1, accent) {
+  ctx.save();
+  ctx.globalAlpha *= alpha;
+  rrect(x, y, w, h, 32);
+  ctx.fillStyle = C.card; ctx.fill();
+  ctx.strokeStyle = C.stroke; ctx.lineWidth = 2; ctx.stroke();
+  if (accent) { rrect(x, y, 12, h, 6); ctx.fillStyle = accent; ctx.fill(); }
+  ctx.restore();
+}
+
+// ---------- Background ----------
+function background(t) {
+  const g = ctx.createLinearGradient(0, 0, 0, H);
+  g.addColorStop(0, '#0a0f1f'); g.addColorStop(1, '#111a33');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  // soft moving glows
+  const glow = (cx, cy, rad, col) => {
+    const rg = ctx.createRadialGradient(cx, cy, 0, cx, cy, rad);
+    rg.addColorStop(0, col); rg.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = rg; ctx.fillRect(0, 0, W, H);
+  };
+  glow(540 + Math.sin(t * 0.4) * 260, 520 + Math.cos(t * 0.3) * 120, 700, 'rgba(34,197,94,0.13)');
+  glow(540 + Math.cos(t * 0.35) * 300, 1500 + Math.sin(t * 0.25) * 140, 650, 'rgba(245,158,11,0.08)');
+  // subtle grid
+  ctx.strokeStyle = 'rgba(255,255,255,0.03)'; ctx.lineWidth = 1;
+  const off = (t * 12) % 90;
+  for (let y = -90 + off; y < H; y += 90) { ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke(); }
+  for (let x = 0; x < W; x += 90) { ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, H); ctx.stroke(); }
+}
+
+// ---------- Scenes ----------
+function scene1(t) { // Hook 0 – 4.5
+  const a = sceneA(t, 0, 4.5, 0.2);
+  if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  pop(t, 0.1, 'Sirf', 540, 660, { size: 64, weight: 600, color: C.muted });
+  const s = easeBack(prog(t, 0.35, 0.9));
+  txt('₹5,000', 540, 880, { size: 230, weight: 900, color: C.green, scale: s, alpha: clamp(s) });
+  pop(t, 0.9, 'har mahine invest karo...', 540, 990, { size: 64, weight: 600 });
+  pop(t, 2.0, '20 saal mein', 540, 1200, { size: 96, weight: 800 });
+  pop(t, 2.4, 'kitne banenge? 🤔', 540, 1310, { size: 96, weight: 800, color: C.amber });
+  ctx.restore();
+}
+
+function scene2(t) { // Setup 4.5 – 9
+  const a = sceneA(t, 4.5, 9);
+  if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  pop(t, 4.6, 'Calculation simple hai 👇', 540, 500, { size: 64, weight: 700 });
+  const rows = [
+    ['Monthly SIP', '₹5,000', C.green, 5.0],
+    ['Return (saalana)', '~12%', C.amber, 5.5],
+    ['Time', '20 saal', '#60a5fa', 6.0],
+  ];
+  rows.forEach(([label, val, col, at], i) => {
+    const p = easeOut(prog(t, at, at + 0.5));
+    const y = 620 + i * 250, x = 110 + (1 - p) * 300;
+    ctx.save(); ctx.globalAlpha *= p;
+    card(x, y, 860, 210, 1, col);
+    txt(label, x + 70, y + 125, { size: 46, weight: 600, color: C.muted, align: 'left' });
+    txt(val, x + 800, y + 135, { size: 84, weight: 900, color: col, align: 'right' });
+    ctx.restore();
+  });
+  pop(t, 7.0, '*12% = equity mutual funds ka long-term andaaza.', 540, 1460, { size: 32, weight: 500, color: C.muted });
+  pop(t, 7.0, 'Guaranteed nahi hai.', 540, 1505, { size: 32, weight: 500, color: C.muted });
+  ctx.restore();
+}
+
+function scene3(t) { // Growth chart 9 – 22
+  const a = sceneA(t, 9, 22);
+  if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+
+  const p = easeInOut(prog(t, 9.8, 20.0));
+  const m = p * 240;
+  const year = Math.max(0, Math.ceil(m / 12 - 1e-6));
+
+  pop(t, 9.0, 'Ab dekho magic 📈', 540, 300, { size: 66, weight: 800 });
+  txt(`Saal ${year} / 20`, 540, 410, { size: 46, weight: 600, color: C.muted, alpha: prog(t, 9.4, 9.8) });
+  txt(inr(fv(Math.round(m))), 540, 555, { size: 124, weight: 900, color: C.green, alpha: prog(t, 9.4, 9.8) });
+  txt(`Aapne lagaya: ${inr(P * Math.round(m))}`, 540, 640, { size: 44, weight: 600, color: C.amber, alpha: prog(t, 9.4, 9.8) });
+
+  // chart frame
+  const x0 = 110, x1 = 990, y0 = 1460, y1 = 760;
+  const yMax = 55e5;
+  const X = mm => x0 + (mm / 240) * (x1 - x0);
+  const Y = v => y0 - (v / yMax) * (y0 - y1);
+  const ca = prog(t, 9.2, 9.8);
+  ctx.save(); ctx.globalAlpha *= ca;
+  ctx.strokeStyle = 'rgba(255,255,255,0.08)'; ctx.lineWidth = 2;
+  for (let v = 10e5; v <= 50e5; v += 10e5) {
+    ctx.beginPath(); ctx.moveTo(x0, Y(v)); ctx.lineTo(x1, Y(v)); ctx.stroke();
+    txt(`${v / 1e5}L`, x0 + 6, Y(v) - 12, { size: 28, weight: 600, color: 'rgba(148,163,184,0.8)', align: 'left' });
+  }
+  ctx.strokeStyle = 'rgba(255,255,255,0.35)'; ctx.lineWidth = 3;
+  ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x1, y0); ctx.stroke();
+  [0, 5, 10, 15, 20].forEach(yr => txt(`${yr}`, X(yr * 12), y0 + 50, { size: 32, weight: 600, color: C.muted }));
+  txt('saal', 540, y0 + 100, { size: 30, weight: 500, color: C.muted });
+  ctx.restore();
+
+  if (m > 0.5) {
+    const steps = Math.max(2, Math.floor(m));
+    const pts = (f) => { const arr = []; for (let i = 0; i <= steps; i++) { const mm = (i / steps) * m; arr.push([X(mm), Y(f(mm))]); } return arr; };
+    const area = (arr, fill, line, lw) => {
+      ctx.beginPath(); ctx.moveTo(arr[0][0], y0);
+      arr.forEach(([x, y]) => ctx.lineTo(x, y));
+      ctx.lineTo(arr[arr.length - 1][0], y0); ctx.closePath();
+      ctx.fillStyle = fill; ctx.fill();
+      ctx.beginPath(); arr.forEach(([x, y], i) => i ? ctx.lineTo(x, y) : ctx.moveTo(x, y));
+      ctx.strokeStyle = line; ctx.lineWidth = lw; ctx.lineJoin = 'round'; ctx.stroke();
+    };
+    const gv = ctx.createLinearGradient(0, y1, 0, y0);
+    gv.addColorStop(0, 'rgba(34,197,94,0.45)'); gv.addColorStop(1, 'rgba(34,197,94,0.05)');
+    const vp = pts(fv);
+    area(vp, gv, C.green2, 8);
+    area(pts(mm => P * mm), 'rgba(245,158,11,0.30)', C.amber, 6);
+    // glowing head dot
+    const [hx, hy] = vp[vp.length - 1];
+    const pulse = 1 + 0.25 * Math.sin(t * 8);
+    ctx.fillStyle = 'rgba(74,222,128,0.25)';
+    ctx.beginPath(); ctx.arc(hx, hy, 30 * pulse, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = C.green2;
+    ctx.beginPath(); ctx.arc(hx, hy, 14, 0, Math.PI * 2); ctx.fill();
+  }
+
+  // legend
+  const la = prog(t, 10, 10.5);
+  ctx.save(); ctx.globalAlpha *= la;
+  ctx.fillStyle = C.green2; ctx.fillRect(180, 1640, 40, 14);
+  txt('Total value', 235, 1658, { size: 34, weight: 600, align: 'left' });
+  ctx.fillStyle = C.amber; ctx.fillRect(590, 1640, 40, 14);
+  txt('Aapka paisa', 645, 1658, { size: 34, weight: 600, align: 'left' });
+  ctx.restore();
+
+  // profit annotation at the end
+  const pa = easeOut(prog(t, 20.2, 20.8));
+  if (pa > 0) {
+    ctx.save(); ctx.globalAlpha *= pa;
+    const yTop = Y(FINAL), yBot = Y(INV);
+    ctx.setLineDash([12, 10]); ctx.strokeStyle = C.text; ctx.lineWidth = 3;
+    ctx.beginPath(); ctx.moveTo(x1 - 4, yTop + 20); ctx.lineTo(x1 - 4, yBot - 6); ctx.stroke();
+    ctx.setLineDash([]);
+    const bx = 560, by = 1180, bw = 360, bh = 110;
+    rrect(bx, by, bw, bh, 26); ctx.fillStyle = '#0f172a'; ctx.fill();
+    ctx.strokeStyle = C.green2; ctx.lineWidth = 3; ctx.stroke();
+    txt('Profit', bx + bw / 2, by + 42, { size: 30, weight: 600, color: C.muted });
+    txt('+' + lakh(GAIN), bx + bw / 2, by + 92, { size: 50, weight: 900, color: C.green2 });
+    ctx.restore();
+  }
+  ctx.restore();
+}
+
+function scene4(t) { // Final numbers 22 – 28
+  const a = sceneA(t, 22, 28);
+  if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  pop(t, 22.1, 'Final hisaab 🧾', 540, 380, { size: 70, weight: 800 });
+
+  const r1 = easeOut(prog(t, 22.5, 23));
+  card(110, 470, 860, 190, r1, C.amber);
+  txt('Aapne lagaya', 180, 580, { size: 44, weight: 600, color: C.muted, align: 'left', alpha: r1 });
+  txt(inr(INV), 920, 590, { size: 66, weight: 900, color: C.amber, align: 'right', alpha: r1 });
+
+  const r2 = easeOut(prog(t, 23.1, 23.6));
+  const cnt = easeOut(prog(t, 23.2, 24.6));
+  card(110, 700, 860, 190, r2, C.green);
+  txt('Aapko mila', 180, 810, { size: 44, weight: 600, color: C.muted, align: 'left', alpha: r2 });
+  txt(inr(INV + (FINAL - INV) * cnt), 920, 820, { size: 66, weight: 900, color: C.green2, align: 'right', alpha: r2 });
+
+  // stacked share bar
+  const bp = easeInOut(prog(t, 24.6, 25.6));
+  const ba = prog(t, 24.5, 24.8);
+  if (ba > 0) {
+    ctx.save(); ctx.globalAlpha *= ba;
+    const bx = 110, by = 960, bw = 860, bh = 80;
+    rrect(bx, by, bw, bh, 40); ctx.fillStyle = 'rgba(255,255,255,0.08)'; ctx.fill();
+    ctx.save(); rrect(bx, by, bw, bh, 40); ctx.clip();
+    const invW = bw * (INV / FINAL);
+    ctx.fillStyle = C.amber; ctx.fillRect(bx, by, invW * bp, bh);
+    ctx.fillStyle = C.green; ctx.fillRect(bx + invW, by, (bw - invW) * bp, bh);
+    ctx.restore();
+    const invPct = Math.round(INV / FINAL * 100);
+    txt(`${invPct}% aapka paisa`, bx, by + 135, { size: 34, weight: 700, color: C.amber, align: 'left', alpha: bp });
+    txt(`${100 - invPct}% compounding ka`, bx + bw, by + 135, { size: 34, weight: 700, color: C.green2, align: 'right', alpha: bp });
+    ctx.restore();
+  }
+
+  const s = easeBack(prog(t, 25.8, 26.4));
+  txt('+' + lakh(GAIN), 540, 1370, { size: 150, weight: 900, color: C.green2, scale: s, alpha: clamp(s) });
+  pop(t, 26.3, 'sirf compounding se! 🤯', 540, 1470, { size: 60, weight: 700 });
+  ctx.restore();
+}
+
+function scene5(t) { // The real magic 28 – 32.5
+  const a = sceneA(t, 28, 32.5);
+  if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  pop(t, 28.1, 'Asli jaadu ye hai 👇', 540, 460, { size: 70, weight: 800 });
+  const items = [
+    ['Pehle 10 saal', lakh(V10), V10, 28.5],
+    ['Agle 10 saal', '+' + lakh(NEXT10), NEXT10, 29.2],
+  ];
+  items.forEach(([label, val, v, at], i) => {
+    const p = easeOut(prog(t, at, at + 0.5));
+    const y = 560 + i * 270;
+    card(110, y, 860, 230, p, i ? C.green : C.amber);
+    txt(label, 180, y + 85, { size: 44, weight: 600, color: C.muted, align: 'left', alpha: p });
+    txt(val, 920, y + 95, { size: 62, weight: 900, color: i ? C.green2 : C.amber, align: 'right', alpha: p });
+    const bw = 740 * (v / NEXT10) * easeInOut(prog(t, at + 0.3, at + 1.1));
+    ctx.save(); ctx.globalAlpha *= p;
+    rrect(180, y + 140, 740, 36, 18); ctx.fillStyle = 'rgba(255,255,255,0.08)'; ctx.fill();
+    if (bw > 36) { rrect(180, y + 140, bw, 36, 18); ctx.fillStyle = i ? C.green : C.amber; ctx.fill(); }
+    ctx.restore();
+  });
+  const s = easeBack(prog(t, 30.4, 31));
+  txt('Time > Timing ⏳', 540, 1260, { size: 100, weight: 900, scale: s, alpha: clamp(s) });
+  pop(t, 31.0, 'Jitna jaldi shuru, utna bada fayda!', 540, 1360, { size: 50, weight: 700, color: C.amber });
+  ctx.restore();
+}
+
+function scene6(t) { // CTA 32.5 – 36 (Finance Junction end card)
+  const a = sceneA(t, 32.5, 36.5, 0.35);
+  if (!a) return;
+  ctx.save(); ctx.globalAlpha = a;
+  BRAND.endLogo(ctx, 540, 680, 520, prog(t, 32.6, 33.3), t);
+  const s = easeBack(prog(t, 33.3, 33.9)) * (1 + 0.04 * Math.sin(t * 6));
+  txt('Follow karo 🔔', 540, 1080, { size: 104, weight: 900, color: '#e0b23a', scale: s, alpha: clamp(s) });
+  pop(t, 33.7, 'aise aur money tips ke liye', 540, 1165, { size: 50, weight: 600, color: C.muted });
+  pop(t, 34.0, 'Save karo 💾  Share karo 📤', 540, 1260, { size: 48, weight: 700 });
+  pop(t, 34.2, 'Educational purpose only. Investment advice nahi hai.', 540, 1420, { size: 30, weight: 500, color: C.muted });
+  pop(t, 34.2, 'Mutual fund investments market risks ke adheen hain.', 540, 1462, { size: 30, weight: 500, color: C.muted });
+  ctx.restore();
+}
+
+function progressBar(t) {
+  ctx.fillStyle = 'rgba(255,255,255,0.1)'; ctx.fillRect(0, 0, W, 10);
+  ctx.fillStyle = C.green; ctx.fillRect(0, 0, W * clamp(t / DUR), 10);
+}
+
+// Scene timing: animations are authored on DESIGN times; setTimeline() stretches
+// each scene to the real (voiceover-driven) length.
+const DESIGN = [[0, 4.5], [4.5, 9], [9, 22], [22, 28], [28, 32.5], [32.5, 36]];
+let ACTUAL = DESIGN.map(x => x.slice());
+window.setTimeline = durs => {
+  let s = 0;
+  ACTUAL = durs.map(d => { const r = [s, s + d]; s += d; return r; });
+  DUR = s; window.DUR = DUR;
+};
+function designTime(t) {
+  let i = ACTUAL.findIndex(([, b]) => t < b);
+  if (i < 0) i = ACTUAL.length - 1;
+  const [A, B] = ACTUAL[i], [a, b] = DESIGN[i];
+  return a + (t - A) * (b - a) / (B - A);
+}
+
+window.renderFrame = function (t) {
+  ctx.globalAlpha = 1;
+  const d = designTime(t);
+  background(t);
+  scene1(d); scene2(d); scene3(d); scene4(d); scene5(d); scene6(d);
+  BRAND.watermark(ctx, 0.9 * prog(d, 0.3, 0.8) * (1 - prog(d, 32.5, 32.5 + 0.3)));
+  progressBar(t);
+};
+window.DUR = DUR;
+window.ready = (async () => {
+  await window.BRAND.ready;
+  await Promise.all([
+    document.fonts.load('900 100px Inter'), document.fonts.load('800 100px Inter'),
+    document.fonts.load('700 100px Inter'), document.fonts.load('600 100px Inter'),
+    document.fonts.load('500 100px Inter'), document.fonts.load('100px "Noto Color Emoji"', '🤔📈'),
+  ]);
+  renderFrame(0);
+  return true;
+})();
+</script>
+</body>
+</html>

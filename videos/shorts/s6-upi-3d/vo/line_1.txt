@@ -1,0 +1,1 @@
+App request भेजता है NPCI को, यानी UPI का central switch.

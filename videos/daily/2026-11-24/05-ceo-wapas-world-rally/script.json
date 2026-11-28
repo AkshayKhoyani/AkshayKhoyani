@@ -1,0 +1,38 @@
+{
+  "voice": "7b9mYhmnp0y2qSH1FnBL",
+  "model": "eleven_v4",
+  "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8
+  },
+  "speed": 1.17,
+  "lead": 0.1,
+  "gap": 0.15,
+  "tail": 0.6,
+  "lines": [
+    {
+      "text": "[excited]| एक_आदमी|Ek_aadmi वापस_आया...|wapas_aaya... और|aur एक_रात_में|ek_raat_mein Nvidia इकतीस_परसेंट|31% उड़_गया!|ud_gaya!",
+      "min": 3.4
+    },
+    {
+      "text": "[serious]| ग्यारह_नवंबर|11_Nov को|ko CEO Jensen_Huang ने|ne resign किया।|kiya. [excited]| तेईस_नवंबर|23_Nov को|ko board ने|ne वापस|wapas बुला_लिया!|bula_liya!"
+    },
+    {
+      "text": "[amazed]| एक_दिन_में|Ek_din_mein साढ़े_नौ_सौ_बिलियन_डॉलर|$950_billion बढ़े!|badhe!"
+    },
+    {
+      "text": "[excited]| Wall_Street में|mein धमाका:|dhamaka: Nasdaq साढ़े_छह,|6.5%, S&P पौने_पाँच,|4.7%, Dow तीन_परसेंट|3% ऊपर!|upar!"
+    },
+    {
+      "text": "फिर|Phir दुनिया_में|duniya_mein आग:|aag: Europe दो,|2%, जापान|Japan चार,|4%, कोरिया|Korea छह,|6%, Taiwan नौ_परसेंट!|9%!",
+      "min": 4.6
+    },
+    {
+      "text": "[curious]| पर|Par India? आज|Aaj market बंद_है।|band_hai. असली|Asli असर|asar पच्चीस_नवंबर|25_November को|ko दिखेगा।|dikhega."
+    },
+    {
+      "text": "Nifty ऊपर|upar खुलेगा|khulega या|ya नीचे?|neeche? एक|1 या|ya दो|2 comment करो,|karo, और|aur Finance_Junction follow_करो!|follow_karo!",
+      "min": 3.6
+    }
+  ]
+}

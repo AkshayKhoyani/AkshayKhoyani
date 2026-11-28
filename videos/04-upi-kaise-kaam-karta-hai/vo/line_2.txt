@@ -1,0 +1,1 @@
+सबसे पहले, आपका UPI app payment request NPCI को भेजता है। NPCI मतलब, UPI का central switch.

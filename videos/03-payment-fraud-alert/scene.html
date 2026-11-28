@@ -1,0 +1,473 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Payment Fraud Alert Reel</title>
+<style>html,body{margin:0;background:#07070f}canvas{display:block}</style>
+</head>
+<body>
+<canvas id="c" width="1080" height="1920"></canvas>
+<script src="../brand/brand.js"></script>
+<script>
+// Facts used:
+//  Digital arrest: 21,900+ complaints, Rs 647 crore, 1 Jan - 31 Aug 2026 (I4C/MHA status report to Supreme Court).
+//  1930 / CFCFRMS: Rs 11,158 crore+ saved in 32.8 lakh+ complaints till 30.06.2026 (PIB).
+const W = 1080, H = 1920;
+let DUR = 43;
+const C = {
+  green: '#22c55e', green2: '#4ade80', amber: '#f59e0b', red: '#ef4444', red2: '#f87171',
+  blue: '#60a5fa', cyan: '#22d3ee', text: '#f8fafc', muted: '#94a3b8',
+  card: 'rgba(255,255,255,0.06)', stroke: 'rgba(255,255,255,0.12)'
+};
+const ctx = document.getElementById('c').getContext('2d');
+
+// ---------- Helpers ----------
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const easeOut = x => 1 - Math.pow(1 - x, 3);
+const easeInOut = x => x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2;
+const easeBack = x => { const c1 = 1.70158, c3 = c1 + 1; return 1 + c3 * Math.pow(x - 1, 3) + c1 * Math.pow(x - 1, 2); };
+const hash = n => { const r = Math.sin(n * 12.9898) * 43758.5453; return r - Math.floor(r); };
+const FONT = (w, s) => `${w} ${s}px Inter, "Noto Color Emoji", sans-serif`;
+
+function txt(s, x, y, o = {}) {
+  const { size = 60, weight = 700, color = C.text, align = 'center', alpha = 1, scale = 1, dy = 0, base = 'alphabetic' } = o;
+  if (alpha <= 0 || scale <= 0) return;
+  ctx.save();
+  ctx.globalAlpha *= clamp(alpha);
+  ctx.translate(x, y + dy); ctx.scale(scale, scale);
+  ctx.font = FONT(weight, size);
+  ctx.textAlign = align; ctx.textBaseline = base; ctx.fillStyle = color;
+  ctx.fillText(s, 0, 0);
+  ctx.restore();
+}
+function pop(t, at, s, x, y, o = {}) {
+  const p = easeOut(prog(t, at, at + 0.4));
+  txt(s, x, y, { ...o, alpha: p * (o.alpha ?? 1), dy: (1 - p) * 40 });
+}
+// kinetic typography: words pop one by one
+function words(t, at, str, y, o = {}) {
+  const size = o.size || 60, weight = o.weight || 800, step = o.step || 0.08;
+  ctx.save(); ctx.font = FONT(weight, size);
+  const ws = str.split(' '), sp = size * 0.28;
+  const widths = ws.map(w => ctx.measureText(w).width);
+  ctx.restore();
+  const total = widths.reduce((a, b) => a + b, 0) + sp * (ws.length - 1);
+  let x = (o.cx ?? 540) - total / 2;
+  ws.forEach((w, i) => {
+    const p = easeBack(prog(t, at + i * step, at + i * step + 0.35));
+    txt(w, x + widths[i] / 2, y, { size, weight, color: (o.colors && o.colors[i]) || o.color || C.text,
+      scale: Math.max(0, p), alpha: clamp(p * 1.5) });
+    x += widths[i] + sp;
+  });
+}
+function rrect(x, y, w, h, rad) {
+  rad = Math.min(rad, w / 2, h / 2);
+  ctx.beginPath();
+  ctx.moveTo(x + rad, y);
+  ctx.arcTo(x + w, y, x + w, y + h, rad); ctx.arcTo(x + w, y + h, x, y + h, rad);
+  ctx.arcTo(x, y + h, x, y, rad); ctx.arcTo(x, y, x + w, y, rad);
+  ctx.closePath();
+}
+function glitch(s, x, y, o, t, k = 1) {
+  const n = Math.floor(t * 16), r = hash(n);
+  const on = r > 0.5;
+  const dx = (on ? 6 + r * 16 : 2) * k;
+  ctx.save(); ctx.globalCompositeOperation = 'lighter';
+  txt(s, x - dx, y, { ...o, color: 'rgba(255,0,70,0.85)' });
+  txt(s, x + dx, y, { ...o, color: 'rgba(0,220,255,0.85)' });
+  ctx.restore();
+  txt(s, x, y + (on ? (r - 0.5) * 8 : 0), o);
+}
+function stamp(t, at, s, x, y, col, rot = -0.18, size = 120) {
+  if (t < at) return;
+  const p = easeOut(prog(t, at, at + 0.2));
+  const sc = 2.6 - 1.6 * p;
+  ctx.save(); ctx.globalAlpha *= clamp(p * 1.5);
+  ctx.translate(x, y); ctx.rotate(rot); ctx.scale(sc, sc);
+  ctx.font = FONT(900, size);
+  const w = ctx.measureText(s).width + 70, h = size * 1.3;
+  rrect(-w / 2, -h / 2, w, h, 26);
+  ctx.fillStyle = 'rgba(10,5,15,0.6)'; ctx.fill();
+  ctx.lineWidth = 12; ctx.strokeStyle = col; ctx.stroke();
+  ctx.fillStyle = col; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText(s, 0, size * 0.06);
+  ctx.restore();
+}
+function tag(t, at, s, col) {
+  const p = easeBack(prog(t, at, at + 0.4));
+  if (p <= 0) return;
+  ctx.save(); ctx.translate(540, 250); ctx.scale(p, p);
+  ctx.font = FONT(800, 36);
+  const w = ctx.measureText(s).width + 60;
+  rrect(-w / 2, -32, w, 64, 32); ctx.fillStyle = col; ctx.fill();
+  ctx.fillStyle = '#0b0b14'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+  ctx.fillText(s, 0, 2);
+  ctx.restore();
+}
+function source(t, at, s) {
+  pop(t, at, s, 540, 1640, { size: 26, weight: 500, color: 'rgba(148,163,184,0.85)' });
+}
+function bubble(x, y, w, lines, o = {}) {
+  const { col = '#1f2937', tcol = C.text, size = 26, alpha = 1, scale = 1, right = false } = o;
+  if (alpha <= 0) return;
+  const lh = size * 1.35, h = lines.length * lh + 30;
+  ctx.save(); ctx.globalAlpha *= clamp(alpha);
+  const ox = right ? x + w : x;
+  ctx.translate(ox, y); ctx.scale(scale, scale); ctx.translate(-ox, -y);
+  rrect(x, y, w, h, 24); ctx.fillStyle = col; ctx.fill();
+  lines.forEach((l, i) => {
+    const seg = Array.isArray(l) ? l : [l, tcol];
+    txt(seg[0], x + 22, y + 15 + lh * (i + 0.78), { size, weight: 600, color: seg[1], align: 'left' });
+  });
+  ctx.restore();
+  return h;
+}
+function typing(x, y, t, alpha = 1) {
+  if (alpha <= 0) return;
+  ctx.save(); ctx.globalAlpha *= alpha;
+  rrect(x, y, 110, 56, 28); ctx.fillStyle = '#1f2937'; ctx.fill();
+  for (let i = 0; i < 3; i++) {
+    const b = Math.max(0, Math.sin(t * 9 - i * 0.8)) * 8;
+    ctx.fillStyle = '#9ca3af'; ctx.beginPath(); ctx.arc(x + 30 + i * 25, y + 28 - b, 7, 0, Math.PI * 2); ctx.fill();
+  }
+  ctx.restore();
+}
+// phone mockup; draw(pw, ph) renders screen content in local coords
+function phone(cx, cy, s, rot, draw, alpha = 1) {
+  if (alpha <= 0) return;
+  const PW = 460, PH = 940;
+  ctx.save(); ctx.globalAlpha *= alpha;
+  ctx.translate(cx, cy); ctx.rotate(rot); ctx.scale(s, s);
+  ctx.shadowColor = 'rgba(0,0,0,0.6)'; ctx.shadowBlur = 70; ctx.shadowOffsetY = 30;
+  rrect(-PW / 2 - 18, -PH / 2 - 18, PW + 36, PH + 36, 72); ctx.fillStyle = '#1e293b'; ctx.fill();
+  ctx.shadowColor = 'transparent';
+  ctx.strokeStyle = '#475569'; ctx.lineWidth = 4; ctx.stroke();
+  ctx.save();
+  rrect(-PW / 2, -PH / 2, PW, PH, 56); ctx.clip();
+  ctx.translate(-PW / 2, -PH / 2);
+  draw(PW, PH);
+  ctx.restore();
+  rrect(-70, -PH / 2 + 16, 140, 36, 18); ctx.fillStyle = '#000'; ctx.fill();
+  ctx.restore();
+}
+function screenBg(pw, ph, c1, c2) {
+  const g = ctx.createLinearGradient(0, 0, 0, ph);
+  g.addColorStop(0, c1); g.addColorStop(1, c2);
+  ctx.fillStyle = g; ctx.fillRect(0, 0, pw, ph);
+}
+function counter(t, a, b, val) { return Math.round(val * easeOut(prog(t, a, b))).toLocaleString('en-IN'); }
+
+// ---------- Background ----------
+function background(t, mood) {
+  const g = ctx.createLinearGradient(0, 0, 0, H);
+  g.addColorStop(0, '#07070f'); g.addColorStop(1, '#120b1f');
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+  const glow = (cx, cy, rad, col) => {
+    const rg = ctx.createRadialGradient(cx, cy, 0, cx, cy, rad);
+    rg.addColorStop(0, col); rg.addColorStop(1, 'rgba(0,0,0,0)');
+    ctx.fillStyle = rg; ctx.fillRect(0, 0, W, H);
+  };
+  const warn = 0.10 + 0.06 * Math.max(0, Math.sin(t * 3.2)) * mood;
+  glow(540 + Math.sin(t * 0.5) * 300, 700, 800, `rgba(239,68,68,${warn})`);
+  glow(540 + Math.cos(t * 0.4) * 300, 1500, 700, 'rgba(34,211,238,0.07)');
+  // floating particles
+  for (let i = 0; i < 46; i++) {
+    const sp = 20 + hash(i + 3) * 60;
+    const x = (hash(i) * W + Math.sin(t * 0.6 + i) * 30);
+    const y = H - ((hash(i + 7) * H + t * sp) % H);
+    ctx.fillStyle = `rgba(255,255,255,${0.05 + hash(i + 11) * 0.12})`;
+    ctx.beginPath(); ctx.arc(x, y, 1.5 + hash(i + 5) * 3, 0, Math.PI * 2); ctx.fill();
+  }
+  // scanlines
+  ctx.fillStyle = 'rgba(255,255,255,0.015)';
+  for (let y = (t * 40) % 6; y < H; y += 6) ctx.fillRect(0, y, W, 1);
+}
+
+// ---------- Scenes (design time) ----------
+function s1(t) { // Hook 0 – 5
+  glitch('🚨 SCAM ALERT 🚨', 540, 300, { size: 92, weight: 900, color: C.red2 }, t, 1.2);
+  const enter = easeBack(prog(t, 0.15, 0.85));
+  const ring = t > 0.9 ? Math.sin(t * 42) * 0.035 * (0.6 + 0.4 * Math.sin(t * 5)) : 0;
+  phone(540, 980 + (1 - enter) * 900, 0.86, ring, (pw, ph) => {
+    screenBg(pw, ph, '#0f172a', '#2e1065');
+    if (t > 0.9) for (let k = 0; k < 3; k++) {
+      const f = (t * 1.1 + k / 3) % 1;
+      ctx.strokeStyle = `rgba(248,113,113,${(1 - f) * 0.7})`; ctx.lineWidth = 6;
+      ctx.beginPath(); ctx.arc(pw / 2, 300, 95 + f * 170, 0, Math.PI * 2); ctx.stroke();
+    }
+    ctx.fillStyle = '#334155'; ctx.beginPath(); ctx.arc(pw / 2, 300, 95, 0, Math.PI * 2); ctx.fill();
+    txt('👮', pw / 2, 335, { size: 96 });
+    txt('CBI Officer', pw / 2, 480, { size: 46, weight: 800 });
+    txt('+91 98XXX XXXXX', pw / 2, 530, { size: 28, weight: 500, color: C.muted });
+    txt('Incoming video call…', pw / 2, 585, { size: 28, weight: 600, color: C.muted, alpha: 0.5 + 0.5 * Math.sin(t * 6) });
+    ctx.fillStyle = C.red; ctx.beginPath(); ctx.arc(120, 800, 52, 0, Math.PI * 2); ctx.fill();
+    txt('✕', 120, 818, { size: 52, weight: 900 });
+    const pulse = 1 + 0.12 * Math.max(0, Math.sin(t * 8));
+    ctx.fillStyle = C.green; ctx.beginPath(); ctx.arc(340, 800, 52 * pulse, 0, Math.PI * 2); ctx.fill();
+    txt('📞', 340, 818, { size: 46 });
+  });
+  words(t, 1.8, 'Ye call aaye toh...', 1560, { size: 64, weight: 800 });
+  stamp(t, 3.0, 'RUKO! ✋', 540, 980, C.amber, -0.12, 130);
+}
+
+function s2(t) { // Digital arrest 5 – 15
+  tag(t, 5.0, 'SCAM #1', C.red);
+  words(t, 5.2, 'Digital Arrest', 360, { size: 86, weight: 900, colors: [C.text, C.red2] });
+  const out = easeInOut(prog(t, 11.0, 11.5));
+  const float = Math.sin(t * 1.5) * 10;
+  phone(540, 1000 + float - out * 200, 0.82 * (1 - out * 0.4), 0, (pw, ph) => {
+    screenBg(pw, ph, '#0c1a3a', '#020617');
+    // video feed with officer silhouette
+    ctx.fillStyle = '#1e3a8a'; ctx.fillRect(0, 0, pw, 470);
+    ctx.fillStyle = '#0f172a';
+    ctx.beginPath(); ctx.arc(pw / 2, 220, 70, 0, Math.PI * 2); ctx.fill();
+    rrect(pw / 2 - 130, 300, 260, 220, 90); ctx.fill();
+    rrect(pw / 2 - 40, 360, 80, 50, 10); ctx.fillStyle = C.amber; ctx.fill();
+    txt('POLICE', pw / 2, 393, { size: 18, weight: 900, color: '#0f172a' });
+    ctx.fillStyle = C.red; ctx.beginPath(); ctx.arc(40, 80, 9, 0, Math.PI * 2); ctx.fill();
+    txt('LIVE · "CBI HQ"', 58, 89, { size: 24, weight: 700, align: 'left', alpha: 0.6 + 0.4 * Math.sin(t * 5) });
+    const msgs = [
+      [5.9, ['Aapke naam pe illegal', 'parcel mila hai 📦']],
+      [7.0, ['Aap DIGITAL ARREST', 'mein ho! 🚔']],
+      [8.1, ['Abhi paise transfer karo,', 'warna jail! 💸']],
+    ];
+    let y = 500;
+    msgs.forEach(([at, lines]) => {
+      typing(24, y, t, prog(t, at - 0.5, at - 0.4) * (1 - prog(t, at, at + 0.05)));
+      const p = easeBack(prog(t, at, at + 0.35));
+      if (p > 0) y += (bubble(24, y, 380, lines, { col: '#7f1d1d', size: 25, scale: p, alpha: p }) + 14);
+    });
+  }, 1 - out);
+  ctx.save(); ctx.globalAlpha *= 1 - out;
+  stamp(t, 9.0, 'FAKE ❌', 540, 1000 - out * 200, C.red, -0.16, 120);
+  ctx.restore();
+  words(t, 9.6, 'Police video call pe arrest NAHI karti', 1560,
+    { size: 48, weight: 800, colors: [0, 0, 0, 0, 0, C.red2, C.red2].map(c => c || C.text), step: 0.06 });
+  // stats
+  const sa = prog(t, 11.3, 11.6);
+  if (sa > 0) {
+    ctx.save(); ctx.globalAlpha *= sa;
+    txt('Jan – Aug 2026', 540, 760, { size: 44, weight: 600, color: C.muted });
+    txt(counter(t, 11.4, 12.8, 21900) + '+', 540, 920, { size: 150, weight: 900, color: C.text });
+    txt('complaints', 540, 990, { size: 46, weight: 600, color: C.muted });
+    txt('₹' + counter(t, 12.0, 13.4, 647) + ' crore', 540, 1170, { size: 120, weight: 900, color: C.red2 });
+    txt('ka nuksaan 😱', 540, 1245, { size: 46, weight: 600, color: C.muted });
+    ctx.restore();
+    source(t, 11.6, 'Source: I4C / MHA report to Supreme Court');
+  }
+}
+
+function s3(t) { // UPI PIN 15 – 22
+  tag(t, 15.0, 'SCAM #2', C.amber);
+  words(t, 15.2, 'UPI PIN ka jaal', 360, { size: 86, weight: 900, colors: [C.amber, C.amber, C.text, C.text] });
+  const stop = prog(t, 18.0, 18.2);
+  phone(540, 1000 + Math.sin(t * 1.5) * 10, 0.82, 0, (pw, ph) => {
+    screenBg(pw, ph, '#f8fafc', '#e2e8f0');
+    ctx.fillStyle = '#4f46e5'; ctx.fillRect(0, 0, pw, 150);
+    txt('Payment Request', pw / 2, 115, { size: 30, weight: 800 });
+    txt('🎁 Aapko ₹5,000 mile hain!', pw / 2, 225, { size: 28, weight: 800, color: '#0f172a' });
+    txt('Receive karne ke liye', pw / 2, 275, { size: 26, weight: 600, color: '#475569' });
+    txt('UPI PIN daalein', pw / 2, 315, { size: 30, weight: 900, color: '#4f46e5' });
+    for (let i = 0; i < 6; i++) {
+      const x = 52 + i * 62, filled = t > 15.9 + i * 0.3;
+      rrect(x, 360, 46, 56, 10); ctx.strokeStyle = '#94a3b8'; ctx.lineWidth = 3; ctx.stroke();
+      if (filled) { ctx.fillStyle = '#0f172a'; ctx.beginPath(); ctx.arc(x + 23, 388, 9, 0, Math.PI * 2); ctx.fill(); }
+    }
+    const keys = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '', '0', '⌫'];
+    const pressed = Math.floor((t - 15.9) / 0.3);
+    keys.forEach((k, i) => {
+      const x = 40 + (i % 3) * 130, y = 470 + Math.floor(i / 3) * 105;
+      const hit = pressed >= 0 && pressed < 6 && [4, 0, 8, 2, 6, 10][pressed] === i && (t - 15.9) % 0.3 < 0.15;
+      rrect(x, y, 120, 90, 18); ctx.fillStyle = hit ? '#c7d2fe' : '#ffffff'; ctx.fill();
+      txt(k, x + 60, y + 60, { size: 36, weight: 700, color: '#0f172a' });
+    });
+    if (stop > 0) { ctx.fillStyle = `rgba(220,38,38,${0.55 * stop})`; ctx.fillRect(0, 0, pw, ph); }
+  });
+  stamp(t, 18.0, 'STOP ✋', 540, 1000, C.red, 0.1, 130);
+  words(t, 18.5, 'Paisa LENE ke liye PIN kabhi nahi lagta', 1530,
+    { size: 46, weight: 800, colors: [0, C.green2].map(c => c || C.text).concat([C.text, C.text, C.text, C.red2, C.red2, C.red2]), step: 0.06 });
+  pop(t, 19.8, 'PIN = sirf paisa BHEJNE ke liye 🔐', 540, 1610, { size: 40, weight: 700, color: C.amber });
+}
+
+function s4(t) { // Link + OTP 22 – 30
+  tag(t, 22.0, 'SCAM #3', C.cyan);
+  words(t, 22.2, 'Fake Link + OTP', 360, { size: 86, weight: 900, colors: [C.cyan, C.cyan, C.text, C.text] });
+  phone(540, 1000 + Math.sin(t * 1.5) * 10, 0.82, 0, (pw, ph) => {
+    screenBg(pw, ph, '#020617', '#0f172a');
+    ctx.fillStyle = '#111827'; ctx.fillRect(0, 0, pw, 140);
+    txt('VM-ALERTS', pw / 2, 110, { size: 28, weight: 800 });
+    const p1 = easeBack(prog(t, 22.6, 23.0));
+    const lp = 0.5 + 0.5 * Math.sin(t * 8);
+    bubble(24, 180, 400, [
+      'Dear customer, aapka KYC', 'expire ho gaya ⚠️ Account', 'aaj block hoga. Update:',
+      ['bit.ly/kyc-upd8 🔗', `rgba(96,165,250,${0.6 + 0.4 * lp})`]
+    ], { col: '#1f2937', size: 25, scale: p1, alpha: p1 });
+    // finger moving towards link
+    const fp = easeInOut(prog(t, 23.4, 24.6));
+    if (t > 23.3 && t < 26.0) {
+      const fx = 380 - fp * 210, fy = 760 - fp * 410;
+      txt('👆', fx, fy, { size: 80, alpha: 1 - prog(t, 25.6, 26.0) });
+    }
+    typing(24, 470, t, prog(t, 24.5, 24.6) * (1 - prog(t, 25.1, 25.15)));
+    const p2 = easeBack(prog(t, 25.1, 25.45));
+    bubble(24, 470, 400, ['"Bank se bol raha hoon,', 'OTP bata do please 🙏"'], { col: '#7f1d1d', size: 25, scale: p2, alpha: p2 });
+    const p3 = easeBack(prog(t, 25.7, 26.0));
+    bubble(160, 610, 260, ['OTP: 4 8 2 9 1 3'], { col: '#166534', size: 26, scale: p3, alpha: p3, right: true });
+  });
+  stamp(t, 26.3, 'NO! ❌', 540, 1000, C.red, -0.14, 130);
+  const items = [['❌ Link pe click mat karo', 26.9], ['❌ OTP kabhi share mat karo', 27.5]];
+  items.forEach(([s, at], i) => {
+    const p = easeBack(prog(t, at, at + 0.35));
+    txt(s, 540, 1540 + i * 72, { size: 46, weight: 800, scale: Math.max(0, p), alpha: p });
+  });
+}
+
+function s5(t) { // 1930 30 – 39
+  words(t, 30.1, 'Fraud ho gaya? Turant karo 👇', 330, { size: 64, weight: 900, step: 0.07 });
+  // slot machine digits
+  const digits = [1, 9, 3, 0];
+  const tw = 190, th = 260, gap = 24, x0 = 540 - (4 * tw + 3 * gap) / 2, y0 = 470;
+  const glowA = prog(t, 32.2, 32.6);
+  digits.forEach((d, i) => {
+    const x = x0 + i * (tw + gap);
+    const at = 30.6 + i * 0.25;
+    const ap = easeBack(prog(t, at - 0.3, at));
+    ctx.save();
+    ctx.translate(x + tw / 2, y0 + th / 2); ctx.scale(ap, ap); ctx.translate(-(x + tw / 2), -(y0 + th / 2));
+    ctx.globalAlpha *= clamp(ap);
+    if (glowA > 0) { ctx.shadowColor = `rgba(74,222,128,${glowA})`; ctx.shadowBlur = 50; }
+    rrect(x, y0, tw, th, 30); ctx.fillStyle = '#0f1f17'; ctx.fill();
+    ctx.shadowColor = 'transparent';
+    ctx.strokeStyle = glowA > 0 ? C.green2 : C.stroke; ctx.lineWidth = 4; ctx.stroke();
+    ctx.save(); rrect(x, y0, tw, th, 30); ctx.clip();
+    const p = easeOut(prog(t, at, at + 1.1));
+    const pos = (20 + d) * p;
+    for (let k = Math.floor(pos) - 1; k <= Math.floor(pos) + 1; k++) {
+      const dd = ((k % 10) + 10) % 10;
+      const off = (k - pos) * th;
+      txt(String(dd), x + tw / 2, y0 + th / 2 + off + 70, { size: 200, weight: 900, color: C.green2 });
+    }
+    ctx.restore();
+    ctx.restore();
+  });
+  const pr = 1 + 0.08 * Math.max(0, Math.sin(t * 7));
+  txt('📞', 540, 860, { size: 80, scale: pr * easeBack(prog(t, 32.2, 32.6)), alpha: prog(t, 32.2, 32.4) });
+  pop(t, 32.5, 'Cyber Crime Helpline', 540, 930, { size: 44, weight: 700, color: C.muted });
+  // typewriter URL
+  const url = 'cybercrime.gov.in';
+  const n = Math.floor(url.length * prog(t, 33.0, 34.0));
+  if (t > 32.9) {
+    rrect(150, 990, 780, 110, 55); ctx.fillStyle = 'rgba(34,211,238,0.12)'; ctx.fill();
+    ctx.strokeStyle = 'rgba(34,211,238,0.5)'; ctx.lineWidth = 3; ctx.stroke();
+    txt('🌐 ' + url.slice(0, n) + (Math.floor(t * 3) % 2 ? '|' : ' '), 540, 1065, { size: 52, weight: 800, color: C.cyan });
+  }
+  const sa = easeOut(prog(t, 34.6, 35.1));
+  if (sa > 0) {
+    ctx.save(); ctx.globalAlpha *= sa;
+    rrect(110, 1170, 860, 300, 36); ctx.fillStyle = 'rgba(34,197,94,0.1)'; ctx.fill();
+    ctx.strokeStyle = 'rgba(74,222,128,0.5)'; ctx.lineWidth = 3; ctx.stroke();
+    txt('₹' + counter(t, 34.7, 36.2, 11158) + ' crore+', 540, 1300, { size: 96, weight: 900, color: C.green2 });
+    txt('bachaye ja chuke (30 June 2026 tak)', 540, 1365, { size: 36, weight: 600, color: C.muted });
+    txt('⏱️ Jitna jaldi call, utna behtar', 540, 1430, { size: 38, weight: 800 });
+    ctx.restore();
+    source(t, 35.0, 'Source: PIB / I4C (CFCFRMS data)');
+  }
+}
+
+function s6(t) { // CTA 39 – 43 (Finance Junction end card)
+  const bp = prog(t, 39.8, 40.8);
+  if (bp > 0 && bp < 1) {
+    for (let i = 0; i < 24; i++) {
+      const ang = (i / 24) * Math.PI * 2, r = 160 + easeOut(bp) * 420;
+      txt(['❤️', '📤', '👍', '🔔'][i % 4], 540 + Math.cos(ang) * r, 790 + Math.sin(ang) * r, { size: 44, alpha: 1 - bp });
+    }
+  }
+  words(t, 39.1, 'Family group mein', 290, { size: 70, weight: 900 });
+  words(t, 39.4, 'SHARE karo 📲', 395, { size: 90, weight: 900, colors: [C.green2, C.text] });
+  pop(t, 39.8, 'Ek share kisi ka paisa bacha sakta hai', 540, 465, { size: 38, weight: 600, color: C.muted });
+  BRAND.endLogo(ctx, 540, 790, 460, prog(t, 39.8, 40.5), t);
+  const s = easeBack(prog(t, 40.5, 41.1)) * (1 + 0.04 * Math.sin(t * 6));
+  txt('Follow karo 🔔', 540, 1150, { size: 104, weight: 900, color: '#e0b23a', scale: s, alpha: clamp(s) });
+  pop(t, 41.2, 'Educational purpose only. Kisi bhi shak mein apne bank se', 540, 1420, { size: 28, weight: 500, color: C.muted });
+  pop(t, 41.2, 'official number par hi sampark karein.', 540, 1460, { size: 28, weight: 500, color: C.muted });
+  pop(t, 41.4, 'Sources: I4C/MHA, PIB', 540, 1520, { size: 26, weight: 500, color: 'rgba(148,163,184,0.85)' });
+}
+
+// ---------- Timeline, transitions, camera ----------
+const DESIGN = [[0, 5], [5, 15], [15, 22], [22, 30], [30, 39], [39, 43]];
+const SCENES = [s1, s2, s3, s4, s5, s6];
+const SHAKES = [3.0, 9.0, 18.0, 26.3];
+let ACTUAL = DESIGN.map(x => x.slice());
+window.setTimeline = durs => {
+  let s = 0;
+  ACTUAL = durs.map(d => { const r = [s, s + d]; s += d; return r; });
+  DUR = s; window.DUR = DUR;
+};
+function designTime(t) {
+  let i = ACTUAL.findIndex(([, b]) => t < b);
+  if (i < 0) i = ACTUAL.length - 1;
+  const [A, B] = ACTUAL[i], [a, b] = DESIGN[i];
+  return a + (t - A) * (b - a) / (B - A);
+}
+function progressBar(t) {
+  ctx.fillStyle = 'rgba(255,255,255,0.1)'; ctx.fillRect(0, 0, W, 10);
+  const g = ctx.createLinearGradient(0, 0, W, 0);
+  g.addColorStop(0, C.red); g.addColorStop(1, C.amber);
+  ctx.fillStyle = g; ctx.fillRect(0, 0, W * clamp(t / DUR), 10);
+}
+
+window.renderFrame = function (t) {
+  ctx.globalAlpha = 1;
+  ctx.setTransform(1, 0, 0, 1, 0, 0);
+  const d = designTime(t);
+  background(t, d < 30 ? 1 : 0.2);
+  // screen shake
+  let sx = 0, sy = 0;
+  SHAKES.forEach(at => {
+    if (d >= at && d < at + 0.5) {
+      const k = Math.exp(-(d - at) * 9) * 26;
+      sx += Math.sin((d - at) * 90) * k; sy += Math.cos((d - at) * 75) * k;
+    }
+  });
+  ctx.save();
+  ctx.translate(sx, sy);
+  DESIGN.forEach(([a, b], i) => {
+    if (d < a - 0.001 || d > b + 0.001) return;
+    const enter = i === 0 ? 1 : easeOut(prog(d, a, a + 0.4));
+    const exit = i === DESIGN.length - 1 ? 0 : prog(d, b - 0.3, b);
+    const sc = (1.14 - 0.14 * enter) * (1 - 0.1 * exit) * (1 + 0.012 * Math.sin(d * 0.8));
+    ctx.save();
+    ctx.globalAlpha = enter * (1 - exit);
+    ctx.translate(540, 960); ctx.scale(sc, sc); ctx.translate(-540, -960);
+    SCENES[i](d);
+    ctx.restore();
+  });
+  ctx.restore();
+  // flash on scene change
+  DESIGN.forEach(([a], i) => {
+    if (i && d >= a && d < a + 0.18) {
+      ctx.fillStyle = `rgba(255,255,255,${0.22 * (1 - (d - a) / 0.18)})`; ctx.fillRect(0, 0, W, H);
+    }
+  });
+  // vignette
+  const v = ctx.createRadialGradient(540, 960, 600, 540, 960, 1250);
+  v.addColorStop(0, 'rgba(0,0,0,0)'); v.addColorStop(1, 'rgba(0,0,0,0.55)');
+  ctx.fillStyle = v; ctx.fillRect(0, 0, W, H);
+  BRAND.watermark(ctx, 0.9 * prog(d, 0.3, 0.8) * (1 - prog(d, 39, 39 + 0.3)));
+  progressBar(t);
+};
+window.DUR = DUR;
+window.ready = (async () => {
+  await window.BRAND.ready;
+  await Promise.all([
+    document.fonts.load('900 100px Inter'), document.fonts.load('800 100px Inter'),
+    document.fonts.load('700 100px Inter'), document.fonts.load('600 100px Inter'),
+    document.fonts.load('500 100px Inter'), document.fonts.load('100px "Noto Color Emoji"', '🚨📞👮'),
+  ]);
+  renderFrame(0);
+  return true;
+})();
+</script>
+</body>
+</html>

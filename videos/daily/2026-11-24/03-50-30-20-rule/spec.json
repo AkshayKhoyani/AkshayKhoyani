@@ -1,0 +1,21 @@
+{
+ "slug": "50-30-20-budget-rule",
+ "sources": "50-30-20 rule (Elizabeth Warren, 'All Your Worth', 2005). Rule of thumb hai; apne hisaab se badlo. ₹40,000 sirf example.",
+ "scenes": [
+  {"type": "hook", "tag": "BUDGET", "tagColor": "gold", "lines": [["Salary aate hi", "text"], ["KHATAM? 😩", "red2"]], "sub": "Bas 3 number yaad rakho: 50-30-20",
+   "voice": "Salary आते_ही|aate_hi खत्म?|khatam? बस|Bas तीन|3 number याद|yaad रखो:|rakho: पचास,|50, तीस,|30, बीस!|20!"},
+  {"type": "formula", "title": "Rule 🧮", "lines": ["50% Zaroorat (Needs)", "30% Shauk (Wants)", ["20% Bachat (Savings)", "green"]],
+   "voice": "पचास|50 परसेंट|percent ज़रूरत,|zaroorat, तीस|30 परसेंट|percent शौक,|shauk, और|aur बीस|20 परसेंट|percent बचत।|bachat."},
+  {"type": "compare", "title": "₹40,000 salary 💰", "subtitle": "Sirf example",
+   "items": [{"label": "Needs", "sub": "50%", "value": 20000, "display": "₹20,000", "color": "blue"},
+             {"label": "Wants", "sub": "30%", "value": 12000, "display": "₹12,000", "color": "amber"},
+             {"label": "Savings", "sub": "20%", "value": 8000, "display": "₹8,000", "color": "green"}],
+   "winner": 2, "winnerText": "PEHLE ISKO 🎯",
+   "voice": "चालीस_हज़ार|₹40,000 salary है,|hai, तो|toh बीस_हज़ार|₹20,000 ज़रूरत,|zaroorat, बारह_हज़ार|₹12,000 शौक,|shauk, और|aur आठ_हज़ार|₹8,000 बचत।|bachat."},
+  {"type": "list", "title": "Kya kahan? 👇", "colors": ["blue", "amber", "green"], "icons": ["🏠", "🍕", "📈"],
+   "items": [["Needs", "Rent, ration, bills, EMI"], ["Wants", "Bahar khana, shopping, OTT"], ["Savings", "Emergency fund, SIP"]],
+   "voice": "Rent, ration, bills ज़रूरत।|zaroorat. बाहर|Bahar खाना,|khana, shopping शौक।|shauk. और|Aur बचत|bachat salary आते_ही|aate_hi पहले|pehle अलग|alag करो।|karo."},
+  {"type": "cta", "top": "Comment karo 👇", "topSub": "Aap kitna bachate ho? 10%, 20% ya 30%+", "disclaimer": "Rule of thumb, apne hisaab se badlo.",
+   "voice": "आप|Aap कितना|kitna बचाते_हो?|bachate_ho? दस,|10, बीस,|20, या|ya तीस|30 comment करो।|karo. Finance_Junction follow_करो,|follow_karo, और|aur याद|yaad रखो:|rakho: पचास,|50, तीस,|30, बीस!|20!"}
+ ]
+}
