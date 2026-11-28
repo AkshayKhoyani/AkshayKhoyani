@@ -9,6 +9,7 @@ body{width:1536px;height:1024px;overflow:hidden;position:relative;font-family:In
 .slash{position:absolute;left:-120px;top:0;width:220px;height:1100px;background:var(--a);transform:rotate(14deg);opacity:.95;box-shadow:0 0 60px rgba(0,0,0,.3)}
 .slash2{position:absolute;left:120px;top:0;width:26px;height:1100px;background:var(--b);transform:rotate(14deg)}
 .char{position:absolute;right:10px;bottom:0;height:990px;filter:drop-shadow(0 0 0 #fff) drop-shadow(6px 0 0 #fff) drop-shadow(-6px 0 0 #fff) drop-shadow(0 -6px 0 #fff) drop-shadow(0 30px 40px rgba(0,0,0,.55))}
+.char.cast{height:1520px;bottom:-640px;right:30px}.char.cast_result_chacha{height:1320px;bottom:-540px;right:-90px}.char.cast_junction_bot{height:840px;bottom:66px;right:150px}
 .top{position:absolute;left:200px;top:28px;display:flex;align-items:center;gap:16px}
 .logo{background:#fff;border-radius:18px;padding:10px 18px;border:4px solid var(--a);box-shadow:0 10px 26px rgba(0,0,0,.4);display:flex;align-items:center}.logo img{height:84px;width:auto;display:block}
 .sticker{position:absolute;right:56px;top:40px;transform:rotate(6deg);background:var(--b);color:#fff;font:900 34px Inter;padding:14px 28px;border-radius:16px;border:5px solid #fff;box-shadow:0 12px 28px rgba(0,0,0,.4);letter-spacing:1px}
@@ -54,7 +55,7 @@ $('sticker').innerHTML = (D.sticker || 'NEW VACANCY') + '<small>' + (D.sticker_s
 if (D.big) { $('bn').textContent = D.big; $('bl').textContent = D.big_label || 'POSTS'; } else $('burst').style.display = 'none';
 $('apply').textContent = (D.cta || 'APPLY NOW') + ' ▶';
 $('chips').innerHTML = (D.chips || []).slice(0, 3).map(([k, v, hot]) => `<div class="chip${hot ? ' hot' : ''}"><small>${k}</small><b>${v}</b></div>`).join('');
-$('char').src = D.character_src; $('logo').src = D.logo_src;
+$('char').src = D.character_src; if (D.cast) { $('char').classList.add('cast'); $('char').classList.add(D.cast_name); } $('logo').src = D.logo_src;
 if (!D.mock) $('mock').style.display = 'none';
 // auto-shrink the headline so it never runs into the burst/character
 const h = $('h'); let fs = 74; while ((h.scrollWidth > 640 || h.offsetHeight > 300) && fs > 42) { fs -= 2; h.style.fontSize = fs + 'px'; }

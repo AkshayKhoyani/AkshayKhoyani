@@ -16,6 +16,12 @@ const previewIdx = args.indexOf('--preview');
   const page = await browser.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
   const errors = [];
   page.on('pageerror', e => errors.push(e.message));
+  // brand cast images as data URLs (file:// images would taint the canvas)
+  const castDir = path.join(__dirname, '..', '..', 'engine', 'assets', 'characters');
+  const castSrc = {};
+  for (const f of fs.existsSync(castDir) ? fs.readdirSync(castDir) : []) if (f.startsWith('cast_')) castSrc[f.slice(5, -5)] = 'data:image/webp;base64,' + fs.readFileSync(path.join(castDir, f)).toString('base64');
+  castSrc.logo = 'data:image/webp;base64,' + fs.readFileSync(path.join(castDir, '..', 'logo.webp')).toString('base64');
+  await page.addInitScript(s => { window.CAST_SRC = s; }, castSrc);
   await page.goto('file://' + path.join(dir, 'scene.html'));
   await page.evaluate(() => window.ready);
   const tl = path.join(dir, 'timeline.json'), voice = path.join(dir, 'voice.wav'), music = path.join(dir, 'music.wav');

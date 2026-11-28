@@ -116,29 +116,30 @@
     ctx.fillText('EJ', 0, s * 0.03);
     ctx.restore();
   }
+  // official Employment Junction logo (engine/assets/logo.webp) on a white card
+  function officialLogo(cx, cy, w, alpha = 1) {
+    const im = CAST.logo; if (!im || alpha <= 0) return logo(cx, cy, w * 0.4, alpha);
+    const h = w * im.height / im.width, pad = w * 0.07;
+    ctx.save(); ctx.globalAlpha *= alpha;
+    rrect(cx - w / 2 - pad, cy - h / 2 - pad, w + pad * 2, h + pad * 2, (h + pad * 2) * 0.22);
+    ctx.fillStyle = '#fff'; ctx.shadowColor = 'rgba(0,0,0,0.35)'; ctx.shadowBlur = 24; ctx.fill(); ctx.shadowBlur = 0;
+    ctx.lineWidth = Math.max(3, w * 0.012); ctx.strokeStyle = C.gold; ctx.stroke();
+    ctx.drawImage(im, cx - w / 2, cy - h / 2, w, h);
+    ctx.restore();
+  }
   function watermark(alpha = 0.95) {
     if (alpha <= 0) return;
-    ctx.save(); ctx.globalAlpha *= alpha;
-    logo(34 + 40, 34 + 40, 80);
-    txt('EMPLOYMENT', 134, 34 + 36, { size: 28, weight: 900, align: 'left', color: C.text });
-    txt('JUNCTION', 134, 34 + 68, { size: 28, weight: 900, align: 'left', color: C.gold });
-    ctx.restore();
+    officialLogo(34 + 130, 34 + 52, 240, alpha);
   }
   function endCard(t, at) {
     const p = prog(t, at, at + 0.6); if (p <= 0) return;
     const e = easeBack(p);
-    const g = ctx.createRadialGradient(540, 800, 0, 540, 800, 520);
+    const g = ctx.createRadialGradient(540, 820, 0, 540, 820, 560);
     g.addColorStop(0, `rgba(255,183,3,${0.25 * p})`); g.addColorStop(1, 'rgba(255,183,3,0)');
-    ctx.fillStyle = g; ctx.fillRect(0, 300, W, 1000);
-    ctx.save(); ctx.translate(540, 800); ctx.scale(e, e);
-    ctx.strokeStyle = 'rgba(255,183,3,0.6)'; ctx.lineWidth = 6;
-    ctx.beginPath(); ctx.arc(0, 0, 230, t * 1.4, t * 1.4 + Math.PI * 1.3); ctx.stroke();
-    ctx.restore();
-    logo(540, 800, 300 * e, clamp(p * 1.5));
-    pop(t, at + 0.35, 'EMPLOYMENT', 540, 1120, { size: 84, weight: 900 });
-    pop(t, at + 0.5, 'JUNCTION', 540, 1215, { size: 84, weight: 900, color: C.gold });
-    pop(t, at + 0.7, 'Sarkari Naukri ki har khabar', 540, 1300, { size: 40, weight: 600, color: C.muted });
-    pill(t, at + 0.9, '📲 Follow @employmentjunction.in', 1430, C.gold, '#071a3d', 40);
+    ctx.fillStyle = g; ctx.fillRect(0, 300, W, 1100);
+    officialLogo(540, 820, 640 * e, clamp(p * 1.5));
+    pop(t, at + 0.5, 'Sarkari Naukri ki har khabar', 540, 1060, { size: 46, weight: 700, color: C.text });
+    pill(t, at + 0.8, '📲 Follow @employmentjunction.in', 1170, C.gold, '#071a3d', 40);
   }
 
   // "Comment KEYWORD" call-to-action: Instagram-style comment bubble + keyword chip
@@ -227,9 +228,58 @@
     if (!sc[i].noWatermark) watermark();
     progressBar(T);
   };
+  // ---------- Brand cast (engine/assets/CHARACTERS.md) ----------
+  // Images: ../../engine/assets/characters/cast_<name>.webp (transparent). Preloaded by EJ.start().
+  const CAST = {};
+  const CAST_NAMES = ['naukri_bhaiya', 'exam_didi', 'result_chacha', 'junction_bot', 'logo'];
+  function loadCast() {
+    return Promise.all(CAST_NAMES.map(n => new Promise(res => {
+      const im = new Image(); im.onload = () => { CAST[n] = im; res(); }; im.onerror = res;
+      im.src = (window.CAST_SRC && window.CAST_SRC[n]) || (n === 'logo' ? '../../engine/assets/logo.webp' : (window.CAST_DIR || '../../engine/assets/characters/') + 'cast_' + n + '.webp');
+    })));
+  }
+  // cast(t, name, at, x, y, h, {from:'left'|'right'|'bottom', talk:[[a,b],...], flip, wave})
+  // x,y = bottom-centre of the character; h = height in px. Entrance pop, idle breathing, bob while talking.
+  function cast(t, name, at, x, y, h, o = {}) {
+    const im = CAST[name]; if (!im) return;
+    const p = easeBack(prog(t, at, at + 0.55));
+    if (p <= 0) return;
+    const w = h * im.width / im.height;
+    const off = (1 - p) * (o.from === 'left' ? -700 : o.from === 'right' ? 700 : 0);
+    const offY = o.from === 'bottom' || !o.from ? (1 - p) * 500 : 0;
+    const breathe = Math.sin(t * 2.4) * 0.012;
+    const talking = (o.talk || []).some(([a, b]) => t >= a && t <= b);
+    const bob = talking ? Math.abs(Math.sin(t * 11)) * 14 : 0;
+    const tilt = talking ? Math.sin(t * 5.5) * 0.025 : Math.sin(t * 1.3) * 0.01;
+    ctx.save();
+    ctx.globalAlpha *= clamp(p * 1.4);
+    ctx.translate(x + off, y + offY - bob);
+    ctx.rotate(tilt);
+    ctx.scale((o.flip ? -1 : 1) * (1 + breathe * 0.5), 1 + breathe);
+    // soft ground shadow
+    ctx.fillStyle = 'rgba(0,0,0,0.35)';
+    ctx.beginPath(); ctx.ellipse(0, -6, w * 0.32, 22, 0, 0, Math.PI * 2); ctx.fill();
+    // white outline glow (sticker look), then the character
+    ctx.shadowColor = 'rgba(255,255,255,0.9)'; ctx.shadowBlur = 18;
+    ctx.drawImage(im, -w / 2, -h, w, h);
+    ctx.restore();
+  }
+  // speech bubble above/next to a character
+  function bubble(t, at, s, x, y, o = {}) {
+    const p = easeBack(prog(t, at, at + 0.4)); if (p <= 0) return;
+    const size = o.size || 44; ctx.font = FONT(800, size);
+    const lines = String(s).split('\n'); const w = Math.max(...lines.map(l => ctx.measureText(l).width)) + 64, hh = lines.length * size * 1.25 + 44;
+    ctx.save(); ctx.translate(x, y); ctx.scale(p, p);
+    ctx.fillStyle = o.bg || '#ffffff'; rrect(-w / 2, -hh, w, hh, 30); ctx.fill();
+    ctx.beginPath(); const tx = o.tail === 'right' ? w / 2 - 70 : -w / 2 + 70; ctx.moveTo(tx - 22, -2); ctx.lineTo(tx + 22, -2); ctx.lineTo(tx + (o.tail === 'right' ? 30 : -30), 46); ctx.fill();
+    ctx.fillStyle = o.fg || C.navy; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+    lines.forEach((l, i) => ctx.fillText(l, 0, -hh + 22 + size * 0.62 + i * size * 1.25));
+    ctx.restore();
+  }
+
   window.EJ = {
     W, H, C, ctx, clamp, prog, easeOut, easeInOut, easeBack, hash, FONT, rrect, txt, width, pop, words, pill,
-    card, counter, stamp, check, source, logo, watermark, endCard, commentCTA,
-    start() { layout(); window.ready = document.fonts.ready.then(() => window.renderFrame(0)); }
+    card, counter, stamp, check, source, logo, officialLogo, watermark, endCard, commentCTA, cast, bubble, CAST,
+    start() { layout(); window.ready = Promise.all([document.fonts.ready, loadCast()]).then(() => window.renderFrame(0)); }
   };
 })();
