@@ -23,7 +23,7 @@ def run(specf):
     sp = json.load(open(specf)); pid = sp.get("wp_id"); slug = sp["slug"]; name = sp["en_name"]
     if not pid:
         return slug, "no wp_id"
-    ex = call([f"{S}/media?parent={pid}&per_page=50&context=edit&_fields=id,description.raw"])
+    ex = call([f"{S}/media?parent={pid}&per_page=50&context=edit&_fields=id,description"])
     old = {}
     for m in ex if isinstance(ex, list) else []:
         old.setdefault(m["description"]["raw"], []).append(m["id"])
