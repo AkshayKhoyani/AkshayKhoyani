@@ -116,4 +116,19 @@
       ctx.fillStyle = '#0b2a63'; ctx.fillRect(0, H - 22, W, 22);
     } },
   };
+
+  // ---- 3D scene backgrounds (brand/backgrounds/<key>.jpg: Canva AI 3D renders + Three.js scenes) ----
+  // slow cinematic push-in + dark gradient at the top/bottom so text and characters stay readable
+  const SCENE = { park: 'Park / Garden', office: 'Modern Office', home: 'Home Living Room', tuition: 'Tuition Class', govt_office: 'Sarkari Daftar',
+    library: 'Library', railway: 'Railway Platform', police_ground: 'Police Ground', bank: 'Bank Branch', college: 'College Campus',
+    news_studio: 'News Studio (3D code)', exam_hall: 'Exam Hall (3D code)', stage: 'Award Stage (3D code)', city_night: 'City Night (3D code)', study_desk: 'Study Desk (3D code)' };
+  Object.entries(SCENE).forEach(([k, name]) => {
+    window.EJ_THEMES['scene_' + k] = { name, dark: true, img: k,
+      pal: { ...DARK, gold: '#fbbf24', sky: '#7dd3fc', card: 'rgba(7,14,32,0.72)', stroke: 'rgba(255,255,255,0.18)' },
+      bg(ctx, t) {
+        const im = this._im; ctx.fillStyle = '#0b1220'; ctx.fillRect(0, 0, W, H);
+        if (im) { const z = 1 + Math.min(t, 40) * 0.0016; ctx.save(); ctx.translate(W / 2, H / 2); ctx.scale(z, z); ctx.drawImage(im, -W / 2, -H / 2, W, H); ctx.restore(); }
+        ctx.fillStyle = lin(ctx, [[0, 'rgba(3,8,20,0.82)'], [0.32, 'rgba(3,8,20,0.25)'], [0.62, 'rgba(3,8,20,0)'], [1, 'rgba(3,8,20,0.55)']]); ctx.fillRect(0, 0, W, H);
+      } };
+  });
 })();

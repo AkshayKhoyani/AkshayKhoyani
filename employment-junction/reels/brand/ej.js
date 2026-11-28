@@ -308,6 +308,8 @@
   window.EJ = {
     W, H, C, ctx, clamp, prog, easeOut, easeInOut, easeBack, hash, FONT, rrect, txt, width, pop, words, pill,
     card, counter, stamp, check, source, logo, officialLogo, watermark, endCard, commentCTA, cast, bubble, CAST,
-    start() { const th = window.EJ_THEMES && window.EJ_THEMES[window.THEME]; if (th) Object.assign(C, th.pal); layout(); window.ready = Promise.all([document.fonts.ready, loadCast()]).then(() => window.renderFrame(0)); }
+    start() { const th = window.EJ_THEMES && window.EJ_THEMES[window.THEME]; if (th) Object.assign(C, th.pal); layout();
+      const bgLoad = th && th.img && window.BG_SRC && window.BG_SRC[th.img] ? new Promise(res => { const im = new Image(); im.onload = () => { th._im = im; res(); }; im.onerror = res; im.src = window.BG_SRC[th.img]; }) : Promise.resolve();
+      window.ready = Promise.all([document.fonts.ready, loadCast(), bgLoad]).then(() => window.renderFrame(0)); }
   };
 })();
