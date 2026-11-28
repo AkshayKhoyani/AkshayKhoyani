@@ -171,10 +171,15 @@ CHAR_RULES = [
 # Brand cast (engine/assets/CHARACTERS.md): Naukri Bhaiya (jobs), Exam Didi (prep), Result Chacha (results), Junction Bot (alerts)
 TYPE_CHAR = {"ej_result": "cast_result_chacha", "ej_answer_key": "cast_result_chacha", "ej_admit_card": "cast_junction_bot",
              "ej_syllabus": "cast_exam_didi", "ej_schedule": "cast_exam_didi", "ej_test": "cast_exam_didi"}
+# job category -> brand-cast character (falls back to the older character if the cast file is missing)
+CAST_FOR = {"engineer": "cast_engineer_bhai", "apprentice": "cast_engineer_bhai", "police": "cast_daroga_ji", "defence": "cast_fauji_bhai",
+            "railway": "cast_station_master", "teacher": "cast_exam_didi", "medical": "cast_nurse_didi", "bank": "cast_bank_babu"}
 BRAND_CAST = {"jobs": "cast_naukri_bhaiya", "prep": "cast_exam_didi", "results": "cast_result_chacha", "alerts": "cast_junction_bot"}
 THEME = {"student_result": "green", "admit_card": "sky", "answer_key": "violet", "medical": "rose", "defence": "green", "police": "red",
          "railway": "sky", "bank": "green", "teacher": "violet", "engineer": "gold", "apprentice": "gold", "office": "gold",
-         "cast_naukri_bhaiya": "gold", "cast_exam_didi": "violet", "cast_result_chacha": "green", "cast_junction_bot": "sky"}
+         "cast_naukri_bhaiya": "gold", "cast_exam_didi": "violet", "cast_result_chacha": "green", "cast_junction_bot": "sky",
+         "cast_engineer_bhai": "gold", "cast_daroga_ji": "red", "cast_fauji_bhai": "green", "cast_station_master": "sky", "cast_nurse_didi": "rose",
+         "cast_bank_babu": "green"}
 STICKER = {"ej_job": ("NEW VACANCY", "2026 · APPLY ONLINE", "APPLY NOW"), "ej_admit_card": ("ADMIT CARD OUT", "DOWNLOAD NOW", "DOWNLOAD NOW"),
            "ej_result": ("RESULT OUT", "CHECK NOW", "CHECK RESULT"), "ej_answer_key": ("ANSWER KEY OUT", "CHECK & OBJECT", "CHECK ANSWER KEY"),
            "ej_syllabus": ("SYLLABUS 2026", "EXAM PATTERN", "DOWNLOAD PDF"), "ej_schedule": ("EXAM DATE OUT", "SCHEDULE", "CHECK DATES"),
@@ -190,8 +195,10 @@ def pick_character(s):
         return TYPE_CHAR[ptype]
     text = " " + " ".join([s.get("title", ""), im.get("tag", ""), im.get("org", "")]).lower() + " "
     for words, ch in CHAR_RULES:
-        if any(w in text for w in words) and os.path.exists(os.path.join(CHAR_DIR, ch + ".webp")):
-            return ch
+        if any(w in text for w in words):
+            for c in (CAST_FOR.get(ch), ch):
+                if c and os.path.exists(os.path.join(CHAR_DIR, c + ".webp")):
+                    return c
     return BRAND_CAST["jobs"] if os.path.exists(os.path.join(CHAR_DIR, BRAND_CAST["jobs"] + ".webp")) else "office"
 
 
@@ -203,7 +210,11 @@ def featured_image(s, path):
     if not os.path.exists(src):
         src = os.path.join(CHAR_DIR, "office.webp")
     data["character_src"] = "file://" + src
-    data["cast"], data["cast_name"] = ch.startswith("cast_"), ch  # brand mascots are full-body: frame them from the knees up
+    data["cast"], data["cast_name"] = ch.startswith("cast_"), ch
+    if data["cast"]:  # wide poses (raised flag, open arms) get the wider framing so they never cover the headline
+        from PIL import Image as _I
+        with _I.open(src) as _im:
+            data["cast_wide"] = _im.width / _im.height > 0.45  # brand mascots are full-body: frame them from the knees up
     data["logo_src"] = "file://" + os.path.join(HERE, "assets", "logo.webp")  # official Employment Junction logo — always on the image
     data.setdefault("theme", THEME.get(ch, "gold"))
     ptype = s.get("type", "ej_job")
