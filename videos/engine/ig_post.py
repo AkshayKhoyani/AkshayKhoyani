@@ -1,7 +1,7 @@
 """Publish a reel to Instagram (Finance Junction) via the Graph API.
 
 Usage: python3 engine/ig_post.py <repo-relative mp4 path> <caption.txt> [--publish]
-Without --publish it only uploads and checks the container (nothing goes live).
+Without --publish it only uploads and checks the container (nothing goes live).\n--publish also posts the same video as a Story (skip with --no-story).
 The video must be committed and pushed (and under 20 MB): Instagram fetches it via jsDelivr from GitHub.
 The token is injected by the network proxy for graph.facebook.com (never stored here).
 """
@@ -42,5 +42,19 @@ if st["status_code"] != "FINISHED":
 if "--publish" in sys.argv:
     mid = call("POST", f"{IG}/media_publish", {"creation_id": cid})["id"]
     print("PUBLISHED media", mid, call("GET", f"{mid}?fields=permalink").get("permalink"))
+    if "--no-story" not in sys.argv:  # user: har reel story par bhi
+        try:
+            sid = call("POST", f"{IG}/media", {"media_type": "STORIES", "video_url": url})["id"]
+            for _ in range(60):
+                st = call("GET", f"{sid}?fields=status_code")
+                if st["status_code"] in ("FINISHED", "ERROR", "EXPIRED"):
+                    break
+                time.sleep(6)
+            if st["status_code"] == "FINISHED":
+                print("STORY published", call("POST", f"{IG}/media_publish", {"creation_id": sid})["id"])
+            else:
+                print("STORY failed:", st)
+        except SystemExit as e:
+            print("STORY failed:", e)
 else:
     print("Ready but NOT published (add --publish after user OK).")

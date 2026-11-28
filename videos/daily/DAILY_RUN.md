@@ -26,7 +26,7 @@ Har run sirf apne slot ki EK reel banata hai. **Din mein sirf 2 reels** (slot A 
 4. Preview PNG dekho, theek karo, final MP4, freezedetect check, MP4 < 20 MB.
 5. `SOURCES.md` + `caption.txt` (pehli line hook, data bullets, comment sawaal, "Not investment advice. Sources: ...", 8–10 hashtags) reel folder mein.
 6. Commit + push. Phir **Instagram par seedha post** (user ne har reel ke liye approval hata diya hai):
-   `cd videos && python3 engine/ig_post.py <videos/... mp4 path> <caption.txt> --publish`. Error 2207076 aaye to 2 min baad ek baar retry.
+   `cd videos && python3 engine/ig_post.py <videos/... mp4 path> <caption.txt> --publish` (ye reel ke saath story bhi daalta hai; user ki request 28 Nov). Error 2207076 aaye to 2 min baad ek baar retry.
 7. `videos/daily/LOG.md` mein ek line (slot, reel, IG link, voice/silent, dikkat). Commit + push.
 8. Final message Hinglish mein: kaunsi reel, IG link, koi dikkat.
 
