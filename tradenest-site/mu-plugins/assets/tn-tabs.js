@@ -99,12 +99,40 @@
     box.style.display = 'none'; box.parentNode.insertBefore(out, box);
   }
 
+
+  function calc(panel) {
+    if (panel.querySelector('.tn-calc')) { return; }
+    var anchor = panel.querySelector('.tn-flow'); if (!anchor) { return; }
+    anchor.insertAdjacentHTML('afterend', '<div class="tn-calc"><div class="tn-calc-h"><span class="tn-calc-ic">' + ic('box') + '</span><div><b>Quantity planner</b><small>Enter your quantity to see packing and container estimates</small></div></div>'
+      + '<div class="tn-calc-row"><label>Quantity needed<span><input type="number" min="5" step="5" value="500" inputmode="numeric" aria-label="Quantity in kg"><em>kg</em></span></label>'
+      + '<div class="tn-calc-out"><div><strong data-o="bags">20</strong><small>bags of 25 kg</small></div><div><strong data-o="small">100</strong><small>packs of 5 kg</small></div><div><strong data-o="cont">4%</strong><small>of a 20ft container*</small></div></div></div>'
+      + '<div class="tn-calc-ft"><small>*Approximate. A 20ft container typically carries 12 to 16 tonnes of bagged powder, depending on product density and packing. Exact loading is confirmed with your quotation.</small><button type="button" class="tn-calc-btn">Request a quote for <span data-o="qty">500</span> kg</button></div></div>');
+    var box = panel.querySelector('.tn-calc'), inp = box.querySelector('input');
+    var upd = function () { var kg = Math.max(0, parseFloat(inp.value) || 0); box.querySelector('[data-o=bags]').textContent = Math.ceil(kg / 25); box.querySelector('[data-o=small]').textContent = Math.ceil(kg / 5); var pc = kg / 14000 * 100; box.querySelector('[data-o=cont]').textContent = (pc >= 100 ? (kg / 14000).toFixed(1) + ' x' : (pc < 1 && kg > 0 ? '<1%' : Math.round(pc) + '%')); box.querySelector('[data-o=cont]').nextElementSibling.textContent = pc >= 100 ? '20ft containers (approx.)*' : 'of a 20ft container*'; box.querySelector('[data-o=qty]').textContent = kg; };
+    inp.addEventListener('input', upd); upd();
+    box.querySelector('.tn-calc-btn').addEventListener('click', function () {
+      var t = document.querySelector('[data-inquiry-open]'); if (t) { t.click(); }
+      setTimeout(function () { var ta = document.getElementById('tn-inq-message'); var n = (document.querySelector('main h1') || {}).textContent || 'this product'; if (ta) { ta.value = 'We need approx. ' + inp.value + ' kg of ' + n.trim() + '. Please share price, packing options and lead time.'; } }, 300);
+    });
+  }
+  function sticky() {
+    var bar = document.querySelector('.fixed.bottom-0.left-0.right-0'); var pdf = document.querySelector('.tn-pdf-btn');
+    if (!bar || bar.querySelector('.tn-bar-pdf')) { return; }
+    var img = document.querySelector('main img.wp-post-image'); var tn = bar.querySelector('.w-9.h-9');
+    if (img && tn) { tn.innerHTML = '<img src="' + (img.currentSrc || img.src) + '" alt="" style="width:100%;height:100%;object-fit:cover;border-radius:10px">'; tn.style.padding = '0'; tn.style.overflow = 'hidden'; }
+    var btns = bar.querySelector('.flex.items-center.gap-3.w-full'); if (pdf && btns) { btns.insertAdjacentHTML('afterbegin', '<a class="tn-bar-pdf" href="' + pdf.getAttribute('href') + '" target="_blank" rel="noopener">' + ic('doc') + '<span>Spec PDF</span></a>'); }
+  }
+  function similar() { var s = document.querySelector('.tn-similar'); if (!s) { return; } var n = s.nextElementSibling; if (n && /Related Products/.test(n.textContent)) { n.style.display = 'none'; }
+    var tr = s.querySelector('.tn-sim-track'); [].forEach.call(s.querySelectorAll('.tn-sim-nav'), function (b) { b.addEventListener('click', function () { tr.scrollBy({ left: (b.dataset.d === 'l' ? -1 : 1) * tr.clientWidth * 0.8, behavior: 'smooth' }); }); }); }
   function run() {
     var q = function (n) { return document.querySelector('[data-tab-panel="' + n + '"]'); };
     try { if (q('specs')) { specs(q('specs')); } } catch (e) {}
     try { if (q('applications')) { apps(q('applications')); } } catch (e) {}
     try { if (q('packaging')) { pack(q('packaging')); } } catch (e) {}
     try { if (q('faq')) { faq(q('faq')); } } catch (e) {}
+    try { if (q('packaging')) { calc(q('packaging')); } } catch (e) {}
+    try { sticky(); } catch (e) {}
+    try { similar(); } catch (e) {}
   }
   if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', run); } else { run(); }
 })();
