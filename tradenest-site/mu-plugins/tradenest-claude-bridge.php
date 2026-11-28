@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.4.1
+ * Version: 1.5.0
  *
  * @package Tradenest
  */
@@ -526,4 +526,117 @@ t.addEventListener('click',go);t.addEventListener('keydown',function(e){if(e.key
 		<?php
 	},
 	99
+);
+
+// 19) HS codes (6-digit international HS), reviewed against tariff schedules and customs rulings. The 8-digit
+//     Indian ITC-HS line for each shipment is confirmed by the customs broker.
+function tn_bridge_hs_map() {
+	return array(
+		140 => '0712.20',
+		146 => '0712.20',
+		157 => '0904.22',
+		184 => '0712.20',
+		198 => '0712.90',
+		211 => '0712.90',
+		212 => '2002.90',
+		218 => '1105.10',
+		223 => '1105.20',
+		232 => '0712.90',
+		235 => '0712.90',
+		238 => '0712.90',
+		241 => '0712.90',
+		243 => '0712.90',
+		301 => '0910.99',
+		304 => '1211.90',
+		307 => '2106.90',
+		309 => '1106.30',
+		311 => '1106.30',
+		316 => '0910.30',
+		318 => '0904.22',
+		321 => '0904.22',
+		324 => '0904.12',
+		327 => '0909.22',
+		329 => '0910.91',
+		332 => '2501.00',
+		353 => '0910.99',
+		355 => '1211.90',
+		357 => '1211.90',
+		359 => '0910.99',
+		363 => '1211.90',
+		365 => '1211.90',
+		368 => '0910.99',
+		386 => '1211.90',
+		390 => '1211.90',
+		392 => '1211.90',
+		394 => '1211.90',
+		396 => '1302.19',
+		398 => '1214.10',
+		400 => '1212.99',
+		402 => '1212.99',
+		404 => '1211.90',
+		406 => '1211.90',
+		408 => '1211.90',
+		410 => '1211.90',
+		412 => '1211.90',
+		414 => '1211.90',
+		416 => '1211.90',
+		418 => '1211.90',
+		420 => '1211.90',
+		422 => '1211.90',
+		424 => '1211.90',
+		426 => '1211.90',
+		428 => '1211.90',
+		430 => '1211.90',
+		432 => '1211.90',
+		434 => '1404.90',
+		436 => '1211.90',
+		438 => '1211.90',
+		440 => '1211.90',
+		442 => '1211.90',
+		444 => '1211.90',
+		446 => '1211.90',
+		520 => '1106.30',
+		522 => '1106.30',
+		524 => '1106.30',
+		526 => '1106.30',
+		528 => '1106.30',
+		531 => '1106.30',
+		533 => '1106.30',
+		537 => '1106.30',
+		539 => '1106.30',
+		542 => '1106.30',
+		545 => '1106.30',
+		558 => '0712.90',
+		560 => '0712.90',
+		562 => '0712.90',
+		564 => '0712.90',
+		566 => '0712.90',
+		568 => '0406.20',
+		577 => '2101.30',
+		582 => '2103.10',
+	);
+}
+add_filter(
+	'acf/format_value/name=tn_hs_code',
+	function ( $v, $post_id ) {
+		$map = tn_bridge_hs_map();
+		return ( is_numeric( $post_id ) && isset( $map[ (int) $post_id ] ) ) ? $map[ (int) $post_id ] : $v;
+	},
+	99,
+	2
+);
+add_filter(
+	'get_post_metadata',
+	function ( $value, $object_id, $meta_key, $single ) {
+		if ( '_tn_hs_code' !== $meta_key ) {
+			return $value;
+		}
+		$map = tn_bridge_hs_map();
+		if ( ! isset( $map[ (int) $object_id ] ) ) {
+			return $value;
+		}
+		return $single ? $map[ (int) $object_id ] : array( $map[ (int) $object_id ] );
+	},
+	99,
+	4
 );
