@@ -12,7 +12,10 @@ Approved format = `04-dsssb-cast-sample` (owner: "ek number reel"). Copy its str
    - `speakers` = one cast member per scene; each speaks in its own voice (brand/voice.py `CAST_VOICES`):
      naukri_bhaiya (opens + CTA), exam_didi (eligibility/syllabus), anchor_rohan (fee/last date/alerts), mummy_ji (reminder),
      plus the job-category character when it fits: daroga_ji (police), fauji_bhai (army), bank_babu (bank), engineer_bhai (JE/PSU),
-     nurse_didi (medical), station_master (railway). Never the robot or Result Chacha (owner removed them).
+     nurse_didi (medical), station_master (railway), teacher_sir (TET/KVS), clerk_babu (SSC/clerk), forest_guard, postman (India Post/GDS),
+     patwari (revenue/talati), anganwadi_didi, fireman, pilot, judge (judiciary), doctor (medical officer), scientist (DRDO/ISRO),
+     lady_constable (mahila police), bank_madam (bank PO), student (10th/12th), tt_babu (railway TC), navy_sailor, airforce,
+     computer_operator (data entry/IT), driver, sarkari_officer (UPSC/PSC). Never the robot or Result Chacha (owner removed them).
    - Per-scene 3D backgrounds: `theme: 'scene_park' | 'scene_tuition' | 'scene_news_studio' | 'scene_home' | 'scene_office' | …`
      (files in brand/backgrounds/). Text/cards only in the top half (y < 1000), characters stand in the lower half
      (`person(t, who, at, 540, 1880, 1.85, …)`) so faces are never covered.
