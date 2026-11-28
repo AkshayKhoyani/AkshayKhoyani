@@ -15,7 +15,47 @@
   "1404": "es",
   "1405": "fr",
   "1406": "de",
-  "1407": "ar"
+  "1407": "ar",
+  "1419": "de",
+  "1420": "de",
+  "1421": "de",
+  "1422": "de",
+  "1423": "de",
+  "1424": "de",
+  "1425": "de",
+  "1426": "de",
+  "1427": "de",
+  "1428": "de",
+  "1429": "ar",
+  "1430": "ar",
+  "1431": "ar",
+  "1432": "ar",
+  "1433": "ar",
+  "1434": "ar",
+  "1435": "ar",
+  "1436": "ar",
+  "1437": "ar",
+  "1438": "ar",
+  "1440": "es",
+  "1441": "es",
+  "1442": "es",
+  "1443": "es",
+  "1444": "es",
+  "1445": "es",
+  "1446": "es",
+  "1447": "es",
+  "1448": "es",
+  "1449": "es",
+  "1450": "fr",
+  "1451": "fr",
+  "1452": "fr",
+  "1453": "fr",
+  "1454": "fr",
+  "1455": "fr",
+  "1456": "fr",
+  "1457": "fr",
+  "1458": "fr",
+  "1459": "fr"
  },
  "hreflang": [
   {
@@ -24,6 +64,76 @@
    "fr": "https://tradenestnaturals.com/fr/",
    "de": "https://tradenestnaturals.com/de/",
    "ar": "https://tradenestnaturals.com/ar/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/dehydrated-herbs-leaves/",
+   "de": "https://tradenestnaturals.com/de/getrocknete-kraeuter-blaetter/",
+   "ar": "https://tradenestnaturals.com/ar/dried-herbs-leaves/",
+   "es": "https://tradenestnaturals.com/es/hierbas-y-hojas-deshidratadas/",
+   "fr": "https://tradenestnaturals.com/fr/herbes-et-feuilles-deshydratees/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/dehydrated-onion-powder/",
+   "de": "https://tradenestnaturals.com/de/getrocknetes-zwiebelpulver/",
+   "ar": "https://tradenestnaturals.com/ar/onion-powder/",
+   "es": "https://tradenestnaturals.com/es/cebolla-en-polvo-deshidratada/",
+   "fr": "https://tradenestnaturals.com/fr/poudre-oignon-deshydratee/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/dehydrated-onion-products/",
+   "de": "https://tradenestnaturals.com/de/getrocknete-zwiebelprodukte/",
+   "ar": "https://tradenestnaturals.com/ar/dehydrated-onion/",
+   "es": "https://tradenestnaturals.com/es/productos-de-cebolla-deshidratada/",
+   "fr": "https://tradenestnaturals.com/fr/produits-oignon-deshydrate/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/dehydrated-vegetable-powders-flakes/",
+   "de": "https://tradenestnaturals.com/de/gemuesepulver-gemueseflocken/",
+   "ar": "https://tradenestnaturals.com/ar/vegetable-powders-flakes/",
+   "es": "https://tradenestnaturals.com/es/polvos-y-copos-de-verduras-deshidratadas/",
+   "fr": "https://tradenestnaturals.com/fr/poudres-et-flocons-de-legumes-deshydrates/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/herbal-ayurvedic-powders/",
+   "de": "https://tradenestnaturals.com/de/ayurvedische-kraeuterpulver/",
+   "ar": "https://tradenestnaturals.com/ar/herbal-ayurvedic-powders/",
+   "es": "https://tradenestnaturals.com/es/polvos-herbales-y-ayurvedicos/",
+   "fr": "https://tradenestnaturals.com/fr/poudres-de-plantes-ayurvediques/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/seasoning-specialty-powders/",
+   "de": "https://tradenestnaturals.com/de/wuerzpulver-spezialpulver/",
+   "ar": "https://tradenestnaturals.com/ar/seasoning-specialty-powders/",
+   "es": "https://tradenestnaturals.com/es/polvos-sazonadores-y-especiales/",
+   "fr": "https://tradenestnaturals.com/fr/poudres-assaisonnement-et-specialites/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/spices-masala-powders/",
+   "de": "https://tradenestnaturals.com/de/gewuerzpulver-masala/",
+   "ar": "https://tradenestnaturals.com/ar/spice-masala-powders/",
+   "es": "https://tradenestnaturals.com/es/especias-y-masalas-en-polvo/",
+   "fr": "https://tradenestnaturals.com/fr/epices-et-masalas-en-poudre/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/spray-dried-fruit-powders/",
+   "de": "https://tradenestnaturals.com/de/spruehgetrocknete-fruchtpulver/",
+   "ar": "https://tradenestnaturals.com/ar/fruit-powders/",
+   "es": "https://tradenestnaturals.com/es/polvos-de-frutas-atomizados/",
+   "fr": "https://tradenestnaturals.com/fr/poudres-de-fruits-atomisees/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/spray-dried-vegetable-powders/",
+   "de": "https://tradenestnaturals.com/de/spruehgetrocknete-gemuesepulver/",
+   "ar": "https://tradenestnaturals.com/ar/spray-dried-vegetable-powders/",
+   "es": "https://tradenestnaturals.com/es/polvos-de-verduras-atomizados/",
+   "fr": "https://tradenestnaturals.com/fr/poudres-de-legumes-atomisees/"
+  },
+  {
+   "en": "https://tradenestnaturals.com/product-category/superfood-green-powders/",
+   "de": "https://tradenestnaturals.com/de/superfood-gruenpulver/",
+   "ar": "https://tradenestnaturals.com/ar/green-superfood-powders/",
+   "es": "https://tradenestnaturals.com/es/superalimentos-y-polvos-verdes/",
+   "fr": "https://tradenestnaturals.com/fr/superaliments-et-poudres-vertes/"
   }
  ],
  "translator": {
