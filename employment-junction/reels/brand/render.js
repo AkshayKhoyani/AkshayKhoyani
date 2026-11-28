@@ -20,6 +20,26 @@ const previewIdx = args.indexOf('--preview');
   const castDir = path.join(__dirname, '..', '..', 'engine', 'assets', 'characters');
   const castSrc = {};
   for (const f of fs.existsSync(castDir) ? fs.readdirSync(castDir) : []) if (f.startsWith('cast_')) castSrc[f.slice(5, -5)] = 'data:image/webp;base64,' + fs.readFileSync(path.join(castDir, f)).toString('base64');
+  // animation frames (mouth + hand poses): engine/assets/characters/anim/<name>__<frame>.webp
+  const animDir = path.join(castDir, 'anim');
+  for (const f of fs.existsSync(animDir) ? fs.readdirSync(animDir) : []) if (f.endsWith('.webp')) castSrc[f.slice(0, -5)] = 'data:image/webp;base64,' + fs.readFileSync(path.join(animDir, f)).toString('base64');
+  // voice loudness per video frame -> lip-sync (mouth opens on loud syllables)
+  const vpath = path.join(dir, 'voice.wav');
+  let amp = [];
+  if (fs.existsSync(vpath)) {
+    const b = fs.readFileSync(vpath); let o = 12, sr = 44100, ch = 1, bits = 16, dataOff = 0, dataLen = 0;
+    while (o < b.length - 8) { const id = b.toString('ascii', o, o + 4), sz = b.readUInt32LE(o + 4);
+      if (id === 'fmt ') { ch = b.readUInt16LE(o + 10); sr = b.readUInt32LE(o + 12); bits = b.readUInt16LE(o + 22); }
+      if (id === 'data') { dataOff = o + 8; dataLen = Math.min(sz, b.length - o - 8); break; } o += 8 + sz + (sz % 2); }
+    if (bits === 16 && dataOff) {
+      const per = Math.round(sr / FPS) * ch, n = Math.floor(dataLen / 2);
+      for (let i = 0; i < n; i += per) { let s = 0, c = 0; for (let j = i; j < Math.min(n, i + per); j++) { const v = b.readInt16LE(dataOff + j * 2) / 32768; s += v * v; c++; } amp.push(Math.sqrt(s / Math.max(1, c))); }
+      const mx = Math.max(...amp.slice().sort((x, y) => x - y).slice(-Math.ceil(amp.length * 0.05))) || 1; amp = amp.map(v => Math.min(1, v / mx));
+    }
+  }
+  await page.addInitScript(a => { window.AMP = { fps: 30, data: a }; }, amp);
+  const metaP = path.join(animDir, 'meta.json');
+  await page.addInitScript(m => { window.CAST_META = m; }, fs.existsSync(metaP) ? JSON.parse(fs.readFileSync(metaP)) : {});
   castSrc.logo = 'data:image/webp;base64,' + fs.readFileSync(path.join(castDir, '..', 'logo.webp')).toString('base64');
   await page.addInitScript(s => { window.CAST_SRC = s; }, castSrc);
   await page.goto('file://' + path.join(dir, 'scene.html'));

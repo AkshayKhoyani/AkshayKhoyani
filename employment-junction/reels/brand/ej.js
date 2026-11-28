@@ -205,6 +205,7 @@
   }
   window.setTimeline = durs => { durs.forEach((d, i) => { if (window.SCENES[i]) window.SCENES[i].dur = d; }); layout(); };
   window.renderFrame = T => {
+    window.__T = T;
     ctx.setTransform(1, 0, 0, 1, 0, 0);
     background(T);
     const sc = window.SCENES;
@@ -233,23 +234,37 @@
   const CAST = {};
   const CAST_NAMES = ['naukri_bhaiya', 'exam_didi', 'result_chacha', 'junction_bot', 'logo'];
   function loadCast() {
-    return Promise.all(CAST_NAMES.map(n => new Promise(res => {
+    const extra = window.CAST_SRC ? Object.keys(window.CAST_SRC).filter(k => k.includes('__')) : [];
+    return Promise.all(CAST_NAMES.concat(extra).map(n => new Promise(res => {
       const im = new Image(); im.onload = () => { CAST[n] = im; res(); }; im.onerror = res;
       im.src = (window.CAST_SRC && window.CAST_SRC[n]) || (n === 'logo' ? '../../engine/assets/logo.webp' : (window.CAST_DIR || '../../engine/assets/characters/') + 'cast_' + n + '.webp');
     })));
   }
   // cast(t, name, at, x, y, h, {from:'left'|'right'|'bottom', talk:[[a,b],...], flip, wave})
   // x,y = bottom-centre of the character; h = height in px. Entrance pop, idle breathing, bob while talking.
+  // which image to draw: a hand pose if one is active, else lip-sync mouth frame from the voice loudness
+  function castFrame(t, name, o, talking) {
+    const pose = (o.pose || []).find(([a, b]) => t >= a && t <= b);
+    if (pose && CAST[name + '__' + pose[2]]) return CAST[name + '__' + pose[2]];
+    if (talking && window.AMP && window.AMP.data.length) {
+      const v = window.AMP.data[Math.min(window.AMP.data.length - 1, Math.floor((window.__T || 0) * window.AMP.fps))] || 0;
+      if (v > 0.38 && CAST[name + '__m2']) return CAST[name + '__m2'];
+      if (v < 0.12 && CAST[name + '__m0']) return CAST[name + '__m0'];
+    }
+    return CAST[name + '__base'] || CAST[name];
+  }
+  // cast(t, name, at, x, y, h, {from, talk:[[a,b]], pose:[[a,b,'wave']], flip})
   function cast(t, name, at, x, y, h, o = {}) {
-    const im = CAST[name]; if (!im) return;
+    const talkingNow = (o.talk || []).some(([a, b]) => t >= a && t <= b);
+    const im = castFrame(t, name, o, talkingNow); if (!im) return;
     const p = easeBack(prog(t, at, at + 0.55));
     if (p <= 0) return;
     const w = h * im.width / im.height;
     const off = (1 - p) * (o.from === 'left' ? -700 : o.from === 'right' ? 700 : 0);
     const offY = o.from === 'bottom' || !o.from ? (1 - p) * 500 : 0;
     const breathe = Math.sin(t * 2.4) * 0.012;
-    const talking = (o.talk || []).some(([a, b]) => t >= a && t <= b);
-    const bob = talking ? Math.abs(Math.sin(t * 11)) * 14 : 0;
+    const talking = talkingNow;
+    const bob = talking ? Math.abs(Math.sin(t * 11)) * 6 : 0;  // lip-sync does the talking now; keep a light bob
     const tilt = talking ? Math.sin(t * 5.5) * 0.025 : Math.sin(t * 1.3) * 0.01;
     ctx.save();
     ctx.globalAlpha *= clamp(p * 1.4);
@@ -262,6 +277,15 @@
     // white outline glow (sticker look), then the character
     ctx.shadowColor = 'rgba(255,255,255,0.9)'; ctx.shadowBlur = 18;
     ctx.drawImage(im, -w / 2, -h, w, h);
+    // Junction Bot: a glowing screen-mouth that opens with the voice (only on the base pose, where the screen is known)
+    const sm = window.CAST_META && window.CAST_META[name] && window.CAST_META[name].screen_mouth;
+    if (sm && talking && im === (CAST[name + '__base'] || CAST[name])) {
+      const v = window.AMP && window.AMP.data.length ? (window.AMP.data[Math.min(window.AMP.data.length - 1, Math.floor((window.__T || 0) * window.AMP.fps))] || 0) : 0.5;
+      const mx = -w / 2 + sm.cx * w, my = -h + sm.cy * h, mw = sm.w * w, mh = Math.max(6, sm.h * h * (0.4 + 2.2 * v));
+      ctx.shadowColor = 'rgba(56,189,248,0.95)'; ctx.shadowBlur = 22;
+      ctx.fillStyle = '#38bdf8'; ctx.beginPath(); ctx.ellipse(mx, my, mw / 2, mh / 2, 0, 0, Math.PI * 2); ctx.fill();
+      ctx.shadowBlur = 0; ctx.fillStyle = '#0b1220'; ctx.beginPath(); ctx.ellipse(mx, my, mw / 2 - 7, Math.max(0, mh / 2 - 7), 0, 0, Math.PI * 2); ctx.fill();
+    }
     ctx.restore();
   }
   // speech bubble above/next to a character
