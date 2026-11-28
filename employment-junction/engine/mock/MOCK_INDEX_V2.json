@@ -613,6 +613,15 @@
    "link": "https://employmentjunction.in/mock-test/art-culture-mock-test/"
   },
   {
+   "slug": "banking-mock-test",
+   "kind": "topic",
+   "group": "Topic-wise",
+   "exam_key": null,
+   "title": "Banking Mock Test – Topic-wise Practice",
+   "n": 30,
+   "link": "https://employmentjunction.in/mock-test/banking-mock-test/"
+  },
+  {
    "slug": "biology-mock-test",
    "kind": "topic",
    "group": "Topic-wise",
@@ -649,6 +658,15 @@
    "link": "https://employmentjunction.in/mock-test/constitution-panchayati-raj-mock-test/"
   },
   {
+   "slug": "current-affairs-mock-test",
+   "kind": "topic",
+   "group": "Topic-wise",
+   "exam_key": null,
+   "title": "Current Affairs Mock Test – Topic-wise Practice",
+   "n": 30,
+   "link": "https://employmentjunction.in/mock-test/current-affairs-mock-test/"
+  },
+  {
    "slug": "economy-mock-test",
    "kind": "topic",
    "group": "Topic-wise",
@@ -674,6 +692,24 @@
    "title": "English Vocabulary Mock Test – Topic-wise Practice",
    "n": 30,
    "link": "https://employmentjunction.in/mock-test/english-vocabulary-mock-test/"
+  },
+  {
+   "slug": "environment-mock-test",
+   "kind": "topic",
+   "group": "Topic-wise",
+   "exam_key": null,
+   "title": "Environment Mock Test – Topic-wise Practice",
+   "n": 30,
+   "link": "https://employmentjunction.in/mock-test/environment-mock-test/"
+  },
+  {
+   "slug": "geography-mock-test",
+   "kind": "topic",
+   "group": "Topic-wise",
+   "exam_key": null,
+   "title": "Geography Mock Test – Topic-wise Practice",
+   "n": 30,
+   "link": "https://employmentjunction.in/mock-test/geography-mock-test/"
   },
   {
    "slug": "gujarat-culture-mock-test",
@@ -784,6 +820,15 @@
    "link": "https://employmentjunction.in/mock-test/modern-history-mock-test/"
   },
   {
+   "slug": "nep-2020-mock-test",
+   "kind": "topic",
+   "group": "Topic-wise",
+   "exam_key": null,
+   "title": "NEP 2020 Mock Test – Topic-wise Practice",
+   "n": 28,
+   "link": "https://employmentjunction.in/mock-test/nep-2020-mock-test/"
+  },
+  {
    "slug": "physics-mock-test",
    "kind": "topic",
    "group": "Topic-wise",
@@ -800,6 +845,15 @@
    "title": "Static GK Mock Test – Topic-wise Practice",
    "n": 30,
    "link": "https://employmentjunction.in/mock-test/static-gk-mock-test/"
+  },
+  {
+   "slug": "vocabulary-mock-test",
+   "kind": "topic",
+   "group": "Topic-wise",
+   "exam_key": null,
+   "title": "Vocabulary Mock Test – Topic-wise Practice",
+   "n": 21,
+   "link": "https://employmentjunction.in/mock-test/vocabulary-mock-test/"
   },
   {
    "slug": "world-geography-mock-test",
@@ -1158,7 +1212,7 @@
    "group": "State GK",
    "exam_key": null,
    "title": "Assam GK Mock Test – State Exams Practice",
-   "n": 20,
+   "n": 22,
    "link": "https://employmentjunction.in/mock-test/assam-gk-mock-test/"
   },
   {
@@ -1239,7 +1293,7 @@
    "group": "State GK",
    "exam_key": null,
    "title": "Jharkhand GK Mock Test – State Exams Practice",
-   "n": 20,
+   "n": 22,
    "link": "https://employmentjunction.in/mock-test/jharkhand-gk-mock-test/"
   },
   {
