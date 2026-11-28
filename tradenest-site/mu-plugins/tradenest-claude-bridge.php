@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.6.0
+ * Version: 1.7.0
  *
  * @package Tradenest
  */
@@ -432,6 +432,10 @@ function tn_bridge_filter_html( $html ) {
 		'Dehydrated Onion powder' => 'Dehydrated Onion Powder',
 	);
 	$html = strtr( $html, $map );
+	$cfg_map = tn_bridge_config( 'replace', array() );
+	if ( is_array( $cfg_map ) && $cfg_map ) {
+		$html = strtr( $html, array_map( 'strval', $cfg_map ) );
+	}
 	// Yield calculator (meant for flakes/granules; misleading on powders).
 	$html = preg_replace( '#<!-- Rehydration & yield calculator -->.*?(?=<!-- Spec sheet \+ COA -->)#s', '', $html );
 	// Badges we cannot document (Non-GMO, Lab Tested, 100% ...).
@@ -675,4 +679,117 @@ add_action(
 		}
 	},
 	1
+);
+
+// 21) Config page: a private page (slug tn-bridge-config) holds JSON between <!-- tn-config --> markers.
+//     Admins can change site CSS, hreflang groups, page languages, text replacements and the language
+//     switcher there without editing this file.
+function tn_bridge_config( $key = null, $default = null ) {
+	static $cfg = null;
+	if ( null === $cfg ) {
+		$cfg  = array();
+		$page = get_page_by_path( 'tn-bridge-config', OBJECT, 'page' );
+		if ( $page && preg_match( '#<!-- tn-config -->(.*?)<!-- /tn-config -->#s', (string) $page->post_content, $m ) ) {
+			$json = json_decode( html_entity_decode( $m[1], ENT_QUOTES ), true );
+			if ( is_array( $json ) ) {
+				$cfg = $json;
+			}
+		}
+	}
+	if ( null === $key ) {
+		return $cfg;
+	}
+	return array_key_exists( $key, $cfg ) ? $cfg[ $key ] : $default;
+}
+
+// 22) Extra site CSS from the config page.
+add_action(
+	'wp_head',
+	function () {
+		$css = (string) tn_bridge_config( 'css', '' );
+		if ( '' !== trim( $css ) ) {
+			echo '<style id="tn-bridge-config-css">' . str_replace( '</', '<\/', wp_strip_all_tags( $css ) ) . '</style>' . "\n"; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+		}
+	},
+	100
+);
+
+/**
+ * Current request URL without query string, with trailing slash.
+ *
+ * @return string
+ */
+function tn_bridge_current_url() {
+	$path = (string) wp_parse_url( isset( $_SERVER['REQUEST_URI'] ) ? wp_unslash( $_SERVER['REQUEST_URI'] ) : '/', PHP_URL_PATH ); // phpcs:ignore WordPress.Security.ValidatedSanitizedInput.InputNotSanitized
+	return trailingslashit( home_url( $path ) );
+}
+
+// 23) hreflang alternates for translated pages (groups of language => URL in the config).
+add_action(
+	'wp_head',
+	function () {
+		$groups = tn_bridge_config( 'hreflang', array() );
+		if ( ! is_array( $groups ) || ! $groups ) {
+			return;
+		}
+		$here = tn_bridge_current_url();
+		foreach ( $groups as $group ) {
+			if ( ! is_array( $group ) ) {
+				continue;
+			}
+			$urls = array_map( 'trailingslashit', array_map( 'strval', $group ) );
+			if ( ! in_array( $here, $urls, true ) ) {
+				continue;
+			}
+			foreach ( $urls as $lang => $url ) {
+				echo '<link rel="alternate" hreflang="' . esc_attr( $lang ) . '" href="' . esc_url( $url ) . '" />' . "\n";
+			}
+			if ( isset( $urls['en'] ) ) {
+				echo '<link rel="alternate" hreflang="x-default" href="' . esc_url( $urls['en'] ) . '" />' . "\n";
+			}
+			break;
+		}
+	},
+	2
+);
+
+// 24) Page language (and right-to-left for Arabic) for translated pages: {"page_id": "es"}.
+add_filter(
+	'language_attributes',
+	function ( $output ) {
+		if ( is_admin() || ! is_singular() ) {
+			return $output;
+		}
+		$langs = tn_bridge_config( 'lang_pages', array() );
+		$id    = (string) get_queried_object_id();
+		if ( is_array( $langs ) && isset( $langs[ $id ] ) ) {
+			$lang   = sanitize_key( $langs[ $id ] );
+			$output = 'lang="' . esc_attr( $lang ) . '"' . ( in_array( $lang, array( 'ar', 'he', 'fa', 'ur' ), true ) ? ' dir="rtl"' : '' );
+		}
+		return $output;
+	},
+	99
+);
+
+// 25) Website translator (GTranslate free widget). Config: "translator": {"languages": [...], "position": "left"}.
+add_action(
+	'wp_footer',
+	function () {
+		$t = tn_bridge_config( 'translator', null );
+		if ( ! is_array( $t ) || empty( $t['languages'] ) ) {
+			return;
+		}
+		$settings = array(
+			'default_language'             => 'en',
+			'native_language_names'        => true,
+			'languages'                    => array_values( array_map( 'sanitize_text_field', (array) $t['languages'] ) ),
+			'wrapper_selector'             => '.gtranslate_wrapper',
+			'switcher_horizontal_position' => ( isset( $t['position'] ) && 'right' === $t['position'] ) ? 'right' : 'left',
+			'switcher_vertical_position'   => 'bottom',
+			'alt_flags'                    => array( 'en' => 'usa' ),
+		);
+		echo '<div class="gtranslate_wrapper"></div><script>window.gtranslateSettings=' . wp_json_encode( $settings ) . ';</script>'
+			. '<script src="https://cdn.gtranslate.net/widgets/latest/float.js" defer></script>' . "\n"; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
+	},
+	50
 );
