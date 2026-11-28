@@ -4,7 +4,7 @@
  * Description: Keeps on-site trust claims accurate (FSSAI + IEC only), cleans robots.txt, and exposes
  *              product display fields (name/SKU, tagline) to the REST API for admin editing.
  *              Delete this file to revert every change it makes.
- * Version: 1.5.0
+ * Version: 1.5.1
  *
  * @package Tradenest
  */
@@ -628,11 +628,13 @@ add_filter(
 add_filter(
 	'get_post_metadata',
 	function ( $value, $object_id, $meta_key, $single ) {
-		if ( '_tn_hs_code' !== $meta_key ) {
+		// The theme stores the code in tn_hs_code (ACF) and _tn_hs_code (legacy); ACF also reads _tn_hs_code as its
+		// field reference, so the ACF format filter above may never run. Filtering the raw meta covers every path.
+		if ( 'tn_hs_code' !== $meta_key && '_tn_hs_code' !== $meta_key ) {
 			return $value;
 		}
 		$map = tn_bridge_hs_map();
-		if ( ! isset( $map[ (int) $object_id ] ) ) {
+		if ( ! isset( $map[ (int) $object_id ] ) || 'product' !== get_post_type( (int) $object_id ) ) {
 			return $value;
 		}
 		return $single ? $map[ (int) $object_id ] : array( $map[ (int) $object_id ] );
