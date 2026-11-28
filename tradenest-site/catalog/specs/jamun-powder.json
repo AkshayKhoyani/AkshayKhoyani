@@ -34,5 +34,6 @@
     "Storage": "Cool, dry place away from sunlight and moisture"
   },
   "website": "https://tradenestnaturals.com/products/premium-spray-dried-litchi-powder/",
-  "wp_id": 545
+  "wp_id": null,
+  "note": "Duplicate of spray-dried-jamun-powder; wp_id 545 is the Litchi page (see litchi-powder.json)"
 }
