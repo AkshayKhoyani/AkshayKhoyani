@@ -1,0 +1,14 @@
+428 src/428.json  SPEC FACTS: {"product": "Arjun Bark Powder", "processing": "Fine Milled", "mesh": "80-100 Mesh", "moisture": "< 8.0%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+432 src/432.json  SPEC FACTS: {"product": "Rose Petal Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "< 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+434 src/434.json  SPEC FACTS: {"product": "Reetha Powder", "processing": "Dehydrated", "mesh": "100 Mesh", "moisture": "< 8.0%", "shelf_life": "24 Months", "hs_code": "14049090", "moq": "5 Kg"}
+436 src/436.json  SPEC FACTS: {"product": "Shikakai Powder", "processing": "Dehydrated", "mesh": "100 Mesh", "moisture": "< 8.0%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+430 src/430.json  SPEC FACTS: {"product": "Hibiscus Flower Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+438 src/438.json  SPEC FACTS: {"product": "Jatamansi Powder", "processing": "Fine Milled", "mesh": "80-100 Mesh", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+386 src/386.json  SPEC FACTS: {"product": "Indian Gooseberry Powder", "processing": "Dehydrated", "mesh": "100% passing through 100 Mesh", "moisture": "< 7.0%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+522 src/522.json  SPEC FACTS: {"product": "Green Banana Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "1106.30", "moq": "5 Kg"}
+524 src/524.json  SPEC FACTS: {"product": "Mango Alphonso Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "12-24 Months", "hs_code": "081190", "moq": "5 Kg"}
+526 src/526.json  SPEC FACTS: {"product": "Spray Dried Pineapple Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "08129000", "moq": "5 Kg"}
+531 src/531.json  SPEC FACTS: {"product": "Blueberry Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "081190", "moq": "5 Kg"}
+542 src/542.json  SPEC FACTS: {"product": "Spray Dried Jamun Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "0812.80", "moq": "5 Kg"}
+533 src/533.json  SPEC FACTS: {"product": "Spray Dried Blackberry Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "081290", "moq": "5 Kg"}
+537 src/537.json  SPEC FACTS: {"product": "Spray Dried Raspberry Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "12-18 Months", "hs_code": "0812.80", "moq": "5 Kg"}

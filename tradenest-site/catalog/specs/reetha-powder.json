@@ -1,0 +1,38 @@
+{
+  "slug": "reetha-powder",
+  "en_name": "Reetha Powder",
+  "name": "Reetha Powder",
+  "sub": "Soapnut Powder",
+  "badge": "Made from Soapnuts",
+  "tagline": "Naturally crafted for brands",
+  "texture": "Fine brown powder",
+  "points": [
+    "100 Mesh",
+    "Moisture < 8.0%",
+    "24 Months",
+    "FSSAI Licensed"
+  ],
+  "uses": [
+    "Hair care",
+    "Shampoo blends",
+    "Cleansing bars",
+    "Herbal formulations",
+    "Home care",
+    "Foaming products"
+  ],
+  "accent": "warm earthy-brown",
+  "powder_look": "fine light-brown powder with smooth, soft texture",
+  "raw_props": "whole soapnuts, split soapnut shells",
+  "specs": {
+    "Processing": "Dehydrated",
+    "Mesh Size": "100 Mesh",
+    "Moisture": "< 8.0%",
+    "Shelf Life": "24 Months",
+    "HS Code": "1404.90",
+    "MOQ": "5 Kg",
+    "Origin": "India",
+    "Storage": "Cool, dry place away from sunlight and moisture"
+  },
+  "website": "https://tradenestnaturals.com/products/premium-reetha-powder-exporter-wholesale-soapnut-powder/",
+  "wp_id": 434
+}

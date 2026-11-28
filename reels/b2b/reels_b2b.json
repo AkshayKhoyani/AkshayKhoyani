@@ -1,0 +1,260 @@
+{
+  "brand": "TradeNest Naturals",
+  "website": "tradenestnaturals.com",
+  "whatsapp": "+91 92651 28276",
+  "email": "export@tradenestnaturals.com",
+  "outro": {
+    "en": {
+      "vo": "Request your bulk quote today, on WhatsApp or at tradenestnaturals.com.",
+      "cta": "REQUEST BULK QUOTE",
+      "tag": "Manufacturer & Exporter"
+    },
+    "hi": {
+      "vo": "आज ही bulk quote मंगाइए, WhatsApp पर या tradenestnaturals.com पर।",
+      "cta": "BULK QUOTE MANGAYEIN",
+      "tag": "Manufacturer & Exporter"
+    }
+  },
+  "reels": [
+    {
+      "id": "intro",
+      "music": "Inspiring modern corporate instrumental with soft piano, light strings and gentle Indian flute, confident and premium, brand film background music",
+      "scenes": [
+        {
+          "type": "ai",
+          "img": "Aerial drone view of lush green Indian farmland with neat rows of crops at golden sunrise, light mist, cinematic, photorealistic, vertical composition",
+          "en": {
+            "vo": "Looking for a reliable natural ingredients supplier from India?",
+            "cap": "Looking for a reliable\ningredients supplier from India?"
+          },
+          "hi": {
+            "vo": "क्या आप भारत से एक भरोसेमंद natural ingredients supplier ढूंढ रहे हैं?",
+            "cap": "Bharosemand natural\ningredients supplier chahiye?"
+          }
+        },
+        {
+          "type": "ai",
+          "img": "Top-down flat lay of many white ceramic bowls filled with different fine natural powders - bright green moringa, deep green wheat grass, cream onion powder, beige ashwagandha, pale green aloe vera - on a cream linen surface, clean premium minimal food photography, soft daylight, photorealistic",
+          "en": {
+            "vo": "TradeNest Naturals: manufacturer and exporter of dehydrated powders, spray dried powders and herbal extracts.",
+            "cap": "Dehydrated & Spray Dried Powders\nHerbal Extracts | Spice Blends"
+          },
+          "hi": {
+            "vo": "TradeNest Naturals: dehydrated powders, spray dried powders और herbal extracts के manufacturer और exporter.",
+            "cap": "Dehydrated & Spray Dried Powders\nHerbal Extracts | Spice Blends"
+          }
+        },
+        {
+          "type": "ai",
+          "img": "Rows of plain unlabeled kraft paper stand-up pouches and plain white jars on a clean stainless steel table in a bright modern hygienic packaging room, shallow depth of field, premium product photography, photorealistic, no labels",
+          "en": {
+            "vo": "OEM and private label manufacturing, made for your brand.",
+            "cap": "OEM & Private Label\nmade for your brand"
+          },
+          "hi": {
+            "vo": "आपके brand के लिए, OEM और private label manufacturing।",
+            "cap": "OEM & Private Label\naapke brand ke liye"
+          }
+        },
+        {
+          "type": "ai",
+          "img": "Neatly stacked sealed white bulk woven bags and brown cartons on wooden pallets in a clean modern warehouse, a forklift in background, export shipping containers visible through large open dock door, cinematic light, photorealistic, no text",
+          "en": {
+            "vo": "Reliable bulk supply, with complete export documentation.",
+            "cap": "Bulk Supply\nExport Documentation Support"
+          },
+          "hi": {
+            "vo": "भरोसेमंद bulk supply, पूरे export documentation के साथ।",
+            "cap": "Bulk Supply\nExport Documentation Support"
+          }
+        }
+      ]
+    },
+    {
+      "id": "products",
+      "music": "Fresh upbeat light corporate instrumental with marimba, plucked strings and soft beat, clean and natural, product showcase background music",
+      "scenes": [
+        {
+          "type": "web",
+          "src": "moringa",
+          "name": "Moringa Leaf Powder",
+          "tags": [
+            "Vibrant green",
+            "Smooth solubility"
+          ],
+          "en": {
+            "vo": "Our bestselling herbal powders. Moringa leaf powder, vibrant and green.",
+            "cap": "Our Bestsellers"
+          },
+          "hi": {
+            "vo": "हमारे bestselling herbal powders. Moringa leaf powder, एकदम हरा और fresh.",
+            "cap": "Hamare Bestsellers"
+          }
+        },
+        {
+          "type": "web",
+          "src": "ashwagandha",
+          "name": "Organic Ashwagandha",
+          "tags": [
+            "Root powder",
+            "Fine milled"
+          ],
+          "en": {
+            "vo": "High purity organic ashwagandha root powder.",
+            "cap": ""
+          },
+          "hi": {
+            "vo": "High purity organic अश्वगंधा root powder।",
+            "cap": ""
+          }
+        },
+        {
+          "type": "web",
+          "src": "aloevera",
+          "name": "Spray Dried Aloe Vera",
+          "tags": [
+            "High solubility",
+            "Export grade"
+          ],
+          "en": {
+            "vo": "Spray dried aloe vera, with high solubility.",
+            "cap": ""
+          },
+          "hi": {
+            "vo": "Spray dried aloe vera, high solubility के साथ।",
+            "cap": ""
+          }
+        },
+        {
+          "type": "web",
+          "src": "wheatgrass",
+          "name": "Wheat Grass Powder",
+          "tags": [
+            "24-month shelf life",
+            "Smoothies & juices"
+          ],
+          "en": {
+            "vo": "Wheat grass powder, with a twenty four month shelf life.",
+            "cap": ""
+          },
+          "hi": {
+            "vo": "Wheat grass powder, चौबीस महीने की shelf life के साथ।",
+            "cap": ""
+          }
+        },
+        {
+          "type": "web",
+          "src": "giloy",
+          "name": "Giloy Powder",
+          "tags": [
+            "Nutraceuticals",
+            "Herbal teas"
+          ],
+          "en": {
+            "vo": "Giloy powder, for nutraceuticals and herbal teas.",
+            "cap": ""
+          },
+          "hi": {
+            "vo": "गिलोय powder, nutraceuticals और herbal teas के लिए।",
+            "cap": ""
+          }
+        },
+        {
+          "type": "web",
+          "src": "neem",
+          "name": "Pure Neem Powder",
+          "tags": [
+            "Fine mesh",
+            "Cosmetics & herbal"
+          ],
+          "en": {
+            "vo": "And pure neem powder. Ninety plus products, MOQ just five kilos.",
+            "cap": "90+ Products | MOQ just 5 Kg"
+          },
+          "hi": {
+            "vo": "और pure नीम powder. नब्बे से ज़्यादा products, MOQ सिर्फ़ पाँच किलो।",
+            "cap": "90+ Products | MOQ sirf 5 Kg"
+          }
+        }
+      ]
+    },
+    {
+      "id": "process",
+      "music": "Steady modern documentary instrumental with soft electronic pulse, piano and light percussion, precise and trustworthy, manufacturing process background music",
+      "scenes": [
+        {
+          "type": "ai",
+          "img": "Indian farmers in a sunny green field harvesting fresh moringa leaves into woven baskets, natural light, documentary style, photorealistic, vertical composition",
+          "en": {
+            "vo": "From farm to export, in six steps. Step one: raw material sourcing.",
+            "cap": "Step 1\nRaw Material Sourcing"
+          },
+          "hi": {
+            "vo": "खेत से export तक, छह steps में। पहला step: raw material sourcing.",
+            "cap": "Step 1\nRaw Material Sourcing"
+          }
+        },
+        {
+          "type": "ai",
+          "img": "Workers wearing hairnets, masks and gloves sorting fresh green leaves and fresh onions on a stainless steel conveyor in a clean hygienic food processing facility, bright light, photorealistic",
+          "en": {
+            "vo": "Step two: cleaning and sorting.",
+            "cap": "Step 2\nCleaning & Sorting"
+          },
+          "hi": {
+            "vo": "दूसरा step: cleaning और sorting.",
+            "cap": "Step 2\nCleaning & Sorting"
+          }
+        },
+        {
+          "type": "ai",
+          "img": "Stainless steel trays loaded with sliced onions and green leaves sliding into a large industrial food dehydrator in a clean modern food factory, warm controlled light, photorealistic",
+          "en": {
+            "vo": "Step three: controlled dehydration, to preserve quality.",
+            "cap": "Step 3\nControlled Dehydration"
+          },
+          "hi": {
+            "vo": "तीसरा step: controlled dehydration, ताकि quality बनी रहे।",
+            "cap": "Step 3\nControlled Dehydration"
+          }
+        },
+        {
+          "type": "ai",
+          "img": "Close-up of a stainless steel industrial pulverizer and vibrating sieve producing very fine bright green powder in a clean food processing plant, fine powder in the air, photorealistic",
+          "en": {
+            "vo": "Step four: grinding and sieving, to your exact mesh.",
+            "cap": "Step 4\nGrinding & Sieving"
+          },
+          "hi": {
+            "vo": "चौथा step: grinding और sieving, आपके mesh size में।",
+            "cap": "Step 4\nGrinding & Sieving"
+          }
+        },
+        {
+          "type": "ai",
+          "img": "Food quality lab technician in a white coat and gloves examining a fine green powder sample in a glass petri dish next to a laboratory balance, clean bright laboratory, photorealistic",
+          "en": {
+            "vo": "Step five: every batch is quality inspected.",
+            "cap": "Step 5\nQuality Inspection"
+          },
+          "hi": {
+            "vo": "पाँचवां step: हर batch की quality inspection.",
+            "cap": "Step 5\nQuality Inspection"
+          }
+        },
+        {
+          "type": "ai",
+          "img": "Sealed plain cartons and white bulk bags on pallets being loaded into a shipping container at a loading dock, workers with forklift, daylight, photorealistic, no text",
+          "en": {
+            "vo": "And step six: secure packing and dispatch, worldwide.",
+            "cap": "Step 6\nPackaging & Dispatch"
+          },
+          "hi": {
+            "vo": "और छठा step: secure packing और dispatch, दुनिया भर में।",
+            "cap": "Step 6\nPackaging & Dispatch"
+          }
+        }
+      ]
+    }
+  ]
+}

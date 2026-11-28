@@ -1,0 +1,39 @@
+{
+  "slug": "jamun-powder",
+  "en_name": "Jamun Powder",
+  "name": "Jamun Powder",
+  "sub": "Spray Dried Fruit Powder",
+  "badge": "Spray Dried Fruit Powder",
+  "tagline": "For refined formulations",
+  "texture": "Fine free-flowing powder",
+  "points": [
+    "80-100 Mesh",
+    "Moisture < 5%",
+    "18-24 Months",
+    "FSSAI Licensed"
+  ],
+  "uses": [
+    "Beverage blends",
+    "Dessert mixes",
+    "Confectionery filling",
+    "Yogurt premixes",
+    "Bakery formulations",
+    "Sauce bases"
+  ],
+  "accent": "deep plum-purple",
+  "powder_look": "fine plum-purple spray dried powder with smooth, free-flowing texture",
+  "raw_props": "fresh jamun fruits, sliced fruit pieces, and jamun pulp",
+  "specs": {
+    "Processing": "Spray Dried",
+    "Mesh Size": "80-100 Mesh",
+    "Moisture": "< 5%",
+    "Shelf Life": "18-24 Months",
+    "HS Code": "081190",
+    "MOQ": "5 Kg",
+    "Origin": "India",
+    "Storage": "Cool, dry place away from sunlight and moisture"
+  },
+  "website": "https://tradenestnaturals.com/products/premium-spray-dried-litchi-powder/",
+  "wp_id": null,
+  "note": "Duplicate of spray-dried-jamun-powder; wp_id 545 is the Litchi page (see litchi-powder.json)"
+}

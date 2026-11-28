@@ -1,0 +1,101 @@
+{
+  "brand": "TradeNest Naturals",
+  "website": "tradenestnaturals.com",
+  "voice_id": "3AMU7jXQuQa3oRvRqUmb",
+  "reels": [
+    {
+      "id": "reel1_premix",
+      "accent": [
+        214,
+        120,
+        30
+      ],
+      "music": "Upbeat cheerful Indian morning instrumental, light tabla and flute, bright and happy, food commercial background music",
+      "scenes": [
+        {
+          "vo": "सुबह की भागदौड़ में नाश्ता बनाने का टाइम नहीं?",
+          "caption": "Subah ki bhaag-daud mein\nnaashta banane ka time nahi?",
+          "img": "A busy Indian mother in a bright modern Indian kitchen in the morning, glancing at a wall clock in a hurry, warm sunlight, cinematic, photorealistic, vertical composition"
+        },
+        {
+          "vo": "ट्रेडनेस्ट नैचुरल्स के प्रीमिक्स के साथ, बस पानी मिलाइए...",
+          "caption": "TradeNest Naturals Premix\nBas paani milaiye",
+          "img": "Close-up of pale yellow instant dhokla premix powder in a steel bowl being mixed with water by hand with a whisk, Indian kitchen counter, appetizing food photography, soft natural light, photorealistic, no text"
+        },
+        {
+          "vo": "और मिनटों में बनाइए गरमा-गरम ढोकला, इडली और उपमा।",
+          "caption": "Minutes mein\nDhokla, Idli aur Upma",
+          "img": "Overhead shot of a breakfast spread of fluffy yellow khaman dhokla with green chillies and curry leaves, soft white idlis with coconut chutney, and a bowl of upma, steam rising, brass and steel plates, rustic wooden table, premium Indian food photography, photorealistic, no text"
+        },
+        {
+          "vo": "घर जैसा स्वाद, बिना किसी झंझट के।",
+          "caption": "Ghar jaisa swaad,\nbina kisi jhanjhat ke",
+          "img": "A happy Indian family of four eating breakfast together at a dining table, smiling, plates of dhokla and idli, warm cozy home lighting, photorealistic, candid lifestyle photography"
+        }
+      ]
+    },
+    {
+      "id": "reel2_masala",
+      "accent": [
+        190,
+        40,
+        30
+      ],
+      "music": "Rich warm Indian instrumental with sitar and tabla groove, aromatic and festive, cooking show background music",
+      "scenes": [
+        {
+          "vo": "खाने में वो असली स्वाद नहीं आ रहा?",
+          "caption": "Khaane mein woh\nasli swaad nahi aa raha?",
+          "img": "An Indian home cook tasting curry from a wooden spoon with a disappointed thoughtful expression, steel kadhai on a gas stove, Indian kitchen, cinematic warm light, photorealistic"
+        },
+        {
+          "vo": "राज़ है सही मसाले में।",
+          "caption": "Raaz hai\nsahi masale mein",
+          "img": "Dramatic close-up of whole spices - red chillies, cinnamon sticks, cardamom, cloves, star anise, cumin and coriander seeds - scattered on a dark slate surface with spice dust in the air, moody premium food photography, photorealistic, no text"
+        },
+        {
+          "vo": "ट्रेडनेस्ट नैचुरल्स के मसाले, ऐसी खुशबू कि पूरा घर महक उठे।",
+          "caption": "TradeNest Naturals Masale\nKhushboo jo ghar mehka de",
+          "img": "Bubbling rich red vegetarian paneer butter masala curry with paneer cubes in a copper handi, aromatic steam swirling up, a spoon of red masala powder being sprinkled in, warm cinematic lighting, premium food photography, photorealistic, no meat, no text"
+        },
+        {
+          "vo": "हल्दी, लाल मिर्च, धनिया, गरम मसाला... सब एक जगह।",
+          "caption": "Haldi | Laal Mirch | Dhaniya\nGaram Masala - sab ek jagah",
+          "img": "Four small brass bowls in a neat row filled with vibrant turmeric powder, red chilli powder, coriander powder and garam masala powder, on a rustic wooden board, overhead shot, vivid colours, premium food photography, photorealistic, no text"
+        }
+      ]
+    },
+    {
+      "id": "reel3_powders",
+      "accent": [
+        110,
+        140,
+        40
+      ],
+      "music": "Light playful modern Indian instrumental with acoustic guitar and soft tabla, fresh and fun, kitchen hack video background music",
+      "scenes": [
+        {
+          "vo": "प्याज़ काटते-काटते आँसू? अब नहीं!",
+          "caption": "Pyaaz kaatte-kaatte aansu?\nAb nahi!",
+          "img": "Close-up of a young Indian woman crying while chopping red onions on a wooden cutting board in a kitchen, humorous expression, onions around, warm light, photorealistic"
+        },
+        {
+          "vo": "ट्रेडनेस्ट नैचुरल्स के डीहाइड्रेटेड पाउडर... प्याज़, लहसुन, टमाटर, अदरक और चुकंदर।",
+          "caption": "TradeNest Naturals\nDehydrated Powders",
+          "img": "Five glass jars and small heaps of colourful dehydrated vegetable powders - light pink onion powder, cream garlic powder, red tomato powder, beige ginger powder and deep magenta beetroot powder - each with its fresh whole vegetable beside it, clean bright studio food photography, overhead, photorealistic, no text, no labels"
+        },
+        {
+          "vo": "बस एक चम्मच, और स्वाद तैयार।",
+          "caption": "Bas ek chammach,\naur swaad taiyaar!",
+          "img": "A wooden spoon adding red tomato powder into a simmering pan of Indian sabzi gravy, motion, steam, close-up, appetizing food photography, photorealistic, no text"
+        },
+        {
+          "vo": "लंबे समय तक चलें, और स्टोर करना आसान।",
+          "caption": "Lambe samay tak chale,\nstore karna aasaan",
+          "img": "A neatly organised Indian kitchen shelf with sealed glass jars of colourful vegetable powders, bright clean modern kitchen, soft daylight, photorealistic, no text, no labels"
+        }
+      ]
+    }
+  ],
+  "outro_vo": "आज ही ऑर्डर करें, ट्रेडनेस्ट नैचुरल्स डॉट कॉम पर।"
+}

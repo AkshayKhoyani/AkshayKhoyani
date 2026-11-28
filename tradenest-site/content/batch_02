@@ -1,0 +1,14 @@
+539 src/539.json  SPEC FACTS: {"product": "Muskmelon Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "081190", "moq": "5 Kg"}
+520 src/520.json  SPEC FACTS: {"product": "Apple Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "081340", "moq": "5 Kg"}
+558 src/558.json  SPEC FACTS: {"product": "Spray Dried Beetroot Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "071290", "moq": "5 Kg"}
+560 src/560.json  SPEC FACTS: {"product": "Spray Dried Carrot Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "≤ 5%", "shelf_life": "18-24 Months", "hs_code": "071090", "moq": "5 Kg"}
+562 src/562.json  SPEC FACTS: {"product": "Spray Dried Cabbage Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "07129090", "moq": "5 Kg"}
+564 src/564.json  SPEC FACTS: {"product": "Spray Dried Garlic Powder", "processing": "Spray Dried", "mesh": "80 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "07129094", "moq": "5 Kg"}
+566 src/566.json  SPEC FACTS: {"product": "Spray Dried Coriander Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "090991", "moq": "5 Kg"}
+568 src/568.json  SPEC FACTS: {"product": "Cheddar Cheese Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "12-24 Months", "hs_code": "19019090", "moq": "5 Kg"}
+577 src/577.json  SPEC FACTS: {"product": "Spray Dried Chicory Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "121190", "moq": "5 Kg"}
+582 src/582.json  SPEC FACTS: {"product": "Spray Dried Soya Sauce Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "2103.90", "moq": "5 Kg"}
+545 src/545.json  SPEC FACTS: {"product": "Jamun Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "081190", "moq": "5 Kg"}
+398 src/398.json  SPEC FACTS: {"product": "Alfalfa Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "< 7%", "shelf_life": "24 Months", "hs_code": "12149090", "moq": "5 Kg"}
+304 src/304.json  SPEC FACTS: {"product": "Mint Leaf Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 7%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+528 src/528.json  SPEC FACTS: {"product": "Strawberry Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "< 5%", "shelf_life": "18-24 Months", "hs_code": "0812.80", "moq": "5 Kg"}

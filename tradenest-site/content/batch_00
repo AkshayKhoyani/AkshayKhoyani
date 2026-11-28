@@ -1,0 +1,14 @@
+390 src/390.json  SPEC FACTS: {"product": "Moringa Leaf Powder", "processing": "Dehydrated (low-temperature dried)", "mesh": "80-100 Mesh", "moisture": "< 8.0%", "shelf_life": "24 Months", "hs_code": "12129990", "moq": "5 Kg"}
+392 src/392.json  SPEC FACTS: {"product": "Neem Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+394 src/394.json  SPEC FACTS: {"product": "Ashwagandha Powder", "processing": "Fine Milled", "mesh": "80-100 Mesh", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "12119032", "moq": "5 Kg"}
+396 src/396.json  SPEC FACTS: {"product": "Aloe Vera Powder", "processing": "Spray Dried", "mesh": "80-100 Mesh", "moisture": "≤ 5.0%", "shelf_life": "24 Months", "hs_code": "13021919", "moq": "5 Kg"}
+400 src/400.json  SPEC FACTS: {"product": "Wheat Grass Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 5.0%", "shelf_life": "24 Months", "hs_code": "12129990", "moq": "5 Kg"}
+406 src/406.json  SPEC FACTS: {"product": "Giloy Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+408 src/408.json  SPEC FACTS: {"product": "Holy Basil Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+412 src/412.json  SPEC FACTS: {"product": "Terminalia Chebula Powder", "processing": "Dehydrated", "mesh": "100 Mesh (98% passing through)", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+416 src/416.json  SPEC FACTS: {"product": "Shatavari Powder", "processing": "Fine Milled", "mesh": "80-100 Mesh", "moisture": "≤ 7%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+418 src/418.json  SPEC FACTS: {"product": "Kapoor Kachri Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 10%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+420 src/420.json  SPEC FACTS: {"product": "Nagarmotha Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "< 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+422 src/422.json  SPEC FACTS: {"product": "Kalmegh Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "≤ 8%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+424 src/424.json  SPEC FACTS: {"product": "Gokhru Seed Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "< 7.0%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}
+426 src/426.json  SPEC FACTS: {"product": "Ashok Chaal Powder", "processing": "Dehydrated", "mesh": "80-100 Mesh", "moisture": "< 10%", "shelf_life": "24 Months", "hs_code": "12119099", "moq": "5 Kg"}

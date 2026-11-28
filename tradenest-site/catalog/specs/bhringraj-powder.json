@@ -1,0 +1,38 @@
+{
+  "slug": "bhringraj-powder",
+  "en_name": "Bhringraj Powder",
+  "name": "Bhringraj Powder",
+  "sub": "100 Mesh Bhringraj",
+  "badge": "Made from Bhringraj Leaves",
+  "tagline": "Crafted for every batch",
+  "texture": "Fine green herbal powder",
+  "points": [
+    "100 Mesh",
+    "Below 8% Moisture",
+    "24 Months Shelf Life",
+    "FSSAI Licensed"
+  ],
+  "uses": [
+    "Herbal blends",
+    "Powder capsules",
+    "Private label",
+    "Ayurvedic packs",
+    "Bulk supply",
+    "Manufacturing use"
+  ],
+  "accent": "deep herbal-green",
+  "powder_look": "fine green powder",
+  "raw_props": "fresh bhringraj leaves",
+  "specs": {
+    "Processing": "Dehydrated",
+    "Mesh Size": "100 Mesh",
+    "Moisture": "≤ 8%",
+    "Shelf Life": "24 Months",
+    "HS Code": "1211.90",
+    "MOQ": "5 Kg",
+    "Origin": "India",
+    "Storage": "Cool, dry place away from sunlight and moisture"
+  },
+  "website": "https://tradenestnaturals.com/products/pure-bhringraj-powder-exporter-premium-wholesale-supply/",
+  "wp_id": 440
+}

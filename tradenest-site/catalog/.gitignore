@@ -1,0 +1,4 @@
+out/*/_*
+out/_*.log
+zip/
+*.tmp
